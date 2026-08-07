@@ -1,0 +1,40 @@
+# X / Twitter — de fragielste schakel in dit hele project.
+#
+# Er bestaat geen gratis officiele leesroute meer. Deze module leunt op een
+# RSS-bridge van derden (Nitter-instance of rss.app free tier). Publieke
+# Nitter-instances zijn inmiddels vrijwel allemaal verdwenen, en rss.app laat
+# op het gratis plan maar een handvol feeds toe. Reken er dus niet op.
+#
+# Daarom: standaard uit. collect_x.py is een losse module die bij elke fout
+# netjes logt naar data/errors.json en de run gewoon door laat lopen.
+# Zet `enabled: true` pas als je een bridge hebt die het echt doet.
+
+channel: ai
+region: int
+language: en
+
+enabled: false
+
+# Bridge-sjabloon. {handle} wordt vervangen door het account hieronder.
+# Nitter:   https://<instance>/{handle}/rss
+# rss.app:  per account een eigen feed-URL; zet die dan in `feed_url` bij het account.
+bridge_url_template: ""
+
+max_accounts: 10
+
+accounts:
+  - handle: AnthropicAI
+    feed_url: ""
+    priority: 1
+  - handle: OpenAI
+    feed_url: ""
+    priority: 1
+  - handle: GoogleDeepMind
+    feed_url: ""
+    priority: 1
+  - handle: simonw
+    feed_url: ""
+    priority: 2
+  - handle: karpathy
+    feed_url: ""
+    priority: 2

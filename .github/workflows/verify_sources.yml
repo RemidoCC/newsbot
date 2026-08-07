@@ -1,0 +1,78 @@
+name: Bronnen verifiëren
+
+# Draait handmatig. Test elke feed-URL echt met een HTTP-request, probeert de
+# fallbacks en doet feed-autodiscovery op de homepage als alles faalt. Schrijft
+# de winnende URL terug in de YAML en zet verified/verified_at.
+#
+# Dit bestaat omdat feed-URL's niet te raden zijn. Draai 'm na elke wijziging in
+# sources/, en opnieuw zodra een bron in data/errors.json blijft opduiken.
+
+on:
+  workflow_dispatch:
+    inputs:
+      apply:
+        description: "Werkende URL's terugschrijven in sources/*.yaml"
+        type: boolean
+        default: true
+      only:
+        description: "Alleen bronnen waarvan de naam dit bevat (leeg = alles)"
+        type: string
+        default: ""
+  # Verandert er iets aan de bronnen, dan meteen een rapport. Alleen lezen:
+  # `inputs.apply` bestaat niet bij een push, dus er wordt niets teruggeschreven
+  # en er ontstaat geen commit-lus.
+  push:
+    paths:
+      - "sources/**"
+      - "scripts/collect.py"
+      - ".github/workflows/verify_sources.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Dependencies installeren
+        run: pip install -r requirements.txt
+
+      - name: Bronnen testen
+        env:
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+        run: |
+          python scripts/collect.py --verify \
+            ${{ inputs.apply && '--apply' || '' }} \
+            ${{ inputs.only != '' && format('--only "{0}"', inputs.only) || '' }}
+
+      - name: Rapport bewaren
+        uses: actions/upload-artifact@v4
+        with:
+          name: bronrapport
+          path: |
+            data/source_report.md
+            data/source_report.json
+          if-no-files-found: warn
+
+      - name: Bijgestelde URL's terugcommitten
+        if: inputs.apply
+        run: |
+          git config user.name  "newsbot"
+          git config user.email "newsbot@users.noreply.github.com"
+          git add sources/ data/source_report.json data/source_report.md data/errors.json
+          if git diff --cached --quiet; then
+            echo "Niets veranderd."
+          else
+            git commit -m "Bronverificatie: URL's en status bijgewerkt"
+            git push
+          fi

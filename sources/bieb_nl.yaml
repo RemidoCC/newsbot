@@ -1,0 +1,116 @@
+# Bibliotheekwezen en digitale inclusie, Nederland.
+# Zie sources/ai_int.yaml voor de betekenis van de velden.
+#
+# Dit zijn laagfrequente bronnen. Een aantal publiceert een paar keer per maand,
+# niet per dag. Daarom staat het leeftijdsvenster voor het kanaal `bieb` in
+# dedupe.py op 7 dagen in plaats van 48 uur — anders is deze tab meestal leeg.
+
+channel: bieb
+region: nl
+language: nl
+
+sources:
+  - name: Bibliotheekblad
+    enabled: true
+    type: rss
+    priority: 1
+    url: https://www.bibliotheekblad.nl/rss
+    fallback_urls:
+      - https://www.bibliotheekblad.nl/feed
+      - https://bibliotheekblad.nl/feed/
+      - https://www.bibliotheekblad.nl/nieuws/rss
+    homepage: https://www.bibliotheekblad.nl/
+    max_items: 25
+    verified: false
+    verified_at: null
+
+  - name: Koninklijke Bibliotheek
+    enabled: true
+    type: rss
+    priority: 1
+    url: https://www.kb.nl/rss.xml
+    fallback_urls:
+      - https://www.kb.nl/feed
+      - https://www.kb.nl/nieuws/rss
+    homepage: https://www.kb.nl/nieuws
+    max_items: 25
+    verified: false
+    verified_at: null
+
+  - name: VOB (debibliotheken.nl)
+    enabled: true
+    type: rss
+    priority: 1
+    url: https://www.debibliotheken.nl/feed
+    fallback_urls:
+      - https://www.debibliotheken.nl/rss
+      - https://debibliotheken.nl/feed/
+    homepage: https://www.debibliotheken.nl/actueel
+    max_items: 25
+    verified: false
+    verified_at: null
+
+  - name: Netwerk Mediawijsheid
+    enabled: true
+    type: rss
+    priority: 2
+    url: https://netwerkmediawijsheid.nl/feed/
+    fallback_urls:
+      - https://www.netwerkmediawijsheid.nl/feed/
+      - https://netwerkmediawijsheid.nl/rss
+    homepage: https://netwerkmediawijsheid.nl/nieuws/
+    max_items: 25
+    verified: false
+    verified_at: null
+
+  - name: Alliantie Digitaal Samenleven
+    enabled: true
+    type: rss
+    priority: 2
+    url: https://digitaalsamenleven.nl/feed/
+    fallback_urls:
+      - https://www.digitaalsamenleven.nl/feed/
+      - https://digitaalsamenleven.nl/rss
+    homepage: https://digitaalsamenleven.nl/nieuws/
+    max_items: 25
+    verified: false
+    verified_at: null
+
+  - name: Stichting Lezen en Schrijven
+    enabled: true
+    type: rss
+    priority: 2
+    url: https://www.lezenenschrijven.nl/feed
+    fallback_urls:
+      - https://www.lezenenschrijven.nl/rss
+      - https://lezenenschrijven.nl/feed/
+    homepage: https://www.lezenenschrijven.nl/nieuws
+    max_items: 25
+    verified: false
+    verified_at: null
+
+  - name: Digisterker
+    enabled: true
+    type: rss
+    priority: 2
+    url: https://www.digisterker.nl/feed
+    fallback_urls:
+      - https://www.digisterker.nl/rss
+      - https://digisterker.nl/feed/
+    homepage: https://www.digisterker.nl/nieuws
+    max_items: 25
+    verified: false
+    verified_at: null
+
+  - name: SPN (Samenwerkende POI's Nederland)
+    enabled: true
+    type: rss
+    priority: 3
+    url: https://www.spn.nl/feed
+    fallback_urls:
+      - https://www.spn.nl/rss
+      - https://spn.nl/feed/
+    homepage: https://www.spn.nl/nieuws
+    max_items: 25
+    verified: false
+    verified_at: null

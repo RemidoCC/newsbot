@@ -1,0 +1,172 @@
+# Nederlandse AI- en techbronnen.
+# Zie sources/ai_int.yaml voor de betekenis van de velden.
+#
+# Let op: dit zijn brede techfeeds, geen AI-feeds. Daarom filteren de meeste
+# hier op `include_keywords`. Het filter matcht op hele woorden, dus "ai" raakt
+# wel "AI-verordening" maar niet "email" of "detail".
+
+channel: ai
+region: nl
+language: nl
+
+sources:
+  - name: Tweakers
+    enabled: true
+    type: rss
+    priority: 2
+    url: https://feeds.feedburner.com/tweakers/mixed
+    fallback_urls:
+      - https://tweakers.net/feeds/mixed.xml
+      - https://tweakers.net/feeds/nieuws.xml
+    homepage: https://tweakers.net/
+    max_items: 40
+    include_keywords:
+      - ai
+      - a.i.
+      - kunstmatige intelligentie
+      - llm
+      - chatbot
+      - taalmodel
+      - openai
+      - anthropic
+      - deepmind
+      - copilot
+      - algoritme
+    verified: false
+    verified_at: null
+
+  - name: NOS Tech
+    enabled: true
+    type: rss
+    priority: 2
+    url: https://feeds.nos.nl/nosnieuwstech
+    fallback_urls:
+      - https://feeds.nos.nl/nostechnieuws
+    homepage: https://nos.nl/nieuws/tech
+    max_items: 30
+    include_keywords:
+      - ai
+      - kunstmatige intelligentie
+      - llm
+      - chatbot
+      - taalmodel
+      - algoritme
+      - openai
+      - anthropic
+    verified: false
+    verified_at: null
+
+  - name: BNR
+    enabled: true
+    type: rss
+    priority: 3
+    url: https://www.bnr.nl/rss/tech
+    fallback_urls:
+      - https://www.bnr.nl/rss
+      - https://www.bnr.nl/rss/nieuws
+    homepage: https://www.bnr.nl/nieuws/tech
+    max_items: 30
+    include_keywords:
+      - ai
+      - kunstmatige intelligentie
+      - llm
+      - chatbot
+      - algoritme
+    verified: false
+    verified_at: null
+
+  - name: AG Connect
+    enabled: true
+    type: rss
+    priority: 2
+    url: https://www.agconnect.nl/rss.xml
+    fallback_urls:
+      - https://www.agconnect.nl/feed
+      - https://www.agconnect.nl/rss
+    homepage: https://www.agconnect.nl/
+    max_items: 30
+    verified: false
+    verified_at: null
+
+  - name: Emerce
+    enabled: true
+    type: rss
+    priority: 3
+    url: https://www.emerce.nl/nieuws/rss
+    fallback_urls:
+      - https://www.emerce.nl/feed
+      - https://www.emerce.nl/rss.xml
+    homepage: https://www.emerce.nl/
+    max_items: 30
+    include_keywords:
+      - ai
+      - kunstmatige intelligentie
+      - llm
+      - chatbot
+      - algoritme
+      - data
+    verified: false
+    verified_at: null
+
+  - name: Computable
+    enabled: true
+    type: rss
+    priority: 3
+    url: https://www.computable.nl/rss.xml
+    fallback_urls:
+      - https://www.computable.nl/feed
+      - https://www.computable.nl/rss/nieuws.xml
+    homepage: https://www.computable.nl/
+    max_items: 30
+    include_keywords:
+      - ai
+      - kunstmatige intelligentie
+      - llm
+      - chatbot
+      - algoritme
+    verified: false
+    verified_at: null
+
+  - name: Bits of Freedom
+    enabled: true
+    type: rss
+    priority: 2
+    url: https://www.bitsoffreedom.nl/feed/
+    fallback_urls:
+      - https://www.bitsoffreedom.nl/rss
+    homepage: https://www.bitsoffreedom.nl/
+    max_items: 20
+    verified: false
+    verified_at: null
+
+  - name: Nederlandse AI Coalitie
+    enabled: true
+    type: rss
+    priority: 2
+    url: https://nlaic.com/feed/
+    fallback_urls:
+      - https://nlaic.com/rss
+      - https://www.nlaic.com/feed/
+    homepage: https://nlaic.com/nieuws/
+    max_items: 20
+    verified: false
+    verified_at: null
+
+  - name: Rijksoverheid
+    enabled: true
+    type: rss
+    priority: 3
+    url: https://www.rijksoverheid.nl/rss/nieuws.rss
+    fallback_urls:
+      - https://www.rijksoverheid.nl/rss
+      - https://feeds.rijksoverheid.nl/nieuws.rss
+    homepage: https://www.rijksoverheid.nl/actueel/nieuws
+    max_items: 40
+    include_keywords:
+      - ai
+      - kunstmatige intelligentie
+      - algoritme
+      - digitalisering
+      - digitale vaardigheden
+    verified: false
+    verified_at: null

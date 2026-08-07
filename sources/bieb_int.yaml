@@ -1,0 +1,95 @@
+# Bibliotheekwezen en digitale inclusie, internationaal.
+# Zie sources/ai_int.yaml voor de betekenis van de velden.
+
+channel: bieb
+region: int
+language: en
+
+sources:
+  - name: IFLA
+    enabled: true
+    type: rss
+    priority: 1
+    url: https://www.ifla.org/feed/
+    fallback_urls:
+      - https://www.ifla.org/news/feed/
+      - https://www.ifla.org/rss.xml
+    homepage: https://www.ifla.org/news/
+    max_items: 25
+    verified: false
+    verified_at: null
+
+  - name: EBLIDA
+    enabled: true
+    type: rss
+    priority: 2
+    url: https://www.eblida.org/feed/
+    fallback_urls:
+      - https://www.eblida.org/news/feed/
+      - https://eblida.org/feed/
+    homepage: https://www.eblida.org/news/
+    max_items: 25
+    verified: false
+    verified_at: null
+
+  - name: Public Libraries 2030
+    enabled: true
+    type: rss
+    priority: 2
+    url: https://publiclibraries2030.eu/feed/
+    fallback_urls:
+      - https://www.publiclibraries2030.eu/feed/
+    homepage: https://publiclibraries2030.eu/news/
+    max_items: 25
+    verified: false
+    verified_at: null
+
+  - name: Library Journal
+    enabled: true
+    type: rss
+    priority: 1
+    url: https://www.libraryjournal.com/rss/all
+    fallback_urls:
+      - https://www.libraryjournal.com/feed
+      - https://www.libraryjournal.com/rss
+    homepage: https://www.libraryjournal.com/
+    max_items: 25
+    verified: false
+    verified_at: null
+
+  - name: American Libraries
+    enabled: true
+    type: rss
+    priority: 2
+    url: https://americanlibrariesmagazine.org/feed/
+    fallback_urls:
+      - https://americanlibrariesmagazine.org/rss
+    homepage: https://americanlibrariesmagazine.org/
+    max_items: 25
+    verified: false
+    verified_at: null
+
+  - name: Princh Library Blog
+    enabled: true
+    type: rss
+    priority: 3
+    url: https://princh.com/blog/feed/
+    fallback_urls:
+      - https://princh.com/feed/
+    homepage: https://princh.com/blog/
+    max_items: 20
+    verified: false
+    verified_at: null
+
+  # Reddit via de officiele OAuth-API, zie sources/ai_int.yaml en README stap 4.
+  - name: r/libraries
+    enabled: true
+    type: reddit
+    priority: 3
+    subreddit: libraries
+    listing: top
+    timeframe: week
+    min_score: 15
+    max_items: 25
+    verified: false
+    verified_at: null
