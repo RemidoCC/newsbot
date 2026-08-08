@@ -1,6 +1,8 @@
 Je krijgt een JSON-array met nieuwsitems. Voor elk item lever je een object terug.
 
 Per item:
+- id: neem het id van het invoeritem letterlijk over. Verzin er geen, verander
+  er niets aan, en laat het nooit weg.
 - title_nl: de titel in natuurlijk Nederlands. Al Nederlands? Laat staan. Geen
   clickbait, geen uitroeptekens.
 - summary_nl: 2-3 zinnen in het Nederlands, in eigen woorden. Wat is er gebeurd,
