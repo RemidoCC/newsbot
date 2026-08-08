@@ -51,6 +51,9 @@ ERROR_RETENTION_DAYS = 14
 # Een feed waarvan het nieuwste item ouder is dan dit telt niet als werkende bron.
 # Ook laagfrequente bibliotheekbronnen publiceren binnen een kwartaal wel iets.
 STALE_AFTER_DAYS = 90
+# Verify doet veel meer requests dan een gewone run en moet binnen de job-timeout
+# blijven. Een feed die er 12 seconden over doet is sowieso geen bruikbare bron.
+PROBE_TIMEOUT = httpx.Timeout(12.0, connect=6.0)
 
 # Query-parameters die niets over de inhoud zeggen en dus uit de dedupe-hash moeten.
 TRACKING_PARAM = re.compile(
@@ -436,8 +439,15 @@ COLLECTORS = {
 # --------------------------------------------------------------------------
 
 def probe_feed(client: httpx.Client, url: str) -> dict:
-    """Test één feed-URL echt. Gooit op alles wat geen bruikbare feed is."""
-    response = fetch(client, url, attempts=2, headers={"Accept": FEED_ACCEPT})
+    """Test één feed-URL echt. Gooit op alles wat geen bruikbare feed is.
+
+    Eén poging, korte timeout. Verify test tot vijf kandidaten per bron over
+    veertig bronnen; met retries en backoff loopt dat op tot voorbij de
+    job-timeout. Een feed die nu niet antwoordt komt als kapot in het rapport
+    en dat is precies de bedoeling — de volgende run kijkt opnieuw.
+    """
+    response = fetch(client, url, attempts=1, timeout=PROBE_TIMEOUT,
+                     headers={"Accept": FEED_ACCEPT})
     feed = feedparser.parse(response.content)
     entries = feed.entries or []
     content_type = response.headers.get("content-type", "?").split(";")[0]
@@ -467,7 +477,7 @@ def probe_feed(client: httpx.Client, url: str) -> dict:
 
 def discover_feeds(client: httpx.Client, homepage: str) -> list[str]:
     """Zoekt <link rel=alternate type=...xml> op de homepage. Verzint niets."""
-    response = fetch(client, homepage, attempts=2)
+    response = fetch(client, homepage, attempts=1, timeout=PROBE_TIMEOUT)
     soup = BeautifulSoup(response.text, "html.parser")
     found = []
     for tag in soup.find_all("link"):

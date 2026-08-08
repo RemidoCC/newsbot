@@ -33,7 +33,9 @@ permissions:
 jobs:
   verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    # Ruim boven wat een volle run kost: veertig bronnen, tot vijf kandidaten
+    # per bron, plus autodiscovery voor alles wat bevroren of kapot is.
+    timeout-minutes: 25
 
     steps:
       - uses: actions/checkout@v4
