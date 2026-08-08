@@ -10,14 +10,17 @@ region: nl
 language: nl
 
 sources:
+  # De FeedBurner-feed parseert prima maar is bevroren sinds april 2025.
+  # Daarom staat hij achteraan: --verify kiest sinds de fix de verste kandidaat.
   - name: Tweakers
     enabled: true
     type: rss
     priority: 2
-    url: https://feeds.feedburner.com/tweakers/mixed
+    url: https://tweakers.net/feeds/nieuws.xml
     fallback_urls:
       - https://tweakers.net/feeds/mixed.xml
-      - https://tweakers.net/feeds/nieuws.xml
+      - https://tweakers.net/nieuws/rss/
+      - https://feeds.feedburner.com/tweakers/mixed
     homepage: https://tweakers.net/
     max_items: 40
     include_keywords:
@@ -156,11 +159,11 @@ sources:
     enabled: true
     type: rss
     priority: 3
-    url: https://www.rijksoverheid.nl/rss/nieuws.rss
+    url: https://feeds.rijksoverheid.nl/nieuws.rss
     fallback_urls:
-      - https://www.rijksoverheid.nl/rss
-      - https://feeds.rijksoverheid.nl/nieuws.rss
-    homepage: https://www.rijksoverheid.nl/actueel/nieuws
+      - https://www.rijksoverheid.nl/rss/nieuws.rss
+    # De service/rss-pagina somt de echte feeds op; autodiscovery vindt ze daar.
+    homepage: https://www.rijksoverheid.nl/service/rss
     max_items: 40
     include_keywords:
       - ai

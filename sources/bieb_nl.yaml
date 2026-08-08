@@ -102,15 +102,16 @@ sources:
     verified: false
     verified_at: null
 
-  - name: SPN (Samenwerkende POI's Nederland)
+  # spn.nl bestaat niet (DNS resolvet niet). Het echte domein is stichtingspn.nl.
+  - name: SPN (Stichting Samenwerkende POI's Nederland)
     enabled: true
     type: rss
     priority: 3
-    url: https://www.spn.nl/feed
+    url: https://www.stichtingspn.nl/feed/
     fallback_urls:
-      - https://www.spn.nl/rss
-      - https://spn.nl/feed/
-    homepage: https://www.spn.nl/nieuws
+      - https://www.stichtingspn.nl/rss
+      - https://stichtingspn.nl/feed/
+    homepage: https://www.stichtingspn.nl/
     max_items: 25
     verified: false
     verified_at: null

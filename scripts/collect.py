@@ -38,14 +38,19 @@ ERRORS_PATH = DATA_DIR / "errors.json"
 
 SOURCE_FILES = ["ai_int.yaml", "ai_nl.yaml", "bieb_nl.yaml", "bieb_int.yaml"]
 
+# De conventionele vorm voor een nette bot. Een kale eigen User-Agent wordt door
+# nogal wat WAF's geweigerd (403) terwijl dezelfde feed met deze vorm gewoon opent.
 USER_AGENT = (
-    "newsbot/0.1 (persoonlijke nieuwsdigest; +https://github.com/RemidoCC/newsbot)"
+    "Mozilla/5.0 (compatible; newsbot/0.1; +https://github.com/RemidoCC/newsbot)"
 )
 FEED_ACCEPT = (
     "application/rss+xml, application/atom+xml, application/xml;q=0.9, text/xml;q=0.9, */*;q=0.8"
 )
 MAX_RAW_TEXT = 1500
 ERROR_RETENTION_DAYS = 14
+# Een feed waarvan het nieuwste item ouder is dan dit telt niet als werkende bron.
+# Ook laagfrequente bibliotheekbronnen publiceren binnen een kwartaal wel iets.
+STALE_AFTER_DAYS = 90
 
 # Query-parameters die niets over de inhoud zeggen en dus uit de dedupe-hash moeten.
 TRACKING_PARAM = re.compile(
@@ -485,6 +490,8 @@ def verify_source(client: httpx.Client, source: dict, filename: str) -> dict:
         "enabled": bool(source.get("enabled", False)),
         "configured_url": source.get("url") or "",
         "ok": False,
+        "status": None,  # ok | verouderd | geen-datums | None (= kapot)
+        "age_days": None,
         "winning_url": None,
         "via": None,
         "detail": None,
@@ -508,7 +515,8 @@ def verify_source(client: httpx.Client, source: dict, filename: str) -> dict:
                 params={"t": source.get("timeframe", "day"), "limit": 5, "raw_json": 1},
             )
             count = len(response.json().get("data", {}).get("children", []))
-            result.update(ok=count > 0, via="oauth", winning_url=f"r/{source['subreddit']}",
+            result.update(ok=count > 0, status="ok" if count else None, via="oauth",
+                          winning_url=f"r/{source['subreddit']}",
                           detail=f"OAuth ok, {count} posts")
         except Exception as exc:  # noqa: BLE001
             result["detail"] = f"{type(exc).__name__}: {exc}"[:300]
@@ -521,7 +529,8 @@ def verify_source(client: httpx.Client, source: dict, filename: str) -> dict:
                 "numericFilters": f"points>={source.get('min_points', 50)}", "hitsPerPage": 5,
             })
             hits = len(response.json().get("hits", []))
-            result.update(ok=hits > 0, via="algolia", winning_url=source["url"],
+            result.update(ok=hits > 0, status="ok" if hits else None, via="algolia",
+                          winning_url=source["url"],
                           detail=f"{hits} hits boven {source.get('min_points', 50)} punten")
         except Exception as exc:  # noqa: BLE001
             result["detail"] = f"{type(exc).__name__}: {exc}"[:300]
@@ -535,69 +544,126 @@ def verify_source(client: httpx.Client, source: dict, filename: str) -> dict:
         result["detail"] = "geen url en geen homepage ingesteld"
         return result
 
-    for url, via in candidates:
+    # Alle kandidaten testen, niet stoppen bij de eerste die parseert. Een feed
+    # kan keurig 40 items teruggeven en toch een jaar bevroren zijn — dan is een
+    # van de andere kandidaten de echte.
+    probes: list[tuple[str, dict]] = []
+
+    def try_url(url: str, via: str) -> None:
+        if any(a["url"] == url for a in result["attempts"]):
+            return
         try:
             probe = probe_feed(client, url)
             result["attempts"].append({"url": url, "ok": True, **probe})
-            result.update(ok=True, winning_url=probe["final_url"], via=via,
-                          detail=f"{probe['entries']} items, nieuwste {probe['newest']}")
-            return result
+            probes.append((via, probe))
         except Exception as exc:  # noqa: BLE001
             result["attempts"].append(
                 {"url": url, "ok": False, "error": f"{type(exc).__name__}: {exc}"[:200]}
             )
 
+    for url, via in candidates:
+        try_url(url, via)
+
+    # Autodiscovery draait ook als er wél een kandidaat parseerde maar allemaal
+    # verouderd zijn: de levende feed staat dan vaak gewoon op de homepage.
     homepage = source.get("homepage")
-    if homepage:
+    if homepage and not any(freshness(p)[0] == "ok" for _, p in probes):
         try:
             for url in discover_feeds(client, homepage):
-                if any(a["url"] == url for a in result["attempts"]):
-                    continue
-                try:
-                    probe = probe_feed(client, url)
-                    result["attempts"].append({"url": url, "ok": True, **probe})
-                    result.update(ok=True, winning_url=probe["final_url"], via="autodiscovery",
-                                  detail=f"gevonden via {homepage}: {probe['entries']} items")
-                    return result
-                except Exception as exc:  # noqa: BLE001
-                    result["attempts"].append(
-                        {"url": url, "ok": False, "error": f"{type(exc).__name__}: {exc}"[:200]}
-                    )
+                try_url(url, "autodiscovery")
         except Exception as exc:  # noqa: BLE001
             result["attempts"].append(
                 {"url": homepage, "ok": False, "error": f"autodiscovery: {exc}"[:200]}
             )
 
-    result["detail"] = "geen enkele kandidaat leverde een feed op"
+    if not probes:
+        result["detail"] = "geen enkele kandidaat leverde een feed op"
+        return result
+
+    # De verste wint. Feeds zonder datums komen achteraan, want daarvan valt
+    # niet vast te stellen of ze nog leven.
+    def sort_key(entry: tuple[str, dict]):
+        newest = entry[1].get("newest")
+        if not newest:
+            return datetime.min.replace(tzinfo=timezone.utc)
+        try:
+            return dateparser.isoparse(newest)
+        except ValueError:
+            return datetime.min.replace(tzinfo=timezone.utc)
+
+    via, probe = max(probes, key=sort_key)
+    status, age_days = freshness(probe)
+    result.update(
+        ok=status == "ok",
+        status=status,
+        age_days=age_days,
+        winning_url=probe["final_url"],
+        via=via,
+        detail=describe(probe, status, age_days),
+    )
     return result
 
 
+def freshness(probe: dict) -> tuple[str, int | None]:
+    """"ok", "verouderd" of "geen-datums", plus de leeftijd in dagen."""
+    newest = probe.get("newest")
+    if not newest:
+        return "geen-datums", None
+    try:
+        age = (datetime.now(timezone.utc) - dateparser.isoparse(newest)).days
+    except ValueError:
+        return "geen-datums", None
+    return ("verouderd" if age > STALE_AFTER_DAYS else "ok"), age
+
+
+def describe(probe: dict, status: str, age_days: int | None) -> str:
+    if status == "geen-datums":
+        return f"{probe['entries']} items, maar geen enkele publicatiedatum"
+    label = f"{probe['entries']} items, nieuwste {age_days} dagen oud"
+    return f"{label} — BEVROREN" if status == "verouderd" else label
+
+
 def render_report(results: list[dict]) -> str:
-    ok = [r for r in results if r["ok"]]
+    ok = [r for r in results if r.get("status") == "ok"]
+    stale = [r for r in results if r.get("status") in ("verouderd", "geen-datums")]
     off = [r for r in results if not r["enabled"]]
-    broken = [r for r in results if r["enabled"] and not r["ok"]]
+    broken = [r for r in results if r["enabled"] and not r.get("status")]
 
     lines = [
         "# Bronverificatie",
         "",
         f"Gedraaid op {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}.",
         "",
-        f"**{len(ok)} werkend** · **{len(broken)} kapot** · {len(off)} uitgezet "
-        f"· {len(results)} totaal",
+        f"**{len(ok)} levend** · **{len(stale)} bevroren** · **{len(broken)} kapot** "
+        f"· {len(off)} uitgezet · {len(results)} totaal",
+        "",
+        f"Bevroren = de feed parseert prima, maar het nieuwste item is ouder dan "
+        f"{STALE_AFTER_DAYS} dagen. Die telt niet als werkende bron.",
         "",
         "| Bron | Bestand | Status | Via | Details |",
         "| --- | --- | --- | --- | --- |",
     ]
-    for result in sorted(results, key=lambda r: (r["ok"], not r["enabled"], r["name"])):
+    rank = {"ok": 3, "verouderd": 2, "geen-datums": 2}
+    for result in sorted(results, key=lambda r: (rank.get(r.get("status"), 1),
+                                                 not r["enabled"], r["name"])):
         if not result["enabled"]:
-            status = "uit"
+            label = "uit"
         else:
-            status = "ok" if result["ok"] else "KAPOT"
+            label = {"ok": "ok", "verouderd": "BEVROREN",
+                     "geen-datums": "GEEN DATUMS"}.get(result.get("status"), "KAPOT")
         detail = (result.get("detail") or "").replace("|", "\\|")[:120]
         lines.append(
-            f"| {result['name']} | {result['file']} | {status} | "
+            f"| {result['name']} | {result['file']} | {label} | "
             f"{result.get('via') or '-'} | {detail} |"
         )
+
+    if stale:
+        lines += ["", "## Bevroren feeds — nakijken of de bron verhuisd is", ""]
+        for result in stale:
+            lines.append(
+                f"- **{result['name']}** — {result.get('detail')} "
+                f"(`{result.get('winning_url')}`)"
+            )
 
     changed = [r for r in ok if r["via"] in ("fallback", "autodiscovery")]
     if changed:
@@ -638,6 +704,7 @@ def run_verify(apply_fixes: bool, only: str | None) -> int:
                     result = {
                         "name": source.get("name", "?"), "file": path.name,
                         "type": source.get("type", "rss"), "enabled": True, "ok": False,
+                        "status": None, "age_days": None,
                         "configured_url": source.get("url", ""), "winning_url": None,
                         "via": None, "detail": f"{type(exc).__name__}: {exc}"[:300],
                         "attempts": [],

@@ -93,14 +93,17 @@ sources:
     verified: false
     verified_at: null
 
+  # Anthropic publiceert geen eigen RSS: alle drie de gangbare paden gaven 404
+  # vanaf de Actions-runner. Wat overblijft zijn community-mirrors (RSSHub), en
+  # dat is dezelfde soort broze afhankelijkheid als de X-bridge. Daarom uit.
+  # Anthropic-nieuws komt in de praktijk toch binnen via HN, Ars en Simon Willison.
+  # Wil je het toch: zet enabled op true en laat --verify de mirror testen.
   - name: Anthropic
-    enabled: true
+    enabled: false
     type: rss
     priority: 1
-    url: https://www.anthropic.com/rss.xml
-    fallback_urls:
-      - https://www.anthropic.com/news/rss.xml
-      - https://www.anthropic.com/feed.xml
+    url: https://rsshub.bestblogs.dev/anthropic/news
+    fallback_urls: []
     homepage: https://www.anthropic.com/news
     max_items: 15
     verified: false
