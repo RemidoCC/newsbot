@@ -139,26 +139,56 @@ De pagina toont ook het laatste verificatierapport van de repo-bronnen: per bron
 levend, bevroren, geen datums of kapot. Dat komt uit `data/source_report.json`,
 dat `build_site.py` meekopieert naar de site — geen Supabase aan te pas.
 
-### 7. Pushmeldingen (fase 7)
+### 7. Pushmeldingen
 
-Genereer VAPID-sleutels:
+Genereer eenmalig een VAPID-sleutelpaar:
 
 ```bash
-python -c "from py_vapid import Vapid01; v=Vapid01(); v.generate_keys(); print(v.private_pem().decode()); print(v.public_key_urlsafe_base64())"
+.venv/bin/python scripts/gen_vapid.py
 ```
+
+Het script drukt af wat waar hoort. Kort:
 
 | Waar | Wat |
 | --- | --- |
-| repo-secret `VAPID_PRIVATE_KEY` | de private key |
+| repo-secret `VAPID_PRIVATE_KEY` | de privésleutel, inclusief BEGIN/END-regels |
 | repo-secret `VAPID_CLAIM_EMAIL` | `mailto:jouw@adres.nl` |
-| `site/config.js` | de public key |
+| repo-secret `SUPABASE_SERVICE_ROLE_KEY` | Supabase → Settings → API → `service_role` |
+| `site/config.js` → `vapidPublicKey` | de publieke sleutel |
 
-De app vraagt pas toestemming ná een klik op "Meldingen aan", nooit bij het eerste
-bezoek.
+Draai `gen_vapid.py` maar één keer. Een nieuw paar maakt alle bestaande
+abonnementen ongeldig en dan moet je op elk apparaat opnieuw op "Meldingen aan"
+klikken.
+
+**De service-role key omzeilt row-level security volledig.** Hij hoort alleen in
+dat ene GitHub-secret: niet in `config.js`, niet in een commit. `send_push.py`
+heeft hem nodig omdat de tabel met pushabonnementen niet publiek leesbaar kan
+zijn — met een endpoint plus sleutels kan iedereen jou meldingen sturen.
+
+Aanzetten doe je op `/beheer`. De app vraagt pas toestemming ná die klik, nooit
+bij het eerste bezoek: een browser die ongevraagd om toestemming vraagt krijgt
+bijna altijd "nee", en dat is daarna omslachtig terug te draaien.
 
 **iOS staat push alleen toe nadat de PWA op het beginscherm staat.** Open de site
 in Safari, deel-knop → *Zet op beginscherm*, open 'm daarvandaan, en zet dan pas
-meldingen aan. In Safari zelf werkt het niet en krijg je geen foutmelding.
+meldingen aan. In Safari zelf bestaat de Push API niet eens; de knop zegt dat
+dan ook.
+
+### 8. De dagelijkse run
+
+`.github/workflows/digest.yml` draait om 05:00 UTC en is ook met de hand te
+starten via Actions → *Dagelijkse digest* → Run workflow.
+
+Wat er gebeurt: ophalen → ontdubbelen → verrijken met `claude -p` → valideren →
+site bouwen → naar Pages → melding → `data/` terugcommitten.
+
+Alles ná het ontdubbelen staat op `continue-on-error`. Valt het verrijken om,
+dan pakt `build_site.py` gewoon de nieuwste digest die er ís — die van gisteren
+— en publiceert die opnieuw. Er gaat dan geen melding uit. Een dag zonder
+nieuwe digest is vervelend; een kapotte site is erger.
+
+De melding wordt pas verstuurd nadat Pages klaar is met deployen, zodat je niet
+op een melding klikt voor een digest die nog niet online staat.
 
 ## Bronnen beheren
 

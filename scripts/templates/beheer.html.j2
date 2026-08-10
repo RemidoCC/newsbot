@@ -81,6 +81,16 @@
     </section>
 
     <section class="blok">
+      <h2 class="blok-kop">Meldingen</h2>
+      <p class="uitleg">
+        Eén melding per dag, alleen als er iets nieuws is. Bij een lege digest
+        blijft het stil.
+      </p>
+      <button type="button" class="knop" data-actie="meldingen-aan">Meldingen aan</button>
+      <p class="push-melding" role="status" aria-live="polite"></p>
+    </section>
+
+    <section class="blok">
       <h2 class="blok-kop">Bronnen uit de repo</h2>
       <p class="uitleg">
         Deze staan in <code>sources/*.yaml</code> en vormen de startset. Ze zijn
@@ -97,4 +107,5 @@
 {% block scripts %}
 <script src="{{ base }}assets/auth.js" defer></script>
 <script src="{{ base }}assets/beheer.js" defer></script>
+<script src="{{ base }}assets/push.js" defer></script>
 {% endblock %}

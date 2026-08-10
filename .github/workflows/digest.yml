@@ -1,0 +1,185 @@
+name: Dagelijkse digest
+
+# 05:00 UTC = 07:00 in de zomer, 06:00 in de winter. GitHub kent geen
+# tijdzones in cron; twee crons met een maandfilter zou het oplossen maar dat
+# is meer onderhoud dan het waard is voor een uur verschil.
+on:
+  schedule:
+    - cron: '0 5 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: digest
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    outputs:
+      nieuwe_digest: ${{ steps.controle.outputs.nieuw }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Dependencies installeren
+        run: pip install -r requirements.txt
+
+      # --- Ophalen en zeven (geen LLM) ---------------------------------
+
+      - name: Bronnen ophalen
+        env:
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+        run: python scripts/collect.py
+
+      - name: Ontdubbelen en batches maken
+        run: python scripts/dedupe.py
+
+      # --- Verrijken -----------------------------------------------------
+      # Alles hierna is continue-on-error. Valt het om, dan blijft de vorige
+      # digest gewoon staan en publiceren we die opnieuw; er gaat dan geen
+      # melding uit. Een dag zonder nieuwe digest is vervelend, een kapotte
+      # site is erger.
+
+      - name: Claude Code installeren
+        id: claude_installeren
+        continue-on-error: true
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Batches verrijken
+        id: verrijken
+        continue-on-error: true
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: |
+          set -u
+          if [ -z "${CLAUDE_CODE_OAUTH_TOKEN}" ]; then
+            echo "::warning::CLAUDE_CODE_OAUTH_TOKEN ontbreekt, verrijken overgeslagen."
+            exit 1
+          fi
+          shopt -s nullglob
+          for batch in data/batches/batch_*.json; do
+            nummer=$(basename "$batch" .json | sed 's/batch_//')
+            uit="data/enriched_${nummer}.json"
+
+            # De batch gaat via stdin, niet via een argument: veertig items van
+            # 1500 tekens is ruim 60 KB en dat loopt stuk op argv-limieten en
+            # shell-quoting.
+            { cat scripts/enrich_prompt.md; echo; cat "$batch"; } \
+              | claude -p --output-format text > "$uit" || true
+
+            if ! python scripts/validate.py --batch "$uit" --check-only >/dev/null 2>&1; then
+              echo "Batch ${nummer} kwam ongeldig terug, één keer opnieuw."
+              { echo "Je vorige antwoord was geen geldige JSON-array."; \
+                echo "Antwoord nu met uitsluitend een JSON-array: geen inleiding, geen markdown-fences."; \
+                echo; cat scripts/enrich_prompt.md; echo; cat "$batch"; } \
+                | claude -p --output-format text > "$uit" || true
+
+              if ! python scripts/validate.py --batch "$uit" --check-only >/dev/null 2>&1; then
+                echo "::warning::Batch ${nummer} blijft ongeldig, wordt overgeslagen."
+                rm -f "$uit"
+              fi
+            fi
+          done
+
+      - name: Valideren en digest samenstellen
+        id: valideren
+        continue-on-error: true
+        run: python scripts/validate.py
+
+      - name: Is er een digest van vandaag?
+        id: controle
+        run: |
+          vandaag=$(date -u +%Y-%m-%d)
+          if [ -s "data/digest/${vandaag}.json" ] \
+             && [ "$(python -c "import json;print(len(json.load(open('data/digest/${vandaag}.json'))['items']))")" -gt 0 ]; then
+            echo "nieuw=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "nieuw=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::Geen nieuwe digest; de vorige blijft staan en er gaat geen melding uit."
+          fi
+
+      # --- Publiceren -----------------------------------------------------
+      # build_site.py pakt altijd de nieuwste digest die er is. Is die van
+      # gisteren, dan wordt gisteren opnieuw gepubliceerd — precies de bedoeling.
+
+      - name: Site bouwen
+        run: python scripts/build_site.py
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Supabase wakker houden
+        continue-on-error: true
+        run: |
+          # Gratis projecten pauzeren na zeven dagen zonder verkeer. Eén
+          # verzoek per dag voorkomt dat je na een vakantie moet ontdooien.
+          url=$(grep -o "supabaseUrl:[^,]*" site/config.js | cut -d"'" -f2)
+          key=$(grep -o "supabaseKey:[^,]*" site/config.js | cut -d"'" -f2)
+          if [ -n "$url" ] && [ -n "$key" ]; then
+            curl -sS -o /dev/null -m 20 -H "apikey: $key" "$url/rest/v1/sources?select=id&limit=1" || true
+          fi
+
+      - name: Data terugcommitten
+        run: |
+          git config user.name  "newsbot"
+          git config user.email "newsbot@users.noreply.github.com"
+          rm -f data/enriched_*.json
+          git add data/ sources/
+          if git diff --cached --quiet; then
+            echo "Niets veranderd."
+          else
+            git commit -m "Digest $(date -u +%Y-%m-%d)"
+            git push origin HEAD:${{ github.ref_name }}
+          fi
+
+  deploy:
+    needs: digest
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.pages.outputs.page_url }}
+
+    steps:
+      - id: pages
+        uses: actions/deploy-pages@v4
+
+      # Pas melden als de site echt live staat. Andersom krijg je een melding
+      # voor een digest die je nog niet kunt openen.
+      - uses: actions/checkout@v4
+        if: needs.digest.outputs.nieuwe_digest == 'true'
+        with:
+          ref: ${{ github.ref_name }}
+
+      - uses: actions/setup-python@v5
+        if: needs.digest.outputs.nieuwe_digest == 'true'
+        with:
+          python-version: "3.12"
+
+      - name: Melding versturen
+        if: needs.digest.outputs.nieuwe_digest == 'true'
+        continue-on-error: true
+        env:
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
+          VAPID_CLAIM_EMAIL: ${{ secrets.VAPID_CLAIM_EMAIL }}
+        run: |
+          # De volle requirements: send_push.py leunt via collect.py ook op
+          # feedparser, bs4 en ruamel.
+          pip install --quiet -r requirements.txt
+          python scripts/send_push.py
