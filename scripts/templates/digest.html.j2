@@ -147,3 +147,7 @@
 
 <script type="application/json" id="digest-data">{{ digest_json | safe }}</script>
 {% endblock %}
+
+{% block scripts %}
+<script src="{{ base }}assets/bewaren.js" defer></script>
+{% endblock %}

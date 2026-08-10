@@ -76,6 +76,11 @@
 
 *, *::before, *::after { box-sizing: border-box; }
 
+/* Het hidden-attribuut is niet meer dan `display: none` uit de UA-stylesheet,
+   dus elke eigen display-regel wint ervan. Zonder deze regel bleef de
+   uitlogbalk (display: flex) staan terwijl je niet was ingelogd. */
+[hidden] { display: none !important; }
+
 html { -webkit-text-size-adjust: 100%; }
 
 body {
@@ -463,3 +468,126 @@ a:focus-visible, button:focus-visible, input:focus-visible {
  *   accent (links)     5.3:1      8.5:1
  *   chip op papier-diep 5.3:1     5.7:1
  */
+
+/* --- Formulieren, knoppen en de beheerpagina's -------------------------- */
+
+.knop {
+  appearance: none;
+  font: inherit;
+  font-size: 0.9375rem;
+  background: var(--inkt);
+  color: var(--papier);
+  border: 0;
+  border-radius: var(--radius);
+  padding: var(--r2) var(--r4);
+  cursor: pointer;
+}
+.knop:hover { background: var(--accent); }
+.knop:disabled { opacity: 0.5; cursor: default; }
+
+.knop-tekst {
+  appearance: none;
+  background: none;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  font-size: var(--klein);
+  color: var(--inkt-gedempt);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  cursor: pointer;
+}
+.knop-tekst:hover { color: var(--accent); }
+.knop-gevaar:hover { color: #a3231a; }
+
+input[type="text"], input[type="url"], input[type="email"], input[type="search"], select {
+  font: inherit;
+  font-size: 0.9375rem;
+  color: var(--inkt);
+  background: var(--papier-diep);
+  border: 1px solid transparent;
+  border-radius: var(--radius);
+  padding: var(--r2) var(--r3);
+}
+input:focus, select:focus { border-color: var(--lijn); background: var(--papier); }
+
+.veld { margin-bottom: var(--r4); display: flex; flex-direction: column; gap: var(--r1); }
+.veld label { font-size: var(--klein); font-weight: 600; }
+.veld input, .veld select { width: 100%; }
+.veld-optioneel { font-weight: 400; color: var(--inkt-gedempt); }
+.veld-hint { margin: 0; font-size: var(--klein); color: var(--inkt-gedempt); line-height: 1.5; }
+.veldrij { display: flex; gap: var(--r3); flex-wrap: wrap; }
+.veldrij .veld { flex: 1 1 8rem; }
+
+.uitleg { font-size: var(--klein); color: var(--inkt-gedempt); margin: 0 0 var(--r4); }
+.melding, .inlog-melding { font-size: var(--klein); color: var(--inkt-gedempt); min-height: 1.2em; }
+.leeg-klein { font-size: var(--klein); color: var(--inkt-gedempt); margin: 0; }
+
+/* Inloggen */
+.inlogpoort { border: 1px solid var(--lijn); border-radius: var(--radius); padding: var(--r5); margin-bottom: var(--r6); }
+.inlog-uitleg { margin: 0 0 var(--r4); color: var(--inkt-zacht); }
+.inlogform { display: flex; gap: var(--r2); flex-wrap: wrap; }
+.inlogform input { flex: 1 1 14rem; }
+.inlogbalk { display: flex; justify-content: space-between; align-items: baseline; gap: var(--r3); font-size: var(--klein); color: var(--inkt-gedempt); border-bottom: 1px solid var(--lijn-zacht); padding-bottom: var(--r3); margin-bottom: var(--r6); }
+
+/* Mappen */
+.mapbalk { display: flex; flex-wrap: wrap; gap: var(--r4); justify-content: space-between; margin-bottom: var(--r4); }
+.mapkeuze { display: flex; flex-wrap: wrap; gap: var(--r2); align-items: center; }
+.nieuwe-map { display: flex; gap: var(--r2); }
+.nieuwe-map input { width: 10rem; }
+
+.mapknop {
+  appearance: none;
+  font: inherit;
+  font-size: var(--klein);
+  background: var(--papier-diep);
+  color: var(--inkt-zacht);
+  border: 1px solid transparent;
+  border-radius: 999px;
+  padding: var(--r1) var(--r3);
+  cursor: pointer;
+}
+.mapknop:hover { border-color: var(--lijn); }
+.mapknop[aria-pressed="true"] { background: var(--inkt); color: var(--papier); }
+
+.mapacties { display: flex; gap: var(--r4); margin-bottom: var(--r5); }
+.items { display: flex; flex-direction: column; gap: var(--r6); margin-top: var(--r5); }
+.item-acties { display: flex; align-items: center; gap: var(--r3); margin: var(--r2) 0 0; flex-wrap: wrap; }
+.item-acties select { font-size: var(--klein); padding: var(--r1) var(--r2); }
+
+/* Uitklapper bij de bewaarknop */
+.bewaar-paneel {
+  margin-top: var(--r3);
+  padding: var(--r3);
+  border: 1px solid var(--lijn);
+  border-radius: var(--radius);
+  background: var(--papier-diep);
+}
+.bewaar-titel { margin: 0 0 var(--r2); font-size: var(--klein); font-weight: 600; }
+.bewaar-mappen { display: flex; flex-wrap: wrap; gap: var(--r2); margin-bottom: var(--r3); }
+.bewaar-mappen .mapknop { background: var(--papier); }
+.bewaar-nieuw { display: flex; gap: var(--r2); flex-wrap: wrap; }
+.bewaar-nieuw input { flex: 1 1 9rem; background: var(--papier); }
+.bewaar-melding { margin: var(--r2) 0 0; font-size: var(--klein); color: var(--inkt-gedempt); }
+
+/* Bronnen */
+.bronlijst, .bronrapport { display: flex; flex-direction: column; gap: var(--r4); }
+.bronrij { border-bottom: 1px solid var(--lijn-zacht); padding-bottom: var(--r4); }
+.bronrij-compact { padding-bottom: var(--r3); }
+.bronrij-uit { opacity: 0.55; }
+.bronrij-kop { display: flex; align-items: baseline; gap: var(--r3); flex-wrap: wrap; }
+.bronrij-naam { font-weight: 600; }
+.bronrij-url { font-size: var(--klein); word-break: break-all; }
+.bronrij-detail { margin: var(--r1) 0 0; font-size: var(--klein); color: var(--inkt-gedempt); }
+
+.status { font-size: 0.75rem; border-radius: var(--radius); padding: 0.1em 0.45em; background: var(--papier-diep); color: var(--inkt-gedempt); }
+.status-ok { color: #2f6b34; }
+.status-verouderd, .status-geen-datums { color: #8a5a12; }
+.status-kapot { color: #a3231a; }
+
+@media (prefers-color-scheme: dark) {
+  .status-ok { color: #8fc396; }
+  .status-verouderd, .status-geen-datums { color: #dfb46a; }
+  .status-kapot { color: #e8938a; }
+  .knop-gevaar:hover { color: #e8938a; }
+}

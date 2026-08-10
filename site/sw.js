@@ -9,13 +9,21 @@
  * De versie in CACHE hieronder wordt door build_site.py niet aangepast; hij
  * hoeft alleen te wijzigen als de assets veranderen.
  */
-var CACHE = 'newsbot-v1';
+var CACHE = 'newsbot-v2';
 var KERN = [
   './',
   './index.html',
   './archief.html',
+  './opgeslagen.html',
+  './beheer.html',
+  './config.js',
   './assets/app.css',
   './assets/app.js',
+  './assets/db.js',
+  './assets/auth.js',
+  './assets/bewaren.js',
+  './assets/opgeslagen.js',
+  './assets/beheer.js',
   './assets/icon.svg',
   './manifest.webmanifest'
 ];

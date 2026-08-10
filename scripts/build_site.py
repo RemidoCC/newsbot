@@ -243,24 +243,16 @@ def run(digest_path: Path | None, use_sample: bool) -> int:
         encoding="utf-8",
     )
 
-    # Placeholders, zodat de navigatie niet naar een 404 wijst zolang deze
-    # pagina's nog niet bestaan. build_site.py schrijft ze alleen als ze er
-    # niet al zijn, zodat fase 6 en 7 ze kunnen vervangen.
-    binnenkort = env.get_template("binnenkort.html.j2")
-    for bestand, titel, toelichting, fase in [
-        ("opgeslagen.html", "Opgeslagen",
-         "Artikelen die je in een eigen map hebt bewaard.", "fase 6"),
-        ("beheer.html", "Beheer",
-         "Nieuwsbronnen toevoegen, aan- en uitzetten, en de status bekijken.", "fase 6"),
-    ]:
-        doel = SITE_DIR / bestand
-        if doel.exists() and "binnenkort-placeholder" not in doel.read_text(encoding="utf-8"):
-            continue
-        doel.write_text(
-            "<!-- binnenkort-placeholder -->\n"
-            + binnenkort.render(base="", titel=titel, toelichting=toelichting, fase=fase),
-            encoding="utf-8",
+    for bestand in ("opgeslagen.html", "beheer.html"):
+        (SITE_DIR / bestand).write_text(
+            env.get_template(bestand + ".j2").render(base=""), encoding="utf-8"
         )
+
+    # Het bronrapport van de laatste verify-run gaat mee naar de site, zodat
+    # /beheer de status van de repo-bronnen kan tonen zonder Supabase.
+    rapport = DATA_DIR / "source_report.json"
+    if rapport.exists():
+        shutil.copyfile(rapport, SITE_DIR / "assets" / "source_report.json")
 
     # Elke digest ook als eigen pagina, zodat het archief zonder JS werkt.
     archive_dir = SITE_DIR / "archief"

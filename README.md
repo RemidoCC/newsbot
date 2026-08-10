@@ -100,20 +100,44 @@ Deze twee hebben geen publieke feed. Route loopt via
 
 Herhaal per nieuwsbrief. Ze staan nu uit met een lege `url`.
 
-### 6. Supabase (fase 6)
+### 6. Supabase
 
-Nodig voor het bewaren van artikelen in eigen mappen.
+Nodig voor het bewaren van artikelen in mappen en voor het beheerscherm.
 
-1. Maak een gratis project op <https://supabase.com>.
-2. Draai `supabase/schema.sql` in de SQL-editor.
-3. Zet de project-URL en de anon key in `site/config.js`.
+1. Draai `supabase/schema.sql` in de SQL-editor van je project. Het script is
+   idempotent, dus opnieuw draaien kan geen kwaad.
+2. Authentication → Providers → **Email** aan (magic link).
+3. Authentication → URL Configuration → Redirect URLs:
+   `https://remidocc.github.io/newsbot/**`. Zonder dit stuurt de inloglink je
+   naar localhost. Dit is de stap die het vaakst wordt vergeten.
+4. `site/config.js` bevat de project-URL en de publishable key. Die horen
+   publiek te zijn; wat je gegevens beschermt is row-level security.
 
-De anon key hoort publiek te zijn — dat is waar hij voor gemaakt is. Wat je data
-beschermt is row-level security, niet geheimhouding van die key.
+**Zet nooit de service-role key in `site/config.js`** — die omzeilt RLS.
+
+#### Waarom `sources` publiek leesbaar is
+
+Vier tabellen staan achter RLS die aan `auth.uid()` hangt. Eén uitzondering:
+iedereen mag `sources` lezen. `collect.py` draait in GitHub Actions en heeft
+daar geen ingelogde gebruiker. De alternatieven waren een service-role key als
+repo-secret — een veel te machtige sleutel om feed-URL's mee op te halen — of
+een edge function. Feed-URL's zijn niet geheim en de repo is toch al publiek.
+Schrijven blijft wel aan jou voorbehouden.
 
 **Let op:** projecten op het gratis plan pauzeren na zeven dagen zonder verkeer.
 De dagelijkse workflow doet daarom een pingetje naar Supabase, zodat dat nooit
 gebeurt — ook niet als je twee weken weg bent.
+
+### 6b. Bronnen beheren vanuit de app
+
+`/beheer` is de plek waar je zelf nieuwsbronnen toevoegt. De YAML-bestanden in
+`sources/` zijn de startset; wat je in Supabase zet komt daar bovenop.
+`collect.py` leest beide en voegt ze samen. Valt Supabase weg, dan draait de run
+gewoon door op de startset.
+
+De pagina toont ook het laatste verificatierapport van de repo-bronnen: per bron
+levend, bevroren, geen datums of kapot. Dat komt uit `data/source_report.json`,
+dat `build_site.py` meekopieert naar de site — geen Supabase aan te pas.
 
 ### 7. Pushmeldingen (fase 7)
 

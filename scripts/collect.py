@@ -258,6 +258,70 @@ def load_source_files() -> list[tuple[Path, dict]]:
     return loaded
 
 
+def supabase_config() -> tuple[str, str]:
+    """URL en publishable key, uit de omgeving of anders uit site/config.js.
+
+    config.js is de plek waar ze al staan voor de frontend; ze daar ophalen
+    scheelt twee repo-secrets en houdt één waarheid aan. Het zijn publieke
+    waarden, dus er is niets geheim te houden.
+    """
+    url = os.environ.get("SUPABASE_URL", "").strip()
+    key = os.environ.get("SUPABASE_ANON_KEY", "").strip()
+    if url and key:
+        return url.rstrip("/"), key
+
+    config = ROOT / "site" / "config.js"
+    if not config.exists():
+        return "", ""
+    tekst = config.read_text(encoding="utf-8")
+
+    def zoek(veld: str) -> str:
+        match = re.search(rf"{veld}\s*:\s*['\"]([^'\"]*)['\"]", tekst)
+        return match.group(1).strip() if match else ""
+
+    return zoek("supabaseUrl").rstrip("/"), zoek("supabaseKey")
+
+
+def load_supabase_sources(client: httpx.Client) -> list[tuple[dict, dict]]:
+    """Bronnen die via /beheer zijn toegevoegd. Faalt zacht.
+
+    De tabel is publiek leesbaar (zie supabase/schema.sql); daarom volstaat de
+    publishable key en is er geen service-role secret in de workflow nodig.
+    """
+    url, key = supabase_config()
+    if not (url and key):
+        return []
+
+    response = fetch(
+        client,
+        f"{url}/rest/v1/sources",
+        attempts=2,
+        headers={"apikey": key, "Authorization": f"Bearer {key}"},
+        params={"select": "*", "enabled": "eq.true"},
+    )
+
+    gevonden = []
+    for rij in response.json():
+        source = {
+            "name": rij.get("name") or "?",
+            "enabled": True,
+            "type": rij.get("type") or "rss",
+            "priority": int(rij.get("priority") or 3),
+            "url": rij.get("url") or "",
+            "fallback_urls": [],
+            "homepage": rij.get("homepage") or "",
+            "max_items": int(rij.get("max_items") or 30),
+            "include_keywords": rij.get("include_keywords") or None,
+        }
+        config = {
+            "channel": rij.get("channel") or "ai",
+            "region": rij.get("region") or "int",
+            "language": rij.get("language") or "nl",
+        }
+        gevonden.append((source, config))
+    return gevonden
+
+
 def build_item(
     *, url: str, title: str, raw_text: str, published: str | None,
     source: dict, config: dict, source_type: str,
@@ -761,28 +825,42 @@ def run_collect(only: str | None) -> int:
     per_source: dict[str, int] = {}
 
     with make_client() as client:
+        # De YAML-bestanden zijn de startset, Supabase de levende lijst die je
+        # via /beheer bijwerkt. Valt Supabase weg, dan draait de run gewoon
+        # door op de startset.
+        paren: list[tuple[dict, dict]] = []
         for path, config in load_source_files():
             if not config or "sources" not in config:
                 log_error(path.name, "collect", "geen 'sources' in dit bestand")
                 continue
-            for source in config["sources"]:
-                name = str(source.get("name", "?"))
-                if only and only.lower() not in name.lower():
-                    continue
-                if not source.get("enabled", False):
-                    continue
-                collector = COLLECTORS.get(source.get("type", "rss"))
-                if collector is None:
-                    log_error(name, "collect", f"onbekend brontype {source.get('type')!r}")
-                    continue
-                try:
-                    found = collector(client, source, config)
-                except Exception as exc:  # noqa: BLE001 - één bron mag de run niet slopen
-                    log_error(name, "collect", exc, url=source.get("url"))
-                    continue
-                per_source[name] = len(found)
-                items.extend(found)
-                print(f"  {name}: {len(found)}", file=sys.stderr)
+            paren.extend((source, config) for source in config["sources"])
+
+        try:
+            eigen = load_supabase_sources(client)
+            if eigen:
+                print(f"  {len(eigen)} bronnen uit Supabase", file=sys.stderr)
+            paren.extend(eigen)
+        except Exception as exc:  # noqa: BLE001
+            log_error("Supabase", "load_sources", exc)
+
+        for source, config in paren:
+            name = str(source.get("name", "?"))
+            if only and only.lower() not in name.lower():
+                continue
+            if not source.get("enabled", False):
+                continue
+            collector = COLLECTORS.get(source.get("type", "rss"))
+            if collector is None:
+                log_error(name, "collect", f"onbekend brontype {source.get('type')!r}")
+                continue
+            try:
+                found = collector(client, source, config)
+            except Exception as exc:  # noqa: BLE001 - één bron mag de run niet slopen
+                log_error(name, "collect", exc, url=source.get("url"))
+                continue
+            per_source[name] = len(found)
+            items.extend(found)
+            print(f"  {name}: {len(found)}", file=sys.stderr)
 
     # X draait als losse module en mag onder geen beding de run tegenhouden.
     try:

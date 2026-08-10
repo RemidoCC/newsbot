@@ -1,0 +1,100 @@
+{% extends "base.html.j2" %}
+{% block title %}newsbot — beheer{% endblock %}
+
+{% block content %}
+<div class="wrap">
+
+  <div class="datumkop">
+    <h1>Beheer</h1>
+    <p class="datumkop-sub">
+      Nieuwsbronnen toevoegen, aan- en uitzetten, en zien welke het nog doen.
+    </p>
+  </div>
+
+  {% include "_inloggen.html.j2" %}
+
+  <div class="alleen-ingelogd" hidden>
+
+    <section class="blok">
+      <h2 class="blok-kop">Bron toevoegen</h2>
+      <form class="bronform" autocomplete="off">
+        <div class="veld">
+          <label for="bron-naam">Naam</label>
+          <input id="bron-naam" type="text" required maxlength="120" placeholder="Bijvoorbeeld: Bibliotheekblad">
+        </div>
+        <div class="veld">
+          <label for="bron-url">Feed-URL</label>
+          <input id="bron-url" type="url" required placeholder="https://voorbeeld.nl/feed/">
+          <p class="veld-hint">
+            Weet je de feed-URL niet? Vul de homepage in bij het volgende veld;
+            de verify-workflow zoekt de feed dan zelf op.
+          </p>
+        </div>
+        <div class="veld">
+          <label for="bron-homepage">Homepage <span class="veld-optioneel">optioneel</span></label>
+          <input id="bron-homepage" type="url" placeholder="https://voorbeeld.nl/">
+        </div>
+        <div class="veldrij">
+          <div class="veld">
+            <label for="bron-kanaal">Kanaal</label>
+            <select id="bron-kanaal">
+              <option value="ai">AI</option>
+              <option value="bieb">Bibliotheek</option>
+            </select>
+          </div>
+          <div class="veld">
+            <label for="bron-regio">Regio</label>
+            <select id="bron-regio">
+              <option value="nl">Nederland</option>
+              <option value="int">Internationaal</option>
+            </select>
+          </div>
+          <div class="veld">
+            <label for="bron-prioriteit">Prioriteit</label>
+            <select id="bron-prioriteit">
+              <option value="1">1 — hoogste</option>
+              <option value="2">2</option>
+              <option value="3" selected>3</option>
+              <option value="4">4</option>
+              <option value="5">5 — laagste</option>
+            </select>
+          </div>
+        </div>
+        <div class="veld">
+          <label for="bron-woorden">
+            Alleen items met deze woorden <span class="veld-optioneel">optioneel</span>
+          </label>
+          <input id="bron-woorden" type="text" placeholder="ai, kunstmatige intelligentie, algoritme">
+          <p class="veld-hint">
+            Komma's ertussen. Handig bij brede techfeeds. Matcht op hele woorden,
+            dus "ai" raakt wel "AI-verordening" maar niet "detail".
+          </p>
+        </div>
+        <button type="submit" class="knop">Bron toevoegen</button>
+      </form>
+      <p class="melding" role="status" aria-live="polite"></p>
+    </section>
+
+    <section class="blok">
+      <h2 class="blok-kop">Jouw bronnen</h2>
+      <div class="bronlijst"></div>
+    </section>
+
+    <section class="blok">
+      <h2 class="blok-kop">Bronnen uit de repo</h2>
+      <p class="uitleg">
+        Deze staan in <code>sources/*.yaml</code> en vormen de startset. Ze zijn
+        hier alleen ter informatie; aanpassen doe je in de repo. De status komt
+        uit de laatste verify-workflow.
+      </p>
+      <div class="bronrapport"></div>
+    </section>
+
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ base }}assets/auth.js" defer></script>
+<script src="{{ base }}assets/beheer.js" defer></script>
+{% endblock %}

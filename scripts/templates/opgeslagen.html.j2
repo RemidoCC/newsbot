@@ -1,0 +1,41 @@
+{% extends "base.html.j2" %}
+{% block title %}newsbot — opgeslagen{% endblock %}
+
+{% block content %}
+<div class="wrap">
+
+  <div class="datumkop">
+    <h1>Opgeslagen</h1>
+    <p class="datumkop-sub">Artikelen die je in een eigen map hebt bewaard.</p>
+  </div>
+
+  {% include "_inloggen.html.j2" %}
+
+  <div class="alleen-ingelogd" hidden>
+
+    <div class="mapbalk">
+      <div class="mapkeuze" role="tablist" aria-label="Mappen"></div>
+      <form class="nieuwe-map" autocomplete="off">
+        <label class="visually-hidden" for="nieuwe-map-naam">Naam van de nieuwe map</label>
+        <input id="nieuwe-map-naam" type="text" placeholder="Nieuwe map" maxlength="60" required>
+        <button type="submit" class="knop">Aanmaken</button>
+      </form>
+    </div>
+
+    <p class="melding" role="status" aria-live="polite"></p>
+
+    <div class="mapacties" hidden>
+      <button type="button" class="knop-tekst" data-actie="hernoemen">Map hernoemen</button>
+      <button type="button" class="knop-tekst knop-gevaar" data-actie="verwijderen">Map verwijderen</button>
+    </div>
+
+    <div class="items"></div>
+
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ base }}assets/auth.js" defer></script>
+<script src="{{ base }}assets/opgeslagen.js" defer></script>
+{% endblock %}

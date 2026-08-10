@@ -1,0 +1,21 @@
+{# Inlogpoort. Beide beheerpagina's gebruiken dezelfde. De site is publiek, dus
+   zonder inloggen zie je hier niets — en dat hoort ook zo, want row-level
+   security in Supabase weigert de gegevens toch. #}
+<div class="inlogpoort" hidden>
+  <p class="inlog-uitleg">
+    Deze pagina is van jou alleen. Log in met een link per e-mail; je hoeft geen
+    wachtwoord te onthouden.
+  </p>
+  <form class="inlogform" autocomplete="on">
+    <label class="visually-hidden" for="inlog-email">E-mailadres</label>
+    <input id="inlog-email" type="email" name="email" inputmode="email"
+           autocomplete="email" placeholder="jouw@adres.nl" required>
+    <button type="submit" class="knop">Stuur mij een link</button>
+  </form>
+  <p class="inlog-melding" role="status" aria-live="polite"></p>
+</div>
+
+<div class="inlogbalk" hidden>
+  <span class="inlog-wie"></span>
+  <button type="button" class="knop-tekst" data-actie="uitloggen">Uitloggen</button>
+</div>
