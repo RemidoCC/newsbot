@@ -1,0 +1,308 @@
+{
+  "date": "2026-08-10",
+  "generated_at": "2026-08-10T21:17:04+00:00",
+  "is_sample": true,
+  "stats": {
+    "geldig": 16,
+    "ai": 10,
+    "bieb": 6
+  },
+  "sources": [
+    "Beleidsbrief Digitaal",
+    "Bibliotheekkrant",
+    "De Ochtendkrant",
+    "European Library Review",
+    "Instituut voor Informatierecht",
+    "Rekenkracht Vandaag",
+    "Techjournaal",
+    "Vakblad Mediawijs"
+  ],
+  "items": [
+    {
+      "id": "8a25c03b573d8d312cae2980dca0f3acbc5d051f3d6d323066a70272744a5019",
+      "title": "Bibliotheken breiden spreekuren over digitale overheid uit",
+      "summary": "Een groeiend aantal vestigingen houdt wekelijks een inloopspreekuur waar bezoekers hulp krijgen bij het regelen van zaken met de overheid. De vraag komt vooral van mensen die geen hulp in hun directe omgeving hebben.",
+      "url": "https://example.com/voorbeeld/11",
+      "source_name": "Bibliotheekkrant",
+      "source_type": "rss",
+      "published": "2026-08-10T15:17:04+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "digitale-inclusie",
+        "cursus-of-workshop"
+      ],
+      "importance": 5,
+      "why_relevant": "Direct toepasbaar in je eigen vestiging.",
+      "also_covered_by": []
+    },
+    {
+      "id": "5f74dc417c5d402e910c8e794caea8da99512c253ee0494d1d194792696f1edb",
+      "title": "Toezichthouder publiceert leidraad voor AI in publieke dienstverlening",
+      "summary": "De leidraad beschrijft wanneer een overheidsorganisatie een risicobeoordeling moet uitvoeren voordat zij een AI-systeem inzet richting burgers. Er staat een overgangstermijn van een jaar in. Voor kleine organisaties komt er een verkorte variant.",
+      "url": "https://example.com/voorbeeld/2",
+      "source_name": "Beleidsbrief Digitaal",
+      "source_type": "rss",
+      "published": "2026-08-10T17:17:04+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "beleid-en-regelgeving",
+        "ethiek-en-risico"
+      ],
+      "importance": 5,
+      "why_relevant": "Bibliotheken vallen onder publieke dienstverlening.",
+      "also_covered_by": []
+    },
+    {
+      "id": "8c14a85e61e0bcbca48e3881a7f51c192a2eaa257b7759b8e1e9cbdff7f98747",
+      "title": "Nieuw taalmodel werkt met aanzienlijk langer geheugen",
+      "summary": "Een groot onderzoekslab heeft een model aangekondigd dat veel langere teksten in één keer kan verwerken dan zijn voorganger. Volgens de begeleidende documentatie gaat het om ongeveer een verviervoudiging. Wat dat in de praktijk betekent voor kosten en snelheid is nog niet onafhankelijk getoetst.",
+      "url": "https://example.com/voorbeeld/1",
+      "source_name": "Techjournaal",
+      "source_type": "rss",
+      "published": "2026-08-10T19:17:04+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "bedrijven"
+      ],
+      "importance": 5,
+      "why_relevant": "Langere context maakt hele dossiers doorzoekbaar.",
+      "also_covered_by": [
+        "https://example.org/elders/1",
+        "https://example.net/elders/2"
+      ]
+    },
+    {
+      "id": "f353ee20f54451af12c93e4d81cb2d1032ae23e7184e3c338b473434145ca758",
+      "title": "Lesmateriaal over herkennen van gegenereerde beelden herzien",
+      "summary": "De herziene versie besteedt meer aandacht aan geluid en video, omdat beeldherkenning alleen niet meer volstaat. Het materiaal is gratis te gebruiken en gericht op groep zeven en acht.",
+      "url": "https://example.com/voorbeeld/13",
+      "source_name": "Vakblad Mediawijs",
+      "source_type": "rss",
+      "published": "2026-08-08T17:17:04+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "digitale-geletterdheid",
+        "onderwijs"
+      ],
+      "importance": 4,
+      "why_relevant": "Bruikbaar voor workshops mediawijsheid.",
+      "also_covered_by": []
+    },
+    {
+      "id": "0f4bd8297e74dc04483de596884c45024dffb979f0a8bbba42ed8eca4769aca5",
+      "title": "Vragen over auteursrecht bij trainingsdata blijven onbeantwoord",
+      "summary": "Een juridische analyse stelt dat de huidige uitzonderingen voor tekst- en datamining onvoldoende houvast bieden voor generatieve modellen. De auteurs pleiten voor verduidelijking in plaats van nieuwe wetgeving.",
+      "url": "https://example.com/voorbeeld/6",
+      "source_name": "Instituut voor Informatierecht",
+      "source_type": "rss",
+      "published": "2026-08-10T10:17:04+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "beleid-en-regelgeving"
+      ],
+      "importance": 4,
+      "why_relevant": "Raakt hoe bibliotheken hun collecties beschikbaar stellen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "1781d597d669550408a0de63cbbc6f9ecef498115f4e148bba5dc60898450d6d",
+      "title": "Vrijwilligers krijgen kortere training voor digitale ondersteuning",
+      "summary": "De training is teruggebracht van vier naar twee dagdelen, met meer nadruk op doorverwijzen. Aanleiding is dat vrijwilligers afhaakten bij het oude programma.",
+      "url": "https://example.com/voorbeeld/16",
+      "source_name": "Bibliotheekkrant",
+      "source_type": "rss",
+      "published": "2026-08-05T21:17:04+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "cursus-of-workshop",
+        "digitale-inclusie"
+      ],
+      "importance": 3,
+      "why_relevant": "",
+      "also_covered_by": []
+    },
+    {
+      "id": "10a1902c2b982f43c8a37c48c213371fff345beb80c2ebdadc2a2e432fcaf0ab",
+      "title": "Nieuwe regeling voor basisvaardigheden opent in het najaar",
+      "summary": "De regeling richt zich op samenwerkingsverbanden van bibliotheken, gemeenten en welzijnsorganisaties. Aanvragen kan vanaf september; het plafond is nog niet bekendgemaakt.",
+      "url": "https://example.com/voorbeeld/12",
+      "source_name": "Bibliotheekkrant",
+      "source_type": "rss",
+      "published": "2026-08-09T17:17:04+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "subsidie-of-financiering"
+      ],
+      "importance": 3,
+      "why_relevant": "",
+      "also_covered_by": []
+    },
+    {
+      "id": "bc926c4c1ce1f09ccf30910fc09550a26cbdfa79717c0ce91c39da0c90e3cc54",
+      "title": "Scholen zoeken een lijn in het beoordelen van werk met AI",
+      "summary": "Een rondgang langs middelbare scholen laat sterk uiteenlopende afspraken zien over wat leerlingen wel en niet met AI mogen doen. Sommige scholen kiezen voor toetsen op papier, andere voor gesprekken over het proces.",
+      "url": "https://example.com/voorbeeld/8",
+      "source_name": "De Ochtendkrant",
+      "source_type": "rss",
+      "published": "2026-08-10T02:17:04+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "onderwijs",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "",
+      "also_covered_by": []
+    },
+    {
+      "id": "e25c7060e7a24db57edf9e269460ebbc9bd2a74bcfcf956ffd823ceb11917cc1",
+      "title": "Onderzoek: werknemers gebruiken AI vaker dan hun werkgever denkt",
+      "summary": "Uit een enquête onder ruim tweeduizend werknemers blijkt een flink verschil tussen gerapporteerd en werkelijk gebruik van AI-hulpmiddelen. De onderzoekers wijzen op onduidelijke interne richtlijnen als voornaamste oorzaak.",
+      "url": "https://example.com/voorbeeld/4",
+      "source_name": "De Ochtendkrant",
+      "source_type": "rss",
+      "published": "2026-08-10T14:17:04+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "arbeidsmarkt",
+        "onderzoek"
+      ],
+      "importance": 3,
+      "why_relevant": "",
+      "also_covered_by": []
+    },
+    {
+      "id": "398b1d57360b4b75dfce500a3b29a104876a035f6c23c538d0c96d4d10bedb68",
+      "title": "Open gewichten vrijgegeven voor een middelgroot model",
+      "summary": "Een consortium van universiteiten heeft de gewichten van een middelgroot taalmodel onder een permissieve licentie gepubliceerd. Het model draait naar verluidt op consumentenhardware. De trainingsdata zijn deels beschreven maar niet volledig openbaar.",
+      "url": "https://example.com/voorbeeld/3",
+      "source_name": "Techjournaal",
+      "source_type": "rss",
+      "published": "2026-08-10T16:17:04+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "open-source",
+        "modellen"
+      ],
+      "importance": 3,
+      "why_relevant": "",
+      "also_covered_by": []
+    },
+    {
+      "id": "a7d353732c5a562495e30bcabf4a7e1b33f782d39cec026be5f282821d2d14c5",
+      "title": "Jaarlijkse conferentie over publieke bibliotheken kondigt programma aan",
+      "summary": "Het programma bevat dit jaar een apart spoor over kunstmatige intelligentie in de dienstverlening. Inschrijving opent volgende maand.",
+      "url": "https://example.com/voorbeeld/15",
+      "source_name": "European Library Review",
+      "source_type": "rss",
+      "published": "2026-08-06T21:17:04+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "evenement",
+        "bibliotheek"
+      ],
+      "importance": 2,
+      "why_relevant": "",
+      "also_covered_by": []
+    },
+    {
+      "id": "7055c5c35c7f92c0922c652530adf09523208adfcb383d3cecb616df7d0de4b9",
+      "title": "Europese koepel vraagt aandacht voor bibliotheken in digitale wetgeving",
+      "summary": "In een position paper stelt de koepelorganisatie dat bibliotheken bij de uitvoering van digitale wetgeving stelselmatig over het hoofd worden gezien. Er wordt om een structurele consultatiepositie gevraagd.",
+      "url": "https://example.com/voorbeeld/14",
+      "source_name": "European Library Review",
+      "source_type": "rss",
+      "published": "2026-08-07T19:17:04+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "bibliotheek",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 2,
+      "why_relevant": "",
+      "also_covered_by": []
+    },
+    {
+      "id": "7d0f1fd51625475ac6546108389628c0ea610c19a08c61751f9f00a48ed305d6",
+      "title": "Nieuwe evaluatiemethode meet hoe vaak een model zijn eigen fouten opmerkt",
+      "summary": "De methode legt modellen opgaven voor waarvan de opsteller weet dat ze niet kloppen. Bestaande modellen scoren daar volgens de eerste resultaten matig op.",
+      "url": "https://example.com/voorbeeld/9",
+      "source_name": "Techjournaal",
+      "source_type": "rss",
+      "published": "2026-08-09T22:17:04+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek"
+      ],
+      "importance": 2,
+      "why_relevant": "",
+      "also_covered_by": []
+    },
+    {
+      "id": "5f410d971b9e72578176aac16e5f8bb03cf3de06eaa41c7a7bfaf0e367459a63",
+      "title": "Chipfabrikant meldt langere levertijden voor rekenclusters",
+      "summary": "De wachttijd voor nieuwe rekenclusters is opgelopen naar meerdere kwartalen. Kleinere afnemers voelen dat het eerst.",
+      "url": "https://example.com/voorbeeld/7",
+      "source_name": "Rekenkracht Vandaag",
+      "source_type": "rss",
+      "published": "2026-08-10T07:17:04+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "",
+      "also_covered_by": []
+    },
+    {
+      "id": "55123cef0436a5d439b529260ca38c8aad138f560818219faa2e635f98ec3135",
+      "title": "Editor krijgt ingebouwde ondersteuning voor lokale modellen",
+      "summary": "Een veelgebruikte teksteditor ondersteunt voortaan modellen die op de eigen machine draaien, zonder dat er data naar buiten gaat. De functie zit nog in een testkanaal.",
+      "url": "https://example.com/voorbeeld/5",
+      "source_name": "Techjournaal",
+      "source_type": "rss",
+      "published": "2026-08-10T12:17:04+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "",
+      "also_covered_by": []
+    },
+    {
+      "id": "4d68cc9deabb554c71bff5496947b68b14398feceb6b78a5a00b7c2225620065",
+      "title": "Klein hulpprogramma maakt modelvergelijking reproduceerbaar",
+      "summary": "Het programma legt vast welke versie, instellingen en willekeurige startwaarde bij een resultaat horen. Het is beschikbaar onder een open licentie.",
+      "url": "https://example.com/voorbeeld/10",
+      "source_name": "Rekenkracht Vandaag",
+      "source_type": "rss",
+      "published": "2026-08-09T15:17:04+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "open-source"
+      ],
+      "importance": 1,
+      "why_relevant": "",
+      "also_covered_by": []
+    }
+  ]
+}

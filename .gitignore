@@ -2,3 +2,11 @@
 __pycache__/
 *.pyc
 .DS_Store
+
+# Gegenereerd door build_site.py; de bron is data/digest/.
+site/index.html
+site/archief.html
+site/archief/
+site/opgeslagen.html
+site/beheer.html
+site/assets/digest.json

@@ -1,0 +1,149 @@
+{% extends "base.html.j2" %}
+{% block title %}newsbot — {{ date | dutch_date }}{% endblock %}
+
+{% macro item_card(item, prominent=false) %}
+<article class="item{% if prominent %} item-prominent{% endif %}"
+         data-zoek="{{ item.haystack }}">
+  <h3 class="item-title">
+    <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a>
+  </h3>
+  <p class="item-summary">{{ item.summary }}</p>
+  {% if prominent and item.why_relevant %}
+  <p class="item-why">{{ item.why_relevant }}</p>
+  {% endif %}
+  {# Middenpunten alleen tussen de tekstuele metadata. Tussen de chips zetten
+     we ze niet: die zijn al door hun vorm gescheiden, en een middenpunt op een
+     afbreekpunt blijft anders aan het regeleinde bungelen. #}
+  <p class="item-meta">
+    <span class="meta-tekst">
+      <a class="item-source" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.source_name }}</a>{% if item.relative %}<span class="dot">·</span>{{ item.relative }}{% endif %}<span class="dot">·</span><span class="flag" title="{{ 'Nederland' if item.region == 'nl' else 'Internationaal' }}">{{ item.flag }}</span>
+    </span>
+    {% if item.topic_labels %}
+    <span class="chips">
+      {% for label in item.topic_labels %}<span class="chip">{{ label }}</span>{% endfor %}
+    </span>
+    {% endif %}
+  </p>
+  {% if item.also_covered_by %}
+  <p class="item-also">Ook bij
+    {% for url in item.also_covered_by[:3] %}
+    <a href="{{ url }}" target="_blank" rel="noopener noreferrer">{{ url | domain }}</a>{% if not loop.last %}, {% endif %}
+    {% endfor %}
+  </p>
+  {% endif %}
+  <button class="save" type="button"
+          data-id="{{ item.id }}"
+          data-title="{{ item.title }}"
+          data-url="{{ item.url }}"
+          data-source="{{ item.source_name }}"
+          data-summary="{{ item.summary }}"
+          data-channel="{{ item.channel }}"
+          data-published="{{ item.published or '' }}"
+          data-topics="{{ item.topics | join(',') }}"
+          aria-label="Bewaren in een map">
+    <svg viewBox="0 0 20 20" aria-hidden="true" focusable="false">
+      <path d="M5 2.5h10a1 1 0 0 1 1 1v14l-6-3.6-6 3.6v-14a1 1 0 0 1 1-1z"/>
+    </svg>
+  </button>
+</article>
+{% endmacro %}
+
+{% block content %}
+
+{% if is_sample %}
+<div class="banner-sample">
+  <div class="wrap">
+    <strong>Voorbeelddata.</strong> Deze koppen en samenvattingen zijn verzonnen
+    om het ontwerp te kunnen beoordelen. Ze zijn geen nieuws en de bronnen
+    hebben ze nooit gepubliceerd.
+  </div>
+</div>
+{% endif %}
+
+{% if not is_latest %}
+<div class="banner-archief">
+  <div class="wrap">
+    Archief van {{ date | dutch_date }}. <a href="../index.html">Naar vandaag</a>
+  </div>
+</div>
+{% endif %}
+
+<div class="wrap">
+
+  <div class="datumkop">
+    <h1>{{ date | dutch_date }}</h1>
+  </div>
+
+  <div class="tabs" role="tablist" aria-label="Kanaal">
+    {% for channel in channels %}
+    <button class="tab" role="tab" id="tab-{{ channel.key }}"
+            aria-controls="paneel-{{ channel.key }}"
+            aria-selected="{{ 'true' if loop.first else 'false' }}"
+            data-kanaal="{{ channel.key }}">
+      {{ channel.label }}
+      <span class="tab-count">{{ grouped[channel.key].count }}</span>
+    </button>
+    {% endfor %}
+  </div>
+
+  <div class="zoek">
+    <label class="visually-hidden" for="zoekveld">Zoeken</label>
+    <input id="zoekveld" type="search" autocomplete="off" spellcheck="false"
+           placeholder="Zoeken in koppen en tags">
+    <p class="zoek-uitslag" role="status" aria-live="polite"></p>
+  </div>
+
+  {% for channel in channels %}
+  {% set groep = grouped[channel.key] %}
+  <section class="paneel" id="paneel-{{ channel.key }}" role="tabpanel"
+           aria-labelledby="tab-{{ channel.key }}"
+           {% if not loop.first %}hidden{% endif %}>
+
+    <div class="tellers">
+      <div class="teller">
+        <span class="teller-getal">{{ groep.count }}</span>
+        <span class="teller-label">{{ 'item' if groep.count == 1 else 'items' }}</span>
+      </div>
+      <div class="teller">
+        <span class="teller-getal">{{ groep.sources }}</span>
+        <span class="teller-label">{{ 'bron' if groep.sources == 1 else 'bronnen' }}</span>
+      </div>
+    </div>
+
+    {% if groep.count == 0 %}
+    <p class="leeg">Vandaag niets nieuws in dit kanaal.</p>
+    {% endif %}
+
+    {% if groep.important %}
+    <section class="blok" data-blok>
+      <h2 class="blok-kop">Belangrijk vandaag</h2>
+      <div class="lijst">
+        {% for item in groep.important %}
+        {{ item_card(item, prominent=true) }}
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+
+    {% for sectie in groep.sections %}
+    <section class="blok" data-blok>
+      <h2 class="blok-kop">
+        <span class="blok-nummer">{{ '%02d' % loop.index }}</span>
+        <span class="dot">·</span>
+        {{ sectie.label }}
+      </h2>
+      <div class="lijst">
+        {% for item in sectie.rijen %}
+        {{ item_card(item) }}
+        {% endfor %}
+      </div>
+    </section>
+    {% endfor %}
+
+  </section>
+  {% endfor %}
+
+</div>
+
+<script type="application/json" id="digest-data">{{ digest_json | safe }}</script>
+{% endblock %}

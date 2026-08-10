@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="newsbot">
+  <!-- Eigen merkje: dezelfde stip als in het woordmerk, meer niet. -->
+  <rect width="512" height="512" rx="112" fill="#fbfaf8"/>
+  <circle cx="256" cy="256" r="96" fill="#2f5fd0"/>
+  <rect x="128" y="376" width="256" height="20" rx="10" fill="#1a1c20" opacity="0.16"/>
+  <rect x="128" y="116" width="256" height="20" rx="10" fill="#1a1c20" opacity="0.16"/>
+</svg>

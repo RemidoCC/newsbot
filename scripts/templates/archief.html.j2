@@ -1,0 +1,32 @@
+{% extends "base.html.j2" %}
+{% block title %}newsbot — archief{% endblock %}
+
+{% block content %}
+<div class="wrap">
+
+  <div class="datumkop">
+    <h1>Archief</h1>
+    <p class="datumkop-sub">De laatste {{ archive | length }} digests.</p>
+  </div>
+
+  {% if not archive %}
+  <p class="leeg">Nog geen digests bewaard.</p>
+  {% else %}
+  <ol class="archieflijst">
+    {% for entry in archive %}
+    <li>
+      <a href="archief/{{ entry.date }}.html">
+        <span class="archief-datum">{{ entry.date | dutch_date }}</span>
+        <span class="archief-meta">
+          {{ entry.ai }} AI
+          <span class="dot">·</span>
+          {{ entry.bieb }} bibliotheek
+        </span>
+      </a>
+    </li>
+    {% endfor %}
+  </ol>
+  {% endif %}
+
+</div>
+{% endblock %}

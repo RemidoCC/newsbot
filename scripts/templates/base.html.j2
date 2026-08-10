@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{% block title %}newsbot{% endblock %}</title>
+<meta name="description" content="Dagelijkse digest over AI en over bibliotheken en digitale inclusie.">
+<meta name="theme-color" content="#fbfaf8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#14161a" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="{{ base }}manifest.webmanifest">
+<link rel="icon" href="{{ base }}assets/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="{{ base }}assets/icon-180.png">
+<link rel="stylesheet" href="{{ base }}assets/app.css">
+</head>
+<body>
+
+<a class="skip" href="#inhoud">Naar de inhoud</a>
+
+<header class="masthead">
+  <div class="wrap">
+    <a class="wordmark" href="{{ base }}index.html">
+      <span class="wordmark-mark" aria-hidden="true"></span>newsbot
+    </a>
+    <nav class="masthead-nav">
+      <a href="{{ base }}archief.html">Archief</a>
+      <a href="{{ base }}opgeslagen.html">Opgeslagen</a>
+      <a href="{{ base }}beheer.html">Beheer</a>
+    </nav>
+  </div>
+</header>
+
+<main id="inhoud">
+{% block content %}{% endblock %}
+</main>
+
+<footer class="colofon">
+  <div class="wrap">
+    <p>Samenvattingen zijn automatisch gemaakt. Klik altijd door naar de bron.</p>
+  </div>
+</footer>
+
+<script src="{{ base }}assets/app.js" defer></script>
+</body>
+</html>
