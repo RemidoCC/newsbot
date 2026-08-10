@@ -5,8 +5,9 @@
  * - Systeemfonts. Geen webfont betekent geen laadflikkering, geen verschuivende
  *   tekst, werkt offline, en geen licentievraag. Voor doorlopende tekst doet
  *   grootte, regelafstand en regellengte veel meer dan de letterkeuze.
- * - Leeskolom van 34rem, ongeveer 65 tekens. Boven de 75 raakt het oog de
- *   volgende regel kwijt, onder de 45 wordt het hakkelen.
+ * - Leeskolom van 37rem, ongeveer 65 tekens met de letters die op macOS, iOS en
+ *   Windows daadwerkelijk laden. Boven de 75 raakt het oog de volgende regel
+ *   kwijt, onder de 45 wordt het hakkelen.
  * - Regelafstand 1.6 in samenvattingen, krapper in koppen. Lange regels hebben
  *   meer lucht nodig dan korte.
  * - Eén accentkleur, alleen voor links en de bewaarknop. Al het andere doet het
@@ -17,15 +18,19 @@
 :root {
   color-scheme: light dark;
 
-  --papier: #fbfaf8;
-  --papier-diep: #f2efe9;
-  --inkt: #1a1c20;
-  --inkt-zacht: #40454e;
-  --inkt-gedempt: #5d6470;
-  --lijn: #e2ddd3;
-  --lijn-zacht: #ebe7de;
-  --accent: #2f5fd0;
-  --accent-zacht: #eef2fd;
+  /* Warm, maar ingehouden. De kleur zit in het papier en de inkt, niet in
+     vlakken: een zandtint als ondergrond, warmgrijs-bruine tekst, en gebrand
+     oranje als enige accent. Alle combinaties hieronder zijn doorgerekend en
+     halen minimaal 4.5:1 — zie de tabel onderaan dit bestand. */
+  --papier: #fcfaf6;
+  --papier-diep: #f3ede2;
+  --inkt: #1f1a14;
+  --inkt-zacht: #4a4038;
+  --inkt-gedempt: #6b5f52;
+  --lijn: #e7ddcc;
+  --lijn-zacht: #f0e9dc;
+  --accent: #a35418;
+  --accent-zacht: #fbf0e2;
 
   /* 37rem geeft bij de smalste systeemletter ongeveer 70 tekens en bij de
      breedste (DejaVu op Linux) nog altijd zo'n 55. Met 34rem viel die
@@ -54,15 +59,18 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --papier: #14161a;
-    --papier-diep: #1c1f25;
-    --inkt: #e8e5df;
-    --inkt-zacht: #c3c7cf;
-    --inkt-gedempt: #969dab;
-    --lijn: #2b2f37;
-    --lijn-zacht: #232830;
-    --accent: #8bacf7;
-    --accent-zacht: #1b2436;
+    /* Donker blijft warm: geen blauwzwart maar een bruinzwart, en het accent
+       verschuift van gebrand oranje naar goud omdat oranje op donker te dof
+       wordt. */
+    --papier: #17130f;
+    --papier-diep: #211c15;
+    --inkt: #ece5d9;
+    --inkt-zacht: #cabfae;
+    --inkt-gedempt: #a2937f;
+    --lijn: #322a22;
+    --lijn-zacht: #262019;
+    --accent: #e0a45c;
+    --accent-zacht: #2a1f14;
   }
 }
 
@@ -444,3 +452,14 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; animation: none !important; }
 }
+
+/* Doorgerekende contrastverhoudingen (WCAG 2.1, eis 4.5:1 voor tekst).
+ * Gemeten met scripts/check_contrast.py.
+ *
+ *                      licht      donker
+ *   inkt op papier     16.6:1     14.8:1
+ *   inkt-zacht         9.7:1      10.2:1
+ *   inkt-gedempt       6.0:1      6.2:1
+ *   accent (links)     5.3:1      8.5:1
+ *   chip op papier-diep 5.3:1     5.7:1
+ */
