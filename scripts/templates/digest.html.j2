@@ -60,6 +60,17 @@
 </div>
 {% endif %}
 
+{% if is_empty %}
+<div class="banner-sample">
+  <div class="wrap">
+    <strong>Nog geen digest.</strong> De bronnen zijn opgehaald, maar het
+    samenvatten is nog niet gelukt — waarschijnlijk ontbreekt het
+    <code>CLAUDE_CODE_OAUTH_TOKEN</code>. Zodra dat er staat vult deze pagina
+    zich bij de eerstvolgende run.
+  </div>
+</div>
+{% endif %}
+
 {% if not is_latest %}
 <div class="banner-archief">
   <div class="wrap">

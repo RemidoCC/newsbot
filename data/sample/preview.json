@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-10",
-  "generated_at": "2026-08-10T21:17:04+00:00",
+  "date": "2026-08-11",
+  "generated_at": "2026-08-11T06:42:30+00:00",
   "is_sample": true,
   "stats": {
     "geldig": 16,
@@ -25,7 +25,7 @@
       "url": "https://example.com/voorbeeld/11",
       "source_name": "Bibliotheekkrant",
       "source_type": "rss",
-      "published": "2026-08-10T15:17:04+00:00",
+      "published": "2026-08-11T00:42:30+00:00",
       "channel": "bieb",
       "region": "nl",
       "topics": [
@@ -43,7 +43,7 @@
       "url": "https://example.com/voorbeeld/2",
       "source_name": "Beleidsbrief Digitaal",
       "source_type": "rss",
-      "published": "2026-08-10T17:17:04+00:00",
+      "published": "2026-08-11T02:42:30+00:00",
       "channel": "ai",
       "region": "nl",
       "topics": [
@@ -61,7 +61,7 @@
       "url": "https://example.com/voorbeeld/1",
       "source_name": "Techjournaal",
       "source_type": "rss",
-      "published": "2026-08-10T19:17:04+00:00",
+      "published": "2026-08-11T04:42:30+00:00",
       "channel": "ai",
       "region": "int",
       "topics": [
@@ -82,7 +82,7 @@
       "url": "https://example.com/voorbeeld/13",
       "source_name": "Vakblad Mediawijs",
       "source_type": "rss",
-      "published": "2026-08-08T17:17:04+00:00",
+      "published": "2026-08-09T02:42:30+00:00",
       "channel": "bieb",
       "region": "nl",
       "topics": [
@@ -100,7 +100,7 @@
       "url": "https://example.com/voorbeeld/6",
       "source_name": "Instituut voor Informatierecht",
       "source_type": "rss",
-      "published": "2026-08-10T10:17:04+00:00",
+      "published": "2026-08-10T19:42:30+00:00",
       "channel": "ai",
       "region": "nl",
       "topics": [
@@ -117,7 +117,7 @@
       "url": "https://example.com/voorbeeld/16",
       "source_name": "Bibliotheekkrant",
       "source_type": "rss",
-      "published": "2026-08-05T21:17:04+00:00",
+      "published": "2026-08-06T06:42:30+00:00",
       "channel": "bieb",
       "region": "nl",
       "topics": [
@@ -135,7 +135,7 @@
       "url": "https://example.com/voorbeeld/12",
       "source_name": "Bibliotheekkrant",
       "source_type": "rss",
-      "published": "2026-08-09T17:17:04+00:00",
+      "published": "2026-08-10T02:42:30+00:00",
       "channel": "bieb",
       "region": "nl",
       "topics": [
@@ -152,7 +152,7 @@
       "url": "https://example.com/voorbeeld/8",
       "source_name": "De Ochtendkrant",
       "source_type": "rss",
-      "published": "2026-08-10T02:17:04+00:00",
+      "published": "2026-08-10T11:42:30+00:00",
       "channel": "ai",
       "region": "nl",
       "topics": [
@@ -170,7 +170,7 @@
       "url": "https://example.com/voorbeeld/4",
       "source_name": "De Ochtendkrant",
       "source_type": "rss",
-      "published": "2026-08-10T14:17:04+00:00",
+      "published": "2026-08-10T23:42:30+00:00",
       "channel": "ai",
       "region": "nl",
       "topics": [
@@ -188,7 +188,7 @@
       "url": "https://example.com/voorbeeld/3",
       "source_name": "Techjournaal",
       "source_type": "rss",
-      "published": "2026-08-10T16:17:04+00:00",
+      "published": "2026-08-11T01:42:30+00:00",
       "channel": "ai",
       "region": "int",
       "topics": [
@@ -206,7 +206,7 @@
       "url": "https://example.com/voorbeeld/15",
       "source_name": "European Library Review",
       "source_type": "rss",
-      "published": "2026-08-06T21:17:04+00:00",
+      "published": "2026-08-07T06:42:30+00:00",
       "channel": "bieb",
       "region": "int",
       "topics": [
@@ -224,7 +224,7 @@
       "url": "https://example.com/voorbeeld/14",
       "source_name": "European Library Review",
       "source_type": "rss",
-      "published": "2026-08-07T19:17:04+00:00",
+      "published": "2026-08-08T04:42:30+00:00",
       "channel": "bieb",
       "region": "int",
       "topics": [
@@ -242,7 +242,7 @@
       "url": "https://example.com/voorbeeld/9",
       "source_name": "Techjournaal",
       "source_type": "rss",
-      "published": "2026-08-09T22:17:04+00:00",
+      "published": "2026-08-10T07:42:30+00:00",
       "channel": "ai",
       "region": "int",
       "topics": [
@@ -259,7 +259,7 @@
       "url": "https://example.com/voorbeeld/7",
       "source_name": "Rekenkracht Vandaag",
       "source_type": "rss",
-      "published": "2026-08-10T07:17:04+00:00",
+      "published": "2026-08-10T16:42:30+00:00",
       "channel": "ai",
       "region": "int",
       "topics": [
@@ -276,7 +276,7 @@
       "url": "https://example.com/voorbeeld/5",
       "source_name": "Techjournaal",
       "source_type": "rss",
-      "published": "2026-08-10T12:17:04+00:00",
+      "published": "2026-08-10T21:42:30+00:00",
       "channel": "ai",
       "region": "int",
       "topics": [
@@ -293,7 +293,7 @@
       "url": "https://example.com/voorbeeld/10",
       "source_name": "Rekenkracht Vandaag",
       "source_type": "rss",
-      "published": "2026-08-09T15:17:04+00:00",
+      "published": "2026-08-10T00:42:30+00:00",
       "channel": "ai",
       "region": "int",
       "topics": [

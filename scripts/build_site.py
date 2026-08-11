@@ -201,6 +201,7 @@ def render_digest(env, payload: dict, *, is_latest: bool, archive: list[dict]) -
         total=len(items),
         source_count=len({i["source_name"] for i in items}),
         is_sample=bool(payload.get("is_sample")),
+        is_empty=bool(payload.get("is_empty")),
         is_latest=is_latest,
         archive=archive,
         base="" if is_latest else "../",
@@ -217,12 +218,22 @@ def run(digest_path: Path | None, use_sample: bool) -> int:
 
     if digest_path is None:
         available = sorted((DATA_DIR / "digest").glob("*.json"))
-        if not available:
-            print("Geen digest gevonden. Draai eerst validate.py.", file=sys.stderr)
-            return 1
-        digest_path = available[-1]
+        digest_path = available[-1] if available else None
 
-    payload = json.loads(digest_path.read_text(encoding="utf-8"))
+    if digest_path is None:
+        # Eerste run, of het verrijken is nooit gelukt. Een lege pagina is beter
+        # dan een gefaalde deploy: de site staat dan tenminste live en vertelt
+        # wat eraan schort. Het vangnet "publiceer de vorige digest" heeft
+        # namelijk geen vorige om op terug te vallen.
+        print("Nog geen digest; lege site gebouwd.", file=sys.stderr)
+        payload = {
+            "date": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+            "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+            "is_empty": True,
+            "items": [],
+        }
+    else:
+        payload = json.loads(digest_path.read_text(encoding="utf-8"))
     env = environment()
     archive = archive_entries()
 
