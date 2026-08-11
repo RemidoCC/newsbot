@@ -36,7 +36,7 @@ sources:
   - copilot
   - algoritme
   verified: true
-  verified_at: '2026-08-11T19:40:42+00:00'
+  verified_at: '2026-08-11T19:54:41+00:00'
 
 - name: NOS Tech
   enabled: true
@@ -57,7 +57,7 @@ sources:
   - openai
   - anthropic
   verified: true
-  verified_at: '2026-08-11T19:40:42+00:00'
+  verified_at: '2026-08-11T19:54:41+00:00'
 - name: Emerce
   enabled: true
   type: rss
@@ -76,7 +76,7 @@ sources:
   - algoritme
   - data
   verified: true
-  verified_at: '2026-08-11T19:40:42+00:00'
+  verified_at: '2026-08-11T19:54:41+00:00'
 
 - name: Computable
   enabled: true
@@ -95,7 +95,7 @@ sources:
   - chatbot
   - algoritme
   verified: true
-  verified_at: '2026-08-11T19:40:42+00:00'
+  verified_at: '2026-08-11T19:54:41+00:00'
 
 - name: Bits of Freedom
   enabled: true
@@ -107,7 +107,7 @@ sources:
   homepage: https://www.bitsoffreedom.nl/
   max_items: 20
   verified: true
-  verified_at: '2026-08-11T19:40:42+00:00'
+  verified_at: '2026-08-11T19:54:41+00:00'
 
 - name: Nederlandse AI Coalitie
   enabled: true
@@ -120,7 +120,7 @@ sources:
   homepage: https://nlaic.com/nieuws/
   max_items: 20
   verified: true
-  verified_at: '2026-08-11T19:40:42+00:00'
+  verified_at: '2026-08-11T19:54:41+00:00'
 # --- Toegevoegd 2026-08-11 ---------------------------------------
 
 # Algoritmetoezichthouder; publiceert de AI-risicorapportages.
@@ -144,4 +144,4 @@ sources:
   - profilering
   - geautomatiseerde besluitvorming
   verified: true
-  verified_at: '2026-08-11T19:40:42+00:00'
+  verified_at: '2026-08-11T19:54:41+00:00'

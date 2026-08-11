@@ -22,7 +22,7 @@ sources:
   homepage: https://www.bibliotheekblad.nl/
   max_items: 25
   verified: true
-  verified_at: '2026-08-11T19:40:42+00:00'
+  verified_at: '2026-08-11T19:54:41+00:00'
 
 - name: Koninklijke Bibliotheek
   enabled: true
@@ -35,7 +35,7 @@ sources:
   homepage: https://www.kb.nl/nieuws
   max_items: 25
   verified: false
-  verified_at: '2026-08-11T19:40:42+00:00'
+  verified_at: '2026-08-11T19:54:41+00:00'
 - name: Netwerk Mediawijsheid
   enabled: true
   type: rss
@@ -47,7 +47,7 @@ sources:
   homepage: https://netwerkmediawijsheid.nl/nieuws/
   max_items: 25
   verified: true
-  verified_at: '2026-08-11T19:40:42+00:00'
+  verified_at: '2026-08-11T19:54:41+00:00'
 - name: Digisterker
   enabled: true
   type: rss
@@ -59,7 +59,7 @@ sources:
   homepage: https://www.digisterker.nl/nieuws
   max_items: 25
   verified: true
-  verified_at: '2026-08-11T19:40:42+00:00'
+  verified_at: '2026-08-11T19:54:41+00:00'
 
   # spn.nl bestaat niet (DNS resolvet niet). Het echte domein is stichtingspn.nl.
 - name: SPN (Stichting Samenwerkende POI's Nederland)
@@ -73,7 +73,7 @@ sources:
   homepage: https://www.stichtingspn.nl/
   max_items: 25
   verified: true
-  verified_at: '2026-08-11T19:40:42+00:00'
+  verified_at: '2026-08-11T19:54:41+00:00'
 
 # --- Toegevoegd 2026-08-11 ---------------------------------------
 
@@ -89,7 +89,7 @@ sources:
   homepage: https://www.bibliotheeknetwerk.nl/nieuws
   max_items: 25
   verified: false
-  verified_at: '2026-08-11T19:40:42+00:00'
+  verified_at: '2026-08-11T19:54:41+00:00'
 
 # POI Noord- en Zuid-Holland: cursussen, trainingen, dienstverlening.
 - name: Probiblio
@@ -103,7 +103,7 @@ sources:
   homepage: https://www.probiblio.nl/nieuws
   max_items: 25
   verified: true
-  verified_at: '2026-08-11T19:40:42+00:00'
+  verified_at: '2026-08-11T19:54:41+00:00'
 
 # POI Overijssel en Gelderland.
 - name: Rijnbrink
@@ -117,7 +117,7 @@ sources:
   homepage: https://www.rijnbrink.nl/actueel/nieuws/
   max_items: 25
   verified: true
-  verified_at: '2026-08-11T19:40:42+00:00'
+  verified_at: '2026-08-11T19:54:41+00:00'
 - name: ECP | Platform voor de InformatieSamenleving
   enabled: true
   type: rss
@@ -129,7 +129,7 @@ sources:
   homepage: https://ecp.nl/actueel/
   max_items: 25
   verified: true
-  verified_at: '2026-08-11T19:40:42+00:00'
+  verified_at: '2026-08-11T19:54:41+00:00'
 
 # Digitale geletterdheid in het onderwijs.
 - name: Kennisnet
@@ -143,4 +143,4 @@ sources:
   homepage: https://www.kennisnet.nl/actueel/
   max_items: 25
   verified: true
-  verified_at: '2026-08-11T19:40:42+00:00'
+  verified_at: '2026-08-11T19:54:41+00:00'

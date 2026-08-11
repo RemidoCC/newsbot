@@ -1,19 +1,5 @@
 [
   {
-    "name": "The Batch (DeepLearning.AI)",
-    "file": "ai_int.yaml",
-    "type": "rss",
-    "enabled": false,
-    "configured_url": "https://www.deeplearning.ai/the-batch/rss.xml",
-    "ok": false,
-    "status": null,
-    "age_days": null,
-    "winning_url": null,
-    "via": null,
-    "detail": "staat uit",
-    "attempts": []
-  },
-  {
     "name": "Import AI",
     "file": "ai_int.yaml",
     "type": "rss",
@@ -155,20 +141,6 @@
     ]
   },
   {
-    "name": "Anthropic",
-    "file": "ai_int.yaml",
-    "type": "rss",
-    "enabled": false,
-    "configured_url": "https://rsshub.bestblogs.dev/anthropic/news",
-    "ok": false,
-    "status": null,
-    "age_days": null,
-    "winning_url": null,
-    "via": null,
-    "detail": "staat uit",
-    "attempts": []
-  },
-  {
     "name": "Google DeepMind",
     "file": "ai_int.yaml",
     "type": "rss",
@@ -240,29 +212,53 @@
     "name": "TLDR AI",
     "file": "ai_int.yaml",
     "type": "newsletter",
-    "enabled": false,
-    "configured_url": "",
-    "ok": false,
-    "status": null,
-    "age_days": null,
-    "winning_url": null,
-    "via": null,
-    "detail": "staat uit",
-    "attempts": []
+    "enabled": true,
+    "configured_url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o.xml",
+    "ok": true,
+    "status": "ok",
+    "age_days": 0,
+    "winning_url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o.xml",
+    "via": "url",
+    "detail": "9 items, nieuwste 0 dagen oud",
+    "attempts": [
+      {
+        "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o.xml",
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o.xml",
+        "content_type": "application/atom+xml",
+        "feed_title": "Newsbot",
+        "entries": 9,
+        "newest": "2026-08-11T13:34:09+00:00",
+        "dated_entries": 9
+      }
+    ]
   },
   {
     "name": "The Rundown AI",
     "file": "ai_int.yaml",
     "type": "newsletter",
-    "enabled": false,
-    "configured_url": "",
-    "ok": false,
-    "status": null,
-    "age_days": null,
-    "winning_url": null,
-    "via": null,
-    "detail": "staat uit",
-    "attempts": []
+    "enabled": true,
+    "configured_url": "https://kill-the-newsletter.com/feeds/7b87u0i8h3vypjvvprgc.xml",
+    "ok": true,
+    "status": "ok",
+    "age_days": 0,
+    "winning_url": "https://kill-the-newsletter.com/feeds/7b87u0i8h3vypjvvprgc.xml",
+    "via": "url",
+    "detail": "6 items, nieuwste 0 dagen oud",
+    "attempts": [
+      {
+        "url": "https://kill-the-newsletter.com/feeds/7b87u0i8h3vypjvvprgc.xml",
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://kill-the-newsletter.com/feeds/7b87u0i8h3vypjvvprgc.xml",
+        "content_type": "application/atom+xml",
+        "feed_title": "newsbot 2",
+        "entries": 6,
+        "newest": "2026-08-11T14:32:20+00:00",
+        "dated_entries": 6
+      }
+    ]
   },
   {
     "name": "Hacker News",
@@ -282,56 +278,56 @@
     "name": "r/MachineLearning",
     "file": "ai_int.yaml",
     "type": "reddit",
-    "enabled": true,
+    "enabled": false,
     "configured_url": "",
     "ok": false,
     "status": null,
     "age_days": null,
     "winning_url": null,
     "via": null,
-    "detail": "RuntimeError: REDDIT_CLIENT_ID / REDDIT_CLIENT_SECRET ontbreken. Reddit's onauthenticated .json is sinds mei 2026 dicht; zie README stap 4.",
+    "detail": "staat uit",
     "attempts": []
   },
   {
     "name": "r/LocalLLaMA",
     "file": "ai_int.yaml",
     "type": "reddit",
-    "enabled": true,
+    "enabled": false,
     "configured_url": "",
     "ok": false,
     "status": null,
     "age_days": null,
     "winning_url": null,
     "via": null,
-    "detail": "RuntimeError: REDDIT_CLIENT_ID / REDDIT_CLIENT_SECRET ontbreken. Reddit's onauthenticated .json is sinds mei 2026 dicht; zie README stap 4.",
+    "detail": "staat uit",
     "attempts": []
   },
   {
     "name": "r/artificial",
     "file": "ai_int.yaml",
     "type": "reddit",
-    "enabled": true,
+    "enabled": false,
     "configured_url": "",
     "ok": false,
     "status": null,
     "age_days": null,
     "winning_url": null,
     "via": null,
-    "detail": "RuntimeError: REDDIT_CLIENT_ID / REDDIT_CLIENT_SECRET ontbreken. Reddit's onauthenticated .json is sinds mei 2026 dicht; zie README stap 4.",
+    "detail": "staat uit",
     "attempts": []
   },
   {
     "name": "r/singularity",
     "file": "ai_int.yaml",
     "type": "reddit",
-    "enabled": true,
+    "enabled": false,
     "configured_url": "",
     "ok": false,
     "status": null,
     "age_days": null,
     "winning_url": null,
     "via": null,
-    "detail": "RuntimeError: REDDIT_CLIENT_ID / REDDIT_CLIENT_SECRET ontbreken. Reddit's onauthenticated .json is sinds mei 2026 dicht; zie README stap 4.",
+    "detail": "staat uit",
     "attempts": []
   },
   {
@@ -412,25 +408,14 @@
     "file": "ai_int.yaml",
     "type": "rss",
     "enabled": true,
-    "configured_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+    "configured_url": "https://www.theverge.com/rss/index.xml",
     "ok": true,
     "status": "ok",
     "age_days": 0,
     "winning_url": "https://www.theverge.com/rss/index.xml",
-    "via": "fallback",
+    "via": "url",
     "detail": "10 items, nieuwste 0 dagen oud",
     "attempts": [
-      {
-        "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-        "ok": true,
-        "http_status": 200,
-        "final_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-        "content_type": "application/xml",
-        "feed_title": "AI | The Verge",
-        "entries": 10,
-        "newest": "2026-08-11T12:19:15-04:00",
-        "dated_entries": 10
-      },
       {
         "url": "https://www.theverge.com/rss/index.xml",
         "ok": true,
@@ -439,38 +424,8 @@
         "content_type": "application/xml",
         "feed_title": "The Verge",
         "entries": 10,
-        "newest": "2026-08-11T15:10:14-04:00",
+        "newest": "2026-08-11T15:41:42-04:00",
         "dated_entries": 10
-      }
-    ]
-  },
-  {
-    "name": "Stanford HAI",
-    "file": "ai_int.yaml",
-    "type": "rss",
-    "enabled": true,
-    "configured_url": "https://hai.stanford.edu/news/rss.xml",
-    "ok": false,
-    "status": null,
-    "age_days": null,
-    "winning_url": null,
-    "via": null,
-    "detail": "geen enkele kandidaat leverde een feed op",
-    "attempts": [
-      {
-        "url": "https://hai.stanford.edu/news/rss.xml",
-        "ok": false,
-        "error": "ValueError: HTTP 200, content-type text/html, 0 items"
-      },
-      {
-        "url": "https://hai.stanford.edu/rss.xml",
-        "ok": false,
-        "error": "ValueError: HTTP 200, content-type text/html, 0 items"
-      },
-      {
-        "url": "https://hai.stanford.edu/feed",
-        "ok": false,
-        "error": "ValueError: HTTP 200, content-type text/html, 0 items"
       }
     ]
   },
@@ -559,34 +514,6 @@
     ]
   },
   {
-    "name": "BNR",
-    "file": "ai_nl.yaml",
-    "type": "rss",
-    "enabled": false,
-    "configured_url": "https://www.bnr.nl/rss/tech",
-    "ok": false,
-    "status": null,
-    "age_days": null,
-    "winning_url": null,
-    "via": null,
-    "detail": "staat uit",
-    "attempts": []
-  },
-  {
-    "name": "AG Connect",
-    "file": "ai_nl.yaml",
-    "type": "rss",
-    "enabled": false,
-    "configured_url": "https://www.agconnect.nl/rss.xml",
-    "ok": false,
-    "status": null,
-    "age_days": null,
-    "winning_url": null,
-    "via": null,
-    "detail": "staat uit",
-    "attempts": []
-  },
-  {
     "name": "Emerce",
     "file": "ai_nl.yaml",
     "type": "rss",
@@ -649,7 +576,7 @@
         "content_type": "text/xml",
         "feed_title": "Computable.nl",
         "entries": 10,
-        "newest": "2026-08-11T15:00:00+00:00",
+        "newest": "2026-08-11T13:00:00+00:00",
         "dated_entries": 10
       },
       {
@@ -660,7 +587,7 @@
         "content_type": "text/xml",
         "feed_title": "Computable.nl",
         "entries": 10,
-        "newest": "2026-08-11T15:00:00+00:00",
+        "newest": "2026-08-11T13:00:00+00:00",
         "dated_entries": 10
       },
       {
@@ -756,20 +683,6 @@
     ]
   },
   {
-    "name": "Rijksoverheid",
-    "file": "ai_nl.yaml",
-    "type": "rss",
-    "enabled": false,
-    "configured_url": "https://feeds.rijksoverheid.nl/nieuws.rss",
-    "ok": false,
-    "status": null,
-    "age_days": null,
-    "winning_url": null,
-    "via": null,
-    "detail": "staat uit",
-    "attempts": []
-  },
-  {
     "name": "Autoriteit Persoonsgegevens",
     "file": "ai_nl.yaml",
     "type": "rss",
@@ -802,96 +715,6 @@
         "url": "https://www.autoriteitpersoonsgegevens.nl/nl/actueel/rss",
         "ok": false,
         "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://www.autoriteitpersoonsgegevens.nl/actueel/rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
-      }
-    ]
-  },
-  {
-    "name": "iBestuur",
-    "file": "ai_nl.yaml",
-    "type": "rss",
-    "enabled": true,
-    "configured_url": "https://ibestuur.nl/feed/",
-    "ok": false,
-    "status": null,
-    "age_days": null,
-    "winning_url": null,
-    "via": null,
-    "detail": "geen enkele kandidaat leverde een feed op",
-    "attempts": [
-      {
-        "url": "https://ibestuur.nl/feed/",
-        "ok": false,
-        "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://ibestuur.nl/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
-      },
-      {
-        "url": "https://ibestuur.nl/rss",
-        "ok": false,
-        "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://ibestuur.nl/rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
-      },
-      {
-        "url": "https://www.ibestuur.nl/feed/",
-        "ok": false,
-        "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://ibestuur.nl/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
-      }
-    ]
-  },
-  {
-    "name": "Waag Futurelab",
-    "file": "ai_nl.yaml",
-    "type": "rss",
-    "enabled": true,
-    "configured_url": "https://waag.org/nl/rss.xml",
-    "ok": false,
-    "status": null,
-    "age_days": null,
-    "winning_url": null,
-    "via": null,
-    "detail": "geen enkele kandidaat leverde een feed op",
-    "attempts": [
-      {
-        "url": "https://waag.org/nl/rss.xml",
-        "ok": false,
-        "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://waag.org/nl/rss.xml'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
-      },
-      {
-        "url": "https://waag.org/rss.xml",
-        "ok": false,
-        "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://waag.org/rss.xml'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
-      },
-      {
-        "url": "https://waag.org/nl/feed/",
-        "ok": false,
-        "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://waag.org/nl/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
-      }
-    ]
-  },
-  {
-    "name": "Netkwesties",
-    "file": "ai_nl.yaml",
-    "type": "rss",
-    "enabled": true,
-    "configured_url": "https://www.netkwesties.nl/feed/",
-    "ok": false,
-    "status": null,
-    "age_days": null,
-    "winning_url": null,
-    "via": null,
-    "detail": "geen enkele kandidaat leverde een feed op",
-    "attempts": [
-      {
-        "url": "https://www.netkwesties.nl/feed/",
-        "ok": false,
-        "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://www.netkwesties.nl/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
-      },
-      {
-        "url": "https://www.netkwesties.nl/rss",
-        "ok": false,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.netkwesties.nl/rss/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "url": "https://netkwesties.nl/feed/",
-        "ok": false,
-        "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://www.netkwesties.nl/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
       }
     ]
   },
@@ -985,59 +808,6 @@
     ]
   },
   {
-    "name": "VOB (debibliotheken.nl)",
-    "file": "bieb_nl.yaml",
-    "type": "rss",
-    "enabled": true,
-    "configured_url": "https://www.debibliotheken.nl/feed",
-    "ok": false,
-    "status": "verouderd",
-    "age_days": 1860,
-    "winning_url": "https://www.debibliotheken.nl/feed/",
-    "via": "url",
-    "detail": "1 items, nieuwste 1860 dagen oud — BEVROREN",
-    "attempts": [
-      {
-        "url": "https://www.debibliotheken.nl/feed",
-        "ok": true,
-        "http_status": 200,
-        "final_url": "https://www.debibliotheken.nl/feed/",
-        "content_type": "application/rss+xml",
-        "feed_title": "VOB (Vereniging Openbare Bibliotheken)",
-        "entries": 1,
-        "newest": "2021-07-08T13:45:18+00:00",
-        "dated_entries": 1
-      },
-      {
-        "url": "https://www.debibliotheken.nl/rss",
-        "ok": true,
-        "http_status": 200,
-        "final_url": "https://www.debibliotheken.nl/feed/",
-        "content_type": "application/rss+xml",
-        "feed_title": "VOB (Vereniging Openbare Bibliotheken)",
-        "entries": 1,
-        "newest": "2021-07-08T13:45:18+00:00",
-        "dated_entries": 1
-      },
-      {
-        "url": "https://debibliotheken.nl/feed/",
-        "ok": true,
-        "http_status": 200,
-        "final_url": "https://www.debibliotheken.nl/feed/",
-        "content_type": "application/rss+xml",
-        "feed_title": "VOB (Vereniging Openbare Bibliotheken)",
-        "entries": 1,
-        "newest": "2021-07-08T13:45:18+00:00",
-        "dated_entries": 1
-      },
-      {
-        "url": "https://www.debibliotheken.nl/actueel",
-        "ok": false,
-        "error": "autodiscovery: Client error '404 Not Found' for url 'https://www.debibliotheken.nl/actueel'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
-      }
-    ]
-  },
-  {
     "name": "Netwerk Mediawijsheid",
     "file": "bieb_nl.yaml",
     "type": "rss",
@@ -1084,73 +854,6 @@
         "dated_entries": 10
       }
     ]
-  },
-  {
-    "name": "Alliantie Digitaal Samenleven",
-    "file": "bieb_nl.yaml",
-    "type": "rss",
-    "enabled": true,
-    "configured_url": "https://digitaalsamenleven.nl/feed/",
-    "ok": false,
-    "status": "verouderd",
-    "age_days": 1790,
-    "winning_url": "https://digitaalsamenleven.nl/feed/",
-    "via": "url",
-    "detail": "1 items, nieuwste 1790 dagen oud — BEVROREN",
-    "attempts": [
-      {
-        "url": "https://digitaalsamenleven.nl/feed/",
-        "ok": true,
-        "http_status": 200,
-        "final_url": "https://digitaalsamenleven.nl/feed/",
-        "content_type": "application/rss+xml",
-        "feed_title": "Alliantie Digitaal Samenleven",
-        "entries": 1,
-        "newest": "2021-09-16T08:15:39+00:00",
-        "dated_entries": 1
-      },
-      {
-        "url": "https://www.digitaalsamenleven.nl/feed/",
-        "ok": true,
-        "http_status": 200,
-        "final_url": "https://digitaalsamenleven.nl/feed/",
-        "content_type": "application/rss+xml",
-        "feed_title": "Alliantie Digitaal Samenleven",
-        "entries": 1,
-        "newest": "2021-09-16T08:15:39+00:00",
-        "dated_entries": 1
-      },
-      {
-        "url": "https://digitaalsamenleven.nl/rss",
-        "ok": true,
-        "http_status": 200,
-        "final_url": "https://digitaalsamenleven.nl/feed/",
-        "content_type": "application/rss+xml",
-        "feed_title": "Alliantie Digitaal Samenleven",
-        "entries": 1,
-        "newest": "2021-09-16T08:15:39+00:00",
-        "dated_entries": 1
-      },
-      {
-        "url": "https://digitaalsamenleven.nl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdigitaalsamenleven.nl%2Fnieuws%2F&format=xml",
-        "ok": false,
-        "error": "ValueError: HTTP 200, content-type text/xml, 0 items"
-      }
-    ]
-  },
-  {
-    "name": "Stichting Lezen en Schrijven",
-    "file": "bieb_nl.yaml",
-    "type": "rss",
-    "enabled": false,
-    "configured_url": "https://www.lezenenschrijven.nl/feed",
-    "ok": false,
-    "status": null,
-    "age_days": null,
-    "winning_url": null,
-    "via": null,
-    "detail": "staat uit",
-    "attempts": []
   },
   {
     "name": "Digisterker",
@@ -1331,24 +1034,14 @@
     "file": "bieb_nl.yaml",
     "type": "rss",
     "enabled": true,
-    "configured_url": "https://www.rijnbrink.nl/feed/",
+    "configured_url": "https://www.rijnbrink.nl/actueel/nieuws/feed/",
     "ok": true,
     "status": "ok",
     "age_days": 1,
     "winning_url": "https://www.rijnbrink.nl/actueel/nieuws/feed/",
-    "via": "fallback",
+    "via": "url",
     "detail": "10 items, nieuwste 1 dagen oud",
     "attempts": [
-      {
-        "url": "https://www.rijnbrink.nl/feed/",
-        "ok": false,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.rijnbrink.nl/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
-      {
-        "url": "https://www.rijnbrink.nl/rss",
-        "ok": false,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.rijnbrink.nl/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
       {
         "url": "https://www.rijnbrink.nl/actueel/nieuws/feed/",
         "ok": true,
@@ -1359,36 +1052,11 @@
         "entries": 10,
         "newest": "2026-08-10T11:06:02+00:00",
         "dated_entries": 10
-      }
-    ]
-  },
-  {
-    "name": "Cubiss",
-    "file": "bieb_nl.yaml",
-    "type": "rss",
-    "enabled": true,
-    "configured_url": "https://www.cubiss.nl/feed/",
-    "ok": false,
-    "status": null,
-    "age_days": null,
-    "winning_url": null,
-    "via": null,
-    "detail": "geen enkele kandidaat leverde een feed op",
-    "attempts": [
-      {
-        "url": "https://www.cubiss.nl/feed/",
-        "ok": false,
-        "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://www.cubiss.nl/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
       },
       {
-        "url": "https://www.cubiss.nl/rss",
+        "url": "https://www.rijnbrink.nl/rss",
         "ok": false,
-        "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://www.cubiss.nl/rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
-      },
-      {
-        "url": "https://cubiss.nl/feed/",
-        "ok": false,
-        "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://www.cubiss.nl/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.rijnbrink.nl/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
       }
     ]
   },
@@ -1514,48 +1182,6 @@
     ]
   },
   {
-    "name": "EBLIDA",
-    "file": "bieb_int.yaml",
-    "type": "rss",
-    "enabled": false,
-    "configured_url": "https://www.eblida.org/feed/",
-    "ok": false,
-    "status": null,
-    "age_days": null,
-    "winning_url": null,
-    "via": null,
-    "detail": "staat uit",
-    "attempts": []
-  },
-  {
-    "name": "Public Libraries 2030",
-    "file": "bieb_int.yaml",
-    "type": "rss",
-    "enabled": false,
-    "configured_url": "https://publiclibraries2030.eu/feed/",
-    "ok": false,
-    "status": null,
-    "age_days": null,
-    "winning_url": null,
-    "via": null,
-    "detail": "staat uit",
-    "attempts": []
-  },
-  {
-    "name": "Library Journal",
-    "file": "bieb_int.yaml",
-    "type": "rss",
-    "enabled": false,
-    "configured_url": "https://www.libraryjournal.com/rss/all",
-    "ok": false,
-    "status": null,
-    "age_days": null,
-    "winning_url": null,
-    "via": null,
-    "detail": "staat uit",
-    "attempts": []
-  },
-  {
     "name": "American Libraries",
     "file": "bieb_int.yaml",
     "type": "rss",
@@ -1616,14 +1242,14 @@
     "name": "r/libraries",
     "file": "bieb_int.yaml",
     "type": "reddit",
-    "enabled": true,
+    "enabled": false,
     "configured_url": "",
     "ok": false,
     "status": null,
     "age_days": null,
     "winning_url": null,
     "via": null,
-    "detail": "RuntimeError: REDDIT_CLIENT_ID / REDDIT_CLIENT_SECRET ontbreken. Reddit's onauthenticated .json is sinds mei 2026 dicht; zie README stap 4.",
+    "detail": "staat uit",
     "attempts": []
   },
   {

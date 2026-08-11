@@ -17,7 +17,7 @@ sources:
   homepage: https://www.ifla.org/news/
   max_items: 25
   verified: true
-  verified_at: '2026-08-11T19:40:42+00:00'
+  verified_at: '2026-08-11T19:54:41+00:00'
 - name: American Libraries
   enabled: true
   type: rss
@@ -28,7 +28,7 @@ sources:
   homepage: https://americanlibrariesmagazine.org/
   max_items: 25
   verified: true
-  verified_at: '2026-08-11T19:40:42+00:00'
+  verified_at: '2026-08-11T19:54:41+00:00'
 
 - name: Princh Library Blog
   enabled: true
@@ -40,7 +40,7 @@ sources:
   homepage: https://princh.com/blog/
   max_items: 20
   verified: true
-  verified_at: '2026-08-11T19:40:42+00:00'
+  verified_at: '2026-08-11T19:54:41+00:00'
 
   # Reddit via de officiele OAuth-API, zie sources/ai_int.yaml en README stap 4.
 - name: r/libraries
@@ -69,7 +69,7 @@ sources:
   homepage: https://www.infodocket.com/
   max_items: 30
   verified: true
-  verified_at: '2026-08-11T19:40:42+00:00'
+  verified_at: '2026-08-11T19:54:41+00:00'
 
 - name: Public Libraries Online
   enabled: true
@@ -81,4 +81,4 @@ sources:
   homepage: https://publiclibrariesonline.org/
   max_items: 25
   verified: true
-  verified_at: '2026-08-11T19:40:42+00:00'
+  verified_at: '2026-08-11T19:54:41+00:00'
