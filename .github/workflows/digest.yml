@@ -183,3 +183,30 @@ jobs:
           # feedparser, bs4 en ruamel.
           pip install --quiet -r requirements.txt
           python scripts/send_push.py
+
+  # Zonder deze job slagen de meeste storingen stil: geen token, alle batches
+  # ongeldig, Supabase weg — de run wordt groen en publiceert een oude digest.
+  # Je merkt het dan pas als je opvalt dat het nieuws niet vers is. Deze job
+  # loopt als laatste en faalt met opzet, zodat GitHub je een mail stuurt.
+  # Hij blokkeert de deploy niet: die is op dit punt al gebeurd.
+  alarm:
+    needs: [digest, deploy]
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Stille storing melden
+        run: |
+          if [ "${{ needs.digest.result }}" != "success" ]; then
+            echo "::error::De digest-job zelf is gefaald. Zie de logs hierboven."
+            exit 1
+          fi
+          if [ "${{ needs.digest.outputs.nieuwe_digest }}" != "true" ]; then
+            echo "::error::De run is geslaagd maar leverde geen nieuwe digest op."
+            echo "Meest waarschijnlijk: CLAUDE_CODE_OAUTH_TOKEN ontbreekt of is"
+            echo "verlopen, of alle batches kwamen ongeldig terug. De site toont"
+            echo "nu de vorige digest en er is geen melding verstuurd."
+            exit 1
+          fi
+          echo "Nieuwe digest gepubliceerd."

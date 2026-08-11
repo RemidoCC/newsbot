@@ -1,0 +1,63 @@
+name: Tests
+
+# Draait bij elke push en bij elke pull request. Geen netwerk nodig: de
+# bronverificatie is een integratietest en zit in verify_sources.yml.
+
+on:
+  push:
+    paths:
+      - "scripts/**"
+      - "tests/**"
+      - "site/assets/app.css"
+      - "requirements.txt"
+      - ".github/workflows/tests.yml"
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Dependencies installeren
+        run: |
+          pip install -r requirements.txt
+          pip install pytest
+
+      - name: Tests draaien
+        run: python -m pytest tests/ -q
+
+      - name: Templates controleren
+        run: |
+          # Rendert de site met voorbeelddata. Vangt Jinja-fouten die pas bij
+          # het renderen opduiken, zoals `sectie.items` dat de dict-methode pakt.
+          python scripts/sample_data.py
+          python scripts/build_site.py --sample
+
+      - name: Interne links controleren
+        run: |
+          python - <<'PY'
+          import re, pathlib, sys
+          site = pathlib.Path("site")
+          kapot = []
+          for html in site.rglob("*.html"):
+              for doel in re.findall(r'(?:href|src)="([^"#:]+)"', html.read_text(encoding="utf-8")):
+                  if doel.startswith(("http", "mailto")):
+                      continue
+                  if not (html.parent / doel).resolve().exists():
+                      kapot.append(f"{html.relative_to(site)} -> {doel}")
+          if kapot:
+              print("Kapotte interne verwijzingen:")
+              for k in kapot:
+                  print(" ", k)
+              sys.exit(1)
+          print("Alle interne verwijzingen kloppen.")
+          PY

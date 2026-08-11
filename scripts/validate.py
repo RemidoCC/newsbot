@@ -27,7 +27,7 @@ from pathlib import Path
 
 from jsonschema import Draft202012Validator
 
-from collect import DATA_DIR, ROOT, flush_errors, log_error
+from collect import DATA_DIR, flush_errors, log_error, toon_pad
 
 TOPICS = [
     "modellen", "onderzoek", "beleid-en-regelgeving", "bedrijven", "tools",
@@ -212,7 +212,7 @@ def run(batch_paths: list[Path], check_only: bool) -> int:
         }, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
-    print(f"{len(items)} items -> {out_path.relative_to(ROOT)}", file=sys.stderr)
+    print(f"{len(items)} items -> {toon_pad(out_path)}", file=sys.stderr)
 
     # Een lege digest is geen crash, maar de workflow moet 'm wel herkennen:
     # geen pushmelding, en de vorige digest blijft staan.

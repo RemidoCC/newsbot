@@ -149,6 +149,18 @@ def item_id(url: str) -> str:
     return hashlib.sha256(normalize_url(url).encode("utf-8")).hexdigest()
 
 
+def toon_pad(pad: Path) -> str:
+    """Pad voor in een logregel, kort waar het kan.
+
+    relative_to() gooit een ValueError zodra het pad buiten de repo ligt, en
+    dan klapt een run op een print-regel. Dat is nergens voor nodig.
+    """
+    try:
+        return str(pad.relative_to(ROOT))
+    except ValueError:
+        return str(pad)
+
+
 def html_to_text(html: str) -> str:
     if not html:
         return ""
@@ -900,7 +912,7 @@ def run_collect(only: str | None) -> int:
 
     print(
         f"\n{len(unique)} unieke items uit {len(per_source)} bronnen "
-        f"-> {out_path.relative_to(ROOT)}",
+        f"-> {toon_pad(out_path)}",
         file=sys.stderr,
     )
     if _errors:

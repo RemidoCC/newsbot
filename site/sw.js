@@ -56,7 +56,13 @@ self.addEventListener('fetch', function (event) {
   var url = new URL(verzoek.url);
   if (url.origin !== self.location.origin) return;
 
-  if (verzoek.mode === 'navigate') {
+  // config.js en de digest zijn de twee bestanden die veranderen zonder dat
+  // sw.js verandert. Cache-first zou dan een oude VAPID-sleutel of een oude
+  // digest blijven serveren tot de service worker toevallig ververst — en dat
+  // faalt stil: de meldingen komen gewoon niet aan en niets zegt waarom.
+  var altijdVers = /\/(config\.js|digest\.json)$/.test(url.pathname);
+
+  if (verzoek.mode === 'navigate' || altijdVers) {
     event.respondWith(
       fetch(verzoek).then(function (antwoord) {
         var kopie = antwoord.clone();
@@ -64,7 +70,10 @@ self.addEventListener('fetch', function (event) {
         return antwoord;
       }).catch(function () {
         return caches.match(verzoek).then(function (gevonden) {
-          return gevonden || caches.match('./index.html');
+          if (gevonden) return gevonden;
+          // Alleen bij het openen van een pagina is index.html een zinnig
+          // alternatief. Voor config.js zou dat HTML als JavaScript serveren.
+          return verzoek.mode === 'navigate' ? caches.match('./index.html') : undefined;
         });
       })
     );

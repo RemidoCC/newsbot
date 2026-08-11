@@ -29,7 +29,7 @@ from pathlib import Path
 
 from dateutil import parser as dateparser
 
-from collect import DATA_DIR, ROOT, flush_errors, log_error, normalize_url
+from collect import DATA_DIR, flush_errors, log_error, normalize_url, toon_pad
 
 SEEN_PATH = DATA_DIR / "seen.json"
 SEEN_RETENTION_DAYS = 30
@@ -202,7 +202,7 @@ def run(date: str | None, dry_run: bool) -> int:
 
     print(
         f"{len(kept)} items over, {len(batches)} batches "
-        f"-> {batch_dir.relative_to(ROOT)}/",
+        f"-> {toon_pad(batch_dir)}/",
         file=sys.stderr,
     )
     return 0
