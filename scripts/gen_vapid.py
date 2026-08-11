@@ -24,9 +24,9 @@ from py_vapid import Vapid01
 def publieke_sleutel(vapid: Vapid01) -> str:
     """De publieke sleutel als base64url, de vorm die de browser verwacht.
 
-    py_vapid geeft alleen PEM terug. De Push API wil het ongecomprimeerde
-    X9.62-punt (65 bytes) in base64url zonder opvulling — dat is wat je aan
-    pushManager.subscribe meegeeft als applicationServerKey.
+    De Push API wil het ongecomprimeerde X9.62-punt (65 bytes) in base64url
+    zonder opvulling — dat is wat je aan pushManager.subscribe meegeeft als
+    applicationServerKey.
     """
     ruw = vapid.public_key.public_bytes(
         serialization.Encoding.X962,
@@ -35,18 +35,40 @@ def publieke_sleutel(vapid: Vapid01) -> str:
     return base64.urlsafe_b64encode(ruw).decode("ascii").rstrip("=")
 
 
+def prive_sleutel(vapid: Vapid01) -> str:
+    """De privésleutel als base64url, niet als PEM.
+
+    Dit lijkt een detail maar is het niet: pywebpush geeft VAPID_PRIVATE_KEY
+    door aan Vapid.from_string(), en die struikelt over de PEM die
+    private_pem() teruggeeft ("ASN.1 parsing error"). De ruwe 32 bytes in
+    base64url leest hij wel. Dit is bovendien exact het formaat dat
+    `npx web-push generate-vapid-keys` produceert, dus beide routes leveren
+    hetzelfde op.
+    """
+    ruw = vapid.private_key.private_numbers().private_value.to_bytes(32, "big")
+    return base64.urlsafe_b64encode(ruw).decode("ascii").rstrip("=")
+
+
 def main() -> int:
     vapid = Vapid01()
     vapid.generate_keys()
 
-    prive = vapid.private_pem().decode("utf-8").strip()
+    prive = prive_sleutel(vapid)
     publiek = publieke_sleutel(vapid)
+
+    # Controleer meteen dat pywebpush deze sleutel straks kan lezen. Beter hier
+    # falen dan bij de eerste melding die niet aankomt.
+    try:
+        Vapid01.from_string(private_key=prive)
+    except Exception as exc:  # noqa: BLE001
+        print(f"Gegenereerde sleutel is niet terug te lezen: {exc}", file=sys.stderr)
+        return 1
 
     print()
     print("=" * 72)
     print("1. Repo-secret  VAPID_PRIVATE_KEY")
     print("   GitHub -> Settings -> Secrets and variables -> Actions")
-    print("   Plak hieronder alles, inclusief de BEGIN- en END-regels:")
+    print("   Plak de regel hieronder, precies zoals hij staat:")
     print("=" * 72)
     print(prive)
     print()

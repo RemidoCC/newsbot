@@ -151,12 +151,16 @@ Het script drukt af wat waar hoort. Kort:
 
 | Waar | Wat |
 | --- | --- |
-| repo-secret `VAPID_PRIVATE_KEY` | de privésleutel, inclusief BEGIN/END-regels |
+| repo-secret `VAPID_PRIVATE_KEY` | de privésleutel (één regel base64url, geen PEM) |
 | repo-secret `VAPID_CLAIM_EMAIL` | `mailto:jouw@adres.nl` |
 | repo-secret `SUPABASE_SERVICE_ROLE_KEY` | Supabase → Settings → API → `service_role` |
 | `site/config.js` → `vapidPublicKey` | de publieke sleutel |
 
-Draai `gen_vapid.py` maar één keer. Een nieuw paar maakt alle bestaande
+Heb je geen Python bij de hand, dan geeft `npx web-push generate-vapid-keys`
+exact hetzelfde formaat. Beide routes leveren base64url op, en dat is wat
+pywebpush kan lezen — een PEM níet, daar struikelt `Vapid.from_string()` over.
+
+Draai dit maar één keer. Een nieuw paar maakt alle bestaande
 abonnementen ongeldig en dan moet je op elk apparaat opnieuw op "Meldingen aan"
 klikken.
 
