@@ -8,6 +8,8 @@ window.NEWSBOT_CONFIG = {
   supabaseUrl: 'https://xfblconmnzftcysutxhi.supabase.co',
   supabaseKey: 'sb_publishable_h-E-am1tQaD6kqdSxn_ksw_i3EBgSn_',
 
-  // Wordt in fase 7 ingevuld met de publieke VAPID-sleutel.
-  vapidPublicKey: ''
+  // Publieke VAPID-sleutel. Hoort hier te staan: de browser heeft hem nodig om
+  // een pushabonnement aan te maken, en hij zegt niets zonder de privésleutel
+  // die alleen als repo-secret bestaat.
+  vapidPublicKey: 'BPYV0a7DhsCrWax01suulZd5f0Th2HJ-C79DC-pQVpsUX0v3qf-Kyu-5e29SlRwjEaMspeGCnW3pSC8Cv7YfLXc'
 };
