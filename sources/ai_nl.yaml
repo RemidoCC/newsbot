@@ -208,8 +208,9 @@ sources:
   verified_at: '2026-08-11T19:40:42+00:00'
 
 # Digitalisering bij de overheid; vult het gat van Rijksoverheid.
+# Uitgezet 2026-08-11 na verificatie: 404 op alle paden; geen feed-link op de homepage.
 - name: iBestuur
-  enabled: true
+  enabled: false
   type: rss
   priority: 2
   url: https://ibestuur.nl/feed/
@@ -230,8 +231,9 @@ sources:
   verified_at: '2026-08-11T19:40:42+00:00'
 
 # Kritisch op technologie, publieke waarden, digitale rechten.
+# Uitgezet 2026-08-11 na verificatie: 404 op alle paden; geen feed-link op de homepage.
 - name: Waag Futurelab
-  enabled: true
+  enabled: false
   type: rss
   priority: 2
   url: https://waag.org/nl/rss.xml
@@ -243,8 +245,10 @@ sources:
   verified: false
   verified_at: '2026-08-11T19:40:42+00:00'
 
+# Uitgezet 2026-08-11 na verificatie: 404 en 403; geen feed-link op de homepage.
+
 - name: Netkwesties
-  enabled: true
+  enabled: false
   type: rss
   priority: 3
   url: https://www.netkwesties.nl/feed/

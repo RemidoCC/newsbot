@@ -270,8 +270,9 @@ sources:
   verified_at: '2026-08-11T19:40:42+00:00'
 
 # Onderzoek en beleid, met oog voor maatschappelijke impact.
+# Uitgezet 2026-08-11 na verificatie: HTTP 200 maar HTML op elk pad: geen feed, alleen pagina's.
 - name: Stanford HAI
-  enabled: true
+  enabled: false
   type: rss
   priority: 2
   url: https://hai.stanford.edu/news/rss.xml
