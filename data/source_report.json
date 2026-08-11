@@ -18,19 +18,14 @@
     "file": "ai_int.yaml",
     "type": "rss",
     "enabled": true,
-    "configured_url": "https://importai.substack.com/feed",
+    "configured_url": "https://jack-clark.net/feed/",
     "ok": true,
     "status": "ok",
     "age_days": 1,
     "winning_url": "https://jack-clark.net/feed/",
-    "via": "fallback",
+    "via": "url",
     "detail": "10 items, nieuwste 1 dagen oud",
     "attempts": [
-      {
-        "url": "https://importai.substack.com/feed",
-        "ok": false,
-        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-      },
       {
         "url": "https://jack-clark.net/feed/",
         "ok": true,
@@ -49,25 +44,14 @@
     "file": "ai_int.yaml",
     "type": "rss",
     "enabled": true,
-    "configured_url": "https://arstechnica.com/ai/feed/",
+    "configured_url": "https://feeds.arstechnica.com/arstechnica/index",
     "ok": true,
     "status": "ok",
     "age_days": 0,
     "winning_url": "https://feeds.arstechnica.com/arstechnica/index",
-    "via": "fallback",
+    "via": "url",
     "detail": "20 items, nieuwste 0 dagen oud",
     "attempts": [
-      {
-        "url": "https://arstechnica.com/ai/feed/",
-        "ok": true,
-        "http_status": 200,
-        "final_url": "https://arstechnica.com/ai/feed/",
-        "content_type": "application/rss+xml",
-        "feed_title": "AI - Ars Technica",
-        "entries": 20,
-        "newest": "2026-08-10T22:13:03+00:00",
-        "dated_entries": 20
-      },
       {
         "url": "https://feeds.arstechnica.com/arstechnica/index",
         "ok": true,
@@ -86,25 +70,14 @@
     "file": "ai_int.yaml",
     "type": "rss",
     "enabled": true,
-    "configured_url": "https://www.technologyreview.com/topic/artificial-intelligence/feed/",
+    "configured_url": "https://www.technologyreview.com/feed/",
     "ok": true,
     "status": "ok",
     "age_days": 0,
     "winning_url": "https://www.technologyreview.com/feed/",
-    "via": "fallback",
+    "via": "url",
     "detail": "10 items, nieuwste 0 dagen oud",
     "attempts": [
-      {
-        "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed/",
-        "ok": true,
-        "http_status": 200,
-        "final_url": "https://www.technologyreview.com/topic/artificial-intelligence/feed/",
-        "content_type": "application/rss+xml",
-        "feed_title": "Artificial intelligence – MIT Technology Review",
-        "entries": 10,
-        "newest": "2026-08-10T20:00:00+00:00",
-        "dated_entries": 10
-      },
       {
         "url": "https://www.technologyreview.com/feed/",
         "ok": true,
@@ -123,25 +96,14 @@
     "file": "ai_int.yaml",
     "type": "rss",
     "enabled": true,
-    "configured_url": "https://venturebeat.com/category/ai/feed/",
+    "configured_url": "https://feeds.feedburner.com/venturebeat/SZYF",
     "ok": true,
     "status": "ok",
     "age_days": 0,
     "winning_url": "https://feeds.feedburner.com/venturebeat/SZYF",
-    "via": "fallback",
+    "via": "url",
     "detail": "7 items, nieuwste 0 dagen oud",
     "attempts": [
-      {
-        "url": "https://venturebeat.com/category/ai/feed/",
-        "ok": true,
-        "http_status": 200,
-        "final_url": "https://venturebeat.com/category/ai/feed",
-        "content_type": "text/xml",
-        "feed_title": "AI | VentureBeat",
-        "entries": 7,
-        "newest": "2026-05-19T17:45:00+00:00",
-        "dated_entries": 7
-      },
       {
         "url": "https://feeds.feedburner.com/venturebeat/SZYF",
         "ok": true,
@@ -373,6 +335,146 @@
     "attempts": []
   },
   {
+    "name": "AI Snake Oil",
+    "file": "ai_int.yaml",
+    "type": "rss",
+    "enabled": true,
+    "configured_url": "https://www.aisnakeoil.com/feed",
+    "ok": true,
+    "status": "ok",
+    "age_days": 6,
+    "winning_url": "https://www.normaltech.ai/feed",
+    "via": "url",
+    "detail": "20 items, nieuwste 6 dagen oud",
+    "attempts": [
+      {
+        "url": "https://www.aisnakeoil.com/feed",
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.normaltech.ai/feed",
+        "content_type": "application/xml",
+        "feed_title": "AI as Normal Technology",
+        "entries": 20,
+        "newest": "2026-08-05T13:49:19+00:00",
+        "dated_entries": 20
+      },
+      {
+        "url": "https://aisnakeoil.com/feed",
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.normaltech.ai/feed",
+        "content_type": "application/xml",
+        "feed_title": "AI as Normal Technology",
+        "entries": 20,
+        "newest": "2026-08-05T13:49:19+00:00",
+        "dated_entries": 20
+      },
+      {
+        "url": "https://www.aisnakeoil.com/rss",
+        "ok": false,
+        "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://www.normaltech.ai/rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      }
+    ]
+  },
+  {
+    "name": "Hugging Face",
+    "file": "ai_int.yaml",
+    "type": "rss",
+    "enabled": true,
+    "configured_url": "https://huggingface.co/blog/feed.xml",
+    "ok": true,
+    "status": "ok",
+    "age_days": 0,
+    "winning_url": "https://huggingface.co/blog/feed.xml",
+    "via": "url",
+    "detail": "839 items, nieuwste 0 dagen oud",
+    "attempts": [
+      {
+        "url": "https://huggingface.co/blog/feed.xml",
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://huggingface.co/blog/feed.xml",
+        "content_type": "application/rss+xml",
+        "feed_title": "Hugging Face - Blog",
+        "entries": 839,
+        "newest": "2026-08-11T13:37:10+00:00",
+        "dated_entries": 839
+      },
+      {
+        "url": "https://huggingface.co/blog/rss.xml",
+        "ok": false,
+        "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://huggingface.co/blog/rss.xml'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      }
+    ]
+  },
+  {
+    "name": "The Verge AI",
+    "file": "ai_int.yaml",
+    "type": "rss",
+    "enabled": true,
+    "configured_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+    "ok": true,
+    "status": "ok",
+    "age_days": 0,
+    "winning_url": "https://www.theverge.com/rss/index.xml",
+    "via": "fallback",
+    "detail": "10 items, nieuwste 0 dagen oud",
+    "attempts": [
+      {
+        "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+        "content_type": "application/xml",
+        "feed_title": "AI | The Verge",
+        "entries": 10,
+        "newest": "2026-08-11T12:19:15-04:00",
+        "dated_entries": 10
+      },
+      {
+        "url": "https://www.theverge.com/rss/index.xml",
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.theverge.com/rss/index.xml",
+        "content_type": "application/xml",
+        "feed_title": "The Verge",
+        "entries": 10,
+        "newest": "2026-08-11T15:10:14-04:00",
+        "dated_entries": 10
+      }
+    ]
+  },
+  {
+    "name": "Stanford HAI",
+    "file": "ai_int.yaml",
+    "type": "rss",
+    "enabled": true,
+    "configured_url": "https://hai.stanford.edu/news/rss.xml",
+    "ok": false,
+    "status": null,
+    "age_days": null,
+    "winning_url": null,
+    "via": null,
+    "detail": "geen enkele kandidaat leverde een feed op",
+    "attempts": [
+      {
+        "url": "https://hai.stanford.edu/news/rss.xml",
+        "ok": false,
+        "error": "ValueError: HTTP 200, content-type text/html, 0 items"
+      },
+      {
+        "url": "https://hai.stanford.edu/rss.xml",
+        "ok": false,
+        "error": "ValueError: HTTP 200, content-type text/html, 0 items"
+      },
+      {
+        "url": "https://hai.stanford.edu/feed",
+        "ok": false,
+        "error": "ValueError: HTTP 200, content-type text/html, 0 items"
+      }
+    ]
+  },
+  {
     "name": "Tweakers",
     "file": "ai_nl.yaml",
     "type": "rss",
@@ -531,18 +633,24 @@
     "file": "ai_nl.yaml",
     "type": "rss",
     "enabled": true,
-    "configured_url": "https://www.computable.nl/rss.xml",
+    "configured_url": "https://www.computable.nl/feed/",
     "ok": true,
     "status": "ok",
     "age_days": 0,
     "winning_url": "https://www.computable.nl/feed/",
-    "via": "fallback",
+    "via": "url",
     "detail": "10 items, nieuwste 0 dagen oud",
     "attempts": [
       {
-        "url": "https://www.computable.nl/rss.xml",
-        "ok": false,
-        "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://www.computable.nl/rss.xml'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        "url": "https://www.computable.nl/feed/",
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.computable.nl/feed/",
+        "content_type": "text/xml",
+        "feed_title": "Computable.nl",
+        "entries": 10,
+        "newest": "2026-08-11T15:00:00+00:00",
+        "dated_entries": 10
       },
       {
         "url": "https://www.computable.nl/feed",
@@ -604,23 +712,23 @@
     "file": "ai_nl.yaml",
     "type": "rss",
     "enabled": true,
-    "configured_url": "https://nlaic.com/feed/",
+    "configured_url": "https://aic4nl.nl/feed/",
     "ok": true,
     "status": "ok",
     "age_days": 19,
     "winning_url": "https://aic4nl.nl/feed/",
-    "via": "autodiscovery",
+    "via": "url",
     "detail": "10 items, nieuwste 19 dagen oud",
     "attempts": [
       {
-        "url": "https://nlaic.com/feed/",
+        "url": "https://aic4nl.nl/feed/",
         "ok": true,
         "http_status": 200,
-        "final_url": "https://nlaic.com/feed/",
+        "final_url": "https://aic4nl.nl/feed/",
         "content_type": "application/rss+xml",
         "feed_title": "AIC4NL",
         "entries": 10,
-        "newest": "2026-04-03T09:01:07+00:00",
+        "newest": "2026-07-23T13:17:12+00:00",
         "dated_entries": 10
       },
       {
@@ -644,22 +752,6 @@
         "entries": 10,
         "newest": "2026-04-03T09:01:07+00:00",
         "dated_entries": 10
-      },
-      {
-        "url": "https://aic4nl.nl/feed/",
-        "ok": true,
-        "http_status": 200,
-        "final_url": "https://aic4nl.nl/feed/",
-        "content_type": "application/rss+xml",
-        "feed_title": "AIC4NL",
-        "entries": 10,
-        "newest": "2026-07-23T13:17:12+00:00",
-        "dated_entries": 10
-      },
-      {
-        "url": "https://aic4nl.nl/comments/feed/",
-        "ok": false,
-        "error": "ValueError: HTTP 200, content-type application/rss+xml, 0 items"
       }
     ]
   },
@@ -676,6 +768,132 @@
     "via": null,
     "detail": "staat uit",
     "attempts": []
+  },
+  {
+    "name": "Autoriteit Persoonsgegevens",
+    "file": "ai_nl.yaml",
+    "type": "rss",
+    "enabled": true,
+    "configured_url": "https://www.autoriteitpersoonsgegevens.nl/rss",
+    "ok": true,
+    "status": "ok",
+    "age_days": 7,
+    "winning_url": "https://www.autoriteitpersoonsgegevens.nl/feed/article/rss.xml",
+    "via": "url",
+    "detail": "10 items, nieuwste 7 dagen oud",
+    "attempts": [
+      {
+        "url": "https://www.autoriteitpersoonsgegevens.nl/rss",
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.autoriteitpersoonsgegevens.nl/feed/article/rss.xml",
+        "content_type": "application/rss+xml",
+        "feed_title": "Nieuwsberichten en blogs - Autoriteit Persoonsgegevens",
+        "entries": 10,
+        "newest": "2026-08-04T10:00:00+02:00",
+        "dated_entries": 10
+      },
+      {
+        "url": "https://www.autoriteitpersoonsgegevens.nl/feed",
+        "ok": false,
+        "error": "ValueError: HTTP 200, content-type text/html, 0 items"
+      },
+      {
+        "url": "https://www.autoriteitpersoonsgegevens.nl/nl/actueel/rss",
+        "ok": false,
+        "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://www.autoriteitpersoonsgegevens.nl/actueel/rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      }
+    ]
+  },
+  {
+    "name": "iBestuur",
+    "file": "ai_nl.yaml",
+    "type": "rss",
+    "enabled": true,
+    "configured_url": "https://ibestuur.nl/feed/",
+    "ok": false,
+    "status": null,
+    "age_days": null,
+    "winning_url": null,
+    "via": null,
+    "detail": "geen enkele kandidaat leverde een feed op",
+    "attempts": [
+      {
+        "url": "https://ibestuur.nl/feed/",
+        "ok": false,
+        "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://ibestuur.nl/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      },
+      {
+        "url": "https://ibestuur.nl/rss",
+        "ok": false,
+        "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://ibestuur.nl/rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      },
+      {
+        "url": "https://www.ibestuur.nl/feed/",
+        "ok": false,
+        "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://ibestuur.nl/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      }
+    ]
+  },
+  {
+    "name": "Waag Futurelab",
+    "file": "ai_nl.yaml",
+    "type": "rss",
+    "enabled": true,
+    "configured_url": "https://waag.org/nl/rss.xml",
+    "ok": false,
+    "status": null,
+    "age_days": null,
+    "winning_url": null,
+    "via": null,
+    "detail": "geen enkele kandidaat leverde een feed op",
+    "attempts": [
+      {
+        "url": "https://waag.org/nl/rss.xml",
+        "ok": false,
+        "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://waag.org/nl/rss.xml'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      },
+      {
+        "url": "https://waag.org/rss.xml",
+        "ok": false,
+        "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://waag.org/rss.xml'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      },
+      {
+        "url": "https://waag.org/nl/feed/",
+        "ok": false,
+        "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://waag.org/nl/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      }
+    ]
+  },
+  {
+    "name": "Netkwesties",
+    "file": "ai_nl.yaml",
+    "type": "rss",
+    "enabled": true,
+    "configured_url": "https://www.netkwesties.nl/feed/",
+    "ok": false,
+    "status": null,
+    "age_days": null,
+    "winning_url": null,
+    "via": null,
+    "detail": "geen enkele kandidaat leverde een feed op",
+    "attempts": [
+      {
+        "url": "https://www.netkwesties.nl/feed/",
+        "ok": false,
+        "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://www.netkwesties.nl/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      },
+      {
+        "url": "https://www.netkwesties.nl/rss",
+        "ok": false,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.netkwesties.nl/rss/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "url": "https://netkwesties.nl/feed/",
+        "ok": false,
+        "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://www.netkwesties.nl/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      }
+    ]
   },
   {
     "name": "Bibliotheekblad",
@@ -1031,29 +1249,252 @@
     ]
   },
   {
+    "name": "Bibliotheeknetwerk (KB)",
+    "file": "bieb_nl.yaml",
+    "type": "rss",
+    "enabled": true,
+    "configured_url": "https://www.bibliotheeknetwerk.nl/rss.xml",
+    "ok": false,
+    "status": "geen-datums",
+    "age_days": null,
+    "winning_url": "https://www.bibliotheeknetwerk.nl/rss.xml",
+    "via": "url",
+    "detail": "10 items, maar geen enkele publicatiedatum",
+    "attempts": [
+      {
+        "url": "https://www.bibliotheeknetwerk.nl/rss.xml",
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.bibliotheeknetwerk.nl/rss.xml",
+        "content_type": "application/rss+xml",
+        "feed_title": "Bnetwerk - Informatie voor het bibliotheeknetwerk",
+        "entries": 10,
+        "newest": null,
+        "dated_entries": 0
+      },
+      {
+        "url": "https://www.bibliotheeknetwerk.nl/feed",
+        "ok": false,
+        "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://www.bibliotheeknetwerk.nl/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      },
+      {
+        "url": "https://www.bibliotheeknetwerk.nl/nieuws/rss",
+        "ok": false,
+        "error": "ValueError: HTTP 200, content-type text/html, 0 items"
+      }
+    ]
+  },
+  {
+    "name": "Probiblio",
+    "file": "bieb_nl.yaml",
+    "type": "rss",
+    "enabled": true,
+    "configured_url": "https://www.probiblio.nl/feed/",
+    "ok": true,
+    "status": "ok",
+    "age_days": 1,
+    "winning_url": "https://www.probiblio.nl/feed/",
+    "via": "url",
+    "detail": "10 items, nieuwste 1 dagen oud",
+    "attempts": [
+      {
+        "url": "https://www.probiblio.nl/feed/",
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.probiblio.nl/feed/",
+        "content_type": "application/rss+xml",
+        "feed_title": "Probiblio",
+        "entries": 10,
+        "newest": "2026-08-10T12:10:46+00:00",
+        "dated_entries": 10
+      },
+      {
+        "url": "https://www.probiblio.nl/rss",
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.probiblio.nl/feed/",
+        "content_type": "application/rss+xml",
+        "feed_title": "Probiblio",
+        "entries": 10,
+        "newest": "2026-08-10T12:10:46+00:00",
+        "dated_entries": 10
+      },
+      {
+        "url": "https://www.probiblio.nl/nieuws/feed/",
+        "ok": false,
+        "error": "ValueError: HTTP 200, content-type application/rss+xml, 0 items"
+      }
+    ]
+  },
+  {
+    "name": "Rijnbrink",
+    "file": "bieb_nl.yaml",
+    "type": "rss",
+    "enabled": true,
+    "configured_url": "https://www.rijnbrink.nl/feed/",
+    "ok": true,
+    "status": "ok",
+    "age_days": 1,
+    "winning_url": "https://www.rijnbrink.nl/actueel/nieuws/feed/",
+    "via": "fallback",
+    "detail": "10 items, nieuwste 1 dagen oud",
+    "attempts": [
+      {
+        "url": "https://www.rijnbrink.nl/feed/",
+        "ok": false,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.rijnbrink.nl/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "url": "https://www.rijnbrink.nl/rss",
+        "ok": false,
+        "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.rijnbrink.nl/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      },
+      {
+        "url": "https://www.rijnbrink.nl/actueel/nieuws/feed/",
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.rijnbrink.nl/actueel/nieuws/feed/",
+        "content_type": "application/rss+xml",
+        "feed_title": "Nieuws Archief – Rijnbrink",
+        "entries": 10,
+        "newest": "2026-08-10T11:06:02+00:00",
+        "dated_entries": 10
+      }
+    ]
+  },
+  {
+    "name": "Cubiss",
+    "file": "bieb_nl.yaml",
+    "type": "rss",
+    "enabled": true,
+    "configured_url": "https://www.cubiss.nl/feed/",
+    "ok": false,
+    "status": null,
+    "age_days": null,
+    "winning_url": null,
+    "via": null,
+    "detail": "geen enkele kandidaat leverde een feed op",
+    "attempts": [
+      {
+        "url": "https://www.cubiss.nl/feed/",
+        "ok": false,
+        "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://www.cubiss.nl/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      },
+      {
+        "url": "https://www.cubiss.nl/rss",
+        "ok": false,
+        "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://www.cubiss.nl/rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      },
+      {
+        "url": "https://cubiss.nl/feed/",
+        "ok": false,
+        "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://www.cubiss.nl/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      }
+    ]
+  },
+  {
+    "name": "ECP | Platform voor de InformatieSamenleving",
+    "file": "bieb_nl.yaml",
+    "type": "rss",
+    "enabled": true,
+    "configured_url": "https://ecp.nl/feed/",
+    "ok": true,
+    "status": "ok",
+    "age_days": 12,
+    "winning_url": "https://ecp.nl/feed/",
+    "via": "url",
+    "detail": "10 items, nieuwste 12 dagen oud",
+    "attempts": [
+      {
+        "url": "https://ecp.nl/feed/",
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://ecp.nl/feed/",
+        "content_type": "application/rss+xml",
+        "feed_title": "ECP | Platform voor de InformatieSamenleving",
+        "entries": 10,
+        "newest": "2026-07-30T08:39:58+00:00",
+        "dated_entries": 10
+      },
+      {
+        "url": "https://ecp.nl/rss",
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://ecp.nl/feed/",
+        "content_type": "application/rss+xml",
+        "feed_title": "ECP | Platform voor de InformatieSamenleving",
+        "entries": 10,
+        "newest": "2026-07-30T08:39:58+00:00",
+        "dated_entries": 10
+      },
+      {
+        "url": "https://www.ecp.nl/feed/",
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://ecp.nl/feed/",
+        "content_type": "application/rss+xml",
+        "feed_title": "ECP | Platform voor de InformatieSamenleving",
+        "entries": 10,
+        "newest": "2026-07-30T08:39:58+00:00",
+        "dated_entries": 10
+      }
+    ]
+  },
+  {
+    "name": "Kennisnet",
+    "file": "bieb_nl.yaml",
+    "type": "rss",
+    "enabled": true,
+    "configured_url": "https://www.kennisnet.nl/feed/",
+    "ok": true,
+    "status": "ok",
+    "age_days": 50,
+    "winning_url": "https://www.kennisnet.nl/feed/",
+    "via": "url",
+    "detail": "10 items, nieuwste 50 dagen oud",
+    "attempts": [
+      {
+        "url": "https://www.kennisnet.nl/feed/",
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.kennisnet.nl/feed/",
+        "content_type": "application/rss+xml",
+        "feed_title": "Kennisnet",
+        "entries": 10,
+        "newest": "2026-06-22T14:28:52+00:00",
+        "dated_entries": 10
+      },
+      {
+        "url": "https://www.kennisnet.nl/rss",
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.kennisnet.nl/feed/",
+        "content_type": "application/rss+xml",
+        "feed_title": "Kennisnet",
+        "entries": 10,
+        "newest": "2026-06-22T14:28:52+00:00",
+        "dated_entries": 10
+      },
+      {
+        "url": "https://www.kennisnet.nl/actueel/feed/",
+        "ok": false,
+        "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://www.kennisnet.nl/actueel/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      }
+    ]
+  },
+  {
     "name": "IFLA",
     "file": "bieb_int.yaml",
     "type": "rss",
     "enabled": true,
-    "configured_url": "https://www.ifla.org/feed/",
+    "configured_url": "https://www.ifla.org/news/feed/",
     "ok": true,
     "status": "ok",
     "age_days": 0,
     "winning_url": "https://www.ifla.org/news/feed/",
-    "via": "fallback",
+    "via": "url",
     "detail": "10 items, nieuwste 0 dagen oud",
     "attempts": [
-      {
-        "url": "https://www.ifla.org/feed/",
-        "ok": true,
-        "http_status": 200,
-        "final_url": "https://www.ifla.org/feed/",
-        "content_type": "application/rss+xml",
-        "feed_title": "IFLA",
-        "entries": 2,
-        "newest": "2021-09-25T17:31:14+00:00",
-        "dated_entries": 2
-      },
       {
         "url": "https://www.ifla.org/news/feed/",
         "ok": true,
@@ -1150,19 +1591,14 @@
     "file": "bieb_int.yaml",
     "type": "rss",
     "enabled": true,
-    "configured_url": "https://princh.com/blog/feed/",
+    "configured_url": "https://princh.com/feed/",
     "ok": true,
     "status": "ok",
     "age_days": 5,
     "winning_url": "https://princh.com/feed/",
-    "via": "fallback",
+    "via": "url",
     "detail": "3 items, nieuwste 5 dagen oud",
     "attempts": [
-      {
-        "url": "https://princh.com/blog/feed/",
-        "ok": false,
-        "error": "ValueError: HTTP 200, content-type text/html, 0 items"
-      },
       {
         "url": "https://princh.com/feed/",
         "ok": true,
@@ -1189,5 +1625,90 @@
     "via": null,
     "detail": "RuntimeError: REDDIT_CLIENT_ID / REDDIT_CLIENT_SECRET ontbreken. Reddit's onauthenticated .json is sinds mei 2026 dicht; zie README stap 4.",
     "attempts": []
+  },
+  {
+    "name": "Infodocket",
+    "file": "bieb_int.yaml",
+    "type": "rss",
+    "enabled": true,
+    "configured_url": "https://www.infodocket.com/feed/",
+    "ok": true,
+    "status": "ok",
+    "age_days": 0,
+    "winning_url": "https://www.infodocket.com/feed/",
+    "via": "url",
+    "detail": "10 items, nieuwste 0 dagen oud",
+    "attempts": [
+      {
+        "url": "https://www.infodocket.com/feed/",
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.infodocket.com/feed/",
+        "content_type": "application/rss+xml",
+        "feed_title": "Library Journal infoDOCKET",
+        "entries": 10,
+        "newest": "2026-08-11T12:31:25+00:00",
+        "dated_entries": 10
+      },
+      {
+        "url": "https://infodocket.com/feed/",
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.infodocket.com/feed/",
+        "content_type": "application/rss+xml",
+        "feed_title": "Library Journal infoDOCKET",
+        "entries": 10,
+        "newest": "2026-08-11T12:31:25+00:00",
+        "dated_entries": 10
+      },
+      {
+        "url": "https://www.infodocket.com/rss",
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.infodocket.com/feed/",
+        "content_type": "application/rss+xml",
+        "feed_title": "Library Journal infoDOCKET",
+        "entries": 10,
+        "newest": "2026-08-11T12:31:25+00:00",
+        "dated_entries": 10
+      }
+    ]
+  },
+  {
+    "name": "Public Libraries Online",
+    "file": "bieb_int.yaml",
+    "type": "rss",
+    "enabled": true,
+    "configured_url": "https://publiclibrariesonline.org/feed/",
+    "ok": true,
+    "status": "ok",
+    "age_days": 7,
+    "winning_url": "https://publiclibrariesonline.org/feed/",
+    "via": "url",
+    "detail": "25 items, nieuwste 7 dagen oud",
+    "attempts": [
+      {
+        "url": "https://publiclibrariesonline.org/feed/",
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://publiclibrariesonline.org/feed/",
+        "content_type": "application/rss+xml",
+        "feed_title": "Public Libraries Online",
+        "entries": 25,
+        "newest": "2026-08-04T19:09:19+00:00",
+        "dated_entries": 25
+      },
+      {
+        "url": "https://www.publiclibrariesonline.org/feed/",
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://publiclibrariesonline.org/feed/",
+        "content_type": "application/rss+xml",
+        "feed_title": "Public Libraries Online",
+        "entries": 25,
+        "newest": "2026-08-04T19:09:19+00:00",
+        "dated_entries": 25
+      }
+    ]
   }
 ]

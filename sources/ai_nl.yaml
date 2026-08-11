@@ -36,7 +36,7 @@ sources:
   - copilot
   - algoritme
   verified: true
-  verified_at: '2026-08-11T19:30:10+00:00'
+  verified_at: '2026-08-11T19:40:42+00:00'
 
 - name: NOS Tech
   enabled: true
@@ -57,7 +57,7 @@ sources:
   - openai
   - anthropic
   verified: true
-  verified_at: '2026-08-11T19:30:10+00:00'
+  verified_at: '2026-08-11T19:40:42+00:00'
 
   # Uitgezet 2026-08-11: 403 op alle paden. Alleen podcastfeeds zijn open, en dat is audio
   # zonder artikel om naar door te linken.
@@ -114,7 +114,7 @@ sources:
   - algoritme
   - data
   verified: true
-  verified_at: '2026-08-11T19:30:10+00:00'
+  verified_at: '2026-08-11T19:40:42+00:00'
 
 - name: Computable
   enabled: true
@@ -133,7 +133,7 @@ sources:
   - chatbot
   - algoritme
   verified: true
-  verified_at: '2026-08-11T19:30:10+00:00'
+  verified_at: '2026-08-11T19:40:42+00:00'
 
 - name: Bits of Freedom
   enabled: true
@@ -145,7 +145,7 @@ sources:
   homepage: https://www.bitsoffreedom.nl/
   max_items: 20
   verified: true
-  verified_at: '2026-08-11T19:30:10+00:00'
+  verified_at: '2026-08-11T19:40:42+00:00'
 
 - name: Nederlandse AI Coalitie
   enabled: true
@@ -158,7 +158,7 @@ sources:
   homepage: https://nlaic.com/nieuws/
   max_items: 20
   verified: true
-  verified_at: '2026-08-11T19:30:10+00:00'
+  verified_at: '2026-08-11T19:40:42+00:00'
 
   # Uitgezet 2026-08-11: feeds.rijksoverheid.nl resolvet niet vanaf de runner, in twee
   # afzonderlijke runs. De paden op het hoofddomein geven 404.
@@ -191,21 +191,21 @@ sources:
   priority: 1
   url: https://www.autoriteitpersoonsgegevens.nl/rss
   fallback_urls:
-    - https://www.autoriteitpersoonsgegevens.nl/feed
-    - https://www.autoriteitpersoonsgegevens.nl/nl/actueel/rss
+  - https://www.autoriteitpersoonsgegevens.nl/feed
+  - https://www.autoriteitpersoonsgegevens.nl/nl/actueel/rss
   homepage: https://www.autoriteitpersoonsgegevens.nl/actueel
   max_items: 30
   include_keywords:
-    - ai
-    - kunstmatige intelligentie
-    - algoritme
-    - llm
-    - chatbot
-    - taalmodel
-    - profilering
-    - geautomatiseerde besluitvorming
-  verified: false
-  verified_at: null
+  - ai
+  - kunstmatige intelligentie
+  - algoritme
+  - llm
+  - chatbot
+  - taalmodel
+  - profilering
+  - geautomatiseerde besluitvorming
+  verified: true
+  verified_at: '2026-08-11T19:40:42+00:00'
 
 # Digitalisering bij de overheid; vult het gat van Rijksoverheid.
 - name: iBestuur
@@ -214,20 +214,20 @@ sources:
   priority: 2
   url: https://ibestuur.nl/feed/
   fallback_urls:
-    - https://ibestuur.nl/rss
-    - https://www.ibestuur.nl/feed/
+  - https://ibestuur.nl/rss
+  - https://www.ibestuur.nl/feed/
   homepage: https://ibestuur.nl/
   max_items: 30
   include_keywords:
-    - ai
-    - kunstmatige intelligentie
-    - algoritme
-    - llm
-    - chatbot
-    - taalmodel
-    - digitalisering
+  - ai
+  - kunstmatige intelligentie
+  - algoritme
+  - llm
+  - chatbot
+  - taalmodel
+  - digitalisering
   verified: false
-  verified_at: null
+  verified_at: '2026-08-11T19:40:42+00:00'
 
 # Kritisch op technologie, publieke waarden, digitale rechten.
 - name: Waag Futurelab
@@ -236,12 +236,12 @@ sources:
   priority: 2
   url: https://waag.org/nl/rss.xml
   fallback_urls:
-    - https://waag.org/rss.xml
-    - https://waag.org/nl/feed/
+  - https://waag.org/rss.xml
+  - https://waag.org/nl/feed/
   homepage: https://waag.org/nl/
   max_items: 25
   verified: false
-  verified_at: null
+  verified_at: '2026-08-11T19:40:42+00:00'
 
 - name: Netkwesties
   enabled: true
@@ -249,9 +249,9 @@ sources:
   priority: 3
   url: https://www.netkwesties.nl/feed/
   fallback_urls:
-    - https://www.netkwesties.nl/rss
-    - https://netkwesties.nl/feed/
+  - https://www.netkwesties.nl/rss
+  - https://netkwesties.nl/feed/
   homepage: https://www.netkwesties.nl/
   max_items: 25
   verified: false
-  verified_at: null
+  verified_at: '2026-08-11T19:40:42+00:00'

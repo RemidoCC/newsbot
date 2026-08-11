@@ -45,7 +45,7 @@ sources:
   homepage: https://importai.substack.com/
   max_items: 15
   verified: true
-  verified_at: '2026-08-11T19:30:10+00:00'
+  verified_at: '2026-08-11T19:40:42+00:00'
 
 - name: Ars Technica AI
   enabled: true
@@ -57,7 +57,7 @@ sources:
   homepage: https://arstechnica.com/ai/
   max_items: 25
   verified: true
-  verified_at: '2026-08-11T19:30:10+00:00'
+  verified_at: '2026-08-11T19:40:42+00:00'
 
 - name: MIT Technology Review — AI
   enabled: true
@@ -69,7 +69,7 @@ sources:
   homepage: https://www.technologyreview.com/topic/artificial-intelligence/
   max_items: 25
   verified: true
-  verified_at: '2026-08-11T19:30:10+00:00'
+  verified_at: '2026-08-11T19:40:42+00:00'
 
 - name: VentureBeat AI
   enabled: true
@@ -81,7 +81,7 @@ sources:
   homepage: https://venturebeat.com/category/ai/
   max_items: 25
   verified: true
-  verified_at: '2026-08-11T19:30:10+00:00'
+  verified_at: '2026-08-11T19:40:42+00:00'
 
 - name: Simon Willison
   enabled: true
@@ -93,7 +93,7 @@ sources:
   homepage: https://simonwillison.net/
   max_items: 25
   verified: true
-  verified_at: '2026-08-11T19:30:10+00:00'
+  verified_at: '2026-08-11T19:40:42+00:00'
 
   # Anthropic publiceert geen eigen RSS: alle drie de gangbare paden gaven 404
   # vanaf de Actions-runner. Wat overblijft zijn community-mirrors (RSSHub), en
@@ -121,7 +121,7 @@ sources:
   homepage: https://deepmind.google/discover/blog/
   max_items: 15
   verified: true
-  verified_at: '2026-08-11T19:30:10+00:00'
+  verified_at: '2026-08-11T19:40:42+00:00'
 
 - name: OpenAI
   enabled: true
@@ -133,7 +133,7 @@ sources:
   homepage: https://openai.com/news/
   max_items: 15
   verified: true
-  verified_at: '2026-08-11T19:30:10+00:00'
+  verified_at: '2026-08-11T19:40:42+00:00'
 
   # --- Nieuwsbrieven zonder eigen RSS -------------------------------------
   # Deze twee hebben geen publieke feed. Route loopt via Kill-the-Newsletter:
@@ -173,7 +173,7 @@ sources:
   max_items: 30
   homepage: https://news.ycombinator.com/
   verified: true
-  verified_at: '2026-08-11T19:30:10+00:00'
+  verified_at: '2026-08-11T19:40:42+00:00'
 
   # Reddit's onauthenticated .json is sinds mei 2026 dicht (403, zeker vanaf
   # datacenter-IP's zoals Actions-runners). Deze bronnen lopen daarom via de
@@ -190,7 +190,7 @@ sources:
   min_score: 25
   max_items: 25
   verified: false
-  verified_at: '2026-08-11T19:30:10+00:00'
+  verified_at: '2026-08-11T19:40:42+00:00'
 
 - name: r/LocalLLaMA
   enabled: true
@@ -202,7 +202,7 @@ sources:
   min_score: 50
   max_items: 25
   verified: false
-  verified_at: '2026-08-11T19:30:10+00:00'
+  verified_at: '2026-08-11T19:40:42+00:00'
 
 - name: r/artificial
   enabled: true
@@ -214,7 +214,7 @@ sources:
   min_score: 50
   max_items: 25
   verified: false
-  verified_at: '2026-08-11T19:30:10+00:00'
+  verified_at: '2026-08-11T19:40:42+00:00'
 
 - name: r/singularity
   enabled: true
@@ -226,7 +226,7 @@ sources:
   min_score: 100
   max_items: 25
   verified: false
-  verified_at: '2026-08-11T19:30:10+00:00'
+  verified_at: '2026-08-11T19:40:42+00:00'
 
 # --- Toegevoegd 2026-08-11 ---------------------------------------
 
@@ -237,12 +237,12 @@ sources:
   priority: 1
   url: https://www.aisnakeoil.com/feed
   fallback_urls:
-    - https://aisnakeoil.com/feed
-    - https://www.aisnakeoil.com/rss
+  - https://aisnakeoil.com/feed
+  - https://www.aisnakeoil.com/rss
   homepage: https://www.aisnakeoil.com/
   max_items: 15
-  verified: false
-  verified_at: null
+  verified: true
+  verified_at: '2026-08-11T19:40:42+00:00'
 
 # Open source modellen; die hoek was nog niet gedekt.
 - name: Hugging Face
@@ -251,23 +251,23 @@ sources:
   priority: 2
   url: https://huggingface.co/blog/feed.xml
   fallback_urls:
-    - https://huggingface.co/blog/rss.xml
+  - https://huggingface.co/blog/rss.xml
   homepage: https://huggingface.co/blog
   max_items: 20
-  verified: false
-  verified_at: null
+  verified: true
+  verified_at: '2026-08-11T19:40:42+00:00'
 
 - name: The Verge AI
   enabled: true
   type: rss
   priority: 3
-  url: https://www.theverge.com/rss/ai-artificial-intelligence/index.xml
+  url: https://www.theverge.com/rss/index.xml
   fallback_urls:
-    - https://www.theverge.com/rss/index.xml
+  - https://www.theverge.com/rss/index.xml
   homepage: https://www.theverge.com/ai-artificial-intelligence
   max_items: 25
-  verified: false
-  verified_at: null
+  verified: true
+  verified_at: '2026-08-11T19:40:42+00:00'
 
 # Onderzoek en beleid, met oog voor maatschappelijke impact.
 - name: Stanford HAI
@@ -276,9 +276,9 @@ sources:
   priority: 2
   url: https://hai.stanford.edu/news/rss.xml
   fallback_urls:
-    - https://hai.stanford.edu/rss.xml
-    - https://hai.stanford.edu/feed
+  - https://hai.stanford.edu/rss.xml
+  - https://hai.stanford.edu/feed
   homepage: https://hai.stanford.edu/news
   max_items: 20
   verified: false
-  verified_at: null
+  verified_at: '2026-08-11T19:40:42+00:00'

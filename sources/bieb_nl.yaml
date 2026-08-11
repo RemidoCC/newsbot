@@ -22,7 +22,7 @@ sources:
   homepage: https://www.bibliotheekblad.nl/
   max_items: 25
   verified: true
-  verified_at: '2026-08-11T19:30:10+00:00'
+  verified_at: '2026-08-11T19:40:42+00:00'
 
 - name: Koninklijke Bibliotheek
   enabled: true
@@ -35,7 +35,7 @@ sources:
   homepage: https://www.kb.nl/nieuws
   max_items: 25
   verified: false
-  verified_at: '2026-08-11T19:30:10+00:00'
+  verified_at: '2026-08-11T19:40:42+00:00'
 
 - name: VOB (debibliotheken.nl)
   enabled: true
@@ -48,7 +48,7 @@ sources:
   homepage: https://www.debibliotheken.nl/actueel
   max_items: 25
   verified: false
-  verified_at: '2026-08-11T19:30:10+00:00'
+  verified_at: '2026-08-11T19:40:42+00:00'
 
 - name: Netwerk Mediawijsheid
   enabled: true
@@ -61,7 +61,7 @@ sources:
   homepage: https://netwerkmediawijsheid.nl/nieuws/
   max_items: 25
   verified: true
-  verified_at: '2026-08-11T19:30:10+00:00'
+  verified_at: '2026-08-11T19:40:42+00:00'
 
 - name: Alliantie Digitaal Samenleven
   enabled: true
@@ -74,7 +74,7 @@ sources:
   homepage: https://digitaalsamenleven.nl/nieuws/
   max_items: 25
   verified: false
-  verified_at: '2026-08-11T19:30:10+00:00'
+  verified_at: '2026-08-11T19:40:42+00:00'
 
   # Uitgezet 2026-08-11: 404 op alle drie de paden.
   # Weer aanzetten kan via /beheer of door hier true te zetten.
@@ -102,7 +102,7 @@ sources:
   homepage: https://www.digisterker.nl/nieuws
   max_items: 25
   verified: true
-  verified_at: '2026-08-11T19:30:10+00:00'
+  verified_at: '2026-08-11T19:40:42+00:00'
 
   # spn.nl bestaat niet (DNS resolvet niet). Het echte domein is stichtingspn.nl.
 - name: SPN (Stichting Samenwerkende POI's Nederland)
@@ -116,7 +116,7 @@ sources:
   homepage: https://www.stichtingspn.nl/
   max_items: 25
   verified: true
-  verified_at: '2026-08-11T19:30:10+00:00'
+  verified_at: '2026-08-11T19:40:42+00:00'
 
 # --- Toegevoegd 2026-08-11 ---------------------------------------
 
@@ -127,12 +127,12 @@ sources:
   priority: 1
   url: https://www.bibliotheeknetwerk.nl/rss.xml
   fallback_urls:
-    - https://www.bibliotheeknetwerk.nl/feed
-    - https://www.bibliotheeknetwerk.nl/nieuws/rss
+  - https://www.bibliotheeknetwerk.nl/feed
+  - https://www.bibliotheeknetwerk.nl/nieuws/rss
   homepage: https://www.bibliotheeknetwerk.nl/nieuws
   max_items: 25
   verified: false
-  verified_at: null
+  verified_at: '2026-08-11T19:40:42+00:00'
 
 # POI Noord- en Zuid-Holland: cursussen, trainingen, dienstverlening.
 - name: Probiblio
@@ -141,26 +141,26 @@ sources:
   priority: 2
   url: https://www.probiblio.nl/feed/
   fallback_urls:
-    - https://www.probiblio.nl/rss
-    - https://www.probiblio.nl/nieuws/feed/
+  - https://www.probiblio.nl/rss
+  - https://www.probiblio.nl/nieuws/feed/
   homepage: https://www.probiblio.nl/nieuws
   max_items: 25
-  verified: false
-  verified_at: null
+  verified: true
+  verified_at: '2026-08-11T19:40:42+00:00'
 
 # POI Overijssel en Gelderland.
 - name: Rijnbrink
   enabled: true
   type: rss
   priority: 2
-  url: https://www.rijnbrink.nl/feed/
+  url: https://www.rijnbrink.nl/actueel/nieuws/feed/
   fallback_urls:
-    - https://www.rijnbrink.nl/rss
-    - https://www.rijnbrink.nl/actueel/nieuws/feed/
+  - https://www.rijnbrink.nl/rss
+  - https://www.rijnbrink.nl/actueel/nieuws/feed/
   homepage: https://www.rijnbrink.nl/actueel/nieuws/
   max_items: 25
-  verified: false
-  verified_at: null
+  verified: true
+  verified_at: '2026-08-11T19:40:42+00:00'
 
 # POI Noord-Brabant en Limburg.
 - name: Cubiss
@@ -169,12 +169,12 @@ sources:
   priority: 2
   url: https://www.cubiss.nl/feed/
   fallback_urls:
-    - https://www.cubiss.nl/rss
-    - https://cubiss.nl/feed/
+  - https://www.cubiss.nl/rss
+  - https://cubiss.nl/feed/
   homepage: https://www.cubiss.nl/nieuws
   max_items: 25
   verified: false
-  verified_at: null
+  verified_at: '2026-08-11T19:40:42+00:00'
 
 # Digitale samenleving en digitale vaardigheden.
 - name: ECP | Platform voor de InformatieSamenleving
@@ -183,12 +183,12 @@ sources:
   priority: 2
   url: https://ecp.nl/feed/
   fallback_urls:
-    - https://ecp.nl/rss
-    - https://www.ecp.nl/feed/
+  - https://ecp.nl/rss
+  - https://www.ecp.nl/feed/
   homepage: https://ecp.nl/actueel/
   max_items: 25
-  verified: false
-  verified_at: null
+  verified: true
+  verified_at: '2026-08-11T19:40:42+00:00'
 
 # Digitale geletterdheid in het onderwijs.
 - name: Kennisnet
@@ -197,9 +197,9 @@ sources:
   priority: 3
   url: https://www.kennisnet.nl/feed/
   fallback_urls:
-    - https://www.kennisnet.nl/rss
-    - https://www.kennisnet.nl/actueel/feed/
+  - https://www.kennisnet.nl/rss
+  - https://www.kennisnet.nl/actueel/feed/
   homepage: https://www.kennisnet.nl/actueel/
   max_items: 25
-  verified: false
-  verified_at: null
+  verified: true
+  verified_at: '2026-08-11T19:40:42+00:00'
