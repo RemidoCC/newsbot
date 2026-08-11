@@ -99,3 +99,31 @@ sources:
     max_items: 25
     verified: false
     verified_at: null
+
+  # --- Toegevoegd 2026-08-11 -------------------------------------------
+
+  # Gary Price. Ander domein dan Library Journal, dus mogelijk niet geblokkeerd.
+  - name: Infodocket
+    enabled: true
+    type: rss
+    priority: 1
+    url: https://www.infodocket.com/feed/
+    fallback_urls:
+      - https://infodocket.com/feed/
+      - https://www.infodocket.com/rss
+    homepage: https://www.infodocket.com/
+    max_items: 30
+    verified: false
+    verified_at: null
+
+  - name: Public Libraries Online
+    enabled: true
+    type: rss
+    priority: 2
+    url: https://publiclibrariesonline.org/feed/
+    fallback_urls:
+      - https://www.publiclibrariesonline.org/feed/
+    homepage: https://publiclibrariesonline.org/
+    max_items: 25
+    verified: false
+    verified_at: null

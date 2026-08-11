@@ -181,3 +181,77 @@ sources:
       - digitale vaardigheden
     verified: false
     verified_at: null
+
+  # --- Toegevoegd 2026-08-11 -------------------------------------------
+
+  # Algoritmetoezichthouder; publiceert de AI-risicorapportages.
+  - name: Autoriteit Persoonsgegevens
+    enabled: true
+    type: rss
+    priority: 1
+    url: https://www.autoriteitpersoonsgegevens.nl/rss
+    fallback_urls:
+      - https://www.autoriteitpersoonsgegevens.nl/feed
+      - https://www.autoriteitpersoonsgegevens.nl/nl/actueel/rss
+    homepage: https://www.autoriteitpersoonsgegevens.nl/actueel
+    max_items: 30
+    include_keywords:
+      - ai
+      - kunstmatige intelligentie
+      - algoritme
+      - llm
+      - chatbot
+      - taalmodel
+      - profilering
+      - geautomatiseerde besluitvorming
+    verified: false
+    verified_at: null
+
+  # Digitalisering bij de overheid; vult het gat van Rijksoverheid.
+  - name: iBestuur
+    enabled: true
+    type: rss
+    priority: 2
+    url: https://ibestuur.nl/feed/
+    fallback_urls:
+      - https://ibestuur.nl/rss
+      - https://www.ibestuur.nl/feed/
+    homepage: https://ibestuur.nl/
+    max_items: 30
+    include_keywords:
+      - ai
+      - kunstmatige intelligentie
+      - algoritme
+      - llm
+      - chatbot
+      - taalmodel
+      - digitalisering
+    verified: false
+    verified_at: null
+
+  # Kritisch op technologie, publieke waarden, digitale rechten.
+  - name: Waag Futurelab
+    enabled: true
+    type: rss
+    priority: 2
+    url: https://waag.org/nl/rss.xml
+    fallback_urls:
+      - https://waag.org/rss.xml
+      - https://waag.org/nl/feed/
+    homepage: https://waag.org/nl/
+    max_items: 25
+    verified: false
+    verified_at: null
+
+  - name: Netkwesties
+    enabled: true
+    type: rss
+    priority: 3
+    url: https://www.netkwesties.nl/feed/
+    fallback_urls:
+      - https://www.netkwesties.nl/rss
+      - https://netkwesties.nl/feed/
+    homepage: https://www.netkwesties.nl/
+    max_items: 25
+    verified: false
+    verified_at: null

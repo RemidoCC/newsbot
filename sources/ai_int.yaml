@@ -227,3 +227,58 @@ sources:
     max_items: 25
     verified: false
     verified_at: null
+
+  # --- Toegevoegd 2026-08-11 -------------------------------------------
+
+  # Narayanan en Kapoor (Princeton): systematisch kritisch op AI-claims.
+  - name: AI Snake Oil
+    enabled: true
+    type: rss
+    priority: 1
+    url: https://www.aisnakeoil.com/feed
+    fallback_urls:
+      - https://aisnakeoil.com/feed
+      - https://www.aisnakeoil.com/rss
+    homepage: https://www.aisnakeoil.com/
+    max_items: 15
+    verified: false
+    verified_at: null
+
+  # Open source modellen; die hoek was nog niet gedekt.
+  - name: Hugging Face
+    enabled: true
+    type: rss
+    priority: 2
+    url: https://huggingface.co/blog/feed.xml
+    fallback_urls:
+      - https://huggingface.co/blog/rss.xml
+    homepage: https://huggingface.co/blog
+    max_items: 20
+    verified: false
+    verified_at: null
+
+  - name: The Verge AI
+    enabled: true
+    type: rss
+    priority: 3
+    url: https://www.theverge.com/rss/ai-artificial-intelligence/index.xml
+    fallback_urls:
+      - https://www.theverge.com/rss/index.xml
+    homepage: https://www.theverge.com/ai-artificial-intelligence
+    max_items: 25
+    verified: false
+    verified_at: null
+
+  # Onderzoek en beleid, met oog voor maatschappelijke impact.
+  - name: Stanford HAI
+    enabled: true
+    type: rss
+    priority: 2
+    url: https://hai.stanford.edu/news/rss.xml
+    fallback_urls:
+      - https://hai.stanford.edu/rss.xml
+      - https://hai.stanford.edu/feed
+    homepage: https://hai.stanford.edu/news
+    max_items: 20
+    verified: false
+    verified_at: null
