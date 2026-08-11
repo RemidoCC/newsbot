@@ -107,23 +107,25 @@ sources:
   # Deze twee hebben geen publieke feed. Route loopt via Kill-the-Newsletter:
   # je maakt daar per nieuwsbrief een inbox aan, meldt je met dat mailadres
   # aan, en plakt de bijbehorende Atom-URL hieronder. Zie README stap 5.
-  # Tot die tijd staan ze uit; een lege url wordt door --verify overgeslagen.
+  # Aangezet 2026-08-11 met de feeds die Remi heeft aangemaakt. Welke feed bij
+# welke nieuwsbrief hoort staat niet in de URL; de feedtitel in het
+# verificatierapport bevestigt of de toewijzing hieronder klopt.
 
 - name: TLDR AI
-  enabled: false
+  enabled: true
   type: newsletter
   priority: 2
-  url: ""
+  url: https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o.xml
   homepage: https://tldr.tech/ai
   max_items: 10
   verified: false
   verified_at:
 
 - name: The Rundown AI
-  enabled: false
+  enabled: true
   type: newsletter
   priority: 2
-  url: ""
+  url: https://kill-the-newsletter.com/feeds/7b87u0i8h3vypjvvprgc.xml
   homepage: https://www.therundown.ai/
   max_items: 10
   verified: false
