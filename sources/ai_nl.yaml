@@ -12,246 +12,246 @@ language: nl
 sources:
   # De FeedBurner-feed parseert prima maar is bevroren sinds april 2025.
   # Daarom staat hij achteraan: --verify kiest sinds de fix de verste kandidaat.
-  - name: Tweakers
-    enabled: true
-    type: rss
-    priority: 2
-    url: https://tweakers.net/feeds/nieuws.xml
-    fallback_urls:
-      - https://tweakers.net/feeds/mixed.xml
-      - https://tweakers.net/nieuws/rss/
-      - https://feeds.feedburner.com/tweakers/mixed
-    homepage: https://tweakers.net/
-    max_items: 40
-    include_keywords:
-      - ai
-      - a.i.
-      - kunstmatige intelligentie
-      - llm
-      - chatbot
-      - taalmodel
-      - openai
-      - anthropic
-      - deepmind
-      - copilot
-      - algoritme
-    verified: false
-    verified_at: null
+- name: Tweakers
+  enabled: true
+  type: rss
+  priority: 2
+  url: https://tweakers.net/feeds/nieuws.xml
+  fallback_urls:
+  - https://tweakers.net/feeds/mixed.xml
+  - https://tweakers.net/nieuws/rss/
+  - https://feeds.feedburner.com/tweakers/mixed
+  homepage: https://tweakers.net/
+  max_items: 40
+  include_keywords:
+  - ai
+  - a.i.
+  - kunstmatige intelligentie
+  - llm
+  - chatbot
+  - taalmodel
+  - openai
+  - anthropic
+  - deepmind
+  - copilot
+  - algoritme
+  verified: true
+  verified_at: '2026-08-11T19:30:10+00:00'
 
-  - name: NOS Tech
-    enabled: true
-    type: rss
-    priority: 2
-    url: https://feeds.nos.nl/nosnieuwstech
-    fallback_urls:
-      - https://feeds.nos.nl/nostechnieuws
-    homepage: https://nos.nl/nieuws/tech
-    max_items: 30
-    include_keywords:
-      - ai
-      - kunstmatige intelligentie
-      - llm
-      - chatbot
-      - taalmodel
-      - algoritme
-      - openai
-      - anthropic
-    verified: false
-    verified_at: null
+- name: NOS Tech
+  enabled: true
+  type: rss
+  priority: 2
+  url: https://feeds.nos.nl/nosnieuwstech
+  fallback_urls:
+  - https://feeds.nos.nl/nostechnieuws
+  homepage: https://nos.nl/nieuws/tech
+  max_items: 30
+  include_keywords:
+  - ai
+  - kunstmatige intelligentie
+  - llm
+  - chatbot
+  - taalmodel
+  - algoritme
+  - openai
+  - anthropic
+  verified: true
+  verified_at: '2026-08-11T19:30:10+00:00'
 
   # Uitgezet 2026-08-11: 403 op alle paden. Alleen podcastfeeds zijn open, en dat is audio
   # zonder artikel om naar door te linken.
   # Weer aanzetten kan via /beheer of door hier true te zetten.
-  - name: BNR
-    enabled: false
-    type: rss
-    priority: 3
-    url: https://www.bnr.nl/rss/tech
-    fallback_urls:
-      - https://www.bnr.nl/rss
-      - https://www.bnr.nl/rss/nieuws
-    homepage: https://www.bnr.nl/nieuws/tech
-    max_items: 30
-    include_keywords:
-      - ai
-      - kunstmatige intelligentie
-      - llm
-      - chatbot
-      - algoritme
-    verified: false
-    verified_at: null
+- name: BNR
+  enabled: false
+  type: rss
+  priority: 3
+  url: https://www.bnr.nl/rss/tech
+  fallback_urls:
+  - https://www.bnr.nl/rss
+  - https://www.bnr.nl/rss/nieuws
+  homepage: https://www.bnr.nl/nieuws/tech
+  max_items: 30
+  include_keywords:
+  - ai
+  - kunstmatige intelligentie
+  - llm
+  - chatbot
+  - algoritme
+  verified: false
+  verified_at:
 
   # Uitgezet 2026-08-11: 404 op elk pad; /rss geeft HTML terug. Feed lijkt opgeheven.
   # Weer aanzetten kan via /beheer of door hier true te zetten.
-  - name: AG Connect
-    enabled: false
-    type: rss
-    priority: 2
-    url: https://www.agconnect.nl/rss.xml
-    fallback_urls:
-      - https://www.agconnect.nl/feed
-      - https://www.agconnect.nl/rss
-    homepage: https://www.agconnect.nl/
-    max_items: 30
-    verified: false
-    verified_at: null
+- name: AG Connect
+  enabled: false
+  type: rss
+  priority: 2
+  url: https://www.agconnect.nl/rss.xml
+  fallback_urls:
+  - https://www.agconnect.nl/feed
+  - https://www.agconnect.nl/rss
+  homepage: https://www.agconnect.nl/
+  max_items: 30
+  verified: false
+  verified_at:
 
-  - name: Emerce
-    enabled: true
-    type: rss
-    priority: 3
-    url: https://www.emerce.nl/nieuws/rss
-    fallback_urls:
-      - https://www.emerce.nl/feed
-      - https://www.emerce.nl/rss.xml
-    homepage: https://www.emerce.nl/
-    max_items: 30
-    include_keywords:
-      - ai
-      - kunstmatige intelligentie
-      - llm
-      - chatbot
-      - algoritme
-      - data
-    verified: false
-    verified_at: null
+- name: Emerce
+  enabled: true
+  type: rss
+  priority: 3
+  url: https://www.emerce.nl/nieuws/rss
+  fallback_urls:
+  - https://www.emerce.nl/feed
+  - https://www.emerce.nl/rss.xml
+  homepage: https://www.emerce.nl/
+  max_items: 30
+  include_keywords:
+  - ai
+  - kunstmatige intelligentie
+  - llm
+  - chatbot
+  - algoritme
+  - data
+  verified: true
+  verified_at: '2026-08-11T19:30:10+00:00'
 
-  - name: Computable
-    enabled: true
-    type: rss
-    priority: 3
-    url: https://www.computable.nl/rss.xml
-    fallback_urls:
-      - https://www.computable.nl/feed
-      - https://www.computable.nl/rss/nieuws.xml
-    homepage: https://www.computable.nl/
-    max_items: 30
-    include_keywords:
-      - ai
-      - kunstmatige intelligentie
-      - llm
-      - chatbot
-      - algoritme
-    verified: false
-    verified_at: null
+- name: Computable
+  enabled: true
+  type: rss
+  priority: 3
+  url: https://www.computable.nl/feed/
+  fallback_urls:
+  - https://www.computable.nl/feed
+  - https://www.computable.nl/rss/nieuws.xml
+  homepage: https://www.computable.nl/
+  max_items: 30
+  include_keywords:
+  - ai
+  - kunstmatige intelligentie
+  - llm
+  - chatbot
+  - algoritme
+  verified: true
+  verified_at: '2026-08-11T19:30:10+00:00'
 
-  - name: Bits of Freedom
-    enabled: true
-    type: rss
-    priority: 2
-    url: https://www.bitsoffreedom.nl/feed/
-    fallback_urls:
-      - https://www.bitsoffreedom.nl/rss
-    homepage: https://www.bitsoffreedom.nl/
-    max_items: 20
-    verified: false
-    verified_at: null
+- name: Bits of Freedom
+  enabled: true
+  type: rss
+  priority: 2
+  url: https://www.bitsoffreedom.nl/feed/
+  fallback_urls:
+  - https://www.bitsoffreedom.nl/rss
+  homepage: https://www.bitsoffreedom.nl/
+  max_items: 20
+  verified: true
+  verified_at: '2026-08-11T19:30:10+00:00'
 
-  - name: Nederlandse AI Coalitie
-    enabled: true
-    type: rss
-    priority: 2
-    url: https://nlaic.com/feed/
-    fallback_urls:
-      - https://nlaic.com/rss
-      - https://www.nlaic.com/feed/
-    homepage: https://nlaic.com/nieuws/
-    max_items: 20
-    verified: false
-    verified_at: null
+- name: Nederlandse AI Coalitie
+  enabled: true
+  type: rss
+  priority: 2
+  url: https://aic4nl.nl/feed/
+  fallback_urls:
+  - https://nlaic.com/rss
+  - https://www.nlaic.com/feed/
+  homepage: https://nlaic.com/nieuws/
+  max_items: 20
+  verified: true
+  verified_at: '2026-08-11T19:30:10+00:00'
 
   # Uitgezet 2026-08-11: feeds.rijksoverheid.nl resolvet niet vanaf de runner, in twee
   # afzonderlijke runs. De paden op het hoofddomein geven 404.
   # Weer aanzetten kan via /beheer of door hier true te zetten.
-  - name: Rijksoverheid
-    enabled: false
-    type: rss
-    priority: 3
-    url: https://feeds.rijksoverheid.nl/nieuws.rss
-    fallback_urls:
-      - https://www.rijksoverheid.nl/rss/nieuws.rss
+- name: Rijksoverheid
+  enabled: false
+  type: rss
+  priority: 3
+  url: https://feeds.rijksoverheid.nl/nieuws.rss
+  fallback_urls:
+  - https://www.rijksoverheid.nl/rss/nieuws.rss
     # De service/rss-pagina somt de echte feeds op; autodiscovery vindt ze daar.
-    homepage: https://www.rijksoverheid.nl/service/rss
-    max_items: 40
-    include_keywords:
-      - ai
-      - kunstmatige intelligentie
-      - algoritme
-      - digitalisering
-      - digitale vaardigheden
-    verified: false
-    verified_at: null
+  homepage: https://www.rijksoverheid.nl/service/rss
+  max_items: 40
+  include_keywords:
+  - ai
+  - kunstmatige intelligentie
+  - algoritme
+  - digitalisering
+  - digitale vaardigheden
+  verified: false
+  verified_at:
 
-  # --- Toegevoegd 2026-08-11 -------------------------------------------
+# --- Toegevoegd 2026-08-11 ---------------------------------------
 
-  # Algoritmetoezichthouder; publiceert de AI-risicorapportages.
-  - name: Autoriteit Persoonsgegevens
-    enabled: true
-    type: rss
-    priority: 1
-    url: https://www.autoriteitpersoonsgegevens.nl/rss
-    fallback_urls:
-      - https://www.autoriteitpersoonsgegevens.nl/feed
-      - https://www.autoriteitpersoonsgegevens.nl/nl/actueel/rss
-    homepage: https://www.autoriteitpersoonsgegevens.nl/actueel
-    max_items: 30
-    include_keywords:
-      - ai
-      - kunstmatige intelligentie
-      - algoritme
-      - llm
-      - chatbot
-      - taalmodel
-      - profilering
-      - geautomatiseerde besluitvorming
-    verified: false
-    verified_at: null
+# Algoritmetoezichthouder; publiceert de AI-risicorapportages.
+- name: Autoriteit Persoonsgegevens
+  enabled: true
+  type: rss
+  priority: 1
+  url: https://www.autoriteitpersoonsgegevens.nl/rss
+  fallback_urls:
+    - https://www.autoriteitpersoonsgegevens.nl/feed
+    - https://www.autoriteitpersoonsgegevens.nl/nl/actueel/rss
+  homepage: https://www.autoriteitpersoonsgegevens.nl/actueel
+  max_items: 30
+  include_keywords:
+    - ai
+    - kunstmatige intelligentie
+    - algoritme
+    - llm
+    - chatbot
+    - taalmodel
+    - profilering
+    - geautomatiseerde besluitvorming
+  verified: false
+  verified_at: null
 
-  # Digitalisering bij de overheid; vult het gat van Rijksoverheid.
-  - name: iBestuur
-    enabled: true
-    type: rss
-    priority: 2
-    url: https://ibestuur.nl/feed/
-    fallback_urls:
-      - https://ibestuur.nl/rss
-      - https://www.ibestuur.nl/feed/
-    homepage: https://ibestuur.nl/
-    max_items: 30
-    include_keywords:
-      - ai
-      - kunstmatige intelligentie
-      - algoritme
-      - llm
-      - chatbot
-      - taalmodel
-      - digitalisering
-    verified: false
-    verified_at: null
+# Digitalisering bij de overheid; vult het gat van Rijksoverheid.
+- name: iBestuur
+  enabled: true
+  type: rss
+  priority: 2
+  url: https://ibestuur.nl/feed/
+  fallback_urls:
+    - https://ibestuur.nl/rss
+    - https://www.ibestuur.nl/feed/
+  homepage: https://ibestuur.nl/
+  max_items: 30
+  include_keywords:
+    - ai
+    - kunstmatige intelligentie
+    - algoritme
+    - llm
+    - chatbot
+    - taalmodel
+    - digitalisering
+  verified: false
+  verified_at: null
 
-  # Kritisch op technologie, publieke waarden, digitale rechten.
-  - name: Waag Futurelab
-    enabled: true
-    type: rss
-    priority: 2
-    url: https://waag.org/nl/rss.xml
-    fallback_urls:
-      - https://waag.org/rss.xml
-      - https://waag.org/nl/feed/
-    homepage: https://waag.org/nl/
-    max_items: 25
-    verified: false
-    verified_at: null
+# Kritisch op technologie, publieke waarden, digitale rechten.
+- name: Waag Futurelab
+  enabled: true
+  type: rss
+  priority: 2
+  url: https://waag.org/nl/rss.xml
+  fallback_urls:
+    - https://waag.org/rss.xml
+    - https://waag.org/nl/feed/
+  homepage: https://waag.org/nl/
+  max_items: 25
+  verified: false
+  verified_at: null
 
-  - name: Netkwesties
-    enabled: true
-    type: rss
-    priority: 3
-    url: https://www.netkwesties.nl/feed/
-    fallback_urls:
-      - https://www.netkwesties.nl/rss
-      - https://netkwesties.nl/feed/
-    homepage: https://www.netkwesties.nl/
-    max_items: 25
-    verified: false
-    verified_at: null
+- name: Netkwesties
+  enabled: true
+  type: rss
+  priority: 3
+  url: https://www.netkwesties.nl/feed/
+  fallback_urls:
+    - https://www.netkwesties.nl/rss
+    - https://netkwesties.nl/feed/
+  homepage: https://www.netkwesties.nl/
+  max_items: 25
+  verified: false
+  verified_at: null
