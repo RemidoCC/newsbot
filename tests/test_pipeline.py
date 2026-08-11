@@ -390,3 +390,42 @@ def test_twee_of_minder_vijven_blijft_ongemoeid():
              {"id": "b", "importance": 3, "published": NU.isoformat()}]
     validate.normaliseer_importance(items, {})
     assert [i["importance"] for i in items] == [5, 3]
+
+
+def test_tweede_run_op_dezelfde_dag_wist_de_digest_niet(tmp_path, monkeypatch):
+    """Handmatig twee keer draaien mag de digest van die dag niet leegmaken.
+
+    dedupe.py heeft de items van de eerste run al in seen.json gezet, dus de
+    tweede levert bijna niets op. Zonder samenvoegen verving die de goede
+    digest door een lege.
+    """
+    monkeypatch.setattr(validate, "DATA_DIR", tmp_path)
+    (tmp_path / "clean").mkdir(parents=True)
+    (tmp_path / "digest").mkdir(parents=True)
+
+    origineel = {"id": "b" * 64, "url": "https://echt.nl/nieuw", "source_name": "Bron",
+                 "published": "2026-08-11T09:00:00+00:00", "source_type": "rss"}
+    (tmp_path / "clean" / "2026-08-11.json").write_text(
+        json.dumps({"items": [origineel]}), encoding="utf-8")
+
+    vandaag = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    (tmp_path / "digest" / f"{vandaag}.json").write_text(json.dumps({
+        "date": vandaag, "items": [
+            {"id": "a" * 64, "title": "Van de eerste run", "summary": "x",
+             "url": "https://echt.nl/eerste", "source_name": "Bron", "channel": "ai",
+             "region": "int", "topics": ["tools"], "importance": 3,
+             "why_relevant": "x", "published": "2026-08-11T08:00:00+00:00",
+             "also_covered_by": []}]}), encoding="utf-8")
+
+    batch = tmp_path / "enriched_01.json"
+    batch.write_text(json.dumps([{
+        "id": "b" * 64, "title_nl": "Van de tweede run",
+        "summary_nl": "Een samenvatting van ruim twintig tekens in het Nederlands.",
+        "channel": "ai", "region": "int", "topics": ["modellen"], "importance": 2,
+        "why_relevant": "Relevant."}]), encoding="utf-8")
+
+    assert validate.run([batch], check_only=False) == 0
+    uit = json.loads((tmp_path / "digest" / f"{vandaag}.json").read_text(encoding="utf-8"))
+    titels = {i["title"] for i in uit["items"]}
+    assert titels == {"Van de eerste run", "Van de tweede run"}
+    assert uit["stats"]["geldig"] == 2

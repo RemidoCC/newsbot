@@ -237,6 +237,30 @@ def run(batch_paths: list[Path], check_only: bool) -> int:
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     out_path = DATA_DIR / "digest" / f"{today}.json"
     out_path.parent.mkdir(parents=True, exist_ok=True)
+
+    # Twee keer op een dag draaien mag niet destructief zijn. dedupe.py heeft de
+    # items van de eerste run al in seen.json gezet, dus de tweede levert bijna
+    # niets op — zonder samenvoegen zou die de goede digest vervangen door een
+    # lege. Bij hetzelfde id wint het nieuwe oordeel.
+    bestaand = []
+    if out_path.exists():
+        try:
+            bestaand = json.loads(out_path.read_text(encoding="utf-8")).get("items", [])
+        except (OSError, json.JSONDecodeError) as exc:
+            log_error(out_path.name, "digest_lezen", exc)
+
+    if bestaand:
+        samen = {i["id"]: i for i in bestaand}
+        samen.update({i["id"]: i for i in items})
+        nieuw = len({i["id"] for i in items} - {i["id"] for i in bestaand})
+        items = sorted(samen.values(),
+                       key=lambda i: (-i["importance"], i.get("published") or "", i["title"]))
+        print(f"Samengevoegd met de bestaande digest van vandaag: "
+              f"{len(bestaand)} bestaand + {nieuw} nieuw = {len(items)}.", file=sys.stderr)
+        stats["geldig"] = len(items)
+        stats["ai"] = sum(1 for i in items if i["channel"] == "ai")
+        stats["bieb"] = sum(1 for i in items if i["channel"] == "bieb")
+
     out_path.write_text(
         json.dumps({
             "date": today,
