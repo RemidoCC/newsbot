@@ -58,44 +58,6 @@ sources:
   - anthropic
   verified: true
   verified_at: '2026-08-11T19:40:42+00:00'
-
-  # Uitgezet 2026-08-11: 403 op alle paden. Alleen podcastfeeds zijn open, en dat is audio
-  # zonder artikel om naar door te linken.
-  # Weer aanzetten kan via /beheer of door hier true te zetten.
-- name: BNR
-  enabled: false
-  type: rss
-  priority: 3
-  url: https://www.bnr.nl/rss/tech
-  fallback_urls:
-  - https://www.bnr.nl/rss
-  - https://www.bnr.nl/rss/nieuws
-  homepage: https://www.bnr.nl/nieuws/tech
-  max_items: 30
-  include_keywords:
-  - ai
-  - kunstmatige intelligentie
-  - llm
-  - chatbot
-  - algoritme
-  verified: false
-  verified_at:
-
-  # Uitgezet 2026-08-11: 404 op elk pad; /rss geeft HTML terug. Feed lijkt opgeheven.
-  # Weer aanzetten kan via /beheer of door hier true te zetten.
-- name: AG Connect
-  enabled: false
-  type: rss
-  priority: 2
-  url: https://www.agconnect.nl/rss.xml
-  fallback_urls:
-  - https://www.agconnect.nl/feed
-  - https://www.agconnect.nl/rss
-  homepage: https://www.agconnect.nl/
-  max_items: 30
-  verified: false
-  verified_at:
-
 - name: Emerce
   enabled: true
   type: rss
@@ -159,29 +121,6 @@ sources:
   max_items: 20
   verified: true
   verified_at: '2026-08-11T19:40:42+00:00'
-
-  # Uitgezet 2026-08-11: feeds.rijksoverheid.nl resolvet niet vanaf de runner, in twee
-  # afzonderlijke runs. De paden op het hoofddomein geven 404.
-  # Weer aanzetten kan via /beheer of door hier true te zetten.
-- name: Rijksoverheid
-  enabled: false
-  type: rss
-  priority: 3
-  url: https://feeds.rijksoverheid.nl/nieuws.rss
-  fallback_urls:
-  - https://www.rijksoverheid.nl/rss/nieuws.rss
-    # De service/rss-pagina somt de echte feeds op; autodiscovery vindt ze daar.
-  homepage: https://www.rijksoverheid.nl/service/rss
-  max_items: 40
-  include_keywords:
-  - ai
-  - kunstmatige intelligentie
-  - algoritme
-  - digitalisering
-  - digitale vaardigheden
-  verified: false
-  verified_at:
-
 # --- Toegevoegd 2026-08-11 ---------------------------------------
 
 # Algoritmetoezichthouder; publiceert de AI-risicorapportages.
@@ -205,57 +144,4 @@ sources:
   - profilering
   - geautomatiseerde besluitvorming
   verified: true
-  verified_at: '2026-08-11T19:40:42+00:00'
-
-# Digitalisering bij de overheid; vult het gat van Rijksoverheid.
-# Uitgezet 2026-08-11 na verificatie: 404 op alle paden; geen feed-link op de homepage.
-- name: iBestuur
-  enabled: false
-  type: rss
-  priority: 2
-  url: https://ibestuur.nl/feed/
-  fallback_urls:
-  - https://ibestuur.nl/rss
-  - https://www.ibestuur.nl/feed/
-  homepage: https://ibestuur.nl/
-  max_items: 30
-  include_keywords:
-  - ai
-  - kunstmatige intelligentie
-  - algoritme
-  - llm
-  - chatbot
-  - taalmodel
-  - digitalisering
-  verified: false
-  verified_at: '2026-08-11T19:40:42+00:00'
-
-# Kritisch op technologie, publieke waarden, digitale rechten.
-# Uitgezet 2026-08-11 na verificatie: 404 op alle paden; geen feed-link op de homepage.
-- name: Waag Futurelab
-  enabled: false
-  type: rss
-  priority: 2
-  url: https://waag.org/nl/rss.xml
-  fallback_urls:
-  - https://waag.org/rss.xml
-  - https://waag.org/nl/feed/
-  homepage: https://waag.org/nl/
-  max_items: 25
-  verified: false
-  verified_at: '2026-08-11T19:40:42+00:00'
-
-# Uitgezet 2026-08-11 na verificatie: 404 en 403; geen feed-link op de homepage.
-
-- name: Netkwesties
-  enabled: false
-  type: rss
-  priority: 3
-  url: https://www.netkwesties.nl/feed/
-  fallback_urls:
-  - https://www.netkwesties.nl/rss
-  - https://netkwesties.nl/feed/
-  homepage: https://www.netkwesties.nl/
-  max_items: 25
-  verified: false
   verified_at: '2026-08-11T19:40:42+00:00'

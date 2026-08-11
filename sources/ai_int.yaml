@@ -20,21 +20,6 @@ region: int
 language: en
 
 sources:
-  # Uitgezet 2026-08-11: 403 op alle paden en op de homepage: Cloudflare weigert de runner.
-  # Weer aanzetten kan via /beheer of door hier true te zetten.
-- name: The Batch (DeepLearning.AI)
-  enabled: false
-  type: rss
-  priority: 1
-  url: https://www.deeplearning.ai/the-batch/rss.xml
-  fallback_urls:
-  - https://www.deeplearning.ai/the-batch/feed/
-  - https://www.deeplearning.ai/feed/
-  homepage: https://www.deeplearning.ai/the-batch/
-  max_items: 15
-  verified: false
-  verified_at:
-
 - name: Import AI
   enabled: true
   type: rss
@@ -94,23 +79,6 @@ sources:
   max_items: 25
   verified: true
   verified_at: '2026-08-11T19:40:42+00:00'
-
-  # Anthropic publiceert geen eigen RSS: alle drie de gangbare paden gaven 404
-  # vanaf de Actions-runner. Wat overblijft zijn community-mirrors (RSSHub), en
-  # dat is dezelfde soort broze afhankelijkheid als de X-bridge. Daarom uit.
-  # Anthropic-nieuws komt in de praktijk toch binnen via HN, Ars en Simon Willison.
-  # Wil je het toch: zet enabled op true en laat --verify de mirror testen.
-- name: Anthropic
-  enabled: false
-  type: rss
-  priority: 1
-  url: https://rsshub.bestblogs.dev/anthropic/news
-  fallback_urls: []
-  homepage: https://www.anthropic.com/news
-  max_items: 15
-  verified: false
-  verified_at:
-
 - name: Google DeepMind
   enabled: true
   type: rss
@@ -181,7 +149,7 @@ sources:
   # Ontbreken die secrets, dan slaat collect.py ze over en logt dat. Zie README stap 4.
 
 - name: r/MachineLearning
-  enabled: true
+  enabled: false
   type: reddit
   priority: 3
   subreddit: MachineLearning
@@ -193,7 +161,7 @@ sources:
   verified_at: '2026-08-11T19:40:42+00:00'
 
 - name: r/LocalLLaMA
-  enabled: true
+  enabled: false
   type: reddit
   priority: 3
   subreddit: LocalLLaMA
@@ -205,7 +173,7 @@ sources:
   verified_at: '2026-08-11T19:40:42+00:00'
 
 - name: r/artificial
-  enabled: true
+  enabled: false
   type: reddit
   priority: 4
   subreddit: artificial
@@ -217,7 +185,7 @@ sources:
   verified_at: '2026-08-11T19:40:42+00:00'
 
 - name: r/singularity
-  enabled: true
+  enabled: false
   type: reddit
   priority: 4
   subreddit: singularity
@@ -267,19 +235,4 @@ sources:
   homepage: https://www.theverge.com/ai-artificial-intelligence
   max_items: 25
   verified: true
-  verified_at: '2026-08-11T19:40:42+00:00'
-
-# Onderzoek en beleid, met oog voor maatschappelijke impact.
-# Uitgezet 2026-08-11 na verificatie: HTTP 200 maar HTML op elk pad: geen feed, alleen pagina's.
-- name: Stanford HAI
-  enabled: false
-  type: rss
-  priority: 2
-  url: https://hai.stanford.edu/news/rss.xml
-  fallback_urls:
-  - https://hai.stanford.edu/rss.xml
-  - https://hai.stanford.edu/feed
-  homepage: https://hai.stanford.edu/news
-  max_items: 20
-  verified: false
   verified_at: '2026-08-11T19:40:42+00:00'

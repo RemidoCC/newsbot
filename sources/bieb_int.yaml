@@ -18,51 +18,6 @@ sources:
   max_items: 25
   verified: true
   verified_at: '2026-08-11T19:40:42+00:00'
-
-  # Uitgezet 2026-08-11: Verbindingstimeout op alle paden.
-  # Weer aanzetten kan via /beheer of door hier true te zetten.
-- name: EBLIDA
-  enabled: false
-  type: rss
-  priority: 2
-  url: https://www.eblida.org/feed/
-  fallback_urls:
-  - https://www.eblida.org/news/feed/
-  - https://eblida.org/feed/
-  homepage: https://www.eblida.org/news/
-  max_items: 25
-  verified: false
-  verified_at:
-
-  # Uitgezet 2026-08-11: HTTP 200 maar HTML in plaats van XML: geen feed op dat pad.
-  # Weer aanzetten kan via /beheer of door hier true te zetten.
-- name: Public Libraries 2030
-  enabled: false
-  type: rss
-  priority: 2
-  url: https://publiclibraries2030.eu/feed/
-  fallback_urls:
-  - https://www.publiclibraries2030.eu/feed/
-  homepage: https://publiclibraries2030.eu/news/
-  max_items: 25
-  verified: false
-  verified_at:
-
-  # Uitgezet 2026-08-11: 403 op alles, ook op de homepage.
-  # Weer aanzetten kan via /beheer of door hier true te zetten.
-- name: Library Journal
-  enabled: false
-  type: rss
-  priority: 1
-  url: https://www.libraryjournal.com/rss/all
-  fallback_urls:
-  - https://www.libraryjournal.com/feed
-  - https://www.libraryjournal.com/rss
-  homepage: https://www.libraryjournal.com/
-  max_items: 25
-  verified: false
-  verified_at:
-
 - name: American Libraries
   enabled: true
   type: rss
@@ -89,7 +44,7 @@ sources:
 
   # Reddit via de officiele OAuth-API, zie sources/ai_int.yaml en README stap 4.
 - name: r/libraries
-  enabled: true
+  enabled: false
   type: reddit
   priority: 3
   subreddit: libraries

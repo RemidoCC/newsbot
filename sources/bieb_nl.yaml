@@ -36,20 +36,6 @@ sources:
   max_items: 25
   verified: false
   verified_at: '2026-08-11T19:40:42+00:00'
-
-- name: VOB (debibliotheken.nl)
-  enabled: true
-  type: rss
-  priority: 1
-  url: https://www.debibliotheken.nl/feed
-  fallback_urls:
-  - https://www.debibliotheken.nl/rss
-  - https://debibliotheken.nl/feed/
-  homepage: https://www.debibliotheken.nl/actueel
-  max_items: 25
-  verified: false
-  verified_at: '2026-08-11T19:40:42+00:00'
-
 - name: Netwerk Mediawijsheid
   enabled: true
   type: rss
@@ -62,35 +48,6 @@ sources:
   max_items: 25
   verified: true
   verified_at: '2026-08-11T19:40:42+00:00'
-
-- name: Alliantie Digitaal Samenleven
-  enabled: true
-  type: rss
-  priority: 2
-  url: https://digitaalsamenleven.nl/feed/
-  fallback_urls:
-  - https://www.digitaalsamenleven.nl/feed/
-  - https://digitaalsamenleven.nl/rss
-  homepage: https://digitaalsamenleven.nl/nieuws/
-  max_items: 25
-  verified: false
-  verified_at: '2026-08-11T19:40:42+00:00'
-
-  # Uitgezet 2026-08-11: 404 op alle drie de paden.
-  # Weer aanzetten kan via /beheer of door hier true te zetten.
-- name: Stichting Lezen en Schrijven
-  enabled: false
-  type: rss
-  priority: 2
-  url: https://www.lezenenschrijven.nl/feed
-  fallback_urls:
-  - https://www.lezenenschrijven.nl/rss
-  - https://lezenenschrijven.nl/feed/
-  homepage: https://www.lezenenschrijven.nl/nieuws
-  max_items: 25
-  verified: false
-  verified_at:
-
 - name: Digisterker
   enabled: true
   type: rss
@@ -161,23 +118,6 @@ sources:
   max_items: 25
   verified: true
   verified_at: '2026-08-11T19:40:42+00:00'
-
-# POI Noord-Brabant en Limburg.
-# Uitgezet 2026-08-11 na verificatie: 404 op alle paden; geen feed-link op de homepage.
-- name: Cubiss
-  enabled: false
-  type: rss
-  priority: 2
-  url: https://www.cubiss.nl/feed/
-  fallback_urls:
-  - https://www.cubiss.nl/rss
-  - https://cubiss.nl/feed/
-  homepage: https://www.cubiss.nl/nieuws
-  max_items: 25
-  verified: false
-  verified_at: '2026-08-11T19:40:42+00:00'
-
-# Digitale samenleving en digitale vaardigheden.
 - name: ECP | Platform voor de InformatieSamenleving
   enabled: true
   type: rss
