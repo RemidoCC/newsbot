@@ -1,6 +1,6 @@
 # Bronverificatie
 
-Gedraaid op 2026-08-08 05:44 UTC.
+Gedraaid op 2026-08-11 19:24 UTC.
 
 **0 levend** · **0 bevroren** · **1 kapot** · 0 uitgezet · 1 totaal
 
@@ -8,12 +8,11 @@ Bevroren = de feed parseert prima, maar het nieuwste item is ouder dan 90 dagen.
 
 | Bron | Bestand | Status | Via | Details |
 | --- | --- | --- | --- | --- |
-| IFLA | bieb_int.yaml | KAPOT | - | geen enkele kandidaat leverde een feed op |
+| Princh Library Blog | bieb_int.yaml | KAPOT | - | geen enkele kandidaat leverde een feed op |
 
 ## Kapotte bronnen
 
-- **IFLA** — geen enkele kandidaat leverde een feed op
-  - `https://www.ifla.org/feed/` — ProxyError: 403 Forbidden
-  - `https://www.ifla.org/news/feed/` — ProxyError: 403 Forbidden
-  - `https://www.ifla.org/rss.xml` — ProxyError: 403 Forbidden
-  - `https://www.ifla.org/news/` — autodiscovery: 403 Forbidden
+- **Princh Library Blog** — geen enkele kandidaat leverde een feed op
+  - `https://princh.com/blog/feed/` — ProxyError: 403 Forbidden
+  - `https://princh.com/feed/` — ProxyError: 403 Forbidden
+  - `https://princh.com/blog/` — autodiscovery: 403 Forbidden

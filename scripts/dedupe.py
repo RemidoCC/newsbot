@@ -1,12 +1,16 @@
 #!/usr/bin/env python3
 """Ontdubbelt en filtert de ruwe oogst, en snijdt hem in batches voor `claude -p`.
 
-Nog steeds geen LLM. Vier zeven, in deze volgorde:
+Nog steeds geen LLM. Vijf zeven, in deze volgorde:
 
-    1. al eerder getoond   -> weg (seen.json, 30 dagen geheugen)
-    2. te oud              -> weg (48 uur voor ai, 7 dagen voor bieb)
-    3. bijna dezelfde kop  -> samengevoegd, beste bron wint
-    4. meer dan 120 over   -> cap op bronprioriteit en recentheid
+    1. al eerder getoond    -> weg (seen.json, 30 dagen geheugen)
+    2. kop komt terug       -> weg (zelfde verhaal, andere URL, 5 dagen terug)
+    3. te oud               -> weg (48 uur voor ai, 7 dagen voor bieb)
+    4. bijna dezelfde kop   -> samengevoegd, beste bron wint
+    5. meer dan 120 over    -> cap op bronprioriteit en recentheid
+
+Aan het eind ruimt hij data/ op: oude raw-, clean- en digestbestanden gaan weg,
+anders groeit de repogeschiedenis onbeperkt door.
 
 Over seen.json: dit script werkt het meteen bij, maar de workflow commit `data/`
 pas aan het eind. Klapt de run halverwege, dan blijft de versie in git staan en
@@ -40,6 +44,14 @@ TITLE_OVERLAP = 0.85
 # Bibliotheekbronnen publiceren een paar keer per maand, geen paar keer per dag.
 # Met 48 uur zou die tab bijna altijd leeg zijn.
 MAX_AGE_HOURS = {"ai": 48, "bieb": 24 * 7}
+
+# Hoe ver terug we kijken voor herhaling van hetzelfde verhaal onder een andere
+# URL. Daarbuiten is opnieuw opduiken meestal echt nieuws.
+HERHALING_VENSTER_DAGEN = 5
+
+# Opruimen: hoeveel bestanden per map blijven staan. Het archief toont er 30,
+# dus 60 digests geeft ruimte zonder dat de repo blijft groeien.
+BEWAAR = {"raw": 7, "clean": 7, "digest": 60}
 
 # Woorden die in koppen niets onderscheiden en de overlap-score zouden opblazen.
 STOPWORDS = {
@@ -85,14 +97,59 @@ def near_duplicate(left: set[str], right: set[str]) -> bool:
     return len(left & right) / min(len(left), len(right)) >= TITLE_OVERLAP
 
 
+def seen_regel(waarde) -> tuple[datetime | None, set[str]]:
+    """Leest een regel uit seen.json. Verdraagt het oude platte formaat.
+
+    Vroeger was de waarde alleen een tijdstempel. Nu staat de kop er als
+    tokenlijst bij, zodat hetzelfde verhaal onder een andere URL ook herkend
+    wordt. Oude bestanden blijven leesbaar.
+    """
+    if isinstance(waarde, dict):
+        return parse_when(waarde.get("ts")), set(waarde.get("kop") or [])
+    return parse_when(waarde), set()
+
+
 def prune_seen(seen: dict) -> dict:
     cutoff = datetime.now(timezone.utc) - timedelta(days=SEEN_RETENTION_DAYS)
     kept = {}
     for key, value in seen.items():
-        when = parse_when(value)
+        when, _ = seen_regel(value)
         if when is None or when >= cutoff:
             kept[key] = value
     return kept
+
+
+def recente_koppen(seen: dict) -> list[set[str]]:
+    """Koppen van de laatste dagen, om herhaling over dagen heen te vangen.
+
+    Alleen het recente venster: een verhaal dat drie weken later opnieuw
+    opduikt is meestal echt nieuws en geen herhaling. Beperken houdt het
+    bovendien goedkoop — dit is een vergelijking van elk nieuw item tegen elke
+    bewaarde kop.
+    """
+    grens = datetime.now(timezone.utc) - timedelta(days=HERHALING_VENSTER_DAGEN)
+    koppen = []
+    for waarde in seen.values():
+        when, tokens = seen_regel(waarde)
+        if tokens and when is not None and when >= grens:
+            koppen.append(tokens)
+    return koppen
+
+
+def ruim_op() -> int:
+    """Snoeit oude bestanden in data/. Elke run commit deze map, dus zonder
+    opruimen groeit de repogeschiedenis onbeperkt door met bestanden die
+    niemand meer opvraagt."""
+    verwijderd = 0
+    for map_naam, bewaar in BEWAAR.items():
+        bestanden = sorted((DATA_DIR / map_naam).glob("*.json"))
+        for oud in bestanden[:-bewaar] if len(bestanden) > bewaar else []:
+            try:
+                oud.unlink()
+                verwijderd += 1
+            except OSError as exc:
+                log_error(map_naam, "opruimen", exc)
+    return verwijderd
 
 
 def sort_key(item: dict):
@@ -122,7 +179,9 @@ def run(date: str | None, dry_run: bool) -> int:
     items = payload["items"]
     now = datetime.now(timezone.utc)
     seen = prune_seen(load_json(SEEN_PATH, {}) or {})
-    stats = {"binnen": len(items), "al_gezien": 0, "te_oud": 0, "dubbel": 0, "gecapt": 0}
+    eerdere_koppen = recente_koppen(seen)
+    stats = {"binnen": len(items), "al_gezien": 0, "herhaling": 0,
+             "te_oud": 0, "dubbel": 0, "gecapt": 0}
 
     # 1 + 2: eerder getoond, en te oud voor het kanaal.
     fresh = []
@@ -132,6 +191,13 @@ def run(date: str | None, dry_run: bool) -> int:
             continue
         if key in seen:
             stats["al_gezien"] += 1
+            continue
+
+        # Zelfde verhaal, andere URL: gisteren bij de ene bron, vandaag bij de
+        # andere. Dat is de herhaling die je als lezer het snelst irriteert.
+        tokens = title_tokens(item.get("title", ""))
+        if any(near_duplicate(tokens, eerder) for eerder in eerdere_koppen):
+            stats["herhaling"] += 1
             continue
 
         published = parse_when(item.get("published"))
@@ -195,10 +261,17 @@ def run(date: str | None, dry_run: bool) -> int:
         )
 
     for item in kept:
-        seen[item["id"]] = now.isoformat(timespec="seconds")
+        seen[item["id"]] = {
+            "ts": now.isoformat(timespec="seconds"),
+            "kop": sorted(title_tokens(item.get("title", ""))),
+        }
     SEEN_PATH.write_text(
         json.dumps(seen, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
+
+    opgeruimd = ruim_op()
+    if opgeruimd:
+        print(f"{opgeruimd} oude databestanden opgeruimd.", file=sys.stderr)
 
     print(
         f"{len(kept)} items over, {len(batches)} batches "

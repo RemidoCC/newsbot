@@ -1,10 +1,10 @@
 [
   {
-    "name": "IFLA",
+    "name": "Princh Library Blog",
     "file": "bieb_int.yaml",
     "type": "rss",
     "enabled": true,
-    "configured_url": "https://www.ifla.org/feed/",
+    "configured_url": "https://princh.com/blog/feed/",
     "ok": false,
     "status": null,
     "age_days": null,
@@ -13,22 +13,17 @@
     "detail": "geen enkele kandidaat leverde een feed op",
     "attempts": [
       {
-        "url": "https://www.ifla.org/feed/",
+        "url": "https://princh.com/blog/feed/",
         "ok": false,
         "error": "ProxyError: 403 Forbidden"
       },
       {
-        "url": "https://www.ifla.org/news/feed/",
+        "url": "https://princh.com/feed/",
         "ok": false,
         "error": "ProxyError: 403 Forbidden"
       },
       {
-        "url": "https://www.ifla.org/rss.xml",
-        "ok": false,
-        "error": "ProxyError: 403 Forbidden"
-      },
-      {
-        "url": "https://www.ifla.org/news/",
+        "url": "https://princh.com/blog/",
         "ok": false,
         "error": "autodiscovery: 403 Forbidden"
       }

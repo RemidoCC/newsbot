@@ -25,6 +25,7 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
+from dateutil import parser as dateparser
 from jsonschema import Draft202012Validator
 
 from collect import DATA_DIR, flush_errors, log_error, toon_pad
@@ -129,6 +130,37 @@ def merge(original: dict, enriched: dict) -> dict:
     }
 
 
+MAX_TOPSTUKKEN = 2
+
+
+def normaliseer_importance(items: list[dict], originals: dict[str, dict]) -> None:
+    """Hoogstens twee items per run krijgen een 5. Past de lijst ter plekke aan.
+
+    De enrich-prompt vraagt hierom, maar kan het niet afdwingen: elke batch van
+    veertig is een aparte `claude -p`-aanroep die die instructie los toepast.
+    Bij drie batches krijg je dus tot zes vijven en loopt "Belangrijk vandaag"
+    over — precies de sectie die schaars hoort te zijn om iets te betekenen.
+
+    Wie de vijf houdt, bepalen we op bronprioriteit en daarna recentheid. De
+    rest zakt naar een 4, want het model vond ze wel degelijk belangrijk.
+    """
+    vijven = [i for i in items if i["importance"] >= 5]
+    if len(vijven) <= MAX_TOPSTUKKEN:
+        return
+
+    def rangschik(item: dict):
+        prioriteit = int(originals.get(item["id"], {}).get("priority", 3))
+        try:
+            versheid = -dateparser.isoparse(item["published"]).timestamp()
+        except (KeyError, TypeError, ValueError):
+            versheid = 0.0
+        return (prioriteit, versheid)
+
+    vijven.sort(key=rangschik)
+    for item in vijven[MAX_TOPSTUKKEN:]:
+        item["importance"] = 4
+
+
 def run(batch_paths: list[Path], check_only: bool) -> int:
     originals = load_source_items()
     if not originals:
@@ -186,6 +218,9 @@ def run(batch_paths: list[Path], check_only: bool) -> int:
     unique: dict[str, dict] = {}
     for item in accepted:
         unique.setdefault(item["id"], item)
+
+    normaliseer_importance(list(unique.values()), originals)
+
     items = sorted(
         unique.values(),
         key=lambda i: (-i["importance"], i.get("published") or "", i["title"]),

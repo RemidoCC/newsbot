@@ -316,6 +316,7 @@ def load_supabase_sources(client: httpx.Client) -> list[tuple[dict, dict]]:
     for rij in response.json():
         source = {
             "name": rij.get("name") or "?",
+            "supabase_id": rij.get("id"),
             "enabled": True,
             "type": rij.get("type") or "rss",
             "priority": int(rij.get("priority") or 3),
@@ -332,6 +333,48 @@ def load_supabase_sources(client: httpx.Client) -> list[tuple[dict, dict]]:
         }
         gevonden.append((source, config))
     return gevonden
+
+
+def schrijf_verify_terug(client: httpx.Client, resultaten: list[dict]) -> int:
+    """Zet de verify-uitslag terug in de Supabase-tabel.
+
+    Vereist SUPABASE_SERVICE_ROLE_KEY: `sources` is publiek leesbaar maar alleen
+    de eigenaar mag schrijven, en de Actions-runner is niemand. Ontbreekt de
+    sleutel, dan slaan we het stilzwijgend over — de YAML-bronnen zijn dan nog
+    steeds bijgewerkt en dat is het grootste deel.
+    """
+    url, _ = supabase_config()
+    service_key = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "").strip()
+    if not (url and service_key and resultaten):
+        return 0
+
+    headers = {
+        "apikey": service_key,
+        "Authorization": f"Bearer {service_key}",
+        "Content-Type": "application/json",
+        "Prefer": "return=minimal",
+    }
+    bijgewerkt = 0
+    for resultaat in resultaten:
+        bron_id = resultaat.get("supabase_id")
+        if not bron_id:
+            continue
+        try:
+            response = client.patch(
+                f"{url}/rest/v1/sources",
+                params={"id": f"eq.{bron_id}"},
+                headers=headers,
+                json={
+                    "verify_status": resultaat.get("status") or "kapot",
+                    "verify_detail": (resultaat.get("detail") or "")[:500],
+                    "verified_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+                },
+            )
+            response.raise_for_status()
+            bijgewerkt += 1
+        except httpx.HTTPError as exc:
+            log_error(resultaat.get("name", "?"), "verify_terugschrijven", exc)
+    return bijgewerkt
 
 
 def build_item(
@@ -366,17 +409,34 @@ def build_item(
 # --------------------------------------------------------------------------
 
 def collect_rss(client: httpx.Client, source: dict, config: dict) -> list[dict]:
-    url = (source.get("url") or "").strip()
-    if not url:
+    kandidaten = [(source.get("url") or "").strip()]
+    kandidaten += [str(u).strip() for u in (source.get("fallback_urls") or [])]
+    kandidaten = [u for u in kandidaten if u]
+    if not kandidaten:
         raise ValueError("geen url ingesteld (zie README)")
 
-    response = fetch(client, url, headers={"Accept": FEED_ACCEPT})
-    feed = feedparser.parse(response.content)
-    if not feed.entries:
-        raise ValueError(
-            f"HTTP {response.status_code} maar 0 items "
-            f"(content-type: {response.headers.get('content-type', '?')})"
-        )
+    # Ook hier de fallbacks proberen, niet alleen in --verify. Anders levert een
+    # bron niets zolang niemand de verify-workflow met --apply heeft gedraaid,
+    # terwijl een werkende URL gewoon in het bestand staat.
+    laatste: Exception | None = None
+    response = None
+    for url in kandidaten:
+        try:
+            response = fetch(client, url, headers={"Accept": FEED_ACCEPT})
+            feed = feedparser.parse(response.content)
+            if feed.entries:
+                break
+            laatste = ValueError(
+                f"HTTP {response.status_code} maar 0 items "
+                f"(content-type: {response.headers.get('content-type', '?')})"
+            )
+        except Exception as exc:  # noqa: BLE001 - volgende kandidaat proberen
+            laatste = exc
+    else:
+        raise laatste if laatste else ValueError("geen bruikbare feed")
+
+    if url != kandidaten[0]:
+        print(f"    (via fallback {url})", file=sys.stderr)
 
     source_type = source.get("type", "rss")
     items = []
@@ -802,6 +862,25 @@ def run_verify(apply_fixes: bool, only: str | None) -> int:
                     source["verified_at"] = now
                     if result["ok"] and result["via"] in ("fallback", "autodiscovery"):
                         source["url"] = result["winning_url"]
+
+        # Bronnen die via /beheer zijn toegevoegd horen er net zo goed bij;
+        # zonder dit blijft verify_status in de beheerpagina eeuwig leeg.
+        try:
+            for source, _cfg in load_supabase_sources(client):
+                if only and only.lower() not in str(source.get("name", "")).lower():
+                    continue
+                print(f"-> {source.get('name')} (Supabase)", file=sys.stderr)
+                resultaat = verify_source(client, source, "supabase")
+                resultaat["supabase_id"] = source.get("supabase_id")
+                results.append(resultaat)
+        except Exception as exc:  # noqa: BLE001
+            log_error("Supabase", "verify_sources", exc)
+
+        if apply_fixes:
+            eigen = [r for r in results if r.get("supabase_id")]
+            bijgewerkt = schrijf_verify_terug(client, eigen)
+            if bijgewerkt:
+                print(f"{bijgewerkt} Supabase-bronnen bijgewerkt.", file=sys.stderr)
 
     if apply_fixes:
         for path, config in files:

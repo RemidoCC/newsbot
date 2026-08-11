@@ -59,8 +59,11 @@ sources:
     verified: false
     verified_at: null
 
+  # Uitgezet 2026-08-11: 403 op alle paden. Alleen podcastfeeds zijn open, en dat is audio
+  # zonder artikel om naar door te linken.
+  # Weer aanzetten kan via /beheer of door hier true te zetten.
   - name: BNR
-    enabled: true
+    enabled: false
     type: rss
     priority: 3
     url: https://www.bnr.nl/rss/tech
@@ -78,8 +81,10 @@ sources:
     verified: false
     verified_at: null
 
+  # Uitgezet 2026-08-11: 404 op elk pad; /rss geeft HTML terug. Feed lijkt opgeheven.
+  # Weer aanzetten kan via /beheer of door hier true te zetten.
   - name: AG Connect
-    enabled: true
+    enabled: false
     type: rss
     priority: 2
     url: https://www.agconnect.nl/rss.xml
@@ -155,8 +160,11 @@ sources:
     verified: false
     verified_at: null
 
+  # Uitgezet 2026-08-11: feeds.rijksoverheid.nl resolvet niet vanaf de runner, in twee
+  # afzonderlijke runs. De paden op het hoofddomein geven 404.
+  # Weer aanzetten kan via /beheer of door hier true te zetten.
   - name: Rijksoverheid
-    enabled: true
+    enabled: false
     type: rss
     priority: 3
     url: https://feeds.rijksoverheid.nl/nieuws.rss

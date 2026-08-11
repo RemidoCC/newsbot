@@ -299,3 +299,94 @@ def test_belangrijke_items_komen_apart():
 
 def test_kleurenpalet_haalt_wcag_aa():
     assert check_contrast.main() == 0
+
+
+# ---------------------------------------------------------------------------
+# Herhaling over dagen heen, en opruimen
+# ---------------------------------------------------------------------------
+
+def test_zelfde_verhaal_andere_url_valt_af(tmp_path, monkeypatch):
+    # Gisteren bij bron A, vandaag bij bron B. Andere URL, dus seen.json op id
+    # vangt het niet — de kop moet het doen.
+    gisteren = (NU - timedelta(days=1)).isoformat()
+    seen = {"oud-id": {"ts": gisteren,
+                       "kop": sorted(dedupe.title_tokens(
+                           "Toezichthouder publiceert leidraad voor AI bij de overheid"))}}
+    uit = _draai(tmp_path, monkeypatch, [
+        _item(1, titel="Toezichthouder publiceert leidraad voor AI bij de overheid"),
+        _item(2, titel="Heel ander onderwerp over bibliotheken en cursussen"),
+    ], seen=seen)
+    assert [i["title"] for i in uit["items"]] == [
+        "Heel ander onderwerp over bibliotheken en cursussen"]
+    assert uit["stats"]["herhaling"] == 1
+
+
+def test_herhaling_buiten_het_venster_telt_niet(tmp_path, monkeypatch):
+    lang_geleden = (NU - timedelta(days=dedupe.HERHALING_VENSTER_DAGEN + 3)).isoformat()
+    seen = {"oud-id": {"ts": lang_geleden,
+                       "kop": sorted(dedupe.title_tokens("Kop nummer 1 over modellen en beleid"))}}
+    uit = _draai(tmp_path, monkeypatch, [_item(1)], seen=seen)
+    assert len(uit["items"]) == 1, "na het venster is het weer nieuws"
+
+
+def test_oud_seen_formaat_blijft_leesbaar(tmp_path, monkeypatch):
+    # Vroeger was de waarde een kale tijdstempel in plaats van een object.
+    item = _item(1)
+    uit = _draai(tmp_path, monkeypatch, [item, _item(2)],
+                 seen={item["id"]: NU.isoformat()})
+    assert len(uit["items"]) == 1
+
+
+def test_seen_bewaart_de_kop(tmp_path, monkeypatch):
+    _draai(tmp_path, monkeypatch, [_item(1)])
+    seen = json.loads((tmp_path / "seen.json").read_text(encoding="utf-8"))
+    regel = next(iter(seen.values()))
+    assert isinstance(regel, dict) and regel["kop"], "kop hoort mee te gaan"
+
+
+def test_oude_databestanden_worden_opgeruimd(tmp_path, monkeypatch):
+    monkeypatch.setattr(dedupe, "DATA_DIR", tmp_path)
+    monkeypatch.setattr(dedupe, "BEWAAR", {"raw": 2, "clean": 2, "digest": 3})
+    for map_naam, aantal in (("raw", 5), ("clean", 5), ("digest", 6)):
+        (tmp_path / map_naam).mkdir(parents=True, exist_ok=True)
+        for n in range(aantal):
+            (tmp_path / map_naam / f"2026-01-{n + 1:02d}.json").write_text("{}")
+
+    assert dedupe.ruim_op() == (5 - 2) + (5 - 2) + (6 - 3)
+    assert len(list((tmp_path / "raw").glob("*.json"))) == 2
+    assert len(list((tmp_path / "digest").glob("*.json"))) == 3
+    # De nieuwste moeten blijven staan, niet de oudste.
+    assert (tmp_path / "raw" / "2026-01-05.json").exists()
+    assert not (tmp_path / "raw" / "2026-01-01.json").exists()
+
+
+# ---------------------------------------------------------------------------
+# Importance normaliseren
+# ---------------------------------------------------------------------------
+
+def _vijf(n, prioriteit=3):
+    return {"id": f"id{n}", "importance": 5, "title": f"Titel {n}",
+            "published": (NU - timedelta(hours=n)).isoformat()}, \
+           {"id": f"id{n}", "priority": prioriteit}
+
+
+def test_hoogstens_twee_vijven_per_run():
+    items, originals = [], {}
+    for n in range(6):
+        item, origineel = _vijf(n, prioriteit=1 if n < 2 else 4)
+        items.append(item)
+        originals[origineel["id"]] = origineel
+
+    validate.normaliseer_importance(items, originals)
+    vijven = [i for i in items if i["importance"] == 5]
+    assert len(vijven) == 2
+    # De bronnen met prioriteit 1 horen de vijf te houden.
+    assert {i["id"] for i in vijven} == {"id0", "id1"}
+    assert all(i["importance"] == 4 for i in items if i["id"] not in {"id0", "id1"})
+
+
+def test_twee_of_minder_vijven_blijft_ongemoeid():
+    items = [{"id": "a", "importance": 5, "published": NU.isoformat()},
+             {"id": "b", "importance": 3, "published": NU.isoformat()}]
+    validate.normaliseer_importance(items, {})
+    assert [i["importance"] for i in items] == [5, 3]

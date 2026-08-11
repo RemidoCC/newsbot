@@ -20,8 +20,10 @@ region: int
 language: en
 
 sources:
+  # Uitgezet 2026-08-11: 403 op alle paden en op de homepage: Cloudflare weigert de runner.
+  # Weer aanzetten kan via /beheer of door hier true te zetten.
   - name: The Batch (DeepLearning.AI)
-    enabled: true
+    enabled: false
     type: rss
     priority: 1
     url: https://www.deeplearning.ai/the-batch/rss.xml

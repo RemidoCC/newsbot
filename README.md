@@ -88,6 +88,17 @@ helpt daar niet tegen. De officiële API is nog wel gratis voor persoonlijk gebr
 Ontbreken ze, dan slaat `collect.py` de subreddits over en logt dat. De rest van
 de run gaat gewoon door.
 
+#### Bronnen die uitstaan
+
+Acht bronnen staan op `enabled: false` omdat ze bewezen kapot zijn. De reden
+staat boven elke bron in de YAML. Kort: The Batch, BNR en Library Journal geven
+403 (Cloudflare weigert de runner), AG Connect en Stichting Lezen en Schrijven
+geven 404 op elk pad, `feeds.rijksoverheid.nl` resolvet niet, EBLIDA loopt in
+een timeout en Public Libraries 2030 serveert HTML in plaats van XML.
+
+Weer aanzetten kan via `/beheer` of door `enabled: true` te zetten. Draai daarna
+de verify-workflow om te zien of de bron intussen weer werkt.
+
 ### 5. Nieuwsbrieven zonder RSS (TLDR AI, The Rundown AI)
 
 Deze twee hebben geen publieke feed. Route loopt via
