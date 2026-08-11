@@ -57,6 +57,23 @@ jobs:
         continue-on-error: true
         run: npm install -g @anthropic-ai/claude-code
 
+      # Losse rooktest vóór de echte batches. Faalt claude -p, dan wil je weten
+      # of het aan de authenticatie, de CLI of de prompt ligt — en dat zie je
+      # niet als de uitvoer in een bestand verdwijnt dat later wordt gewist.
+      - name: Claude Code controleren
+        id: rooktest
+        continue-on-error: true
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: |
+          echo "versie: $(claude --version 2>&1 || echo onbekend)"
+          echo "--- proefaanroep met de prompt als argument ---"
+          claude -p 'Antwoord met uitsluitend: OK' --output-format text > /tmp/a.txt 2>/tmp/a.err
+          echo "exitcode=$? stdout=[$(head -c 200 /tmp/a.txt)] stderr=[$(head -c 400 /tmp/a.err)]"
+          echo "--- proefaanroep met de prompt via stdin ---"
+          echo 'Antwoord met uitsluitend: OK' | claude -p --output-format text > /tmp/b.txt 2>/tmp/b.err
+          echo "exitcode=$? stdout=[$(head -c 200 /tmp/b.txt)] stderr=[$(head -c 400 /tmp/b.err)]"
+
       - name: Batches verrijken
         id: verrijken
         continue-on-error: true
@@ -77,17 +94,21 @@ jobs:
             # 1500 tekens is ruim 60 KB en dat loopt stuk op argv-limieten en
             # shell-quoting.
             { cat scripts/enrich_prompt.md; echo; cat "$batch"; } \
-              | claude -p --output-format text > "$uit" || true
+              | claude -p --output-format text > "$uit" 2>"$uit.err" || true
 
             if ! python scripts/validate.py --batch "$uit" --check-only >/dev/null 2>&1; then
               echo "Batch ${nummer} kwam ongeldig terug, één keer opnieuw."
+              echo "  stdout: [$(head -c 300 "$uit")]"
+              echo "  stderr: [$(head -c 300 "$uit.err")]"
               { echo "Je vorige antwoord was geen geldige JSON-array."; \
                 echo "Antwoord nu met uitsluitend een JSON-array: geen inleiding, geen markdown-fences."; \
                 echo; cat scripts/enrich_prompt.md; echo; cat "$batch"; } \
-                | claude -p --output-format text > "$uit" || true
+                | claude -p --output-format text > "$uit" 2>"$uit.err" || true
 
               if ! python scripts/validate.py --batch "$uit" --check-only >/dev/null 2>&1; then
                 echo "::warning::Batch ${nummer} blijft ongeldig, wordt overgeslagen."
+                echo "  stdout: [$(head -c 300 "$uit")]"
+                echo "  stderr: [$(head -c 300 "$uit.err")]"
                 rm -f "$uit"
               fi
             fi
@@ -138,7 +159,7 @@ jobs:
         run: |
           git config user.name  "newsbot"
           git config user.email "newsbot@users.noreply.github.com"
-          rm -f data/enriched_*.json
+          rm -f data/enriched_*.json data/enriched_*.json.err
           git add data/ sources/
           if git diff --cached --quiet; then
             echo "Niets veranderd."
