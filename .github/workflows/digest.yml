@@ -28,6 +28,7 @@ jobs:
     timeout-minutes: 45
     outputs:
       nieuwe_digest: ${{ steps.controle.outputs.nieuw }}
+      site_gebouwd: ${{ steps.artefact.outputs.geupload }}
 
     steps:
       - uses: actions/checkout@v4
@@ -170,6 +171,13 @@ jobs:
         with:
           path: site
 
+      # Vanaf hier is publiceren mogelijk: het artefact staat klaar. Wat hierna
+      # nog misgaat mag de deploy niet tegenhouden, dus leggen we dat moment
+      # vast in een output waar de deploy-job op wacht.
+      - name: Site staat klaar
+        id: artefact
+        run: echo "geupload=true" >> "$GITHUB_OUTPUT"
+
       - name: Supabase wakker houden
         continue-on-error: true
         run: |
@@ -207,11 +215,41 @@ jobs:
             echo "Niets veranderd."
           else
             git commit -m "Digest $(date -u +%Y-%m-%d)"
-            git push origin HEAD:${{ github.ref_name }}
+
+            # De run duurt een kwartier of langer, en in die tijd kan main zijn
+            # verschoven: een gewone push naar de repo, of de bronverificatie
+            # die zijn eigen commit terugschrijft. De duw wordt dan geweigerd en
+            # een kwartier modelwerk verdwijnt terwijl er inhoudelijk niets mis
+            # is. Rebasen en opnieuw; data/ en sources/ raken zelden in conflict
+            # omdat alleen deze workflow eraan zit.
+            geduwd=false
+            for poging in 1 2 3; do
+              if git push origin "HEAD:${{ github.ref_name }}"; then
+                geduwd=true
+                break
+              fi
+              echo "Push geweigerd (poging ${poging}); main is verschoven, opnieuw met rebase."
+              git fetch origin "${{ github.ref_name }}"
+              if ! git rebase "origin/${{ github.ref_name }}"; then
+                git rebase --abort || true
+                echo "::error::Rebase liep vast op een conflict in data/ of sources/."
+                echo "De site is al gepubliceerd; alleen het terugschrijven is mislukt."
+                exit 1
+              fi
+            done
+            if [ "$geduwd" != true ]; then
+              echo "::error::Kon de data na drie pogingen niet pushen."
+              exit 1
+            fi
           fi
 
   deploy:
     needs: digest
+    # Niet `needs: digest` alleen: dan blokkeert een mislukte commit-stap de
+    # publicatie, terwijl het artefact op dat moment al klaarstaat. Eén keer
+    # gebeurd — een kwartier verrijken, digest gemaakt, en toch niets op de
+    # site omdat de push geweigerd werd. Wat telt is of het artefact er is.
+    if: always() && needs.digest.outputs.site_gebouwd == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     environment:
