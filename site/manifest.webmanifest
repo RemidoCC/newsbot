@@ -9,7 +9,7 @@
   "lang": "nl",
   "dir": "ltr",
   "background_color": "#fcfaf6",
-  "theme_color": "#fcfaf6",
+  "theme_color": "#a35418",
   "icons": [
     { "src": "./assets/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
     { "src": "./assets/icon-180.png", "sizes": "180x180", "type": "image/png", "purpose": "any" },

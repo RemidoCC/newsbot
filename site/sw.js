@@ -9,7 +9,7 @@
  * De versie in CACHE hieronder wordt door build_site.py niet aangepast; hij
  * hoeft alleen te wijzigen als de assets veranderen.
  */
-var CACHE = 'newsbot-v2';
+var CACHE = 'newsbot-v3';
 var KERN = [
   './',
   './index.html',
@@ -25,6 +25,7 @@ var KERN = [
   './assets/opgeslagen.js',
   './assets/beheer.js',
   './assets/icon.svg',
+  './assets/favicon-32.png',
   './manifest.webmanifest'
 ];
 
