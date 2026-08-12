@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T04:36:55+00:00",
+  "generated_at": "2026-08-12T04:42:25+00:00",
   "counts": {
     "raw": 418,
     "unique": 416,
@@ -2853,6 +2853,19 @@
       "priority": 3
     },
     {
+      "id": "a92959d14f7e859c5e175c1d5592393fa9cca1b606a4e5a7e63ee99070b5a5dc",
+      "title": "Een verloren seizoen begint met slechte voorbereiding, ook bij erp-migratie",
+      "url": "https://www.computable.nl/2026/08/17/een-verloren-seizoen-begint-bij-slechte-voorbereiding-ook-bij-erp-migraties/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "channel_hint": "ai",
+      "region_hint": "nl",
+      "published": "2026-08-11T15:00:00+00:00",
+      "raw_text": "Een voetbalclub die pas in augustus begint met trainen, verliest de competitie al voordat die begint. De voorbereiding bepaalt de conditie, tactiek en scherpte waarmee een ploeg het seizoen ingaat. Grote erp-migraties verdienen dezelfde blik, maar worden vrijwel altijd benaderd als een probleem dat verholpen moet worden. Het doel is om aan het einde van de rit op dezelfde plek uit te komen als waar je begon, alleen dan op een nieuw systeem dat wel ondersteund wordt. Die framing klopt niet. Grootschalige migraties zijn zeldzaam, en juist daarom een uitgelezen moment om te onderzoeken hoe een organisatie werkelijk functioneert. Een kans om winst te boeken die groter kan zijn dan de kosten van de migratie zelf. Tegenstanders De beste trainers gebruiken de voorbereiding om zich over lastige vragen te buigen. Tegen welke tegenstanders spelen we dit seizoen? Welke patronen moeten we doorbreken? Hoe spelen we door als de wedstrijd uit onze handen glipt? De antwoorden bepalen alles, van de opstelling en de tactiek tot hoe je traint. Ploegen die jaar in jaar uit dezelfde oefeningen draaien, houden een vaste plek in de middenmoot. Alleen het ontwerp van het tenue verandert misschien. In augustus ziet het er prima uit, maar in november blijkt dat je weer op dezelfde vlakken tekortschiet. Veel erp-migraties eindigen zo. Het nieuwe systeem draait, maar de processen, de datafragmentatie en de workarounds van jaren geleden lopen gewoon door. De kansen zitten niet per se in het nieuwe systee",
+      "language": "nl",
+      "priority": 3
+    },
+    {
       "id": "c97f6dbed2c24ffbc33ca9e1717a7e1eb8c5b0e8b2c6342d5f651b4ee74b6d04",
       "title": "Microsoft duwt ai door bij klanten",
       "url": "https://www.computable.nl/2026/08/11/microsoft-duwt-ai-door-bij-klanten/",
@@ -2931,19 +2944,6 @@
       "priority": 3
     },
     {
-      "id": "da74494cf9bb14c96a04fa90546c608f6214a8a440d85c3f6d6e419b557c55e9",
-      "title": "Kort: Bedrijven blijven hangen in ai-pilots, veel ontslagen in tech-sector (en meer)",
-      "url": "https://www.computable.nl/2026/08/07/kort-bedrijven-blijven-hangen-in-ai-pilots-veel-ontslagen-in-tech-sector-en-meer/",
-      "source_name": "Computable",
-      "source_type": "rss",
-      "channel_hint": "ai",
-      "region_hint": "nl",
-      "published": "2026-08-07T11:02:14+00:00",
-      "raw_text": "In dit nieuwsoverzicht: ceo’s ontevreden over ai-projecten, Donateursbelangen trekt op met GiveRadar, Nutanix helpt ASN, zakelijke telecommarkt krimpt en ruim 160.000 banen in techsector verdwenen. Meeste organisaties komen niet verder dan ai-pilots Hoewel ai bij vrijwel alle organisaties hoog op de agenda staat, lukt het veel bedrijven niet om de technologie om te zetten in structurele verandering. Dat blijkt uit een ceo-enquête van adviesbureau Bain & Company. Volgens het onderzoek weet 85 procent van de organisaties ai nog niet effectief te vertalen naar blijvende transformatie. Daarnaast is 80 procent van de ondervraagde ceo’s ontevreden over de voortgang van hun ai-programma’s. Bain stelt dat de oorzaak vooral ligt in de aanpak: bedrijven blijven hangen in pilots en experimenten. Koplopers integreren ai juist in processen, data en besluitvorming. Daardoor ontstaat volgens het bureau een voorsprong die moeilijk is in te halen. In een artikel beschrijft Bain zeven beslissingsfactoren waarmee bedrijven met ai een blijvend concurrentievoordeel opbouwen. Donateursbelangen integreert data van GiveRadar op goede doelenpagina’s Stichting Donateursbelangen en GiveRadar gaan samenwerken om donateurs meer inzicht te geven in de betrouwbaarheid en verantwoording van goede doelen. Door de samenwerking worden de goede doelenpagina’s op donateursbelangen.nl uitgebreid met gegevens en analyses van GiveRadar. Bezoekers kunnen hierdoor op één plek informatie vinden over onder meer financi",
-      "language": "nl",
-      "priority": 3
-    },
-    {
       "id": "45396ba425527da18a0096ad34f8e206d0591a8ae120d51a201dea32f010eda3",
       "title": "Zal de nieuwe voorzitter van de Autoriteit Persoonsgegevens zorgen voor strenger toezicht?",
       "url": "https://www.bitsoffreedom.nl/2026/08/03/zal-de-nieuwe-voorzitter-van-de-autoriteit-persoonsgegevens-zorgen-voor-strenger-toezicht/",
@@ -2978,7 +2978,7 @@
       "channel_hint": "ai",
       "region_hint": "nl",
       "published": "2026-07-22T09:46:45+00:00",
-      "raw_text": "Je hebt weer een keuze over wat je te zien krijgt op je tijdlijn op Instagram. Dit dwongen wij af door middel van onze een rechtszaak tegen Meta . Daarom kun je kiezen voor de 'Volgend'-tijdlijn of de 'Voor jou'-tijdlijn. We willen inzicht krijgen in de impact van deze wijziging en zijn daarom erg benieuwd naar jouw ervaringen. Help jij ons door onderstaande enquête in te vullen? Hoe ervaar jij je tijdlijn op Instagram? Facebook Dit veld is bedoeld voor validatiedoeleinden en moet niet worden gewijzigd. Gebruik je Instagram? (Vereist) Ja Nee (einde van de enquête) Via welk apparaat en middel gebruik je Instagram het meest? (Vereist) Via de app op mijn smartphone Via de app op mijn tablet Via de app op mijn computer of laptop Via de internetbrowser (bijv. Safari, Firefox, Chrome) op mijn smartphone Via de internetbrowser (bijv. Safari, Firefox, Chrome) op mijn tablet Via de internetbrowser (bijv. Safari, Firefox, Chrome) op mijn computer of laptop Wist je dat je op Instagram kunt kiezen welke tijdlijn je wilt zien? (Vereist) Je kunt onder andere kiezen tussen de 'Voor jou' en de 'Volgend'-tijdlijn. Je kunt de 'Volgend'-tijdlijn kiezen door bovenin de startpagina te klikken op 'Voor jou' en dan 'Volgend' te kiezen (In het Engels 'For You' en 'Folllowing') Ja Nee Wat houdt de 'Volgend'-tijdlijn volgens jou in? (Vereist) Zou je de 'Volgend'-tijdlijn willen gebruiken? (Vereist) Op deze tijdlijn zie je alleen de content van de mensen en organisaties die je volgt op chronologische v",
+      "raw_text": "Je hebt weer een keuze over wat je te zien krijgt op je tijdlijn op Instagram. Dit dwongen wij af door middel van onze een rechtszaak tegen Meta . Daarom kun je kiezen voor de 'Volgend'-tijdlijn of de 'Voor jou'-tijdlijn. We willen inzicht krijgen in de impact van deze wijziging en zijn daarom erg benieuwd naar jouw ervaringen. Help jij ons door onderstaande enquête in te vullen? Hoe ervaar jij je tijdlijn op Instagram? Name Dit veld is bedoeld voor validatiedoeleinden en moet niet worden gewijzigd. Gebruik je Instagram? (Vereist) Ja Nee (einde van de enquête) Via welk apparaat en middel gebruik je Instagram het meest? (Vereist) Via de app op mijn smartphone Via de app op mijn tablet Via de app op mijn computer of laptop Via de internetbrowser (bijv. Safari, Firefox, Chrome) op mijn smartphone Via de internetbrowser (bijv. Safari, Firefox, Chrome) op mijn tablet Via de internetbrowser (bijv. Safari, Firefox, Chrome) op mijn computer of laptop Wist je dat je op Instagram kunt kiezen welke tijdlijn je wilt zien? (Vereist) Je kunt onder andere kiezen tussen de 'Voor jou' en de 'Volgend'-tijdlijn. Je kunt de 'Volgend'-tijdlijn kiezen door bovenin de startpagina te klikken op 'Voor jou' en dan 'Volgend' te kiezen (In het Engels 'For You' en 'Folllowing') Ja Nee Wat houdt de 'Volgend'-tijdlijn volgens jou in? (Vereist) Zou je de 'Volgend'-tijdlijn willen gebruiken? (Vereist) Op deze tijdlijn zie je alleen de content van de mensen en organisaties die je volgt op chronologische volgo",
       "language": "nl",
       "priority": 2
     },
