@@ -12,9 +12,11 @@ Nog steeds geen LLM. Vijf zeven, in deze volgorde:
 Aan het eind ruimt hij data/ op: oude raw-, clean- en digestbestanden gaan weg,
 anders groeit de repogeschiedenis onbeperkt door.
 
-Over seen.json: dit script werkt het meteen bij, maar de workflow commit `data/`
-pas aan het eind. Klapt de run halverwege, dan blijft de versie in git staan en
-zijn de items morgen gewoon weer kandidaat. Git is hier de transactiegrens.
+Over seen.json: dit script werkt het meteen bij, maar git is de transactiegrens.
+Klapt de run halverwege, dan blijft de versie in git staan en zijn de items
+morgen gewoon weer kandidaat. Levert de run geen digest op, dan draait de
+workflow seen.json expliciet terug voor het committen — anders zou een mislukte
+verrijkingsstap het nieuws van die dag ongelezen als "gezien" wegzetten.
 
 Gebruik:
     python scripts/dedupe.py                     # laatste raw-bestand

@@ -67,12 +67,33 @@ jobs:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
         run: |
           echo "versie: $(claude --version 2>&1 || echo onbekend)"
-          echo "--- proefaanroep met de prompt als argument ---"
-          claude -p 'Antwoord met uitsluitend: OK' --output-format text > /tmp/a.txt 2>/tmp/a.err
-          echo "exitcode=$? stdout=[$(head -c 200 /tmp/a.txt)] stderr=[$(head -c 400 /tmp/a.err)]"
-          echo "--- proefaanroep met de prompt via stdin ---"
-          echo 'Antwoord met uitsluitend: OK' | claude -p --output-format text > /tmp/b.txt 2>/tmp/b.err
-          echo "exitcode=$? stdout=[$(head -c 200 /tmp/b.txt)] stderr=[$(head -c 400 /tmp/b.err)]"
+
+          # "401 Invalid bearer token" zegt niet óf het token fout is of alleen
+          # verkeerd overgenomen. De vorm zegt dat wel. GitHub toont een geheim
+          # als ***, dus ook een half gekopieerd token ziet er goed uit in de
+          # logs; lengte en voorvoegsel verraden het wel. Het token zelf wordt
+          # nergens afgedrukt.
+          t="${CLAUDE_CODE_OAUTH_TOKEN}"
+          echo "token: ${#t} tekens"
+          case "$t" in
+            sk-ant-oat*) echo "token: begint met sk-ant-oat, dat is de juiste soort" ;;
+            sk-ant-api*) echo "::warning::token is een API-sleutel (sk-ant-api...), geen OAuth-token" ;;
+            sk-ant-*)    echo "::warning::token begint met sk-ant- maar niet met sk-ant-oat" ;;
+            *)           echo "::warning::token begint niet met sk-ant-, waarschijnlijk het verkeerde veld gekopieerd" ;;
+          esac
+          kaal=$(printf '%s' "$t" | tr -d '[:space:]')
+          if [ "${#kaal}" -ne "${#t}" ]; then
+            echo "::warning::er zit witruimte in het token ($(( ${#t} - ${#kaal} )) tekens); opnieuw plakken zonder spatie of regeleinde"
+          fi
+
+          # --debug laat zien welk verzoek de CLI doet en wat er terugkomt; dat
+          # scheidt een fout token van een fout in de aanroep.
+          echo "--- proefaanroep ---"
+          claude -p 'Antwoord met uitsluitend: OK' --output-format text --debug \
+            > /tmp/a.txt 2>/tmp/a.err || true
+          echo "stdout=[$(head -c 200 /tmp/a.txt)]"
+          echo "stderr:"
+          head -c 2000 /tmp/a.err || true
 
       - name: Batches verrijken
         id: verrijken
@@ -160,6 +181,22 @@ jobs:
           git config user.name  "newsbot"
           git config user.email "newsbot@users.noreply.github.com"
           rm -f data/enriched_*.json data/enriched_*.json.err
+
+          # dedupe.py werkt seen.json meteen bij en rekent erop dat git de
+          # transactiegrens is: klapt de run, dan blijft de oude versie staan en
+          # zijn de items morgen weer kandidaat. Maar de stappen na dedupe zijn
+          # continue-on-error, dus committen we ook na een mislukking — en dan
+          # verdwijnt het nieuws van vandaag ongelezen in het geheugen. Zonder
+          # digest is er niets getoond, dus mag ook niets als gezien gelden.
+          if [ "${{ steps.controle.outputs.nieuw }}" != "true" ]; then
+            if git ls-files --error-unmatch data/seen.json >/dev/null 2>&1; then
+              git checkout -- data/seen.json
+            else
+              rm -f data/seen.json
+            fi
+            echo "Geen digest: seen.json teruggedraaid, de items blijven kandidaat."
+          fi
+
           git add data/ sources/
           if git diff --cached --quiet; then
             echo "Niets veranderd."
