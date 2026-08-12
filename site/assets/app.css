@@ -291,9 +291,53 @@ a:focus-visible, button:focus-visible, input:focus-visible {
   gap: 0.5em;
 }
 
-.blok-nummer { font-variant-numeric: tabular-nums; }
-
 .lijst { display: flex; flex-direction: column; gap: var(--r7); }
+
+/* --- De kleine berichten, ingeklapt ------------------------------------- */
+
+/* Belang 1 en 2 staan achter een <details>. De samenvatting moet uitnodigen
+   zonder een knop te willen zijn: het is een terzijde, geen actie. */
+.meer { margin-top: var(--r6); }
+
+.meer > summary {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45em;
+  padding: 0.35rem 0;
+  font-size: 0.875rem;
+  color: var(--inkt-gedempt);
+  /* Het eigen driehoekje van de browser staat op elk platform ergens anders;
+     we zetten er zelf een die met de tekst meeschaalt. */
+  list-style: none;
+}
+.meer > summary::-webkit-details-marker { display: none; }
+
+.meer > summary::before {
+  content: "";
+  width: 0.4em;
+  height: 0.4em;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: rotate(45deg) translate(-0.1em, -0.1em);
+  transition: transform 0.15s ease;
+}
+.meer[open] > summary::before {
+  transform: rotate(-135deg) translate(-0.05em, -0.05em);
+}
+
+.meer > summary:hover { color: var(--accent); }
+.meer > summary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 3px;
+}
+
+.meer[open] > summary { margin-bottom: var(--r6); }
+
+@media (prefers-reduced-motion: reduce) {
+  .meer > summary::before { transition: none; }
+}
 
 /* --- Eén nieuwsitem ----------------------------------------------------- */
 
@@ -309,6 +353,14 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 
 .item-title a { color: var(--inkt); text-decoration: none; }
 .item-title a:hover { color: var(--accent); text-decoration: underline; }
+
+/* Aangeklikt vandaag: gedempt, niet weggemoffeld. De kleur is --inkt-gedempt,
+   dezelfde die de metaregel gebruikt en die op AA is nagerekend — je moet een
+   gelezen kop 's avonds nog gewoon kunnen lezen. Alleen de kop dooft; de
+   samenvatting blijft staan zoals hij was, anders wordt de pagina onrustig
+   van twee verschillende grijzen door elkaar. */
+.item.gelezen .item-title a { color: var(--inkt-gedempt); }
+.item.gelezen .item-title a:hover { color: var(--accent); }
 
 /* Belangrijke items krijgen meer lucht en grotere letter. Geen gekleurd vlak,
    geen badge — het formaat doet het werk. */

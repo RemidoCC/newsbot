@@ -145,6 +145,38 @@
     });
   };
 
+  /* Bij het openen van de pagina merken welke items al bewaard zijn. Zonder
+   * dit staat elk bladwijzertje leeg na een herlaad en weet je niet meer wat
+   * je gisteren al hebt weggezet. Opnieuw bewaren is dankzij merge-duplicates
+   * onschadelijk, maar je zou het wel doen — en dat is precies het soort
+   * onduidelijkheid waar je in een leeslijst niets aan hebt.
+   *
+   * Faalt de aanroep, dan gebeurt er niets zichtbaars: de knoppen blijven leeg
+   * en bewaren werkt gewoon. Een foutmelding over iets wat de gebruiker niet
+   * gevraagd heeft is erger dan een knop die niets weet. */
+  function merkBewaarde() {
+    if (!db || !db.ingesteld()) return;
+    var knoppen = Array.prototype.slice.call(document.querySelectorAll('.save[data-url]'));
+    if (!knoppen.length) return;
+
+    db.sessie().then(function (s) {
+      if (!s) return null;
+      return db.bewaardeUrls();
+    }).then(function (rijen) {
+      if (!rijen || !rijen.length) return;
+      var bewaard = Object.create(null);
+      rijen.forEach(function (r) { if (r && r.url) bewaard[r.url] = true; });
+      knoppen.forEach(function (knop) {
+        if (bewaard[knop.dataset.url]) {
+          knop.setAttribute('aria-pressed', 'true');
+          knop.setAttribute('aria-label', 'Bewaard — kies een andere map');
+        }
+      });
+    }).catch(function () { /* stil: bewaren zelf werkt nog gewoon */ });
+  }
+
+  merkBewaarde();
+
   document.addEventListener('click', function (event) {
     if (!open) return;
     if (open.paneel.contains(event.target) || open.knop.contains(event.target)) return;

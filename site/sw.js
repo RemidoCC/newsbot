@@ -9,7 +9,7 @@
  * De versie in CACHE hieronder wordt door build_site.py niet aangepast; hij
  * hoeft alleen te wijzigen als de assets veranderen.
  */
-var CACHE = 'newsbot-v3';
+var CACHE = 'newsbot-v4';
 var KERN = [
   './',
   './index.html',

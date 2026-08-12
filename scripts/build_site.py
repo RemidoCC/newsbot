@@ -36,6 +36,11 @@ SITE_DIR = ROOT / "site"
 TEMPLATE_DIR = ROOT / "scripts" / "templates"
 ARCHIVE_LIMIT = 30
 
+# Vanaf hoeveel kleine berichten (belang 1 en 2) een rubriek ze inklapt. Bij
+# minder blijven ze gewoon in de lijst staan: een uitklapper voor één bericht
+# kost meer ruimte dan hij bespaart.
+MIN_INKLAP = 3
+
 CHANNELS = [
     {"key": "ai", "label": "AI"},
     {"key": "bieb", "label": "Bibliotheek"},
@@ -124,19 +129,41 @@ def group_items(items: list[dict]) -> dict:
         # Let op: de sleutel heet bewust "rijen" en niet "items". In Jinja pakt
         # `sectie.items` de dict-methode in plaats van de sleutel, en dat faalt
         # pas bij het renderen.
+        def maak_sectie(topic: str, label: str, rijen: list[dict]) -> dict:
+            # Ongeveer de helft van een digest is belang 1 en 2: aankondigingen,
+            # kleine releases, dingen die je hooguit scant. Die staan er wel,
+            # maar ingeklapt, anders verdrinkt het echte nieuws erin.
+            hoofd = [i for i in rijen if i.get("importance", 0) >= 3]
+            klein = [i for i in rijen if i.get("importance", 0) < 3]
+
+            # Een uitklapper voor één of twee korte berichten neemt meer ruimte
+            # in dan hij bespaart, en je moet er ook nog voor klikken. Onder de
+            # drempel gaan ze gewoon in de lijst mee.
+            if len(klein) < MIN_INKLAP:
+                hoofd = sorted(hoofd + klein,
+                               key=lambda i: -i.get("importance", 0))
+                klein = []
+
+            return {
+                "topic": topic,
+                "label": label,
+                "rijen": rijen,
+                "hoofd": hoofd,
+                "klein": klein,
+            }
+
         sections = []
         for topic in TOPIC_ORDER:
             if buckets.get(topic):
-                sections.append({"topic": topic, "label": TOPIC_LABEL[topic],
-                                 "rijen": buckets[topic]})
+                sections.append(maak_sectie(topic, TOPIC_LABEL[topic], buckets[topic]))
         if buckets.get("overig"):
-            sections.append({"topic": "overig", "label": "Overig",
-                             "rijen": buckets["overig"]})
+            sections.append(maak_sectie("overig", "Overig", buckets["overig"]))
 
         grouped[key] = {
             "important": important,
             "sections": sections,
             "count": len(in_channel),
+            "klein": sum(len(s["klein"]) for s in sections),
             "sources": len({i["source_name"] for i in in_channel}),
         }
     return grouped

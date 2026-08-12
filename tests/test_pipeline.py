@@ -293,6 +293,45 @@ def test_belangrijke_items_komen_apart():
     assert "rijen" in groepen["ai"]["sections"][0]
 
 
+def _rubriek(aantal_klein, aantal_hoofd=1):
+    """Eén onderwerp met een instelbaar aantal kleine en gewone berichten."""
+    items = [{"channel": "ai", "importance": 3, "topics": ["tools"],
+              "source_name": f"H{n}"} for n in range(aantal_hoofd)]
+    items += [{"channel": "ai", "importance": 2, "topics": ["tools"],
+               "source_name": f"K{n}"} for n in range(aantal_klein)]
+    return build_site.group_items(items)["ai"]["sections"][0]
+
+
+def test_kleine_berichten_worden_ingeklapt():
+    sectie = _rubriek(aantal_klein=build_site.MIN_INKLAP)
+    assert len(sectie["klein"]) == build_site.MIN_INKLAP
+    assert all(i["importance"] >= 3 for i in sectie["hoofd"])
+
+
+def test_te_weinig_kleine_berichten_blijven_in_de_lijst():
+    # Een uitklapper voor één bericht kost meer ruimte dan hij bespaart.
+    sectie = _rubriek(aantal_klein=build_site.MIN_INKLAP - 1)
+    assert sectie["klein"] == []
+    assert len(sectie["hoofd"]) == build_site.MIN_INKLAP  # 1 hoofd + de rest
+
+
+def test_ingeklapte_berichten_raken_niet_kwijt():
+    # Wat niet in hoofd zit moet in klein zitten, en andersom: samen precies
+    # de hele rubriek. Zonder deze controle kan een filter stilletjes items
+    # laten verdampen zonder dat er iets faalt.
+    for aantal in range(0, 6):
+        sectie = _rubriek(aantal_klein=aantal, aantal_hoofd=2)
+        assert len(sectie["hoofd"]) + len(sectie["klein"]) == len(sectie["rijen"])
+
+
+def test_hoofd_blijft_op_belang_gesorteerd_na_samenvoegen():
+    # Onder de drempel worden klein en hoofd samengevoegd; het belangrijkste
+    # hoort dan nog steeds bovenaan te staan.
+    sectie = _rubriek(aantal_klein=1, aantal_hoofd=1)
+    belangen = [i["importance"] for i in sectie["hoofd"]]
+    assert belangen == sorted(belangen, reverse=True)
+
+
 # ---------------------------------------------------------------------------
 # Vormgeving
 # ---------------------------------------------------------------------------

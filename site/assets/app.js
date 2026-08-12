@@ -62,6 +62,20 @@
       if (raak) zichtbaar++;
     });
 
+    // De kleine berichten zitten in een dichtgeklapte <details>. Zonder deze
+    // stap vindt het zoeken ze wel, maar zie je ze niet — het stilste soort
+    // fout. Tijdens het zoeken staan ze open; is het veld leeg, dan gaan ze
+    // weer dicht zodat de pagina in zijn rusttoestand terugkomt.
+    Array.prototype.forEach.call(paneel.querySelectorAll('[data-meer]'), function (meer) {
+      var treffers = meer.querySelectorAll('.item:not([hidden])').length;
+      meer.hidden = term && treffers === 0;
+      if (term) {
+        meer.open = treffers > 0;
+      } else {
+        meer.open = false;
+      }
+    });
+
     // Een sectiekop zonder items eronder is ruis.
     Array.prototype.forEach.call(paneel.querySelectorAll('[data-blok]'), function (blok) {
       var over = blok.querySelectorAll('.item:not([hidden])').length;
@@ -99,6 +113,69 @@
     if (melding) {
       melding.textContent = 'Bewaren werkt zodra Supabase is ingesteld (fase 6).';
     }
+  });
+
+  /* --- Gelezen bijhouden ------------------------------------------------ */
+
+  /* Wat je hebt aangeklikt wordt gedempt getoond, zodat je 's avonds ziet waar
+   * je gebleven was. Bewust alleen op dit toestel: het staat in localStorage,
+   * niet in Supabase. Je hoeft er niet voor in te loggen, het lekt niets, en
+   * het werkt ook in het archief.
+   *
+   * De sleutels zijn item-id's met een tijdstempel erbij. Zonder dat tijdstempel
+   * groeit de lijst eindeloos door; nu vallen items na dertig dagen vanzelf weg,
+   * dezelfde termijn die dedupe.py aanhoudt. */
+  var GELEZEN = 'newsbot:gelezen';
+  var GELEZEN_DAGEN = 30;
+
+  function leesGelezen() {
+    try {
+      var ruw = JSON.parse(localStorage.getItem(GELEZEN) || '{}');
+      return ruw && typeof ruw === 'object' && !Array.isArray(ruw) ? ruw : {};
+    } catch (e) {
+      return {};  // kapotte of oude inhoud: gewoon opnieuw beginnen
+    }
+  }
+
+  function schrijfGelezen(lijst) {
+    try {
+      localStorage.setItem(GELEZEN, JSON.stringify(lijst));
+    } catch (e) { /* privémodus of vol; niet erg genoeg om over te klagen */ }
+  }
+
+  var gelezen = leesGelezen();
+
+  (function opschonen() {
+    var grens = Date.now() - GELEZEN_DAGEN * 864e5;
+    var veranderd = false;
+    Object.keys(gelezen).forEach(function (id) {
+      if (!(gelezen[id] > grens)) { delete gelezen[id]; veranderd = true; }
+    });
+    if (veranderd) schrijfGelezen(gelezen);
+  })();
+
+  function markeer(item) {
+    if (item) item.classList.add('gelezen');
+  }
+
+  Array.prototype.forEach.call(document.querySelectorAll('.item'), function (item) {
+    var knop = item.querySelector('.save');
+    var id = knop && knop.dataset.id;
+    if (id && gelezen[id]) markeer(item);
+  });
+
+  // Op de link zelf luisteren en niet op het artikel: het bewaarknopje en de
+  // mapkeuze zitten in hetzelfde artikel, en die aanklikken is niet lezen.
+  document.addEventListener('click', function (event) {
+    var link = event.target.closest && event.target.closest('.item-title a, .item-source');
+    if (!link) return;
+    var item = link.closest('.item');
+    var knop = item && item.querySelector('.save');
+    var id = knop && knop.dataset.id;
+    if (!id) return;
+    gelezen[id] = Date.now();
+    schrijfGelezen(gelezen);
+    markeer(item);
   });
 
   /* --- Offline --------------------------------------------------------- */

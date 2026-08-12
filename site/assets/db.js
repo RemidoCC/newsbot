@@ -179,6 +179,12 @@ window.newsbotDb = (function () {
       var filter = mapId ? '&folder_id=eq.' + mapId : '';
       return rest('GET', 'saved_items?select=*&order=saved_at.desc' + filter);
     },
+    // Alleen de URL's, voor het merken van de bewaarknoppen op de digest. Een
+    // volledige items-aanroep haalt ook samenvattingen op en dat is zonde van
+    // de bandbreedte op een telefoon.
+    bewaardeUrls: function () {
+      return rest('GET', 'saved_items?select=url');
+    },
     bewaarItem: function (item) {
       // on_conflict + merge-duplicates maakt opnieuw bewaren onschadelijk.
       return rest('POST', 'saved_items?on_conflict=user_id,folder_id,url', item, {

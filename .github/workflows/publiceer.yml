@@ -1,0 +1,62 @@
+name: Site opnieuw publiceren
+
+# De digest-workflow bouwt de site ook, maar doet er een kwartier over omdat
+# hij eerst alle bronnen ophaalt en laat samenvatten. Voor een wijziging aan de
+# opmaak of aan een template is dat zonde: het nieuws verandert er niet van, en
+# je krijgt bovendien een vals alarm omdat de run geen nieuwe digest oplevert.
+#
+# Deze workflow bouwt de site uit de digest die al in data/digest/ staat en
+# publiceert die. Geen LLM, geen bronnen, klaar in een halve minuut.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'site/assets/**'
+      - 'site/*.js'
+      - 'site/manifest.webmanifest'
+      - 'scripts/templates/**'
+      - 'scripts/build_site.py'
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Dezelfde groep als de digest-workflow: die twee moeten nooit tegelijk naar
+# Pages schrijven. Niet afbreken maar in de rij zetten — een halve minuut
+# wachten is niets vergeleken met een half gepubliceerde site.
+concurrency:
+  group: digest
+  cancel-in-progress: false
+
+jobs:
+  publiceer:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.pages.outputs.page_url }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Dependencies installeren
+        run: pip install -r requirements.txt
+
+      - name: Site bouwen
+        run: python scripts/build_site.py
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - id: pages
+        uses: actions/deploy-pages@v4

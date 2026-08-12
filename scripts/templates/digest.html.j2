@@ -138,16 +138,32 @@
 
     {% for sectie in groep.sections %}
     <section class="blok" data-blok>
-      <h2 class="blok-kop">
-        <span class="blok-nummer">{{ '%02d' % loop.index }}</span>
-        <span class="dot">·</span>
-        {{ sectie.label }}
-      </h2>
+      <h2 class="blok-kop">{{ sectie.label }}</h2>
+      {# Een rubriek kan uit louter kleine berichten bestaan; dan zou hier een
+         lege lijst staan die alleen witruimte oplevert. #}
+      {% if sectie.hoofd %}
       <div class="lijst">
-        {% for item in sectie.rijen %}
+        {% for item in sectie.hoofd %}
         {{ item_card(item) }}
         {% endfor %}
       </div>
+      {% endif %}
+      {# De kleine berichten staan er wel, maar dichtgeklapt. <details> doet dit
+         zonder JavaScript: het werkt met toetsenbord, met een schermlezer, en
+         ook als app.js niet laadt. Zoeken klapt ze open, zie app.js. #}
+      {% if sectie.klein %}
+      <details class="meer" data-meer>
+        <summary>
+          Nog {{ sectie.klein | length }}
+          {{ 'kleiner bericht' if sectie.klein | length == 1 else 'kleinere berichten' }}
+        </summary>
+        <div class="lijst">
+          {% for item in sectie.klein %}
+          {{ item_card(item) }}
+          {% endfor %}
+        </div>
+      </details>
+      {% endif %}
     </section>
     {% endfor %}
 
