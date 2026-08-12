@@ -20,7 +20,12 @@ concurrency:
 jobs:
   digest:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    # Twintig minuten was gemeten aan runs waarin claude -p meteen een 401 gaf.
+    # Met een werkend token duurt één batch van veertig items een paar minuten,
+    # en drie batches passen daar niet in. Loopt de job af, dan sneuvelt ook de
+    # commit- en publiceerstap en is de hele oogst weg. De repo is publiek, dus
+    # Actions-minuten zijn gratis; ruim nemen kost niets.
+    timeout-minutes: 45
     outputs:
       nieuwe_digest: ${{ steps.controle.outputs.nieuw }}
 
