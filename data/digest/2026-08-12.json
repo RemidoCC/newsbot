@@ -1,0 +1,1512 @@
+{
+  "date": "2026-08-12",
+  "generated_at": "2026-08-12T22:08:07+00:00",
+  "stats": {
+    "batches": 3,
+    "onleesbaar": 0,
+    "objecten": 120,
+    "schema_fout": 0,
+    "onbekend_id": 0,
+    "gedropt": 38,
+    "geldig": 82,
+    "ai": 47,
+    "bieb": 35
+  },
+  "sources": [
+    "Ars Technica AI",
+    "Bibliotheeknetwerk (KB)",
+    "Google DeepMind",
+    "Hacker News",
+    "Hugging Face",
+    "IFLA",
+    "Infodocket",
+    "Koninklijke Bibliotheek",
+    "MIT Technology Review — AI",
+    "OpenAI",
+    "Probiblio",
+    "Rijnbrink",
+    "Simon Willison",
+    "TLDR AI",
+    "The Rundown AI",
+    "The Verge AI",
+    "Tweakers",
+    "VentureBeat AI"
+  ],
+  "items": [
+    {
+      "id": "58d020b95d055c52296dcc05c4849e1a7ea0f817bc74a95aff3db6fdf533e231",
+      "title": "KB ontvangt subsidie voor cultureel AI-kenniscentrum",
+      "summary": "Een internationaal samenwerkingsverband waar de KB deel van uitmaakt, krijgt 5 miljoen euro om een Competence Centre voor kunstmatige intelligentie in de culturele sector op te zetten.",
+      "url": "https://www.kb.nl/nieuws/kb-ontvangt-subsidie-voor-cultureel-ai-kenniscentrum",
+      "source_name": "Koninklijke Bibliotheek",
+      "source_type": "rss",
+      "published": null,
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "subsidie-of-financiering",
+        "bibliotheek"
+      ],
+      "importance": 5,
+      "why_relevant": "Direct relevant: forse AI-financiering voor de Nederlandse bibliotheek- en cultuursector.",
+      "also_covered_by": []
+    },
+    {
+      "id": "a815c723fb1d971e630df19d00a7b441a31e6fca8deae493244e5b9bbe1fc03e",
+      "title": "Generatieve AI geïntegreerd in bibliotheekgeleide data-literacy-onderwijs",
+      "summary": "Onderzoekers van Vanderbilt University beschrijven een door bibliothecarissen ontwikkelde module in een bachelorvak biomedische techniek, waarin generatieve AI wordt ingezet voor datacuratie. Na de module gebruikten studenten AI gerichter voor data-opschoning in plaats van voor de analyse zelf.",
+      "url": "https://www.infodocket.com/2026/08/07/journal-article-integrating-generative-ai-into-librarian-led-data-literacy-instruction-for-science-and-engineering-students/",
+      "source_name": "Infodocket",
+      "source_type": "rss",
+      "published": "2026-08-07T18:16:57+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "cursus-of-workshop",
+        "digitale-geletterdheid",
+        "onderzoek"
+      ],
+      "importance": 4,
+      "why_relevant": "Concreet voorbeeld van AI-onderwijs door bibliothecarissen, direct toepasbaar.",
+      "also_covered_by": []
+    },
+    {
+      "id": "470213e0b05a4c4be846acac5d1dc618ecf7cb7246855b08fb8c3ef2d80e9d2b",
+      "title": "Arkansas-bibliothecarissen worstelen met handhaving van boekenwet na rechterlijke uitspraak",
+      "summary": "Een federaal hof liet een Arkansas-wet in werking treden die materiaal als 'obsceen' bestempelt en strafrechtelijke aansprakelijkheid voor bibliothecarissen invoert. Bibliotheken zoeken nu naar manieren om te voldoen zonder hun collectie drastisch te beperken.",
+      "url": "https://www.infodocket.com/2026/08/10/report-arkansas-librarians-grapple-with-enforcing-book-restriction-law-after-court-ruling/",
+      "source_name": "Infodocket",
+      "source_type": "rss",
+      "published": "2026-08-10T11:38:14+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving"
+      ],
+      "importance": 4,
+      "why_relevant": "Toont concrete gevolgen van censuurwetgeving voor de bibliotheekpraktijk.",
+      "also_covered_by": []
+    },
+    {
+      "id": "8d0d80c2fad3c484dd70cef5ff96cde59a3f2c3f92d53541431d0db7e8d24746",
+      "title": "Nu AI het web overneemt, verdwijnt het collectieve geheugen van internet",
+      "summary": "Een essay betoogt dat naarmate AI-antwoorden en AI-samenvattingen het zoeken op internet overnemen, minder mensen nog de originele bronnen bezoeken. Dat bedreigt volgens de auteur het collectieve geheugen van het web, omdat sites zonder verkeer verdwijnen of stoppen met publiceren.",
+      "url": "https://thewalrus.ca/google-search-is-dying/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-10T22:36:30Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "onderzoek"
+      ],
+      "importance": 4,
+      "why_relevant": "Waarschuwing dat AI-zoekresultaten het collectieve webgeheugen bedreigen, relevant voor informatieprofessionals.",
+      "also_covered_by": []
+    },
+    {
+      "id": "296b8a507b97208bdcf6baefb2cf552f2c6093db1c5933e6ae4a38aea6aa1c3b",
+      "title": "Meta brengt open-source AI-model Muse Glimmer uit",
+      "summary": "Meta brengt Muse Glimmer uit, een klein, volledig open AI-model, en kondigt aan dat ook Muse Spark 1.2 binnenkort open gaat. Het is een terugkeer naar de open-source-koers van Llama en een antwoord op de opmars van open Chinese modellen.",
+      "url": "https://kill-the-newsletter.com/feeds/7b87u0i8h3vypjvvprgc/entries/qed9hn5nr3mngmil6xh0.html",
+      "source_name": "The Rundown AI",
+      "source_type": "newsletter",
+      "published": "2026-08-11T10:07:40+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "open-source",
+        "bedrijven"
+      ],
+      "importance": 4,
+      "why_relevant": "Meta zet weer in op open AI-modellen, belangrijk voor toegankelijke, lokaal draaibare AI.",
+      "also_covered_by": []
+    },
+    {
+      "id": "0ccec1dd074f8744c4d2bba5a7cc8d161f279d8061808bf617286ba2f08f9595",
+      "title": "Massachusetts ondertekent wet tegen boekverboden in scholen en bibliotheken",
+      "summary": "Gouverneur Maura Healey tekende een wet die boekverboden verbiedt en een transparant proces vastlegt voor het beoordelen van bibliotheekmaterialen. De wet biedt ook extra bescherming aan bibliothecarissen en docenten die selecties maken.",
+      "url": "https://www.infodocket.com/2026/08/11/statement-governor-maura-healey-signs-freedom-to-read-law-keeping-book-bans-out-of-massachusetts-schools-and-libraries/",
+      "source_name": "Infodocket",
+      "source_type": "rss",
+      "published": "2026-08-11T12:31:25+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving"
+      ],
+      "importance": 4,
+      "why_relevant": "Belangrijk precedent in de VS tegen censuur van bibliotheekcollecties.",
+      "also_covered_by": []
+    },
+    {
+      "id": "1d2d44cb50e6b115456042c032734bf0268c70c6f9c025fe3cdb214215990f9a",
+      "title": "Gemini van Google bereikt 1 miljard gebruikers, sneller dan enig ander Google-product",
+      "summary": "Google-topman Sundar Pichai maakte bekend dat de AI-chatbot Gemini wereldwijd 1 miljard actieve gebruikers per maand heeft bereikt, sneller dan enig eerder Google-product. Het cijfer telt alleen mensen die de Gemini-app of -website gebruiken, los van Gemini's aanwezigheid in Gmail, Drive en Zoeken.",
+      "url": "https://arstechnica.com/ai/2026/08/google-says-gemini-has-reached-1b-users-faster-than-any-other-google-product/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-08-11T19:48:12+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "bedrijven"
+      ],
+      "importance": 4,
+      "why_relevant": "Toont hoe snel AI-chatbots mainstream worden, relevant voor digitale geletterdheid.",
+      "also_covered_by": []
+    },
+    {
+      "id": "3f01239b58ae884f84bd337537a20bb7f32f5efc97602ae7356bd65cd4204f89",
+      "title": "Anthropic zet watermerk in AI-teksten van nieuwe Claude-modellen",
+      "summary": "Anthropic voegt onzichtbare watermerken toe aan teksten die nieuwe Claude-modellen genereren, zodat aantoonbaar is dat een tekst niet door een mens is geschreven. De stap volgt op de EU-verplichting die sinds 2 augustus geldt dat chatbots, deepfakes en AI-teksten herkenbaar moeten zijn.",
+      "url": "https://tweakers.net/nieuws/250886/anthropic-zet-watermerk-in-ai-gegenereerde-teksten-van-nieuwe-claude-modellen.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-08-11T20:47:54+02:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "beleid-en-regelgeving",
+        "bedrijven"
+      ],
+      "importance": 4,
+      "why_relevant": "EU verplicht herkenbare AI-tekst; relevant voor mediawijsheid en voorlichting aan bezoekers.",
+      "also_covered_by": []
+    },
+    {
+      "id": "b45de20b8c7c71e801d6a1d34e5c4d5e4bc54ba3c8313c4c49d7c457ba8fc525",
+      "title": "Anthropic voegt onzichtbaar watermerk toe aan tekst van Claude",
+      "summary": "Anthropic heeft aangekondigd tekst die Claude genereert te voorzien van een onzichtbaar watermerk, al is de precieze werkwijze niet openbaar gemaakt. Het watermerk moet AI-gegenereerde tekst herkenbaar maken, al kan het volgens experts mogelijk toch worden omzeild.",
+      "url": "https://kill-the-newsletter.com/feeds/7b87u0i8h3vypjvvprgc/entries/yjq7by15n3zsvfvwzurn.html",
+      "source_name": "The Rundown AI",
+      "source_type": "newsletter",
+      "published": "2026-08-12T10:08:22+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "ethiek-en-risico"
+      ],
+      "importance": 4,
+      "why_relevant": "Belangrijk voor het herkennen van AI-gegenereerde tekst, relevant voor mediawijsheid.",
+      "also_covered_by": [
+        "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/jfysu1hayyuil3rdfb92.html"
+      ]
+    },
+    {
+      "id": "a7a9c478940f938dd7c5dd0e51dbaa2cd7bd62a3a516b907ac1e841fc887abc8",
+      "title": "Boekhandelaren vermoeden dat AI-bedrijven zeldzame boeken opkopen om te vernietigen",
+      "summary": "Boekverkopers vrezen dat techbedrijven fysieke boeken kapotmaken om ze snel te kunnen scannen voor het trainen van AI-modellen, omdat dat goedkoper is dan zorgvuldig digitaliseren. Boekenliefhebbers maken zich zorgen dat hierdoor onvervangbare exemplaren voorgoed verloren gaan.",
+      "url": "https://arstechnica.com/tech-policy/2026/08/heres-a-balm-if-the-idea-of-destroying-books-to-train-ai-breaks-your-heart/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-08-12T15:19:17+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "bedrijven"
+      ],
+      "importance": 4,
+      "why_relevant": "Rechtstreekse impact op boekbehoud, relevant voor bibliotheken als hoeders van erfgoed.",
+      "also_covered_by": []
+    },
+    {
+      "id": "d97fa292b20dd481d033858366ec262618315332423425bac7ce24558e0f567a",
+      "title": "Activist Leila Green Little pleit in de KB voor vrijheid van informatie",
+      "summary": "De Amerikaanse activiste Leila Green Little, bekend van haar verzet tegen boekverboden in Texas, was op 1 juli te gast bij de KB om te spreken over het belang van vrije toegang tot informatie.",
+      "url": "https://www.kb.nl/nieuws/activist-leila-green-little-spreekt-zich-kb-uit-voor-vrijheid-van-informatie",
+      "source_name": "Koninklijke Bibliotheek",
+      "source_type": "rss",
+      "published": null,
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "beleid-en-regelgeving"
+      ],
+      "importance": 3,
+      "why_relevant": "Verbindt internationale discussie over censuur met de Nederlandse bibliotheekpraktijk.",
+      "also_covered_by": []
+    },
+    {
+      "id": "22203b9cdf4d26fa09a3a77d425166ede868d2b7de66b6af743fb5a631561390",
+      "title": "Europees initiatief voor miljoenen digitale boeken komt dichterbij",
+      "summary": "De KB en Stichting Europeana starten een kleinschalige pilot voor een gedeelde Europese infrastructuur om miljoenen gedigitaliseerde boeken toegankelijk te maken voor onderzoek en innovatie.",
+      "url": "https://www.kb.nl/nieuws/europees-initiatief-voor-miljoenen-digitale-boeken-stap-dichterbij",
+      "source_name": "Koninklijke Bibliotheek",
+      "source_type": "rss",
+      "published": null,
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek",
+        "digitale-inclusie"
+      ],
+      "importance": 3,
+      "why_relevant": "Belangrijke stap richting Europese digitale bibliotheekinfrastructuur.",
+      "also_covered_by": []
+    },
+    {
+      "id": "0aa8b928dc97c999ad93a70db22f82164b623b162df3f39ebb283183a58a1986",
+      "title": "KB archiveert zoveel mogelijk XS4ALL-websites voor ze offline gaan",
+      "summary": "Nu de laatste pagina's van internetprovider XS4ALL per 1 juli 2026 offline gaan, heeft de KB zo veel mogelijk van deze websites opgeslagen in haar webcollectie om ze te behouden voor de toekomst.",
+      "url": "https://www.kb.nl/nieuws/kb-archiveert-zoveel-mogelijk-xs4all-websites",
+      "source_name": "Koninklijke Bibliotheek",
+      "source_type": "rss",
+      "published": null,
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "digitale-inclusie",
+        "bibliotheek"
+      ],
+      "importance": 3,
+      "why_relevant": "Voorbeeld van digitaal erfgoedbehoud van een verdwijnend stuk internetgeschiedenis.",
+      "also_covered_by": []
+    },
+    {
+      "id": "c576348470edcc5b41159dab5b448582499eb60cefdeab65978ea986b7bd877b",
+      "title": "KB-adviseur Erik Boekesteijn wint IFLA Medal",
+      "summary": "Senior adviseur Erik Boekesteijn van de Koninklijke Bibliotheek ontving de IFLA Medal voor zijn internationale bijdragen aan de bibliotheeksector.",
+      "url": "https://www.kb.nl/nieuws/kb-adviseur-erik-boekesteijn-wint-ifla-medal",
+      "source_name": "Koninklijke Bibliotheek",
+      "source_type": "rss",
+      "published": null,
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek"
+      ],
+      "importance": 3,
+      "why_relevant": "Nederlandse bibliotheeksector krijgt internationale erkenning.",
+      "also_covered_by": []
+    },
+    {
+      "id": "104e884c645fa6753702588cf1e125c2822936bd3625d3da50f8e568d3406a1d",
+      "title": "Laatste kans om financiering voor digitaal burgerschap aan te vragen",
+      "summary": "Organisaties die het starttraject van het programma digitaal burgerschap hebben doorlopen, kunnen in september de verkorte programmeringsregeling aanvragen. Het is een van de laatste aanvraagrondes voordat het programma eind 2027 stopt.",
+      "url": "https://www.bibliotheeknetwerk.nl/nieuws/vraag-nog-financiering-aan-voor-digitaal-burgerschap",
+      "source_name": "Bibliotheeknetwerk (KB)",
+      "source_type": "rss",
+      "published": null,
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "subsidie-of-financiering",
+        "digitale-inclusie"
+      ],
+      "importance": 3,
+      "why_relevant": "Laatste kans op financiering voor digitaal-burgerschapsprogramma's, actie vereist in september.",
+      "also_covered_by": []
+    },
+    {
+      "id": "920edfcee25e3cb550d15237a8df909e7d06ac5abfedf18f5d37b72d6469f538",
+      "title": "Triply wordt leverancier van het nieuwe catalogiseerplatform OBCP",
+      "summary": "Na een aanbesteding die in maart 2026 startte, is bekend dat Triply het nieuwe Openbaar Bibliotheek Catalogiseer Platform gaat bouwen. Dit platform is de opvolger van het huidige Gemeenschappelijk Geautomatiseerd Catalogiseersysteem (GGC).",
+      "url": "https://www.bibliotheeknetwerk.nl/nieuws/triply-leverancier-van-het-nieuwe-obcp",
+      "source_name": "Bibliotheeknetwerk (KB)",
+      "source_type": "rss",
+      "published": null,
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Nieuwe leverancier voor het landelijke catalogiseersysteem raakt alle openbare bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "061b9f913419e0dc38c63c80cc7681b3231b56527b73ac1b6503d9fb20c1538f",
+      "title": "Digi-Taalhuis Bibliotheek aan den IJssel bouwt aan een sterk lokaal netwerk",
+      "summary": "Het Digi-Taalhuis van de Bibliotheek aan den IJssel werkt samen met gemeenten, welzijnsorganisaties en andere partners om inwoners van Capelle en Krimpen aan den IJssel te ondersteunen bij basisvaardigheden. In Krimpen heeft 35 procent van de inwoners beperkte basisvaardigheden, ruim boven het landelijk gemiddelde van 22 procent.",
+      "url": "https://www.probiblio.nl/digi-taalhuis-bibliotheek-aan-den-ijssel-bouw-aan-een-sterk-lokaal-netwerk/",
+      "source_name": "Probiblio",
+      "source_type": "rss",
+      "published": "2026-08-07T07:47:19+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "digitale-inclusie",
+        "bibliotheek"
+      ],
+      "importance": 3,
+      "why_relevant": "Praktijkvoorbeeld van lokale samenwerking rond basisvaardigheden en digitale inclusie.",
+      "also_covered_by": []
+    },
+    {
+      "id": "c227f7cc9b5c040fb50c491a4bf7476d4b2d77ead839f37dcfb46e293ae8becc",
+      "title": "VS: bibliotheken in Hennepin County en Dallas kampen met bezuinigingen",
+      "summary": "Bibliotheken in Hennepin County (Minnesota) beperken openingstijden en personeel om 5 miljoen dollar te besparen, terwijl Dallas voorafgaand aan het nieuwe budgetjaar ontslagen aankondigt. In Massachusetts steunt een ruime meerderheid juist een wet die bibliothecarissen meer zeggenschap geeft over hun collectie.",
+      "url": "https://www.infodocket.com/2026/08/08/roundup-mn-hennepin-county-libraries-to-limit-hours-and-staffing-tx-dallas-libraries-see-layoffs-ahead-of-budget-season-with-no-sacred-cow/",
+      "source_name": "Infodocket",
+      "source_type": "rss",
+      "published": "2026-08-08T13:27:34+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "arbeidsmarkt"
+      ],
+      "importance": 3,
+      "why_relevant": "Toont financiële druk waar bibliotheken wereldwijd herkenbaar mee kampen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "562bb82a9448c33678da4cfdbe5a21f03230e3449be8a3ddfaab654bde2e5011",
+      "title": "Privacy en informatiebeveiliging: dit speelt er in de bibliotheek",
+      "summary": "Rijnbrink start een tweemaandelijkse update over privacy en informatiebeveiliging voor bibliotheken. Deze eerste editie gaat over vernieuwde modeldocumenten voor de Bibliotheek op school en de risico's en regels rond het inzetten van chatbots.",
+      "url": "https://www.rijnbrink.nl/actueel/nieuws/privacy-informatiebeveiliging-dit-speelt-er-in-de-bibliotheek/",
+      "source_name": "Rijnbrink",
+      "source_type": "rss",
+      "published": "2026-08-10T11:06:02+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 3,
+      "why_relevant": "Praktische update over privacyregels en chatbotrisico's specifiek voor bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "c60b75d4c49e5375c4e08d91c7f0e3975da2f26d630c5bf36d8f43326bf12b6f",
+      "title": "Meta introduceert open model Muse Glimmer",
+      "summary": "Meta brengt met Muse Glimmer een nieuw 30B-model uit onder een vrije Apache 2.0-licentie, geoptimaliseerd voor agentische taken, tool-gebruik en meerstaps redeneren. Simon Willison test het model lokaal met positieve resultaten.",
+      "url": "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-08-10T23:56:03+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "open-source"
+      ],
+      "importance": 3,
+      "why_relevant": "Vrij te gebruiken open model kan interessant zijn voor lokale AI-experimenten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "b19ec562c455e753267b0e04107e2217c787cdc2a4884378a6d93cdc79d11f47",
+      "title": "OpenAI test advertenties in ChatGPT",
+      "summary": "OpenAI begint met het testen van advertenties in ChatGPT om gratis toegang te ondersteunen. Het bedrijf belooft duidelijke labeling, onafhankelijke antwoorden en privacywaarborgen.",
+      "url": "https://openai.com/index/testing-ads-in-chatgpt",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-08-11T10:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Verandert het verdienmodel van een veelgebruikte AI-tool voor bibliotheekbezoekers.",
+      "also_covered_by": []
+    },
+    {
+      "id": "8dd74c53c117d65a97eb16fa828558c175945f3402f2e6d1e9949098094deab6",
+      "title": "OpenAI's hoofd ethiek Chloé Bakalar vertrekt na minder dan een jaar",
+      "summary": "Chloé Bakalar, hoofd ethiek bij OpenAI, vertrekt minder dan een jaar na haar aanstelling. De reden is niet officieel bekendgemaakt, maar het vertrek voedt vragen over hoeveel prioriteit AI-ethiek intern nog krijgt.",
+      "url": "https://aimagazine.com/news/why-did-openai-head-of-ethics-chloe-bakalar-leave",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-11T14:03:18Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Vertrek van ethiekchef roept vragen op over OpenAI's interne prioriteiten rond AI-veiligheid.",
+      "also_covered_by": [
+        "https://www.ft.com/content/e49dfb75-f841-4466-a577-f7aaff8779a0"
+      ]
+    },
+    {
+      "id": "bac93540ea2eeb7f1b3c360dc113fd9b7fd7192374ac8204ffbf81f4900c72ab",
+      "title": "Nvidia brengt aanpasbaar opensource-AI-model uit dat op één gpu draait",
+      "summary": "Nvidia brengt met Nemotron 3.5 Lightning een opensource-AI-model uit dat lokaal op een enkele gpu draait. Gebruikers en ontwikkelaars kunnen het model trainen en aanpassen, bijvoorbeeld voor een eigen schrijf- of programmeerstijl.",
+      "url": "https://tweakers.net/nieuws/250878/nvidia-brengt-aanpasbaar-opensource-ai-model-uit-dat-op-een-gpu-draait.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-08-11T17:37:10+02:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "modellen",
+        "open-source"
+      ],
+      "importance": 3,
+      "why_relevant": "Opensource-AI-model dat lokaal draait, relevant voor wie AI zonder cloud wil uitproberen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "14bed008d51c40555d6b7a3e2e3d80f18478a24f86d7e60c6ab2eec80e5b0869",
+      "title": "Hoe het 'censorship-industrial complex' internet en Amerikaans beleid verandert",
+      "summary": "Een journalist reconstrueert hoe de term 'censorship-industrial complex', oorspronkelijk gebruikt tegen een overheidsafdeling voor desinformatiebestrijding, is uitgegroeid tot een centraal frame in het Amerikaanse beleid. Dat heeft gevolgen voor contentmoderatie en informatietoegang wereldwijd.",
+      "url": "https://www.technologyreview.com/2026/08/11/1141635/how-the-censorship-industrial-complex-is-changing-the-internet-and-us-policy/",
+      "source_name": "MIT Technology Review — AI",
+      "source_type": "rss",
+      "published": "2026-08-11T17:58:57+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Laat zien hoe Amerikaans beleid rond desinformatie en contentmoderatie verschuift.",
+      "also_covered_by": [
+        "https://www.technologyreview.com/2026/08/12/1141714/the-download-innovators-under-35-censorship-industrial-complex/"
+      ]
+    },
+    {
+      "id": "682c3e411eafa72af323da6e0c4e175d885cd38b0a45cf5549b4e36d3e43d096",
+      "title": "Spotify markeert AI-gegenereerde artiesten vanaf half september met nieuw label",
+      "summary": "Spotify introduceert vanaf half september een badge voor AI-gegenereerde artiesten, zichtbaar op verschillende plekken in de app. Het label 'AI Personas' moet luisteraars duidelijk maken dat er geen echt mens achter bepaalde muziek zit.",
+      "url": "https://tweakers.net/nieuws/250882/spotify-markeert-ai-gegenereerde-artiesten-vanaf-half-september-met-nieuw-label.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-08-11T19:42:43+02:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "bedrijven",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Labeling van AI-muziek helpt bezoekers AI-content herkennen, relevant voor mediawijsheid.",
+      "also_covered_by": []
+    },
+    {
+      "id": "701a34aa4671b069c79d3a93bcea7e87780faf74dfe6ca7c165eb079cb788437",
+      "title": "Onderzoekers ontfutselen verborgen redeneerstappen uit LLM-API's",
+      "summary": "Een nieuw paper toont aan dat versleutelde 'reasoning traces' van grote taalmodellen van Anthropic, OpenAI en Google konden worden hergebruikt om zwakkere modellen te jailbreaken en zo de verborgen redenering van sterkere modellen in platte tekst te achterhalen. Alle betrokken aanbieders hebben het lek inmiddels gedicht.",
+      "url": "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/#atom-everything",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-08-11T22:40:45+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "onderzoek"
+      ],
+      "importance": 3,
+      "why_relevant": "Beveiligingslek toont risico's van vertrouwen op versleutelde AI-redenering.",
+      "also_covered_by": []
+    },
+    {
+      "id": "858906c0a98f13917ea28591e9d27b8496aee87f7a69bdfc4e9094262c80f664",
+      "title": "Bedrijf dat '100% door mensen geschreven' medisch onderzoek belooft, blijkt zelf AI te gebruiken",
+      "summary": "Een bedrijf dat adverteert met volledig door mensen geschreven en peer-reviewde medische teksten, blijkt die content in werkelijkheid met AI te genereren. Het voorbeeld illustreert hoe moeilijk het is om beweringen over 'AI-vrije' content betrouwbaar te controleren.",
+      "url": "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-12T02:05:42Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Waarschuwend voorbeeld voor het beoordelen van beweringen over 'AI-vrije' content.",
+      "also_covered_by": []
+    },
+    {
+      "id": "e063daae6225e156953956818763e28a3d67a709a94829ba10d52a2df2fa945f",
+      "title": "Van assisteren naar uitvoeren: hoe bedrijven AI inzetten",
+      "summary": "Onderzoek van OpenAI onder honderden bedrijven laat zien dat organisaties AI steeds vaker taken zelfstandig laten uitvoeren in plaats van alleen te laten assisteren, met ChatGPT en Codex als voorbeelden. Koplopers in AI-adoptie trekken daarbij duidelijk weg bij de rest.",
+      "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-08-12T06:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Schetst hoe bedrijven agentic AI toepassen, relevant voor toekomstige praktijk.",
+      "also_covered_by": []
+    },
+    {
+      "id": "64192810ce1ce78423dc26b60d25fd8a735e4e73c28abed2ac8dd99c5b6f0442",
+      "title": "Mistral wil tegen 2030 1 gigawatt aan AI-rekencapaciteit bouwen in Europa",
+      "summary": "Het Franse AI-bedrijf Mistral streeft naar 1 GW eigen rekencapaciteit in Europa in 2030, als onderdeel van de inzet op Europese digitale soevereiniteit. Het bedrijf zoekt hiervoor al langlopende afnamecontracten met klanten.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/d09cy2yc385e0dniyaf2.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-08-12T12:32:53+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 3,
+      "why_relevant": "Europese AI-soevereiniteit is relevant voor beleid rond digitale infrastructuur.",
+      "also_covered_by": []
+    },
+    {
+      "id": "dff1b98efefa367ccb95d3475c074833420e2c9d548222a92791642efbc6596d",
+      "title": "Spotify gaat AI-artiesten labelen met 'AI Persona'-badge",
+      "summary": "Spotify introduceert vanaf september labels voor artiestenprofielen die geen echte persoon vertegenwoordigen, en sluit deze uit van redactionele en algoritmische aanbevelingen tenzij gebruikers ze zelf volgen. Artiesten kunnen tegen een onterecht label in beroep gaan.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/8awkv5er3rvobegssazs.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-08-12T12:36:29+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Voorbeeld van hoe platforms omgaan met transparantie over AI-gegenereerde content.",
+      "also_covered_by": []
+    },
+    {
+      "id": "7427312378d1032e802b230854f753a2939ce623817157be03343d65a2bb8ec7",
+      "title": "Nvidia wil met partners meer dan 500 miljard dollar ophalen voor AI-datacenters",
+      "summary": "Nvidia kondigde financieringsplatforms aan met onder meer BlackRock, Blackstone en Goldman Sachs om AI-rekencapaciteit tot een verhandelbare beleggingscategorie te maken. Critici wijzen erop dat het vooral om niet-bindende intentieverklaringen gaat en dat de werkelijke restwaarde van de hardware onzeker blijft.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/v1927dbdqsciv99rvdjr.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-08-12T13:25:48+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Toont de enorme financiële schaal achter de wereldwijde bouw van AI-infrastructuur.",
+      "also_covered_by": []
+    },
+    {
+      "id": "0b15e3827546fd9af80dda8fd346af87c73001596245801544116418c7528267",
+      "title": "Twitch-streamers kunnen voortaan AI-training van Amazon weigeren",
+      "summary": "Twitch-gebruikers kunnen voortaan aangeven dat hun streams, video's en chats niet gebruikt mogen worden om Amazons generatieve AI-modellen te trainen. Andere AI-functies, zoals ondertiteling en veiligheidstools, blijven wel actief na het opt-out.",
+      "url": "https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-08-12T13:29:10-04:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Voorbeeld van opt-out-rechten bij AI-training, relevant voor privacy- en mediawijsheidsvoorlichting.",
+      "also_covered_by": []
+    },
+    {
+      "id": "ce79ecb64e7cf9877d4367b56534a27127589d3a028a0a83c339ca0d96806642",
+      "title": "Onderzoekers vinden manier om apparaten te kapen via Zoom-schermdelen",
+      "summary": "Beveiligingsonderzoekers ontdekten kwetsbaarheden in Zoom waarmee apparaten via schermdelen konden worden overgenomen, zonder dat het slachtoffer iets hoefde te doen. Opvallend is dat het team de bugs met minder dan twintig prompts aan publiek beschikbare AI-modellen wist te vinden, wat laat zien hoe toegankelijk zulk hackwerk geworden is.",
+      "url": "https://arstechnica.com/security/2026/08/researchers-found-a-way-to-hijack-devices-through-zoom-screen-sharing/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-08-12T13:37:12+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "tools"
+      ],
+      "importance": 3,
+      "why_relevant": "Laat zien hoe AI de drempel voor het vinden van ernstige kwetsbaarheden verlaagt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "57499aca6f5c69cd885f08e7444e5339b08cb8bf840948ea54c4e88f4d31f396",
+      "title": "OpenAI-COO Brad Lightcap vertrekt om iets nieuws te beginnen",
+      "summary": "Brad Lightcap, al jaren operationeel directeur bij OpenAI, stapt op om een nieuwe onderneming te starten. Zijn vertrek past in een reeks wisselingen in de top van OpenAI, terwijl het bedrijf zich voorbereidt op een beursgang.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/gu2c2d188b2le562engf.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-08-12T13:46:54+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Leiderschapswissel bij marktleider OpenAI kan de koers van het bedrijf beïnvloeden.",
+      "also_covered_by": []
+    },
+    {
+      "id": "c26c8d5a4e90c67829e9c660ce4116c2b017553675393f87c94877de7e77f6bb",
+      "title": "DeepMind brengt gebarentaal-AI naar gebruikers",
+      "summary": "DeepMind introduceert SL2T, een model dat gebarentaal omzet naar tekst, en maakt dit nu beschikbaar in producten voor dove en slechthorende gebruikers. Het is bedoeld als concreet toegankelijkheidshulpmiddel, niet alleen als onderzoeksdemo.",
+      "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+      "source_name": "Google DeepMind",
+      "source_type": "rss",
+      "published": "2026-08-12T14:01:59+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "tools"
+      ],
+      "importance": 3,
+      "why_relevant": "Toont hoe AI toegankelijkheid vergroot, relevant voor digitale inclusie.",
+      "also_covered_by": []
+    },
+    {
+      "id": "6fd302fe11a1aa7aa8695559eb2acea928203cf50e23f570a434e4ec7b73c11e",
+      "title": "Duitse belangenorganisatie dient strafklacht in tegen Meta's AI-bril",
+      "summary": "Een Duitse privacyorganisatie heeft een strafklacht ingediend tegen Meta vanwege de AI-functies in zijn slimme bril. De klacht richt zich op mogelijke privacyschendingen doordat de bril ongemerkt beeld en geluid kan verwerken.",
+      "url": "https://www.reuters.com/legal/government/german-advocacy-group-lodges-criminal-complaint-over-meta-ai-glasses-2026-08-12/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-12T14:06:03Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 3,
+      "why_relevant": "Privacyzorgen rond AI-wearables zijn relevant voor digitale geletterdheid en voorlichting.",
+      "also_covered_by": []
+    },
+    {
+      "id": "6abb39686006e4154e53be4aa17bdc5fcb8e52883475d13b7933d7cbbe9f8af7",
+      "title": "Academische zoekvaardigheid in het tijdperk van generatieve AI: nieuw conceptueel raamwerk",
+      "summary": "Onderzoekers van Purdue University publiceerden in het Journal of Academic Librarianship een raamwerk dat helpt begrijpen hoe studenten schakelen tussen Google Scholar, bibliotheekdatabases en AI-chatbots. Het biedt bibliotheken houvast om informatievaardigheidsonderwijs aan te passen aan deze nieuwe zoekpraktijk.",
+      "url": "https://www.infodocket.com/2026/08/12/journal-article-academic-search-literacy-in-the-age-of-generative-ai-a-conceptual-framework-for-navigating-the-search-language-ecology/",
+      "source_name": "Infodocket",
+      "source_type": "rss",
+      "published": "2026-08-12T16:11:38+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "digitale-geletterdheid"
+      ],
+      "importance": 3,
+      "why_relevant": "Nieuw raamwerk helpt bibliotheken zoekvaardigheidsonderwijs aanpassen aan AI-gebruik.",
+      "also_covered_by": []
+    },
+    {
+      "id": "bdc6284a9f1214e49f94ff485f93b1d00f6fbc7bf9e8740f908af8e059d90959",
+      "title": "Grok 4.6 scoort 61 op de Artificial Analysis Intelligence Index",
+      "summary": "Het nieuwe model Grok 4.6 van xAI behaalt een score van 61 op de Artificial Analysis Intelligence Index, een veelgebruikte benchmark voor de algemene capaciteiten van taalmodellen. Daarmee positioneert xAI zich opnieuw hoog op de ranglijst van toonaangevende AI-modellen.",
+      "url": "https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-12T16:54:25Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "onderzoek"
+      ],
+      "importance": 3,
+      "why_relevant": "Nieuwe benchmarkscore laat zien hoe Grok 4.6 zich verhoudt tot andere topmodellen.",
+      "also_covered_by": [
+        "https://x.ai/news/grok-4-6"
+      ]
+    },
+    {
+      "id": "f5fc0832ed1f70e5bffe0e456b332f888ab2d80d817378d0bb4afd79ba9b3e79",
+      "title": "SpaceXAI lanceert Grok 4.6, concurreert met top van AI-modellen",
+      "summary": "SpaceXAI (voorheen xAI) lanceert Grok 4.6, dat op de Artificial Analysis-ranglijst het model Kimi K3 voorbijstreeft en gelijk scoort met GPT-5.6 Sol. Het model richt zich op langlopende AI-agents, programmeren en kenniswerk, met een prijsstelling die concurreert met andere middensegment-modellen.",
+      "url": "https://venturebeat.com/technology/spacexai-debuts-grok-4-6-overtaking-kimi-k3s-performance-and-matching-gpt-5-6-sol-for-worlds-third-best-on-artificial-analysis",
+      "source_name": "VentureBeat AI",
+      "source_type": "rss",
+      "published": "2026-08-12T17:26:58+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Nieuw topmodel van xAI, relevant om de AI-modelconcurrentie te blijven volgen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "dbe20577ed39c98349139a5f159e9872127a6265ea5ab364b981cf49c8872cd5",
+      "title": "Vier van de vijf bedrijven kunnen een losgeslagen AI-agent nog niet indammen",
+      "summary": "Onderzoek van VentureBeat Pulse laat zien dat 65 procent van de bedrijven AI-agentrechten afdwingt tijdens gebruik, maar slechts 8 procent dit combineert met echte isolatie van risicovolle agents. Meer dan de helft van de bedrijven had al een beveiligingsincident of bijna-incident met een AI-agent.",
+      "url": "https://venturebeat.com/security/four-of-five-enterprises-that-secured-ai-agent-identities-still-cant-contain-one-that-goes-rogue",
+      "source_name": "VentureBeat AI",
+      "source_type": "rss",
+      "published": "2026-08-12T18:44:50+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Bedrijven kunnen losgeslagen AI-agents nog vaak niet indammen, relevant voor AI-risicobewustzijn.",
+      "also_covered_by": []
+    },
+    {
+      "id": "e815ed9cd2c17aaa4ecaf20eea9ecaea1e1612390a81032a87dfcfa83ca7f876",
+      "title": "Fieldlab 'Gamen voor de Lijst' laat zien dat games aanzetten tot lezen",
+      "summary": "Bibliotheek AanZet, De Bibliotheek Gooi+ en Probiblio onderzochten in een Fieldlab of verhalende games leerlingen kunnen verleiden tot lezen. De conclusie is positief: games blijken hiervoor een geschikt middel.",
+      "url": "https://www.bibliotheeknetwerk.nl/nieuws/het-fieldlab-gamen-voor-de-lijst-is-afgerond",
+      "source_name": "Bibliotheeknetwerk (KB)",
+      "source_type": "rss",
+      "published": null,
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "onderwijs",
+        "bibliotheek"
+      ],
+      "importance": 2,
+      "why_relevant": "Praktisch inzicht voor leesbevordering onder jongeren via games in de bibliotheek.",
+      "also_covered_by": []
+    },
+    {
+      "id": "83243bbbc8c8cf58a3e7b5dcda0c248f203a7b5ccebc353a0c87dbd6c940f7a6",
+      "title": "IFLA-medaille voor Erik Boekesteijn",
+      "summary": "Erik Boekesteijn heeft de IFLA Medal ontvangen, een prijs voor bijzondere persoonlijke en professionele bijdragen aan de internationale bibliotheeksector. De onderscheiding erkent zijn jarenlange inzet voor het vakgebied.",
+      "url": "https://www.bibliotheeknetwerk.nl/nieuws/ifla-prijs-voor-erik-boekesteijn",
+      "source_name": "Bibliotheeknetwerk (KB)",
+      "source_type": "rss",
+      "published": null,
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek",
+        "evenement"
+      ],
+      "importance": 2,
+      "why_relevant": "Nederlandse bibliotheekcollega krijgt internationale erkenning, goed nieuws voor het vakgebied.",
+      "also_covered_by": []
+    },
+    {
+      "id": "3fdffac755c411ee0032c01837752acc1d814d652dd198d22128e96edae52b39",
+      "title": "KB wint prijs voor beste statement met de Boekenboot",
+      "summary": "De Koninklijke Bibliotheek voer op 1 augustus mee op de Boekenboot tijdens de Canal Parade om een statement te maken tegen censuur en onderdrukking van LHBTIQ+-stemmen, en won hiervoor de prijs voor beste statement.",
+      "url": "https://www.kb.nl/nieuws/boekenboot-wint-prijs-voor-beste-statement",
+      "source_name": "Koninklijke Bibliotheek",
+      "source_type": "rss",
+      "published": null,
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "evenement"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont hoe de KB zich publiekelijk uitspreekt voor vrijheid van informatie.",
+      "also_covered_by": [
+        "https://www.kb.nl/nieuws/kb-vaart-mee-op-boekenboot-canal-parade"
+      ]
+    },
+    {
+      "id": "2a185abc8e557b85d83a0c60227acb86fed8329cbe0ff0321b1df12959931887",
+      "title": "KB zoekt Researchers-in-Residence voor 2027",
+      "summary": "De Koninklijke Bibliotheek opent de aanmelding voor Researcher-in-Residence-plekken in 2027. Het programma is bedoeld voor beginnende onderzoekers die met KB-collecties of -data willen werken.",
+      "url": "https://www.kb.nl/nieuws/kb-zoekt-researchers-residence-voor-2027",
+      "source_name": "Koninklijke Bibliotheek",
+      "source_type": "rss",
+      "published": null,
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek",
+        "onderzoek"
+      ],
+      "importance": 2,
+      "why_relevant": "Nieuwe onderzoeksplekken bij de KB, interessant voor bibliotheekmedewerkers met onderzoeksambities.",
+      "also_covered_by": []
+    },
+    {
+      "id": "b105bb6af33b141d29b8e8748c5fc7a53bbdb6f30554a2ea51da23e47e1472e0",
+      "title": "Nieuw dashboard toont alle bibliotheeklocaties in Nederland",
+      "summary": "Het nieuwe Dashboard Bibliotheeklocaties toont hoeveel vestigingen er zijn, welke faciliteiten ze bieden en welke afstand inwoners moeten afleggen. Het dashboard vervangt de locatiedata uit de Bibliotheekatlas.",
+      "url": "https://www.bibliotheeknetwerk.nl/nieuws/nieuw-het-dashboard-bibliotheeklocaties",
+      "source_name": "Bibliotheeknetwerk (KB)",
+      "source_type": "rss",
+      "published": null,
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek",
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Handig overzichtsinstrument voor beleid en spreiding van bibliotheekvoorzieningen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "ebad7fbc1a6c537a488184983bc46d2fa7e96dbfa46ec9e1760a5f4427a144ad",
+      "title": "Pilot voor eenvoudiger registreren bij het IDO",
+      "summary": "Vier Informatiepunten Digitale Overheid testen van half augustus tot half september samen met onderzoeksbureau Perspective een korter registratieformulier. Doel is het registreren van IDO-bezoeken te vereenvoudigen.",
+      "url": "https://www.bibliotheeknetwerk.nl/nieuws/pilot-voor-verbetering-registreren-bij-het-ido",
+      "source_name": "Bibliotheeknetwerk (KB)",
+      "source_type": "rss",
+      "published": null,
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "digitale-inclusie",
+        "bibliotheek"
+      ],
+      "importance": 2,
+      "why_relevant": "Kortere registratie kan drempel bij IDO-bezoek verlagen, relevant voor digitale inclusie.",
+      "also_covered_by": []
+    },
+    {
+      "id": "26e7a85a59df633c7faf881c62cb7d5f08158a4624e95e68750eff9f2e6c54dd",
+      "title": "Vragenlijst over dienstverlening voor jeugd nu beschikbaar",
+      "summary": "Het jaarlijkse Bibliotheekmonitoronderzoek naar dienstverlening voor jeugd start binnenkort en de bijbehorende vragenlijst is dit jaar flink ingekort. Contactpersonen kunnen nu starten met de gegevensverzameling.",
+      "url": "https://www.bibliotheeknetwerk.nl/nieuws/bekijk-nu-de-vragenlijst-dienstverlening-voor-jeugd",
+      "source_name": "Bibliotheeknetwerk (KB)",
+      "source_type": "rss",
+      "published": null,
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek",
+        "onderzoek"
+      ],
+      "importance": 2,
+      "why_relevant": "Contactpersonen jeugddienstverlening moeten nu actie ondernemen voor de Bibliotheekmonitor.",
+      "also_covered_by": []
+    },
+    {
+      "id": "aaf9df188fe907b7d742aafc63cf7da3937473d4c70df3e0595316032a52108a",
+      "title": "Internationale onderzoekssamenwerking: zorgen over de toekomst, maar actie is mogelijk",
+      "summary": "IFLA wijst op belemmeringen waar bibliotheken tegenaan lopen bij internationale onderzoekssamenwerking, ondanks een groeiende roep om wetenschappelijke samenwerking. De organisatie benadrukt de rol van bibliotheken als infrastructuur voor kennisdeling, juist nu polarisatie toeneemt.",
+      "url": "https://www.ifla.org/news/international-research-and-library-collaboration/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-08-08T21:19:24+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "bibliotheek",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 2,
+      "why_relevant": "Belicht de rol van bibliotheken in internationale kennisuitwisseling.",
+      "also_covered_by": []
+    },
+    {
+      "id": "0779648155aaeb0ab5b195db90e9f4f923fd105e752d9569d6d5c8462d8cecb1",
+      "title": "Mesa Gateway Library uitgeroepen tot IFLA Public Library of the Year 2026",
+      "summary": "De Mesa Gateway Library in Arizona won de IFLA/James Bennett Public Library of the Year Award 2026, vanwege haar vernieuwende ontwerp als gemeenschapshub met flexibele ruimtes voor leren, maken en samenwerken.",
+      "url": "https://www.ifla.org/news/winner-announced-for-the-ifla-james-bennett-public-library-of-the-year-award-2026/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-08-10T03:53:30+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "evenement",
+        "bibliotheek"
+      ],
+      "importance": 2,
+      "why_relevant": "Internationaal voorbeeld van vernieuwend bibliotheekontwerp.",
+      "also_covered_by": [
+        "https://www.infodocket.com/2026/08/10/mesa-gateway-library-named-ifla-james-bennett-public-library-of-the-year-award/"
+      ]
+    },
+    {
+      "id": "622cd176ebfbe90f0111c97160e19aded0406f3622eb42c2ad3f8ae42a598a88",
+      "title": "Hoe Bibliotheek IJmond Noord de proefkeuring van Duurzaam Gastvrij gebruikt",
+      "summary": "Bibliotheek IJmond Noord gebruikte een proefkeuring van Duurzaam Gastvrij om inzicht te krijgen in haar verduurzaming en stapsgewijs aan het certificaat te werken. De keuring doorloopt twaalf thema's, van energieverbruik tot maatschappelijke betrokkenheid, met verplichte en optionele normen.",
+      "url": "https://www.probiblio.nl/hoe-bibliotheek-ijmond-noord-handig-gebruikmaakt-van-de-proefkeuring-van-duurzaam-gastvrij/",
+      "source_name": "Probiblio",
+      "source_type": "rss",
+      "published": "2026-08-10T12:10:46+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek"
+      ],
+      "importance": 2,
+      "why_relevant": "Concreet voorbeeld van verduurzaming waar andere bibliotheken van kunnen leren.",
+      "also_covered_by": []
+    },
+    {
+      "id": "46f7ffa2a2e4cb01d8c604390767c991656fe874b903517f7ab1a5018e997422",
+      "title": "Vier ideeën om het transformer-knelpunt in taalmodellen op te lossen",
+      "summary": "MIT Technology Review bespreekt vier nieuwe architecturen die de beperkingen van transformers moeten oplossen naarmate taalmodellen groter worden. Ook wordt ingegaan op hoe AI-hoogleraren omgaan met de veranderende academische wereld.",
+      "url": "https://www.technologyreview.com/2026/08/11/1141610/the-download-next-big-thing-llms-ai-academic-research-shifting/",
+      "source_name": "MIT Technology Review — AI",
+      "source_type": "rss",
+      "published": "2026-08-11T12:10:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "onderzoek"
+      ],
+      "importance": 2,
+      "why_relevant": "Overzicht van technische vernieuwing die toekomstige AI-modellen kan verbeteren.",
+      "also_covered_by": []
+    },
+    {
+      "id": "077b61a0fed02bcc2a083d299a0c55e24311ad526ecaa535f96d02762c586c8f",
+      "title": "Efficiëntere AI-evaluatie met minder tokens dankzij ACE-aanpak",
+      "summary": "IBM Research beschrijft op de Hugging Face-blog een aanpak om de AI-evaluatiemethode ACE met aanzienlijk minder tokens uit te voeren. Dat maakt het testen van AI-modellen goedkoper en sneller zonder in te leveren op nauwkeurigheid.",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
+      "source_name": "Hugging Face",
+      "source_type": "rss",
+      "published": "2026-08-11T13:37:10+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Technisch onderzoek naar efficiëntere AI-evaluatie, relevant voor wie AI-kosten volgt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "d7cf7463c281fbcc6e8aee9e9cbfe84d6ca957c889795886f6d1b6b27cc8157c",
+      "title": "EveryLibrary Institute lanceert Library Advocacy and Funding Conference 2027",
+      "summary": "De EveryLibrary Institute kondigt de vierde editie van LAFCON aan, een driedaagse virtuele conferentie in januari 2027 over belangenbehartiging en financiering van bibliotheken. De conferentie moet bibliotheekleiders helpen wetgeving en financieringstrends te doorgronden.",
+      "url": "https://www.infodocket.com/2026/08/11/everylibrary-institute-launches-library-advocacy-and-funding-conference-2027/",
+      "source_name": "Infodocket",
+      "source_type": "rss",
+      "published": "2026-08-11T15:35:00+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "evenement",
+        "subsidie-of-financiering"
+      ],
+      "importance": 2,
+      "why_relevant": "Relevant voor bibliotheken die financiering en belangenbehartiging volgen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "aa917c63a914b6e83f638528d8c468b3de30d9453303542a355fe8ba8c3ba386",
+      "title": "Go is een ideale taal voor AI-ondersteund softwareontwikkeling, aldus Google",
+      "summary": "Google-ontwikkelaars beargumenteren op hun blog dat de programmeertaal Go zich goed leent voor software die met hulp van AI wordt geschreven, dankzij de eenvoudige syntax en voorspelbare structuur. Het stuk sluit aan bij de discussie over hoe programmeertalen zich aanpassen aan AI-codeerassistenten.",
+      "url": "https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-11T16:57:09Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "onderzoek"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat zien hoe AI-codeerassistenten programmeertaalkeuzes en softwareontwikkeling beïnvloeden.",
+      "also_covered_by": []
+    },
+    {
+      "id": "61f8622f16d38d847e83cb05b1837ec298777e303c5c333ba6e845933c28ba3e",
+      "title": "SpaceXAI introduceert Grok Bot",
+      "summary": "SpaceXAI, het voormalige xAI, introduceert Grok Bot, een nieuwe toepassing gebaseerd op het Grok-model. De aankondiging bevat nog weinig details, maar past in de bredere uitrol van AI-agentproducten door Elon Musks bedrijf.",
+      "url": "https://x.ai/news/introducing-grok-bot",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-11T17:24:49Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Nog een AI-agentproduct van een grote techspeler, onderdeel van bredere trend.",
+      "also_covered_by": [
+        "https://x.ai/bot"
+      ]
+    },
+    {
+      "id": "a9181c947cac7b121520af752b242d1c13293fd3a18f3d612c5e0302505b69d9",
+      "title": "Lean Eval: nieuwe test voor alignment-trouw van AI-modellen",
+      "summary": "Millennium Research presenteert Lean Eval, een methode om te toetsen of AI-modellen zich trouw houden aan hun beoogde doel in plaats van alleen plausibele antwoorden te geven. Het initiatief sluit aan bij de groeiende aandacht voor meetbare AI-veiligheid.",
+      "url": "https://www.millenniumresearch.ai/leanscreen.html#catch",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-11T18:40:48Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Nieuwe manier om te meten of AI-modellen zich aan hun doel houden.",
+      "also_covered_by": []
+    },
+    {
+      "id": "0a7e019eac4af063c8cdac328a8411614e805cfd8fbe11faec9350deb14ef30c",
+      "title": "Suzanne: AI-tool voor het ontwerpen en fabriceren van fysieke producten",
+      "summary": "Suzanne is een nieuwe AI-tool waarmee gebruikers fysieke producten kunnen ontwerpen en laten produceren. Het project werd gedeeld op Hacker News en combineert AI-gestuurd ontwerp met de stap naar daadwerkelijke fabricage.",
+      "url": "https://www.suzanne3d.com/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-11T21:28:26Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van AI die ontwerp en fabricage van fysieke producten combineert.",
+      "also_covered_by": []
+    },
+    {
+      "id": "852b8aca396645168ecc07d335abcbe42b63f04d43396471c33a32432f50a276",
+      "title": "Er bestaan geen verliesvrije omzettingen van natuurlijke taal",
+      "summary": "Simon Willison bespreekt een intern beleid over verantwoord AI-gebruik bij schrijven: auteurs blijven verantwoordelijk voor elke zin die ze publiceren. Elke AI-herschrijving verliest onvermijdelijk iets van de oorspronkelijke bedoeling, zeker als de AI die bedoeling niet volledig kent.",
+      "url": "https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/#atom-everything",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-08-11T23:48:35+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Praktische leidraad voor verantwoord AI-gebruik bij schrijven en communicatie.",
+      "also_covered_by": []
+    },
+    {
+      "id": "b63514121e5dd095403bfeaded6c9a213da1bcd9deb032df0cfcd6d2a9ae080d",
+      "title": "Winnaars IFLA Green Library Award 2026 bekendgemaakt",
+      "summary": "Tijdens het IFLA World Library Congress in Busan zijn de winnaars van de Green Library Award 2026 bekendgemaakt, met duurzame bibliotheekprojecten uit onder meer Turkije, China, Ierland en Spanje. De prijs bekroont zowel grootschalige als kleinere projecten.",
+      "url": "https://www.ifla.org/news/11th-ifla-green-library-award-2026-results-announced/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-08-12T06:28:18+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "evenement",
+        "bibliotheek"
+      ],
+      "importance": 2,
+      "why_relevant": "Internationale voorbeelden van duurzame bibliotheekvernieuwing.",
+      "also_covered_by": []
+    },
+    {
+      "id": "8c9036c9e0f0cff78118ce90ea3f16d8b3be66ca20712fadb922a35b9f8722d3",
+      "title": "Discovered Materials gebruikt AI-agenten om nieuwe materialen te ontdekken",
+      "summary": "De YC-startup Discovered Materials zet AI-agenten in om nieuwe materialen te vinden die chips beter kunnen koelen, een groeiend probleem nu GPU's steeds meer warmte produceren. Het bedrijf wil hiermee het traditioneel trage en dure proces van materiaalontwikkeling versnellen.",
+      "url": "https://discoveredmaterials.com/research/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-12T07:51:20Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "onderzoek"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van AI toegepast op fundamenteel onderzoek buiten de taalmodel-hype.",
+      "also_covered_by": []
+    },
+    {
+      "id": "df607cafd004cc3efb4d5e44707bdecc073d54ea1656c7cc24d79867cd86b50c",
+      "title": "SpaceXAI presenteert Grok Bot, een team van AI-agenten voor kantoorwerk",
+      "summary": "SpaceXAI lanceert Grok Bot, ontworpen om als een team van AI-agenten uiteenlopend professioneel werk uit te voeren, zoals inloggen op applicaties en taken onderling delen. Het bedrijf gebruikt de tool al intern binnen engineering-, groei- en marketingteams.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/x5bkslc1qdog9eomswcv.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-08-12T10:51:29+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van hoe AI-agenten steeds meer kantoortaken kunnen overnemen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "fa42ff11eccadf5232cca4df8a9b654e18303b010d1f27a7deed2a6024d13a0b",
+      "title": "Aantal nieuwe unicorns in eerste helft 2026 overtreft heel 2025",
+      "summary": "In de eerste helft van 2026 werden wereldwijd 195 bedrijven unicorn, meer dan in heel 2025. Robotica en AI waren de sectoren die deze groei vooral aandreven.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/l8697q76vjjj68t99yde.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-08-12T12:42:20+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat zien hoe sterk investeerders op AI en robotica blijven inzetten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "d10ea54f06e0c3715ffbac68791074ed14d949d2d7ed8ab301e0ab4a6b8c94be",
+      "title": "Zorgt AI voor het verdwijnen van de middenklasse in softwareontwikkeling?",
+      "summary": "Een opiniestuk betoogt dat AI-codeertools vooral de middenmoot van software-ontwikkelaars onder druk zetten, terwijl topexperts en beginners er relatief buiten schot blijven. Het stuk voedt de discussie over hoe AI de arbeidsmarkt voor techberoepen verandert.",
+      "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-12T13:20:05Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "arbeidsmarkt",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Relevant voor het bredere debat over AI's impact op werkgelegenheid en vaardigheden.",
+      "also_covered_by": []
+    },
+    {
+      "id": "448053e841b1140e86dc72ccb0001d3ef9a1287c0815f7c2d593619d46818c2d",
+      "title": "Google onthult Pixel 11, Pixel Watch 5 en de nieuwe Pixel Tag",
+      "summary": "Google heeft zijn hardwarelijn voor 2026 gepresenteerd, met de Pixel 11-serie, een vernieuwde Pixel Watch 5 en de eerste eigen trackerdevice, de Pixel Tag. Nieuw is de HiLight-functie op de Pro-modellen: een lichtring die oplicht wanneer je met Gemini praat.",
+      "url": "https://arstechnica.com/gadgets/2026/08/google-reveals-2026-hardware-lineup-pixel-11-pixel-watch-5-and-pixel-tag/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-08-12T14:00:51+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont hoe AI-assistent Gemini steeds dieper in consumentenhardware wordt geïntegreerd.",
+      "also_covered_by": []
+    },
+    {
+      "id": "2c563947428818b93259f9d0ea1b317a6ae63a349ada6ec8668a3f4447646bba",
+      "title": "Liquid AI brengt compact vision-taalmodel LFM2.5-VL-3B uit voor edge-toepassingen",
+      "summary": "Liquid AI introduceert LFM2.5-VL-3B, een klein vision-language model dat is geoptimaliseerd voor snelheid en gebruik op apparaten met beperkte rekenkracht. Het model moet betere beeldherkenning mogelijk maken zonder afhankelijkheid van cloudservers.",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
+      "source_name": "Hugging Face",
+      "source_type": "rss",
+      "published": "2026-08-12T14:00:51+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "open-source"
+      ],
+      "importance": 2,
+      "why_relevant": "Compacte, lokaal draaiende AI-modellen zijn relevant voor privacyvriendelijke toepassingen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "de5acd99dd765901276f899758092eb3da9aab1d920171720caa64452d0ef11f",
+      "title": "Onbekende partij voert massale kwetsbaarheidsscans uit onder de vlag van ClaudeBot",
+      "summary": "Onderzoekers signaleren dat iemand grootschalige scans op kwetsbaarheden uitvoert terwijl daarbij de identiteit van bekende AI-bots zoals ClaudeBot wordt nagebootst. Dit maakt het moeilijker om legitiem AI-crawlverkeer te onderscheiden van kwaadaardige activiteit.",
+      "url": "https://knownagents.com/insights",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-12T14:02:46Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Beveiligingsrisico door misbruik van AI-bot-identiteiten, relevant voor websitebeheer.",
+      "also_covered_by": []
+    },
+    {
+      "id": "8ce9f137579cbf5f1ee557b278298021e3b49726e3be3025d3072279863eacd8",
+      "title": "Citaat: Florian Herrengt over AI en de verdwijnende middenklasse van softwareontwikkeling",
+      "summary": "Herrengt beschrijft hoe teams keer op keer AI inzetten om bugs op te lossen in code die niemand meer volledig doorgrondt, ook niet de oorspronkelijke bouwer. Zijn punt: AI-gebruik maakt softwareprojecten steeds ondoorzichtiger in plaats van beter beheersbaar.",
+      "url": "https://simonwillison.net/2026/Aug/12/florian-herrengt/#atom-everything",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-08-12T15:08:47+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "arbeidsmarkt"
+      ],
+      "importance": 2,
+      "why_relevant": "Kritische reflectie op hoe AI-gebruik codebases juist ondoorzichtiger maakt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "7408c6cd79dc3a539e394762aebc38ed31f5db1824bbb0d1306ee0c7983420dc",
+      "title": "DeepSeek lanceert model V4 Pro 0813 op OpenRouter",
+      "summary": "Het Chinese AI-bedrijf DeepSeek heeft een nieuwe modelversie, V4 Pro 0813, beschikbaar gemaakt via het platform OpenRouter. Details over de precieze verbeteringen zijn nog beperkt bekend.",
+      "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-12T16:04:50Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen"
+      ],
+      "importance": 2,
+      "why_relevant": "Weer een nieuw groot taalmodel beschikbaar, relevant om het AI-landschap te volgen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "249a5e1ede4df4c078023a6f0eb49ede54fb5bdd187586ea50eee351b3c1007c",
+      "title": "OlmoEarth Studio introduceert export van eigen embeddings",
+      "summary": "Allen AI's OlmoEarth Studio biedt nu de mogelijkheid om zelf samengestelde embeddings te exporteren voor gebruik in vervolganalyses. Dit maakt het makkelijker om het geo-AI-model in te zetten voor specifieke onderzoeks- of monitoringtoepassingen.",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
+      "source_name": "Hugging Face",
+      "source_type": "rss",
+      "published": "2026-08-12T16:14:36+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "open-source"
+      ],
+      "importance": 2,
+      "why_relevant": "Nieuwe open-source AI-tool voor geodata-analyse, interessant voor onderzoeksgerichte bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "7a9a1c15362369dff115dd0e7eab3a5ce413e4ece6e831a3a63bb4239e383947",
+      "title": "Boekenboot wint prijs voor 'Beste statement' tijdens Pride Amsterdam",
+      "summary": "Tijdens de Canal Parade van Pride Amsterdam voer voor het eerst een Boekenboot mee, een initiatief van de Nederlandse boekenwereld om aandacht te vragen voor de toenemende druk op queer schrijvers. De boot won de prijs voor 'Beste statement'.",
+      "url": "https://www.bibliotheeknetwerk.nl/nieuws/mooie-prijs-voor-de-boekenboot",
+      "source_name": "Bibliotheeknetwerk (KB)",
+      "source_type": "rss",
+      "published": null,
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "evenement",
+        "bibliotheek"
+      ],
+      "importance": 1,
+      "why_relevant": "Signaal vanuit de boekenwereld over druk op queer schrijvers, relevant voor collectiebeleid.",
+      "also_covered_by": []
+    },
+    {
+      "id": "9624c15840a855b2f9575642a7bdcb76b13a7251931100c14fddcd2ff961b3f2",
+      "title": "DBNL organiseert symposium over Veerse rederijkers",
+      "summary": "Op 2 oktober organiseert de Digitale Bibliotheek voor de Nederlandse Letteren een symposium naar aanleiding van de publicatie van zeven 18e-eeuwse verzenboeken uit Veere.",
+      "url": "https://www.kb.nl/nieuws/dbnl-organiseert-symposium-over-veerse-rederijkers",
+      "source_name": "Koninklijke Bibliotheek",
+      "source_type": "rss",
+      "published": null,
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "evenement"
+      ],
+      "importance": 1,
+      "why_relevant": "Nichesymposium over historische letterkunde, geen AI-relevantie.",
+      "also_covered_by": []
+    },
+    {
+      "id": "a945a3465554eb41a90f6f54049b550d69d2edd6d063cf9600cd203d8d651c4c",
+      "title": "In oktober komt er een nieuw Bnetwerk",
+      "summary": "Bnetwerk, Biebtobieb en MetdeKB worden in oktober samengevoegd tot één nieuw platform. De voorbereidingen zijn in volle gang en medewerkers merken daar nu al iets van.",
+      "url": "https://www.bibliotheeknetwerk.nl/nieuws/in-oktober-een-nieuw-bnetwerk-wat-je-daar-nu-al-van-merkt",
+      "source_name": "Bibliotheeknetwerk (KB)",
+      "source_type": "rss",
+      "published": null,
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek",
+        "tools"
+      ],
+      "importance": 1,
+      "why_relevant": "Belangrijk voor wie Bnetwerk, Biebtobieb of MetdeKB gebruikt in het bibliotheekwerk.",
+      "also_covered_by": []
+    },
+    {
+      "id": "e4465e41b6eafa0133095e0ed981d3c7b352c8a3a710d341675724e002c0f6ec",
+      "title": "WaU en Youfacilitate winnen internationale Facilitation Impact Award",
+      "summary": "Het programma Werk aan Uitvoering (WaU) heeft samen met Youfacilitate een internationale prijs gewonnen voor projecten waarin procesbegeleiding aantoonbaar tot betere resultaten leidt.",
+      "url": "https://www.bibliotheeknetwerk.nl/nieuws/wau-en-youfacilitate-winnen-internationale-prijs",
+      "source_name": "Bibliotheeknetwerk (KB)",
+      "source_type": "rss",
+      "published": null,
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek",
+        "evenement"
+      ],
+      "importance": 1,
+      "why_relevant": "Beperkt relevant voor bibliotheken, betreft vooral procesbegeleiding binnen de rijksoverheid.",
+      "also_covered_by": []
+    },
+    {
+      "id": "65630a2bd8fd38657526c4451f09de8a13681435488001822235361626b3665a",
+      "title": "Muziekarchief met 3 miljoen opnamen vindt permanent onderkomen in Connecticut",
+      "summary": "Het Archive of Contemporary Music, verdreven uit New York door hoge huren, koopt een pand in Ridgefield en opent daar in 2028 een publiek toegankelijk archief met meer dan 3 miljoen geluidsopnamen.",
+      "url": "https://www.infodocket.com/2026/08/06/music-archive-with-3-million-recordings-picks-connecticut-as-permanent-home/",
+      "source_name": "Infodocket",
+      "source_type": "rss",
+      "published": "2026-08-06T13:14:39+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "bibliotheek"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws over een muziekarchief, beperkt relevant voor openbare bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "231d16e386e5c0fff4a9c1da960103f59188dbae41ee5ec4ba18960f07a98ac6",
+      "title": "IFLA-GOVLIB werkt mee aan seminar over openbare bibliotheken in Kota, India",
+      "summary": "Ter gelegenheid van de Indiase Nationale Bibliothecarissendag organiseert de overheid van Rajasthan samen met IFLA-GOVLIB een seminar met meer dan tien sessies. Onderwerpen lopen uiteen van kunstmatige intelligentie in openbare bibliotheken tot bibliotheekautomatisering.",
+      "url": "https://www.ifla.org/news/ifla-govlib-collaborates-on-the-state-level-seminar-on-public-libraries-in-kota-india/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-08-07T08:39:37+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "evenement",
+        "bibliotheek"
+      ],
+      "importance": 1,
+      "why_relevant": "Regionaal voorbeeld van AI-thema's op de agenda van bibliotheekseminars.",
+      "also_covered_by": []
+    },
+    {
+      "id": "acf589256b4721da3f033661372ee8944069402e72d826acc9138707ac4ae816",
+      "title": "Amerikaanse uitgeversomzet groeit naar 33,4 miljard dollar in 2025",
+      "summary": "De Association of American Publishers meldt een omzetgroei van 2,5% voor de Amerikaanse uitgeefsector in 2025, met vooral groei in fictie, hoger-onderwijsmateriaal en digitale audio. Print blijft dominant binnen de consumentenboekenmarkt.",
+      "url": "https://www.infodocket.com/2026/08/10/new-data-from-the-association-of-american-publishers-aap-publishing-revenues-totaled-33-4-billion-for-calendar-year-2025/",
+      "source_name": "Infodocket",
+      "source_type": "rss",
+      "published": "2026-08-10T15:21:39+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 1,
+      "why_relevant": "Marktcijfers die de bredere boeken- en informatiesector schetsen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "5d3aff0aba5d0b8a3f2e93df1ad39730fb85c89988a96a7dff89f13df3bf1726",
+      "title": "OpenAI's Daybreak-cybersecuritymodellen nu beschikbaar op AWS",
+      "summary": "OpenAI en AWS maken de cybersecurityfuncties van Daybreak toegankelijk via Amazon Bedrock, zodat bedrijven ze kunnen inzetten in hun beveiligingswerkstromen.",
+      "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-08-11T10:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 1,
+      "why_relevant": "Beperkt relevant voor bibliotheken, wel voor IT-beveiliging in het veld.",
+      "also_covered_by": []
+    },
+    {
+      "id": "ce0d01da12fdadbec20aa97d78f93db902f6dcac9b00cee13279cdd807e8df4b",
+      "title": "IFLA NPSIG-activiteiten tijdens WLIC 2026 in Busan",
+      "summary": "De IFLA-sectie voor nieuwe bibliotheekprofessionals zet haar activiteiten op het World Library Congress op een rij, waaronder een IFLACamp en een stadswandeling door Busan.",
+      "url": "https://www.ifla.org/news/ifla-npsig-activities-at-wlic-2026/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-08-11T13:15:36+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "evenement"
+      ],
+      "importance": 1,
+      "why_relevant": "Praktische info voor jonge bibliotheekprofessionals op het IFLA-congres.",
+      "also_covered_by": []
+    },
+    {
+      "id": "8d3d0c08cd16b2a5b347f03c05944c46a0f10e8e5bf748b2d16a10d282fb6467",
+      "title": "Terugkijken: webinar 'Sow & Tell' over zaadbibliotheken",
+      "summary": "IFLA's sectie voor duurzaamheid deelt de opname van een webinar over het verpakken, labelen en delen van zaden via zogeheten zaadbibliotheken, met praktische voorbeelden en tools.",
+      "url": "https://www.ifla.org/news/view-online-sow-tell-envelopes-labels-for-seed-libraries/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-08-11T14:00:05+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "evenement",
+        "cursus-of-workshop"
+      ],
+      "importance": 1,
+      "why_relevant": "Niche maar concreet voorbeeld van communitygericht bibliotheekwerk.",
+      "also_covered_by": []
+    },
+    {
+      "id": "d7b54a76d04472d45fb2b5d9b512de3cb937d97ca0fbccf0dfd83129002cdc9a",
+      "title": "Nieuwe release: datasette-upload-dbs 0.5a0",
+      "summary": "Deze plugin waarmee gebruikers een nieuwe SQLite-database naar een Datasette-instantie kunnen uploaden en live kunnen wisselen, krijgt een officiële API. Daarmee kunnen databases bijvoorbeeld via GitHub Actions automatisch worden gebouwd en in productie gezet.",
+      "url": "https://simonwillison.net/2026/Aug/11/datasette-upload-dbs/#atom-everything",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-08-11T20:35:13+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "open-source"
+      ],
+      "importance": 1,
+      "why_relevant": "Technische tool, indirect relevant voor bibliotheken die eigen datasets ontsluiten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "66526c2c5354e6f0f502f58a8fd8b506a59c81b37a07257261d713d3cea0e77b",
+      "title": "Zo koos MIT Technology Review de 35 beste jonge wetenschappers en ingenieurs van 2026",
+      "summary": "MIT Technology Review licht toe hoe de jaarlijkse Innovators Under 35-lijst tot stand kwam: uit 550 nominaties werden 110 semifinalisten en uiteindelijk 35 winnaars geselecteerd. De volledige lijst verschijnt op 8 september.",
+      "url": "https://www.technologyreview.com/2026/08/12/1141605/2026-innovators-under-35-top-young-scientists-engineers/",
+      "source_name": "MIT Technology Review — AI",
+      "source_type": "rss",
+      "published": "2026-08-12T09:08:40+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek"
+      ],
+      "importance": 1,
+      "why_relevant": "Achtergrond bij een bekende jaarlijkse techtalentenlijst, beperkt AI-specifiek.",
+      "also_covered_by": [
+        "https://www.technologyreview.com/2026/08/12/1141714/the-download-innovators-under-35-censorship-industrial-complex/"
+      ]
+    },
+    {
+      "id": "716d8009202b8b68cec5e2bcf5eff932a28b7eac20c2439dbf524235d0db9d8e",
+      "title": "Wetenschappers maken voor het eerst vrouwelijke klonen van mannelijke muizen",
+      "summary": "Een Japans onderzoeksteam verwijderde met CRISPR het Y-chromosoom uit mannelijke muizencellen en creëerde zo vrouwelijke klonen. De nog niet peer-reviewde bevinding zou op termijn kunnen helpen bij het behoud van bedreigde diersoorten.",
+      "url": "https://www.technologyreview.com/2026/08/12/1141768/scientists-just-created-female-clones-of-male-mice/",
+      "source_name": "MIT Technology Review — AI",
+      "source_type": "rss",
+      "published": "2026-08-12T18:59:48+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek"
+      ],
+      "importance": 1,
+      "why_relevant": "Interessant wetenschapsnieuws, maar niet gerelateerd aan AI of bibliotheken.",
+      "also_covered_by": []
+    }
+  ]
+}
