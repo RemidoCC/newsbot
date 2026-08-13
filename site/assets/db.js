@@ -81,7 +81,21 @@ window.newsbotDb = (function () {
   }
 
   function stuurMagicLink(email, terugNaar) {
-    return fetch(cfg.supabaseUrl + '/auth/v1/otp', {
+    // De terugkeer-URL hoort in de querystring, niet in de body. `options:
+    // {email_redirect_to: ...}` is de vorm van de supabase-js bibliotheek; de
+    // REST-endpoint die wij rechtstreeks aanroepen leest `redirect_to` uit de
+    // query en negeert die body-sleutel zonder een kik te geven. Gevolg: de
+    // mail wees naar de Site URL van het project in plaats van naar deze app,
+    // en dat is op GitHub Pages de domeinwortel — een 404.
+    //
+    // De hash gaat eraf. Kom je op deze pagina terug via een eerdere inloglink,
+    // dan staat het oude token nog in location.href en zou dat zo weer in de
+    // volgende mail belanden.
+    var terug = terugNaar || location.href;
+    terug = terug.split('#')[0];
+
+    return fetch(cfg.supabaseUrl + '/auth/v1/otp?redirect_to=' +
+                 encodeURIComponent(terug), {
       method: 'POST',
       headers: { apikey: cfg.supabaseKey, 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -91,8 +105,7 @@ window.newsbotDb = (function () {
         // account in dit project maken. RLS houdt ze bij elkaars gegevens weg,
         // maar het is jouw gratis tier. Accounts maak je met de hand aan in
         // Supabase (Authentication -> Users); zie README.
-        create_user: false,
-        options: { email_redirect_to: terugNaar || location.href }
+        create_user: false
       })
     }).then(function (r) {
       if (r.ok) return true;

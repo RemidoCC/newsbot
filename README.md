@@ -118,9 +118,15 @@ Nodig voor het bewaren van artikelen in mappen en voor het beheerscherm.
 1. Draai `supabase/schema.sql` in de SQL-editor van je project. Het script is
    idempotent, dus opnieuw draaien kan geen kwaad.
 2. Authentication → Providers → **Email** aan (magic link).
-3. Authentication → URL Configuration → Redirect URLs:
-   `https://remidocc.github.io/newsbot/**`. Zonder dit stuurt de inloglink je
-   naar localhost. Dit is de stap die het vaakst wordt vergeten.
+3. Authentication → URL Configuration. Twee velden, allebei nodig:
+   - **Site URL**: `https://remidocc.github.io/newsbot/`
+   - **Redirect URLs**: `https://remidocc.github.io/newsbot/**`
+
+   Staat de app niet in de Redirect URLs, dan negeert Supabase de meegestuurde
+   `redirect_to` zonder te klagen en gebruikt hij de Site URL. Staat die dan óók
+   verkeerd — op GitHub Pages is de domeinwortel `remidocc.github.io` een lege
+   plek — dan komt de inloglink uit op een 404 van GitHub. De mail is dan
+   gewoon verstuurd en het token klopt; alleen de bestemming niet.
 4. `site/config.js` bevat de project-URL en de publishable key. Die horen
    publiek te zijn; wat je gegevens beschermt is row-level security.
 5. Authentication → Users → **Add user** → *Send invitation* met je eigen
