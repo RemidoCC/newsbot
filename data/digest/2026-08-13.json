@@ -1,0 +1,490 @@
+{
+  "date": "2026-08-13",
+  "generated_at": "2026-08-13T06:15:51+00:00",
+  "stats": {
+    "batches": 1,
+    "onleesbaar": 0,
+    "objecten": 33,
+    "schema_fout": 0,
+    "onbekend_id": 0,
+    "gedropt": 7,
+    "geldig": 26,
+    "ai": 24,
+    "bieb": 2
+  },
+  "sources": [
+    "Ars Technica AI",
+    "Computable",
+    "Emerce",
+    "IFLA",
+    "Princh Library Blog",
+    "Simon Willison",
+    "VentureBeat AI"
+  ],
+  "items": [
+    {
+      "id": "532288c846b6be44e29251338f0f974967bdea700eb573fc227855f93aa90024",
+      "title": "Anthropic gaat AI-content van Claude wereldwijd watermerken voor Europa",
+      "summary": "Anthropic voorziet alle output van nieuwe Claude-modellen vanaf 2 augustus 2026 van een onzichtbaar watermerk, om te voldoen aan een verplichting uit de Europese AI Act rond transparantie over AI-gegenereerde content. Het watermerk blijft volgens Anthropic behouden bij kopiëren en bewerken, al melden experts dat dit soort beschermingen soms te omzeilen is.",
+      "url": "https://www.emerce.nl/nieuws/claude-gaat-aiproducties-watermerken-europa",
+      "source_name": "Emerce",
+      "source_type": "rss",
+      "published": "2026-08-12T06:54:58+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "ethiek-en-risico"
+      ],
+      "importance": 4,
+      "why_relevant": "Concrete uitwerking van AI Act-verplichtingen rond transparantie, relevant voor mediawijsheid.",
+      "also_covered_by": []
+    },
+    {
+      "id": "e0f3cee3b824c175efea9bbde4f9e33f47e782b79d2c011a1e46f8cdb397e427",
+      "title": "Massaal datalek van inloggegevens via aanval op AI-tool LiteLLM",
+      "summary": "Een supply-chain-aanval op het populaire opensource-tool LiteLLM legde terabytes aan inloggegevens bloot, waaronder cloud- en API-sleutels van grote bedrijven als Microsoft, Amazon en Samsung. Aanvallers verspreidden veertig minuten lang gecompromitteerde versies via PyPI, met mogelijk toegang tot meer dan 2500 organisaties als gevolg.",
+      "url": "https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-08-12T21:43:21+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "open-source"
+      ],
+      "importance": 4,
+      "why_relevant": "Groot beveiligingsincident bij populaire open-source AI-infrastructuur raakt duizenden organisaties.",
+      "also_covered_by": []
+    },
+    {
+      "id": "19f76a5a26a1417e126b58ac0e4f8cf3fdddcafdcbcd5f490b8604ff3ce4709a",
+      "title": "Gemini van Google bereikt miljard maandelijkse gebruikers",
+      "summary": "Google meldde tijdens de kwartaalcijfers dat AI-assistent Gemini inmiddels meer dan een miljard gebruikers per maand telt, een sterke groei ten opzichte van een jaar eerder. De toename komt vooral door integratie van Gemini in Android en andere Google-producten, in de concurrentiestrijd met onder meer ChatGPT.",
+      "url": "https://www.emerce.nl/nieuws/googledienst-gemini-bereikt-miljard-maandelijkse-gebruikers",
+      "source_name": "Emerce",
+      "source_type": "rss",
+      "published": "2026-08-13T05:45:11+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "modellen"
+      ],
+      "importance": 4,
+      "why_relevant": "Belangrijke mijlpaal die de schaal en verspreiding van een grote AI-assistent laat zien.",
+      "also_covered_by": []
+    },
+    {
+      "id": "ffee6eaf863e2c4f88fb3e22420e02c9eb0bb07d76742ce2fe041c785fd85791",
+      "title": "Nederlandse startup LemmaBase lanceert opensource-taal voor controleerbare AI-besluiten",
+      "summary": "Startup LemmaBase introduceert Lemma, een opensourceprogrammeertaal waarmee organisaties wet- en regelgeving als controleerbare code kunnen vastleggen, los van ondoorzichtige AI-systemen. De taal moet toepassingen als kredietbeoordeling en vergunningverlening voorspelbaarder en beter controleerbaar maken.",
+      "url": "https://www.computable.nl/2026/08/11/kort-lemmabase-opent-aanval-op-ondoorzichtige-ai-phisher-misbruikt-vertrouwen-in-populaire-cloudplatforms-en-meer/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-08-11T10:30:00+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "open-source",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 3,
+      "why_relevant": "Nederlands initiatief voor controleerbare AI-besluitvorming, relevant voor AI-governance.",
+      "also_covered_by": []
+    },
+    {
+      "id": "c97f6dbed2c24ffbc33ca9e1717a7e1eb8c5b0e8b2c6342d5f651b4ee74b6d04",
+      "title": "Microsoft stuurt via contracten sterker aan op AI-adoptie bij klanten",
+      "summary": "Microsoft en zijn partners gaan bij contractverlengingen actiever aandringen op meer AI-gebruik, workload-uitbreiding en cloudconsumptie, aldus licentie-adviseurs van Be Sharp Experts. Klanten moeten goed opletten op de kosten van AI-credits, zeker nu zelfstandig werkende AI-agenten zoals Microsoft Scout hun intrede doen.",
+      "url": "https://www.computable.nl/2026/08/11/microsoft-duwt-ai-door-bij-klanten/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-08-11T13:00:00+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "bedrijven",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 3,
+      "why_relevant": "Waarschuwt organisaties voor oplopende kosten bij AI-adoptie via Microsoft-licenties.",
+      "also_covered_by": []
+    },
+    {
+      "id": "48bd787b2e7b25f5b91d895b5a5d8fc294b6973b45a8747fb42a4c4cd8bc9544",
+      "title": "Google Cloud: AI-adoptie bij Benelux-overheden komt versnipperd op gang",
+      "summary": "Volgens Kurt Rommens van Google Cloud groeit de belangstelling voor AI bij overheden, zorg en onderwijs in Nederland en België snel, maar blijft grootschalige uitrol beperkt tot proefprojecten. Hij waarschuwt dat te veel focus op soevereine infrastructuur zonder aandacht voor toepassingen weinig waarde oplevert.",
+      "url": "https://www.computable.nl/2026/08/12/het-zou-niet-wijs-zijn-om-amerikaanse-technologie-volledig-te-negeren/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-08-12T05:00:00+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "beleid-en-regelgeving",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Relevant voor publieke instellingen zoals bibliotheken die AI-adoptie overwegen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "957776b08c52ab1757825974570472bca013713f9f28e5e34739699c41141571",
+      "title": "VU-onderzoekers maken taalgestuurde robots sneller met compact AI-model",
+      "summary": "Onderzoekers van de Vrije Universiteit Amsterdam ontwikkelden TeNet, een methode die taalinstructies eenmalig omzet in een compact neuraal netwerk, waardoor robots niet voortdurend een groot taalmodel nodig hebben. Het resulterende besturingsmodel heeft slechts zo'n 40.000 parameters maar werkt toch snel en efficiënt, gepresenteerd op de conferentie IJCAI-ECAI 2026.",
+      "url": "https://www.emerce.nl/nieuws/compacte-ai-maakt-taalgestuurde-robots-sneller-zuiniger-breder-inzetbaar",
+      "source_name": "Emerce",
+      "source_type": "rss",
+      "published": "2026-08-12T07:50:47+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "onderzoek",
+        "modellen"
+      ],
+      "importance": 3,
+      "why_relevant": "Nederlands AI-onderzoek dat grote taalmodellen praktischer en zuiniger toepasbaar maakt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "a19a6cc75077610eeefdca148561fdb7eed67c3a68153c63c13cec7a44d5a1fa",
+      "title": "Onderzoek: kwaliteit van AI-gegenereerde code blijft vaak matig",
+      "summary": "Softwarebeoordelaar SIG onderzocht met Claude Sonnet 4.6 wat de kwaliteit van AI-gegenereerde code bepaalt, en concludeert dat realtime kwaliteits- en securitychecks tijdens het ontwikkelen veel meer invloed hebben dan een krachtiger model of betere prompts. Volgens SIG-directeur Werner Heijstek is de code van AI-agenten vaak gemiddeld tot matig, iets wat in de hype rond ai-programmeren nogal eens wordt vergeten.",
+      "url": "https://www.computable.nl/2026/08/12/maakt-ai-de-programmeur-overbodig/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-08-12T13:00:00+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "onderzoek",
+        "arbeidsmarkt"
+      ],
+      "importance": 3,
+      "why_relevant": "Nuanceert het beeld dat AI programmeurs overbodig maakt en benadrukt kwaliteitscontrole.",
+      "also_covered_by": []
+    },
+    {
+      "id": "6cb7ea29a44cc5eb02e31f7628b7be61a2b06be2bdefd6a3245e6de2508979d0",
+      "title": "Nieuw lettertype ShieldFont moet AI-scrapers om de tuin leiden",
+      "summary": "Twee ontwerpers presenteerden ShieldFont, een lettertype dat via ligaturen woorden vervangt zodra een pagina wordt weergegeven, zodat mensen normale tekst zien terwijl scrapers een onzinversie binnenhalen. Het is bedoeld als praktisch verzet tegen ongeautoriseerd gebruik van webteksten voor AI-training.",
+      "url": "https://arstechnica.com/ai/2026/08/new-font-turns-ordinary-webpages-into-nonsense-for-ai-scrapers/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-08-12T22:02:25+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Nieuwe technische tegenmaatregel in het debat over ongeautoriseerd scrapen voor AI-training.",
+      "also_covered_by": []
+    },
+    {
+      "id": "5cd6ecf1e607423e8ee7c61e3f77e2d3855eb892f6f859d6d0094c1149865242",
+      "title": "Nederlandse bestuurders overschatten AI-gebruik binnen eigen organisatie",
+      "summary": "Onderzoek onder 440 Nederlandse beslissers laat een kloof van ruim 24 procentpunten zien tussen wat bestuurders denken over AI-gebruik en wat er daadwerkelijk op de werkvloer gebeurt. Volgens experts in Emerce Talks verklaart dat gat mede waarom veel agentic AI-projecten blijven steken tussen pilot en productie.",
+      "url": "https://www.emerce.nl/nieuws/emerce-talks-bestuurders-overschatten-aiinzet",
+      "source_name": "Emerce",
+      "source_type": "rss",
+      "published": "2026-08-13T04:45:24+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "onderzoek",
+        "arbeidsmarkt"
+      ],
+      "importance": 3,
+      "why_relevant": "Verklaart waarom AI-pilots in Nederlandse organisaties vaak niet doorgroeien naar productie.",
+      "also_covered_by": []
+    },
+    {
+      "id": "0a306041b64b1b7924ace05f8e3225ffb4e4a4d8af30981e00fb16a95ff97a91",
+      "title": "ABN Amro breidt ai-gebruik intern flink uit",
+      "summary": "ABN Amro heeft inmiddels bijna vijftig AI-toepassingen in productie, waaronder een spraakbot voor klanten en een kennisassistent voor witwasbestrijding. De bank werkt ook samen met Rabobank, TNO en het CWI aan een privacyvriendelijke methode om grensoverschrijdend witwassen op te sporen.",
+      "url": "https://www.computable.nl/2026/08/13/abn-amro-voortvarend-met-ai/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-08-13T05:00:00+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 3,
+      "why_relevant": "Illustreert hoe een grote Nederlandse bank AI breed inzet, inclusief privacywaarborgen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "fd06f95e38c508469242265cbf6210f72651a4818e03152036ae618f3e1c37b2",
+      "title": "DeepSeek verdringt Google als grootste ai-aanbieder bij bedrijven",
+      "summary": "Volgens de AI Gateway Production Index van Vercel verwerkte het Chinese DeepSeek in juli meer dan twee keer zoveel tokens als Google, terwijl goedkopere open-weight-modellen snel terrein wonnen. De gemiddelde prijs per token daalde intussen met bijna 14 procent doordat bedrijven massaal overstapten op goedkopere modellen.",
+      "url": "https://www.computable.nl/2026/08/13/deepseek-stoot-google-van-ai-troon-bij-bedrijven/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-08-13T05:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Toont een snelle marktverschuiving richting goedkopere Chinese en open-weight AI-modellen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "f96c5e1591af1a6d0abe7295978c6265bab1bd7711bf2a0dba4f0416388b4641",
+      "title": "Welke ontwerpkeuzes zorgen dat mensen in de bibliotheek blijven lezen",
+      "summary": "De Princh Library Blog beschrijft welke inrichtingskeuzes bibliotheken uitnodigender maken om te blijven lezen, van gezellige leeshoeken tot doordachte routing langs de collectie. Het stuk biedt praktische inspiratie voor bibliotheken die bezoekers langer willen laten verblijven.",
+      "url": "https://princh.com/blog-library-design-features/",
+      "source_name": "Princh Library Blog",
+      "source_type": "rss",
+      "published": "2026-08-06T09:28:07+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "bibliotheek"
+      ],
+      "importance": 2,
+      "why_relevant": "Praktische inspiratie voor bibliotheekinrichting die bezoekers langer laat blijven.",
+      "also_covered_by": []
+    },
+    {
+      "id": "61c88df4383cbbd477abb5f2244f248eb061136855a95666365de119211f45f3",
+      "title": "Bedrijven draaien gemiddeld drie AI-orkestratieplatforms tegelijk",
+      "summary": "Onderzoek van VentureBeat onder 107 ondernemingen laat zien dat de meeste bedrijven meerdere AI-agentplatforms naast elkaar gebruiken, met Microsoft als meest gebruikte en Anthropic als meest overwogen aanbieder. Opvallend is dat één op de vijf bedrijven geen manier heeft om een AI-agent die uit de hand loopt direct te stoppen voordat de rekening oploopt.",
+      "url": "https://venturebeat.com/resources/agentic-orchestration-enterprise-ai-organizations-know-how-to-govern-agents-but-still-cant-meter-what-they-cost",
+      "source_name": "VentureBeat AI",
+      "source_type": "rss",
+      "published": "2026-08-12T07:30:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat zien hoe onvolwassen kostenbeheersing van AI-agents bij bedrijven nog is.",
+      "also_covered_by": []
+    },
+    {
+      "id": "a1f8e3fd58a11a355217d6e190c594361739e2ba189f1663b93bf65328125119",
+      "title": "Bedrijven met datasturing voor AI merken juist vaker foute agent-antwoorden",
+      "summary": "Uit onderzoek onder 101 ondernemingen blijkt dat 68 procent van de bedrijven het afgelopen half jaar een zelfverzekerd maar fout AI-antwoord kon herleiden tot ontbrekende bedrijfscontext. Bedrijven met een goed beheerde semantische laag melden deze fouten juist twee keer zo vaak, omdat zij ze beter kunnen traceren.",
+      "url": "https://venturebeat.com/resources/agent-context-layers-enterprises-governing-their-ai-data-are-catching-twice-as-many-bad-answers-as-the-ones-who-arent",
+      "source_name": "VentureBeat AI",
+      "source_type": "rss",
+      "published": "2026-08-12T07:30:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Nuanceert het idee dat betere datagovernance AI-fouten vanzelf oplost.",
+      "also_covered_by": []
+    },
+    {
+      "id": "b7868a5cec2299a1eb6f09f111de113ee35ebdf6e8c66d00565bd2c691bc9bbf",
+      "title": "Meer vertrouwen in AI-evaluaties, maar falen van agenten blijft gelijk",
+      "summary": "Onder 108 ondernemingen steeg het vertrouwen in geautomatiseerde AI-evaluaties van 5 naar 13 procent, terwijl het aandeel bedrijven dat een goedgekeurde AI-agent toch bij een klant zag falen ongeveer gelijk bleef op bijna de helft. Bedrijven die eerder gebrand zijn door een verkeerde evaluatie versnellen juist de overstap naar meer autonomie in plaats van voorzichtiger te worden.",
+      "url": "https://venturebeat.com/resources/agentic-reliability-and-evaluations-enterprises-that-got-burned-by-a-bad-eval-are-the-most-likely-to-remove-humans-from-the-loop-not-the-least",
+      "source_name": "VentureBeat AI",
+      "source_type": "rss",
+      "published": "2026-08-12T07:30:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Waarschuwt dat groeiend vertrouwen in AI-evaluaties niet overeenkomt met werkelijke betrouwbaarheid.",
+      "also_covered_by": []
+    },
+    {
+      "id": "fbeae1ef9dc8c542e9a4d9adc8662bbf6eb70bf7bddd4125b6fb67446ee1d147",
+      "title": "Twee derde van bedrijven beveiligt AI-agents, maar isoleert risicovolle agents nauwelijks",
+      "summary": "Onderzoek onder 116 ondernemingen toont dat 65 procent scoped permissions afdwingt voor AI-agents, maar slechts 18 procent de risicovolste agents daadwerkelijk isoleert. Meer dan de helft van de bedrijven had al een bevestigd beveiligingsincident of bijna-incident met een AI-agent.",
+      "url": "https://venturebeat.com/resources/agentic-security-enterprises-enforce-agent-permissions-two-thirds-of-the-time-and-isolate-high-risk-agents-less-than-one-in-five",
+      "source_name": "VentureBeat AI",
+      "source_type": "rss",
+      "published": "2026-08-12T07:30:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont concrete beveiligingsrisico's naarmate bedrijven meer autonome AI-agents inzetten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "2442d120a82ef945dd16abfad0f5f459e75825db84b3547793312f4cb75d363a",
+      "title": "Yann LeCun start eigen investeringsfonds voor AI-start-ups",
+      "summary": "Voormalig Meta-AI-baas Yann LeCun begint met partners het fonds 224 Ventures, met 100 miljoen dollar voor kleine investeringen in AI-native start-ups. LeCun combineert dit met zijn eigen start-up AMI Labs, waarvoor hij eerder al een miljard dollar ophaalde.",
+      "url": "https://www.emerce.nl/nieuws/voormalig-aibaas-meta-eigen-aifonds",
+      "source_name": "Emerce",
+      "source_type": "rss",
+      "published": "2026-08-12T09:02:14+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "subsidie-of-financiering"
+      ],
+      "importance": 2,
+      "why_relevant": "Vooraanstaand AI-onderzoeker verlegt focus naar investeren in nieuwe AI-bedrijven.",
+      "also_covered_by": []
+    },
+    {
+      "id": "dda9fe4d0144e9972fefa9cb01b39624f6d914b4a6b1292aa9bad551fbff5bdf",
+      "title": "Kort: ai dwingt tot herbouw data-architectuur, Ryanair naar Google Cloud",
+      "summary": "Onderzoek van Cloudera onder 1.500 data-architecten laat zien dat bijna alle organisaties AI-projecten hebben uitgesteld door tekortkomingen in hun data-architectuur, terwijl AI de infrastructuurkosten flink opdrijft. Daarnaast kiest Ryanair de komende vijf jaar voor Google Cloud om zijn data- en AI-ambities te ondersteunen.",
+      "url": "https://www.computable.nl/2026/08/12/kort-ai-dwingt-tot-herbouw-data-architectuur-ryanair-kiest-voor-google-cloud-en-meer/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-08-12T10:30:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Onderzoek laat zien dat databeperkingen vaak de grootste rem zijn op AI-adoptie.",
+      "also_covered_by": []
+    },
+    {
+      "id": "7d3fa318fa546d237b44e8d57fd638664c9d55d3068d7e11d8e49a883b515e81",
+      "title": "Skan AI haalt 63 miljoen dollar op voor inzicht in werkprocessen",
+      "summary": "Startup Skan AI, dat werkprocessen van medewerkers in kaart brengt om AI-automatisering te sturen, haalde 63 miljoen dollar Series C-financiering op. Het bedrijf lanceert tegelijk nieuwe producten, terwijl onderzoek laat zien dat slechts 8 procent van bedrijven AI-agenten daadwerkelijk in productie heeft.",
+      "url": "https://venturebeat.com/data/skan-ai-raises-63-million-betting-that-watching-how-employees-actually-work-is-the-missing-layer-of-enterprise-ai",
+      "source_name": "VentureBeat AI",
+      "source_type": "rss",
+      "published": "2026-08-12T11:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "subsidie-of-financiering"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont de zoektocht naar praktische randvoorwaarden om agentic AI-projecten te laten slagen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "03c12ca0e957d3a8cc3826d45d20069b73c18d767e6897b9f034b3fb039f112e",
+      "title": "Google introduceert Pixel 11-serie met diepere AI-integratie",
+      "summary": "Google onthulde de Pixel 11, Pixel 11 Pro, Pixel 11 Pro XL en Pixel 11 Pro Fold, aangedreven door de nieuwe Tensor G6-chip en dieper geïntegreerd met Gemini. Kopers van de Pro-modellen krijgen onder meer een verbeterde cameralens en een half jaar gratis Google AI Pro.",
+      "url": "https://www.emerce.nl/nieuws/pixel-11",
+      "source_name": "Emerce",
+      "source_type": "rss",
+      "published": "2026-08-12T14:30:16+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van hoe AI steeds standaarder in consumentenhardware wordt verwerkt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "6f1aff3b3569adfc5f736898176bfbc51e61d919ab9e079ccb7032fc4c55f6da",
+      "title": "Twitch-gebruikers kunnen zich nu afmelden voor AI-training door Amazon",
+      "summary": "Amazon gebruikt al jaren streams, clips en chats van Twitch om eigen generatieve AI-modellen te trainen, en biedt gebruikers nu pas de mogelijkheid zich daarvoor af te melden. De aanpassing komt ruim twee jaar nadat een topman bevestigde dat Twitch-content voor AI-training werd ingezet.",
+      "url": "https://arstechnica.com/ai/2026/08/twitch-content-has-trained-amazon-ai-for-years-but-users-can-opt-out-now/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-08-12T21:00:30+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van hoe platforms gebruikersdata voor AI-training inzetten en toestemming regelen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "e053b4a4eeacaa2002037cd0487cce81386022f771f82f304cc11d8cc9cc98c6",
+      "title": "Visma passeert 3 miljard euro jaarlijkse omzet, ai steeds groter deel van aanbod",
+      "summary": "Softwareleverancier Visma zag zijn omzet in de eerste helft van 2026 met bijna 19 procent stijgen naar 1,62 miljard euro, met AI-functionaliteit inmiddels in alle strategische nationale platforms. Klanten met toegang tot die AI-functies zijn goed voor veertig procent van de jaarlijks terugkerende omzet.",
+      "url": "https://www.computable.nl/2026/08/12/visma-rondt-kaap-van-3-miljard-euro-aan-jaarlijkse-omzet/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-08-12T05:15:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 1,
+      "why_relevant": "Voorbeeld van hoe AI-functionaliteit een steeds groter deel van softwareomzet uitmaakt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "d61fa5a98888c1c5ba0ff9730bc9e0c8c2fc4d9ed357232fca98cc0722998f72",
+      "title": "IFLA reikt Dynamic Unit and Impact Awards 2026 uit",
+      "summary": "IFLA heeft vier van haar professionele eenheden onderscheiden met de Dynamic Unit and Impact Award, voor onder meer ledenbetrokkenheid, communicatie en algehele impact. De Health & Biosciences Libraries-eenheid won de hoofdprijs voor uitmuntendheid in alle categorieën.",
+      "url": "https://www.ifla.org/news/ifla-2026-dynamic-unit-and-impact-award-duia-announced/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-08-12T16:00:28+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "bibliotheek"
+      ],
+      "importance": 1,
+      "why_relevant": "Erkenning van voorbeeldige bibliotheekeenheden binnen internationale koepelorganisatie IFLA.",
+      "also_covered_by": []
+    },
+    {
+      "id": "4f9a51501a632c511768716fbce27c82183543e10625e64ee5ce6fad39b921ea",
+      "title": "Simon Willison bouwt alchemy-utils met AI-codeeragents",
+      "summary": "Ontwikkelaar Simon Willison liet Codex en GPT-5.6 Sol Ultra in een ochtend een database-onafhankelijke versie van zijn sqlite-utils bouwen, met SQLAlchemy als backend voor onder meer PostgreSQL en DuckDB. Het resultaat, alchemy-utils, is nu als vroege alpha uitgebracht.",
+      "url": "https://simonwillison.net/2026/Aug/12/alchemy-utils/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-08-12T19:51:30+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "open-source"
+      ],
+      "importance": 1,
+      "why_relevant": "Laat zien hoe ver AI-codeeragents zijn in het zelfstandig bouwen van software.",
+      "also_covered_by": []
+    },
+    {
+      "id": "1102b7a842e4bf7e1538186f59fc03da83ad08f37ca7ee9bbae527b41366199f",
+      "title": "Tencent ziet omzet groeien, winst blijft achter bij verwachting",
+      "summary": "Het Chinese techbedrijf Tencent boekte in het tweede kwartaal 11 procent meer omzet dankzij advertenties en games, maar de winst steeg nauwelijks en bleef onder de verwachting van analisten. Ook clouddiensten voor AI-toepassingen droegen bij aan de groei, terwijl Tencent zijn AI-investeringen fors opvoerde.",
+      "url": "https://www.emerce.nl/nieuws/tencent-verhoogt-omzet-tweede-kwartaal-11-procent-winst-blijft-achter-verwachting",
+      "source_name": "Emerce",
+      "source_type": "rss",
+      "published": "2026-08-13T04:10:17+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 1,
+      "why_relevant": "Financieel kwartaalbericht met een beperkte maar groeiende AI-component bij een grote techspeler.",
+      "also_covered_by": []
+    }
+  ]
+}
