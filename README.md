@@ -123,8 +123,26 @@ Nodig voor het bewaren van artikelen in mappen en voor het beheerscherm.
    naar localhost. Dit is de stap die het vaakst wordt vergeten.
 4. `site/config.js` bevat de project-URL en de publishable key. Die horen
    publiek te zijn; wat je gegevens beschermt is row-level security.
+5. Authentication → Users → **Add user** → *Send invitation* met je eigen
+   e-mailadres. Zonder deze stap kun je niet inloggen; zie hieronder.
 
 **Zet nooit de service-role key in `site/config.js`** — die omzeilt RLS.
+
+#### Waarom je accounts met de hand aanmaakt
+
+Aanmelden staat uit in dit project, en dat hoort zo. De project-URL en de
+publishable key staan publiek in `site/config.js` — dat moet, anders kan de
+browser er niet bij — dus met aanmelden aan kan iedereen die de site vindt een
+account in jouw project maken. RLS houdt ze weliswaar bij jouw mappen vandaan,
+maar het blijft jouw gratis tier die ze opsouperen.
+
+`stuurMagicLink` stuurt daarom `create_user: false`. Een adres zonder account
+krijgt geen link. Wil je er iemand bij, dan maak je die aan in Supabase onder
+Authentication → Users.
+
+Vraagt de app om een link en krijg je *"Signups not allowed for this
+instance"*, dan bestaat het account nog niet. Sinds die melding wordt vertaald
+staat er "Dit e-mailadres heeft geen toegang tot deze app".
 
 #### Waarom `sources` publiek leesbaar is
 

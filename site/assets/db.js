@@ -86,16 +86,28 @@ window.newsbotDb = (function () {
       headers: { apikey: cfg.supabaseKey, 'Content-Type': 'application/json' },
       body: JSON.stringify({
         email: email,
-        create_user: true,
+        // Bewust false. De supabaseUrl en de publishable key staan publiek in
+        // config.js, dus met aanmelden aan kan iedereen die de site vindt een
+        // account in dit project maken. RLS houdt ze bij elkaars gegevens weg,
+        // maar het is jouw gratis tier. Accounts maak je met de hand aan in
+        // Supabase (Authentication -> Users); zie README.
+        create_user: false,
         options: { email_redirect_to: terugNaar || location.href }
       })
     }).then(function (r) {
-      if (!r.ok) {
-        return r.json().catch(function () { return {}; }).then(function (fout) {
-          throw new Error(fout.msg || fout.error_description || 'Versturen mislukt.');
-        });
-      }
-      return true;
+      if (r.ok) return true;
+      return r.json().catch(function () { return {}; }).then(function (fout) {
+        var ruw = fout.msg || fout.error_description || fout.error || '';
+        // Supabase antwoordt hier met "Signups not allowed for this instance"
+        // of "Signups not allowed for otp". Allebei betekenen hetzelfde en
+        // allebei zeggen ze niets tegen wie ze leest: het adres heeft gewoon
+        // geen account.
+        if (/signups? not allowed/i.test(ruw) || fout.error_code === 'otp_disabled') {
+          throw new Error('Dit e-mailadres heeft geen toegang tot deze app. ' +
+            'Controleer of je het goed hebt getypt.');
+        }
+        throw new Error(ruw || 'Versturen mislukt.');
+      });
     });
   }
 
