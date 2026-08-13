@@ -144,6 +144,15 @@ Vraagt de app om een link en krijg je *"Signups not allowed for this
 instance"*, dan bestaat het account nog niet. Sinds die melding wordt vertaald
 staat er "Dit e-mailadres heeft geen toegang tot deze app".
 
+**Maak een account via de dashboardknop, niet met de hand in SQL.** Een
+`insert into auth.users` lijkt te werken en de gebruiker verschijnt netjes in
+de lijst, maar vier kolommen hebben geen default en blijven dan `NULL`:
+`confirmation_token`, `recovery_token`, `email_change_token_new` en
+`email_change`. GoTrue leest die als gewone tekst en struikelt over een `NULL`.
+Inloggen faalt dan met *"Database error finding user"* — een melding die naar
+de database wijst terwijl de rij er gewoon staat. Moet het toch via SQL, zet die
+vier dan expliciet op `''`.
+
 #### Waarom `sources` publiek leesbaar is
 
 Vier tabellen staan achter RLS die aan `auth.uid()` hangt. Eén uitzondering:
