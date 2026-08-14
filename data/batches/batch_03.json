@@ -1,0 +1,28 @@
+[
+  {
+    "id": "b56bc1662cd4a37383ccb708ccca70faa2e219cc14a7022bbf13b8ac430ad34e",
+    "title": "Adyen steekt 3 miljard in datacentra",
+    "url": "https://www.emerce.nl/nieuws/adyen-steekt-3-miljard-datacentra",
+    "source_name": "Emerce",
+    "source_type": "rss",
+    "channel_hint": "ai",
+    "region_hint": "nl",
+    "published": "2026-08-13T07:51:49+00:00",
+    "raw_text": "Adyen investeert dit jaar zeven procent van de omzet in de bouw van datacentra, omgerekend een kleine drie miljard. De betaalverwerker trekt die investeringen naar voren om er zeker van te zijn dat hij ze ook daadwerkelijk kan doen. Dat duidt op een krapte in de markt qua aanbod op dit punt of verrassend hoger vraag uit de markt van klanten. Het eerste is waar, zo valt te lezen in de halfjaarcijfers die vanochtend verschenen. “We willen de prijzen vastleggen temidden van aanhoudende uitdagingen in de toeleveringsketen.” Het is niet duidelijk of het meer eigen datacentra gaat bouwen of meer extern gaat inhuren. Adyen zegt dat het zijn eigen servers beheert. De huidige infrastructuur omvat meer dan vijftien datacenters wereldwijd. Dat zijn locaties in Europa, de Verenigde Staten, India, Singapore, Japan en Australië. Adyen heeft aangekondigd dat het AWS, Google Cloud, Microsoft Azure en Oracle Cloud Infrastructure vanaf 1 september 2026 toevoegt om te helpen data te verwerken. De omzet van Adyen in het eerste halfjaar van 2026 steeg met 19 procent tot 1,3 miljard euro. Het bedrijfsresultaat kwa uit op 642 miljoen (+18%). Het verwerkte in die periode voor 804 miljard euro aan betalingen voor klanten. Dat zijn duizenden grotere bedrijven, onder wie Meta, Uber, H&M, Action en Microsoft. In de afgelopen maanden deed het bedrijf uit Amsterdam twee overnames om zijn dienstverlening te verbreden voorbij betalingen. Talon.One en Orb brengen expertise in huis rondom omnichannel loyalty ",
+    "language": "nl",
+    "priority": 3
+  },
+  {
+    "id": "b3372f55c42437ed7750099ae0500372aeed1fcef982a2c7e287144bb6cefb77",
+    "title": "AI: DeepSeek passeert Google in gebruik",
+    "url": "https://www.emerce.nl/nieuws/ai-deepseek-passeert-google-gebruik",
+    "source_name": "Emerce",
+    "source_type": "rss",
+    "channel_hint": "ai",
+    "region_hint": "nl",
+    "published": "2026-08-13T06:45:09+00:00",
+    "raw_text": "DeepSeek groeide in juli uit tot de op één na grootste AI-aanbieder op basis van tokenvolume en verwerkte meer dan twee keer zoveel tokens als Google. In april was DeepSeek nog goed voor minder dan 1 procent van het totale tokenvolume via AI Gateway, tegenover bijna 40 procent voor Google. In juli was het aandeel van DeepSeek gestegen tot 25 procent, terwijl Google terugviel tot 10,7 procent. Dat blijkt uit de nieuwste AI Gateway Production Index van Vercel. Bedrijven gebruiken steeds meer AI, terwijl de gemiddelde kosten per token voor het eerst sinds mei duidelijk dalen. De nieuwste AI Gateway Production Index van Vercel laat zien dat het tokenvolume via de AI Gateway in juli met 59 procent groeide ten opzichte van juni. De totale uitgaven namen tegelijkertijd met 37 procent toe, terwijl de gemiddelde prijs per token (een in AI gebruikte rekeneenheid) met 13,6 procent daalde. Dat de gemiddelde prijs per token daalt terwijl de totale uitgaven toenemen, hangt samen met een verschuiving in de modellen die bedrijven gebruiken. Organisaties verwerken meer AI-taken via goedkopere modellen en passen hun modelmix actief aan. Van de teams die in zowel juni als juli meer dan 10 miljoen tokens verwerkten, veranderde driekwart minimaal 10 procent van de gebruikte modelmix. Drie op de vijf teams wijzigden zelfs minimaal een kwart. DeepSeek V4 Flash, het goedkoopste model van het bedrijf, verwerkte in juli zelfs meer tokens dan alle Google-modellen bij elkaar. Het model was alleen al goe",
+    "language": "nl",
+    "priority": 3
+  }
+]

@@ -2047,5 +2047,1068 @@
       "read",
       "stay"
     ]
+  },
+  "4f45cf68d2894ffb1d2dfc663a6242841d738e17dfa5dbfd5c3ca34c4a6093b7": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "1",
+      "2",
+      "4",
+      "sqlite",
+      "utils"
+    ]
+  },
+  "3c1dc03029f55d015694eb814f1d90a9fa49633bed70af8ba1350ecbe016564c": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "censorship",
+      "complex",
+      "idea",
+      "industrial",
+      "inside",
+      "policy",
+      "roundtables",
+      "shaping",
+      "us"
+    ]
+  },
+  "21203a15a22ffd95a2a10a5d593940f5cf4f76c859aea1e965e09a799a4c97b3": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "0",
+      "33",
+      "gemini",
+      "llm"
+    ]
+  },
+  "ade2a09087faac4147205923cfb8769a9daab7337428254f9d4712f90efc1380": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "building",
+      "cryptography",
+      "path",
+      "post",
+      "practical",
+      "quantum"
+    ]
+  },
+  "d8531b3bebbaf6641750e3efb410170dc9d4eacb196bd3e1d8ae895c0bc27335": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "3",
+      "7",
+      "flash",
+      "gemini",
+      "introducing"
+    ]
+  },
+  "203a977c5db0bcadc8fddee99b913a9476bfa6d2866c630008dd14ea05ab038f": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "chairman",
+      "founder",
+      "ibd",
+      "overdrive",
+      "potash",
+      "profile",
+      "publishes",
+      "steve"
+    ]
+  },
+  "e9f8a6f47ed9864ae47c87a3209813b3d57912e935581d71db9239be4cbe80ca": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "backlash",
+      "flock",
+      "growing",
+      "response",
+      "rules",
+      "surveillance",
+      "tightening"
+    ]
+  },
+  "3707f44dcdccaf3f523c6cbba51d990ccb9bdb5b1e76d001b6618cf954870d8b": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "ai",
+      "clones",
+      "download",
+      "female",
+      "kids",
+      "male",
+      "mice",
+      "thoughts"
+    ]
+  },
+  "6f8368ac763b73731923fdf243c388a7d207e8e71307ee44061b49625d794f6b": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "5",
+      "6",
+      "builder",
+      "gpt",
+      "guide",
+      "s"
+    ]
+  },
+  "bdb61fd50e5a5604beedecd206d274440f079e692af2f00c4c080369edbd4f89": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "2027",
+      "behind",
+      "could",
+      "heat",
+      "s",
+      "summer",
+      "what",
+      "why",
+      "worse"
+    ]
+  },
+  "c0986f6628d189a1ac370992d714e2906f134950b6ed170922abe5ac2caf0e49": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "14x",
+      "5",
+      "6",
+      "gpt",
+      "mode",
+      "previewing",
+      "sol",
+      "speed",
+      "ultrafast",
+      "up"
+    ]
+  },
+  "b76a5aae2dc3c48840de29ecba8140631521207f5e6384e8485ff1bff67e8b11": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "about",
+      "ai",
+      "feel",
+      "how",
+      "kids",
+      "own",
+      "their",
+      "words"
+    ]
+  },
+  "6eaab463a55def8752bc46f2c536b71667c705dda0554f0b21cc44218f91b669": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "appoints",
+      "chief",
+      "dali",
+      "officer",
+      "openai",
+      "rajic",
+      "revenue"
+    ]
+  },
+  "b56aba636dd47a3303db7faa4d0a8f7276f36cc66650bbcb6f6e19789e253f64": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "0",
+      "1a1",
+      "alchemy",
+      "utils"
+    ]
+  },
+  "1988761466109b07b2ee8709ff2615933da5db825304df75caa542e5f5e6895f": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "3",
+      "5",
+      "capabilities",
+      "coding",
+      "cyber",
+      "emergent",
+      "frontier",
+      "glm"
+    ]
+  },
+  "da33faa3e1fe60a51fb87f03eb8cdb6038d52f82719707bbe700bf1c278ded91": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "ai",
+      "how",
+      "text",
+      "watermarking",
+      "works"
+    ]
+  },
+  "05d9a25b7d8cda9fc80b3db60af65b7003d8cb686c759efdc5acef207889a0fd": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "cancer",
+      "getting",
+      "longer",
+      "surgeries",
+      "times",
+      "us",
+      "wait"
+    ]
+  },
+  "0831990bfb25f6f5a1c8f5c4204ae18827ff5b3848a72f37c67333843d604ff2": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "allowed",
+      "cybercriminals",
+      "firms",
+      "hack",
+      "overseas",
+      "private",
+      "security",
+      "soon",
+      "will"
+    ]
+  },
+  "51164b112edf9ddc8549820979114fd17c454802fe81c920443dd9bef718c2db": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "ai",
+      "chatgpt",
+      "evidence",
+      "how",
+      "organizations",
+      "pdf",
+      "use"
+    ]
+  },
+  "e5cb8158ab89da45a6adc707dc14881077b6a49eb8d415e7848c9fe23b12ee50": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "class",
+      "delta",
+      "galactic",
+      "help",
+      "naming",
+      "spaceship",
+      "virgin",
+      "wants",
+      "your"
+    ]
+  },
+  "31c423ef0d12129103d243872f63f1fcd0a0977a67bd78b049467e4d856185f5": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "ai",
+      "filing",
+      "hides",
+      "injection",
+      "legal",
+      "person",
+      "prompt",
+      "side",
+      "telling",
+      "them"
+    ]
+  },
+  "4790fcbefe9ec9433d395a13d258997e8200fd7cec1a8d068e39f41da759b33a": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "brigade",
+      "drones",
+      "entire",
+      "game",
+      "live",
+      "out",
+      "tank",
+      "ukrainian",
+      "us",
+      "war",
+      "wipe"
+    ]
+  },
+  "30e3bf5109ba8dde7d0f66dfa2314abd17192ea857b4ad94d12ad8e656ed5adc": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "ai",
+      "billions",
+      "natural",
+      "resources",
+      "threatening"
+    ]
+  },
+  "ba67f1dc6b21e8e8f964784a2bb59a784a66b096b2afffb527dfbafe8c37df46": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "can",
+      "cop",
+      "experts",
+      "flock",
+      "out",
+      "problem",
+      "say",
+      "stalker",
+      "t",
+      "tech",
+      "way"
+    ]
+  },
+  "8d0e43f4074ac3ee624876c3e1f628314f975617fe33d84d6e28193bd4a451d8": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "5",
+      "6",
+      "accelerating",
+      "gpt",
+      "sol",
+      "ultrafast"
+    ]
+  },
+  "a8dfbf81a0c086f040272d1bd754110d390db2386c1fc9d4757958bb95f99781": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "feeder",
+      "furry",
+      "going",
+      "led",
+      "ones",
+      "outage",
+      "owners",
+      "pet",
+      "say",
+      "smart",
+      "unfed"
+    ]
+  },
+  "c2387aa897345cef2ced913c54250641c518863338608bb6b7e7a0267f9b2e0e": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "ai",
+      "embodiment",
+      "instagram",
+      "logo",
+      "perfect",
+      "slop"
+    ]
+  },
+  "353217afc4f706b5339de407629065a4820f98bc0f70c28c174d08c10ec6ab52": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "agents",
+      "buckets",
+      "deploy",
+      "face",
+      "hugging",
+      "lerobot",
+      "one",
+      "place",
+      "record",
+      "storage",
+      "strands",
+      "train"
+    ]
+  },
+  "7da85c9e93ae4c01f4f8b233395798a4417960a86587165b521b4b273797ebd3": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "1",
+      "4",
+      "mistral",
+      "ocr"
+    ]
+  },
+  "6405b0175bf0c460bc495ac1eb88c10df2b978ff4ebb844b92ea5760773b053d": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "3",
+      "7",
+      "after",
+      "announces",
+      "flash",
+      "gemini",
+      "google",
+      "just",
+      "previous",
+      "release",
+      "three",
+      "weeks"
+    ]
+  },
+  "b751336a146d13c75715ed1266eea9d975406556b68b756ffb3763cee6af6864": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "1",
+      "ai",
+      "box",
+      "home",
+      "part",
+      "scraps"
+    ]
+  },
+  "915f4fffc71571e5f331c8a1c7c27bb2af78c652a71a7421a55db91629841e61": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "ai",
+      "always",
+      "remove",
+      "text",
+      "trivial",
+      "watermarks",
+      "will"
+    ]
+  },
+  "a65d95d47be0ff4f927c5ea8df68d4662670470a5f1932c411c590064c33a175": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "signup",
+      "still",
+      "tldr",
+      "waiting",
+      "your"
+    ]
+  },
+  "448676087bdbc9fc14843824074e63d33bc5ff6bddb6df058181ddc496fdfa53": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "finally",
+      "here",
+      "honor",
+      "phone",
+      "robot",
+      "s"
+    ]
+  },
+  "ed9ef321e5397d972a60a840044929629cb79eaa374b3bcfe9b1ed42ec6f476f": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "1",
+      "400",
+      "container",
+      "cves",
+      "eliminated",
+      "images",
+      "nanoclaw",
+      "s",
+      "we"
+    ]
+  },
+  "c3a5f1faf17a534b46ad4cd0e21dca81f314159ac5aa3008a8db55390df568a7": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "aerospace",
+      "aircraft",
+      "completes",
+      "electric",
+      "first",
+      "flight",
+      "heart",
+      "largest"
+    ]
+  },
+  "3f1db2c2fcf01adb5d59303901115e9364b054ac6fbd30ed8d7e5b02494c8b83": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "1",
+      "2027",
+      "changes",
+      "feature",
+      "include",
+      "most",
+      "no",
+      "requested",
+      "rivian",
+      "s"
+    ]
+  },
+  "cc050b32d46b9ed56158d30b682136b6d46d4a256d2950aa6d19dd965cf4b70c": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "2",
+      "anthropic",
+      "could",
+      "goes",
+      "public",
+      "trillion",
+      "when",
+      "worth"
+    ]
+  },
+  "383b67ce2abf6d45400fb064052a48f56f966f719210ecd26a13e6f6fe506025": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "back",
+      "blocking",
+      "flown",
+      "moon",
+      "radiation",
+      "ve",
+      "vest",
+      "we",
+      "worked"
+    ]
+  },
+  "162f4df3e7d9fce28398c0b5b27f2515e47ac5887dd3930344999b3254bc37fd": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "agents",
+      "ai",
+      "cheat",
+      "lie",
+      "off",
+      "putting",
+      "steal",
+      "users"
+    ]
+  },
+  "733b42e12a2cf5cffab65f1b30b8d267ab19ef33f3a08c95acd0234909d3e95d": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "attack",
+      "botnet",
+      "ceva",
+      "chain",
+      "cyberattack",
+      "kimwolf",
+      "litellm",
+      "supply"
+    ]
+  },
+  "10168d2d5f7d01ee27b721d25086d99336d3d3ade52ce4486cafec7ab694d620": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "11",
+      "ai",
+      "choosing",
+      "different",
+      "model",
+      "models",
+      "one",
+      "prompt",
+      "results"
+    ]
+  },
+  "b0f2fe0ea795cd0cfea260f359b24c6a68a1c832dfb8ab226b1982543192f918": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "deepseek",
+      "developer",
+      "harness",
+      "preview"
+    ]
+  },
+  "94e90d6af9164960e73526edf11ec1845ae5d8789c039befc37402be1905f847": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "api",
+      "deepseek",
+      "pricing",
+      "update"
+    ]
+  },
+  "56e397d647fa7812a84809820b5723f0845ba6166873999c956a113ddfea3fd2": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "ai",
+      "attacked",
+      "buys",
+      "costs",
+      "databricks",
+      "electric",
+      "murky",
+      "salesforce",
+      "servicenow",
+      "stay"
+    ]
+  },
+  "1a166d27252c5df79e92029046684168b3c89aafb95f748333640afda399edd0": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "bnr",
+      "gericht",
+      "gokkers",
+      "gokreclames",
+      "illegale",
+      "kwetsbare",
+      "meta",
+      "platforms"
+    ]
+  },
+  "87f568a41245a10f861407e8842c094189928dd01802ed69875cf84cf7ccfd5c": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "ai",
+      "claude",
+      "figma",
+      "mcp",
+      "search",
+      "upgrade",
+      "watermarks",
+      "whatsapp"
+    ]
+  },
+  "750ccaf414eb5bfd1b47485970f13a33b2e35cb55836833ec4e8b9bc9e917f38": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "battleground",
+      "capturing",
+      "earning",
+      "s",
+      "stocks",
+      "tokenized",
+      "value",
+      "who",
+      "yield"
+    ]
+  },
+  "f1c9e1dc7b31bff83e3375ccc8882fa6243e4b67eb3609a34a6aa39e48a199df": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "4",
+      "6",
+      "ai",
+      "bot",
+      "class",
+      "dev",
+      "grok",
+      "middle",
+      "removes"
+    ]
+  },
+  "00fddd522fad501a98f375cc3ffb26379b769eb0d9d26ab1c1dfd45f2b9d22de": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "claude",
+      "invisible",
+      "letter",
+      "s",
+      "scarlet",
+      "watermark"
+    ]
+  },
+  "c6e8c9afb2fbf7b1cab5a3bbc9c5c30c1f5c2d6990c16e4ccd8b7b080b3613b2": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "11",
+      "4",
+      "6",
+      "ai",
+      "cracks",
+      "grok",
+      "pixel",
+      "shows"
+    ]
+  },
+  "5371436f2b19c72108e60014ecd7d311ed38452e188dff06a174754c74d056f2": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "databases",
+      "databricks",
+      "dynamodb",
+      "electric",
+      "healing",
+      "joins",
+      "migration",
+      "s",
+      "self",
+      "stripe",
+      "vercel"
+    ]
+  },
+  "c72be11897b13fe168075bd1d186a0ef9bc13cd8d18d192a3cb769637be3f701": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "4",
+      "6",
+      "ai",
+      "frontier",
+      "grok",
+      "storms"
+    ]
+  },
+  "4a7108e3bc03e094ccd5d7c9bca87bfed00b234e33f0479a7acd4de3399f6788": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "ai",
+      "can",
+      "i",
+      "model",
+      "my",
+      "outputs",
+      "train",
+      "use"
+    ]
+  },
+  "c9969cc9f5e6e12c10fa264e72a7d8a6fa90c9f90f736f7d06fe0e2e31e9b1f9": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "agent",
+      "bullet",
+      "coding",
+      "faster",
+      "hn",
+      "launch",
+      "s26",
+      "yc"
+    ]
+  },
+  "1c00f16b85a3b0dcd707ff044fb0e7d009bff0e601dcb7607ffa6f4c9ff1ae24": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "ai",
+      "kiest",
+      "niemand",
+      "omdat",
+      "standaard",
+      "toestemming",
+      "training",
+      "twitch",
+      "zet"
+    ]
+  },
+  "53f6e6c8f39576f8cad8a2544ef302714badd47e191b19d6975bc8b685e8329e": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "ained",
+      "derde",
+      "elsa",
+      "eraan",
+      "komt",
+      "labs",
+      "ronde"
+    ]
+  },
+  "57f8b7f378e9c39afee2b695124e64c9f4d434320943b412f6cfb54e9fb0229e": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "2",
+      "200",
+      "icml",
+      "learned",
+      "papers",
+      "reproducing",
+      "we",
+      "what"
+    ]
+  },
+  "85d3834bbaa326ac7a8748df8791d2cf83125cb54ac16999a964bdc9433c93c3": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "ai",
+      "app",
+      "conversational",
+      "krijgt",
+      "thuisbezorgd"
+    ]
+  },
+  "b177e7552a2696b4b0fce05957ce41e11cbb3879da8e4c1b280b020e7ffc7223": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "chatgpt",
+      "commerciële",
+      "kwart",
+      "reclames",
+      "toont",
+      "zoekopdrachten"
+    ]
+  },
+  "772f2c4baee6b533689048ce13c3e68cdf49e63e4f2fb642faf9146acad60cc5": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "awards",
+      "european",
+      "fingerspitz",
+      "goud",
+      "keer",
+      "media",
+      "paid",
+      "vier"
+    ]
+  },
+  "86b36471dd33cb6f986fe0965ae974711387cf07963d72870956f0481f9258db": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "100",
+      "aircraft",
+      "all",
+      "declares",
+      "drones",
+      "many",
+      "parts",
+      "percent",
+      "tariffs",
+      "trump"
+    ]
+  },
+  "f2d6f3aae798fd85bb3d57d7576c06cb83a2c3b21c20f25013226a1b6226d328": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "app",
+      "apple",
+      "argue",
+      "epic",
+      "get",
+      "how",
+      "made",
+      "much",
+      "outside",
+      "purchases",
+      "should",
+      "store"
+    ]
+  },
+  "430eaff9512461abcbd761267ac7d9eded7bd994bcfab0e3d9439ad89e91f3ce": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "acceptable",
+      "app",
+      "easier",
+      "google",
+      "installs",
+      "judge",
+      "make",
+      "not",
+      "orders",
+      "rival",
+      "store"
+    ]
+  },
+  "aeef827a04b756ad51418091bea0d412a91dac81accd115af0bae7554b86609d": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "alprs",
+      "fight",
+      "flock",
+      "other"
+    ]
+  },
+  "d6099d84bda87402073645485235b2a024959cb65bdc6285def00d2e855d238a": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "character",
+      "clippy",
+      "copilot",
+      "face",
+      "like",
+      "longer",
+      "mico",
+      "microsoft",
+      "no",
+      "s"
+    ]
+  },
+  "8b79da1d971130ce8fe2ac04624f73e71aad298372ac27e6d5bacbc289f61810": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "closing",
+      "game",
+      "netflix",
+      "studios",
+      "two"
+    ]
+  },
+  "dad17c75ee1f9f143adf1be71261d31f4a125a5280e9a1a6d60e79566cf6c92f": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "agents",
+      "claude",
+      "conflicting",
+      "d",
+      "didn",
+      "done",
+      "each",
+      "given",
+      "orders",
+      "other",
+      "sabotaged",
+      "server",
+      "shared",
+      "t",
+      "tell",
+      "then",
+      "they",
+      "three",
+      "users",
+      "what"
+    ]
+  },
+  "5645d0322dc0bc70e184e3f4313011ae26131d68c59d9fc28b81078d3d0cf28f": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "300",
+      "friendly",
+      "hp",
+      "laptop",
+      "off",
+      "school"
+    ]
+  },
+  "fa3167f1ef5daebb1e441489e503ca47328dd362462504f7fba15671ba887b52": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "executive",
+      "losing",
+      "openai",
+      "second",
+      "week"
+    ]
+  },
+  "7b22f5c56a814c2a65326d3cbeabace2a06e79943e162af30318d5e40574b7db": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "admin",
+      "cyberattacks",
+      "firms",
+      "international",
+      "launch",
+      "letting",
+      "private",
+      "start",
+      "trump",
+      "will"
+    ]
+  },
+  "ae3dd22ecf793ddc7e11b0a11aa50bd47ea93d155a5954275f2109b0fad00461": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "d",
+      "finally",
+      "found",
+      "i",
+      "lawnmower",
+      "my",
+      "robot",
+      "trust",
+      "yard"
+    ]
+  },
+  "fe4792dd7da9f3dfb3c61576d0419251160fe0f9ec2bd7831176ed30a18ba811": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "3",
+      "50",
+      "7",
+      "agents",
+      "coding",
+      "cut",
+      "flash",
+      "gemini",
+      "google",
+      "introductory",
+      "price",
+      "s",
+      "targets"
+    ]
+  },
+  "3b84a8966e9870e73838ea3a3d990e74cc83f3710cf2ba3ab60be7fc0b63be29": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "alongside",
+      "api",
+      "claude",
+      "code",
+      "deepseek",
+      "harness",
+      "higher",
+      "launches",
+      "open",
+      "prices",
+      "pro",
+      "rival",
+      "source",
+      "v4"
+    ]
+  },
+  "fec8eef99ffc1d2e3946f1694dabd0e26f671c3fd23f2bc8902592a521f9991b": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "ai",
+      "beloning",
+      "meer",
+      "minder"
+    ]
+  },
+  "c1492334aeb612a606585920d19107d598cd6d66afbb235b90185b56eb86776a": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "agent",
+      "ai",
+      "around",
+      "built",
+      "capital",
+      "models",
+      "multi",
+      "one",
+      "open",
+      "platform",
+      "weight",
+      "why"
+    ]
+  },
+  "38298ca71841793c2b54f112aeb5eb4ef251bbd7e9f85a8cbe9e2fc0e4f86dfd": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "52",
+      "agent",
+      "ai",
+      "costs",
+      "cuts",
+      "model",
+      "palmyra",
+      "says",
+      "spending",
+      "surges",
+      "token",
+      "writer",
+      "x6"
+    ]
+  },
+  "356bda79eb763fe6bbbfceeb497c14d6f0fcea2dbeb76091d4f3a23098e82d53": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "400",
+      "groeien",
+      "haalt",
+      "harder",
+      "lovable",
+      "miljoen",
+      "wil"
+    ]
+  },
+  "c793560430b4339057364a4cb3df668007e6de29e3c8d4acb51d45a8e88a9ad1": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "ai",
+      "kort",
+      "nebius",
+      "nieuws",
+      "profiteert",
+      "spacex",
+      "vooral"
+    ]
+  },
+  "fee7f8311082d9f2ec86ec4d07e5073b22d6ef73a1fe3aceb6065be33177edde": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "betere",
+      "beveiliging",
+      "blijven",
+      "cybercriminelen",
+      "maar",
+      "steeds",
+      "winnen"
+    ]
+  },
+  "b56bc1662cd4a37383ccb708ccca70faa2e219cc14a7022bbf13b8ac430ad34e": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "3",
+      "adyen",
+      "datacentra",
+      "miljard",
+      "steekt"
+    ]
+  },
+  "b3372f55c42437ed7750099ae0500372aeed1fcef982a2c7e287144bb6cefb77": {
+    "ts": "2026-08-14T06:08:23+00:00",
+    "kop": [
+      "ai",
+      "deepseek",
+      "gebruik",
+      "google",
+      "passeert"
+    ]
   }
 }
