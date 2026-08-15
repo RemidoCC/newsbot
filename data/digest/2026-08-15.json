@@ -1,0 +1,484 @@
+{
+  "date": "2026-08-15",
+  "generated_at": "2026-08-15T05:25:18+00:00",
+  "stats": {
+    "batches": 2,
+    "onleesbaar": 0,
+    "objecten": 62,
+    "schema_fout": 0,
+    "onbekend_id": 0,
+    "gedropt": 37,
+    "geldig": 25,
+    "ai": 21,
+    "bieb": 4
+  },
+  "sources": [
+    "Ars Technica AI",
+    "Computable",
+    "Emerce",
+    "Hacker News",
+    "IFLA",
+    "Infodocket",
+    "MIT Technology Review — AI",
+    "Probiblio",
+    "Simon Willison",
+    "TLDR AI",
+    "The Rundown AI",
+    "The Verge AI",
+    "Tweakers",
+    "VentureBeat AI"
+  ],
+  "items": [
+    {
+      "id": "1fa77202798a630a48f6bffe0806c1e18a77ac377445525a43f386e77b4f8c4f",
+      "title": "Google lanceert Gemini 3.7 Flash, OpenAI toont ultrasnelle GPT-5.6",
+      "summary": "Google rolt Gemini 3.7 Flash uit, nog geen drie weken na Gemini 3.6, terwijl OpenAI met GPT-5.6 Sol Ultrafast een modus toont die tot 750 tokens per seconde genereert. Ook doet het gerucht de ronde dat Anthropic een beursgang van 2.000 miljard dollar zou overwegen.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/ju6209r8e5mynq198qyt.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-08-14T13:44:51+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "bedrijven"
+      ],
+      "importance": 4,
+      "why_relevant": "Snel op elkaar volgende modelupdates laten het hoge tempo van de AI-sector zien.",
+      "also_covered_by": []
+    },
+    {
+      "id": "4bc8b89183018b7cdf4a05b0d6b2f237e6aa2ce80cecd9b96256bc03c3cf6dea",
+      "title": "OpenAI en Anthropic verlagen prijzen door concurrentie uit China",
+      "summary": "OpenAI en Anthropic brengen hun modelprijzen fors omlaag nu klanten overstappen naar goedkopere Chinese alternatieven zoals Moonshot en DeepSeek. OpenAI verlaagde de prijs van GPT-5.6 Luna met 80 procent, terwijl Anthropic Claude Opus 5 positioneert als goedkoper alternatief voor zijn topmodel Fable 5.",
+      "url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-08-14T14:27:14+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "modellen"
+      ],
+      "importance": 4,
+      "why_relevant": "Prijzenoorlog tussen grote AI-aanbieders verlaagt drempels voor bibliotheken die AI-tools inzetten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "9e2ca953e95f270724f97edf6e20c07291a6c84a885f5dfb3c6bb374ca6a457d",
+      "title": "EU-fonds investeert in Zweedse vibecoding-startup Lovable",
+      "summary": "Het nieuwe Scaleup Europe Fund, mede gefinancierd door de Europese Commissie, investeert in het Zweedse Lovable, dat software biedt waarmee niet-technische gebruikers met AI prototypes en apps kunnen bouwen. De investeringsronde van 400 miljoen dollar waardeert het bedrijf op 13,3 miljard dollar, ondanks een eerder groot datalek.",
+      "url": "https://www.computable.nl/2026/08/14/eu-geld-voor-zweedse-vibecoding-gigant-lovable/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-08-14T05:00:00+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "bedrijven",
+        "subsidie-of-financiering"
+      ],
+      "importance": 3,
+      "why_relevant": "Europese overheidssteun voor AI-startups kan de toegankelijkheid van AI-tools vergroten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "399222480903c33ce541b49f8c81f86fcd21c635110491486f96bbde8435bac2",
+      "title": "Mistral gaat externe AI-modellen hosten, te beginnen met GLM",
+      "summary": "Het Franse AI-bedrijf Mistral breidt zijn rol uit van modelbouwer naar infrastructuurleverancier door ook modellen van derden aan te bieden, te beginnen met het Chinese open model GLM van Z.ai. Klanten kunnen zo Mistral-modellen combineren met GLM voor complexe coding- of agent-taken, zonder voor elk model een aparte cloud- en compliance-aanpak.",
+      "url": "https://www.emerce.nl/nieuws/mistral-gaat-externe-modellen-hosten-glm-eerst",
+      "source_name": "Emerce",
+      "source_type": "rss",
+      "published": "2026-08-14T06:40:48+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "bedrijven",
+        "open-source",
+        "tools"
+      ],
+      "importance": 3,
+      "why_relevant": "Europees AI-platform biedt meer keuzevrijheid tussen modellen van verschillende aanbieders.",
+      "also_covered_by": []
+    },
+    {
+      "id": "eb90a7a40272c65c3d59b50dadd68692c062a5659f8d0b542ec5c618db356d9e",
+      "title": "OpenAI introduceert 'Ultrafast'-tier voor razendsnelle antwoorden",
+      "summary": "OpenAI test een nieuwe Ultrafast-tier voor zijn GPT-5.6 Sol-model, mogelijk gemaakt door chipmaker Cerebras, die tot 750 tokens per seconde haalt: veertien keer sneller dan de standaardsnelheid. De toegang is voorlopig beperkt tot een selecte groep klanten, met een bredere uitrol zodra de capaciteit toeneemt.",
+      "url": "https://kill-the-newsletter.com/feeds/7b87u0i8h3vypjvvprgc/entries/062bedc83v0vjn6zjwz7.html",
+      "source_name": "The Rundown AI",
+      "source_type": "newsletter",
+      "published": "2026-08-14T10:08:25+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Laat zien hoe snel AI-modellen sneller en toepasbaarder worden.",
+      "also_covered_by": [
+        "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/njgwzhy5k2rm8haediz3.html"
+      ]
+    },
+    {
+      "id": "44f5ffd58af3459600364f528eebcbb65634a0807515a1c5ba0d8c1c842bf399",
+      "title": "Man verstopte AI-prompts in rechtbankstukken om zaak te winnen",
+      "summary": "Een rechter in Connecticut ontdekte voor het eerst dat een eiser onzichtbare tekst in een rechtbankdocument had verwerkt, specifiek bedoeld om een AI-systeem te beïnvloeden dat het stuk zou lezen. De verborgen instructies hadden in dit geval geen effect op de uitspraak, maar de rechter noemt het een gevaarlijk precedent nu AI vaker in rechtszaken wordt gebruikt.",
+      "url": "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-08-14T17:26:53+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 3,
+      "why_relevant": "Eerste bekende poging tot prompt-injectie in rechtbankstukken, relevant voor AI-risicobewustzijn.",
+      "also_covered_by": []
+    },
+    {
+      "id": "b659483b50540db9c33c00e35ee6efb462d77e4d118b75d4d8946739adafae56",
+      "title": "SpaceXAI wordt na miljardenovername eigenaar van programmeertool Cursor",
+      "summary": "SpaceXAI is officieel eigenaar geworden van AI-codeertool Cursor, nadat het moederbedrijf Anysphere eerder voor 60 miljard dollar werd overgenomen. Met de overname wil SpaceXAI de programmeercapaciteiten van zijn AI-chatbot Grok verbeteren.",
+      "url": "https://tweakers.net/nieuws/250992/spacexai-is-na-miljardenovername-eigenaar-van-ai-programmeertool-cursor.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-08-14T18:58:02+02:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 3,
+      "why_relevant": "Grote overname die de concurrentiepositie van AI-codeertools verandert.",
+      "also_covered_by": []
+    },
+    {
+      "id": "276b093b837b9e928289961aed6624b826a8be46ae40cfd29d0579fa0a3659e2",
+      "title": "Chinese GLM-5.3 combineert codeerverbeteringen met geavanceerde cyberbeveiligingscapaciteiten",
+      "summary": "Het Chinese AI-bedrijf Z.ai lanceerde GLM-5.3, een grotendeels open-source taalmodel met sterke verbeteringen in langdurige codeertaken en cyberbeveiliging. Het model zou al een mogelijk ernstig beveiligingslek hebben gevonden in de AI-codeertool Cursor, die recent door SpaceX werd overgenomen.",
+      "url": "https://venturebeat.com/technology/glm-5-3-is-here-with-advanced-cyber-capabilities-and-reportedly-already-found-a-serious-vulnerability-in-cursor",
+      "source_name": "VentureBeat AI",
+      "source_type": "rss",
+      "published": "2026-08-14T22:56:16+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "open-source",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Toont de snelle opmars van krachtige open Chinese AI-modellen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "3eb33f5960f98338b8dcda70e352e419acbd65da51af406922169983c5b332b4",
+      "title": "Probiblio deelt inzichten uit medewerkersonderzoek over onboarding en betrokkenheid",
+      "summary": "Probiblio blikt terug op de eerste ronde van het Kortcyclisch Medewerkersonderzoek van 2026, gericht op binding en betrokkenheid van bibliotheekmedewerkers. Deelnemende bibliotheken deelden hun aanpak van onboarding, zoals informatiebijeenkomsten voor nieuwe medewerkers en extra begeleiding voor mensen zonder bibliotheekachtergrond.",
+      "url": "https://www.probiblio.nl/medewerkersonderzoek-van-onboarding-tot-betrokkenheid/",
+      "source_name": "Probiblio",
+      "source_type": "rss",
+      "published": "2026-08-14T08:44:42+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek"
+      ],
+      "importance": 2,
+      "why_relevant": "Praktische inzichten over onboarding en personeelsbehoud voor bibliotheekorganisaties.",
+      "also_covered_by": []
+    },
+    {
+      "id": "594980d1e730499d34f679a992f1d2a47413de520b52306428270f1bbe9ce74d",
+      "title": "Microsoft voegt Copilot en Microsoft 365 Copilot samen in één app",
+      "summary": "Microsoft brengt de verschillende Copilot-functies in Windows onder in één app, waarbij de Microsoft 365-integratie en Office-apps worden samengevoegd en persoonlijke en werkaccounts samenkomen. Tegelijkertijd verdwijnen enkele functies, zoals het maken van AI-podcasts.",
+      "url": "https://tweakers.net/nieuws/250970/microsoft-voegt-copilot-en-microsoft-365-copilot-samen-in-een-app.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-08-14T08:45:58+02:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Wijziging in een veelgebruikte AI-tool die ook bibliotheken kunnen inzetten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "49ef21dbd50bc85eba14a0a07666987e69dc2b93e3a6f3b292200b3a5518df41",
+      "title": "Kort: mkb blijft doelwit van cyberaanvallen, Databricks groeit tachtig procent",
+      "summary": "Uit onderzoek van Kaspersky blijkt dat 86 procent van het mkb het afgelopen jaar met een cyberincident te maken kreeg, vooral door phishing en softwarekwetsbaarheden. Daarnaast passeerde AI-databedrijf Databricks een omzet-run-rate van zeven miljard dollar en zet Google met Gemini 3.7 Flash in op AI-agents.",
+      "url": "https://www.computable.nl/2026/08/14/kort-mkb-blijft-doelwit-van-cyberaanvallers-databricks-groeit-80-procent-en-meer/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-08-14T10:30:00+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "bedrijven",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Kort overzicht van actueel cybersecurity- en AI-bedrijfsnieuws.",
+      "also_covered_by": []
+    },
+    {
+      "id": "96fe89f3b3ebf1097db62774c29082a7f1787086d2889167f5dff0accec3c239",
+      "title": "Test met elf AI-modellen laat grote verschillen in prestatie en kosten zien",
+      "summary": "Een vergelijking van elf AI-modellen, waaronder DeepSeek, Qwen en Kimi, voor het genereren van webpagina's toont grote verschillen in kwaliteit en creditverbruik. DeepSeek V4 Flash presteerde het zuinigst, terwijl GPT-5.6 Sol in lage-inspanningsmodus veel duurder uitpakte.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/j8aijmt05hso2rws1nos.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-08-14T11:42:23+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Praktische benchmark helpt bij het kiezen van een geschikt en betaalbaar AI-model.",
+      "also_covered_by": []
+    },
+    {
+      "id": "1d6399332fa4819f46f1d6a9041ae6b84637c9ed1c5d474f3e9ce3befc5aec6f",
+      "title": "Flock verscherpt regels voor kentekencamera's na ophef over misbruik",
+      "summary": "Politietechbedrijf Flock past de toegang tot zijn landelijke netwerk van kentekencamera's aan nadat bleek dat agenten het systeem gebruikten om (ex-)partners te stalken. Agenten moeten voortaan een zaaknummer invoeren en verdachte zoekopdrachten worden vaker automatisch gecontroleerd, al blijft verificatie van die nummers achterwege.",
+      "url": "https://www.technologyreview.com/2026/08/14/1142033/the-download-flock-new-rules-cloning-future/",
+      "source_name": "MIT Technology Review — AI",
+      "source_type": "rss",
+      "published": "2026-08-14T12:17:21+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont risico's van grootschalige surveillancetechnologie en de beperkte grip van zelfregulering.",
+      "also_covered_by": []
+    },
+    {
+      "id": "33fa2f06f666d125d22cf02cd6eb9c5e0b4084ac6b5afad208f70e284be80dcb",
+      "title": "Schaarste aan AI-chips lijkt een structureel probleem te worden",
+      "summary": "Volgens een analyse in TLDR Founders is het tekort aan AI-processoren geen tijdelijk probleem, maar een blijvend gevolg van beperkte productiecapaciteit voor high-bandwidth memory en geavanceerde chipverpakking. Bedrijven kunnen dit niet simpelweg oplossen met een groter cloudbudget.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/itwph0ta10zyo27uvlhd.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-08-14T12:23:41+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Chiptekorten bepalen mede hoe toegankelijk en betaalbaar AI-diensten blijven.",
+      "also_covered_by": []
+    },
+    {
+      "id": "d3bc3c49b5b78caeb5923e978ed6c8636a6cf2df1c34a04d27f3d616372e89e8",
+      "title": "IBM start OpenAI-adviespraktijk, Cisco haalt 9,3 miljard aan AI-orders binnen",
+      "summary": "IBM lanceert een aparte adviestak rond OpenAI en wil tienduizenden consultants certificeren voor gezamenlijke AI-oplossingen in onder meer finance en overheid. Cisco meldt intussen dat zijn AI-infrastructuurorders dit boekjaar opliepen tot 9,3 miljard dollar.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/r98u7cquqn0pxv4y505l.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-08-14T12:35:31+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat zien hoe snel grote IT-spelers hun diensten rond AI opschalen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "52688daf0f56e39cdd7272f75939692c9e905fcaf9b0b7ee27bdfdd00253710e",
+      "title": "Gebruikers kunnen zichtbare watermerken van Google Gemini nu uitschakelen",
+      "summary": "Google maakt het mogelijk om het zichtbare 'sparkle'-watermerk op AI-gegenereerde beelden, video's en muziek uit te schakelen in Gemini en videogenerator Flow. Onzichtbare SynthID-watermerken en C2PA-metadata blijven wel altijd aanwezig, zodat AI-content herkenbaar blijft.",
+      "url": "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-08-14T12:39:32-04:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Relevant voor mediawijsheid: AI-content blijft via onzichtbare merken herkenbaar.",
+      "also_covered_by": []
+    },
+    {
+      "id": "70fd6377ba0409ab510f4adf854f3e3ce61e3b16e599f3d38af264e5f4db093f",
+      "title": "AMD daagt Nvidia uit op de markt voor AI-robotica",
+      "summary": "AMD introduceert de Ryzen AI X100-processorserie, gericht op real-time edge-verwerking in autonome robotica, en positioneert dit als directe concurrent van Nvidia's Jetson-hardware. Het moet lagere latency en minder warmteontwikkeling bieden voor industriële automatisering en drones.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/z7vh79h86bhk96ajtxgt.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-08-14T13:23:43+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Groeiende chipconcurrentie in AI-robotica raakt de bredere ontwikkeling van toepasbare AI.",
+      "also_covered_by": []
+    },
+    {
+      "id": "b10c223ec024fd0ae5aef28e36bb71772a2804d0f5036bb253d1422b34857097",
+      "title": "DeepSeek voert piek- en dalprijzen in en verhoogt tarieven fors",
+      "summary": "Het Chinese AI-model DeepSeek gaat werken met piek- en dalprijzen, waarbij outputtokens tijdens piekuren tot 355 procent duurder worden. Ondanks de verhoging blijft DeepSeek naar verwachting een van de goedkoopste AI-modellen op de markt.",
+      "url": "https://tweakers.net/nieuws/250982/deepseek-gaat-met-piek-en-dalprijzen-werken-en-verhoogt-prijzen-tot-355-procent.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-08-14T13:58:42+02:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Prijswijziging van een populair goedkoop AI-model kan kosten van AI-gebruik beïnvloeden.",
+      "also_covered_by": []
+    },
+    {
+      "id": "46e01fe7465e729eb44568ed91c2813a07488c2a3d2a725fc2243141d8b0071a",
+      "title": "X maakt aanbevelingsalgoritme achter For You-feed openbaar",
+      "summary": "X heeft de code achter het algoritme van de For You-feed openbaar gemaakt en introduceert een tool waarmee gebruikers kunnen zien hoe hun posts binnen dat systeem presteren. Het bedrijf deelt de laatste jaren steeds meer over de werking van zijn aanbevelingsalgoritme.",
+      "url": "https://tweakers.net/nieuws/250986/x-maakt-algoritme-achter-for-you-feed-openbaar.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-08-14T15:29:05+02:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "open-source",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Meer transparantie over een veelgebruikt aanbevelingsalgoritme raakt digitale geletterdheid.",
+      "also_covered_by": []
+    },
+    {
+      "id": "8ad8cdf20609a5f098ffbf35682e55a125ecb37cc42d07697f36b53825d9a87b",
+      "title": "Google zet stappen naar praktisch bruikbare privacyvriendelijke AI",
+      "summary": "Google beschrijft hoe het met homomorfe encryptie AI-verwerking mogelijk maakt zonder dat gevoelige gebruikersdata ooit wordt ontsleuteld. Dit moet privacybehoud en bruikbare AI-functies beter met elkaar verenigen.",
+      "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-14T15:43:10Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Privacybevorderende AI-techniek is relevant voor verantwoord AI-gebruik in publieke dienstverlening.",
+      "also_covered_by": []
+    },
+    {
+      "id": "731a1f1ae0d9a694af698654478254fd3defd170b93cbf319dd5528ccf48fec8",
+      "title": "Belmont University verwerft archief van Johnny Cash",
+      "summary": "Belmont University heeft voor 8,6 miljoen dollar het persoonlijke archief van Johnny Cash verworven, met correspondentie, foto's, handgeschreven teksten en meer. De universiteit start een digitaliseringsproject en opent een Johnny Cash Learning Center in samenwerking met de eigen Special Collections.",
+      "url": "https://www.infodocket.com/2026/08/14/music-belmont-university-acquires-johnny-cashs-archives/",
+      "source_name": "Infodocket",
+      "source_type": "rss",
+      "published": "2026-08-14T16:48:09+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "bibliotheek"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van grootschalige archiefverwerving en digitalisering door een universiteitsbibliotheek.",
+      "also_covered_by": []
+    },
+    {
+      "id": "8961949ff68916c066c183eb67b78e1cb7795b88223a90552247584b588ecf65",
+      "title": "Documenten taggen met een LLM zonder vaste taxonomie mee te geven",
+      "summary": "Simon Willison beschrijft een aanpak van Doug Turnbull om oude, ongetagde blogposts alsnog te labelen: laat een taalmodel vrij tags verzinnen en zoek daarna via embeddings de dichtstbijzijnde bestaande tag. Zo hoeft de volledige tagvocabulaire niet in de prompt te passen.",
+      "url": "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-08-14T21:54:35+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "modellen"
+      ],
+      "importance": 2,
+      "why_relevant": "Praktische LLM-truc voor classificatie, bruikbaar bij het ontsluiten van grote collecties.",
+      "also_covered_by": []
+    },
+    {
+      "id": "85c60520f3232bef81c9aaf80681fd63c3288e88dc3ae1380f96a1fc1304bb05",
+      "title": "IFLA Futures Club #4 met Brewster Kahle van Internet Archive",
+      "summary": "IFLA organiseert op 15 september de vierde editie van de Futures Club, dit keer met Internet Archive-oprichter Brewster Kahle als gast. Hij deelt zijn kijk op de toekomst van het bredere kennis- en informatielandschap, een thema dat aansluit bij IFLA's honderdjarig bestaan.",
+      "url": "https://www.ifla.org/news/announcing-ifla-futures-club-4-brewster-kahle/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-08-15T04:57:19+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "evenement",
+        "bibliotheek"
+      ],
+      "importance": 2,
+      "why_relevant": "Internet Archive-oprichter spreekt over de toekomst van kennis en archivering voor bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "4aea33494d389761136d070f81fb1643e32e89bed66b65cf6808a2cac7fbe8e4",
+      "title": "Terugblik IFLA Futures Club #3 tijdens WLIC in Busan",
+      "summary": "Tijdens het IFLA-congres in Busan bogen vijftien Emerging Leaders zich over kantelpunten in de bibliotheekgeschiedenis en aannames die het huidige denken sturen. De sessie was de eerste opdracht binnen IFLA's Futures Challenge, gericht op toekomstdenken voor de sector.",
+      "url": "https://www.ifla.org/news/futures-club-3-the-present-is-an-accident/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-08-14T11:49:48+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "evenement",
+        "bibliotheek"
+      ],
+      "importance": 1,
+      "why_relevant": "Inspiratie voor toekomstgericht denken binnen de bibliotheeksector.",
+      "also_covered_by": []
+    },
+    {
+      "id": "93af4f37b45128748cb0d777f43aed839e860cf4b257c82b401dad1f82843a40",
+      "title": "AI Model Atlas visualiseert relaties tussen honderden AI-modellen",
+      "summary": "AI Model Atlas is een interactieve 3D-graaf die laat zien hoe machine-learning-modellen onderling verbonden zijn en van elkaar afstammen. Het geeft in één oogopslag inzicht in de snelgroeiende en verweven wereld van AI-modellen.",
+      "url": "https://run.cosmograph.app/public/ca9fd1ad-fe83-4238-8b69-b707c633aef0",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-14T14:22:39Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "onderzoek"
+      ],
+      "importance": 1,
+      "why_relevant": "Handig overzicht om het snelgroeiende landschap van AI-modellen te doorgronden.",
+      "also_covered_by": []
+    }
+  ]
+}
