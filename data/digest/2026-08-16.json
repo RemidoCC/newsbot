@@ -1,0 +1,307 @@
+{
+  "date": "2026-08-16",
+  "generated_at": "2026-08-16T05:23:49+00:00",
+  "stats": {
+    "batches": 1,
+    "onleesbaar": 0,
+    "objecten": 30,
+    "schema_fout": 0,
+    "onbekend_id": 0,
+    "gedropt": 14,
+    "geldig": 16,
+    "ai": 13,
+    "bieb": 3
+  },
+  "sources": [
+    "Hacker News",
+    "Infodocket",
+    "Simon Willison",
+    "The Verge AI",
+    "Tweakers",
+    "VentureBeat AI"
+  ],
+  "items": [
+    {
+      "id": "faa7d6dc6d8411d92633540a6753804c91e785073fd37cad3db603a37297205c",
+      "title": "ChatGPT krijgt ook in Europa advertenties, eerst niet-gepersonaliseerd",
+      "summary": "OpenAI introduceert later deze maand advertenties in ChatGPT voor gebruikers in Nederland en mogelijk België, bij gratis gebruik en het goedkoopste abonnement. De advertenties zijn in eerste instantie niet-gepersonaliseerd en gebaseerd op het gespreksonderwerp.",
+      "url": "https://tweakers.net/nieuws/251008/chatgpt-krijgt-ook-in-europa-advertenties-eerst-niet-gepersonaliseerd.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-08-15T12:07:53+02:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "bedrijven",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 4,
+      "why_relevant": "Grote verandering in een veelgebruikte AI-tool, direct relevant voor Nederlandse gebruikers.",
+      "also_covered_by": []
+    },
+    {
+      "id": "0edd68986bd2aa05f14c21553ad5614b71e37a74f6688b7cc1a506a53cda32ee",
+      "title": "Kan AI functionele virussen ontwerpen, en moeten we ons zorgen maken?",
+      "summary": "AI-modellen worden steeds beter in staat om functionele virussen te ontwerpen, wat serieuze vragen oproept over biosecurity-risico's. Het artikel bespreekt de huidige stand van zaken en mogelijke gevaren van deze ontwikkeling.",
+      "url": "https://spectrum.ieee.org/ai-designed-virus",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-15T15:32:25Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "onderzoek"
+      ],
+      "importance": 4,
+      "why_relevant": "Belangrijk risicosignaal: AI kan functionele virussen ontwerpen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "2f90b7499b6ef345c748b4405599cc4f3adc1df400d879c672f9a1ec3d65cea2",
+      "title": "MIT publiceert richtlijnen over wetenschappelijke content en generatieve AI",
+      "summary": "Een MIT-werkgroep, mede geleid door de directeur van MIT Libraries, bracht drie documenten uit over de juridische, technische en ethische vraagstukken rond het gebruik van wetenschappelijke content voor het trainen van generatieve AI. De stukken bevatten aanbevelingen voor onderzoekers en een whitepaper over het geldende juridische landschap.",
+      "url": "https://www.infodocket.com/2026/08/12/outputs-from-mits-working-group-on-scholarly-content-and-generative-ai-now-available/",
+      "source_name": "Infodocket",
+      "source_type": "rss",
+      "published": "2026-08-13T02:21:00+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "bibliotheek",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 3,
+      "why_relevant": "MIT Libraries hielp deze richtlijnen opstellen over auteursrecht en AI-training van content.",
+      "also_covered_by": []
+    },
+    {
+      "id": "ed4fdf5733de7d30a3ffe95a5897b41c712a0bca9acbab42a92c4c0c23df6882",
+      "title": "Xteinks compacte e-readers krijgen toegang tot bibliotheekboeken via Libby",
+      "summary": "Dankzij een nieuwe plug-in voor de alternatieve firmware CrossPoint Reader krijgen Xteinks kleine e-readers (X3, X4, X4 Pro) toegang tot DRM-beveiligde e-books die via Libby/OverDrive bij bibliotheken geleend kunnen worden. Voorheen moesten gebruikers zelf DRM-vrije boeken zoeken.",
+      "url": "https://www.theverge.com/tech/976390/xteink-x3-x4-x4-pro-e-reader-libby-plug-ins-drm-crosspoint-reader",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-08-15T09:00:00-04:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "bibliotheek",
+        "digitale-inclusie"
+      ],
+      "importance": 3,
+      "why_relevant": "Meer apparaten krijgen toegang tot bibliotheek-e-books via Libby.",
+      "also_covered_by": []
+    },
+    {
+      "id": "230a7914be5e3b1d52c691664caa4a8e2a4a1fd79fd7a6e727019ef28884c951",
+      "title": "Debian start stemming over toekomst van AI/LLM-bijdragen aan het project",
+      "summary": "Het Debian-project laat ontwikkelaars stemmen over beleid rond bijdragen die met behulp van AI/LLM's zijn gegenereerd. De uitkomst bepaalt hoe een van de grootste open-sourceprojecten omgaat met AI-gegenereerde code en documentatie.",
+      "url": "https://lists.debian.org/debian-devel-announce/2026/08/msg00002.html",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-15T09:20:07Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "open-source",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 3,
+      "why_relevant": "Toont hoe grote open-sourcegemeenschappen beleid maken rond AI-bijdragen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "628bb3f5527e769806221ffe4657e70a24f8856de9bc3284bb006a42e39f19e4",
+      "title": "Anthropic claimt beter intern AI-model dan Mythos 5, maar houdt het achter gesloten deuren",
+      "summary": "Anthropic zegt in zijn risicorapport van augustus 2026 een nieuw model te hebben ontwikkeld dat voor veel taken een duidelijke verbetering is ten opzichte van Mythos 5. Het bedrijf maakt dit Model 2 echter niet extern beschikbaar en gebruikt het vooralsnog alleen intern.",
+      "url": "https://tweakers.net/nieuws/251006/anthropic-claimt-dat-nieuw-ai-model-beter-is-dan-mythos-5-houdt-het-intern.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-08-15T10:20:02+02:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Nieuw AI-model van Anthropic blijft voorlopig onbeschikbaar voor gebruikers.",
+      "also_covered_by": []
+    },
+    {
+      "id": "5255935f8d8b85e625cdf282eeb5fe80b10ed6ee82a5af8b0b700c67c5549d05",
+      "title": "Nieuw CRS-rapport over AI-chatbots als 'companions'",
+      "summary": "De Amerikaanse Congressional Research Service publiceerde een rapport over companion-chatbots, die specifiek zijn ontworpen voor emotionele en intieme interactie, in tegenstelling tot algemene chatbots. Het rapport bespreekt gemelde risico's zoals psychologische schade en pleit bij beleidsmakers voor meer duidelijkheid over veiligheid, privacy en transparantie.",
+      "url": "https://www.infodocket.com/2026/08/15/ai-chatbots-as-companions-overview-uses-and-considerations-for-congress-new-report-from-the-congressional-research-service/",
+      "source_name": "Infodocket",
+      "source_type": "rss",
+      "published": "2026-08-15T15:17:31+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Amerikaans beleidsrapport over risico's van AI-companion chatbots, nuttig voor mediawijsheid.",
+      "also_covered_by": []
+    },
+    {
+      "id": "1e488231207ff5b04eebba26015e537e5c5daa89800b19f682c2323a2e51b29b",
+      "title": "Evaluatietool onthult: AI-modellen zijn het zelfverzekerdst als ze fout zitten",
+      "summary": "Een grondige eval-harness liet zien wat kwalitatieve reviews misten: AI-modellen presenteren onjuiste antwoorden vaak met het meeste vertrouwen. Dit onderstreept dat 'klinkt goed' niet hetzelfde is als 'aantoonbaar correct', zeker bij zakelijk kritische toepassingen.",
+      "url": "https://venturebeat.com/orchestration/an-eval-harness-found-what-qualitative-review-couldnt-ai-models-are-most-confident-when-wrong",
+      "source_name": "VentureBeat AI",
+      "source_type": "rss",
+      "published": "2026-08-15T19:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Waarschuwt dat AI-output op gevoel beoordelen onvoldoende is voor betrouwbaarheid.",
+      "also_covered_by": []
+    },
+    {
+      "id": "d9504b248e36a59fbc025185abe7972db61b0e51b05de632073cfac4477ea61d",
+      "title": "Werken met AI voelt meer als leidinggeven dan als programmeren",
+      "summary": "Een blogpost beschrijft hoe het werken met AI-coding-agents in de praktijk meer weg heeft van het aansturen van een team dan van zelf code schrijven. De auteur reflecteert op deze verschuiving in de rol van ontwikkelaars.",
+      "url": "https://allen.bargi.org/notes/working-with-ai-feels-like-leadership/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-15T10:39:41Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "arbeidsmarkt"
+      ],
+      "importance": 2,
+      "why_relevant": "Illustreert hoe AI de rol en werkwijze van ontwikkelaars verandert.",
+      "also_covered_by": []
+    },
+    {
+      "id": "17f0f8377f8b0b5132a78577dc94fb4bb40ac373c218987a79aa166e11e37c66",
+      "title": "Cloudflare en de gevolgen van 'AI-psychose'",
+      "summary": "Een blogpost bekritiseert hoe overmatig vertrouwen op AI-tools bij Cloudflare mogelijk tot problematische beslissingen of fouten heeft geleid. De titel verwijst kritisch naar het fenomeen waarbij intensief AI-gebruik het kritisch denken lijkt te ondermijnen.",
+      "url": "https://opensauce.it/cloudflare-ai-psychosis/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-15T14:08:40Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Kritisch stuk over overmatig vertrouwen in AI-tools bij grote techbedrijven.",
+      "also_covered_by": []
+    },
+    {
+      "id": "6e7239833677c8530e276b952e1bde0e11bdcc49f3bdcf1005630f7f98987f59",
+      "title": "Verkoop van tweedehands boeken groeit hard - speelt AI een rol?",
+      "summary": "De verkoop van tweedehands boeken stijgt sterk, en sommigen leggen een verband met de opkomst van AI: lezers zouden fysieke, door mensen geschreven boeken opzoeken als tegenreactie op AI-gegenereerde content. Het artikel onderzoekt of dat verband klopt.",
+      "url": "https://www.bbc.co.uk/news/articles/cp3rprx2wl4o",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-15T14:08:55Z",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Mogelijke link tussen groeiende vraag naar fysieke boeken en wantrouwen jegens AI-content.",
+      "also_covered_by": []
+    },
+    {
+      "id": "ba9e2d42d5d6446bcd3739ac7138fd638e427259b9ae38b17abfd19657b29ef9",
+      "title": "Heeft AI een groter werkgeheugen dan het menselijk brein?",
+      "summary": "Een blogpost betoogt dat AI-modellen een veel groter effectief werkgeheugen hebben dan mensen, wat verklaart waarom ze bepaalde taken zoals wiskundig redeneren goed aankunnen. De auteur nuanceert het beeld dat AI daarmee wiskundigen al zou overtreffen.",
+      "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-15T18:13:02Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek"
+      ],
+      "importance": 2,
+      "why_relevant": "Nuance in het debat over AI-redeneervermogen versus menselijke cognitie.",
+      "also_covered_by": []
+    },
+    {
+      "id": "1187257048e07228c444e2b685f473fdca2e953c860d32fe8b7a08c8fb5067e7",
+      "title": "Waar staan we met AI in medicijnontwikkeling?",
+      "summary": "Een overzichtsartikel in Nature Reviews Drug Discovery evalueert de daadwerkelijke impact van AI op medicijnonderzoek, los van de hype. Het bespreekt wat wel en niet werkt en welke stappen nog nodig zijn.",
+      "url": "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-15T19:12:53Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek"
+      ],
+      "importance": 2,
+      "why_relevant": "Kritische blik op de werkelijke voortgang van AI in medicijnonderzoek.",
+      "also_covered_by": []
+    },
+    {
+      "id": "e96cfbb5b5ce0685c65da1fcb1bf83095ed594402f6744fb2551c171d31d07b2",
+      "title": "Yadda 3.0.0: BDD-testframework aangepast voor het tijdperk van AI-agents",
+      "summary": "Het testframework Yadda kreeg een nieuwe versie die is toegesneden op het gebruik van AI-coding agents binnen behavior-driven development. Het betreft een technische tool-update voor softwareontwikkelaars.",
+      "url": "http://www.stephen-cresswell.com/2026/08/15/Yadda-3.0.0-BDD-in-the-Age-of-AI-Agents.html",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-15T13:43:46Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "open-source"
+      ],
+      "importance": 1,
+      "why_relevant": "Technische tool-update, marginaal relevant voor AI-volgers met ontwikkelachtergrond.",
+      "also_covered_by": []
+    },
+    {
+      "id": "3b81110dcd9b3a7b4bc1d0c207caf573e1376e879f67abb41f902421726d952d",
+      "title": "CORS Chat: tool om lokale AI-chatendpoints te testen",
+      "summary": "Ontwikkelaar Simon Willison bouwde een webinterface om OpenAI-Responses-compatibele chat-endpoints te testen, onder meer lokaal draaiende modellen via LM Studio. De tool rendert onder andere SVG-afbeeldingen live terwijl ze worden gegenereerd.",
+      "url": "https://simonwillison.net/2026/Aug/15/cors-chat/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-08-15T14:49:54+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "open-source"
+      ],
+      "importance": 1,
+      "why_relevant": "Handige ontwikkelaarstool voor het testen van lokale AI-chatendpoints.",
+      "also_covered_by": []
+    },
+    {
+      "id": "5d59f7def92b10209dada855bf39477bd9295f049157cd53d14fde15ac3c5c32",
+      "title": "Lachen om AI door zelf een chatbot te spelen",
+      "summary": "De browsergame 'Your AI Slop Bores Me' laat mensen om beurten een verzoek indienen of, binnen 150 seconden, als AI-chatbot antwoorden. Het is een luchtige, satirische manier om te reflecteren op hoe AI-antwoorden aanvoelen.",
+      "url": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-08-15T16:45:00-04:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico"
+      ],
+      "importance": 1,
+      "why_relevant": "Speelse manier om na te denken over de aard van AI-gegenereerde antwoorden.",
+      "also_covered_by": []
+    }
+  ]
+}
