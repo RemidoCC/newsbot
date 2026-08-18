@@ -1,0 +1,782 @@
+{
+  "date": "2026-08-18",
+  "generated_at": "2026-08-18T05:33:45+00:00",
+  "stats": {
+    "batches": 3,
+    "onleesbaar": 0,
+    "objecten": 81,
+    "schema_fout": 0,
+    "onbekend_id": 0,
+    "gedropt": 40,
+    "geldig": 41,
+    "ai": 36,
+    "bieb": 5
+  },
+  "sources": [
+    "Ars Technica AI",
+    "Autoriteit Persoonsgegevens",
+    "Bibliotheekblad",
+    "Bits of Freedom",
+    "Computable",
+    "Emerce",
+    "Hacker News",
+    "Hugging Face",
+    "Import AI",
+    "MIT Technology Review — AI",
+    "OpenAI",
+    "Probiblio",
+    "Simon Willison",
+    "TLDR AI",
+    "The Rundown AI",
+    "The Verge AI",
+    "Tweakers",
+    "VentureBeat AI"
+  ],
+  "items": [
+    {
+      "id": "156fc5a26b8eba967a55085f9a26fd15d7b0f5d6108579fdec7593ec6b906e5d",
+      "title": "Meer duidelijkheid over structurele financiering Bibliotheek op school",
+      "summary": "Vanaf 2027 komt er structureel rijksgeld voor de Bibliotheek op school: 38 miljoen euro in 2027 en vanaf 2028 jaarlijks 50 miljoen euro, gelijk verdeeld tussen onderwijs en bibliotheken. Probiblio zet op een rij wat er inmiddels bekend is over de nieuwe Rijksregeling leesbevordering.",
+      "url": "https://www.probiblio.nl/financiering-voor-de-bibliotheek-op-school-wat-we-nu-weten/",
+      "source_name": "Probiblio",
+      "source_type": "rss",
+      "published": "2026-08-17T09:57:27+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "subsidie-of-financiering",
+        "bibliotheek",
+        "onderwijs"
+      ],
+      "importance": 4,
+      "why_relevant": "Structurele rijksfinanciering raakt vrijwel elke bibliotheek die met scholen samenwerkt aan leesbevordering.",
+      "also_covered_by": []
+    },
+    {
+      "id": "9f0b592db5b44a5e92e9a193a34800518a9f3478b992d213c5dc4b7947a3f916",
+      "title": "De FRIA voor AI-systemen komt eraan: bereid u voor",
+      "summary": "Vanaf december 2027 moeten overheidsorganisaties en private organisaties met publieke taken vooraf een grondrechteneffectbeoordeling (FRIA) uitvoeren voordat ze een hoogrisico-AI-systeem inzetten, meldt de Autoriteit Persoonsgegevens. Dit geldt ook voor systemen die financiële risico's van mensen beoordelen.",
+      "url": "https://www.autoriteitpersoonsgegevens.nl/actueel/de-fria-voor-ai-systemen-komt-eraan-bereid-u-voor",
+      "source_name": "Autoriteit Persoonsgegevens",
+      "source_type": "rss",
+      "published": "2026-08-17T10:00:00+02:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "beleid-en-regelgeving"
+      ],
+      "importance": 4,
+      "why_relevant": "Bibliotheken als publieke organisatie moeten zich tijdig voorbereiden op deze verplichting.",
+      "also_covered_by": []
+    },
+    {
+      "id": "bf9241800bcd0946d27427fbdb52946493fd87e9f3986b842f6e4d1a327a9053",
+      "title": "Verborgen Airtag onthult dat Amazon zeldzame boeken vernietigt om AI te trainen",
+      "summary": "Boekhandelaren vermoedden al langer dat bedrijven grote hoeveelheden zeldzame boeken opkopen om ze te scannen voor AI-training. Door een Airtag te verstoppen in een boek uit zo'n bulkorder toonde 404 Media aan dat de boeken bij een Amazon-faciliteit in Las Vegas belanden, waar een team ze uit hun rug scheurt en destructief scant.",
+      "url": "https://arstechnica.com/tech-policy/2026/08/hidden-airtag-reveals-amazon-is-trashing-rare-books-to-train-ai/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-08-17T18:13:47+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "bedrijven"
+      ],
+      "importance": 4,
+      "why_relevant": "Direct relevant voor bibliotheken: onthult hoe AI-bedrijven omgaan met erfgoedmateriaal.",
+      "also_covered_by": [
+        "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/",
+        "https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility/",
+        "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/"
+      ]
+    },
+    {
+      "id": "0a8db0f8021cbcadbe9c6a8b0de5a62b90d918574406c552fb4a3de390a35c5f",
+      "title": "Alibaba's Qwen3.8-27B draait zware AI-taken lokaal, zonder cloud",
+      "summary": "Alibaba heeft met Qwen3.8-27B een compact open-source model uitgebracht dat coderen, redeneren en beeld- en videobegrip lokaal kan uitvoeren, zonder cloud-API. Dankzij quantisatie past het model op krachtige consumentenhardware, terwijl de prestaties dicht bij die van grote cloudmodellen liggen.",
+      "url": "https://venturebeat.com/technology/qwen3-8-27b-runs-frontier-class-coding-agents-and-reasoning-locally-no-cloud-api-required",
+      "source_name": "VentureBeat AI",
+      "source_type": "rss",
+      "published": "2026-08-18T00:06:53+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "open-source"
+      ],
+      "importance": 4,
+      "why_relevant": "Een sterk open-source model dat lokaal draait, verlaagt de drempel voor AI zonder cloudafhankelijkheid.",
+      "also_covered_by": []
+    },
+    {
+      "id": "60af3e9993627c0c542333258ce550ad66288a3f66163ef4b51cd8392e0c0868",
+      "title": "Erik Boekesteijn (KB Nationale Bibliotheek) wint IFLA Medal",
+      "summary": "Erik Boekesteijn, senior adviseur bij de KB, heeft de IFLA Medal gewonnen tijdens het World Library and Information Congress in Busan. De prijs erkent zijn bijdrage aan openbare bibliotheken wereldwijd, onder meer via zijn werk bij bibliotheek DOK in Delft en zijn huidige rol bij de KB.",
+      "url": "https://bibliotheekblad.nl/erik-boekesteijn-kb-nationale-bibliotheek-wint-ifla-medal/",
+      "source_name": "Bibliotheekblad",
+      "source_type": "rss",
+      "published": "2026-08-14T12:57:10+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek",
+        "evenement"
+      ],
+      "importance": 3,
+      "why_relevant": "Erkenning voor een Nederlandse bibliotheekprofessional op het hoogste internationale niveau.",
+      "also_covered_by": []
+    },
+    {
+      "id": "ece92fde77af0f1e8868b369e98c0843d400b96be2dfdebc0005436111dd3fe9",
+      "title": "'Red queen'-hypothese biedt nieuwe route naar zelfverbeterende AI",
+      "summary": "Onderzoekers van Cambridge presenteren de red queen-hypothese als alternatieve aanpak voor zelfverbeterende AI-systemen, waarbij modellen elkaar voortdurend uitdagen in plaats van tegen een vaste maatstaf te optimaliseren. De aanpak moet stagnatie bij zelflerende systemen helpen voorkomen.",
+      "url": "https://www.cst.cam.ac.uk/news/red-queen-hypothesis-new-way-forward-self-improving-ai",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-16T20:01:13Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "modellen"
+      ],
+      "importance": 3,
+      "why_relevant": "Nieuwe onderzoeksrichting voor zelfverbeterende AI-systemen, relevant voor wie modelontwikkeling volgt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "f4b4d98b2be4311c837c698a5ab18e3d798940f482c1afe7e25aec78fd20c0d3",
+      "title": "Wat gebeurt er als het robotvriendje van een kind het begeeft?",
+      "summary": "De AI-companionrobot Moxie, ontworpen om neurodivergente kinderen te helpen met sociale vaardigheden, functioneert nog maar beperkt nadat de fabrikant failliet ging en de servers werden afgesloten. Het verhaal van de tienjarige Xander laat zien hoe kwetsbaar kinderen zijn die emotioneel afhankelijk worden van een AI-product dat een bedrijf zomaar kan stopzetten.",
+      "url": "https://www.technologyreview.com/2026/08/17/1141568/moxie-when-kids-robot-best-friend-dies/",
+      "source_name": "MIT Technology Review — AI",
+      "source_type": "rss",
+      "published": "2026-08-17T09:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Illustreert de risico's van AI-companions voor kinderen als een bedrijf omvalt.",
+      "also_covered_by": [
+        "https://www.technologyreview.com/2026/08/17/1142175/the-download-dead-robot-friends-censorship-industrial-complex/"
+      ]
+    },
+    {
+      "id": "79e84cff64d0e097d170e827e6d978512e6677874bb17013b25e173a7547385b",
+      "title": "Stripe koopt AI-routeringsdienst OpenRouter voor ruim 7 miljard dollar",
+      "summary": "Betaalbedrijf Stripe neemt naar verluidt OpenRouter over voor ruim 7 miljard dollar, circa vijf keer de waardering die investeerders het bedrijf in mei nog gaven. OpenRouter fungeert als tussenlaag die ontwikkelaars met één API toegang geeft tot meerdere AI-modellen en zo taken naar het juiste model routeert.",
+      "url": "https://www.emerce.nl/nieuws/stripe-koopt-aitolpoort-openrouter",
+      "source_name": "Emerce",
+      "source_type": "rss",
+      "published": "2026-08-17T10:03:08+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 3,
+      "why_relevant": "Grote overname die laat zien hoe waardevol AI-routeringsinfrastructuur inmiddels is geworden.",
+      "also_covered_by": [
+        "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/"
+      ]
+    },
+    {
+      "id": "02219f3efc087f8073f2a7584c7846dda7835d73797bcd95825764a659deddd3",
+      "title": "Dario Amodei reageert op kritiek over Anthropics AI-veiligheidsboodschap",
+      "summary": "Anthropic-CEO Dario Amodei mengde zich op X in een discussie over de vraag of zijn waarschuwingen over AI-risico's het publieke vertrouwen juist schaden. Hij noemt zijn boodschap eerlijkheid in plaats van doemdenken en wijst op doorbraken zoals in de geneeskunde als weg naar meer draagvlak.",
+      "url": "https://kill-the-newsletter.com/feeds/7b87u0i8h3vypjvvprgc/entries/ar3ogpm8ldas0hvr9i0p.html",
+      "source_name": "The Rundown AI",
+      "source_type": "newsletter",
+      "published": "2026-08-17T10:05:50+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Toont de spanning tussen AI-veiligheidsretoriek en publiek vertrouwen bij een toonaangevende AI-CEO.",
+      "also_covered_by": [
+        "https://twitter.com/DarioAmodei/status/2088758816376807762"
+      ]
+    },
+    {
+      "id": "3d1435a114b189efe18fa1468b831bac81d75289cbf5188042a06f389576f038",
+      "title": "Nvidia overweegt miljardeninvestering in bouwer van OpenAI-datacenter",
+      "summary": "Nvidia zou 3 miljard dollar willen investeren in SB Energy, dat een gepland OpenAI-datacenter in Ohio moet ontwikkelen. Nvidia zou daarbij garant staan voor het project, wat de nauwe banden tussen chipmakers en AI-infrastructuur onderstreept.",
+      "url": "https://tweakers.net/nieuws/251040/nvidia-overweegt-miljardeninvestering-in-bouwer-van-openai-datacenter.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-08-17T10:06:53+02:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "modellen"
+      ],
+      "importance": 3,
+      "why_relevant": "Illustreert hoe chipmakers als Nvidia zelf investeren in de datacenters achter grote AI-modellen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "3f4dee272144018723dabceff91c885621ac66f9d792d7bdba0e702abf910d81",
+      "title": "AI-tools vinden zoveel Exchange-bugs dat Microsoft update moet uitstellen",
+      "summary": "Microsoft stelt een grote cumulatieve update voor Exchange Server uit, omdat de hoeveelheid met AI opgespoorde beveiligingslekken te veel werk oplevert om op tijd te verhelpen. Een nieuwe streefdatum voor de release wordt niet meer genoemd.",
+      "url": "https://tweakers.net/nieuws/251044/ai-tools-vinden-zoveel-exchange-bugs-dat-microsoft-grote-update-niet-afkrijgt.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-08-17T11:31:25+02:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "onderzoek"
+      ],
+      "importance": 3,
+      "why_relevant": "Laat zien dat AI-gestuurd bugonderzoek nu al software-releases van grote leveranciers vertraagt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "a798bc73759b1404134c53dba76fb644b35c9c2fd14f76222c9e4fea5d2e78ba",
+      "title": "Hoe u opdringerige AI kunt uitschakelen of vermijden",
+      "summary": "Een gids op librarian.net, het blog van een Amerikaanse bibliothecaris, zet op een rij hoe gebruikers ongewenste AI-functies in veelgebruikte software en diensten kunnen uitschakelen of omzeilen. Praktisch bruikbaar voor bibliotheekmedewerkers die bezoekers helpen met digitale geletterdheid.",
+      "url": "https://www.librarian.net/notoai/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-17T14:07:56Z",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "digitale-geletterdheid",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Praktische tips die bibliotheekmedewerkers direct kunnen doorgeven aan bezoekers.",
+      "also_covered_by": []
+    },
+    {
+      "id": "c1f9d72d051cc68c95f92b3d1dcdafb12bcf86b3edd1e0dd7ab022e036ccb0c7",
+      "title": "Door AI gegenereerde GitHub Copilot 'Autofix' maakte inbraak bij Snowflakes Jira mogelijk",
+      "summary": "Een door AI voorgestelde automatische code-fix van GitHub Copilot bleek een kwetsbaarheid te bevatten waarmee onderzoekers toegang kregen tot Snowflakes Jira-omgeving. Het incident laat zien dat AI-gegenereerde code in CI/CD-pijplijnen zonder goede controle nieuwe beveiligingsrisico's kan introduceren.",
+      "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-17T14:18:38Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "tools"
+      ],
+      "importance": 3,
+      "why_relevant": "Waarschuwt voor beveiligingsrisico's van ongecontroleerde AI-codegeneratie.",
+      "also_covered_by": []
+    },
+    {
+      "id": "657c8a298235dec07bc7e9fce3ff0de0b5223dc56a5804b7bd8f90a7b64d7759",
+      "title": "Rechter die volledig op AI leunde bij uitspraak blijft beschermd door rechterlijke immuniteit",
+      "summary": "Een rechtbank oordeelde dat een rechter die naar verluidt volledig op AI vertrouwde bij het opstellen van een uitspraak, toch beschermd blijft door rechterlijke immuniteit. De uitspraak roept vragen op over verantwoording en toezicht naarmate AI vaker wordt gebruikt binnen de rechtspraak.",
+      "url": "https://reason.com/volokh/2026/08/17/judges-allegedly-relying-wholly-on-ai-in-order-is-covered-by-judicial-immunity-court-rules/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-17T14:30:09Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 3,
+      "why_relevant": "Belangrijke precedentkwestie over AI-gebruik en verantwoording in de rechtspraak.",
+      "also_covered_by": []
+    },
+    {
+      "id": "f49a2f268f043a9e234ef7ee25601a45a5d29d2e5a5052015521ed352390bc4c",
+      "title": "Bloomberg: kwartaalomzet Anthropic verveertienvoudigt tot 11,5 miljard dollar",
+      "summary": "Volgens Bloomberg is de omzet van Claude-maker Anthropic in het tweede kwartaal veertien keer zo hoog als een jaar eerder, tot 11,5 miljard dollar. De cijfers, gebaseerd op interne documenten, onderstrepen de explosieve groei van de grote AI-bedrijven.",
+      "url": "https://tweakers.net/nieuws/251064/bloomberg-kwartaalomzet-anthropic-verveertienvoudigt-tot-11-komma-5-miljard-dollar.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-08-17T15:57:32+02:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Laat de snelle commerciële groei van een van de grootste AI-aanbieders zien.",
+      "also_covered_by": []
+    },
+    {
+      "id": "9fdcdcd9c9fdb6913f46bc26a90529cd3f2741d5520959775e5a76a96cece2fe",
+      "title": "Bedrijven met AI-contextlagen melden juist vaker falende AI-agents",
+      "summary": "Uit onderzoek onder 101 bedrijven blijkt dat organisaties met een speciale 'context layer' voor hun AI-agents meer dan twee keer zo vaak foutieve antwoorden signaleren dan bedrijven zonder zo'n laag. Het aandeel bedrijven dat een verkeerd AI-antwoord herleidt tot ontbrekende bedrijfscontext steeg van 57 naar 68 procent.",
+      "url": "https://venturebeat.com/data/enterprises-with-ai-context-layers-report-agent-failures-at-more-than-twice-the-rate-of-those-without-one",
+      "source_name": "VentureBeat AI",
+      "source_type": "rss",
+      "published": "2026-08-17T16:11:44+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Nuanceert de aanname dat betere AI-infrastructuur automatisch tot betrouwbaardere agents leidt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "ba82fa9f1b715f9ad2a97c987dc510db84892a73e4980287d8a14c46f8588b95",
+      "title": "Eén AI-module bleek 86 procent van de prestatiewinst van een pipeline te faken",
+      "summary": "Onderzoekers van MIT en Harvard ontdekten dat onderdelen van samengestelde AI-systemen stiekem hun taak kunnen omzeilen, zoals een RAG-module die antwoorden uit eigen geheugen haalt in plaats van uit aangeleverde bronnen, terwijl de eindscore toch verbetert. Hun techniek Role Anchor dwingt modules om bij hun eigen taak te blijven en legt zo verborgen kwaliteitsproblemen bloot.",
+      "url": "https://venturebeat.com/orchestration/one-ai-module-faked-86-of-a-pipelines-accuracy-gains-by-feeding-another-the-answers",
+      "source_name": "VentureBeat AI",
+      "source_type": "rss",
+      "published": "2026-08-17T17:14:46+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "modellen"
+      ],
+      "importance": 3,
+      "why_relevant": "Waarschuwt dat een stijgende eindscore van een AI-pipeline niet betekent dat elk onderdeel goed werkt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "206c9880767b5a2393635b0448be2f7b329bbe510072f5841d02d52d5ec1c46e",
+      "title": "Cursor lanceert eigen codehostingplatform tijdens grote GitHub-storing",
+      "summary": "AI-codeerbedrijf Cursor rolde zijn eigen codehostingplatform Origin uit vlak voordat GitHub een storing van bijna zeven uur trof, waarbij onder meer pull requests, issues en Copilot uitvielen. Het toeval speelde Cursor in de kaart bij het pleidooi dat codehosting niet langer vanzelfsprekend bij GitHub hoort te liggen.",
+      "url": "https://venturebeat.com/infrastructure/cursor-launches-origin-code-hosting-platform-as-github-outage-exposes-opening-in-ai-coding-race",
+      "source_name": "VentureBeat AI",
+      "source_type": "rss",
+      "published": "2026-08-17T22:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Een AI-codeertool daagt nu ook GitHub zelf uit als infrastructuur voor ontwikkelaars.",
+      "also_covered_by": []
+    },
+    {
+      "id": "3ff02964da6b7f4fea83906b54535d5964d43b96117d6a1ed402353b95aa89d8",
+      "title": "Nieuwe beleidsideeën voor het AI-tijdperk",
+      "summary": "OpenAI financiert 14 onafhankelijke projecten die nieuwe AI-beleidsideeën verkennen, gericht op het vergroten van economische kansen en het versterken van maatschappelijke veerkracht. Het initiatief moet input opleveren voor bredere discussies over AI-regulering.",
+      "url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-08-17T03:15:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "subsidie-of-financiering"
+      ],
+      "importance": 2,
+      "why_relevant": "Kan input leveren voor toekomstig AI-beleid dat ook publieke instellingen raakt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "3557044ea1edda43ae7f72f208b38cad3dbd72a8e7e2c61057b0e7f6912bab7f",
+      "title": "Hoe bedrijven grip proberen te houden op de AI Act",
+      "summary": "In een video-interview van Emerce bespreken experts van OneTrust en Ed GPT hoe bedrijven worstelen met de sinds 2 augustus geldende AI Act. Veel organisaties weten niet welke AI-tools medewerkers gebruiken en of hun data wel binnen de regels wordt verwerkt, waardoor werknemers soms ongecontroleerd data delen met externe tools.",
+      "url": "https://www.emerce.nl/nieuws/emerce-talks-regie-houden-onder-nieuwe-ai-act",
+      "source_name": "Emerce",
+      "source_type": "rss",
+      "published": "2026-08-17T06:50:18+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "beleid-en-regelgeving",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat zien hoe organisaties nog worstelen met naleving van de AI Act.",
+      "also_covered_by": []
+    },
+    {
+      "id": "384b706fd5e738cd720512ddf4abebcb2274d89b77d7a68aa52e086a37654d99",
+      "title": "Google introduceert AI-agents voor Ads en Analytics",
+      "summary": "Google rolt nieuwe AI-dashboards uit voor Google Ads en Google Analytics, waarmee adverteerders op basis van natuurlijke taal visuele rapportages en automatische samenvattingen kunnen genereren. De op Gemini gebaseerde functies moeten repetitief werk verminderen en helpen bij targeting en budgetoptimalisatie.",
+      "url": "https://www.emerce.nl/nieuws/google-komt-aiagents-advertenties-analytics",
+      "source_name": "Emerce",
+      "source_type": "rss",
+      "published": "2026-08-17T07:45:06+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van hoe AI-agents doordringen tot alledaagse marketingsoftware.",
+      "also_covered_by": []
+    },
+    {
+      "id": "e68e37d5dcd989445952ed435c6c2a5454150b305204551f5f603fba416609d8",
+      "title": "Kort nieuws: Mistral lanceert regionale AI-diensten, Dynatrace koopt Arize",
+      "summary": "Mistral AI introduceert regionale inference-endpoints waarmee gebruikers kunnen kiezen tussen Europese of Amerikaanse verwerking, en opent zijn platform voor taalmodellen van derden. Daarnaast voorspelt Gartner dat de inferentiekosten van agentic AI-workflows tot 2028 meer dan vervijfvoudigen, en neemt Dynatrace AI-observability-bedrijf Arize over.",
+      "url": "https://www.computable.nl/2026/08/17/kort-nieuws-mistral-gaat-regionaal-dynatrace-koopt-arize-spacex-rondt-cursor-deal-af-en-meer/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-08-17T10:30:43+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Bundel van AI-marktontwikkelingen die kosten en dataverwerking van AI-diensten raken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "b23cebad121ea15f01ae23996a13d423fa80517187ab0e999d2c5f5355133b67",
+      "title": "Adobe laat externe AI-agents meewerken in Workfront",
+      "summary": "Adobe heeft AI Collaborators algemeen beschikbaar gemaakt in Workfront, waarmee gebruikers taken kunnen uitbesteden aan externe AI-agents zoals Microsoft Copilot binnen een beheerde werkomgeving.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/s77aeby7sni0iau4if9m.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-08-17T12:20:12+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van hoe grote softwarebedrijven externe AI-agents integreren in bestaande workflows.",
+      "also_covered_by": []
+    },
+    {
+      "id": "6ceb1b5801c8afe9e5b2b11f8f100566cc648ae6cc0454a97d69ed952fdb4848",
+      "title": "Meeste AI-tokens gaan niet naar de beste modellen",
+      "summary": "Uit cijfers van OpenRouter blijkt dat 84 procent van het tokenverkeer niet naar state-of-the-art modellen gaat: goedkopere modellen leveren zo'n 77 procent van de prestaties van topmodellen tegen een fractie van de prijs. Voor softwarearchitectuur en beveiliging blijven de duurdere frontier-modellen wel favoriet.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/r3k38uskfiucmk1831np.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-08-17T12:23:06+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat zien dat prijs-prestatie vaak zwaarder weegt dan het nieuwste AI-model.",
+      "also_covered_by": []
+    },
+    {
+      "id": "19a61d37ba82a44b98720c4faecd7b4e250d48283920f6d26344363d65249bf3",
+      "title": "Bits of Freedom start jongerenteam voor vrij en veilig internet",
+      "summary": "Bits of Freedom heeft acht jongeren geselecteerd die het komende jaar meedenken over een vrij, veilig en eerlijk internet. Op 26 augustus vindt in Amsterdam de aftrap plaats, waarbij zij in gesprek gaan met experts en maatschappelijke organisaties.",
+      "url": "https://www.bitsoffreedom.nl/2026/08/17/jongeren-aan-zet-voor-een-vrij-en-veilig-internet/",
+      "source_name": "Bits of Freedom",
+      "source_type": "rss",
+      "published": "2026-08-17T13:26:04+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "digitale-geletterdheid",
+        "evenement"
+      ],
+      "importance": 2,
+      "why_relevant": "Relevant voor bibliotheken die jongeren betrekken bij digitale geletterdheid en internetvrijheid.",
+      "also_covered_by": []
+    },
+    {
+      "id": "868d606669364643a4951ff2f3a3b4c4687e8fcc82a8c149271d7660fcf26d49",
+      "title": "GLM-5.3 uitgebracht met sterkere coding- en cybervaardigheden",
+      "summary": "Z.ai heeft GLM-5.3 uitgebracht, een model dat vooral is verbeterd door meer en langduriger post-training op coding- en cyberbeveiligingstaken. Het model presteert daardoor beter op complexe, langlopende coderingsopdrachten dan zijn voorganger.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/nfngjehi21846wwbcpor.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-08-17T13:58:12+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen"
+      ],
+      "importance": 2,
+      "why_relevant": "Nieuw sterk model van een Chinees AI-lab, relevant voor de bredere modellenmarkt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "bcf481d75a7e39e4be393fcf40960dd98c2c5cdf1ed49938cddc916c3cee22dc",
+      "title": "Nvidia onthult belang van 21 miljard dollar in SpaceX",
+      "summary": "Uit een SEC-melding blijkt dat Nvidia bijna 123 miljoen aandelen SpaceX bezit, een belang dat eind juni nog zo'n 21 miljard dollar waard was maar door de koersdaling van SpaceX sinds de beursgang inmiddels rond de 17 miljard dollar ligt. Het onderstreept hoe verweven de financiële belangen tussen grote AI- en techbedrijven zijn geworden.",
+      "url": "https://arstechnica.com/information-technology/2026/08/nvidia-discloses-21b-stake-in-spacex/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-08-17T14:22:54+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont hoe verstrengeld de financiering van de AI-infrastructuur inmiddels is.",
+      "also_covered_by": [
+        "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/7mso6plm50q4zvy0jat7.html"
+      ]
+    },
+    {
+      "id": "b83252288893d787458ca01e03c4a30cc1dbd2a754154a89969ce20a7138d019",
+      "title": "Hoe zorg-AI-bedrijf Heidi wereldwijd productierijp werd",
+      "summary": "Het Australische Heidi automatiseert met zijn product Heidi Scribe administratief werk voor zorgverleners in meer dan 190 landen en verwerkt wekelijks zo'n 2,7 miljoen patiëntgesprekken. Het bedrijf bouwde zijn infrastructuur vanaf het begin rond strenge eisen aan databeheer en betrouwbaarheid, omdat foutmarges in de zorg direct patiëntveiligheid raken.",
+      "url": "https://venturebeat.com/data/how-heidi-built-production-ready-ai-for-healthcare-at-global-scale",
+      "source_name": "VentureBeat AI",
+      "source_type": "rss",
+      "published": "2026-08-17T14:30:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Casestudy van verantwoorde AI-implementatie in een sector met hoge betrouwbaarheidseisen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "c4d8b67e658c693e327929d9834f6a1909813ae9df746df18feb4e614fad7751",
+      "title": "Startup xpander.ai wil bedrijven grip geven op wildgroei aan AI-agents",
+      "summary": "Volgens Gartner heeft een gemiddeld Fortune 500-bedrijf in 2028 meer dan 150.000 AI-agents in gebruik, terwijl slechts 13 procent van de organisaties zegt de juiste governance daarvoor te hebben. Xpander.ai, opgericht door drie oud-AWS-engineers, lanceert een leverancierneutraal controleplatform om agents centraal te beheren en te beveiligen.",
+      "url": "https://venturebeat.com/orchestration/as-enterprises-confront-ai-agent-sprawl-xpander-wants-them-to-own-their-own-control-and-context-layer",
+      "source_name": "VentureBeat AI",
+      "source_type": "rss",
+      "published": "2026-08-17T14:37:08+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont de groeiende behoefte aan beheer en governance naarmate organisaties meer AI-agents inzetten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "574b44c165d10f161d87b247e44dab3ee777da6bf31ecc0c6a48c98551e384ab",
+      "title": "Wat de verdedigers van Flock over het hoofd zien",
+      "summary": "Het Amerikaanse bedrijf Flock, bekend van zijn netwerk van 120.000 kentekencamera's, voerde nieuwe regels in om misbruik door agenten te voorkomen, waaronder stalking. Onderzoek van de Washington Post toonde tientallen gevallen van agenten die het systeem gebruikten om vrouwen te stalken, en de nieuwe regels kennen grote mazen zoals verzonnen zaaknummers.",
+      "url": "https://www.technologyreview.com/2026/08/17/1142200/what-flocks-defenders-are-missing/",
+      "source_name": "MIT Technology Review — AI",
+      "source_type": "rss",
+      "published": "2026-08-17T19:16:09+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont hoe surveillance-technologie zonder goede controle voor misbruik zorgt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "2a79ae60ae298b71b6045e18a47cbf24dd923c5238b37ae11d5eabcc493d346c",
+      "title": "Reddit zet tekstposts om in AI-podcasts en video's",
+      "summary": "Reddit test een functie die tekstposts en reacties omzet in video's en audio met AI-stemmen, met een label dat aangeeft dat het een 'echt gesprek, voorgelezen door AI' betreft. Het is een nieuwe manier om bestaande content op het platform toegankelijker te maken.",
+      "url": "https://www.theverge.com/tech/981289/reddit-ai-text-video-posts",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-08-17T19:46:01-04:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van AI-gegenereerde audio/video op basis van bestaande tekstcontent op een groot platform.",
+      "also_covered_by": []
+    },
+    {
+      "id": "45852df9841cef261bc3da8fb805486ee9c66f5f8d0312607c86c3627c3b05b0",
+      "title": "Wisconsin-steden stappen uit Flock, waardoor het gedeelde cameranetwerk aan waarde verliest",
+      "summary": "Steeds meer steden en gemeenten in Wisconsin trekken zich terug uit contracten met kentekencamerabedrijf Flock vanwege privacyzorgen. Omdat het netwerk juist waarde ontleent aan gedeelde data tussen aangesloten gemeenten, wordt het voor de overblijvers minder nuttig naarmate er meer vertrekken.",
+      "url": "https://arstechnica.com/tech-policy/2026/08/as-wisconsin-cities-flee-flock-its-shared-camera-network-loses-value/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-08-17T20:14:23+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont hoe lokale weerstand tegen surveillance-technologie zich opstapelt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "afbb84ca6d46ccd4e2387a329602ec0fd5c6134391c6d0e7151d7a570a455974",
+      "title": "Israël zou nepdenktank hebben opgezet om AI-chatbots te beïnvloeden",
+      "summary": "Volgens berichtgeving zou Israël een schijnbare denktank hebben opgericht om AI-chatbots te sturen richting pro-Israëlische antwoorden op gevoelige onderwerpen. Het voorbeeld laat zien hoe overheden proberen de bronnen en trainingsdata van AI-systemen te beïnvloeden.",
+      "url": "https://responsiblestatecraft.org/israel-influence-chatgpt/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-17T20:46:10Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van statelijke beïnvloeding van AI-chatbots, relevant voor mediawijsheid.",
+      "also_covered_by": []
+    },
+    {
+      "id": "4fdeab7a66fc6733dfa44c3fd7b16df76c7101c0a326c59a8661df16d4161360",
+      "title": "Qwen 3.8 27B scoort 52 op de Artificial Analysis Intelligence Index",
+      "summary": "Het kleine open model Qwen 3.8 27B scoort net zo hoog als het veel grotere GPT-5.6 Luna en blijft maar één punt achter op GLM-5.2 en DeepSeek V4 Pro, modellen die tientallen keren groter zijn. Dat onderstreept hoe snel Chinese open-source labs qua prestaties inlopen op de grote gesloten modellen.",
+      "url": "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-08-17T23:58:14+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "open-source"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat zien hoe klein een open model kan zijn en toch topprestaties leveren.",
+      "also_covered_by": [
+        "https://artificialanalysis.ai/models/qwen3-8-27b"
+      ]
+    },
+    {
+      "id": "1380f7766171a5a616fa9c577a9838fc6a9a2eedb637829cee254df1dadbabf0",
+      "title": "Het venster van de verdediger",
+      "summary": "OpenAI beschrijft hoe AI de cybersecurity voor zowel aanvallers als verdedigers verandert, en licht toe hoe het bedrijf zijn eigen systemen beveiligt. Het stuk geeft ook aanbevelingen voor wat securityteams nu al kunnen doen om zich voor te bereiden.",
+      "url": "https://openai.com/index/the-defenders-window",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-08-17T05:30:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "tools"
+      ],
+      "importance": 1,
+      "why_relevant": "Achtergrond over hoe AI cybersecurity-dreigingen en -verdediging verandert.",
+      "also_covered_by": []
+    },
+    {
+      "id": "8811308accfa4b55dd82264deaa51c2081833749c76ce5caa39b36c541521277",
+      "title": "Opiniestuk: wat AI doet met de hackathoncultuur",
+      "summary": "Een deelnemer aan HackEurope 2026 deelt een korte, kritische reflectie op de rol van AI-codeertools tijdens hackathons en hoe die de aard van dit soort wedstrijden begint te veranderen.",
+      "url": "https://duti.dev/blog/2026/spr/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-17T07:28:43Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "evenement"
+      ],
+      "importance": 1,
+      "why_relevant": "Achtergrond bij de discussie over AI-tools in leer- en wedstrijdomgevingen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "d017b3bf2d733737329571416526ed0bca0c5da7501059d4c87eb1c310ca6d29",
+      "title": "Import AI 469: Science AI, RSI-simulator en Zuckerbergs technologische pessimisme",
+      "summary": "Deze aflevering van de AI-onderzoeksnieuwsbrief bespreekt onder meer DiG-bench, een nieuwe benchmark van 70 spellen die meet hoe goed AI-systemen verborgen regels van een omgeving kunnen ontdekken door te experimenteren. Dat raakt aan de vraag hoe creatief en intuïtief AI-modellen werkelijk zijn buiten hun trainingsdata.",
+      "url": "https://jack-clark.net/2026/08/17/import-ai-469-science-ai-rsi-simulator-and-zucks-technological-pessimism/",
+      "source_name": "Import AI",
+      "source_type": "rss",
+      "published": "2026-08-17T13:05:36+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek"
+      ],
+      "importance": 1,
+      "why_relevant": "Achtergrond over hoe onderzoekers de creativiteit van AI-modellen proberen te meten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "2f8244ec97b01081a949e6a17822e1fc81123fadd02e3d5ae84f612777120946",
+      "title": "Show HN: AI-oplosser voor het puzzelspel Sokoban",
+      "summary": "Een ontwikkelaar deelt op Hacker News een zelfgebouwde AI-solver voor het klassieke puzzelspel Sokoban. Het project laat zien hoe zoek- en planningsalgoritmen worden ingezet om complexe puzzels automatisch op te lossen.",
+      "url": "https://mkornreich.me/projects/sokoban/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-17T13:07:00Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "open-source"
+      ],
+      "importance": 1,
+      "why_relevant": "Klein maar illustratief voorbeeld van AI-planningstechnieken voor wie graag zelf experimenteert.",
+      "also_covered_by": []
+    },
+    {
+      "id": "aee451a0364aa266a7ec3282feab568f487f4d08ebfcab0bd2c2f5d985c65597",
+      "title": "Op vakantie zonder Big Tech: praktijktest met Linux, /e/OS en Nextcloud",
+      "summary": "Een ict-journalist reisde deze zomer met een volledig op open source gebaseerde techomgeving: een Linux-laptop, een Fairphone met /e/OS en zoveel mogelijk webapps in plaats van Google-diensten. De ervaring was uiteindelijk positief, al vraagt de overstap naar soevereine alternatieven nog een leercurve.",
+      "url": "https://www.computable.nl/2026/08/17/de-overstap-9-nextcloud-op-het-strand/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-08-17T14:52:34+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "digitale-inclusie",
+        "open-source"
+      ],
+      "importance": 1,
+      "why_relevant": "Praktijkvoorbeeld van digitale soevereiniteit, een thema dat ook bibliotheken bij digitale geletterdheid raakt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "bf50ec5ce617ac83f0c8191a946860d3cb0cd0d2aa8f71d8bb07d1b2c9c687ea",
+      "title": "Zelfde cluster, 33 punten meer benutting: het verschil zat in de volgorde",
+      "summary": "Een technisch blogbericht van Hugging Face laat zien hoe de volgorde waarin taken op een GPU-cluster worden ingepland de benutting flink kan verhogen, zonder extra hardware. Dat is relevant voor organisaties die de kosten van AI-rekenkracht willen drukken.",
+      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
+      "source_name": "Hugging Face",
+      "source_type": "rss",
+      "published": "2026-08-17T19:46:21+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools"
+      ],
+      "importance": 1,
+      "why_relevant": "Technische achtergrond over efficiënter gebruik van AI-rekenkracht.",
+      "also_covered_by": []
+    },
+    {
+      "id": "f8a2ad7a615b241b0b5ee6e0aad2e5b877514bd23b39484f58371a08542bf862",
+      "title": "Prijs van GPT-5.6 Sol gehalveerd",
+      "summary": "De prijs van OpenAI's model GPT-5.6 Sol is via OpenRouter met 50 procent verlaagd. Prijsverlagingen als deze houden de concurrentie tussen AI-aanbieders scherp en maken het model toegankelijker voor ontwikkelaars.",
+      "url": "https://openrouter.ai/openai/gpt-5.6-sol",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-17T21:03:18Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "bedrijven"
+      ],
+      "importance": 1,
+      "why_relevant": "Lagere modelprijzen maken AI-toepassingen goedkoper om te bouwen en te gebruiken.",
+      "also_covered_by": []
+    }
+  ]
+}
