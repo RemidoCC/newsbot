@@ -107,5 +107,12 @@
     "stage": "collect",
     "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.ifla.org/rss.xml'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "url": "https://www.ifla.org/news/feed/"
+  },
+  {
+    "ts": "2026-08-19T05:21:46+00:00",
+    "source": "IFLA",
+    "stage": "collect",
+    "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.ifla.org/rss.xml'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
+    "url": "https://www.ifla.org/news/feed/"
   }
 ]
