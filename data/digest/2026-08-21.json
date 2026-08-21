@@ -1,0 +1,661 @@
+{
+  "date": "2026-08-21",
+  "generated_at": "2026-08-21T05:34:18+00:00",
+  "stats": {
+    "batches": 2,
+    "onleesbaar": 0,
+    "objecten": 63,
+    "schema_fout": 0,
+    "onbekend_id": 0,
+    "gedropt": 28,
+    "geldig": 35,
+    "ai": 33,
+    "bieb": 2
+  },
+  "sources": [
+    "Ars Technica AI",
+    "Autoriteit Persoonsgegevens",
+    "Computable",
+    "Emerce",
+    "Hacker News",
+    "Hugging Face",
+    "MIT Technology Review — AI",
+    "OpenAI",
+    "Probiblio",
+    "SPN (Stichting Samenwerkende POI's Nederland)",
+    "Simon Willison",
+    "TLDR AI",
+    "The Rundown AI",
+    "The Verge AI",
+    "Tweakers",
+    "VentureBeat AI"
+  ],
+  "items": [
+    {
+      "id": "cc9ad7bb3073855d2bd07e81e7f8c9951c4780108be103a6f413e8fd824f4231",
+      "title": "Week van het Verboden Boek keert terug van 19 t/m 27 september 2026",
+      "summary": "Na een succesvolle eerste editie organiseren Probiblio, CPNB, PEN Nederland en andere partners opnieuw de Week van het Verboden Boek, gericht op censuur en vrije toegang tot boeken en informatie. Bibliotheken en boekhandels kunnen meedoen via een toolkit en hun activiteiten aanmelden.",
+      "url": "https://www.probiblio.nl/week-van-het-verboden-boek-keert-terug-van-19-tm-27-september-2026/",
+      "source_name": "Probiblio",
+      "source_type": "rss",
+      "published": "2026-08-18T07:23:06+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek",
+        "evenement"
+      ],
+      "importance": 4,
+      "why_relevant": "Landelijke campagne waar bibliotheken zelf actief aan kunnen deelnemen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "c6c5dec69863d7672ba24b8a64f7c2dff4b4fed1fe1fa7aebace4ad5049d02fd",
+      "title": "PIN-onderzoek: hoe bibliotheekmedewerkers bezoekers helpen met printen en doorverwijzen",
+      "summary": "Het Platform Innovatie Netwerk van SPN publiceert de eerste onderzoeksresultaten over het werk van frontofficemedewerkers en vrijwilligers in elf bibliotheekvestigingen. Naast een volledig inzichtenrapport zijn er twee one-pagers over knelpunten bij printen en bij het doorverwijzen van digitale hulpvragers en taalleerders.",
+      "url": "https://www.stichtingspn.nl/nieuws/onderzoeksresultaten-pin-beschikbaar-inzichtenrapport-en-twee-one-pagers/",
+      "source_name": "SPN (Stichting Samenwerkende POI's Nederland)",
+      "source_type": "rss",
+      "published": "2026-08-20T07:10:11+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek",
+        "digitale-inclusie",
+        "onderzoek"
+      ],
+      "importance": 4,
+      "why_relevant": "Direct bruikbaar onderzoek over knelpunten in het dagelijkse bibliotheekwerk.",
+      "also_covered_by": []
+    },
+    {
+      "id": "a9e7d80754e6f186f92de6d15c8c5bab78734f682d79367822aee2c65d8767ea",
+      "title": "Grok lekt gebruikersdata via versleutelde prompt-injectie-aanval",
+      "summary": "Onderzoekers ontdekten een aanval waarbij versleutelde instructies Grok verleiden om chatgeschiedenis en andere persoonlijke gegevens van gebruikers te stelen, ondanks dat xAI hierover al in juni was ingelicht. Het incident volgt kort op een vergelijkbare aanval op Microsoft 365 Copilot en onderstreept dat taalmodellen prompt-injectie nog altijd niet structureel kunnen weren.",
+      "url": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-08-20T13:00:35+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico"
+      ],
+      "importance": 4,
+      "why_relevant": "Herhaald bewijs dat AI-assistenten kwetsbaar blijven voor datalekkende prompt-injectie.",
+      "also_covered_by": []
+    },
+    {
+      "id": "fb9780e541cd76ea83bd9f04dcf6ce3b5b5a6528e21b4fe163e4f719cc9342c0",
+      "title": "ChatGPT toont vanaf komende week advertenties in Nederland",
+      "summary": "OpenAI voert vanaf maandag gefaseerd advertenties in ChatGPT in, eerst via partnerbureaus voor Europese gebruikers. De advertenties worden getoond op basis van de context van het gesprek, wat volgens betrokken reclamebureaus anders werkt dan zoekmachine-advertenties.",
+      "url": "https://www.emerce.nl/nieuws/chatgpt-ads-start-nederland",
+      "source_name": "Emerce",
+      "source_type": "rss",
+      "published": "2026-08-21T04:06:25+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "bedrijven",
+        "tools",
+        "ethiek-en-risico"
+      ],
+      "importance": 4,
+      "why_relevant": "Advertenties in ChatGPT raken hoe gebruikers AI-antwoorden straks kunnen vertrouwen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "e72dac76e7253dd5f7b364f87e85c35f821d4231199e1a28283a215145eb1298",
+      "title": "Google geeft studenten wereldwijd een jaar gratis Gemini",
+      "summary": "Google biedt studenten wereldwijd een jaar lang gratis toegang tot Gemini: buiten de VS het Gemini AI Plus-abonnement, in de VS Gemini AI Pro. Daarbij introduceert het bedrijf ook nieuwe studiehulpmiddelen.",
+      "url": "https://tweakers.net/nieuws/251158/google-geeft-studenten-een-jaar-gratis-gemini.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-08-20T08:51:27+02:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "bedrijven",
+        "tools",
+        "onderwijs"
+      ],
+      "importance": 3,
+      "why_relevant": "Relevant voor bibliotheken die studenten adviseren over gratis AI-tools.",
+      "also_covered_by": []
+    },
+    {
+      "id": "5aa4b4ae85093c23af13554d23409688dfcc479de5639da73f22ec1aab5990a8",
+      "title": "Anthropics Claude zet eerste stappen in eiwitontwerp",
+      "summary": "Anthropic publiceerde onderzoek waarin Claude grotendeels zelfstandig een fase van het geneesmiddelenontwikkelingsproces uitvoerde door eiwitten te ontwerpen, met resultaten die ook in het laboratorium standhielden. Het volgt op eerdere uitspraken van CEO Dario Amodei dat Anthropics biologiewerk nog maanden van de eerste doorbraken verwijderd zou zijn.",
+      "url": "https://kill-the-newsletter.com/feeds/7b87u0i8h3vypjvvprgc/entries/py535r526qk9kwme8gqy.html",
+      "source_name": "The Rundown AI",
+      "source_type": "newsletter",
+      "published": "2026-08-20T10:08:17+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "modellen"
+      ],
+      "importance": 3,
+      "why_relevant": "Toont hoe AI-modellen zich uitbreiden naar wetenschappelijk onderzoek buiten software.",
+      "also_covered_by": []
+    },
+    {
+      "id": "450c6a798cf0d120f23678459a4df64f0e80f0ff9800dbb54190d28fea7fb015",
+      "title": "AP adviseert Twitch-gebruikers: zet delen van data met Amazon AI uit",
+      "summary": "Twitch gebruikt voortaan persoonsgegevens van gebruikers, zoals streams en afbeeldingen, om AI-modellen van moederbedrijf Amazon te trainen, met deze instelling standaard aangezet. De Autoriteit Persoonsgegevens roept gebruikers op deze instelling actief uit te zetten als ze dat niet willen.",
+      "url": "https://www.autoriteitpersoonsgegevens.nl/actueel/ap-adviseert-twitch-gebruikers-zet-instellingen-uit-voor-delen-van-data-met-amazon-ai",
+      "source_name": "Autoriteit Persoonsgegevens",
+      "source_type": "rss",
+      "published": "2026-08-20T11:00:00+02:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "beleid-en-regelgeving",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Directe privacywaarschuwing van de Nederlandse toezichthouder over AI-training met persoonsgegevens.",
+      "also_covered_by": [
+        "https://tweakers.net/nieuws/251172/twitch-gebruikers-moeten-datadelen-met-amazon-ai-uitzetten-adviseert-ap.html"
+      ]
+    },
+    {
+      "id": "b3a866d140928ce3aba608a7e95d7139bdab3e3700f775a7a1559f3aac08179e",
+      "title": "Greg Brockman groeit uit tot de machtigste man binnen OpenAI",
+      "summary": "Na een roerig jaar met rechtszaken, vertrekkende topmensen en de voorbereiding op een beursgang blijkt OpenAI-president Greg Brockman stilletjes steeds meer macht te hebben verzameld. Hij speelt al sinds de oprichting een centrale rol bij het bouwen van OpenAI's technologie.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-08-20T11:45:55-04:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Achtergrond bij de machtsverhoudingen binnen een van de belangrijkste AI-bedrijven.",
+      "also_covered_by": []
+    },
+    {
+      "id": "bee0c58b335fecad82d7cb271e390ef56fc64f74e851dba6981b629fbba57244",
+      "title": "Discussie over AI-bewustzijn leidt af van verantwoordelijkheid van bedrijven",
+      "summary": "Volgens MIT Technology Review dient de discussie over 'bewuste' of 'rogue' AI-systemen vooral om techbedrijven te ontslaan van aansprakelijkheid voor de schade die hun modellen veroorzaken. Zowel voorstanders van strenge regulering als voorvechters van 'AI-rechten' framen AI als te geavanceerd om nog controleerbaar te zijn.",
+      "url": "https://www.technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap/",
+      "source_name": "MIT Technology Review — AI",
+      "source_type": "rss",
+      "published": "2026-08-20T15:42:39+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Waarschuwt tegen framing die AI-bedrijven vrijpleit van verantwoordelijkheid.",
+      "also_covered_by": []
+    },
+    {
+      "id": "151d2ef64da824b8e0434944f00c2099423c5c3c525e314504121628694a5431",
+      "title": "Een op de vijf bedrijven kan uitgaven van AI-agents niet direct stopzetten",
+      "summary": "Onderzoek onder ruim honderd bedrijven laat zien dat organisaties vaak meerdere AI-orkestratieplatforms tegelijk gebruiken, mede uit wantrouwen richting de controle- en beveiligingsmogelijkheden van één leverancier. Veel bedrijven hebben nog onvoldoende zicht op en grip op de kosten die AI-agents maken.",
+      "url": "https://venturebeat.com/orchestration/one-in-five-enterprises-cant-stop-a-runaway-ai-agents-spending-in-real-time",
+      "source_name": "VentureBeat AI",
+      "source_type": "rss",
+      "published": "2026-08-20T19:57:01+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Illustreert risico's rond controle en kosten bij groeiend gebruik van AI-agents.",
+      "also_covered_by": []
+    },
+    {
+      "id": "8e75bf392f17adf8d0431b4444d1382d2e54302b3722c970e6f817b6c8f517fd",
+      "title": "Oproep: scan zeldzame boeken voordat AI-bedrijven ze vernietigen",
+      "summary": "Anna's Archive waarschuwt dat AI-bedrijven fysieke boeken vernietigen bij het digitaliseren voor trainingsdata, en roept op om zeldzame boeken met voorrang te scannen en bewaren voordat ze verloren gaan. De oproep raakt de kern van erfgoedbehoud waar bibliotheken en archieven zich mee bezighouden.",
+      "url": "https://annas-archive.gl/blog/physical-destruction.html",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-21T02:37:47Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "bibliotheek"
+      ],
+      "importance": 3,
+      "why_relevant": "Boekbehoud en erfgoedzorg raken direct de kerntaak van bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "464d388e3bee0adb71e1d1c3dd082105ca5212d5ee6cfbbbbbbd0330af586bce",
+      "title": "Verlies van Alibaba's AI-tak verviervoudigt, ondanks groei van Qwen",
+      "summary": "Alibaba's AI-divisie zag het verlies in een jaar tijd oplopen tot twee miljard dollar door zware investeringen, terwijl de omzet met zestien procent groeide. Het bedrijf brengt met Qwen open-weight modellen uit, in tegenstelling tot gesloten modellen als GPT, Claude en Gemini.",
+      "url": "https://www.emerce.nl/nieuws/verlies-alibabas-ai-tak-verviervoudigt-qwen-omarmd",
+      "source_name": "Emerce",
+      "source_type": "rss",
+      "published": "2026-08-21T04:21:07+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "modellen",
+        "open-source"
+      ],
+      "importance": 3,
+      "why_relevant": "Laat zien hoe een grote speler concurreert met open-source AI-modellen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "fc1a9abd82b35a9c86d54b1fb0f68bd137a90ec86cea086cc68200bb6a148bdd",
+      "title": "OpenAI start blog 'AI Futures' over impact van AI op macht en samenleving",
+      "summary": "OpenAI lanceert een nieuwe blogreeks, AI Futures, die verkent hoe verregaande AI-ontwikkeling de verdeling van macht, bestuur, de economie en individuele vrijheid kan veranderen.",
+      "url": "https://openai.com/index/introducing-ai-futures",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-08-20T07:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "onderzoek"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont hoe een grote AI-speler zelf nadenkt over maatschappelijke impact van AI.",
+      "also_covered_by": []
+    },
+    {
+      "id": "960bd3e664ffb6070de67185cff55616f28260120ae4eaab53ea8264b86ef13c",
+      "title": "Onderzoekers passen ACID-databaseprincipes toe op AI-agents",
+      "summary": "Een nieuw onderzoek behandelt meerstaps-taken van AI-agents als databasetransacties, met validatie, isolatie van mislukte pogingen en behoud van consistente status, geïnspireerd op ACID-garanties uit databases. De aanpak presteerde tot 10,6 procent beter dan Claude Code op een benchmark voor data-agents.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/33vroqecx89ocvatkb6c.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-08-20T10:18:41+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "modellen"
+      ],
+      "importance": 2,
+      "why_relevant": "Nieuwe architectuuraanpak kan betrouwbaarheid van AI-agents structureel verbeteren.",
+      "also_covered_by": []
+    },
+    {
+      "id": "f15b3dc0fca8b7e86185ccaa8259b26005aab8597347bd9758f5d1c59671999a",
+      "title": "AI-techniek van Google schat lichaamsvet nauwkeurig met gewone foto's",
+      "summary": "Google ontwikkelde PhotoScan AI, dat lichaamsvetpercentage inschat op basis van gewone smartphonefoto's, naar verluidt nauwkeuriger dan wearables. De techniek zou ook signalen van insulineresistentie kunnen herkennen, een vroege voorbode van diabetes.",
+      "url": "https://tweakers.net/nieuws/251164/ai-techniek-van-google-kan-lichaamsvet-nauwkeurig-inschatten-met-gewone-fotos.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-08-20T10:24:45+02:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van AI-toepassing in gezondheidszorg buiten de gebruikelijke chatbot.",
+      "also_covered_by": []
+    },
+    {
+      "id": "10bd07a680b1c9ea09346c177ba378319c3fc5b11865c5aac6860f74425a8951",
+      "title": "Stripe claimt dat 'de singulariteit' op 1 januari is begonnen",
+      "summary": "Betaalbedrijf Stripe stelt dat de technologische singulariteit al op 1 januari van start is gegaan, en zegt daarom liever privaat te blijven om zonder verwatering te kunnen investeren en overnames te doen. De uitspraak markeert hoe stellig sommige techbedrijven inmiddels over AI-vooruitgang communiceren.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/texs0s3x70vq8pqc575c.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-08-20T10:52:35+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van hoe grote techbedrijven AI-vooruitgang framen richting investeerders.",
+      "also_covered_by": []
+    },
+    {
+      "id": "d18808a6ba61703fe6b468d6469d78b2b2fa1d31a0a496417f98c0522ea95543",
+      "title": "AI vergrootte de waarde van junior developers, stelt blogpost",
+      "summary": "Een softwareontwikkelaar betoogt dat AI-codeertools de waarde van junior engineers niet hebben ondermijnd maar juist vergroot, omdat zij sneller kunnen leren en meer kunnen bijdragen met hulp van AI. Het artikel gaat in tegen het narratief dat instapfuncties in de sector door AI verdwijnen.",
+      "url": "https://franciscotrindade.me/blog/the-kids-are-really-alright/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-20T11:42:20Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "arbeidsmarkt"
+      ],
+      "importance": 2,
+      "why_relevant": "Weerlegt de zorg dat AI instapbanen in softwareontwikkeling wegvaagt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "9d9bd9c96c1b3fb6e537f68f4f429cc661e3de4a571e63de25fd7da853c43c4b",
+      "title": "Onderzoek: AI vergroot in plaats van verkleint werklast IT-teams",
+      "summary": "Nieuw onderzoek van SolarWinds laat zien dat 84 procent van de ondervraagden vindt dat AI-tools, bedoeld om IT-servicemanagement te vereenvoudigen, in de praktijk juist voor extra werk zorgen. Dit relativeert de belofte dat AI automatisch tijd en capaciteit bij IT-teams vrijmaakt.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/njw1wdyietejo4jigejv.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-08-20T12:29:49+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "arbeidsmarkt"
+      ],
+      "importance": 2,
+      "why_relevant": "Nuanceert de belofte dat AI werkdruk bij technische teams verlaagt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "2a3a16d8f0d8446b0c81c578dad2686a541e52a43c67fad257f9e58a30c56893",
+      "title": "Gezichtsherkenningsdienst ClarityCheck lekte miljoenen foto's van gezichten",
+      "summary": "Beveiligingsonderzoeker Jeremiah Fowler ontdekte dat het reverse-image-searchbedrijf ClarityCheck ruim 9 miljoen foto's, waaronder gezichten van kinderen, publiekelijk toegankelijk had staan in een onbeveiligde Amazon S3-bucket. Ook e-mailadressen en telefoonnummers van gebruikers lagen open, ondanks de belofte dat zoekopdrachten 'privé en veilig' zijn.",
+      "url": "https://arstechnica.com/gadgets/2026/08/reverse-lookup-service-exposed-millions-of-photos-of-peoples-faces/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-08-20T13:29:54+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat risico's zien van AI-gedreven gezichtsherkenning en dataopslag.",
+      "also_covered_by": []
+    },
+    {
+      "id": "543a9ab8d5c39846d62c183e80c43d58ebee91b0a1cfa9678f77ce8fd83b4f0f",
+      "title": "Meta's videomodel Muse Video nu in gesloten bèta",
+      "summary": "Meta's nieuwe generatieve videomodel Muse Video is in gesloten bèta gegaan en bevat native audio. Vroege voorbeelden tonen tien seconden durende video's met opvallend veel detail en temporele consistentie.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/dmop67ofnft165cdzgcy.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-08-20T13:44:39+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen"
+      ],
+      "importance": 2,
+      "why_relevant": "Nieuwe grote speler in AI-videogeneratie naast bestaande tools.",
+      "also_covered_by": []
+    },
+    {
+      "id": "98280bf50824aae7b2c5d09c6cb03835cb3160948f412d8d3de4504e1a64fa71",
+      "title": "SpaceX' ruimte-datacenters voor AI zouden nieuw soort ruimteafval creëren",
+      "summary": "Elon Musks plan voor een megaconstellatie van AI-datacenter-satellieten zou jaarlijks tienduizenden satellieten met verouderde GPU's opleveren, die deels verbranden in de atmosfeer en deels als afval de ruimte in worden geduwd. Critici wijzen op milieurisico's, waaronder mogelijke ozonaantasting door verbrandend aluminium.",
+      "url": "https://arstechnica.com/science/2026/08/spacexs-orbital-data-centers-would-create-a-new-category-of-e-waste/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-08-20T13:59:50+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont onvoorziene milieukosten van de groeiende vraag naar AI-rekenkracht.",
+      "also_covered_by": []
+    },
+    {
+      "id": "040c182e58e5261d5b68145daca083a07d0021fe8c65abd1d18c6d2dce7321fc",
+      "title": "Oprichter van robotbouwer Unitree wordt in één dag 13 miljard dollar rijker",
+      "summary": "Na een beursgang in Shanghai steeg het aandeel van de Chinese humanoïde-robotbouwer Unitree met 460 procent, waardoor het bedrijf zo'n 50 miljard dollar waard werd en oprichter Wang Xingxing in één dag 13 miljard dollar rijker werd. Het is de eerste zuivere humanoïde-robotmaker die in vasteland-China naar de beurs gaat.",
+      "url": "https://kill-the-newsletter.com/feeds/7b87u0i8h3vypjvvprgc/entries/4lqv8zbadtog474lla27.html",
+      "source_name": "The Rundown AI",
+      "source_type": "newsletter",
+      "published": "2026-08-20T14:32:47+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Illustreert de explosieve investeerdersinteresse in AI-gedreven robotica.",
+      "also_covered_by": []
+    },
+    {
+      "id": "52ead41418f0977ef3d0f2194946e603e0c7d97dd48d7b6cdb89ce1c9f8cafa2",
+      "title": "Servals AI-agent Catalyst spoort IT-problemen op voordat er een ticket is",
+      "summary": "Serval maakt zijn 'super agent' Catalyst algemeen beschikbaar, die op basis van tickethistorie en instructies automatiseringen kan bedenken en bouwen. De tool zet ook achtergrondagents in die systemen continu controleren en problemen oplossen voordat medewerkers ze zelf melden.",
+      "url": "https://venturebeat.com/infrastructure/servals-super-agent-catalyst-creates-roving-background-agents-to-identify-and-fix-it-issues-before-theyre-ticketed",
+      "source_name": "VentureBeat AI",
+      "source_type": "rss",
+      "published": "2026-08-20T14:42:07+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van proactieve AI-automatisering in IT-beheer.",
+      "also_covered_by": []
+    },
+    {
+      "id": "26d9ae1b925943ff1b046d21564e3eea7f29accc883efc7d7807d8c6708ac3fb",
+      "title": "Anti-AI-lettertypen zijn nutteloos en schadelijk, betoogt blogpost",
+      "summary": "Een blogpost betoogt dat zogenaamde 'anti-AI'-lettertypen, bedoeld om tekst onleesbaar te maken voor AI-modellen, niet werken en bovendien de toegankelijkheid van teksten voor mensen met een leesbeperking schaden. De auteur pleit voor effectievere manieren om content tegen ongewenst AI-gebruik te beschermen.",
+      "url": "https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-20T15:06:53Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Waarschuwt tegen schijnoplossingen tegen AI die toegankelijkheid schaden.",
+      "also_covered_by": []
+    },
+    {
+      "id": "4e763440b99bc6e639d3e13c1fbaa187be4bce3a88427377afd1f15dc3b4a922",
+      "title": "NanoClaw laat gebruikers met één bericht teams van AI-agents opzetten in Slack",
+      "summary": "De open-source AI-agentomgeving NanoClaw is nu beschikbaar in Slack, waarmee gebruikers met één prompt complete teams van gespecialiseerde AI-agents kunnen aanmaken. De makers verwachten dat medewerkers binnen anderhalf jaar vooral managers van agents worden in plaats van uitvoerders.",
+      "url": "https://venturebeat.com/orchestration/nanoclaw-comes-to-slack-letting-you-create-persistent-ai-agent-teams-and-colleagues-from-a-single-message",
+      "source_name": "VentureBeat AI",
+      "source_type": "rss",
+      "published": "2026-08-20T17:25:44+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "open-source",
+        "arbeidsmarkt"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont hoe snel agent-gebaseerde AI-tools in gewone werktools doordringen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "4e8fb3ec13093f1fbc70952a1be2b2aa9c9e82951ca8760df0ff564316156298",
+      "title": "Google Discover krijgt een AI-chatbot om de feed te personaliseren",
+      "summary": "Gebruikers kunnen straks via een chatgesprek beschrijven wat ze in hun Google Discover-feed willen zien. De AI onthoudt die voorkeuren voor volgende bezoeken en laat zien welk soort content voortaan prioriteit krijgt.",
+      "url": "https://www.theverge.com/tech/983088/google-discover-ai-chatbot-feed",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-08-20T17:50:22-04:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van AI-personalisatie in een veelgebruikte nieuwsapp.",
+      "also_covered_by": []
+    },
+    {
+      "id": "72c7d6c99ce2a21c3d9ea692afaf594ef57a50ff7db03d0b4cb61b31db1c9d50",
+      "title": "Amerikaanse verdeler van Chinese humanoïde robots start eigen productie na importverbod",
+      "summary": "RoboStore, de belangrijkste Noord-Amerikaanse verdeler van humanoïde robots en robothonden van het Chinese Unitree, gaat na een Amerikaans importverbod zelf robots produceren op Long Island. Het bedrijf leverde eerder robots aan onder meer Harvard, MIT, Amazon en Nvidia.",
+      "url": "https://arstechnica.com/gadgets/2026/08/us-distributor-of-chinas-most-popular-humanoid-robots-pivots-after-us-ban/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-08-20T22:00:11+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont hoe handelsbeleid de toegang tot AI-gedreven robotica beïnvloedt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "ad2b779c2da9702654fc022a3c467a8a15d4f136efca6e14731e3be97815cb22",
+      "title": "ChatGPT-zoekfunctie gebruikt steeds vaker de site:operator",
+      "summary": "Trackingbureau Promptwatch ziet dat ChatGPT Search sinds de GPT-5.6-update veel vaker automatisch de site:operator toevoegt aan zoekopdrachten, van rond de 0,3% naar 16-17% van de fanout-queries. OpenAI bevestigde begin augustus vaag dat de zoekfunctie 'betrouwbaarder' en 'gerichter' is geworden, zonder details over de onderliggende aanpassing.",
+      "url": "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-08-20T23:57:32+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "onderzoek"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat zien hoe AI-zoekmachines onzichtbaar evolueren, relevant voor zoekvaardigheid.",
+      "also_covered_by": []
+    },
+    {
+      "id": "12a2bee6df7e3dd18a7fc92b1fd15e4f70f6c2ca70d5fffd69fd0e049fa70ed6",
+      "title": "Slack brengt AI-codeeragents naar de groepschat",
+      "summary": "Slack introduceert Slack Code, waarmee teams AI-codeeragents zoals Claude Code, Devin en GitHub Copilot rechtstreeks in Slack-kanalen kunnen inzetten. Het werk van de agent, inclusief codewijzigingen en voortgang, wordt zichtbaar voor het hele team in plaats van alleen voor één gebruiker.",
+      "url": "https://venturebeat.com/orchestration/slack-wants-to-drag-ai-coding-out-of-the-terminal-and-into-the-group-chat",
+      "source_name": "VentureBeat AI",
+      "source_type": "rss",
+      "published": "2026-08-21T00:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "arbeidsmarkt"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van hoe AI-agents steeds meer in teamwerk worden geïntegreerd.",
+      "also_covered_by": []
+    },
+    {
+      "id": "ac14c9adbb03805e325a713a1300968d2394b3c1b237337dbaaba3a2fd5d4f2e",
+      "title": "Auteursrecht beschermt AI-gegenereerde content niet binnen de EU",
+      "summary": "Volgens een veelgedeelde toelichting geldt in de Europese Unie geen auteursrechtelijke bescherming voor content die volledig door AI is gegenereerd, omdat auteursrecht een menselijke maker vereist. Dit heeft gevolgen voor iedereen die AI-gegenereerde teksten, beelden of muziek publiceert of hergebruikt.",
+      "url": "https://mathstodon.xyz/@maxpool/117128107757895678",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-21T00:15:12Z",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "beleid-en-regelgeving",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Belangrijk juridisch gegeven voor wie AI-gegenereerde content maakt of hergebruikt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "e688aa0d7225fcfa73d6e68c032def62ed66820faecfa4d201d898b4fd46d0a8",
+      "title": "Nieuw jurylid Computable Awards Edith van de Weg wil projecten met grotere ambities zien",
+      "summary": "Edith van de Weg, kwartiermaker bij de Nederlandse AI Fabriek voor Noord-Nederland, is dit jaar toegetreden tot de jury van de Computable Awards. Ze richt zich op AI en gezondheidsdata en zoekt bij inzendingen naar projecten die verder gaan dan losse subsidieprojecten.",
+      "url": "https://www.computable.nl/2026/08/21/nieuw-computable-awards-jurylid-edith-van-de-weg-graag-projecten-met-grotere-ambities/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-08-21T05:15:00+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Achtergrond over het Nederlandse AI-ecosysteem, beperkt direct nut voor bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "22bc845755c614ff892f0fa3c16ebe00d80ba9858de68e3be4be744a50d1b61d",
+      "title": "'Don't paste the AI, please': oproep om ongefilterde AI-tekst niet te plakken",
+      "summary": "Een compact manifest roept mensen op om ongeredigeerde, direct gekopieerde AI-tekst niet zomaar te plakken in berichten, reacties of documenten, en eerst zelf te controleren en te bewerken wat een AI-model heeft gegenereerd. Het sluit aan bij een bredere discussie over herkenbare 'AI-slop' in online communicatie.",
+      "url": "https://dontpastetheai.com/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-20T08:20:44Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico"
+      ],
+      "importance": 1,
+      "why_relevant": "Praktische oproep tot zorgvuldiger omgaan met AI-gegenereerde tekst.",
+      "also_covered_by": []
+    },
+    {
+      "id": "9c053eef9018983766db16140a84552406fab558221fb276e5c7ae5c819f10e9",
+      "title": "Bun 1.4 voegt browserautomatisering toe met nieuwe Bun.WebView",
+      "summary": "De langverwachte Bun 1.4-release voegt onder meer Bun.WebView toe voor browserautomatisering, naast duizenden bugfixes en een overstap van Zig naar Rust. Simon Willison liet Claude Code hierop een prototype JSON-API bouwen, geïnspireerd op zijn eigen shot-scraper-tool.",
+      "url": "https://simonwillison.net/2026/Aug/20/bun-webview-json-api/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-08-20T15:37:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools"
+      ],
+      "importance": 1,
+      "why_relevant": "Nieuwe ontwikkelaarstool waarmee AI-coding agents browsertaken kunnen automatiseren.",
+      "also_covered_by": []
+    },
+    {
+      "id": "eab5285cfdebeb65a8ef35d4bffcfc39f4434e5c4addfd2ea652e42de6b3fb15",
+      "title": "LFM2.5-DSpark belooft tot 3,2 keer snellere AI-inferentie",
+      "summary": "Liquid AI presenteert LFM2.5-DSpark, een variant van zijn taalmodel die tot 3,2 keer snellere inferentie belooft ten opzichte van eerdere versies. Zulke efficiëntieverbeteringen maken het draaien van AI-modellen goedkoper en toegankelijker.",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+      "source_name": "Hugging Face",
+      "source_type": "rss",
+      "published": "2026-08-20T16:52:57+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "open-source"
+      ],
+      "importance": 1,
+      "why_relevant": "Efficiëntere open modellen verlagen de drempel voor lokale AI-toepassingen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "daf6a34980ee712f122b25e5066777c47342c0d1074a0bb27d8470226d4f5e5e",
+      "title": "Experimentele editor Huzzah laat je met pseudocode AI-code aansturen",
+      "summary": "Een ontwikkelaar presenteert Huzzah, een proof-of-concept editor waarin je pseudocode schrijft die bij het opslaan wordt omgezet naar echte broncode, als alternatief voor het steeds voluit typen van AI-prompts. De pseudocode blijft bewaard naast de gegenereerde code als vastlegging van de bedoelde functionaliteit.",
+      "url": "https://www.danielvaughn.dev/posts/huzzah/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-20T19:05:36Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "onderzoek"
+      ],
+      "importance": 1,
+      "why_relevant": "Nieuwe interactievorm tussen mens en AI-codeeragents.",
+      "also_covered_by": []
+    }
+  ]
+}
