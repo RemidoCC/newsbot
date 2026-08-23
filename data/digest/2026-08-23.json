@@ -1,0 +1,182 @@
+{
+  "date": "2026-08-23",
+  "generated_at": "2026-08-23T05:23:49+00:00",
+  "stats": {
+    "batches": 1,
+    "onleesbaar": 0,
+    "objecten": 16,
+    "schema_fout": 0,
+    "onbekend_id": 0,
+    "gedropt": 7,
+    "geldig": 9,
+    "ai": 9,
+    "bieb": 0
+  },
+  "sources": [
+    "Hacker News",
+    "Simon Willison",
+    "Tweakers",
+    "VentureBeat AI"
+  ],
+  "items": [
+    {
+      "id": "3e57a20ead325c513b113890c457ea9a17f74b2b97fae6529e01f58633df42c3",
+      "title": "Texaanse student ontmaskert poging tot AI-hack",
+      "summary": "Reuters beschrijft hoe een student uit Texas een poging blootlegde waarbij een AI-systeem werd ingezet om digitale inbraken uit te voeren. De zaak illustreert groeiende zorgen over misbruik van AI-modellen voor cyberaanvallen.",
+      "url": "https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-21T13:43:33Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Voorbeeld van AI-misbruik voor hacking, relevant voor risicobewustzijn.",
+      "also_covered_by": []
+    },
+    {
+      "id": "1facb99d1672629081b03a25ff3fc8a660377deb095c262db606925edca57577",
+      "title": "Hollywood-makers trainen de AI die hun eigen baan overbodig maakt",
+      "summary": "The Guardian beschrijft hoe creatieve professionals in Hollywood worden ingehuurd om AI-modellen te trainen op hun eigen vakgebied, terwijl ze weten dat diezelfde modellen hen mogelijk gaan vervangen. Het artikel belicht het dilemma tussen inkomen op korte termijn en de dreiging voor de eigen toekomst.",
+      "url": "https://www.theguardian.com/technology/2026/aug/22/the-hollywood-creatives-training-ai-to-do-their-jobs",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-22T14:13:05Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "arbeidsmarkt",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Toont concreet hoe AI creatieve beroepen raakt, relevant voor de discussie over impact.",
+      "also_covered_by": []
+    },
+    {
+      "id": "00850b1911a5f9b22f23cddebea36e8c7fd485ca5899f6e597a632615e53d84b",
+      "title": "Bedrijven die succesvol zijn met AI-agents geven ze juist minder vrijheid",
+      "summary": "Onderzoek van Gartner en McKinsey laat zien dat bedrijven die goed presteren met AI-agents hun autonomie beperken tot duidelijk afgebakende taken in plaats van maximale vrijheid te geven. Meer dan 40 procent van de huidige agentic AI-projecten zou volgens Gartner niet overleven tot 2028 door kosten en gebrekkige risicobeheersing.",
+      "url": "https://venturebeat.com/orchestration/enterprises-winning-with-ai-agents-are-limiting-how-much-the-agents-can-do-alone",
+      "source_name": "VentureBeat AI",
+      "source_type": "rss",
+      "published": "2026-08-22T21:30:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 3,
+      "why_relevant": "Praktijkles over verantwoord inzetten van AI-agents binnen organisaties.",
+      "also_covered_by": []
+    },
+    {
+      "id": "e0eb459cf5d43dbf636406388a1451e69ddecedcb7b332c11aca1d08d3b8137d",
+      "title": "Apple ontslaat tweehonderd medewerkers van Siri en Vision Pro",
+      "summary": "Apple heeft ongeveer tweehonderd medewerkers ontslagen die werkten aan gaming en video voor de Vision Pro en aan de niet-generatieve versie van Siri. De ontslagen passen bij een herstructurering rond Apple's AI-strategie.",
+      "url": "https://tweakers.net/nieuws/251240/apple-ontslaat-200-mensen-die-werkten-aan-siri-en-vision-pro.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-08-22T09:19:22+02:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "arbeidsmarkt"
+      ],
+      "importance": 2,
+      "why_relevant": "Reorganisatie bij Apple raakt de koers rond AI-assistent Siri.",
+      "also_covered_by": []
+    },
+    {
+      "id": "2902268b713bbdcdf295f201031a45615a782e498b795c819c8a170f32ed0e37",
+      "title": "LinkedIn gaat gebruikers waarschuwen als anderen hun post als AI bestempelen",
+      "summary": "LinkedIn introduceert een melding voor gebruikers wanneer andere leden hun bericht markeren als AI-gegenereerd. De melding heeft geen invloed op de zichtbaarheid van de post in de feed, maar toont dat LinkedIn AI-gebruik op het platform serieus wil aanpakken.",
+      "url": "https://tweakers.net/nieuws/251244/linkedin-gaat-gebruikers-waarschuwen-als-anderen-hun-post-zien-als-ai.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-08-22T11:14:00+02:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont hoe grote platforms omgaan met herkenning van AI-gegenereerde content.",
+      "also_covered_by": []
+    },
+    {
+      "id": "131f9ae7be4bf34625113e965031a18a3b451ce02d9824d6745157f377176532",
+      "title": "PrimeIntellect lanceert NanoGPT Speedrun Frontier",
+      "summary": "PrimeIntellect start een benchmarkinitiatief waarbij onderzoekers wedijveren om een nanoGPT-taalmodel zo snel en efficiënt mogelijk te trainen. Zulke speedrun-benchmarks helpen de AI-gemeenschap om vooruitgang in trainingsefficiëntie zichtbaar te maken.",
+      "url": "https://www.primeintellect.ai/research/nanogpt-speedrun",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-22T22:14:27Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "modellen"
+      ],
+      "importance": 2,
+      "why_relevant": "Nieuwe benchmark voor efficiënt trainen van taalmodellen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "3f89e94f44724b318410048e73b56d70cf88f771d4d1c029d992eddb0b72b02c",
+      "title": "Meer nodig dan alleen codereview bij AI-coding agents",
+      "summary": "Simon Willison betoogt dat het effectief inzetten van AI-codeeragents vooral draait om duidelijke instructies geven en op andere manieren dan regel-voor-regel controleren of wijzigingen kloppen. Elke coderegel nalopen is volgens hem nooit de beste manier geweest om software te valideren.",
+      "url": "https://simonwillison.net/2026/Aug/22/more-than-just-code-review/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-08-22T15:56:54+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools"
+      ],
+      "importance": 1,
+      "why_relevant": "Praktisch inzicht over verantwoord omgaan met AI-codeerassistenten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "97c4e9cb8b163ddb829e9b6bdfc0535a9bc8913bcaaadf5140ef1d2b19f333f7",
+      "title": "Command-line tool llm bijgewerkt naar versie 0.33",
+      "summary": "De Python-tool llm, waarmee je vanaf de command line met taalmodellen werkt, is bijgewerkt naar versie 0.33. De update brengt een nieuwe HTTP-client, verbeterde sleutelverwerking voor embeddings en de mogelijkheid om meerdere prompt-templates te combineren.",
+      "url": "https://simonwillison.net/2026/Aug/22/llm/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-08-22T17:01:16+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "open-source"
+      ],
+      "importance": 1,
+      "why_relevant": "Kleine technische update van een veelgebruikte open-source command-line AI-tool.",
+      "also_covered_by": []
+    },
+    {
+      "id": "8a1948cc7f7c09c4f31d99f710bf7d0ffb4b1c085f62db58d829d8ecfb4cdcc0",
+      "title": "Linus Torvalds over een debugsessie met AI-hulp",
+      "summary": "Linus Torvalds vertelt over een lastige debugsessie waarbij een AI-assistent hem hielp, ook al gaf het model tussentijds meermaals aan dat het probleem onoplosbaar leek. Op aandringen bleef de AI toch doorwerken en droeg het uiteindelijk bij aan de oplossing, tot en met het schrijven van de commit message.",
+      "url": "https://simonwillison.net/2026/Aug/22/linus-torvalds/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-08-22T21:04:26+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools"
+      ],
+      "importance": 1,
+      "why_relevant": "Illustreert hoe AI-assistenten ontwikkelaars daadwerkelijk helpen bij debuggen.",
+      "also_covered_by": []
+    }
+  ]
+}
