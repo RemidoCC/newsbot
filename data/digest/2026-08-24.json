@@ -1,0 +1,132 @@
+{
+  "date": "2026-08-24",
+  "generated_at": "2026-08-24T05:33:30+00:00",
+  "stats": {
+    "batches": 1,
+    "onleesbaar": 0,
+    "objecten": 14,
+    "schema_fout": 0,
+    "onbekend_id": 0,
+    "gedropt": 8,
+    "geldig": 6,
+    "ai": 5,
+    "bieb": 1
+  },
+  "sources": [
+    "Computable",
+    "Emerce",
+    "Infodocket",
+    "Simon Willison",
+    "VentureBeat AI"
+  ],
+  "items": [
+    {
+      "id": "6726b90d2200b0f5799f82c64139f2c0f89d76426bb96f60094714060ecb8453",
+      "title": "San Francisco Public Library lanceert nieuw platform voor digitaal archief DigitalSF",
+      "summary": "De San Francisco Public Library heeft een nieuw platform gelanceerd voor haar digitale archief DigitalSF, met ruim 80.000 historische foto's, documenten en mondelinge geschiedenissen die gratis en zonder bibliotheekpas toegankelijk zijn. Het archief bevat onder meer handgeschreven toespraken van Harvey Milk en groeit maandelijks met nieuwe collecties.",
+      "url": "https://www.infodocket.com/2026/08/23/san-francisco-public-library-sfpl-launches-new-platform-for-digitalsf-digital-archive-access-to-online-resource-is-free-to-public/",
+      "source_name": "Infodocket",
+      "source_type": "rss",
+      "published": "2026-08-23T13:24:13+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "bibliotheek",
+        "digitale-inclusie"
+      ],
+      "importance": 3,
+      "why_relevant": "Voorbeeld van hoe bibliotheken erfgoed digitaal en gratis toegankelijk maken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "525136f5e3165d97c9d893a9b00133dd4211fa3474300852e42843480e0eb434",
+      "title": "Drew Breunig: Fable maakte einde aan de 'gratis lunch' in AI-codeeren",
+      "summary": "Ontwikkelaar Drew Breunig stelt dat teams vóór de komst van Anthropics dure Fable-model weinig moeite staken in hun codeeromgeving, omdat een nieuw model problemen toch wel oploste. Nu Fable krachtig maar kostbaar is, denken teams bewuster na over welk model voor welke taak wordt ingezet.",
+      "url": "https://simonwillison.net/2026/Aug/23/drew-breunig/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-08-23T19:55:30+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont hoe hoge modelkosten teams dwingen taken bewuster te verdelen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "afd300f326ca249dcd207835f37b80a4f4a6379d5d7fd20f6f8246e6c29d96bc",
+      "title": "Anthropics beste AI-model trekt moeilijk gebruikers, goedkopere tools populairder",
+      "summary": "Volgens een FT-artikel groeit Anthropics jaaromzet snel naar 65 miljard dollar, maar data van de Ramp AI Index laat zien dat goedkopere modellen zoals Opus 4.8 veel populairder blijven dan het duurdere, recentere Opus 5. Ook OpenAI groeit hard dankzij GPT 5.6, wat de concurrentiedruk op prijs en prestaties in de sector onderstreept.",
+      "url": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-08-23T20:24:52+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "modellen"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat zien dat prijs zwaarder weegt dan modelkwaliteit bij adoptie.",
+      "also_covered_by": []
+    },
+    {
+      "id": "551169224d91f68a65640d8c4172baec394d171fb4b8d03197a5c739516f872f",
+      "title": "Betrouwbaarheid van AI-agents in bedrijven hangt af van rommelige documenten",
+      "summary": "Veel bedrijven bouwen AI-agents met eigen context- en retrievalpijplijnen per applicatie, waardoor bedrijfskennis versnipperd en inconsistent raakt. Het artikel betoogt dat organisaties kennis als gedeeld, beheerd asset moeten behandelen in plaats van losse applicatie-specifieke context, willen AI-agents betrouwbaar blijven werken.",
+      "url": "https://venturebeat.com/orchestration/enterprise-ai-agents-are-only-as-reliable-as-the-messiest-documents-behind-them",
+      "source_name": "VentureBeat AI",
+      "source_type": "rss",
+      "published": "2026-08-23T23:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Relevant voor organisaties die AI-agents willen inzetten op eigen documenten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "fde23e0b4d1fb12dd9442342c47396da21412793dfb99795098d65c7be116f02",
+      "title": "BYD zet mensachtige robots in als personeel in showrooms",
+      "summary": "De Chinese autofabrikant BYD wil twee tot drie humanoïde robots per showroom inzetten om bezoekers te verwelkomen, uitleg te geven over elektrische auto's en productdemonstraties te verzorgen. De 1,61 meter lange robots moeten deze maand voor het eerst verschijnen in een Chinese showroom, als onderdeel van BYD's bredere inzet op embodied AI.",
+      "url": "https://www.emerce.nl/nieuws/robots-byd-worden-personeel-autoshowroom",
+      "source_name": "Emerce",
+      "source_type": "rss",
+      "published": "2026-08-24T04:16:52+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "arbeidsmarkt"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van AI-robots die menselijk werk in klantcontact overnemen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "a37fb1f791f0f69f89aa564007950f7a483e0dbd8df53e35554f23b21a085308",
+      "title": "AMD verdubbelt tempo op weg naar zuinigere AI-systemen",
+      "summary": "Chipmaker AMD claimt halverwege 2026 al een verviervoudiging van de energie-efficiëntie van zijn AI-systemen te hebben bereikt, sneller dan het eigen tussendoel. Tegen 2030 wil het bedrijf de efficiëntie van AI-training en -inferentie op rackschaal met een factor twintig verbeteren, wat ook de druk op stroom en koeling van datacenters moet verlichten.",
+      "url": "https://www.computable.nl/2026/08/24/amd-verdubbelt-tempo-op-weg-naar-zuinigere-ai-systemen/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-08-24T05:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Efficiëntere AI-hardware kan de energiekosten van AI-diensten verlagen.",
+      "also_covered_by": []
+    }
+  ]
+}
