@@ -1,0 +1,800 @@
+{
+  "date": "2026-08-26",
+  "generated_at": "2026-08-26T05:35:05+00:00",
+  "stats": {
+    "batches": 2,
+    "onleesbaar": 0,
+    "objecten": 68,
+    "schema_fout": 0,
+    "onbekend_id": 0,
+    "gedropt": 25,
+    "geldig": 43,
+    "ai": 40,
+    "bieb": 3
+  },
+  "sources": [
+    "Ars Technica AI",
+    "Computable",
+    "Emerce",
+    "Hacker News",
+    "Hugging Face",
+    "IFLA",
+    "MIT Technology Review — AI",
+    "Nederlandse AI Coalitie",
+    "OpenAI",
+    "Probiblio",
+    "Simon Willison",
+    "TLDR AI",
+    "The Rundown AI",
+    "The Verge AI",
+    "Tweakers",
+    "VentureBeat AI"
+  ],
+  "items": [
+    {
+      "id": "1a29a2480fa5cf15ebf45cf9ce1ddf04495f546224ce939c1ea2d34883fa2059",
+      "title": "RegTech4AI onderzoekt kloof tussen AI-wetgeving en de praktijk",
+      "summary": "Computerwetenschapper Konrad Kollnig onderzoekt met zijn onderzoeksgroep RegTech4AI aan de Universiteit Maastricht hoe wetten als de AVG, de Digital Services Act en de AI Act in de praktijk uitpakken. Eerder onderzoek van Kollnig toonde dat de meeste apps al data delen voordat gebruikers daar toestemming voor geven, wat volgens hem laat zien hoe groot de kloof tussen wetgeving en praktijk is.",
+      "url": "https://aic4nl.nl/praktijkverhalen/regtech4ai-ziet-een-kloof-tussen-ai-wetgeving-en-de-praktijk-schrijf-de-techniek-de-wet-in/",
+      "source_name": "Nederlandse AI Coalitie",
+      "source_type": "rss",
+      "published": "2026-08-25T12:25:26+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "beleid-en-regelgeving",
+        "onderzoek"
+      ],
+      "importance": 4,
+      "why_relevant": "Belangrijk voor wie de handhaving van de Europese AI Act volgt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "05b4b1f9535896c8f31c452a62586432a81c17728f6fec48935566ad7b6e6d65",
+      "title": "Studie: langdurig chatbotgebruik maakt mensen slechter in herkennen van nepnieuws",
+      "summary": "MIT-onderzoek toont aan dat mensen die weken een AI-chatbot gebruikten om nepnieuws te herkennen, daarna zonder AI-hulp slechter presteerden dan voorheen. Chatbots die direct een antwoord geven vergroten die afhankelijkheid, terwijl vragen stellende AI juist zelfstandig leren bevordert.",
+      "url": "https://www.technologyreview.com/2026/08/25/1140958/your-brain-on-ai/",
+      "source_name": "MIT Technology Review — AI",
+      "source_type": "rss",
+      "published": "2026-08-25T21:00:00+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "digitale-geletterdheid",
+        "ethiek-en-risico"
+      ],
+      "importance": 4,
+      "why_relevant": "Belangrijk voor mediawijsheidsprogramma's: AI-gebruik kan kritisch denken juist ondermijnen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "62003111f3b592c56acd9673289136816214f0ea1151bdbce20616ed93526390",
+      "title": "OpenAI verstoort Russische desinformatiecampagne met AI-content",
+      "summary": "OpenAI verwijderde accounts van Russische oorsprong die AI gebruikten om een nepdenktank in Israël en een pro-Russische 'soevereiniteitsindex' te promoten. De actie past in een reeks meldingen van AI-bedrijven over misbruik van hun modellen voor beïnvloedingscampagnes.",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-08-25T00:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 3,
+      "why_relevant": "Toont hoe AI wordt ingezet voor desinformatie, relevant voor mediawijsheid.",
+      "also_covered_by": []
+    },
+    {
+      "id": "8a8167a37a057479a6c8039df88ff0afd22d51bd6335cc27ef89e3ce701ee429",
+      "title": "Politieke steun groeit voor Nederlands innovatie-agentschap NADI",
+      "summary": "Voor het nationaal agentschap voor disruptieve innovatie (NADI) lijkt in Den Haag steun te groeien voor een budget tot 1 miljard euro, het dubbele van wat in het coalitieakkoord stond. Het agentschap, gemodelleerd naar het Amerikaanse Darpa en Duitse Sprin-D, moet meerdere risicovolle innovatieprogramma's tegelijk financieren. Initiatiefnemer Jelle Prins schreef eerder ook het Nederlandse AI Deltaplan.",
+      "url": "https://www.computable.nl/2026/08/25/politieke-steun-groeit-voor-stevig-innovatie-agentschap/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-08-25T05:15:00+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "beleid-en-regelgeving",
+        "subsidie-of-financiering"
+      ],
+      "importance": 3,
+      "why_relevant": "Nieuw agentschap kan ook Nederlands AI-onderzoek en -toepassingen gaan financieren.",
+      "also_covered_by": []
+    },
+    {
+      "id": "b9406ae170bd91336ab3bb25f8a481be998406cd07a127a0b7b7880fe2ac0b53",
+      "title": "OpenAI presenteert eigen inferentiechip Jalapeño",
+      "summary": "OpenAI kondigt eerste resultaten aan met Jalapeño, een zelfontwikkelde chip voor AI-inferentie die volgens het bedrijf sneller en energiezuiniger is dan bestaande oplossingen. Het onderstreept de trend dat grote AI-bedrijven eigen chips ontwikkelen om minder afhankelijk te zijn van Nvidia.",
+      "url": "https://openai.com/index/jalapeno-first-results",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-08-25T07:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 3,
+      "why_relevant": "Belangrijke stap in de AI-hardwarerace, relevant voor wie AI-infrastructuur volgt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "9fbd8a9bda37fd65dc7d6ab66c7d5826ef6571fc447b9de53dd69106b53e0dd2",
+      "title": "Terugblik op WLIC 2026 en vooruitblik naar IFLA100",
+      "summary": "IFLA blikt terug op het 90e World Library and Information Congress in Busan, Zuid-Korea, met een overzicht van de hoogtepunten en vervolgacties. Het volgende congres, WLIC 2027, vindt plaats in Londen.",
+      "url": "https://www.ifla.org/news/a-look-back-at-wlic-2026-and-forward-to-ifla100/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-08-25T07:57:26+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "bibliotheek",
+        "evenement"
+      ],
+      "importance": 3,
+      "why_relevant": "Overzicht van het belangrijkste internationale bibliotheekcongres en vooruitblik op 2027.",
+      "also_covered_by": []
+    },
+    {
+      "id": "231c4f38ee6c8dad98e25e03f086963ce4716f9d37de5d139f11ebe3d714555c",
+      "title": "SpaceX en Nvidia bouwen samen datacenters in de ruimte",
+      "summary": "SpaceX en Nvidia werken samen aan Starmind, datacenters die in een baan om de aarde gebouwd worden rond Nvidia's Vera Rubin-serverracks. Doel is de eerste racks eind 2027 in de ruimte te hebben. Het initiatief moet de groeiende vraag naar stroom en ruimte voor AI-datacenters omzeilen, nu weerstand tegen datacenters op aarde toeneemt.",
+      "url": "https://kill-the-newsletter.com/feeds/7b87u0i8h3vypjvvprgc/entries/hsizbe68jj95th91xki5.html",
+      "source_name": "The Rundown AI",
+      "source_type": "newsletter",
+      "published": "2026-08-25T10:07:37+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "onderzoek"
+      ],
+      "importance": 3,
+      "why_relevant": "Illustreert hoe ver de infrastructuurhonger van AI inmiddels reikt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "c88f316e61d33f064a88b928a865700076b84d9236510dba6ebcc47432a06aeb",
+      "title": "Perplexity en Nvidia lanceren volledig lokale AI-agent zonder tokenkosten",
+      "summary": "Perplexity brengt Portable Computer uit, een versie van zijn AI-agentplatform die volledig draait op eigen hardware, te beginnen met Nvidia's DGX Spark en Linux-machines met RTX-gpu's. Werk dat lokaal wordt uitgevoerd kost geen tokens, en het systeem vraagt pas toestemming voordat een taak naar een zwaarder cloudmodel gaat. Voor Nvidia onderstreept de samenwerking dat lokale AI de fase van hobbyproject voorbij is.",
+      "url": "https://venturebeat.com/infrastructure/perplexity-partners-with-nvidia-to-launch-portable-computer-a-fully-local-ai-agent-with-zero-token-costs",
+      "source_name": "VentureBeat AI",
+      "source_type": "rss",
+      "published": "2026-08-25T13:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Lokale AI zonder cloudkosten kan interessant zijn voor privacygevoelige bibliotheekdiensten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "c9ad041cedfbe656fe2ff3c3756466e0d080516a8817d332086c7c37d9058b31",
+      "title": "Apple's nieuwe Mac mini en Mac Studio zijn gebouwd voor lokale AI",
+      "summary": "Apple introduceerde nieuwe versies van de Mac mini en Mac Studio met de M6-chip, Apples eerste 2nm-chip, en de krachtige nieuwe M5 Ultra. Beide computers zijn vooral populair bij ontwikkelaars die AI-modellen lokaal willen draaien dankzij hun snelle chips en gedeelde geheugenarchitectuur.",
+      "url": "https://arstechnica.com/apple/2026/08/with-new-mac-studio-and-mac-mini-apple-leans-hard-into-local-ai-inference/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-08-25T13:00:11+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 3,
+      "why_relevant": "Grote hardware-aankondiging specifiek gericht op lokale AI-ontwikkeling.",
+      "also_covered_by": [
+        "https://kill-the-newsletter.com/feeds/7b87u0i8h3vypjvvprgc/entries/1xoygjyehc9t8lzmxbr8.html",
+        "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/"
+      ]
+    },
+    {
+      "id": "724adfbcae879d6bc52ae4efc7660152834c231e3ecaba016f91ff3023051275",
+      "title": "Inzichtenrapport: hoe de front office bezoekers doorverwijst",
+      "summary": "Onderzoek van PIN/SPN in elf bibliotheekvestigingen brengt in kaart hoe medewerkers en vrijwilligers bezoekers dagelijks helpen, uitgewerkt in een volledig inzichtenrapport en twee one-pagers. Die one-pagers gaan over knelpunten bij het printproces en over hoe digitale hulpvragers en taalleerders de weg naar de bibliotheek vinden.",
+      "url": "https://www.probiblio.nl/inzichtenrapport-hoe-de-front-office-bezoekers-doorverwijst/",
+      "source_name": "Probiblio",
+      "source_type": "rss",
+      "published": "2026-08-25T13:26:04+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek",
+        "digitale-inclusie"
+      ],
+      "importance": 3,
+      "why_relevant": "Praktische inzichten voor bibliotheekmedewerkers over doorverwijzen en digitale hulp.",
+      "also_covered_by": []
+    },
+    {
+      "id": "89d9ff403b4c891626c28d753634e8d85eff8f129fa4d7f55786e49b76685ccb",
+      "title": "Microsoft werkte volgens gelekte documenten aan CopilotOS zonder startmenu en taakbalk",
+      "summary": "Uit uitgelekte interne documenten blijkt dat Microsoft experimenteerde met een besturingssysteem rond Copilot, zonder traditioneel startmenu, desktop of taakbalk. Bediening zou volledig via de AI-assistent verlopen, wat een radicale breuk met de huidige Windows-interface zou betekenen.",
+      "url": "https://tweakers.net/nieuws/251318/microsoft-werkte-volgens-lek-aan-copilotos-zonder-startmenu-desktop-en-taakbalk.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-08-25T14:09:14+02:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 3,
+      "why_relevant": "Laat zien hoe ver Microsoft AI wil integreren tot in het besturingssysteem zelf.",
+      "also_covered_by": []
+    },
+    {
+      "id": "b6a30b9b2c24b0fdce079b41172ae209fde98276591ecf552aa09cbb4d5740e1",
+      "title": "AI vervangt radiologen niet, maar verandert hun werk fundamenteel",
+      "summary": "Ondanks voorspellingen dat AI radiologen overbodig zou maken, groeit het aantal radiologen juist, terwijl AI wel steeds vaker meekijkt bij het beoordelen van scans. Zo'n driekwart van de door de FDA goedgekeurde AI-medische apparaten is bedoeld voor radiologie, waar AI soms afwijkingen opspoort die mensen missen.",
+      "url": "https://arstechnica.com/health/2026/08/ai-wont-replace-radiologists-but-it-will-dramatically-change-their-jobs/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-08-25T15:10:03+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "arbeidsmarkt",
+        "onderzoek"
+      ],
+      "importance": 3,
+      "why_relevant": "Goed voorbeeld van hoe AI beroepen verandert in plaats van vervangt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "8af04d92267244730d939e4ae3d3dc58160709e5a2a1c8c504c733c2af98f9fd",
+      "title": "Prompt injection scoort hoog bij experts, maar nauwelijks in incidentcijfers",
+      "summary": "Prompt injection staat al drie jaar op nummer één van de OWASP Top 10 voor LLM-toepassingen, maar eindigt op plek twaalf wanneer onderzoekers het naast 6.639 gedocumenteerde praktijkincidenten leggen. De auteurs concluderen dat expertoordeel en het incidentenregister nauwelijks overeenkomen, vooral omdat prompt injection moeilijk te detecteren is met standaard scantools.",
+      "url": "https://venturebeat.com/security/prompt-injection-ranks-no-1-with-owasp-and-no-12-in-the-incident-record-the-attack-itself-is-invisible-to-a-scan",
+      "source_name": "VentureBeat AI",
+      "source_type": "rss",
+      "published": "2026-08-25T17:24:22+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "onderzoek"
+      ],
+      "importance": 3,
+      "why_relevant": "Belangrijk AI-risico dat door gewone beveiligingsscans niet wordt opgemerkt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "7fdb271aac936ea5dee3f22e8c8183a4b401bf59d50cbfe27a45420e3f7626de",
+      "title": "OpenAI voert weer vijfuurslimiet in voor Codex bij Plus-abonnees",
+      "summary": "Vanaf dinsdag geldt voor Plus-gebruikers van ChatGPT Work en Codex weer een gebruikslimiet van vijf uur, meldt OpenAI-hoofd Thibault Sottiaux. Alleen abonnees met het duurdere Pro-abonnement, dat minimaal 100 euro kost, ontsnappen aan deze beperking.",
+      "url": "https://tweakers.net/nieuws/251348/openai-stelt-weer-vijfuurslimiet-voor-codex-in-voor-plus-abonnees.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-08-25T20:03:35+02:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 3,
+      "why_relevant": "Direct relevant voor Nederlandse gebruikers van OpenAI's tools.",
+      "also_covered_by": []
+    },
+    {
+      "id": "fc54161096a2297766913aed6432566bd3689389020ab8c6ac1313e30b111991",
+      "title": "Google Cloud lanceert sectorspecifieke AI voor finance en juridische sector",
+      "summary": "Google Cloud introduceert Gemini Enterprise for Financial Services en for Legal: kant-en-klare AI-agents met domeinspecifieke vaardigheden en dataconnectors naar onder meer FactSet en Moody's. De tools moeten banken en juridische afdelingen helpen bij risicoanalyses, deals en contractbeoordeling. Deutsche Bank gebruikt de oplossing al en hielp mee aan het ontwerp.",
+      "url": "https://www.computable.nl/2026/08/26/google-cloud-komt-met-sectorspecifieke-ai-voor-finance-en-legal/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-08-26T05:15:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 3,
+      "why_relevant": "Toont hoe snel AI doordringt in sterk gereguleerde sectoren als finance en recht.",
+      "also_covered_by": []
+    },
+    {
+      "id": "33eae878317d27dcc0386f35e9a677d698ea074de44e94f879168ed6c243016a",
+      "title": "OpenAI introduceert Admin-plugin voor ChatGPT Work en Codex",
+      "summary": "Met de nieuwe Admin-plugin kunnen beheerders het gebruik binnen hun workspace analyseren, leden en rechten beheren, limieten aanpassen en beheerverzoeken afhandelen. De functie richt zich op organisaties die ChatGPT Work en Codex op grotere schaal inzetten.",
+      "url": "https://openai.com/index/introducing-admin-plugin",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-08-25T00:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Praktische update voor organisaties die ChatGPT zakelijk inzetten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "8f15c54aea89d65d69a09325cc5ad3a6057faef36c8568fb22cff3ebc9fdd654",
+      "title": "Techinvesteerder Prosus richt zich op nieuw terrein: robotica",
+      "summary": "Prosus verkent robotica als nieuw investeringsgebied, blijkt uit een rapport over 85 bedrijven in die sector. Volgens het rapport versnelt AI-software de ontwikkeling van robots, doordat huidige modellen met veel minder trainingsdata generaliseren dan een paar jaar geleden. Wereldwijd is 2026 met tientallen miljarden dollars het actiefste investeringsjaar ooit in robotica.",
+      "url": "https://www.emerce.nl/nieuws/prosus-boort-nieuw-terrein-aan-robotica",
+      "source_name": "Emerce",
+      "source_type": "rss",
+      "published": "2026-08-25T06:48:15+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "bedrijven",
+        "onderzoek"
+      ],
+      "importance": 2,
+      "why_relevant": "Nederlandse investeerder ziet AI als aanjager van de volgende robotica-golf.",
+      "also_covered_by": []
+    },
+    {
+      "id": "51cfe3db04ed0bd3efb5e0e3e4cae24a73d01c55252ca81f5edad4c7faa7f89b",
+      "title": "OpenAI-cfo legt uit hoe chips, compute en modellen kosten verlagen",
+      "summary": "OpenAI-cfo Sarah Friar beschrijft hoe vooruitgang in chips, rekenkracht, modellen en producten elkaar versterkt om AI goedkoper en schaalbaarder te maken. Het stuk is vooral een bedrijfsverhaal over waarom OpenAI blijft investeren in de volledige technologiestack.",
+      "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-08-25T07:05:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "modellen"
+      ],
+      "importance": 2,
+      "why_relevant": "Achtergrond bij OpenAI's investeringsstrategie in AI-infrastructuur.",
+      "also_covered_by": []
+    },
+    {
+      "id": "3d443aaa9dd37af5e63ca69b90f9c606ad6043fe8591e3806faf8dc6a34f35d6",
+      "title": "Apple brengt nieuwe Mac mini uit, gedreven door vraag naar lokale AI",
+      "summary": "Apple lanceert naar verwachting deze week de eerste nieuwe Mac mini in bijna twee jaar. De populariteit van het huidige model is mede te danken aan gebruik voor het lokaal draaien van AI-toepassingen. De update maakt deel uit van een reeks nieuwe Apple-producten die dit najaar verschijnen.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/jn4gke8kb8tlwriyunzt.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-08-25T10:56:57+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Groeiende vraag naar lokale AI-hardware raakt ook aanschafkeuzes van bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "f1c76f23a788b6884a2877cd63f8a9bdec3da0e05f2a60f5b1fd57979e05c843",
+      "title": "Nieuwe compressietechniek levert 4-bit AI-model dat origineel overtreft",
+      "summary": "Onderzoekers presenteren Quantization-Aware Healing, een methode om AI-modellen te comprimeren naar 4-bit precisie. Opvallend genoeg presteert het gecomprimeerde model beter dan de oorspronkelijke, volledige versie. Dat kan grote modellen goedkoper en toegankelijker maken op minder krachtige hardware.",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+      "source_name": "Hugging Face",
+      "source_type": "rss",
+      "published": "2026-08-25T11:39:24+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "modellen"
+      ],
+      "importance": 2,
+      "why_relevant": "Compressietechnieken bepalen of krachtige AI-modellen ook op kleinere hardware draaien.",
+      "also_covered_by": []
+    },
+    {
+      "id": "6752adb3cb9740a19dc147f79e4fba9024fc305c9675a60b9e503ca258611bef",
+      "title": "Adobe Firefly kan nu complete videosoundtracks genereren",
+      "summary": "Adobe's Firefly-tool kan nu volledige soundtracks voor video's maken, met losse functies voor muziek, spraak en geluidseffecten. Muziek wordt gegenereerd op basis van beschrijvingen of beeldmateriaal, scripts worden omgezet in voice-overs in meer dan twintig talen, en geluidseffecten ontstaan uit tekst of referentieaudio. Onduidelijk is nog of de kwaliteit voldoende is om gespecialiseerde audiotools te vervangen.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/o12vmfqun8umtzl5wb9m.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-08-25T12:15:59+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont hoe snel generatieve AI ook audioproductie voor video overneemt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "6e19318fec1b29a9569279924191d8555f19492cfedcc8ef8d9635af76c5237a",
+      "title": "OpenAI wint terrein op Anthropic bij zakelijke klanten in de VS",
+      "summary": "Uitgavendata van Ramp onder ruim 70.000 organisaties tonen dat OpenAI weer terrein wint op Anthropic bij Amerikaanse bedrijven, na maanden waarin Anthropic voorop liep. Dezelfde nieuwsbrief meldt ook dat Nvidia's Groq 3 LPX-chip in productie gaat en dat IBM een chip ontwikkelt die zowel Arm- als Z-workloads draait.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/mno3qc8u864fg5s3wlg0.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-08-25T12:28:56+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "modellen"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat de verschuivende concurrentiepositie tussen grote AI-aanbieders zien.",
+      "also_covered_by": []
+    },
+    {
+      "id": "86eff25c8bfddc2413cec19636e736cdc565e5470184c5c09f1a44dac60082a8",
+      "title": "Onderzoek: helpt 'Plan Mode' AI-codeeragents echt veiligere code schrijven?",
+      "summary": "Een onderzoeker liet Sonnet 5, Composer 2.5 en GPT-5.5 dezelfde webapp bouwen met en zonder plan-modus om te testen of dat de codeveiligheid verbetert. Dezelfde nieuwsbrief meldt ook actief misbruikte kwetsbaarheden, onder meer bij Alation en een WordPress-inlogplugin.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/3t9la4vreudddvpritwe.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-08-25T13:14:03+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Relevant voor wie AI-codeeragents en de veiligheid daarvan volgt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "5006701e02a2f849174d637913795276138ed523a74f53deb8b9622bd903ca9b",
+      "title": "Nvidia brengt Groq 3 LPX-inferentiechip in volledige productie",
+      "summary": "Nvidia's nieuwe Groq 3 LPX-chip voor AI-inferentie is in volledige productie gegaan als uitbreiding van het Vera Rubin-platform en belooft de snelste tokengeneratiesnelheden tot nu toe. De chip moet vooral agentische AI-toepassingen versnellen die veel rekenkracht vragen.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/cmxxk9p1jqqq7gxagtsv.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-08-25T13:33:59+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Belangrijke hardware-ontwikkeling voor snellere en efficiëntere AI-inferentie.",
+      "also_covered_by": []
+    },
+    {
+      "id": "93551b217a1b53181f45a4be223e383937e9d5768dcd61c715497a43aa74e9db",
+      "title": "Hobbyist bouwt lokale AI-autoassistent met Raspberry Pi en Qwen-model",
+      "summary": "Een ontwikkelaar liet een Qwen-model met 35 miljard parameters lokaal draaien op een Raspberry Pi als offline AI-assistent voor de auto, gekoppeld aan de boordcomputer en fabrieksdiensten. Het systeem beantwoordt onderhoudsvragen en werkt samen met andere AI-agents zodra er internetverbinding is.",
+      "url": "https://github.com/ThinkOffApp/CarWatch",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-25T15:20:20Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "open-source"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van hoe lokale open-source AI-modellen praktisch inzetbaar zijn.",
+      "also_covered_by": []
+    },
+    {
+      "id": "6abdd89143936fce2ef8802b6ba629750802f891cd72a466e4f35df5cf08bc31",
+      "title": "Onderzoek onthult grootschalige beeldmanipulatie bij verkoop van antilichamen",
+      "summary": "Een postdoc aan Northwestern University ontdekte dat leveranciers van laboratoriumantilichamen op grote schaal gemanipuleerde afbeeldingen gebruikten om de werking van hun producten aan te tonen. Een grondiger onderzoek vond dergelijke manipulaties bij meer dan 17.000 commerciële antilichamen.",
+      "url": "https://arstechnica.com/science/2026/08/lab-supply-companies-have-been-selling-antibodies-using-manipulated-images/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-08-25T16:16:57+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "onderzoek"
+      ],
+      "importance": 2,
+      "why_relevant": "Wetenschappelijke integriteit, geen directe AI- of bibliotheekrelevantie.",
+      "also_covered_by": []
+    },
+    {
+      "id": "b7449a22165368f6779d5dc29ed09a64e12f0ca37222d221c946a3aa4d5c88f4",
+      "title": "Nvidia maakt DLSS 4.5 Ray Reconstruction beschikbaar via Nvidia-app",
+      "summary": "Nvidia brengt DLSS 4.5 Ray Reconstruction uit, een AI-model dat de nieuwste DLSS-upscaling combineert met denoising voor raytracing en pathtracing. Gamers moesten voorheen tussen beide technieken kiezen.",
+      "url": "https://tweakers.net/nieuws/251146/nvidia-maakt-dlss-45-ray-reconstruction-beschikbaar-via-nvidia-app.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-08-25T17:30:00+02:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "modellen",
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van AI-toepassing in consumentensoftware, relevant voor AI-volgers.",
+      "also_covered_by": []
+    },
+    {
+      "id": "65ce400ce66267c42f8528ae9d8769f38cff8f2e7c53129ee0c58fb522c9044b",
+      "title": "Humanoïde robots breken records én vliegen in brand tijdens Wereldspelen in Peking",
+      "summary": "Tijdens de tweede editie van de World Humanoid Robot Games versloegen sprintende robots het wereldrecord van Usain Bolt, maar vielen andere robots letterlijk uit elkaar of vatten vlam. Het evenement toont zowel de vooruitgang als de beperkingen van humanoïde robots, terwijl China zijn robotica-industrie promoot.",
+      "url": "https://arstechnica.com/ai/2026/08/world-humanoid-robot-games-show-runners-breaking-records-bursting-into-flames/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-08-25T20:59:03+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Illustreert de stand van zaken in humanoïde robotica, aanpalend aan AI-ontwikkeling.",
+      "also_covered_by": []
+    },
+    {
+      "id": "aec93f7f799e25826611ce713a088c17bfb366972561e60dafe8ed25e2771545",
+      "title": "NTT Data en Palo Alto Networks bundelen krachten voor veilige inzet van AI",
+      "summary": "NTT Data en Palo Alto Networks gaan een meerjarige samenwerking aan om bedrijven te helpen AI veilig te gebruiken en cyberaanvallen sneller te detecteren. Ze richten zich vooral op gereguleerde sectoren als financiële dienstverlening, zorg en de publieke sector. De partijen mikken op een gezamenlijke omzet van een miljard dollar tegen eind 2029.",
+      "url": "https://www.computable.nl/2026/08/26/ntt-data-en-palo-alto-networks-bundelen-krachten-voor-veilige-ai/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-08-26T05:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "AI vergroot cyberrisico's, relevant voor iedereen die zich met AI-veiligheid bezighoudt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "0762f056e6e33472a638ed3e7e65ccd6bedd7812a5fb15fafcce0c00fb6ada1e",
+      "title": "Cryptomarkt houdt sterke wekelijkse rally vast rond Bitcoin en XRP",
+      "summary": "Bitcoin bleef boven de 77.000 dollar staan na een weekstijging van 21 procent, met XRP dat 46 procent steeg, gedreven door Amerikaanse liquiditeitsmaatregelen en een SEC-voorstel voor cryptoregelgeving. Circle groeide ondertussen verder dankzij de opmars van stablecoins en tokenisatie.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/p9qptf1lgzvtgkoixnh9.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-08-25T12:20:10+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 1,
+      "why_relevant": "Vrijwel geen link met AI of bibliotheken, puur financieel-economisch nieuws.",
+      "also_covered_by": []
+    },
+    {
+      "id": "c0d339006d79c0e2a4a478f0d13717ad11c98ee32bc668a985bb608a2830fa9a",
+      "title": "Instagram knipt Reels-clips automatisch met nieuwe functie First Draft",
+      "summary": "Instagram introduceert First Draft, een functie die video's automatisch inkort tot de belangrijkste momenten als startpunt voor een Reel. Gebruikers selecteren meerdere clips, waarna Instagram pauzes verwijdert en de kern samenvoegt tot een eerste montage. De functie is vooralsnog beschikbaar op de iPhone-app.",
+      "url": "https://www.theverge.com/tech/984463/instagram-first-draft-edit-reels",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-08-25T13:12:31-04:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools"
+      ],
+      "importance": 1,
+      "why_relevant": "Voorbeeld van AI-automatisering in alledaagse contentcreatie-apps.",
+      "also_covered_by": []
+    },
+    {
+      "id": "cc281b6b1522aa3d408e39aa102982c9d5b864a38dd12398b40b8f761f9b0375",
+      "title": "Nieuwe bootloader maakt originele Meta Quest onafhankelijk van Meta",
+      "summary": "Met het QuestStack-project kunnen bezitters van de originele Meta Quest via een kwetsbaarheid volledige root-toegang krijgen tot hun apparaat. Daardoor kunnen gebruikers apps zijladen en het apparaat blijven gebruiken, ook als Meta ooit de bijbehorende servers uitschakelt.",
+      "url": "https://arstechnica.com/gaming/2026/08/new-bootloader-lets-you-take-the-meta-out-of-the-original-meta-quest/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-08-25T16:04:37+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools"
+      ],
+      "importance": 1,
+      "why_relevant": "Techniek-nieuws zonder AI- of bibliotheekrelevantie.",
+      "also_covered_by": []
+    },
+    {
+      "id": "d22f26f85f2f5ae097c9f000c023a94248cef01a13cc37b2af4aca2d02998a0d",
+      "title": "SpaceX investeert tot 100 miljard dollar in nieuwe spaceport in Louisiana",
+      "summary": "SpaceX gaat een grootschalige Starship-fabriek en lanceerbasis bouwen langs de kust van Louisiana, vergelijkbaar met de Starbase-faciliteit in Texas. De nieuwe spaceport moet zelfvoorzienend worden met eigen brandstofproductie, energieopwekking en een haven.",
+      "url": "https://arstechnica.com/space/2026/08/spacex-intends-to-invest-up-to-100-billion-in-massive-louisiana-spaceport/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-08-25T17:26:15+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 1,
+      "why_relevant": "Ruimtevaartnieuws zonder AI- of bibliotheekrelevantie.",
+      "also_covered_by": []
+    },
+    {
+      "id": "eaf64f14b64ee77d1b87376c205cf55f75f9f445af810f52ed2e47ccb7a37650",
+      "title": "Eerste mazelendoden in 35 jaar in Pennsylvania na uitbraak onder ongevaccineerden",
+      "summary": "Twee ongevaccineerde inwoners van Pennsylvania zijn overleden aan mazelen, de eerste mazelendoden in de staat in 35 jaar. De staat telt dit jaar al 393 bevestigde gevallen verspreid over 28 county's.",
+      "url": "https://arstechnica.com/health/2026/08/two-unvaccinated-people-die-from-measles-in-pennsylvania-officials-confirm/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-08-25T17:39:38+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek"
+      ],
+      "importance": 1,
+      "why_relevant": "Geen AI- of bibliotheekrelevantie.",
+      "also_covered_by": []
+    },
+    {
+      "id": "409490d67247938f6b5d669498bbbc0bac79ee0af552cbc3bfa17f92ce0c8899",
+      "title": "Google rolt anti-wagenziekte-functie Motion Assist uit op Android",
+      "summary": "Net als Apple met Motion Cues introduceert Google een functie die bewegende stippen op het scherm toont om wagenziekte te verminderen. Motion Assist verschijnt via Play Services op Pixel-toestellen met Android 17.",
+      "url": "https://arstechnica.com/gadgets/2026/08/google-begins-rolling-out-anti-motion-sickness-feature-on-android-17/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-08-25T18:32:30+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools"
+      ],
+      "importance": 1,
+      "why_relevant": "Geen AI-gerelateerd nieuws, beperkte relevantie voor dit vakgebied.",
+      "also_covered_by": []
+    },
+    {
+      "id": "e4fb19e2f8850977b467a623c8955115efcb3dbf476ef05e32b227099730f44c",
+      "title": "Scheikundigen zoeken manier om glow-in-the-dark kunst te behouden",
+      "summary": "Conservatoren van het Indianapolis Museum of Art onderzoeken samen met chemici hoe fosforescerende en fluorescerende pigmenten in mode van ontwerper Stephen Sprouse behouden kunnen blijven. De bevindingen werden gepresenteerd op een bijeenkomst van de American Chemical Society.",
+      "url": "https://arstechnica.com/science/2026/08/how-chemistry-can-keep-glow-in-the-dark-pigments-from-fading/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-08-25T18:59:12+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek"
+      ],
+      "importance": 1,
+      "why_relevant": "Geen AI- of bibliotheekrelevantie, puur achtergrondnieuws.",
+      "also_covered_by": []
+    },
+    {
+      "id": "fd0cb4420d9a359979e7bd486753e2e6705f3828fd8b503f9657e4de8424f8c6",
+      "title": "MIT ontwikkelt piepklein inslikbaar temperatuursensortje",
+      "summary": "MIT-ingenieurs bouwden een inslikbare temperatuursensor van slechts 6 bij 4 millimeter die continu de lichaamstemperatuur doorgeeft via een externe antenne. Het apparaat kan onder meer infecties, koorts bij kinderen en ovulatie helpen monitoren.",
+      "url": "https://www.technologyreview.com/2026/08/25/1140952/taking-your-temperature-from-the-inside/",
+      "source_name": "MIT Technology Review — AI",
+      "source_type": "rss",
+      "published": "2026-08-25T21:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek"
+      ],
+      "importance": 1,
+      "why_relevant": "Interessant medisch-technisch nieuws, niet AI- of bibliotheekgerelateerd.",
+      "also_covered_by": []
+    },
+    {
+      "id": "27985eab60aa7e7ddaa471522d0612edb7ea6fe78632d77e495bea7a34178758",
+      "title": "MIT-lasertechnologie zorgde voor haarscherpe livestreams tijdens Artemis II",
+      "summary": "Het optische communicatiesysteem van MIT Lincoln Laboratory gebruikte infraroodlasers om tijdens de Artemis II-maanmissie beeldmateriaal met internetsnelheid naar de aarde te sturen. Dat leverde ongekend scherpe beelden op, tegenover de korrelige radiobeelden van eerdere maanmissies.",
+      "url": "https://www.technologyreview.com/2026/08/25/1140961/mit-tech-powered-the-artemis-ii-livestreams/",
+      "source_name": "MIT Technology Review — AI",
+      "source_type": "rss",
+      "published": "2026-08-25T21:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek"
+      ],
+      "importance": 1,
+      "why_relevant": "Technisch ruimtevaartnieuws, niet AI- of bibliotheekgerelateerd.",
+      "also_covered_by": []
+    },
+    {
+      "id": "65b0fb6ecde883e2fb4b6c186b408a54232a3cfab7e0687c4bd2dd044ea7bcd6",
+      "title": "Nieuwe sonartechniek laat onderwaterrobots zien door troebel water",
+      "summary": "Onderzoekers van WHOI combineerden sonar met een beeldverwerkingsalgoritme zodat onderwatervoertuigen ook in troebel water hun omgeving snel in kaart kunnen brengen. De techniek kan worden ingezet bij wetenschappelijk onderzoek, onderhoud en het opruimen van onderzeese explosieven.",
+      "url": "https://www.technologyreview.com/2026/08/25/1140955/seeing-through-murky-waters/",
+      "source_name": "MIT Technology Review — AI",
+      "source_type": "rss",
+      "published": "2026-08-25T21:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek"
+      ],
+      "importance": 1,
+      "why_relevant": "Technisch onderzoeksnieuws zonder directe AI- of bibliotheekrelevantie.",
+      "also_covered_by": []
+    },
+    {
+      "id": "73fee9836e6c3ef0e83e3e6f3046161c1a607cd6ec272da55da6bff9af9c2111",
+      "title": "Onderzoekers versterken T-celrespons voor krachtigere kankervaccins",
+      "summary": "MIT-onderzoekers ontwikkelden een nieuw type mRNA-adjuvans dat de T-celrespons op kankervaccins versterkt. In muizenstudies remde de aanpak tumorgroei af of liet tumoren volledig verdwijnen, wat kan leiden tot krachtigere vaccins tegen kanker en infectieziekten.",
+      "url": "https://www.technologyreview.com/2026/08/25/1140949/amping-up-t-cells-to-target-cancer/",
+      "source_name": "MIT Technology Review — AI",
+      "source_type": "rss",
+      "published": "2026-08-25T21:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek"
+      ],
+      "importance": 1,
+      "why_relevant": "Medisch-wetenschappelijk nieuws zonder directe link met AI of bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "4806861b94d077f9193d76632f5e6db4e116fa90d309b0481e8d781e0f5e3762",
+      "title": "TeXbrain: LaTeX-editor die volledig in de browser draait via WebAssembly",
+      "summary": "Een student bouwde TeXbrain, een gratis en open-source LaTeX-editor die pdfTeX via WebAssembly in de browser uitvoert, zonder account of backend. Bestanden blijven lokaal staan en zijn te combineren met git, lokale AI-agents of andere editors.",
+      "url": "https://github.com/swimmingbrain/texbrain",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-25T22:08:50Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "open-source"
+      ],
+      "importance": 1,
+      "why_relevant": "Vooral relevant voor ontwikkelaars, beperkte link met AI of bibliotheekwerk.",
+      "also_covered_by": []
+    },
+    {
+      "id": "23ce83c9bc6f73addf78a86bb96e726b4954f93f29af0a2a0c4d9ed415e411ca",
+      "title": "SpaceX vermindert lanceringen vanuit Florida in aanloop naar Starship",
+      "summary": "SpaceX bouwt het aantal Falcon 9-lanceringen vanaf Cape Canaveral fors af en verschuift activiteiten naar de westkust, in afwachting van Starship. Vorig jaar vonden nog 165 Falcon 9-lanceringen plaats, grotendeels voor het Starlink-netwerk.",
+      "url": "https://arstechnica.com/space/2026/08/the-worlds-busiest-spaceport-is-about-to-get-a-lot-quieter-at-least-for-now/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-08-25T22:21:06+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 1,
+      "why_relevant": "Ruimtevaartnieuws zonder directe link met AI of bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "9b8937de4416ee94533e980b62270830326e949a08f62af17f77f0a51327830f",
+      "title": "EVE Online begint met overstap naar Python 3",
+      "summary": "Ontwikkelaar CCP Games start de migratie van 2,4 miljoen regels code van Stackless Python 2.7 naar Python 3, zestien jaar na de vorige grote upgrade. De overstap gebeurt met het futurize-script, gevolgd door handmatige controle van duizenden plekken waar Python 2 en 3 zich anders gedragen.",
+      "url": "https://simonwillison.net/2026/Aug/25/eve-online-move-to-python-3/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-08-25T22:59:30+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "open-source"
+      ],
+      "importance": 1,
+      "why_relevant": "Achtergrondnieuws over softwaremigratie, nauwelijks relevant voor AI of bibliotheken.",
+      "also_covered_by": []
+    }
+  ]
+}
