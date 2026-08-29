@@ -1,0 +1,229 @@
+{
+  "date": "2026-08-29",
+  "generated_at": "2026-08-29T11:28:35+00:00",
+  "stats": {
+    "batches": 1,
+    "onleesbaar": 0,
+    "objecten": 22,
+    "schema_fout": 0,
+    "onbekend_id": 0,
+    "gedropt": 11,
+    "geldig": 11,
+    "ai": 9,
+    "bieb": 2
+  },
+  "sources": [
+    "Ars Technica AI",
+    "Hacker News",
+    "Hugging Face",
+    "IFLA",
+    "Simon Willison",
+    "The Verge AI",
+    "Tweakers",
+    "VentureBeat AI"
+  ],
+  "items": [
+    {
+      "id": "9006b66c62a40b34ae853da1727c38bad608c0649a3ddaa6233d1bdbdeb21c86",
+      "title": "Rechter: Trumps zwartlijsting van Anthropic was illegaal",
+      "summary": "Een Amerikaanse federale rechter oordeelt dat de regering-Trump onrechtmatig handelde door Anthropic te bestempelen als risico voor de nationale veiligheid en het gebruik van zijn AI-technologie te verbieden. Anthropic werd geblokkeerd nadat het weigerde beperkingen op te heffen voor gebruik bij autonome wapens en massasurveillance.",
+      "url": "https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-08-28T18:07:55+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "ethiek-en-risico"
+      ],
+      "importance": 4,
+      "why_relevant": "Belangrijke juridische uitspraak over overheidsingrijpen bij AI-bedrijven en grondrechten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "bc43fb3db9dd4259f4f39827d64fe462ca5b42a303dce478c107c6226b02b4b5",
+      "title": "Meta-onderzoekers laten klein 8B-model presteren als Claude Opus 4.5",
+      "summary": "Onderzoekers van Meta AI en de University of Illinois presenteren EvoHarness-RL, een methode waarmee een 8B-model zelf leert bepalen wanneer het informatie uit zijn omgeving moet lezen, bijwerken of samenvatten. Daarmee benadert het model de prestaties van het veel grotere en duurdere Claude Opus 4.5 bij langlopende taken.",
+      "url": "https://venturebeat.com/orchestration/meta-researchers-taught-an-8b-ai-model-to-match-claude-opus-4-5-without-the-frontier-price-tag",
+      "source_name": "VentureBeat AI",
+      "source_type": "rss",
+      "published": "2026-08-28T16:33:16+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "onderzoek"
+      ],
+      "importance": 3,
+      "why_relevant": "Laat zien dat kleinere, goedkopere modellen dichter bij topmodellen kunnen komen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "39d25750f2f09d12d05987c299de8febb0cb4ccd896b5468b0a2cc16940271a2",
+      "title": "Google verdringt zoekresultaten verder met uitgeklapte AI-overzichten",
+      "summary": "Google laat AI Overviews bij sommige zoekopdrachten automatisch volledig uitklappen bovenaan de resultatenpagina, waardoor de gewone lijst met links veel verder naar beneden verschuift. Onduidelijk is nog welke criteria Google hanteert om dit te activeren.",
+      "url": "https://www.theverge.com/tech/986364/google-search-ai-overviews-auto-expand",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-08-28T18:48:11-04:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven",
+        "digitale-geletterdheid"
+      ],
+      "importance": 3,
+      "why_relevant": "Verandert hoe mensen informatie vinden, relevant voor informatievaardigheden en zoekonderwijs.",
+      "also_covered_by": []
+    },
+    {
+      "id": "2e3db918b26c4e7f4d0ff80a228b3cb6067055e5eb69b632eeddf11c6143d33a",
+      "title": "Een gerucht over een bug is al genoeg om een exploit te vinden",
+      "summary": "Onderzoeker Anil Madhavapeddy meldt dat aanvallers tegenwoordig binnen minuten na het delen van een beveiligingspatch al actief naar exploits zoeken, met hulp van AI-agents. Ook rclone-maintainer Nick Craig-Wood ziet het aantal meldingen explosief stijgen. Dit zet bestaande embargo-afspraken binnen open source onder druk.",
+      "url": "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-08-28T22:12:02+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "onderzoek"
+      ],
+      "importance": 3,
+      "why_relevant": "Toont hoe AI-agents softwarekwetsbaarheden razendsnel vinden en misbruiken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "5588683581a166b8b194d12de7de36213c21d4d503c4d39393b286cede164773",
+      "title": "OpenAI stopt met leveren van AI-modellen aan Cursor na overname door SpaceX",
+      "summary": "OpenAI beëindigt de samenwerking met codeertool Cursor nu die is overgenomen door SpaceX; vanaf 12 november verdwijnen OpenAI's modellen uit de tool. OpenAI zegt geen vertrouwen te hebben in bedrijven van Elon Musk.",
+      "url": "https://tweakers.net/nieuws/251514/openai-levert-geen-ai-modellen-meer-aan-cursor-vertrouwt-eigenaar-spacex-niet.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-08-29T09:41:40+02:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 3,
+      "why_relevant": "Populaire AI-codeertool verliest toegang tot OpenAI-modellen door bedrijfspolitiek.",
+      "also_covered_by": [
+        "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex"
+      ]
+    },
+    {
+      "id": "4d3b17a749f42c957e926aa5ecda3aa5c4eeeaa5ba6fc6a0122239385ec004be",
+      "title": "Open ASR Leaderboard krijgt eerste taal uit het mondiale Zuiden",
+      "summary": "Het Open ASR Leaderboard, dat spraakherkenningsmodellen met elkaar vergelijkt, breidt voor het eerst uit met een taal uit het mondiale Zuiden. Dit moet de ontwikkeling van AI-spraaktechnologie voor onderbelichte talen stimuleren.",
+      "url": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
+      "source_name": "Hugging Face",
+      "source_type": "rss",
+      "published": "2026-08-28T00:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "onderzoek",
+        "open-source"
+      ],
+      "importance": 2,
+      "why_relevant": "Meer taaldiversiteit in AI-spraaktechnologie kan digitale inclusie wereldwijd vergroten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "f067a4ae268cdf65160c49b3d56f61d9db46be141203e3f35d601287c8f2d32b",
+      "title": "StemDeck: gratis open-source AI-tool voor het scheiden van muziekstems",
+      "summary": "StemDeck is een nieuwe, gratis en open-source applicatie die lokaal draait en met AI audiotracks opsplitst in aparte stems, zoals zang en instrumenten. De tool is beschikbaar op GitHub.",
+      "url": "https://github.com/stemdeckapp/stemdeck",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-29T01:24:13Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "open-source"
+      ],
+      "importance": 2,
+      "why_relevant": "Gratis lokaal AI-hulpmiddel, bruikbaar voor mediatheek- en makerstoepassingen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "8fc59b42eab59ee836d8bbe132c2c3b14f00ecd12764ed4b68ee427a654ed401",
+      "title": "Rockstar: GTA VI bevat geen microtransacties of generatieve AI",
+      "summary": "Co-studiohoofd Rob Nelson van Rockstar North bevestigt dat GTA VI geen microtransacties krijgt en dat er bij de ontwikkeling geen generatieve AI is gebruikt. De uitspraak komt in een tijd waarin generatief AI-gebruik in de game-industrie steeds meer bediscussieerd wordt.",
+      "url": "https://tweakers.net/nieuws/251518/rockstar-gta-vi-bevat-geen-microtransacties-of-generatieve-ai.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-08-29T12:19:59+02:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "bedrijven",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Grote studio neemt expliciet stelling tegen generatieve AI in game-ontwikkeling.",
+      "also_covered_by": []
+    },
+    {
+      "id": "fe6753e349a149980376dff9c6e6fb81f9027706a5442452604f8aecd64f7eab",
+      "title": "Multicultureel café tijdens IFLA WLIC brengt bibliothecarissen samen",
+      "summary": "Bijna zestig deelnemers uit verschillende regio's kwamen tijdens IFLA WLIC bijeen om ervaringen te delen over stressmanagement op de werkvloer. Er volgt dit najaar een online vervolgreeks van deze cafésessies.",
+      "url": "https://www.ifla.org/news/in-person-multicultural-cafe-held-at-ifla-wlic-brought-librarians-together/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-08-28T20:24:29+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "bibliotheek",
+        "evenement"
+      ],
+      "importance": 1,
+      "why_relevant": "Internationaal netwerkmoment voor bibliotheekpersoneel, met vervolg dit najaar.",
+      "also_covered_by": []
+    },
+    {
+      "id": "5584c5bb86295d7e916a8d0938e8bbcc5ec317f9e431850ffaa5d2ddd2916dcb",
+      "title": "IFLA-sessie belicht partnerschappen voor inclusieve bibliotheekdiensten",
+      "summary": "Tijdens IFLA WLIC deelden bibliothecarissen uit de VS en Zuid-Korea hoe strategische samenwerkingen inclusieve dienstverlening aan multiculturele gemeenschappen versterken. Ongeveer vijftig aanwezigen wisselden daarna in kleinere groepen eigen ervaringen uit.",
+      "url": "https://www.ifla.org/news/collaborative-partnerships-session-held-at-ifla-wlic/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-08-28T20:32:21+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "bibliotheek",
+        "evenement"
+      ],
+      "importance": 1,
+      "why_relevant": "Praktijkvoorbeelden van internationale samenwerking voor inclusieve dienstverlening.",
+      "also_covered_by": []
+    },
+    {
+      "id": "4ffd2b68fb033f123eef30ebab19065a6db3cfc20fc0becd9b495b1ecaa47287",
+      "title": "AI helpt bij het herkennen van namaakcosmetica",
+      "summary": "Onderzoekers tonen hoe AI-modellen aan de hand van verpakking en productkenmerken vervalste cosmeticaproducten kunnen herkennen. Het is een voorbeeld van een minder bekende, praktische toepassing van beeldherkenning.",
+      "url": "https://groverlab.org/hnbfpr/2026-08-26-ai-counterfeit-cosmetics.html",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-28T22:18:27Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "tools"
+      ],
+      "importance": 1,
+      "why_relevant": "Illustreert een praktische toepassing van AI-beeldherkenning buiten bekende domeinen.",
+      "also_covered_by": []
+    }
+  ]
+}
