@@ -1,107 +1,5 @@
 [
   {
-    "ts": "2026-08-11T19:24:49+00:00",
-    "source": "Supabase",
-    "stage": "verify_sources",
-    "error": "ProxyError: 403 Forbidden"
-  },
-  {
-    "ts": "2026-08-11T19:59:14+00:00",
-    "source": "enriched_01.json",
-    "stage": "validate_parse",
-    "error": "geen JSON-array te vinden in de uitvoer"
-  },
-  {
-    "ts": "2026-08-11T19:59:17+00:00",
-    "source": "enriched_01.json",
-    "stage": "validate_parse",
-    "error": "geen JSON-array te vinden in de uitvoer"
-  },
-  {
-    "ts": "2026-08-11T19:59:20+00:00",
-    "source": "enriched_02.json",
-    "stage": "validate_parse",
-    "error": "geen JSON-array te vinden in de uitvoer"
-  },
-  {
-    "ts": "2026-08-11T19:59:23+00:00",
-    "source": "enriched_02.json",
-    "stage": "validate_parse",
-    "error": "geen JSON-array te vinden in de uitvoer"
-  },
-  {
-    "ts": "2026-08-11T19:59:26+00:00",
-    "source": "enriched_03.json",
-    "stage": "validate_parse",
-    "error": "geen JSON-array te vinden in de uitvoer"
-  },
-  {
-    "ts": "2026-08-11T19:59:30+00:00",
-    "source": "enriched_03.json",
-    "stage": "validate_parse",
-    "error": "geen JSON-array te vinden in de uitvoer"
-  },
-  {
-    "ts": "2026-08-11T20:07:07+00:00",
-    "source": "enriched_01.json",
-    "stage": "validate_parse",
-    "error": "geen JSON-array te vinden in de uitvoer"
-  },
-  {
-    "ts": "2026-08-11T20:07:11+00:00",
-    "source": "enriched_01.json",
-    "stage": "validate_parse",
-    "error": "geen JSON-array te vinden in de uitvoer"
-  },
-  {
-    "ts": "2026-08-12T04:37:05+00:00",
-    "source": "enriched_01.json",
-    "stage": "validate_parse",
-    "error": "geen JSON-array te vinden in de uitvoer"
-  },
-  {
-    "ts": "2026-08-12T04:37:08+00:00",
-    "source": "enriched_01.json",
-    "stage": "validate_parse",
-    "error": "geen JSON-array te vinden in de uitvoer"
-  },
-  {
-    "ts": "2026-08-12T06:08:28+00:00",
-    "source": "enriched_01.json",
-    "stage": "validate_parse",
-    "error": "geen JSON-array te vinden in de uitvoer"
-  },
-  {
-    "ts": "2026-08-12T06:08:30+00:00",
-    "source": "enriched_01.json",
-    "stage": "validate_parse",
-    "error": "geen JSON-array te vinden in de uitvoer"
-  },
-  {
-    "ts": "2026-08-12T06:08:33+00:00",
-    "source": "enriched_02.json",
-    "stage": "validate_parse",
-    "error": "geen JSON-array te vinden in de uitvoer"
-  },
-  {
-    "ts": "2026-08-12T06:08:37+00:00",
-    "source": "enriched_02.json",
-    "stage": "validate_parse",
-    "error": "geen JSON-array te vinden in de uitvoer"
-  },
-  {
-    "ts": "2026-08-12T06:08:40+00:00",
-    "source": "enriched_03.json",
-    "stage": "validate_parse",
-    "error": "geen JSON-array te vinden in de uitvoer"
-  },
-  {
-    "ts": "2026-08-12T06:08:43+00:00",
-    "source": "enriched_03.json",
-    "stage": "validate_parse",
-    "error": "geen JSON-array te vinden in de uitvoer"
-  },
-  {
     "ts": "2026-08-17T05:27:38+00:00",
     "source": "IFLA",
     "stage": "collect",
@@ -114,5 +12,65 @@
     "stage": "collect",
     "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.ifla.org/rss.xml'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "url": "https://www.ifla.org/news/feed/"
+  },
+  {
+    "ts": "2026-08-30T10:14:30+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "c04626d4080a: [] should be non-empty"
+  },
+  {
+    "ts": "2026-08-30T10:14:30+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "1060da250bb6: [] should be non-empty"
+  },
+  {
+    "ts": "2026-08-30T10:14:30+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "4bfee2355960: [] should be non-empty"
+  },
+  {
+    "ts": "2026-08-30T10:14:30+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "9c45a199940d: [] should be non-empty"
+  },
+  {
+    "ts": "2026-08-30T10:14:30+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "441b85046cff: [] should be non-empty"
+  },
+  {
+    "ts": "2026-08-30T10:14:30+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "c04626d4080a: [] should be non-empty"
+  },
+  {
+    "ts": "2026-08-30T10:14:30+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "1060da250bb6: [] should be non-empty"
+  },
+  {
+    "ts": "2026-08-30T10:14:30+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "4bfee2355960: [] should be non-empty"
+  },
+  {
+    "ts": "2026-08-30T10:14:30+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "9c45a199940d: [] should be non-empty"
+  },
+  {
+    "ts": "2026-08-30T10:14:30+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "441b85046cff: [] should be non-empty"
   }
 ]

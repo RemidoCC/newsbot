@@ -1,0 +1,168 @@
+{
+  "date": "2026-08-30",
+  "generated_at": "2026-08-30T10:14:30+00:00",
+  "stats": {
+    "batches": 1,
+    "onleesbaar": 0,
+    "objecten": 15,
+    "schema_fout": 5,
+    "onbekend_id": 0,
+    "gedropt": 2,
+    "geldig": 8,
+    "ai": 8,
+    "bieb": 0
+  },
+  "sources": [
+    "Hacker News",
+    "Simon Willison",
+    "The Verge AI"
+  ],
+  "items": [
+    {
+      "id": "87dc39ec3c636f9b5f88f7f2eaec969f5443fd1a71321690f54fae34c1e8c2b2",
+      "title": "Debian stemt in met verantwoord gebruik van generatieve AI",
+      "summary": "De Debian-gemeenschap heeft gestemd voor beleid dat verantwoord gebruik van generatieve AI binnen het project toestaat, in plaats van een algeheel verbod. Het besluit volgt op discussies binnen meerdere opensource-projecten over de rol van AI bij het schrijven van code.",
+      "url": "https://lwn.net/Articles/1091231/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-29T14:02:10Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "open-source"
+      ],
+      "importance": 3,
+      "why_relevant": "Belangrijk precedent voor AI-beleid binnen grote opensource-gemeenschappen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "4e62bddb56a24232197e01c0d4e0da071eabc593f9442d10213255a82e5c03e6",
+      "title": "Sony Music en Warner Chappell klagen Anthropic aan om auteursrecht",
+      "summary": "Sony Music en Warner Chappell hebben een rechtszaak aangespannen tegen Anthropic wegens het gebruik van tienduizenden auteursrechtelijk beschermde nummers om Claude te trainen. De platenmaatschappijen eisen tot 150.000 dollar per werk, wat kan oplopen tot miljarden dollars. Anthropic schikte eerder al voor 1,5 miljard dollar met de uitgeverijsector.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-08-29T14:19:53-04:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "bedrijven",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Grote auteursrechtzaak tegen Anthropic met mogelijk miljardenimpact op AI-bedrijven.",
+      "also_covered_by": [
+        "https://tweakers.net/nieuws/251528/muzieklabels-sony-en-warner-klagen-anthropic-aan-voor-grote-muziekdiefstal.html"
+      ]
+    },
+    {
+      "id": "3eb20d3739f8f9c387d17db78f63a6b3c53868c2c4243941fb60cab4c0f35141",
+      "title": "Kloof tussen AI-hype en praktijk van softwareontwikkeling groeit",
+      "summary": "Steeds meer opensource-projecten leggen het gebruik van AI-gegenereerde code aan banden of verbieden het. Onderliggend probleem is de discrepantie tussen de verwachtingen rond AI-codeertools en de daadwerkelijke kwaliteit en beheerslast in de praktijk.",
+      "url": "https://optimizedbyotto.com/post/why-open-source-projects-ban-ai/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-29T16:16:32Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "open-source",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Laat zien hoe opensource-gemeenschappen kritisch omgaan met AI-bijdragen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "19d2c531b47e38a760bffae2dd22c52a8fb2335ce04af841181237754a453e59",
+      "title": "Tencent introduceert Hy4 Preview, groot open-weight taalmodel",
+      "summary": "Tencent heeft Hy4 Preview uitgebracht, een open-weight taalmodel met 770 miljard parameters (49 miljard actief) en een contextvenster van 1 miljoen tokens. Het model is fors groter dan voorganger Hy3 en kent slechts twee redeneerniveaus: 'high' en uitgeschakeld ('no_think').",
+      "url": "https://simonwillison.net/2026/Aug/29/hy4/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-08-29T23:53:13+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "open-source"
+      ],
+      "importance": 3,
+      "why_relevant": "Groot nieuw open-weight model, relevant voor wie AI-modelontwikkelingen volgt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "4424584ee706d4b4f373e9458a7d307eab25a264f74f5e9c8c29e557d43e69cd",
+      "title": "GLM-5.3 nu beschikbaar als open-weight model",
+      "summary": "Z.ai heeft GLM-5.3 uitgebracht als open-weight taalmodel, met de modelgewichten gepubliceerd op Hugging Face. Het model voegt zich bij een groeiende reeks krachtige open-weight alternatieven voor closed-source LLM's.",
+      "url": "https://huggingface.co/zai-org/GLM-5.3",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-28T15:20:13Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "open-source"
+      ],
+      "importance": 2,
+      "why_relevant": "Nieuw open-weight model uitgebracht, relevant voor wie AI-modellen volgt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "c96d24f3b302ab0ed0bd183edb9ac60f8913ad3c617fe300bf5b765117bbf1f3",
+      "title": "Muzikanten speuren zelf naar AI-fraude in de muziekindustrie",
+      "summary": "Naarmate AI-muziektools zoals Suno geavanceerder worden, duiken steeds meer AI-gegenereerde nummers op die de stijl van bestaande artiesten nabootsen. Muzikanten, vooral in de elektronische dansmuziek, nemen zelf het heft in handen om makers te ontmaskeren die het gebruik van AI verzwijgen.",
+      "url": "https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-08-29T08:00:00-04:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont hoe makers omgaan met AI-fraude en authenticiteit in de muziekindustrie.",
+      "also_covered_by": []
+    },
+    {
+      "id": "a4c84c945e2d68dd048a0220389694d4b839780ad5e7949712ff18edaa7799ec",
+      "title": "LLM's ondermijnen mijn technische scherpte, stelt ontwikkelaar",
+      "summary": "In een persoonlijk essay beschrijft een ontwikkelaar hoe overmatig vertrouwen op LLM's zijn eigen probleemoplossend vermogen lijkt te verzwakken. Het stuk sluit aan bij een bredere discussie over vaardigheidsverlies door AI-assistenten.",
+      "url": "https://pgaleone.eu/ai/2026/08/29/losing-savviness/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-29T18:38:52Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Signaleert een risico van AI-afhankelijkheid dat ook buiten software speelt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "c9cf59b44a2d246e5cd0fdafdd8b9d1f7633e1b2c380439ce706c95d7687019b",
+      "title": "Goede werkcultuur is een grotere productiviteitsboost dan AI",
+      "summary": "Een opiniestuk betoogt dat een gezonde teamcultuur meer bijdraagt aan productiviteit dan de inzet van AI-tools. De auteur waarschuwt tegen het overschatten van AI als oplossing voor onderliggende organisatieproblemen.",
+      "url": "https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-29T17:19:47Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "arbeidsmarkt"
+      ],
+      "importance": 1,
+      "why_relevant": "Relativeert de AI-hype rond productiviteit, nuttig voor kritische lezers.",
+      "also_covered_by": []
+    }
+  ]
+}
