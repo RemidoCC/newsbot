@@ -1,0 +1,319 @@
+{
+  "date": "2026-08-31",
+  "generated_at": "2026-08-31T11:20:38+00:00",
+  "stats": {
+    "batches": 1,
+    "onleesbaar": 0,
+    "objecten": 31,
+    "schema_fout": 0,
+    "onbekend_id": 0,
+    "gedropt": 15,
+    "geldig": 16,
+    "ai": 16,
+    "bieb": 0
+  },
+  "sources": [
+    "Ars Technica AI",
+    "Bits of Freedom",
+    "Computable",
+    "Emerce",
+    "Hacker News",
+    "NOS Tech",
+    "Simon Willison",
+    "The Rundown AI",
+    "The Verge AI",
+    "Tweakers",
+    "VentureBeat AI"
+  ],
+  "items": [
+    {
+      "id": "968c6c707c018b80bbc094611fe12f4a02317badfb33cb33403bce0a7ea30c4a",
+      "title": "Sony en Warner klagen Anthropic aan wegens auteursrechtinbreuk",
+      "summary": "Muziekgiganten Sony Music en Warner Music klagen AI-bedrijf Anthropic aan omdat chatbot Claude op grote schaal songteksten zou hebben gebruikt zonder vergoeding. Volgens de aanklacht downloadde Anthropic illegale kopieën en geeft Claude teksten van onder meer Mariah Carey en Taylor Swift bijna letterlijk terug. De platenmaatschappijen zeggen hierdoor inkomsten mis te lopen.",
+      "url": "https://nos.nl/l/2629081",
+      "source_name": "NOS Tech",
+      "source_type": "rss",
+      "published": "2026-08-31T11:50:42+02:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "bedrijven"
+      ],
+      "importance": 4,
+      "why_relevant": "Belangrijke auteursrechtzaak over AI-training raakt ook informatievoorziening door bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "49adf2046003b266cdf7a3eed9ce19976069cc203b725297ab8daf6eb656212d",
+      "title": "Meta test robots voor onderhoud in datacenters",
+      "summary": "Meta experimenteert met robotarmen van onder meer Kinova en ABB om kabels te verwisselen en servers te herstarten in zijn datacenters. Het doel is om de snelgroeiende datacentercapaciteit voor AI met minder personeel te beheren en kosten te drukken. Werknemers die deze fysieke taken nu uitvoeren, vrezen dat hun baan op termijn overbodig wordt.",
+      "url": "https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-08-30T11:03:47+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "arbeidsmarkt",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Voorbeeld van hoe AI-infrastructuur ook fysieke banen in de sector raakt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "0dc6eddd468c8db51bb104d490912aedab7190767182dffd7fd40943c6cd6c82",
+      "title": "Texas bevriest financiering van AI-camera's van Flock",
+      "summary": "De Texaanse gouverneur Greg Abbott heeft de staatsfinanciering voor Flocks AI-surveillancecamera's stopgezet, na een onderzoek van de Texas Tribune waaruit bleek dat de staat al meer dan 30 miljoen dollar aan de camera's had uitgegeven. De camera's, oorspronkelijk bedoeld tegen diefstal van katalysatoren, liggen al langer onder vuur vanwege privacyzorgen en gevallen van misbruik door agenten.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/986541/texas-governor-abbott-flock-cameras",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-08-30T11:35:10-04:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 3,
+      "why_relevant": "Voorbeeld van groeiende politieke weerstand tegen AI-gestuurde surveillance.",
+      "also_covered_by": []
+    },
+    {
+      "id": "70274864cb8a524b721b6322954ca57392c80bf1243a9be8d1a64d9e0c5adcaa",
+      "title": "Wat ChatGPT Work precies is en doet",
+      "summary": "OpenAI lanceerde in juli ChatGPT Work, een taakgerichte variant naast de gewone chatinterface, die zowel in de cloud als lokaal op de computer draait. Volgens Simon Willison verschillen de twee versies flink en is Work bedoeld voor opdrachten met een concreet eindresultaat, zoals rapporten of workflows, in plaats van simpele vragen. De functie is vooralsnog alleen beschikbaar voor betalende abonnees vanaf 20 dollar per maand.",
+      "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-08-30T23:59:47+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Nieuwe ChatGPT-modus voor taakgericht werk kan relevante AI-tools beïnvloeden.",
+      "also_covered_by": []
+    },
+    {
+      "id": "4cef40d1f3fb93cdf3a9611e47ae1eff630a6278e5eff6f63117b1ab6153ea4e",
+      "title": "Consumentenbond: chatbots vormen vooral een hindernis",
+      "summary": "Bijna negentig procent van de consumenten vindt dat chatbots het lastiger maken om een medewerker van vlees en bloed te bereiken, blijkt uit onderzoek van de Consumentenbond onder ruim tienduizend panelleden. Zeven op de tien gebruikers kregen via de chatbot zelfs helemaal geen antwoord op hun vraag. De bond herinnert bedrijven eraan dat ze wettelijk verplicht zijn een vindbaar telefoonnummer en e-mailadres te tonen.",
+      "url": "https://www.emerce.nl/nieuws/consument-vindt-chatbot-bedrijven-vooral-hinderlijke-barrire",
+      "source_name": "Emerce",
+      "source_type": "rss",
+      "published": "2026-08-31T05:43:55+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "onderzoek",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Relevant voor dienstverlening: chatbots kunnen klantcontact juist bemoeilijken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "4d2a49cf1e03760fda92593da19f17305b3414eb6aa6e1562e174e9805f340d1",
+      "title": "Zuid-Korea geeft alle inwoners gratis toegang tot lokale AI",
+      "summary": "De Zuid-Koreaanse overheid rolt dit najaar 'AI for All' uit, waarbij alle inwoners gratis tokens krijgen voor lokaal ontwikkelde taalmodellen van onder meer Kakao, SK Telecom en KT. De dienst wordt gekoppeld aan overheidssystemen, bijvoorbeeld voor doktersafspraken en belastingadvies, en de staat financiert de infrastructuur met 512 Nvidia B200-GPU's tot 2030.",
+      "url": "https://www.emerce.nl/nieuws/gratis-ai-alle-zuidkoreanen",
+      "source_name": "Emerce",
+      "source_type": "rss",
+      "published": "2026-08-31T09:59:04+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "subsidie-of-financiering"
+      ],
+      "importance": 3,
+      "why_relevant": "Toont hoe een overheid AI-toegang als publieke basisvoorziening organiseert.",
+      "also_covered_by": []
+    },
+    {
+      "id": "c1e66a5fbd3b05c22e36b17b5f8b3c9610e87d3563214f14af6b15f2318e2132",
+      "title": "OpenAI stopt modeltoegang voor Cursor na overname door SpaceX",
+      "summary": "OpenAI haalt medio november zijn modellen weg uit codeertool Cursor, nadat die is overgenomen door Elon Musks SpaceX. OpenAI zegt er niet op te vertrouwen dat SpaceX zich aan de gebruiksvoorwaarden zal houden, wat de aanhoudende rivaliteit tussen Sam Altman en Musk verder aanwakkert. Ontwikkelaars die Cursor gebruiken, verliezen daarmee toegang tot OpenAI's modellen.",
+      "url": "https://kill-the-newsletter.com/feeds/7b87u0i8h3vypjvvprgc/entries/gxq9613kxv93b7jpjzob.html",
+      "source_name": "The Rundown AI",
+      "source_type": "newsletter",
+      "published": "2026-08-31T10:07:21+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 3,
+      "why_relevant": "Grote verschuiving in AI-codeertools illustreert marktmacht en rivaliteit tussen AI-bedrijven.",
+      "also_covered_by": [
+        "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/6zzun5ocx4nmfzw9sawg.html"
+      ]
+    },
+    {
+      "id": "567957a0eb1fe9c5ff864d48e98a010245fc7df847ca010532ecfa3aafeb973f",
+      "title": "AI-scrapers verbruiken 20 procent van cpu-capaciteit Kernel.org",
+      "summary": "Het verwerken van verzoeken van AI-scrapers kost Kernel.org inmiddels twintig procent van de totale cpu-capaciteit, veel meer dan reguliere toegang zoals git-clones. Daardoor ziet de beheerder van deze cruciale linux-broncodesite zich gedwongen bepaalde functionaliteit uit te schakelen.",
+      "url": "https://tweakers.net/nieuws/251546/ai-scrapers-slokken-20-procent-van-cpu-capaciteit-kernel-punt-org-op.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-08-31T12:42:34+02:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "open-source"
+      ],
+      "importance": 3,
+      "why_relevant": "Toont hoe agressieve AI-scraping cruciale open-source infrastructuur belast.",
+      "also_covered_by": []
+    },
+    {
+      "id": "bdf3f2620af36421f7b15597bf9dd79a13420b6128378ed22e4b36fe86552a6d",
+      "title": "Chinese humanoïde robots strijden om de voorsprong",
+      "summary": "Tijdens de World Humanoid Robot Games in Beijing lieten tientallen humanoïde robots, waaronder een model van smartphonemaker Honor, zien hoe ver de Chinese robotica inmiddels is, met spectaculaire successen én valpartijen. Het evenement onderstreept hoe stevig China inzet op humanoïde robots binnen de bredere AI-race met de Verenigde Staten.",
+      "url": "https://www.theverge.com/tech/986167/china-humanoid-robot-games-race",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-08-30T08:00:00-04:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "evenement",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Illustreert de snelle voortgang van China in humanoïde AI-robotica.",
+      "also_covered_by": []
+    },
+    {
+      "id": "e43558eb13773f2fc8a4f213d9019f676cb4c3cf260775c980fdb707001f2266",
+      "title": "Australische arbeidsrechtbank hekelt fout AI-juridisch advies",
+      "summary": "Het Australische Fair Work Commission bekritiseerde in een uitspraak juridisch advies dat met AI was opgesteld en inhoudelijk onjuist bleek. De zaak is opnieuw een voorbeeld van een officiële instantie die waarschuwt voor het klakkeloos vertrouwen op AI-gegenereerde informatie in professionele context.",
+      "url": "https://www.abc.net.au/news/2026-08-29/fair-work-commission-condemns-ai-legal-advice/107089766",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-08-30T10:20:11Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 2,
+      "why_relevant": "Waarschuwend voorbeeld voor kritisch beoordelen van AI-gegenereerde informatie.",
+      "also_covered_by": []
+    },
+    {
+      "id": "7cc0401961464808a8c9a063080d4da87d6448802b8b30d5806597564fb412e1",
+      "title": "Ook geauthenticeerde AI-agents kunnen afdwalen of vergiftigd raken",
+      "summary": "Beveiligingsgateways worden vaak als eerste verdedigingslinie voor AI-agents ingezet, terwijl de onderliggende identiteits- en controlesystemen daarvoor meestal nog ontbreken. Het artikel wijst op een kwetsbaarheid in gateway LiteLLM die zonder inloggegevens kon worden misbruikt en die door CISA als actief uitgebuit is bestempeld. Zonder goed zicht op wie een agent aanstuurt, kan een gateway kwaadaardig gedrag niet betrouwbaar onderscheiden van legitieme acties.",
+      "url": "https://venturebeat.com/security/ai-agents-that-pass-authentication-can-still-drift-expose-data-or-get-memory-poisoned",
+      "source_name": "VentureBeat AI",
+      "source_type": "rss",
+      "published": "2026-08-30T20:15:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Concreet beveiligingslek toont aan hoe kwetsbaar AI-agentbeheer nu al is.",
+      "also_covered_by": []
+    },
+    {
+      "id": "64ac66f22c12aed463c368aa06ba8984da5d76091a02f272af355b5017157edd",
+      "title": "AI-agents hebben eerst een eigen identiteit nodig, daarna pas een gateway",
+      "summary": "Nu bedrijven steeds vaker autonome AI-agents inzetten die zelfstandig taken uitvoeren, ontstaat een beveiligingsrisico dat verdergaat dan promptinjectie of datalekken. Het artikel betoogt dat organisaties eerst identiteits- en vertrouwenssystemen voor agents moeten inrichten voordat een beveiligingsgateway zinvol is. Zonder duidelijke identiteit kan niemand controleren of een agent na het inloggen nog steeds veilig handelt.",
+      "url": "https://venturebeat.com/security/ai-agents-need-their-own-identity-before-they-need-a-gateway",
+      "source_name": "VentureBeat AI",
+      "source_type": "rss",
+      "published": "2026-08-30T23:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Achtergrond over beveiligingsrisico's bij het gebruik van autonome AI-agents.",
+      "also_covered_by": []
+    },
+    {
+      "id": "9f0df1b8fca1cc2c110ed4edd925b6ba1928962176c27886555a0298a96562a7",
+      "title": "Hugging Face lanceert goedkope open-source robot Microduck",
+      "summary": "Hugging Face introduceert Microduck, een betaalbare tweebenige bureaurobot van vierhonderd dollar vol sensoren zoals camera, microfoon en lidar. De robot draait volledig op open-source software en is bedoeld als toegankelijk platform voor experimenten met bewegingsleren en reinforcement learning. Net als de Raspberry Pi ooit deed voor computers, moet Microduck AI-robotica binnen handbereik van hobbyisten en ontwikkelaars brengen.",
+      "url": "https://www.emerce.nl/nieuws/goedkope-knutselrobot-brengt-aihardware-binnen-handbereik",
+      "source_name": "Emerce",
+      "source_type": "rss",
+      "published": "2026-08-31T04:02:17+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "open-source"
+      ],
+      "importance": 2,
+      "why_relevant": "Toegankelijke open-source robotica kan interessant zijn voor makerspaces in bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "30071ee61e59d677959951be47062134866caf27346f5b94488406210ee36b96",
+      "title": "Nexperia herstelt ondanks conflict met Chinese aandeelhouder",
+      "summary": "Chipmaker Nexperia, met hoofdkantoor in Nijmegen, boekte in het tweede kwartaal een omzetgroei van 18,4 procent, geholpen door de groeiende AI-markt en investeringen in datacenters. Dit ondanks de aanhoudende machtsstrijd met Chinese aandeelhouder Wingtech, waarbij de Chinese topman nog altijd is geschorst. Buiten China verstevigde het bedrijf zijn winst en kaspositie.",
+      "url": "https://www.computable.nl/2026/08/31/nexperia-herstelt-goed-ondanks-conflict-met-china/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-08-31T05:00:00+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Nederlandse chipmaker profiteert van de groeiende AI-markt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "0d5b0d8a465629671286ed386062391dddfb279843a506dc097b7c86c08c63be",
+      "title": "Criteo maakt advertenties in ChatGPT boekbaar in Europa",
+      "summary": "Adtechbedrijf Criteo koppelt zijn platform aan ChatGPT Ads en maakt advertenties nu in 31 Europese markten, waaronder Nederland, direct boekbaar. De advertenties verschijnen alleen bij gratis en goedkope ChatGPT-abonnementen en volgen op de recente Europese lancering van ChatGPT Ads door OpenAI. Criteo meldt zelf hogere klik- en conversieratio's, al zijn die cijfers niet extern getoetst.",
+      "url": "https://www.emerce.nl/nieuws/criteo-maakt-chatgptads-direct-boekbaar",
+      "source_name": "Emerce",
+      "source_type": "rss",
+      "published": "2026-08-31T06:54:24+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Advertenties binnen ChatGPT bereiken nu ook Nederlandse gebruikers.",
+      "also_covered_by": []
+    },
+    {
+      "id": "d60cd003f4c56d0f73e0473a9bf10eb378674ae5184316592a130e5da9502db8",
+      "title": "Het gemeten leven: over zelfsurveillance en GPS-navigatie",
+      "summary": "In deze column overdenkt Bits of Freedom hoe handige trackingapps zoals GPS-navigatie ons leven ook meetbaar en controleerbaar maken. De auteur legt een link met Foucaults begrip biopolitiek, waarbij lichamen en gedrag worden gereduceerd tot data. Het stuk waarschuwt voor de sluipende normalisering van zelfsurveillance door technologie.",
+      "url": "https://www.bitsoffreedom.nl/2026/08/31/het-gemeten-leven/",
+      "source_name": "Bits of Freedom",
+      "source_type": "rss",
+      "published": "2026-08-31T08:15:08+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "ethiek-en-risico",
+        "digitale-geletterdheid"
+      ],
+      "importance": 2,
+      "why_relevant": "Prikkelt tot nadenken over dataverzameling en privacy, relevant voor digitale geletterdheid.",
+      "also_covered_by": []
+    }
+  ]
+}
