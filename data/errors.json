@@ -1,12 +1,5 @@
 [
   {
-    "ts": "2026-08-17T05:27:38+00:00",
-    "source": "IFLA",
-    "stage": "collect",
-    "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.ifla.org/rss.xml'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
-    "url": "https://www.ifla.org/news/feed/"
-  },
-  {
     "ts": "2026-08-19T05:21:46+00:00",
     "source": "IFLA",
     "stage": "collect",
@@ -72,5 +65,29 @@
     "source": "enriched_01.json",
     "stage": "validate_schema",
     "error": "441b85046cff: [] should be non-empty"
+  },
+  {
+    "ts": "2026-09-01T09:41:27+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_parse",
+    "error": "geen JSON-array te vinden in de uitvoer"
+  },
+  {
+    "ts": "2026-09-01T09:41:28+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_parse",
+    "error": "geen JSON-array te vinden in de uitvoer"
+  },
+  {
+    "ts": "2026-09-01T09:41:29+00:00",
+    "source": "enriched_02.json",
+    "stage": "validate_parse",
+    "error": "geen JSON-array te vinden in de uitvoer"
+  },
+  {
+    "ts": "2026-09-01T09:41:31+00:00",
+    "source": "enriched_02.json",
+    "stage": "validate_parse",
+    "error": "geen JSON-array te vinden in de uitvoer"
   }
 ]
