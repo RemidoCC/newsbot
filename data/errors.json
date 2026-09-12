@@ -451,5 +451,41 @@
     "source": "enriched_03.json",
     "stage": "validate_parse",
     "error": "geen JSON-array te vinden in de uitvoer"
+  },
+  {
+    "ts": "2026-09-12T08:57:38+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_parse",
+    "error": "geen JSON-array te vinden in de uitvoer"
+  },
+  {
+    "ts": "2026-09-12T08:57:39+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_parse",
+    "error": "geen JSON-array te vinden in de uitvoer"
+  },
+  {
+    "ts": "2026-09-12T08:57:41+00:00",
+    "source": "enriched_02.json",
+    "stage": "validate_parse",
+    "error": "geen JSON-array te vinden in de uitvoer"
+  },
+  {
+    "ts": "2026-09-12T08:57:42+00:00",
+    "source": "enriched_02.json",
+    "stage": "validate_parse",
+    "error": "geen JSON-array te vinden in de uitvoer"
+  },
+  {
+    "ts": "2026-09-12T08:57:43+00:00",
+    "source": "enriched_03.json",
+    "stage": "validate_parse",
+    "error": "geen JSON-array te vinden in de uitvoer"
+  },
+  {
+    "ts": "2026-09-12T08:57:44+00:00",
+    "source": "enriched_03.json",
+    "stage": "validate_parse",
+    "error": "geen JSON-array te vinden in de uitvoer"
   }
 ]
