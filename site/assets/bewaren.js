@@ -125,8 +125,15 @@
 
     db.sessie().then(function (s) {
       if (!s) {
-        paneel.innerHTML = '<p class="bewaar-melding">Log eerst in via ' +
-          '<a href="opgeslagen.html">Opgeslagen</a> om te kunnen bewaren.</p>';
+        // Een archiefpagina staat een map dieper, dus "opgeslagen.html" wees
+        // daar naar een bestand dat niet bestaat. Het manifest staat op elke
+        // pagina en verraadt hoe diep we zitten; dezelfde truc als in app.js.
+        var manifest = document.querySelector('link[rel="manifest"]');
+        var wortel = manifest && manifest.getAttribute('href').indexOf('../') === 0
+          ? '../' : './';
+        paneel.innerHTML = '<p class="bewaar-melding">Log eerst één keer in via ' +
+          '<a href="' + wortel + 'opgeslagen.html">Opgeslagen</a>. ' +
+          'Daarna blijf je op dit apparaat ingelogd.</p>';
         return;
       }
       return db.mappen().then(function (mappen) {

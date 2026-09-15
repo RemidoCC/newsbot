@@ -118,7 +118,15 @@ Nodig voor het bewaren van artikelen in mappen en voor het beheerscherm.
 1. Draai `supabase/schema.sql` in de SQL-editor van je project. Het script is
    idempotent, dus opnieuw draaien kan geen kwaad.
 2. Authentication → Providers → **Email** aan (magic link).
-3. Authentication → URL Configuration. Twee velden, allebei nodig:
+3. Authentication → Emails → sjabloon **Magic Link** → voeg de code toe:
+
+   ```html
+   <p>Of tik deze code in de app: <strong>{{ '{{ .Token }}' }}</strong></p>
+   ```
+
+   Zonder deze regel staat er alleen een link in de mail en werkt inloggen op
+   je telefoon niet; zie *Waarom inloggen met een code gaat* hieronder.
+4. Authentication → URL Configuration. Twee velden, allebei nodig:
    - **Site URL**: `https://remidocc.github.io/newsbot/`
    - **Redirect URLs**: `https://remidocc.github.io/newsbot/**`
 
@@ -127,9 +135,9 @@ Nodig voor het bewaren van artikelen in mappen en voor het beheerscherm.
    verkeerd — op GitHub Pages is de domeinwortel `remidocc.github.io` een lege
    plek — dan komt de inloglink uit op een 404 van GitHub. De mail is dan
    gewoon verstuurd en het token klopt; alleen de bestemming niet.
-4. `site/config.js` bevat de project-URL en de publishable key. Die horen
+5. `site/config.js` bevat de project-URL en de publishable key. Die horen
    publiek te zijn; wat je gegevens beschermt is row-level security.
-5. Authentication → Users → **Add user** → *Send invitation* met je eigen
+6. Authentication → Users → **Add user** → *Send invitation* met je eigen
    e-mailadres. Zonder deze stap kun je niet inloggen; zie hieronder.
 
 **Zet nooit de service-role key in `site/config.js`** — die omzeilt RLS.
@@ -158,6 +166,31 @@ de lijst, maar vier kolommen hebben geen default en blijven dan `NULL`:
 Inloggen faalt dan met *"Database error finding user"* — een melding die naar
 de database wijst terwijl de rij er gewoon staat. Moet het toch via SQL, zet die
 vier dan expliciet op `''`.
+
+#### Waarom inloggen met een code gaat en niet met de link
+
+Een link uit een e-mail komt nooit terecht in een geïnstalleerde PWA. Tik je hem
+aan in de Gmail-app, dan opent die in een ingebouwd venster met eigen opslag;
+tik je hem aan op een desktop, dan opent hij in je standaardbrowser. In beide
+gevallen landt de sessie in een andere opslag dan die van de app op je
+beginscherm, en daar merk je niets van: bij Supabase is de inlog geslaagd, maar
+in de app blijf je uitgelogd.
+
+Dat is precies wat hier een maand lang gebeurde. De verificatie stond op
+14 augustus in `auth.users`, drie sessies aangemaakt — en daarna nooit één token
+ververst, terwijl de digest dagelijks werd gelezen. Alle code deed het goed; de
+sessie stond alleen in het verkeerde venster.
+
+Daar helpt geen instelling tegen, want geen enkele mailclient kan een link in
+een geïnstalleerde PWA openen. De oplossing is de code van zes cijfers die in
+dezelfde mail staat: die tik je in het venster dat je al open hebt, en dan landt
+de sessie per definitie op de goede plek. De link blijft gewoon werken voor wie
+op een desktop leest.
+
+Inloggen is eenmalig per apparaat. Het access token verloopt na een uur, maar
+`db.js` ververst het met het refresh token en die verloopt niet. In de praktijk
+log je één keer in en daarna nooit meer, tenzij je uitlogt of je browsergegevens
+wist.
 
 #### Waarom `sources` publiek leesbaar is
 

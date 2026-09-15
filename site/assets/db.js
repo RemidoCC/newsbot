@@ -124,6 +124,54 @@ window.newsbotDb = (function () {
     });
   }
 
+  /* Inloggen met de code uit de mail in plaats van met de link.
+   *
+   * Een link uit een mail komt nooit terecht in een geïnstalleerde PWA. Tik je
+   * hem aan in de Gmail-app, dan opent die in een ingebouwd venster met eigen
+   * opslag; de sessie landt daar en is onzichtbaar voor de app op je
+   * beginscherm. Bij Supabase is de inlog dan wel geslaagd, maar jij merkt er
+   * niets van. Daar helpt geen enkele instelling tegen — alleen een code die je
+   * overtypt in het venster dat je al open hebt.
+   *
+   * GoTrue kent hier twee typen. 'email' is wat de moderne client stuurt en
+   * wordt intern vertaald naar magiclink of signup; oudere versies kennen
+   * alleen 'magiclink'. We proberen ze in die volgorde, zodat dit blijft werken
+   * als het project ooit meegaat met een andere versie.
+   */
+  function verifieerCode(email, code) {
+    var types = ['email', 'magiclink'];
+
+    function poging(i) {
+      return fetch(cfg.supabaseUrl + '/auth/v1/verify', {
+        method: 'POST',
+        headers: { apikey: cfg.supabaseKey, 'Content-Type': 'application/json' },
+        body: JSON.stringify({ type: types[i], email: email, token: code })
+      }).then(function (r) {
+        if (r.ok) return r.json();
+        return r.json().catch(function () { return {}; }).then(function (fout) {
+          if (i + 1 < types.length) return poging(i + 1);
+          var ruw = fout.msg || fout.error_description || fout.error || '';
+          if (/expired|invalid/i.test(ruw)) {
+            throw new Error('Die code klopt niet of is verlopen. ' +
+              'Vraag een nieuwe aan.');
+          }
+          throw new Error(ruw || 'Inloggen mislukt.');
+        });
+      });
+    }
+
+    return poging(0).then(function (data) {
+      if (!data.access_token) throw new Error('Geen sessie ontvangen.');
+      var nieuw = {
+        access_token: data.access_token,
+        refresh_token: data.refresh_token,
+        verloopt: Date.now() + (data.expires_in || 3600) * 1000
+      };
+      bewaarSessie(nieuw);
+      return nieuw;
+    });
+  }
+
   function uitloggen() {
     var huidig = laadSessie();
     bewaarSessie(null);
@@ -184,6 +232,7 @@ window.newsbotDb = (function () {
     sessie: sessie,
     gebruiker: gebruiker,
     stuurMagicLink: stuurMagicLink,
+    verifieerCode: verifieerCode,
     uitloggen: uitloggen,
     rest: rest,
 

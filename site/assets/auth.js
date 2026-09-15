@@ -50,6 +50,9 @@ window.newsbotAuth = (function () {
       }
 
       var form = document.querySelector('.inlogform');
+      var codeForm = document.querySelector('.inlogcode');
+      var adres = '';
+
       if (form) {
         form.addEventListener('submit', function (event) {
           event.preventDefault();
@@ -57,18 +60,48 @@ window.newsbotAuth = (function () {
           var knop = form.querySelector('button');
           if (!veld || !veld.value) return;
 
+          adres = veld.value.trim();
           knop.disabled = true;
           if (melding) melding.textContent = 'Bezig met versturen…';
 
-          db.stuurMagicLink(veld.value.trim(), location.href).then(function () {
+          db.stuurMagicLink(adres, location.href).then(function () {
             if (melding) {
-              melding.textContent = 'Verstuurd. Open de link in je mail — ook op ' +
-                'je telefoon werkt dat, mits je hem daar opent.';
+              melding.textContent = 'Verstuurd. Tik de code uit de mail hier in. ' +
+                'De link in diezelfde mail werkt ook, maar alleen als hij opent ' +
+                'in deze browser — op een telefoon meestal niet.';
             }
             form.hidden = true;
+            toon(codeForm, true);
+            var codeVeld = document.getElementById('inlog-code');
+            if (codeVeld) codeVeld.focus();
           }).catch(function (fout) {
             knop.disabled = false;
             if (melding) melding.textContent = fout.message || 'Versturen mislukt.';
+          });
+        });
+      }
+
+      if (codeForm) {
+        codeForm.addEventListener('submit', function (event) {
+          event.preventDefault();
+          var veld = document.getElementById('inlog-code');
+          var knop = codeForm.querySelector('button');
+          // Mensen plakken de code met een spatie erin, of met het streepje dat
+          // sommige mailclients eromheen zetten. Dat is geen invoerfout.
+          var code = veld ? veld.value.replace(/\D/g, '') : '';
+          if (!code) return;
+
+          knop.disabled = true;
+          if (melding) melding.textContent = 'Bezig met inloggen…';
+
+          db.verifieerCode(adres, code).then(function () {
+            toon(codeForm, false);
+            if (melding) melding.textContent = '';
+            controleer();
+          }).catch(function (fout) {
+            knop.disabled = false;
+            if (veld) { veld.value = ''; veld.focus(); }
+            if (melding) melding.textContent = fout.message || 'Inloggen mislukt.';
           });
         });
       }
