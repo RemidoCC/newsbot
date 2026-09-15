@@ -1,89 +1,5 @@
 [
   {
-    "ts": "2026-08-30T10:14:30+00:00",
-    "source": "enriched_01.json",
-    "stage": "validate_schema",
-    "error": "c04626d4080a: [] should be non-empty"
-  },
-  {
-    "ts": "2026-08-30T10:14:30+00:00",
-    "source": "enriched_01.json",
-    "stage": "validate_schema",
-    "error": "1060da250bb6: [] should be non-empty"
-  },
-  {
-    "ts": "2026-08-30T10:14:30+00:00",
-    "source": "enriched_01.json",
-    "stage": "validate_schema",
-    "error": "4bfee2355960: [] should be non-empty"
-  },
-  {
-    "ts": "2026-08-30T10:14:30+00:00",
-    "source": "enriched_01.json",
-    "stage": "validate_schema",
-    "error": "9c45a199940d: [] should be non-empty"
-  },
-  {
-    "ts": "2026-08-30T10:14:30+00:00",
-    "source": "enriched_01.json",
-    "stage": "validate_schema",
-    "error": "441b85046cff: [] should be non-empty"
-  },
-  {
-    "ts": "2026-08-30T10:14:30+00:00",
-    "source": "enriched_01.json",
-    "stage": "validate_schema",
-    "error": "c04626d4080a: [] should be non-empty"
-  },
-  {
-    "ts": "2026-08-30T10:14:30+00:00",
-    "source": "enriched_01.json",
-    "stage": "validate_schema",
-    "error": "1060da250bb6: [] should be non-empty"
-  },
-  {
-    "ts": "2026-08-30T10:14:30+00:00",
-    "source": "enriched_01.json",
-    "stage": "validate_schema",
-    "error": "4bfee2355960: [] should be non-empty"
-  },
-  {
-    "ts": "2026-08-30T10:14:30+00:00",
-    "source": "enriched_01.json",
-    "stage": "validate_schema",
-    "error": "9c45a199940d: [] should be non-empty"
-  },
-  {
-    "ts": "2026-08-30T10:14:30+00:00",
-    "source": "enriched_01.json",
-    "stage": "validate_schema",
-    "error": "441b85046cff: [] should be non-empty"
-  },
-  {
-    "ts": "2026-09-01T09:41:27+00:00",
-    "source": "enriched_01.json",
-    "stage": "validate_parse",
-    "error": "geen JSON-array te vinden in de uitvoer"
-  },
-  {
-    "ts": "2026-09-01T09:41:28+00:00",
-    "source": "enriched_01.json",
-    "stage": "validate_parse",
-    "error": "geen JSON-array te vinden in de uitvoer"
-  },
-  {
-    "ts": "2026-09-01T09:41:29+00:00",
-    "source": "enriched_02.json",
-    "stage": "validate_parse",
-    "error": "geen JSON-array te vinden in de uitvoer"
-  },
-  {
-    "ts": "2026-09-01T09:41:31+00:00",
-    "source": "enriched_02.json",
-    "stage": "validate_parse",
-    "error": "geen JSON-array te vinden in de uitvoer"
-  },
-  {
     "ts": "2026-09-02T09:12:44+00:00",
     "source": "enriched_01.json",
     "stage": "validate_parse",
@@ -487,5 +403,17 @@
     "source": "enriched_03.json",
     "stage": "validate_parse",
     "error": "geen JSON-array te vinden in de uitvoer"
+  },
+  {
+    "ts": "2026-09-15T09:56:36+00:00",
+    "source": "enriched_02.json",
+    "stage": "validate_id",
+    "error": "onbekend id 515ed173a4414c6a, geen bron-URL"
+  },
+  {
+    "ts": "2026-09-15T09:56:37+00:00",
+    "source": "enriched_02.json",
+    "stage": "validate_id",
+    "error": "onbekend id 515ed173a4414c6a, geen bron-URL"
   }
 ]
