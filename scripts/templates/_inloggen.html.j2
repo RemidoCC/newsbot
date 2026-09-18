@@ -2,43 +2,55 @@
    zonder inloggen zie je hier niets — en dat hoort ook zo, want row-level
    security in Supabase weigert de gegevens toch.
 
-   Twee stappen. De mail bevat zowel een link als een code van zes cijfers. De
-   link werkt alleen als hij opent in dezelfde browser waarin je dit leest; op
-   een telefoon opent de mail-app meestal een eigen venster met eigen opslag en
-   dan landt de sessie op de verkeerde plek. De code heeft dat probleem niet,
-   want die tik je in in het venster dat je nu al open hebt. #}
+   Wachtwoord voorop, niet uit gewoonte maar omdat het het enige is dat op een
+   telefoon werkt. Een maillink opent nooit in een geïnstalleerde PWA, en de
+   code uit diezelfde mail kan niet omdat gratis Supabase-projecten van na
+   3 juni 2026 hun e-mailsjablonen niet meer mogen aanpassen. Zie de README.
+
+   De maillink staat er nog wel, ingeklapt: op een computer werkt hij prima en
+   het is een uitweg als je het wachtwoord kwijt bent. #}
 <div class="inlogpoort" hidden>
   <p class="inlog-uitleg">
     Deze pagina is van jou alleen. Je logt één keer per apparaat in; daarna
-    blijf je ingelogd. Geen wachtwoord te onthouden.
+    blijf je ingelogd.
   </p>
 
+  {# autocomplete username/current-password: zo herkent je telefoon dit als een
+     inlogformulier en biedt hij het wachtwoord voortaan zelf aan. #}
   <form class="inlogform" autocomplete="on">
     <label class="visually-hidden" for="inlog-email">E-mailadres</label>
     <input id="inlog-email" type="email" name="email" inputmode="email"
-           autocomplete="email" placeholder="jouw@adres.nl" required>
-    <button type="submit" class="knop">Stuur mij een code</button>
-  </form>
-
-  <form class="inlogcode" hidden autocomplete="off">
-    <label for="inlog-code">Code uit de mail</label>
-    {# one-time-code laat iOS en Android de code uit de meldingsbalk aanbieden,
-       zodat je hem niet hoeft over te typen. inputmode geeft het cijferklavier.
-
-       Bewust geen pattern-attribuut: plak je de code mét een spatie of een
-       streepje — en dat doen mailclients — dan weigert de browser het formulier
-       te versturen en komt de opschoning in auth.js er nooit aan te pas. Die
-       haalt alles behalve cijfers er toch al af. #}
-    <input id="inlog-code" type="text" name="code" inputmode="numeric"
-           autocomplete="one-time-code" maxlength="12"
-           placeholder="000000" required>
+           autocomplete="username" placeholder="jouw@adres.nl" required>
+    <label class="visually-hidden" for="inlog-wachtwoord">Wachtwoord</label>
+    <input id="inlog-wachtwoord" type="password" name="password"
+           autocomplete="current-password" placeholder="Wachtwoord" required>
     <button type="submit" class="knop">Inloggen</button>
-    <p class="inlog-hint">
-      Staat er alleen een link in de mail en geen code? Dan mist de
-      e-mailsjabloon in Supabase nog <code>{{ '{{ .Token }}' }}</code> —
-      zie de README.
-    </p>
   </form>
+
+  <details class="inlog-anders">
+    <summary>Liever een link per e-mail</summary>
+    <p class="inlog-hint">
+      Werkt alleen op een computer. Op een telefoon opent de link in je
+      mail-app of browser, en niet in deze app — dan lijkt het te lukken maar
+      blijf je hier uitgelogd.
+    </p>
+    <form class="inloglink" autocomplete="on">
+      <label class="visually-hidden" for="inloglink-email">E-mailadres</label>
+      <input id="inloglink-email" type="email" name="email" inputmode="email"
+             autocomplete="email" placeholder="jouw@adres.nl" required>
+      <button type="submit" class="knop-tekst">Stuur mij een link</button>
+    </form>
+    <form class="inlogcode" hidden autocomplete="off">
+      <label for="inlog-code">Staat er een code in de mail? Tik hem hier in.</label>
+      {# Bewust geen pattern-attribuut: plak je de code mét een spatie — en dat
+         doen mailclients — dan weigert de browser het formulier te versturen en
+         komt de opschoning in auth.js er nooit aan te pas. #}
+      <input id="inlog-code" type="text" name="code" inputmode="numeric"
+             autocomplete="one-time-code" maxlength="12"
+             placeholder="000000">
+      <button type="submit" class="knop-tekst">Inloggen met code</button>
+    </form>
+  </details>
 
   <p class="inlog-melding" role="status" aria-live="polite"></p>
 </div>

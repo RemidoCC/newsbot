@@ -50,14 +50,39 @@ window.newsbotAuth = (function () {
       }
 
       var form = document.querySelector('.inlogform');
+      var linkForm = document.querySelector('.inloglink');
       var codeForm = document.querySelector('.inlogcode');
       var adres = '';
 
+      // Wachtwoord: de gewone weg, en op een telefoon de enige die werkt.
       if (form) {
         form.addEventListener('submit', function (event) {
           event.preventDefault();
           var veld = document.getElementById('inlog-email');
+          var pw = document.getElementById('inlog-wachtwoord');
           var knop = form.querySelector('button');
+          if (!veld || !veld.value || !pw || !pw.value) return;
+
+          knop.disabled = true;
+          if (melding) melding.textContent = 'Bezig met inloggen…';
+
+          db.inlogMetWachtwoord(veld.value.trim(), pw.value).then(function () {
+            pw.value = '';
+            if (melding) melding.textContent = '';
+            controleer();
+          }).catch(function (fout) {
+            knop.disabled = false;
+            pw.value = '';
+            if (melding) melding.textContent = fout.message || 'Inloggen mislukt.';
+          });
+        });
+      }
+
+      if (linkForm) {
+        linkForm.addEventListener('submit', function (event) {
+          event.preventDefault();
+          var veld = document.getElementById('inloglink-email');
+          var knop = linkForm.querySelector('button');
           if (!veld || !veld.value) return;
 
           adres = veld.value.trim();
@@ -66,14 +91,12 @@ window.newsbotAuth = (function () {
 
           db.stuurMagicLink(adres, location.href).then(function () {
             if (melding) {
-              melding.textContent = 'Verstuurd. Tik de code uit de mail hier in. ' +
-                'De link in diezelfde mail werkt ook, maar alleen als hij opent ' +
-                'in deze browser — op een telefoon meestal niet.';
+              melding.textContent = 'Verstuurd. Open de link op deze computer. ' +
+                'Staat er ook een code in de mail, dan kun je die hieronder ' +
+                'intikken.';
             }
-            form.hidden = true;
+            linkForm.hidden = true;
             toon(codeForm, true);
-            var codeVeld = document.getElementById('inlog-code');
-            if (codeVeld) codeVeld.focus();
           }).catch(function (fout) {
             knop.disabled = false;
             if (melding) melding.textContent = fout.message || 'Versturen mislukt.';

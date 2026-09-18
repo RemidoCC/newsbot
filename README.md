@@ -117,16 +117,8 @@ Nodig voor het bewaren van artikelen in mappen en voor het beheerscherm.
 
 1. Draai `supabase/schema.sql` in de SQL-editor van je project. Het script is
    idempotent, dus opnieuw draaien kan geen kwaad.
-2. Authentication → Providers → **Email** aan (magic link).
-3. Authentication → Emails → sjabloon **Magic Link** → voeg de code toe:
-
-   ```html
-   <p>Of tik deze code in de app: <strong>{{ '{{ .Token }}' }}</strong></p>
-   ```
-
-   Zonder deze regel staat er alleen een link in de mail en werkt inloggen op
-   je telefoon niet; zie *Waarom inloggen met een code gaat* hieronder.
-4. Authentication → URL Configuration. Twee velden, allebei nodig:
+2. Authentication → Providers → **Email** aan.
+3. Authentication → URL Configuration. Twee velden, allebei nodig:
    - **Site URL**: `https://remidocc.github.io/newsbot/`
    - **Redirect URLs**: `https://remidocc.github.io/newsbot/**`
 
@@ -135,10 +127,11 @@ Nodig voor het bewaren van artikelen in mappen en voor het beheerscherm.
    verkeerd — op GitHub Pages is de domeinwortel `remidocc.github.io` een lege
    plek — dan komt de inloglink uit op een 404 van GitHub. De mail is dan
    gewoon verstuurd en het token klopt; alleen de bestemming niet.
-5. `site/config.js` bevat de project-URL en de publishable key. Die horen
+4. `site/config.js` bevat de project-URL en de publishable key. Die horen
    publiek te zijn; wat je gegevens beschermt is row-level security.
-6. Authentication → Users → **Add user** → *Send invitation* met je eigen
-   e-mailadres. Zonder deze stap kun je niet inloggen; zie hieronder.
+5. Authentication → Users → **Add user** → *Create new user*. Vul je eigen
+   e-mailadres en een wachtwoord in en vink **Auto Confirm User** aan. Zonder
+   die vink blijft het account onbevestigd en weigert het inloggen.
 
 **Zet nooit de service-role key in `site/config.js`** — die omzeilt RLS.
 
@@ -167,7 +160,7 @@ Inloggen faalt dan met *"Database error finding user"* — een melding die naar
 de database wijst terwijl de rij er gewoon staat. Moet het toch via SQL, zet die
 vier dan expliciet op `''`.
 
-#### Waarom inloggen met een code gaat en niet met de link
+#### Waarom inloggen met een wachtwoord gaat en niet met een maillink
 
 Een link uit een e-mail komt nooit terecht in een geïnstalleerde PWA. Tik je hem
 aan in de Gmail-app, dan opent die in een ingebouwd venster met eigen opslag;
@@ -182,10 +175,23 @@ ververst, terwijl de digest dagelijks werd gelezen. Alle code deed het goed; de
 sessie stond alleen in het verkeerde venster.
 
 Daar helpt geen instelling tegen, want geen enkele mailclient kan een link in
-een geïnstalleerde PWA openen. De oplossing is de code van zes cijfers die in
-dezelfde mail staat: die tik je in het venster dat je al open hebt, en dan landt
-de sessie per definitie op de goede plek. De link blijft gewoon werken voor wie
-op een desktop leest.
+een geïnstalleerde PWA openen.
+
+De voor de hand liggende uitweg was de code van zes cijfers die Supabase in
+dezelfde mail kan zetten. Die kan hier niet: sinds
+[3 juni 2026](https://supabase.com/changelog/46599-changes-to-email-template-customisation-on-free-tier)
+mogen gratis projecten die ná die datum zijn aangemaakt hun auth-sjablonen niet
+meer bewerken zolang ze de standaard mailserver gebruiken, en zonder
+`{{ '{{ .Token }}' }}` in het sjabloon staat er geen code in de mail. Eigen SMTP
+instellen geeft het bewerken terug, maar dat is een dienst erbij voor één
+inlog per apparaat.
+
+Dus een wachtwoord. Dat heeft met mail niets te maken: je tikt het in het
+venster dat je al open hebt, en dan landt de sessie per definitie op de goede
+plek. Je telefoon onthoudt het, dus in de praktijk is het één tik. De maillink
+staat nog wel in het formulier, ingeklapt — op een computer werkt hij prima en
+het is een uitweg als je het wachtwoord kwijt bent. Het codeveld eronder werkt
+zodra je ooit eigen SMTP instelt; tot die tijd blijft het leeg.
 
 Inloggen is eenmalig per apparaat. Het access token verloopt na een uur, maar
 `db.js` ververst het met het refresh token en die verloopt niet. In de praktijk

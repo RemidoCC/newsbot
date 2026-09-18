@@ -80,6 +80,51 @@ window.newsbotDb = (function () {
     return verversen(huidig).catch(function () { return null; });
   }
 
+  /* Inloggen met een wachtwoord. De gewone weg, en op een telefoon de enige die
+   * betrouwbaar werkt.
+   *
+   * Een maillink komt nooit terecht in een geïnstalleerde PWA — die opent in de
+   * mail-app of in je standaardbrowser, allebei met eigen opslag. De code uit
+   * diezelfde mail zou dat oplossen, maar Supabase laat gratis projecten die na
+   * 3 juni 2026 zijn aangemaakt hun e-mailsjablonen niet meer aanpassen, en
+   * zonder {{ .Token }} in het sjabloon staat er geen code in de mail. Een
+   * wachtwoord heeft met dat alles niets te maken: je tikt het in het venster
+   * dat je al open hebt, dus de sessie landt waar hij hoort.
+   */
+  function inlogMetWachtwoord(email, wachtwoord) {
+    return fetch(cfg.supabaseUrl + '/auth/v1/token?grant_type=password', {
+      method: 'POST',
+      headers: { apikey: cfg.supabaseKey, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email: email, password: wachtwoord })
+    }).then(function (r) {
+      if (r.ok) return r.json();
+      return r.json().catch(function () { return {}; }).then(function (fout) {
+        var ruw = fout.msg || fout.error_description || fout.error || '';
+        // "Invalid login credentials" zegt niet welk van de twee fout is, en dat
+        // hoort ook zo: anders kun je adressen aftasten. Maar de Engelse zin
+        // helpt niemand, dus vertalen we hem.
+        if (/invalid login credentials/i.test(ruw) ||
+            fout.error_code === 'invalid_credentials') {
+          throw new Error('E-mailadres of wachtwoord klopt niet.');
+        }
+        if (/email not confirmed/i.test(ruw)) {
+          throw new Error('Dit account is nog niet bevestigd. Zet in Supabase ' +
+            'bij de gebruiker "Auto Confirm" aan.');
+        }
+        throw new Error(ruw || 'Inloggen mislukt.');
+      });
+    }).then(function (data) {
+      if (!data.access_token) throw new Error('Geen sessie ontvangen.');
+      var nieuw = {
+        access_token: data.access_token,
+        refresh_token: data.refresh_token,
+        verloopt: Date.now() + (data.expires_in || 3600) * 1000
+      };
+      bewaarSessie(nieuw);
+      return nieuw;
+    });
+  }
+
   function stuurMagicLink(email, terugNaar) {
     // De terugkeer-URL hoort in de querystring, niet in de body. `options:
     // {email_redirect_to: ...}` is de vorm van de supabase-js bibliotheek; de
@@ -231,6 +276,7 @@ window.newsbotDb = (function () {
     ingesteld: ingesteld,
     sessie: sessie,
     gebruiker: gebruiker,
+    inlogMetWachtwoord: inlogMetWachtwoord,
     stuurMagicLink: stuurMagicLink,
     verifieerCode: verifieerCode,
     uitloggen: uitloggen,

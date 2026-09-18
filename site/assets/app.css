@@ -581,9 +581,29 @@ input:focus, select:focus { border-color: var(--lijn); background: var(--papier)
 .inlogform { display: flex; gap: var(--r2); flex-wrap: wrap; }
 .inlogform input { flex: 1 1 14rem; }
 
+.inlogform input[type="password"] { flex: 1 1 10rem; }
+
+/* De maillink is de uitzondering, niet de gewone weg: ingeklapt, en in de
+   rustige tint van de rest van de bijzaken. */
+.inlog-anders { margin-top: var(--r4); }
+.inlog-anders > summary {
+  cursor: pointer;
+  font-size: var(--klein);
+  color: var(--inkt-gedempt);
+  padding: 0.25rem 0;
+}
+.inlog-anders > summary:hover { color: var(--accent); }
+.inlog-anders > summary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 3px;
+}
+.inloglink { display: flex; gap: var(--r2); flex-wrap: wrap; margin-top: var(--r3); }
+.inloglink input { flex: 1 1 14rem; }
+
 /* De code uit de mail. Ruim en met tabulaire cijfers, zodat overtypen op een
    telefoon geen priegelwerk is en je ziet hoeveel je er al hebt staan. */
-.inlogcode { display: flex; gap: var(--r2); flex-wrap: wrap; align-items: center; }
+.inlogcode { display: flex; gap: var(--r2); flex-wrap: wrap; align-items: center; margin-top: var(--r3); }
 .inlogcode label { flex: 1 0 100%; font-size: var(--klein); color: var(--inkt-gedempt); }
 .inlogcode input {
   flex: 0 1 9rem;
