@@ -83,10 +83,22 @@
     });
 
     if (!uitslag) return;
-    if (!term) {
-      uitslag.textContent = '';
-    } else if (zichtbaar === 0) {
-      uitslag.textContent = 'Niets gevonden voor "' + term + '" in dit kanaal.';
+    uitslag.textContent = '';
+    if (!term) return;
+
+    if (zichtbaar === 0) {
+      // Dit veld doorzoekt alleen de dag die je openhebt. Niets vinden zegt
+      // dus weinig — het staat misschien gewoon in een andere digest. Zonder
+      // deze verwijzing moet je dat zelf bedenken en de term opnieuw intikken.
+      uitslag.appendChild(document.createTextNode(
+        'Niets gevonden voor "' + term + '" op deze dag. '));
+      var manifest = document.querySelector('link[rel="manifest"]');
+      var wortel = manifest && manifest.getAttribute('href').indexOf('../') === 0
+        ? '../' : './';
+      var naarArchief = document.createElement('a');
+      naarArchief.href = wortel + 'archief.html?q=' + encodeURIComponent(term);
+      naarArchief.textContent = 'Zoek in het hele archief';
+      uitslag.appendChild(naarArchief);
     } else {
       uitslag.textContent = zichtbaar + (zichtbaar === 1 ? ' item' : ' items') + ' gevonden.';
     }

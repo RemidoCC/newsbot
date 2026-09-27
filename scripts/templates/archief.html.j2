@@ -9,6 +9,27 @@
     <p class="datumkop-sub">De laatste {{ archive | length }} digests.</p>
   </div>
 
+  {% if archive %}
+  {# Zoeken over alle bewaarde dagen tegelijk. De index wordt pas opgehaald
+     zodra je typt, zodat deze pagina licht blijft voor wie alleen de lijst
+     met dagen wil. #}
+  <div class="zoek">
+    <label class="visually-hidden" for="archiefzoek">Zoeken in het archief</label>
+    <input id="archiefzoek" type="search" autocomplete="off" spellcheck="false"
+           placeholder="Zoeken in alle {{ archive | length }} dagen">
+    <div class="zoekfilters" role="group" aria-label="Kanaal">
+      <button type="button" class="filterknop" data-kanaal="" aria-pressed="true">Alles</button>
+      {% for channel in channels %}
+      <button type="button" class="filterknop" data-kanaal="{{ channel.key }}"
+              aria-pressed="false">{{ channel.label }}</button>
+      {% endfor %}
+    </div>
+    <p class="zoek-uitslag" role="status" aria-live="polite"></p>
+  </div>
+
+  <div class="zoekresultaten" hidden></div>
+  {% endif %}
+
   {% if not archive %}
   <p class="leeg">Nog geen digests bewaard.</p>
   {% else %}
@@ -29,4 +50,8 @@
   {% endif %}
 
 </div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ base }}assets/archiefzoek.js" defer></script>
 {% endblock %}

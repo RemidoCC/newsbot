@@ -278,6 +278,64 @@ def test_domein_uit_url():
     assert build_site.domain("https://www.nos.nl/artikel/1") == "nos.nl"
 
 
+def _schrijf_digest(tmp_path, datum, items):
+    map_ = tmp_path / "digest"
+    map_.mkdir(exist_ok=True)
+    (map_ / f"{datum}.json").write_text(
+        json.dumps({"date": datum, "items": items}), encoding="utf-8")
+
+
+def test_zoekindex_bevat_alle_dagen(tmp_path, monkeypatch):
+    monkeypatch.setattr(build_site, "DATA_DIR", tmp_path)
+    _schrijf_digest(tmp_path, "2026-09-01", [
+        {"title": "Eerste", "summary": "Een", "url": "https://a.nl/1",
+         "source_name": "A", "channel": "ai", "topics": ["modellen"]},
+    ])
+    _schrijf_digest(tmp_path, "2026-09-02", [
+        {"title": "Tweede", "summary": "Twee", "url": "https://b.nl/2",
+         "source_name": "B", "channel": "bieb", "topics": []},
+    ])
+    index = build_site.zoekindex([{"date": "2026-09-02"}, {"date": "2026-09-01"}])
+
+    assert [d[0] for d in index["dagen"]] == ["2026-09-02", "2026-09-01"]
+    # De volgorde van de velden is een afspraak met archiefzoek.js; verandert
+    # die hier, dan leest het zoekveld de verkeerde kolom uit.
+    assert index["velden"] == ["titel", "samenvatting", "url", "bron",
+                               "kanaal", "onderwerpen"]
+    rij = index["dagen"][0][1][0]
+    assert rij == ["Tweede", "Twee", "https://b.nl/2", "B", "bieb", []]
+
+
+def test_zoekindex_gooit_items_zonder_url_of_kop_weg(tmp_path, monkeypatch):
+    # Zo'n item is in een zoekresultaat waardeloos: je kunt er niet heen.
+    monkeypatch.setattr(build_site, "DATA_DIR", tmp_path)
+    _schrijf_digest(tmp_path, "2026-09-01", [
+        {"title": "Goed", "url": "https://a.nl/1", "source_name": "A"},
+        {"title": "Geen url", "url": "", "source_name": "A"},
+        {"title": "", "url": "https://a.nl/3", "source_name": "A"},
+    ])
+    index = build_site.zoekindex([{"date": "2026-09-01"}])
+    assert [r[0] for r in index["dagen"][0][1]] == ["Goed"]
+
+
+def test_zoekindex_slaat_lege_of_kapotte_dagen_over(tmp_path, monkeypatch):
+    monkeypatch.setattr(build_site, "DATA_DIR", tmp_path)
+    _schrijf_digest(tmp_path, "2026-09-01", [])
+    (tmp_path / "digest" / "2026-09-02.json").write_text("{kapot", encoding="utf-8")
+    _schrijf_digest(tmp_path, "2026-09-03", [
+        {"title": "Wel", "url": "https://a.nl/1", "source_name": "A"},
+    ])
+    index = build_site.zoekindex(
+        [{"date": "2026-09-03"}, {"date": "2026-09-02"}, {"date": "2026-09-01"}])
+    assert [d[0] for d in index["dagen"]] == ["2026-09-03"]
+
+
+def test_archief_dekt_alles_wat_dedupe_bewaart():
+    # Staat ARCHIVE_LIMIT lager dan de bewaartermijn, dan vindt het zoeken
+    # artikelen waarvoor geen dagpagina bestaat om naartoe te klikken.
+    assert build_site.ARCHIVE_LIMIT >= dedupe.BEWAAR["digest"]
+
+
 def test_belangrijke_items_komen_apart():
     items = [
         {"channel": "ai", "importance": 5, "topics": ["modellen"], "source_name": "A"},

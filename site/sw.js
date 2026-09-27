@@ -9,7 +9,7 @@
  * De versie in CACHE hieronder wordt door build_site.py niet aangepast; hij
  * hoeft alleen te wijzigen als de assets veranderen.
  */
-var CACHE = 'newsbot-v8';
+var CACHE = 'newsbot-v9';
 var KERN = [
   './',
   './index.html',
@@ -24,6 +24,7 @@ var KERN = [
   './assets/bewaren.js',
   './assets/opgeslagen.js',
   './assets/beheer.js',
+  './assets/archiefzoek.js',
   './assets/icon.svg',
   './assets/favicon-32.png',
   './manifest.webmanifest'
@@ -57,11 +58,14 @@ self.addEventListener('fetch', function (event) {
   var url = new URL(verzoek.url);
   if (url.origin !== self.location.origin) return;
 
-  // config.js en de digest zijn de twee bestanden die veranderen zonder dat
-  // sw.js verandert. Cache-first zou dan een oude VAPID-sleutel of een oude
-  // digest blijven serveren tot de service worker toevallig ververst — en dat
-  // faalt stil: de meldingen komen gewoon niet aan en niets zegt waarom.
-  var altijdVers = /\/(config\.js|digest\.json)$/.test(url.pathname);
+  // Deze drie veranderen zonder dat sw.js verandert. Cache-first zou dan een
+  // oude VAPID-sleutel, een oude digest of een archiefindex van vorige week
+  // blijven serveren tot de service worker toevallig ververst — en dat faalt
+  // stil: de meldingen komen niet aan, of het archief vindt de artikelen van
+  // deze week niet, en niets zegt waarom. Netwerk eerst, cache als je offline
+  // bent, zodat zoeken in het archief ook zonder verbinding blijft werken.
+  var altijdVers =
+    /\/(config\.js|digest\.json|archief-index\.json)$/.test(url.pathname);
 
   if (verzoek.mode === 'navigate' || altijdVers) {
     event.respondWith(

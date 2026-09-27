@@ -14,7 +14,7 @@ collect.py     bronnen ophalen en normaliseren        (geen LLM)
 dedupe.py      ontdubbelen, filteren, cappen op 120   (geen LLM)
 claude -p      vertalen, samenvatten, taggen, wegen   (batches van 40)
 validate.py    JSON-schema check op wat Claude teruggeeft
-build_site.py  JSON -> statische site in site/
+build_site.py  JSON -> statische site, plus de zoekindex van het archief
 send_push.py   één melding, alleen bij een gevulde digest
 ```
 
@@ -197,6 +197,33 @@ Inloggen is eenmalig per apparaat. Het access token verloopt na een uur, maar
 `db.js` ververst het met het refresh token en die verloopt niet. In de praktijk
 log je één keer in en daarna nooit meer, tenzij je uitlogt of je browsergegevens
 wist.
+
+#### Zoeken in het archief
+
+Het zoekveld op een digestpagina doorzoekt alleen die dag. Op `/archief` zit een
+tweede veld dat over alle bewaarde dagen tegelijk gaat.
+
+Dat draait volledig in de browser. `build_site.py` schrijft elke gearchiveerde
+digest naar `site/assets/archief-index.json`; `archiefzoek.js` haalt dat bestand
+op zodra je begint te typen en filtert erin. Geen zoekserver, geen Supabase, en
+dus ook geen inlog — het archief is toch al publiek.
+
+Twee dingen om te weten als je eraan sleutelt:
+
+- De rijen zijn arrays, geen objecten. Met objecten staat bij elk item opnieuw
+  `title`, `summary`, `url` enzovoort, en dat is over ruim duizend items
+  tientallen kilobytes aan louter sleutelnamen. De veldvolgorde staat in
+  `velden` bovenin het bestand en `archiefzoek.js` leunt daarop; verander je de
+  ene, verander dan de andere. Er is een test die dat bewaakt.
+- De samenvattingen gaan mee, en die zijn het grootste deel van het bestand:
+  zonder is het bijna drie keer zo klein. Toch blijven ze erin, anders vindt
+  het archief minder dan het zoekveld op een digestpagina — en dat verschil
+  merk je pas als je iets zoekt waarvan je zéker weet dat het er staat.
+
+De index staat in `sw.js` bij de bestanden die altijd vers worden opgehaald,
+naast `config.js` en `digest.json`. Cache-first zou hier betekenen dat je de
+artikelen van deze week niet kunt vinden tot de service worker toevallig
+ververst.
 
 #### Waarom `sources` publiek leesbaar is
 

@@ -34,7 +34,11 @@ from collect import DATA_DIR, ROOT
 
 SITE_DIR = ROOT / "site"
 TEMPLATE_DIR = ROOT / "scripts" / "templates"
-ARCHIVE_LIMIT = 30
+# Gelijk aan wat dedupe.py aan digests bewaart (BEWAAR["digest"]). Stond eerst
+# op 30, waardoor de helft van de bewaarde digests geen pagina had. Sinds het
+# archief doorzoekbaar is valt dat op: je vindt een artikel van zes weken terug
+# en er is geen dag om naartoe te klikken. Liever alles wat er is.
+ARCHIVE_LIMIT = 60
 
 # Vanaf hoeveel kleine berichten (belang 1 en 2) een rubriek ze inklapt. Bij
 # minder blijven ze gewoon in de lijst staan: een uitklapper voor één bericht
@@ -218,6 +222,52 @@ def archive_entries() -> list[dict]:
     return entries
 
 
+def zoekindex(archive: list[dict]) -> dict:
+    """Alle gearchiveerde items in één bestand, voor het zoeken in het archief.
+
+    Geen server en geen Supabase: de hele geschiedenis past in een JSON-bestand
+    dat de browser één keer ophaalt. Wel zuinig opgeschreven, want dit groeit
+    met de dag. Rijen zijn arrays in plaats van objecten — met objecten staat
+    bij elk item opnieuw "title", "summary", "url" enzovoort, en dat scheelt
+    over dertig dagen tientallen kilobytes aan louter sleutelnamen.
+
+    De samenvattingen gaan mee. Zonder is het bestand bijna drie keer zo klein,
+    maar dan vindt het archief minder dan het zoekveld op een digestpagina, en
+    dat is het soort inconsistentie waar je later op stukloopt. archiefzoek.js
+    haalt het bestand pas op zodra je echt gaat typen.
+    """
+    dagen = []
+    for entry in archive:
+        pad = DATA_DIR / "digest" / f"{entry['date']}.json"
+        try:
+            payload = json.loads(pad.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            continue
+        rijen = []
+        for item in payload.get("items", []):
+            # Een item zonder URL hoort er niet te zijn, maar als het er toch
+            # staat is het in een zoekresultaat waardeloos: je kunt er niet heen.
+            if not item.get("url") or not item.get("title"):
+                continue
+            rijen.append([
+                item["title"],
+                item.get("summary") or "",
+                item["url"],
+                item.get("source_name") or "",
+                item.get("channel") or "",
+                item.get("topics") or [],
+            ])
+        if rijen:
+            dagen.append([entry["date"], rijen])
+
+    return {
+        # De volgorde van de velden staat hier, zodat archiefzoek.js niet hoeft
+        # te raden wat kolom 3 ook alweer was.
+        "velden": ["titel", "samenvatting", "url", "bron", "kanaal", "onderwerpen"],
+        "dagen": dagen,
+    }
+
+
 def render_digest(env, payload: dict, *, is_latest: bool, archive: list[dict]) -> str:
     items = prepare(payload.get("items", []))
     return env.get_template("digest.html.j2").render(
@@ -278,6 +328,14 @@ def run(digest_path: Path | None, use_sample: bool) -> int:
         env.get_template("archief.html.j2").render(
             archive=archive, base="", channels=CHANNELS,
         ),
+        encoding="utf-8",
+    )
+
+    index = zoekindex(archive)
+    (SITE_DIR / "assets" / "archief-index.json").write_text(
+        # separators zonder spaties: over duizend items scheelt dat tientallen
+        # kilobytes, en niemand leest dit bestand met de hand.
+        json.dumps(index, ensure_ascii=False, separators=(",", ":")),
         encoding="utf-8",
     )
 
