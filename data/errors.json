@@ -55,5 +55,12 @@
     "stage": "collect",
     "error": "ConnectTimeout: timed out",
     "url": "https://www.infodocket.com/feed/"
+  },
+  {
+    "ts": "2026-09-28T11:21:08+00:00",
+    "source": "Koninklijke Bibliotheek",
+    "stage": "collect",
+    "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.kb.nl/nieuws/rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
+    "url": "https://www.kb.nl/rss.xml"
   }
 ]
