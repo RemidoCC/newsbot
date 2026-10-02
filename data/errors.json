@@ -62,5 +62,12 @@
     "source": "enriched_03.json",
     "stage": "validate_parse",
     "error": "geen JSON-array te vinden in de uitvoer"
+  },
+  {
+    "ts": "2026-10-02T10:50:33+00:00",
+    "source": "Computable",
+    "stage": "collect",
+    "error": "ConnectTimeout: timed out",
+    "url": "https://www.computable.nl/feed/"
   }
 ]
