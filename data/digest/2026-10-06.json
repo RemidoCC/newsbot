@@ -1,0 +1,768 @@
+{
+  "date": "2026-10-06",
+  "generated_at": "2026-10-06T11:40:52+00:00",
+  "stats": {
+    "batches": 2,
+    "onleesbaar": 0,
+    "objecten": 74,
+    "schema_fout": 0,
+    "onbekend_id": 0,
+    "gedropt": 33,
+    "geldig": 41,
+    "ai": 35,
+    "bieb": 6
+  },
+  "sources": [
+    "American Libraries",
+    "Ars Technica AI",
+    "Bibliotheeknetwerk (KB)",
+    "Computable",
+    "Emerce",
+    "Hacker News",
+    "Hugging Face",
+    "Import AI",
+    "Infodocket",
+    "Koninklijke Bibliotheek",
+    "NOS Tech",
+    "Probiblio",
+    "Rijnbrink",
+    "Simon Willison",
+    "TLDR AI",
+    "The Rundown AI",
+    "The Verge AI",
+    "Tweakers"
+  ],
+  "items": [
+    {
+      "id": "bc52d472c3bfef65b542c60b9a0ada57dbfcf72c0d5a01ebc4860b84b0a12822",
+      "title": "Tijdelijk verbod op AI-brillen in Noorwegen, regering stelt onderzoek in",
+      "summary": "Noorwegen wil AI-brillen tijdelijk verbieden op drukbezochte en privacygevoelige plekken, zoals parken, winkelcentra, kinderdagverblijven en mogelijk ziekenhuizen. De regering vreest dat mensen ongemerkt gefilmd of opgenomen worden. Een expertgroep moet advies geven over permanente regels.",
+      "url": "https://nos.nl/l/2633750",
+      "source_name": "NOS Tech",
+      "source_type": "rss",
+      "published": "2026-10-05T14:13:59+02:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "ethiek-en-risico"
+      ],
+      "importance": 4,
+      "why_relevant": "Camerabrillen kunnen ook in de bibliotheek privacyvragen oproepen bij bezoekers en medewerkers.",
+      "also_covered_by": [
+        "https://arstechnica.com/ai/2026/10/ai-glasses-face-their-first-major-government-crackdown/"
+      ]
+    },
+    {
+      "id": "d6f086320e43dcfc1dce9cd4507707e97c9cf51129d77e55f1b9f2688886b287",
+      "title": "Wat gebeurt er als afgeschreven bibliotheekboeken grondstof worden voor AI?",
+      "summary": "Volgens rechtbankstukken kocht Anthropic miljoenen tweedehands boeken op, sneed de ruggen eraf en scande de pagina's om AI mee te trainen. Een Amerikaanse rechter vond dit in 2025 fair use. Inmiddels bestaat er een markt voor bulkaankopen van boeken van vóór 2022, wat vragen oproept voor bibliotheken die boeken afschrijven.",
+      "url": "https://www.probiblio.nl/wat-gebeurt-er-als-onze-afgeschreven-boeken-grondstof-worden-voor-ai/",
+      "source_name": "Probiblio",
+      "source_type": "rss",
+      "published": "2026-10-06T08:37:43+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "ethiek-en-risico",
+        "bibliotheek"
+      ],
+      "importance": 4,
+      "why_relevant": "Raakt direct aan wat bibliotheken doen met afgeschreven collecties.",
+      "also_covered_by": []
+    },
+    {
+      "id": "9cc7d5b67988cc80940793081bd126832d4b8ba0173c489f1d0c0176ef5a694f",
+      "title": "OpenAI geeft ChatGPT-teksten in de EU standaard een onzichtbaar watermerk",
+      "summary": "OpenAI voegt in de EU een onzichtbaar watermerk toe aan gegenereerde teksten, onder de naam textGrain. Buiten Europa staat de functie standaard uit. Volgens OpenAI werkt de techniek beter dan SynthID van Google; detectie is in eerste instantie voorbehouden aan onderzoekers.",
+      "url": "https://tweakers.net/nieuws/252994/openai-geeft-chatgpt-teksten-in-eu-standaard-onzichtbaar-watermerk.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-10-06T09:43:42+02:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "beleid-en-regelgeving",
+        "tools",
+        "ethiek-en-risico"
+      ],
+      "importance": 4,
+      "why_relevant": "Raakt aan het herkennen van AI-teksten, nuttig voor mediawijsheid en klantvragen.",
+      "also_covered_by": [
+        "https://openai.com/index/eu-text-provenance"
+      ]
+    },
+    {
+      "id": "5e540c99d023de7fe1d13f63bbf402be0612d1afdb1bbae89d8c82e6fb9ca00d",
+      "title": "PEN America telt recordaantal boekverboden op Amerikaanse scholen",
+      "summary": "In het schooljaar 2025-2026 telde PEN America bijna 12.000 boekverboden op Amerikaanse scholen, het hoogste aantal in één jaar. Nieuwe staatswetten, met name in Texas, verklaren veel van de stijging. Ook is kunstmatige intelligentie gebruikt om boeken massaal te laten verwijderen, waaronder manga en graphic novels.",
+      "url": "https://www.infodocket.com/2026/10/05/new-data-pen-america-tracks-record-school-book-bans-12000-for-a-single-year-record-number-of-unique-book-titles-at-7000-were-banned-as-new-state-laws-artificial-intelligence-and-political-p/",
+      "source_name": "Infodocket",
+      "source_type": "rss",
+      "published": "2026-10-05T12:31:00+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "bibliotheek"
+      ],
+      "importance": 3,
+      "why_relevant": "AI wordt ingezet voor censuur van collecties, een zorg voor bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "9ddad19fa2ca6e8faae6b3bead882887a0b08cbf8d38e914ce0564b8c4309c3a",
+      "title": "Anthropic investeert 100 miljoen in opleiding van 10.000 AI-engineers",
+      "summary": "Anthropic stopt 100 miljoen dollar in Claude Frontier Academy, een programma om 10.000 AI-engineers op te leiden. Daarnaast bereidt het door Nvidia gesteunde Reflection een open-weightmodel voor dat moet concurreren met Chinese systemen. Het gaat om een nieuwsbriefoverzicht met meer korte berichten.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/efvvj2q6lq06x9uzoc2tyify52544z3anmhkn5k5.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-10-05T12:46:51+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderwijs",
+        "bedrijven",
+        "modellen"
+      ],
+      "importance": 3,
+      "why_relevant": "Grote AI-bedrijven investeren in vaardigheden en open modellen, relevant voor scholingsaanbod.",
+      "also_covered_by": []
+    },
+    {
+      "id": "9260ac573f533c5beb90249f56c863093eebb246a958e04f2d99942ef5c60902",
+      "title": "Schuren mag! Zeven inzichten over democratie en burgerschap",
+      "summary": "Rijnbrink blikt terug op het Kennisfestival Democratie & Burgerschap, waar zo'n 350 bibliotheekprofessionals spraken over de rol van de bibliotheek als beschermer van de democratie. Centraal stond de vraag hoe je er als bibliotheek voor iedereen kunt zijn en toch om kunt gaan met botsende meningen. Het verslag bevat praktische tips en de uitspraak dat schuren mag.",
+      "url": "https://www.rijnbrink.nl/actueel/nieuws/schuren-mag-7-x-over-democratie-en-burgerschap/",
+      "source_name": "Rijnbrink",
+      "source_type": "rss",
+      "published": "2026-10-05T14:13:40+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek",
+        "evenement"
+      ],
+      "importance": 3,
+      "why_relevant": "Praktische inzichten over de maatschappelijke rol van de bibliotheek in lastige gesprekken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "faf658a24d7c7603093a1de0a2208461acb9b61d4897bff45b0e450afa65d905",
+      "title": "Amerikanen vragen ChatGPT om hulp bij hun stemkeuze voor de tussentijdse verkiezingen",
+      "summary": "NPR meldt dat mensen AI-chatbots als ChatGPT gebruiken om te bepalen op wie ze bij de Amerikaanse tussentijdse verkiezingen stemmen. De bronpagina bevatte geen tekst, dus details ontbreken. Het onderwerp raakt aan betrouwbaarheid van AI-antwoorden bij politieke keuzes.",
+      "url": "https://www.npr.org/2026/10/05/nx-s1-5977852/ai-chatbots-midterm-election",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-10-05T15:06:27Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Relevant voor mediawijsheid: kritisch omgaan met AI-advies over politiek.",
+      "also_covered_by": []
+    },
+    {
+      "id": "36ab9846a10e0f1afaa1613dbba940fbdb29baff54693c914311a382489b2423",
+      "title": "OpenAI gaat ChatGPT-advertenties met afbeeldingen tonen, voorlopig alleen in de VS",
+      "summary": "OpenAI test binnenkort visuele advertenties voor gesponsorde producten en diensten in ChatGPT. De test beperkt zich tot de Verenigde Staten. Of en wanneer er een bredere uitrol komt, is nog onbekend.",
+      "url": "https://tweakers.net/nieuws/252974/openai-gaat-chatgpt-advertenties-met-afbeeldingen-tonen-voorlopig-alleen-in-vs.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-10-05T16:02:52+02:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 3,
+      "why_relevant": "Reclame in chatbots raakt de neutraliteit van tools die bezoekers gebruiken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "466f82657f41022c9ec4181511cb7c884aa8e73b23cb6f84b766a413589be2e7",
+      "title": "Startup geeft door AI geschreven acnerecepten uit",
+      "summary": "In Utah kunnen mensen via de app van Nolla Health hun gezicht laten scannen, waarna een AI-systeem de ernst van acne beoordeelt en zelfstandig een recept schrijft. Artsen controleren eerst elk recept, daarna steeds minder, tot steekproeven van minstens 10%. Het is een pilot met geleidelijk afnemend menselijk toezicht.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1005075/nolla-health-acne-ai-prescriptions",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-10-05T16:14:57-04:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Voorbeeld van AI die autonoom beslist, met vragen over toezicht en vertrouwen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "917ba46d3f15f0c5b9b71443d754a728f1090204be0a113eec5e6bd6f3edf869",
+      "title": "Beam: open-weightmodel van Reflection met 501 miljard parameters",
+      "summary": "Reflection introduceert Beam, een taalmodel met open gewichten en 501 miljard parameters. De bronpagina bevatte geen tekst, dus details over prestaties en licentie ontbreken. Open modellen van deze omvang geven meer organisaties de mogelijkheid zelf AI te draaien.",
+      "url": "https://reflection.ai/blog/introducing-beam",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-10-05T19:16:35Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "open-source"
+      ],
+      "importance": 3,
+      "why_relevant": "Open modellen maken zelf gehoste AI-diensten voor bibliotheken haalbaarder.",
+      "also_covered_by": []
+    },
+    {
+      "id": "38a23f681b4cd66dc332136ad1951f1b2bf293cdb5c7311cfe3f5a9cb27e2e20",
+      "title": "MCP tussen AI-agents blijkt een structureel beveiligingsrisico",
+      "summary": "Een onderzoeker toonde aan dat agents van onder meer Google, JP Morgan Chase en de Franse overheid kwetsbaar zijn voor een vorm van prompt-injectie via het Model Context Protocol. Eén gekaapte agent kan schadelijke instructies doorgeven aan andere agents die hem vertrouwen. Zo kunnen gegevens uit interne netwerken weglekken.",
+      "url": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-10-05T22:26:35+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "tools"
+      ],
+      "importance": 3,
+      "why_relevant": "Belangrijk voor wie AI-agents wil inzetten met gevoelige gegevens.",
+      "also_covered_by": []
+    },
+    {
+      "id": "df9e799a874b2dab7fc9ff31b276e117981b627dc072a7f7161daf593ef75051",
+      "title": "AI-bijles met Khanmigo in een tweejarig schoolexperiment",
+      "summary": "Een werkdocument beschrijft een schoolexperiment van twee jaar met Khanmigo, de AI-tutor van Khan Academy. De bronpagina bevatte geen tekst, dus de uitkomsten zijn hier niet samengevat. Onderzoek naar het effect van AI-bijles is belangrijk voor onderwijsbeleid.",
+      "url": "https://edworkingpapers.com/ai26-1551",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-10-06T00:00:45Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderwijs",
+        "onderzoek"
+      ],
+      "importance": 3,
+      "why_relevant": "Onderzoek naar AI-bijles geeft houvast bij leerondersteuning in de bibliotheek.",
+      "also_covered_by": []
+    },
+    {
+      "id": "2c11d5f3ded9d76f9f6b7dcf4d164e94db594ad889d54004d07a4bb3756f72e7",
+      "title": "Qwen3.8 27B telt grote getallen op en schrijft het antwoord uit",
+      "summary": "Simon Willison herhaalde een oud experiment waarbij een model grote getallen moet optellen en de uitkomst in woorden moet geven, nu met het lokaal draaiende Qwen3.8 27B. Met redeneren aan gaf het model 167 van de 169 antwoorden goed. Zonder redeneren lag de nauwkeurigheid duidelijk lager.",
+      "url": "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-10-04T23:34:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "onderzoek"
+      ],
+      "importance": 2,
+      "why_relevant": "Illustreert hoe redeneermodellen rekenfouten verminderen, nuttig voor uitleg aan bezoekers.",
+      "also_covered_by": []
+    },
+    {
+      "id": "ae4d3dcf7fda80d0bf850adec275ee56fe2c1665b7813ddeaec983804e34628c",
+      "title": "Import AI 475: zwermschaling, watermerken voor biologie en de AI-wetenschapseconomie",
+      "summary": "Deze nieuwsbrief bespreekt onder meer een analyse van Toby Ord over AI-zwermen. Meerdere agents gebruiken samen meer tokens, maar leveren een resultaat sneller op, al nemen de winsten af naarmate de zwerm groeit. Verder gaat het over Google DeepMind en watermerken in de biologie.",
+      "url": "https://jack-clark.net/2026/10/05/import-ai-475-swarm-scaling-google-deepmind-watermarks-biology-and-the-ai-science-economy/",
+      "source_name": "Import AI",
+      "source_type": "rss",
+      "published": "2026-10-05T12:32:30+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek"
+      ],
+      "importance": 2,
+      "why_relevant": "Achtergrond bij hoe AI-agents werken en schalen, handig om te volgen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "b63218328c84c4e6608c4660bce5820643fa3e9674a1c253a7f7b96410e91ff7",
+      "title": "Auteurs over verboden boeken, deel 1: Patricia McCormick en Stephen Chbosky",
+      "summary": "American Libraries interviewt auteurs van de meest aangevochten boeken van 2025. Volgens de ALA werden dat jaar 4.235 titels in Amerikaanse bibliotheken verboden of aangevochten, het op één na hoogste aantal ooit. Patricia McCormick vertelt hoe het is dat haar boek Sold de lijst aanvoert.",
+      "url": "https://americanlibrariesmagazine.org/2026/10/05/authors-discuss-being-banned-part-1-patricia-mccormick-and-stephen-chbosky/?utm_source=rss&utm_medium=rss&utm_campaign=authors-discuss-being-banned-part-1-patricia-mccormick-and-stephen-chbosky",
+      "source_name": "American Libraries",
+      "source_type": "rss",
+      "published": "2026-10-05T12:45:07+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "bibliotheek",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Boekenbans laten zien welke druk op bibliotheekcollecties kan ontstaan.",
+      "also_covered_by": []
+    },
+    {
+      "id": "d17b9acf080e94e1b173b946cc433b8ee975841422bd13cc6cb39c9cd3eb5122",
+      "title": "Sam Altman: accepteer 'slechte dingen' in ruil voor de voordelen van AI",
+      "summary": "Volgens The Guardian stelt OpenAI-topman Sam Altman dat de samenleving enige nadelen moet accepteren om te profiteren van AI. De uitspraak raakt aan het debat over risico's en voordelen van snelle AI-ontwikkeling. De bron was alleen via de titel beschikbaar.",
+      "url": "https://www.theguardian.com/technology/2026/oct/05/sam-altman-open-ai-chatgpt-benefits-risks",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-10-05T12:56:18Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Geeft inzicht in hoe AI-bedrijven over risico's praten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "0e399df2477c09ffe15a596c979658de8e22df6e85d26c55fb66d97954084c51",
+      "title": "AI-uitgaven worden voor bedrijven bijna niet te begroten",
+      "summary": "Volgens de Wall Street Journal zijn de kosten van AI-gebruik, vooral door tokenverbruik, voor bedrijven moeilijk te voorspellen. Dat bemoeilijkt budgettering. De bron was alleen via de titel beschikbaar.",
+      "url": "https://www.wsj.com/tech/personal-tech/ai-token-spending-businesses-431ee94a",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-10-05T13:22:31Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Onvoorspelbare AI-kosten spelen ook bij bibliotheken die AI-diensten willen inkopen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "1664e869929a9b91ec511b958be68ce913ccaf97535ce3a7b396753855c78f60",
+      "title": "Aleph Alpha brengt open-weightmodel Kolibri uit, Prime Intellect lanceert Prime Inference",
+      "summary": "Het Duitse Aleph Alpha heeft Kolibri uitgebracht, een open-weightmodel met een context van een miljoen tokens. Prime Intellect biedt met Prime Inference serverless en gereserveerde capaciteit voor het draaien van open frontiermodellen. Het is een nieuwsbriefoverzicht met meer korte berichten.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/y9rd0e8j6opm47qzxwi2w79zy64j9q1tqqbik0zf.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-10-05T14:12:35+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "open-source"
+      ],
+      "importance": 2,
+      "why_relevant": "Europese open modellen zijn een alternatief voor Amerikaanse aanbieders.",
+      "also_covered_by": []
+    },
+    {
+      "id": "9f242ac156bace45a54d8c229f2e7a347335bcb60cfa422983273bae5485ce36",
+      "title": "Wake-up call: wachtwoorden blijven een probleem",
+      "summary": "Computable onthulde dat ruim drie miljard e-mailadressen en wachtwoorden openbaar toegankelijk zijn, waaronder die van Nederlandse ministers en overheidsmedewerkers. Experts bespreken de risico's van dergelijke datalekken in het AI-tijdperk en hoe organisaties zich kunnen beschermen. Zij noemen het een wake-up call.",
+      "url": "https://www.computable.nl/2026/10/05/wake-up-call-wachtwoorden-nog-altijd-een-probleem/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-10-05T15:00:00+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Goed aanknopingspunt voor lessen over wachtwoorden en digitale veiligheid.",
+      "also_covered_by": []
+    },
+    {
+      "id": "108d087b296bbd52a08bf4cf69256aea31692da0f9fd9f33ed0d9a15f1905e12",
+      "title": "Vrouw in Florida gearresteerd voor vermeende bedreigingen in een AI-chat",
+      "summary": "In Florida is een vrouw gearresteerd wegens bedreigingen die ze in een gesprek met een AI-chatbot zou hebben geuit. De bronpagina bevatte geen tekst, dus details ontbreken. De zaak roept vragen op over privacy en wat gebruikers in chatgesprekken delen.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004747/florida-woman-arrested-for-allegedly-making-threats-in-an-ai-chat",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-10-05T15:11:36Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont dat chatgesprekken niet privé hoeven te blijven, goed om uit te leggen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "590a0918a32fe2058f67543cd07f6c77b632c8e3166e72d5a9045cac40944018",
+      "title": "De commotie rond de AI-overname van de wiskunde",
+      "summary": "OpenAI, Anthropic en andere labs melden doorbraken bij lang openstaande wiskundeproblemen, waaronder een Millennium-probleem. Wiskundigen reageren vaak kritisch op de manier van communiceren en de erkenning van eerder werk. De labs zeggen te leren van eerdere missers.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004933/ai-math-openai-breakthrough-solution",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-10-05T15:28:59-04:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat zien hoe AI-claims in de wetenschap kritisch getoetst worden.",
+      "also_covered_by": []
+    },
+    {
+      "id": "726fc16e67cb364ffbedab6498abf8ba99b0d0e59fe8706c92b42106a4829567",
+      "title": "Tool verwijdert Apple Intelligence snel van macOS 27",
+      "summary": "macOS 27 heeft geen schakelaar meer om Apple Intelligence uit te zetten, waardoor de AI-modellen schijfruimte innemen. De ontwikkelaar-tool RemoveMacAI schakelt de functies omkeerbaar uit en maakt tot 12 GB vrij. Volgens The Verge nemen de modellen soms zelfs meer dan 30 GB in beslag.",
+      "url": "https://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-10-05T19:14:44+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Bezoekers vragen soms hoe ze ongewenste AI-functies op hun apparaat uitzetten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "f162984f0c5837198eee00088444c2163c956b2d08a20b08b95f9db1ce16eb85",
+      "title": "Texaanse stad vraagt 2 miljoen dollar voor openbare stukken over Flock",
+      "summary": "De Texaanse plaats North Richland Hills rekende een belangenorganisatie 2,3 miljoen dollar voor documenten over het gebruik van Flock, een AI-camerasysteem dat voertuigen volgt. De stad claimde dat zoeken veertien jaar werk zou kosten. Critici zien de hoge kosten als poging om controle op AI-surveillance te frustreren.",
+      "url": "https://arstechnica.com/tech-policy/2026/10/texas-city-demands-2m-for-public-records-on-flock-usage/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-10-05T20:31:12+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 2,
+      "why_relevant": "Raakt aan transparantie en privacy bij AI-surveillance door overheden.",
+      "also_covered_by": []
+    },
+    {
+      "id": "48388c8501e0d4d88b1b82debf519393bf5ad2662a534af8100be55f086c9a6f",
+      "title": "Opus 5.5-agents vinden twee kandidaten voor magnetische halfgeleiders bij kamertemperatuur",
+      "summary": "Vals AI meldt dat agents op basis van Opus 5.5 twee kandidaat-materialen hebben gevonden voor magnetische halfgeleiders die bij kamertemperatuur werken. De bronpagina bevatte geen tekst, dus de details zijn beperkt. Het is een voorbeeld van AI-agents die wetenschappelijk ontdekkingswerk doen.",
+      "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-10-05T21:00:21Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "modellen"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van AI in wetenschappelijk onderzoek, goed voor gesprekken met bezoekers.",
+      "also_covered_by": []
+    },
+    {
+      "id": "1452e1cfc9374ea1270b82e16b1f6fc387408d703197a99f3f57bc573f1b42d4",
+      "title": "Cowork van Anthropic draait voortaan volledig in de cloud",
+      "summary": "Anthropic verplaatst de virtuele machine van Cowork van de computer van de gebruiker naar de cloud. Daardoor kost het geen schijfruimte of batterij meer, loopt het werk door als je laptop dichtgaat en is gebruik vanaf een telefoon mogelijk. Elke sessie krijgt een eigen afgeschermde omgeving.",
+      "url": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-10-05T23:56:47+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat zien hoe AI-assistenten richting werkende agents in de cloud schuiven.",
+      "also_covered_by": []
+    },
+    {
+      "id": "fe424883c3cacf664f5b2b38c48ff03e276a793b02e58aafe0d44ea5db932443",
+      "title": "Falcon-Emirati: een taalmodel dat dialect en cultuur leert",
+      "summary": "TII presenteert Falcon-Emirati, een taalmodel dat is afgestemd op het Emiratische dialect en de bijbehorende cultuur. De bronpagina bevatte geen tekst, dus details over prestaties en beschikbaarheid ontbreken. Het past in de trend van modellen voor specifieke talen en regio's.",
+      "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+      "source_name": "Hugging Face",
+      "source_type": "rss",
+      "published": "2026-10-06T06:44:39+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat zien dat taalmodellen voor kleinere taalgroepen ontstaan, ook relevant voor het Nederlands.",
+      "also_covered_by": []
+    },
+    {
+      "id": "ee9164d05813aabbb18bab1a938fd315d7cae23a920a5909a92176e92a4f83ca",
+      "title": "Google test functie waarmee AI namens jou vrienden en familie belt",
+      "summary": "Google werkt aan een functie voor de Pixel 11 waarmee de telefoon namens de gebruiker vrienden of familie belt om een boodschap door te geven. Gemini kan al telefoontjes van bedrijven aannemen. De functie is nog in ontwikkeling.",
+      "url": "https://tweakers.net/nieuws/252996/google-bouwt-functie-om-ai-naar-vrienden-en-familie-te-laten-bellen.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-10-06T08:08:01+02:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van AI-assistenten die zelfstandig communiceren; bezoekers vragen hier mogelijk naar.",
+      "also_covered_by": []
+    },
+    {
+      "id": "a4356e61d2be5f5dde0a123d6f0820f817704e9a5feb5a5683c5118cfb56c053",
+      "title": "Stem op het BoekStart Babyboekje van het Jaar",
+      "summary": "Tot 2 november kan iedereen in Nederland en Vlaanderen stemmen op het mooiste boekje voor baby's van 0 tot 1,5 jaar. Ouders, grootouders, pedagogisch medewerkers en andere voorlezers kunnen meedoen. De verkiezing hoort bij BoekStart, het leesbevorderingsprogramma van bibliotheken voor de allerjongsten.",
+      "url": "https://www.bibliotheeknetwerk.nl/nieuws/stem-op-het-boekstart-babyboekje-van-het-jaar",
+      "source_name": "Bibliotheeknetwerk (KB)",
+      "source_type": "rss",
+      "published": "2026-10-06T09:14:21+02:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek",
+        "evenement"
+      ],
+      "importance": 2,
+      "why_relevant": "Leuke actie om bezoekers van de bibliotheek te betrekken bij voorlezen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "ecc119e08a82b671531e5f993a15639b0a383204c51950fb40d4902198da5263",
+      "title": "Nieuwe blogserie: zo zorgen KB'ers dat iedereen zich kan blijven ontwikkelen",
+      "summary": "De Koninklijke Bibliotheek start een blogreeks waarin medewerkers vertellen over hun vaak onverwachte expertise. Ze laten zien waarom hun werk maatschappelijk van belang is. Het gaat om een algemeen inkijkje in de KB, zonder concreet nieuws.",
+      "url": "https://www.kb.nl/nieuws/nieuwe-blogserie-zo-zorgen-kbers-ervoor-dat-iedereen-zich-kan-blijven-ontwikkelen",
+      "source_name": "Koninklijke Bibliotheek",
+      "source_type": "rss",
+      "published": "2026-10-05T11:04:04+02:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws over het werk achter de schermen bij de KB.",
+      "also_covered_by": []
+    },
+    {
+      "id": "4644b6c27d9963e49addd507e6d4066ea3298918bd4541915a8f739ef86f45fe",
+      "title": "Apple-camera met lokale gezichtsherkenning, Figma Motion, nieuwe Kindles",
+      "summary": "Apple ontwikkelt mogelijk een slimme thuiscamera die lokaal mensen en huisdieren herkent en tekstmeldingen stuurt in plaats van beeld op te slaan. Daarnaast kreeg Figma Motion nieuwe functies en vernieuwde Amazon de Kindle-lijn. Het is een nieuwsbriefoverzicht met meer korte berichten.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/gvbwq1498yoaxom5hv099fturol4svf9t8vuq1ja.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-10-05T12:29:44+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "ethiek-en-risico"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws over privacyvriendelijke AI op apparaten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "a293f16bcd27262851dcc8deb2d07b8f4aec9c2b9f0ff8467e30dcf3815092f9",
+      "title": "Wanneer modellen beter worden, moet je markt groeien",
+      "summary": "Een stuk voor AI-oprichters stelt dat een AI-bedrijf alleen overleeft als zijn markt groeit wanneer modellen verbeteren. Elke nieuwe modelrelease vreet anders een stuk van het bestaande aanbod op. Het is een nieuwsbriefoverzicht met meer korte berichten.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/80v7a0q8dgjvt60ln42d4pgn35o2bpl1p95qvf7r.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-10-05T12:33:16+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws over AI-bedrijfsmodellen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "85ae3de8f4b13accf179fb8d7804344f016bbe536a5c71b18657d886acd0958c",
+      "title": "Atos verplaatst Nederlands hoofdkantoor naar Eindhoven",
+      "summary": "Atos verhuist zijn Nederlandse hoofdkantoor van Amstelveen naar de High Tech Campus in Eindhoven. Het bedrijf wil vanuit Brainport inzetten op een soevereine AI-strategie met eigen Nederlandse datacenters. In maart opent het in Eindhoven een grote AI-ontwikkelstudio.",
+      "url": "https://www.computable.nl/2026/10/05/atos-verplaatst-nederlands-hoofdkantoor-naar-eindhoven/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-10-05T13:45:29+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws over soevereine AI en regionale AI-hubs in Nederland.",
+      "also_covered_by": []
+    },
+    {
+      "id": "7f223c07ce815e385f3423688ce055b7e1325d1d9b47acb9efbf277054fb9ccd",
+      "title": "Meta opent AI-agent Muse voor zelfgebouwde hardware",
+      "summary": "Meta brengt een open-source SDK uit waarmee hobbyisten fysieke bediening voor de Muse-agent kunnen bouwen op ESP32-borden of Raspberry Pi. Muse Home Link verschijnt in oktober voor abonnees in de VS. Verder staat in de nieuwsbrief onder meer dat Musk gesprekken met TSMC bevestigt.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/s9tbq09p5jlb4g2l0dhqr8sdd7kz2rezpoaemrij.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-10-05T13:48:21+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "open-source"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws over open-source gereedschap voor makers.",
+      "also_covered_by": []
+    },
+    {
+      "id": "86c6c56fa0a249b002773bf319c2ef4b9fd740937fb1e7b157b3aca12b61ef26",
+      "title": "Californië stopt gevechten tussen mens en robot",
+      "summary": "De Californische toezichthouder op vechtsporten heeft het startup REK bevolen te stoppen met kooigevechten tussen mensen en humanoïde robots. De oprichter deelde de sommatie online als een succes. Verder in de nieuwsbrief: Boston Dynamics geeft Atlas een hand met vier vingers.",
+      "url": "https://kill-the-newsletter.com/feeds/7b87u0i8h3vypjvvprgc/entries/vljiu9iou2o5xnrlqv4jhtrnn3l7iztnf3wodcmy.html",
+      "source_name": "The Rundown AI",
+      "source_type": "newsletter",
+      "published": "2026-10-05T14:31:28+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws over robotica en toezicht.",
+      "also_covered_by": []
+    },
+    {
+      "id": "1381a2be48dffbd013703252e20163159859f9961f6adc0505d092d108a4f34b",
+      "title": "Gemini 'Call for Me' belt mogelijk ook familie en vrienden",
+      "summary": "Volgens een APK-analyse van Android Authority breidt Google de functie 'Call for Me' mogelijk uit naar privégesprekken, zoals 'bel mama dat ik later ben'. Het blijft waarschijnlijk bij korte, berichtachtige telefoontjes. Het gaat om geruchten, geen aankondiging.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-10-05T19:09:55-04:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools"
+      ],
+      "importance": 1,
+      "why_relevant": "AI-assistenten nemen steeds meer alledaagse communicatie over.",
+      "also_covered_by": []
+    },
+    {
+      "id": "b341f596451d64739f990b7d3e48aab0b1174fc2ecbdc194a3ff09bffc0d8879",
+      "title": "Opiniestuk: AI-bedrijven zijn parasieten",
+      "summary": "Een blogpost van Cory Doctorow-achtige strekking is niet te bevestigen; de bronpagina bevatte geen tekst. Uit de titel blijkt dat het een kritisch opiniestuk is over AI-bedrijven en hun verhouding tot makers en het open web.",
+      "url": "https://www.coryd.dev/posts/2026/ai-companies-are-parasites",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-10-05T19:30:10Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico"
+      ],
+      "importance": 1,
+      "why_relevant": "Weerspiegelt kritiek op AI-bedrijven die bezoekers ook kunnen noemen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "2a7aed11c6903e4dfcb77369978aee688c48d5e41ea55e835b92b23def993fef",
+      "title": "Huawei en Qualcomm sluiten meerjarige patentdeal voor 5G en AI",
+      "summary": "Huawei en Qualcomm geven elkaar toegang tot hun patentportfolio's voor onder meer 5G, AI en netwerken. De overeenkomst loopt meerdere jaren. Het is vooral zakelijk nieuws over licenties.",
+      "url": "https://tweakers.net/nieuws/252988/huawei-en-qualcomm-sluiten-meerjarige-patentdeal-voor-5g-en-ai.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-10-05T20:39:43+02:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws over de techindustrie, weinig impact op bibliotheekwerk.",
+      "also_covered_by": []
+    },
+    {
+      "id": "935e6ea1306977817d55b345ffc1a8f8000c25cc1ec48d84e22adf30ec985d6d",
+      "title": "Panasonic viert dertig jaar Toughbook met nieuwe AI-rugged devices",
+      "summary": "Panasonic presenteerde de Toughbook 34 en Toughbook G3 met Intel Core Ultra-processoren die AI-toepassingen lokaal kunnen draaien. Ze zijn bedoeld voor hulpdiensten, nutsbedrijven en veldwerkers zonder stabiele verbinding.",
+      "url": "https://www.computable.nl/2026/10/06/panasonic-viert-dertig-jaar-toughbook-met-nieuwe-ai-rugged-devices/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-10-06T05:15:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws over lokale AI op apparaten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "56e5298d2aa627be0803d09a4cfc542fa04c55063ecb230b39b556381aec208d",
+      "title": "Nederland heeft 28 procent meer onderzoekers dan in 2015, maar het aantal spin-offs blijft gelijk",
+      "summary": "Volgens het Dutch Spin-off Report 2026 van Techleap groeide het aantal onderzoekers tussen 2015 en 2023 met 28 procent, terwijl er jaarlijks ongeveer 65 spin-offs bij universiteiten ontstaan. Het kabinet trekt jaarlijks 30 miljoen euro uit om spin-offcreatie te versterken.",
+      "url": "https://www.emerce.nl/nieuws/nederland-telt-28-procent-meer-onderzoekers-2015-aantal-bedrijven-dat-daaruit-ontstaat-blijft-achter",
+      "source_name": "Emerce",
+      "source_type": "rss",
+      "published": "2026-10-06T06:45:38+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "onderzoek",
+        "subsidie-of-financiering"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws over kennisbenutting en financiering in Nederland.",
+      "also_covered_by": []
+    },
+    {
+      "id": "d1d7f88e6fd251b9419fb6f825034a3fd8493429d8d5e0f0335421468ae9f7a2",
+      "title": "Alexa Plus blijft minutenlang 'lalala' zingen",
+      "summary": "Sommige Echo-speakers met Alexa Plus herhalen minutenlang 'lalala', soms midden in een gesprek. Gebruikers melden dit al weken op Reddit en Amazon kent het probleem. De assistent lijkt zich er zelf niet van bewust.",
+      "url": "https://www.theverge.com/tech/1005342/amazon-alexa-plus-keeps-creepily-singing-lalala-for-minutes-on-end",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-10-06T06:53:11-04:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools"
+      ],
+      "importance": 1,
+      "why_relevant": "Illustreert dat AI-assistenten nog onverwacht gedrag vertonen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "52436966926fbaf7bda4fbf598c6902aa74466323d3914ce8500fd7fb94dde83",
+      "title": "Kort: 40 miljoen voor Hadrian, eerste AI-lab van Kyndryl in de EU",
+      "summary": "Het Amsterdamse beveiligingsbedrijf Hadrian haalt 40 miljoen dollar op voor zijn AI-platform dat kwetsbaarheden opspoort. Kyndryl opent het eerste AI-lab in de EU, in Luxemburg. Verder korte overnamenieuwtjes uit de it-sector.",
+      "url": "https://www.computable.nl/2026/10/06/kort-40-miljoen-voor-hadrian-eerste-ai-lab-kyndryl-in-eu-en-meer/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-10-06T09:26:14+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "bedrijven",
+        "subsidie-of-financiering"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws over de Nederlandse AI-bedrijvigheid.",
+      "also_covered_by": []
+    }
+  ]
+}
