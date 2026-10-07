@@ -18039,5 +18039,975 @@
       "nederlands",
       "verplaatst"
     ]
+  },
+  "f82e725f002aa1e44c0c4bae963db3781b76fa441784e73abfc74718676e4f21": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "boeken",
+      "depot",
+      "kb",
+      "neemt",
+      "onuitgegeven"
+    ]
+  },
+  "cff6772f0162eb90c9013e97c615f0c69a3afc101727f9db81c72abfceaf1fb4": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "boekenspektakel",
+      "collectie",
+      "depot",
+      "haar",
+      "kb",
+      "neemt"
+    ]
+  },
+  "791fa389657c366c90a9e3f22cb9b742fb1d7caa101fac6a0b8e8b65a7e74ac2": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "boggan",
+      "jake",
+      "quoting"
+    ]
+  },
+  "c0ba8257b393a1e482422090406a0a5ab7971d2d56660fe2f7f35fc2d0d6a5eb": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "activities",
+      "agent",
+      "found",
+      "openai",
+      "projects",
+      "rogue",
+      "wikimedia"
+    ]
+  },
+  "870569c2eeba8a14e83f0a7cc074548e6879d1eec4c02e1e2c44b9ea0540553e": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "kim",
+      "quoting",
+      "victoria"
+    ]
+  },
+  "2237757b47be30a53deaed70fb26c923d3f3feea683d9359812d9b36876675dc": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "0",
+      "1a0",
+      "decisions",
+      "llm",
+      "openai"
+    ]
+  },
+  "30aa7c1f2d06f1311132a08839dd21afc6bd0b8909ee9b7c5f14369c29d66941": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "0",
+      "16",
+      "llm",
+      "mistral"
+    ]
+  },
+  "607781a06f21428336a2249cfe0a417e1229d06092f7cfa89c7fbf133afee0d6": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "2",
+      "embeddinggemma"
+    ]
+  },
+  "fbfc97815a55d85698bcd7689aea4d06b9de80324783354f13308ae98694fb26": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "4",
+      "chonk",
+      "introducing",
+      "large",
+      "le",
+      "mistral"
+    ]
+  },
+  "2ee55c894d54d6ef378cd7d1845a6619020ac025413730085d4544511aa3cd8a": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "2",
+      "embedding",
+      "embeddinggemma",
+      "lightweight",
+      "model",
+      "multimodal",
+      "open"
+    ]
+  },
+  "d0cde7c05203d2862138bc9aa55fe1bb807d2ff03cd97fd16f05bb0e1564e142": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "datasette",
+      "opentelemetry",
+      "parseable",
+      "traces",
+      "using"
+    ]
+  },
+  "d58f9f43d691f1c99c9bc4100ec3fd6b05df765bcd748adcfb78e56ddc0092c3": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "0",
+      "11a0",
+      "atom",
+      "datasette"
+    ]
+  },
+  "8385a9881d2c8c33f1e698cc1685f593e50052cf29c1d22795a2b15e6e3cbfa3": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "aging",
+      "biological",
+      "drugmakers",
+      "drugs",
+      "loss",
+      "say",
+      "show",
+      "signs",
+      "slowing",
+      "weight"
+    ]
+  },
+  "2896758265cec81d95898858cf3558ac9cdd51e4e22038c8fc6ca0aa5193f521": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "action",
+      "atlassian",
+      "enterprise",
+      "expand",
+      "into",
+      "knowledge",
+      "openai",
+      "partnership",
+      "turn"
+    ]
+  },
+  "b0dfee10522910824f7c3049d08389876d9203a6db89a567ef3f47f5f46c75b2": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "jukebox",
+      "scrimshaw"
+    ]
+  },
+  "7457ac4119233d4c0369f65c73a1ebdb3c555256798adacd3d3550269a06af4c": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "10",
+      "climate",
+      "companies",
+      "download",
+      "tech",
+      "watch"
+    ]
+  },
+  "ebb413cc5359756bf9234b81256f87104efa96c0b88df88826702769f053f0a0": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "chatgpt",
+      "how",
+      "jump",
+      "quant",
+      "research",
+      "scaling",
+      "trading"
+    ]
+  },
+  "00427e47df5ef3064509e152a77372922244883355c7072ea1ab24de41848a25": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "ai",
+      "mathematics",
+      "progress",
+      "sharing"
+    ]
+  },
+  "f57eff9c23a4454b476bbb268bd95c2d23fd7e230b5d7db7db7e5bb00c25353b": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "advancing",
+      "computer",
+      "ironclad",
+      "use"
+    ]
+  },
+  "3390f77ad708c703a27e1ccde441c555c8950582c0492f3a7e76fab10e49d6fd": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "apple",
+      "ecosystem",
+      "home",
+      "math",
+      "openai",
+      "s",
+      "state",
+      "tech"
+    ]
+  },
+  "e701fffe60f9c134fb97c4bb0ca2b958737264a7d2a6ca3adf9d07c1bc638605": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "2027",
+      "aanzienlijk",
+      "amd",
+      "chipproductie",
+      "gaat",
+      "verhogen"
+    ]
+  },
+  "3a038b3618e0baa7f907107216534d9809f6144462d2b4b97b4700af7d3ebd96": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "impactgericht",
+      "kunst",
+      "mfco",
+      "rozet",
+      "visietraject",
+      "werken"
+    ]
+  },
+  "68ae7b8b28a668dd3342203eb3557ad8def667bc9366f928772bccb824bd6e32": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "anthropic",
+      "blokkades",
+      "claude",
+      "minder",
+      "modellen",
+      "toegang",
+      "tot",
+      "verruimt"
+    ]
+  },
+  "12f5d76735b36a4ac9fc12b576971af896f6a5e84219d6a358884ce810aca0bc": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "beschikbaar",
+      "claude",
+      "docs",
+      "extensie",
+      "google",
+      "komt",
+      "sheets",
+      "slides",
+      "via"
+    ]
+  },
+  "c887a852564b1398b2413e31255784ff3964c08c9933d59a8de36ead9345708e": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "bibliotheek",
+      "controleert",
+      "goed",
+      "je",
+      "jouw",
+      "pas",
+      "verzekerd",
+      "weet"
+    ]
+  },
+  "a8ede1b2b9a25a72eb791848611f5447607baf1744433dbb46b97c969cff346d": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "agents",
+      "ai",
+      "appear",
+      "banks",
+      "been",
+      "country",
+      "hack",
+      "have",
+      "korea",
+      "s",
+      "says",
+      "south",
+      "used"
+    ]
+  },
+  "1e6d0aa6065c4bd57fec32ed29780435711d077456dcd1ae18361455c1307efd": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "ai",
+      "client",
+      "email",
+      "linux",
+      "mail",
+      "open",
+      "penguin",
+      "rust",
+      "source"
+    ]
+  },
+  "db2c54a26afe6996f6dedf74098d177b64ba9689ce3907895809983a53a88caf": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "attacks",
+      "countries",
+      "drones",
+      "eu",
+      "nato",
+      "near",
+      "says",
+      "ships",
+      "sink",
+      "unacceptable"
+    ]
+  },
+  "359fb2bdb6355ddba00ee2dc0f4b2830b3b1670828ec5a3f49a6ee1768499c4c": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "but",
+      "chatgpt",
+      "default",
+      "eu",
+      "only",
+      "openai",
+      "outputs",
+      "watermark",
+      "will"
+    ]
+  },
+  "abc8d08c91545993ae80bd3ca62bf3cc7b0a417f27f224d585f17d8194f7c6fb": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "discovery",
+      "hbo",
+      "into",
+      "max",
+      "paramount",
+      "service",
+      "single",
+      "unify",
+      "will"
+    ]
+  },
+  "4666d6848754a08acbd07a047a529953c1e172cb891796360ba060fc9ba0b55b": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "atlantic",
+      "finally",
+      "hurricane",
+      "like",
+      "looks",
+      "may",
+      "produce",
+      "season",
+      "storm"
+    ]
+  },
+  "c8c4649f074ad75f012803aab64ff093b27ef49d89ab8a3543d0fe7003d28ee5": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "certificates",
+      "counterfeit",
+      "google",
+      "hackers",
+      "large",
+      "obtain",
+      "other",
+      "services",
+      "tls"
+    ]
+  },
+  "bb80d48523c945ff288e3164e8a06afc1a265f4c84f921477d082f86a6532291": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "after",
+      "copies",
+      "cracked",
+      "github",
+      "hn",
+      "month",
+      "my",
+      "refuses",
+      "remove",
+      "software",
+      "tell"
+    ]
+  },
+  "a9bfb9228dbd3b40f6271288d35801c079b44f54be5c9b59b3f8395741d69045": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "4",
+      "biljoen",
+      "brengt",
+      "europese",
+      "large",
+      "mistral",
+      "openweightmodel",
+      "parameters",
+      "uit"
+    ]
+  },
+  "069f76d54edd397fa04fff54202b895349f1ddfbea57fd7956a7be1498dea8c8": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "111b",
+      "behemoth",
+      "completes",
+      "creating",
+      "merger",
+      "paramount",
+      "skydance",
+      "warner"
+    ]
+  },
+  "aea8ead3801a1c2988b4ecc37e77e1d581b63cdc31134a79b3e6abd5c66012a9": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "ars",
+      "better",
+      "experience",
+      "get",
+      "reading",
+      "return",
+      "support"
+    ]
+  },
+  "d45c5ad7a3cf4200a0099f0854b6a2e655bc41349aafa6b95718a11a3e8c6e6b": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "ability",
+      "alexa",
+      "amazon",
+      "aux",
+      "control",
+      "echo",
+      "input",
+      "kills",
+      "s",
+      "speakers"
+    ]
+  },
+  "6cb87f094505f07175c59ba993aea5a6c765d88443e5100ee53f26f73e71d4da": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "ai",
+      "examine",
+      "human",
+      "let",
+      "medication",
+      "oversight",
+      "patients",
+      "prescribe",
+      "utah",
+      "without"
+    ]
+  },
+  "827927a0c585790c0d22a8c1003f0b809e5cf78359080a25dd893ac323a03c9d": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "2026",
+      "neutrino",
+      "nobel",
+      "physicist",
+      "physics",
+      "prize",
+      "wins"
+    ]
+  },
+  "576ded508c0bb4010aee77b7ad6937092b8cb3bb40b0b89b851fa919bbf18228": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "accelerator",
+      "ai",
+      "developed",
+      "open",
+      "opentpu",
+      "source"
+    ]
+  },
+  "4c245c9a3bee09cd234cf7a006a82dc3d6adb7a5e0513726533673a5131087b7": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "better",
+      "don",
+      "features",
+      "googlebook",
+      "launch",
+      "phone",
+      "samsung",
+      "t",
+      "together",
+      "work"
+    ]
+  },
+  "a8d8e31e37c5a947ee69afa1a5481003de1cea64caeca0cf49d1fae3a685ac72": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "500",
+      "7",
+      "back",
+      "bringing",
+      "civil",
+      "contractors",
+      "nasa",
+      "servants",
+      "why",
+      "work"
+    ]
+  },
+  "06665ee52aa84437c3229c56810113ba2fe61c353788b31fa1867aec054043f8": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "2027",
+      "all",
+      "camping",
+      "electric",
+      "flow",
+      "gets",
+      "pebble",
+      "solar",
+      "upgrade"
+    ]
+  },
+  "4222eae539939d4d8a4c20bb46151763170a26114fcc9d66e2adba82d7e75e33": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "ai",
+      "avendar",
+      "integriteitsonderzoek",
+      "opsporing",
+      "soevereine"
+    ]
+  },
+  "5aa64b6963054521ac34380b237810c4dd0a56b6f64215f5966b054a043da151": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "ai",
+      "breakout",
+      "medicine",
+      "moment"
+    ]
+  },
+  "39d6b4e2cd3bc6ed7d8efc14d48173880a4e9ed2abee34dcd6e6ad428bdb728b": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "chatgpt",
+      "krijgen",
+      "onzichtbaar",
+      "ook",
+      "teksten",
+      "watermerk"
+    ]
+  },
+  "56560ec52204f9bb2722dbe05d86781787f904d1ea601e0e4ff79e36682ce089": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "cohesie",
+      "holland",
+      "netwerkbijeenkomst",
+      "noord",
+      "samen",
+      "sociale",
+      "werken"
+    ]
+  },
+  "380450ff4809dd472e3772f1b98061d97b5101303c7815a47a6ca3813475eae8": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "501b",
+      "chats",
+      "group",
+      "instinct",
+      "model",
+      "openai",
+      "reflection",
+      "s",
+      "text",
+      "watermarks"
+    ]
+  },
+  "ee53cbe717c12c629d7d4b8d9c4c20ecd681c8d77ab564912cb30b83686a15f1": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "asks",
+      "before",
+      "big",
+      "climate",
+      "court",
+      "kill",
+      "lawsuits",
+      "oil",
+      "supreme",
+      "trial"
+    ]
+  },
+  "1e846deac1a01c15e0459ebe5909239f9ed9d299d2322859a4f4f5d53bb6b49f": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "cftc",
+      "crypto",
+      "dead",
+      "eth",
+      "fintech",
+      "foundation",
+      "framework",
+      "launch",
+      "launches",
+      "zkapi"
+    ]
+  },
+  "7736cdf7f20f930117b9cfb699cbfcfb7f93ed708203a6db1da7b665ae63e217": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "arrest",
+      "bouncy",
+      "car",
+      "castle",
+      "exposed",
+      "flaw",
+      "jordan",
+      "privacy",
+      "shinyhunters"
+    ]
+  },
+  "5198dea101ca94d3904ebe870c9edc8347f217dd7985ae4852ec8a8c5b3279d0": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "ai",
+      "com",
+      "erdosproblems",
+      "onslaught",
+      "succumbs"
+    ]
+  },
+  "9a7f4aeb88d5400f7c7db98efbbbe9dc79b34059689d2d3d31e918a1ee0b758f": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "8b",
+      "amazon",
+      "beam",
+      "chip",
+      "deal",
+      "huawei",
+      "plan",
+      "qualcomm",
+      "reflection",
+      "s",
+      "unveils"
+    ]
+  },
+  "3850af9561dc0a2ca1a5b1998832083473506cf8bf6dbb0ee1c58f880cb1871b": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "2",
+      "armentrout",
+      "authors",
+      "banned",
+      "being",
+      "discuss",
+      "ellen",
+      "hopkins",
+      "jennifer",
+      "l",
+      "lo",
+      "malinda",
+      "part"
+    ]
+  },
+  "15b0fdd337f5e773f8fd2baf7d291ed440389da19ae4f8aa050a018dbba5572e": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "ads",
+      "apple",
+      "brisbane",
+      "chatgpt",
+      "design",
+      "logo",
+      "olympics",
+      "ternus",
+      "visual"
+    ]
+  },
+  "a89844b2dfcbab3635d64271b6443e633de59b2637a2260ee902feeeb6c7b187": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "alexa",
+      "amazon",
+      "bug",
+      "fix",
+      "lalala",
+      "minutenlang",
+      "waarbij",
+      "werkt",
+      "zingt"
+    ]
+  },
+  "53954eed1507c6603ca8f675683cb0177189af03445f760bad4d1c77aeee1865": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "agents",
+      "flooded",
+      "hack",
+      "openai",
+      "tools",
+      "traffic",
+      "tried",
+      "wikipedia"
+    ]
+  },
+  "2ea8e36291c5a55d68dbfd0f456ad4b86f3c8bf5bc5f838aaacb8613aef82169": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "90",
+      "costs",
+      "driving",
+      "explore",
+      "licensing",
+      "options",
+      "percent",
+      "survey",
+      "users",
+      "vmware"
+    ]
+  },
+  "a23f6fb6a1e1db959b473a4fe1ceab3501d537a80d9f56295e9153d8d846bb9e": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "agent",
+      "agents",
+      "browser",
+      "building",
+      "charts",
+      "good",
+      "jev",
+      "loops",
+      "tanstack"
+    ]
+  },
+  "94a4a76445ebabbe4fa4d1aa3463c5fbba902c31355acee4b66bba20fba5cb95": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "contentstrategie",
+      "goede",
+      "je",
+      "schrijf",
+      "zó"
+    ]
+  },
+  "2b42368f36c0016d665302fdfcf1fa4e120d0a58a9cf48db9dd025f3cb2ba069": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "burgerschap",
+      "digitaal",
+      "heden",
+      "toekomst",
+      "verleden"
+    ]
+  },
+  "144291e76b8918d9f87aa728cd92d97cb39e79c02a90f114a4b21230253191bf": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "3h",
+      "je",
+      "marketingcontent",
+      "model",
+      "prioriteer"
+    ]
+  },
+  "c2ab967ec7fa1db4c00eff52e57d3669e40b52c8cdd5c9cb1af14485f8685af5": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "cars",
+      "gm",
+      "samsung",
+      "some",
+      "unlocks",
+      "wallet"
+    ]
+  },
+  "601577ca199289746f76c65b256aa9be5617c43deeded75385da459e77616a9f": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "car",
+      "concept",
+      "divisive",
+      "ev",
+      "first",
+      "jaguar",
+      "just",
+      "like",
+      "looks",
+      "s"
+    ]
+  },
+  "a9b13c96b6f1caa75bef2d8e9fdd44715dcf5af01c2821e20836ac99cf7ba631": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "afdeling",
+      "ai",
+      "dado",
+      "drie",
+      "grote",
+      "peteghem",
+      "stelt",
+      "uitdagingen"
+    ]
+  },
+  "a48ad5cae32ded6e4721d7a0e68c03e65add39059c2f7fb16101ee063ef7e434": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "ai",
+      "helpt",
+      "leggen",
+      "lumc",
+      "sneller",
+      "vast",
+      "verpleegkundigen",
+      "wonden"
+    ]
+  },
+  "6e667576cfa25056b3f0ddfdcd4371d5c67bfacdb994c1489213158d185cb5d8": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "chatgpt",
+      "common",
+      "media",
+      "risk",
+      "says",
+      "sense",
+      "teens",
+      "unacceptable"
+    ]
+  },
+  "2cc2f0a8567f4214645b3e1bc8693a4ad08e910c4173a74de807628466955cb3": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "5",
+      "agents",
+      "ai",
+      "dan",
+      "goed",
+      "meer",
+      "verkeer",
+      "websites",
+      "zakelijke"
+    ]
+  },
+  "fe6a335b4cf5627cf6fa04ee41445119e2e22c2c1161afc281f503425e3c6815": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "ai",
+      "expert",
+      "junior",
+      "niveau",
+      "security",
+      "weg",
+      "zakt"
+    ]
+  },
+  "0135a5a15b24d278079d386bf405af175c6837744db849d2f63193b4b9bd5f33": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "another",
+      "batch",
+      "breakthroughs",
+      "drops",
+      "mathematical",
+      "openai"
+    ]
+  },
+  "f1c33bef5d98b61804295509debd27ab0fe0d8edb7926256b57b1ad101083db0": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "6",
+      "gta",
+      "has",
+      "rights",
+      "secured",
+      "streaming",
+      "xbox"
+    ]
+  },
+  "e6f705fac7011fc6e6c4e458015d3e2dfe2876a5c128c3b1c2a5046c2f0fe6eb": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "best",
+      "day",
+      "deals",
+      "during",
+      "mop",
+      "october",
+      "prime",
+      "robot",
+      "vacuum"
+    ]
+  },
+  "646bd74f51ba4f6a6953f8f06396ee98c52a56ee019bb3f0f69fd717c4af48a2": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "apple",
+      "doorbell",
+      "gear",
+      "home",
+      "lg",
+      "lock",
+      "smart",
+      "starting",
+      "team",
+      "thermostat",
+      "up"
+    ]
+  },
+  "d0cf265288a37fbd566bbbf5d567ac2fe32638c679ffe2184f78b81ad93b771c": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "channel",
+      "comics",
+      "coming",
+      "hurting",
+      "maniscalco",
+      "s",
+      "say",
+      "sebastian",
+      "siriusxm",
+      "talent",
+      "up"
+    ]
+  },
+  "90e853c079b6f70cb9332c31281e3751b6708d13f1e412f22aeb4f0e4eedc1c8": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "3",
+      "backup",
+      "battery",
+      "can",
+      "house",
+      "model",
+      "s",
+      "tesla",
+      "y",
+      "your"
+    ]
+  },
+  "f48efba926acc9c937ce8d81f16df4b0c93aa27f95c149a508bcdf8477a1267e": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "centers",
+      "crave",
+      "data",
+      "energy",
+      "google",
+      "hungry",
+      "nuclear",
+      "power",
+      "s"
+    ]
+  },
+  "944c84bde53da56b5689d2dffd6f83b4087ef2dcae412f842b916b02a1d68e90": {
+    "ts": "2026-10-07T11:26:52+00:00",
+    "kop": [
+      "beveiligd",
+      "duizenden",
+      "slecht",
+      "systemen",
+      "wind",
+      "zeer",
+      "zonneparken"
+    ]
   }
 }
