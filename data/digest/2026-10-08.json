@@ -1,0 +1,582 @@
+{
+  "date": "2026-10-08",
+  "generated_at": "2026-10-08T11:48:31+00:00",
+  "stats": {
+    "batches": 2,
+    "onleesbaar": 0,
+    "objecten": 75,
+    "schema_fout": 0,
+    "onbekend_id": 0,
+    "gedropt": 45,
+    "geldig": 30,
+    "ai": 22,
+    "bieb": 8
+  },
+  "sources": [
+    "American Libraries",
+    "Ars Technica AI",
+    "Bibliotheeknetwerk (KB)",
+    "Computable",
+    "Emerce",
+    "Hacker News",
+    "Hugging Face",
+    "IFLA",
+    "MIT Technology Review — AI",
+    "OpenAI",
+    "Rijnbrink",
+    "SPN (Stichting Samenwerkende POI's Nederland)",
+    "Simon Willison",
+    "TLDR AI",
+    "The Rundown AI",
+    "The Verge AI"
+  ],
+  "items": [
+    {
+      "id": "a097ef0d441a7216b7cd0e2333e660cab42270878853c22c33f188284ed638d5",
+      "title": "GPT-6 met Intelligent UI wordt wereldwijd uitgerold in ChatGPT",
+      "summary": "OpenAI rolt GPT-6 wereldwijd uit in ChatGPT, samen met Intelligent UI. Antwoorden komen sneller en bevatten visuele, interactieve onderdelen die gebruikers direct kunnen gebruiken. Daarmee verandert de manier waarop miljoenen mensen met ChatGPT werken.",
+      "url": "https://openai.com/index/gpt-6-for-everyone",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-10-07T00:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "tools"
+      ],
+      "importance": 5,
+      "why_relevant": "Het meestgebruikte AI-hulpmiddel verandert; bezoekers zullen er vragen over stellen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "cfab59c37a1b13bca1efbfeaffc8a2604965c0fd41282def4a9411712700807f",
+      "title": "ChatGPT krijgt 'Intelligent UI' met interactieve visuals, samen met GPT-6",
+      "summary": "OpenAI rolt voor alle gebruikers een update uit die samenvalt met GPT-6. ChatGPT kan antwoorden nu combineren met diagrammen, grafieken, formulieren en klikbare knoppen. Het model is er volgens OpenAI op getraind om te bepalen wanneer een visueel antwoord beter werkt dan tekst.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-10-07T15:10:42-04:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "tools"
+      ],
+      "importance": 5,
+      "why_relevant": "GPT-6 is voor alle ChatGPT-gebruikers beschikbaar, dus bezoekers zullen er vragen over stellen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "341228a79cb173aabe05f219df236dfbbdba9d04dd0a98e44d3dc310e262cd1c",
+      "title": "Google maakt SynthID-detector wereldwijd beschikbaar voor AI-watermerken",
+      "summary": "Google heeft een website gelanceerd waarmee iedereen afbeeldingen, video en audio kan controleren op onzichtbare AI-watermerken. De tool herkent nu ook watermerken van partners als OpenAI, Nvidia en Kakao, en binnenkort Apple. Daardoor is het veel eenvoudiger om te zien of media door AI zijn gemaakt.",
+      "url": "https://arstechnica.com/ai/2026/10/google-rolls-out-improved-synthid-ai-content-detector-now-available-globally/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-10-07T14:00:08+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "tools",
+        "digitale-geletterdheid"
+      ],
+      "importance": 4,
+      "why_relevant": "Een praktisch hulpmiddel voor workshops over mediawijsheid en het herkennen van AI-beelden.",
+      "also_covered_by": [
+        "https://tweakers.net/nieuws/253068/google-maakt-tool-voor-checken-op-ai-watermerk-wereldwijd-beschikbaar.html",
+        "https://synthid.com/"
+      ]
+    },
+    {
+      "id": "816ab26a44da3363510916eabac9204caef4cde0a0e9264199b640d31c72eb0c",
+      "title": "Mistral brengt vrij beschikbaar model Large 4 uit met 1 biljoen parameters",
+      "summary": "Het Franse Mistral heeft Mistral Large 4, bijnaam Le Chonk, uitgebracht als vrij te gebruiken en aan te passen model. Het is nu in preview, met een definitieve versie eind oktober. Het is vooral geoptimaliseerd voor code en cyberverdediging, en wil concurreren met de beste Amerikaanse en Chinese modellen.",
+      "url": "https://arstechnica.com/ai/2026/10/mistral-says-le-chonk-can-challenge-the-best-ai-models/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-10-07T14:12:37+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "open-source"
+      ],
+      "importance": 4,
+      "why_relevant": "Een Europees open alternatief voor Amerikaanse AI is interessant voor digitale soevereiniteit.",
+      "also_covered_by": [
+        "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/h0tjk0ahc76vaa4lp8m6obsa6ro907vzjag79y9p.html"
+      ]
+    },
+    {
+      "id": "4d2fc83e39fea6cb4d29180bf0dd95932086c49af2b816d75dc9949975c0e0d4",
+      "title": "Microsoft presenteert AI-agents in Windows en de Surface Laptop Ultra",
+      "summary": "Microsoft wil Windows geschikt maken voor agentic AI: Copilot kan met toestemming lokale bestanden gebruiken en zelfstandig handelingen uitvoeren. Windows Search krijgt snelle acties, en de Surface Laptop Ultra met Nvidia RTX Spark-chip verschijnt op 16 oktober vanaf 2.599 dollar.",
+      "url": "https://www.emerce.nl/nieuws/microsoft-presenteert-nieuwe-windowsfuncties-surface-laptop-ultra",
+      "source_name": "Emerce",
+      "source_type": "rss",
+      "published": "2026-10-08T07:52:15+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 4,
+      "why_relevant": "Windows-pc's op bibliotheekwerkplekken en bij bezoekers krijgen straks ingebouwde AI-agents.",
+      "also_covered_by": []
+    },
+    {
+      "id": "b561d754e112bc4927828aa51a99ff76378f7b1802c5a66faf8826ad2a2c64ca",
+      "title": "Google maakt SynthID Detector breed beschikbaar voor herkenning van AI-content",
+      "summary": "Google heeft de SynthID Detector breder beschikbaar gemaakt. Met de tool kan iedereen audio, video en afbeeldingen controleren op een onzichtbaar AI-watermerk. Het werkt voor content van onder meer Google, OpenAI en Nvidia, binnenkort ook Apple.",
+      "url": "https://www.computable.nl/2026/10/08/kort-google-detector-voor-ai-watermerk-datacenter-russisch-yandex-geraakt-door-drone-aanval/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-10-08T10:56:20+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "tools",
+        "digitale-geletterdheid"
+      ],
+      "importance": 4,
+      "why_relevant": "Bruikbaar bij mediawijsheidsvragen en workshops over herkennen van AI-gegenereerde content.",
+      "also_covered_by": []
+    },
+    {
+      "id": "661f64ddb5f472a2675ed75a0fb09828b0ce7323472abe119ea9528dee004ac6",
+      "title": "ChatGPT voor tieners krijgt collegeplanner, flashcards en een teen-AI-raad",
+      "summary": "OpenAI voegt aan ChatGPT for Teens een planner voor collegeaanmeldingen toe, plus flashcards en quizzen. Er komt ook een AI-raad van tieners die meedenkt over de ontwikkeling. Het is een stap in AI-gebruik door jongeren bij leren en studiekeuze.",
+      "url": "https://openai.com/index/teens-learn-and-plan",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-10-07T12:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "onderwijs"
+      ],
+      "importance": 3,
+      "why_relevant": "Jongeren gebruiken AI steeds vaker om te leren; relevant voor mediawijsheidsaanbod.",
+      "also_covered_by": []
+    },
+    {
+      "id": "ffc7803a4ed5b80e0ef82f4cb6cba6b4c89210efee9e3937c6cbfd2dc740ecd2",
+      "title": "Banned Books Week 2026 in cijfers",
+      "summary": "In 2025 werden in Amerikaanse bibliotheken 4.235 unieke titels aangevochten, het op één na hoogste aantal ooit. Van de 713 gemelde pogingen tot censuur kwam 92 procent van drukgroepen, overheidsfunctionarissen en bestuurders. Dat is veel meer dan de 35 procent in 2023.",
+      "url": "https://americanlibrariesmagazine.org/2026/10/07/by-the-numbers-banned-books-week-2026/?utm_source=rss&utm_medium=rss&utm_campaign=by-the-numbers-banned-books-week-2026",
+      "source_name": "American Libraries",
+      "source_type": "rss",
+      "published": "2026-10-07T13:00:44+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "bibliotheek",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Laat zien hoe sterk de druk op intellectuele vrijheid in bibliotheken toeneemt.",
+      "also_covered_by": [
+        "https://americanlibrariesmagazine.org/2026/10/07/noted-and-quoted-banned-books-week-2026/"
+      ]
+    },
+    {
+      "id": "3e30f3c3fd6900b834c3e194b456687bacb7eb35acf33194292043c28d5cdb43",
+      "title": "Onderzoek: Claude en ChatGPT geven winkelprijzen op basis van vermogen",
+      "summary": "Volgens een studie waar Bloomberg over bericht, geven AI-chatbots als Claude en ChatGPT bij winkeladvies verschillende prijzen afhankelijk van de rijkdom van de gebruiker. Meer details zijn in de bron niet beschikbaar.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-10-07/study-claude-chatgpt-ai-bots-offer-different-shopping-prices-based-on-wealth",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-10-07T16:07:08Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Prijsdiscriminatie door chatbots is een risico om in mediawijsheid mee te nemen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "fdc864340b44ea6ec22983b3de016ce3dd3ff03686dd583791da884112a07b4d",
+      "title": "Anthropic brengt Claude Haiku 5.5 uit",
+      "summary": "Anthropic heeft zijn nieuwe snelle, goedkope model uitgebracht, met dezelfde prijs als GPT-6 Luna tot 100.000 tokens. Boven die grens wordt het vijf keer duurder, en een nieuwe tokenizer telt ongeveer 1,25 keer zoveel tokens als de vorige Haiku. Daardoor valt de werkelijke prijs hoger uit dan het lijkt.",
+      "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-10-07T20:56:21+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Goedkope modellen bepalen wat haalbaar is voor AI-toepassingen in bibliotheken.",
+      "also_covered_by": [
+        "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/fk0cofcp4w70xd2mm4zzlml7um6iky8xns0nru1j.html"
+      ]
+    },
+    {
+      "id": "23273a10bc0613d895eb12fc7d3dbbd66e5e4f78868860d51a85ce454e329f7d",
+      "title": "Microsoft: AI versnelt cyberdreigingen, veerkracht wordt prioriteit",
+      "summary": "Het Microsoft Digital Defense Report 2026 stelt dat AI cyberdreigingen sterk versnelt en dat organisaties veerkracht door ontwerp nodig hebben. Nederland staat wereldwijd op plek 32 van landen waar cyberdreigingen het vaakst impact hadden.",
+      "url": "https://www.computable.nl/2026/10/08/ai-jaagt-cyberdreigingen-aan-organisaties-moeten-veerkrachtig-worden/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-10-08T05:15:00+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "onderzoek",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Relevant voor de digitale weerbaarheid van bibliotheken en hun publieke wifi en systemen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "cedec9a76a5b56d161d01bbd4fcd179f37a5531a7ccc72a5983cb4591b77f0da",
+      "title": "Oktobernummer van IFLA Journal verschenen",
+      "summary": "Het oktobernummer 2026 van IFLA Journal bevat 19 artikelen over hoe bibliotheken omgaan met technologische verandering en maatschappelijke uitdagingen. Onderwerpen zijn onder meer AI-toepassingen, toegang voor mensen met een beperking, bibliotheekangst en de situatie van Oekraïense bibliothecarissen.",
+      "url": "https://www.ifla.org/news/out-now-ocotober-2026-issue-of-ifla-journal/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-10-08T08:00:33+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "bibliotheek"
+      ],
+      "importance": 3,
+      "why_relevant": "Internationaal bibliotheekonderzoek, inclusief AI-toepassingen en inclusieve dienstverlening.",
+      "also_covered_by": []
+    },
+    {
+      "id": "7c1eebf0e7a6b414e63223c7346fd7115906070645786860236cfc8836599d8c",
+      "title": "Handreiking (Digi)Taalhuizen verschijnt in november",
+      "summary": "SPN publiceert in november een handreiking met zes adviezen waarmee POI-adviseurs bibliotheken beter kunnen ondersteunen in hun rol in het (Digi)Taalhuis. De handreiking is gebaseerd op een enquête onder 71 taalhuizen en interviews met 13 professionals. Op 19 november is er een online pubquiz.",
+      "url": "https://www.stichtingspn.nl/nieuws/handreiking-digitaalhuizen-verschijnt-in-november/",
+      "source_name": "SPN (Stichting Samenwerkende POI's Nederland)",
+      "source_type": "rss",
+      "published": "2026-10-08T08:57:11+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek",
+        "digitale-inclusie",
+        "evenement"
+      ],
+      "importance": 3,
+      "why_relevant": "Direct bruikbaar voor de rol van de bibliotheek in het Digitaalhuis.",
+      "also_covered_by": []
+    },
+    {
+      "id": "f032881147f7c03dfab2beea86b83a43d9c327d59120dee0de2ab7459d02b913",
+      "title": "Europa wil opensource gebruiken, maar draagt nog te weinig bij",
+      "summary": "Uit het rapport State of Open Source in Europe van de Linux Foundation blijkt dat 94 procent van de Europese organisaties digitale soevereiniteit belangrijk vindt. Alleen gebruiken van opensource is volgens het rapport niet genoeg: organisaties moeten ook actief bijdragen aan de projecten en het beheer ervan.",
+      "url": "https://www.computable.nl/2026/10/08/europa-wel-de-lusten-niet-altijd-de-lasten-van-opensource/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-10-08T11:00:00+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "open-source",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 3,
+      "why_relevant": "Raakt aan keuzes voor open software en digitale soevereiniteit bij bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "4514b0f7f8f86edaf1d1b6d118ef5aa2621e4a52ad62f5d91fe19149c3d682a8",
+      "title": "AI-agents maken oude softwarelekken tot groter risico; SAS lanceert AI-governance",
+      "summary": "IBM en Red Hat vonden en verhielpen via Lightwell meer dan vierhonderd onbekende kwetsbaarheden in Java-bibliotheken, omdat AI-agents kleine lekken kunnen combineren tot serieuze aanvallen. SAS lanceert daarnaast AI Navigator voor het besturen van AI-modellen en -agents.",
+      "url": "https://www.computable.nl/2026/10/07/kort-agents-vergroten-risico-sw-kwetsbaarheden-sas-lanceert-platform-ai-toezicht-en-meer/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-10-07T10:30:00+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "ethiek-en-risico",
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat zien dat AI ook beveiligingsrisico's voor digitale systemen vergroot.",
+      "also_covered_by": []
+    },
+    {
+      "id": "ce7a650a650cdee6dc553d9ae00b7f7af3aa148736ddb3fc124829c62d9d6254",
+      "title": "Van 'Kun je nog even…?' naar meer regie in marketing en communicatie: 7 tips",
+      "summary": "Bibliotheek Twente liet tijdens een Aan tafel bij…-sessie zien hoe het marketing- en communicatieteam meer regie pakt. Zo worden collega's vroeg betrokken en vullen programmamakers vooraf een PR-formulier in. Het artikel zet zeven praktische tips op een rij.",
+      "url": "https://www.rijnbrink.nl/actueel/nieuws/van-kun-je-nog-even-naar-meer-regie-in-marketing-en-communicatie-7-tips/",
+      "source_name": "Rijnbrink",
+      "source_type": "rss",
+      "published": "2026-10-07T11:50:51+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek"
+      ],
+      "importance": 2,
+      "why_relevant": "Praktische tips voor bibliotheekcollega's die activiteiten en workshops moeten promoten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "38c5eaf2bba3e6e4a638e4ef300a906ae5dd238ee56b08bc8aa54058e26689a5",
+      "title": "Bedrijven wisselen steeds vaker van AI-aanbieder",
+      "summary": "Het maandelijkse aandeel bedrijven dat van AI-modelaanbieder wisselt, bereikte in september een record van 8 procent (driemaandsgemiddelde). Eerder kreeg Anthropic marktaandeel na de lancering van Opus 4 en Sonnet 4, en recent trok OpenAI aan met prijsverlagingen en nieuwe modellen.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/kfixftolk1aw553hn5uynyp9qad19j43z16lm98u.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-10-07T12:36:43+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat zien dat de AI-markt snel verschuift; kies geen tools met vendor lock-in.",
+      "also_covered_by": []
+    },
+    {
+      "id": "67f5f61696a2949df2730f40424ad824b9d13bbf8b547c153b8cdb7135436103",
+      "title": "Nvidia past Nemotron-modellen aan voor goudniveau bij IOI en IMO",
+      "summary": "Nvidia beschrijft op het Hugging Face-blog hoe de Nemotron-modelfamilie is bijgetraind voor de Internationale Informatica- en Wiskunde-Olympiade. Volgens de titel levert dat in beide wedstrijden een resultaat op goudniveau op. De bron bevat geen verdere tekst, dus details ontbreken.",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+      "source_name": "Hugging Face",
+      "source_type": "rss",
+      "published": "2026-10-07T12:45:31+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "onderzoek"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont hoe ver AI-redeneermodellen komen, handig als achtergrond bij vragen van bezoekers.",
+      "also_covered_by": []
+    },
+    {
+      "id": "5850eff2cc4e6c68e901f51413a2127381a67d8c0986318d1a6d752caa28f589",
+      "title": "Man veroordeeld voor streamingfraude met AI-nummers en tienduizend bots",
+      "summary": "Een 54-jarige man uit North Carolina kreeg 18 maanden cel omdat hij met door AI gemaakte muziek en bots miljoenen van streamingdiensten stal. Hij is volgens het Amerikaanse ministerie van Justitie de eerste Amerikaan die strafrechtelijk is vervolgd voor AI-ondersteunde streamingfraude. De fraude liep zeven jaar.",
+      "url": "https://arstechnica.com/tech-policy/2026/10/outstreaming-taylor-swift-is-easy-with-10k-bots-and-ai-songs-fraudster-admits/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-10-07T17:57:39+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van AI-misbruik rond muziek, relevant voor muziekcollecties en streamingdiensten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "a3b111bde87746ab8b24e4ac74e2f60583813c1223888c5da378837dfe6f7de0",
+      "title": "Personal AI-agents winnen terrein: OpenAI, Meta en xAI strijden om de markt",
+      "summary": "Volgens deze nieuwsbrief brengen OpenAI (Dots), Meta (Muse) en xAI (Grok Bot) kort na elkaar persoonlijke AI-agents uit. Die moeten gegevens uit verschillende apps en diensten aan elkaar koppelen. De auteur is zelf kleine investeerder in OpenAI.",
+      "url": "https://kill-the-newsletter.com/feeds/7b87u0i8h3vypjvvprgc/entries/7mlj6jecm38gmeancpzls0i7she8xcfq1uispi29.html",
+      "source_name": "The Rundown AI",
+      "source_type": "newsletter",
+      "published": "2026-10-07T20:01:15+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Persoonlijke agents raken straks aan privacy en digitale vaardigheden van bezoekers.",
+      "also_covered_by": []
+    },
+    {
+      "id": "2e8e6fe4d25f301c3cd2ef136e1961004bb5c7a82b986628f503ed7838853be3",
+      "title": "Ontwikkelaar bouwt met AI open-source kopieën van Adobe-software",
+      "summary": "Het project Artcraft heeft zeven open-source apps uitgebracht die de interface en functies van Photoshop, Illustrator, Premiere en andere Adobe-programma's nabootsen. De ontwikkelaar gebruikte hiervoor Claude Opus 5.5. De apps zijn nog een zeer vroege alfa met veel tekortkomingen.",
+      "url": "https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-10-07T21:56:42+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "open-source",
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Gratis alternatieven voor Adobe kunnen interessant zijn voor creatieve werkplekken in de bibliotheek.",
+      "also_covered_by": []
+    },
+    {
+      "id": "9a0e21136fa4830bc9607a833798f87292359aae816fdd8e56eefbd25a30a652",
+      "title": "Microsoft toont AI-laptop Surface Laptop Ultra en Windows-aanpassingen voor lokale AI",
+      "summary": "Microsoft presenteerde de Surface Laptop Ultra met Nvidia's RTX Spark-chip en tot 128 GB geheugen, vanaf 2.599 dollar. Ook kondigde het Windows 11-wijzigingen aan voor lokale AI en agents. In Nederland meldt Tweakers dat agents in containers worden afgeschermd.",
+      "url": "https://arstechnica.com/gadgets/2026/10/microsoft-event-debuts-new-ai-friendly-hardware-and-windows-changes/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-10-08T00:00:24+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Lokale AI op pc's kan relevant worden voor privacyvriendelijke toepassingen in bibliotheken.",
+      "also_covered_by": [
+        "https://tweakers.net/nieuws/253078/microsoft-wil-ai-meer-lokaal-laten-draaien-en-agents-afkaderen-in-containers.html"
+      ]
+    },
+    {
+      "id": "fe81f15386ca412924475d31ff39e1f6b2e3f60dc1ef68c3e002767e789d94e2",
+      "title": "Klein groepje klanten levert AI-bedrijven meeste omzet",
+      "summary": "Volgens de Top 100 Gen AI Consumer Apps van a16z is de top 1 procent van de betalende AI-gebruikers goed voor bijna 20 procent van de consumentenuitgaven. In augustus had 4,5 procent van de Amerikaanse consumenten een betaald abonnement op ChatGPT, Gemini of Claude, tegen 2,1 procent een jaar eerder.",
+      "url": "https://www.emerce.nl/nieuws/kleine-groepje-klanten-levert-aireuzen-meeste-omzet",
+      "source_name": "Emerce",
+      "source_type": "rss",
+      "published": "2026-10-08T04:19:46+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont dat betaald AI-gebruik groeit maar nog beperkt is, relevant voor toegangskloof.",
+      "also_covered_by": []
+    },
+    {
+      "id": "0ec4fd4024ea2973ba147c74ac79a1ff0fbf44c7ea8597c25dd83987da7b341a",
+      "title": "SAP neemt Belgische Techwolf over voor slimmere hr-agents",
+      "summary": "SAP koopt de Gentse scale-up Techwolf, die met AI in kaart brengt welk werk en welke skills medewerkers hebben. De technologie gaat naar het hr-platform Successfactors. Techwolf blijft onafhankelijk opereren onder ceo Andreas De Neve.",
+      "url": "https://www.computable.nl/2026/10/08/sap-koopt-belgisch-techwolf-om-hr-agents-slimmer-te-maken/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-10-08T05:00:00+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "bedrijven",
+        "arbeidsmarkt"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat zien dat AI in hr en skillsplanning snel doorbreekt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "8623e8125943db3138ebf9c354f2f71e27193b07d8d0e7845a7451edbd41c606",
+      "title": "Campagne ‘Ontdek met’ van de online Bibliotheek is terug",
+      "summary": "De online Bibliotheek organiseert voor de vijfde keer de campagne ‘Ontdek met’. Bekende schrijvers vertellen over hun leesgewoonten en tippen favoriete titels uit de online Bibliotheek.",
+      "url": "https://www.bibliotheeknetwerk.nl/nieuws/de-campagne-ontdek-met-is-terug",
+      "source_name": "Bibliotheeknetwerk (KB)",
+      "source_type": "rss",
+      "published": "2026-10-08T08:43:10+02:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek"
+      ],
+      "importance": 2,
+      "why_relevant": "Een campagne die je kunt inzetten om leden naar het digitale aanbod te leiden.",
+      "also_covered_by": []
+    },
+    {
+      "id": "558c0d6d6ae87e7db11b5f114ab60e63445dcdc112242a0dedf1e3e63f4cf319",
+      "title": "Thuiswinkel.org start scambescherming tegen nepwebshops",
+      "summary": "Thuiswinkel.org lanceert een dienst die doorlopend zoekt naar nepwebshops en misleidende domeinnamen van aangesloten merken. Brandsolo voert de monitoring uit en kan nepsites laten verwijderen. Vorig jaar werden ongeveer 1,2 miljoen Nederlanders slachtoffer van oplichting via nepshops, wat met generatieve AI makkelijker wordt.",
+      "url": "https://www.emerce.nl/nieuws/thuiswinkelorg-lanceert-scambescherming-webshops",
+      "source_name": "Emerce",
+      "source_type": "rss",
+      "published": "2026-10-08T08:49:25+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "ethiek-en-risico",
+        "digitale-geletterdheid"
+      ],
+      "importance": 2,
+      "why_relevant": "Goede aanleiding voor voorlichting over online oplichting rond Black Friday.",
+      "also_covered_by": []
+    },
+    {
+      "id": "f0b92655063a8315ed9fd17ef3309bb6331f89f6f063059a8adb004443abb831",
+      "title": "AI-doorbraken in de robotica veranderen je leven voorlopig niet",
+      "summary": "Humanoïde robots zoals Tesla's Optimus krijgen veel aandacht en beloftes van techleiders. Musk verwacht dat Optimus eind 2027 te koop is en bijna alle menselijke arbeid kan overnemen. Het artikel zet vraagtekens bij dat tempo.",
+      "url": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/",
+      "source_name": "MIT Technology Review — AI",
+      "source_type": "rss",
+      "published": "2026-10-08T09:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "arbeidsmarkt"
+      ],
+      "importance": 2,
+      "why_relevant": "Context bij hoogdravende AI-beloftes die bezoekers en collega's kunnen tegenkomen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "fc29492da5831e0907daf68828f39ff547df1a7304740efaa4782542fe8b6e54",
+      "title": "Spoelstra Spreekt: Kopieerkoning",
+      "summary": "In deze column stelt de schrijver dat motivatiebrieven en vacatures door AI steeds meer op elkaar gaan lijken, en dat mensen zelfs gaan praten zoals AI. Volgens de columnist kopiëren mensen elkaar ook zonder AI voortdurend.",
+      "url": "https://www.computable.nl/2026/10/07/spoelstra-spreekt-kopieerkoning/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-10-07T11:00:00+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "arbeidsmarkt",
+        "ethiek-en-risico"
+      ],
+      "importance": 1,
+      "why_relevant": "Luchtige kijk op AI-eenheidsworst, bruikbaar bij sollicitatietrainingen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "e04d1da693503b0f1282c2e253e5172059c771fc995159d2f4bd4a20f0f195fa",
+      "title": "Google Playground: eigen games maken en spelen",
+      "summary": "Google introduceert Playground, een experimenteel platform waarmee gebruikers zelf games kunnen maken en spelen. De bron bevat verder weinig details, behalve een link naar Google Labs.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-10-07T12:28:36Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools"
+      ],
+      "importance": 1,
+      "why_relevant": "Mogelijk interessant voor game- of makerworkshops, maar details zijn nog schaars.",
+      "also_covered_by": []
+    },
+    {
+      "id": "b55d5cf11d42f85fdf9939b762dc56797c3deac8d65ed54e3850490da6af2ddb",
+      "title": "AI-bedrijven vragen massaal domeinen als .agent en .agi aan",
+      "summary": "ICANN meldt 1.615 aanvragen voor nieuwe topleveldomeinen van 481 aanvragers. Tien bedrijven, waaronder Meta en OpenAI, willen .agent; zeven, waaronder OpenAI, .agi.",
+      "url": "https://www.theverge.com/tech/1007132/icann-domains-2026-ai-agi",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-10-07T14:46:16-04:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws dat de commerciële hype rond AI-agents illustreert.",
+      "also_covered_by": []
+    }
+  ]
+}
