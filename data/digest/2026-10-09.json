@@ -1,0 +1,602 @@
+{
+  "date": "2026-10-09",
+  "generated_at": "2026-10-09T11:38:11+00:00",
+  "stats": {
+    "batches": 2,
+    "onleesbaar": 0,
+    "objecten": 73,
+    "schema_fout": 0,
+    "onbekend_id": 0,
+    "gedropt": 41,
+    "geldig": 32,
+    "ai": 23,
+    "bieb": 9
+  },
+  "sources": [
+    "Ars Technica AI",
+    "Autoriteit Persoonsgegevens",
+    "Bibliotheekblad",
+    "Bibliotheeknetwerk (KB)",
+    "Computable",
+    "Hacker News",
+    "Hugging Face",
+    "IFLA",
+    "Infodocket",
+    "MIT Technology Review — AI",
+    "OpenAI",
+    "Simon Willison",
+    "TLDR AI",
+    "The Rundown AI",
+    "The Verge AI"
+  ],
+  "items": [
+    {
+      "id": "11f14f5fd3fcd0a86324d6efb79c8f8a7345e780a92eedd6f531c0a736c68525",
+      "title": "Hulp voor bibliotheken bij keuzes over technologie en AI",
+      "summary": "Bibliotheeknetwerk biedt twee toolkits aan: Publieke waarden en AI & ethiek. Ze helpen bibliotheken om nieuwe digitale toepassingen of AI-inzet te bespreken en waarden en belangen tegen elkaar af te wegen.",
+      "url": "https://www.bibliotheeknetwerk.nl/nieuws/hulp-voor-bibliotheken-bij-keuzes-over-technologie-en-ai",
+      "source_name": "Bibliotheeknetwerk (KB)",
+      "source_type": "rss",
+      "published": "2026-10-09T08:57:35+02:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek",
+        "ethiek-en-risico"
+      ],
+      "importance": 4,
+      "why_relevant": "Direct bruikbare toolkits voor je eigen bibliotheek bij AI-keuzes.",
+      "also_covered_by": []
+    },
+    {
+      "id": "3d46410c37df6aa7fe84fb3e0ab7e615236c12aa2efd42da3af4f58c261fa3a8",
+      "title": "AP zet volgende stap in toezicht op AI",
+      "summary": "De Autoriteit Persoonsgegevens start de nieuwe directie Toezicht en Coördinatie AI/Algoritmes. Die zet het coördinerend toezicht voort, bereidt het AI-markttoezicht voor en werkt met de RDI aan een AI-sandbox en een AI Coördinatiecentrum.",
+      "url": "https://www.autoriteitpersoonsgegevens.nl/actueel/ap-zet-volgende-stap-in-toezicht-op-ai",
+      "source_name": "Autoriteit Persoonsgegevens",
+      "source_type": "rss",
+      "published": "2026-10-09T09:35:48+02:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "beleid-en-regelgeving"
+      ],
+      "importance": 4,
+      "why_relevant": "Bepaalt hoe Nederlandse toezichthouders straks kijken naar AI-gebruik, ook door bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "d9e485b409fe8517ac6e3a5ba39a5770caf1a72ddba21f80f7ddf66c5e1760f2",
+      "title": "OpenAI verstoort twee AI-gestuurde beïnvloedingsoperaties",
+      "summary": "OpenAI meldt twee beïnvloedingsoperaties te hebben stopgezet. Die gebruikten AI en neppe journalisten en een nep-denktank om geopolitieke boodschappen te verspreiden.",
+      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-10-08T00:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Illustreert desinformatierisico's, nuttig voor mediawijsheid-activiteiten in de bibliotheek.",
+      "also_covered_by": []
+    },
+    {
+      "id": "5601af0cee338532dcdefc2e4780a43ed402d1f892f7d888f6456866beb2c160",
+      "title": "Jaaromzet OpenAI ligt 20 miljard dollar lager dan eerder aangegeven",
+      "summary": "Volgens CNBC ligt de geannualiseerde omzet van OpenAI zo'n 20 miljard dollar onder wat eerder werd gesuggereerd. Het bericht koppelt dit aan partners als Nvidia, Oracle en CoreWeave. De bron bevat in de aangeleverde gegevens weinig tekst, dus details ontbreken.",
+      "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-10-08T16:45:58Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Zegt iets over de houdbaarheid van de AI-markt waarop bibliotheken hun tools baseren.",
+      "also_covered_by": []
+    },
+    {
+      "id": "5f8fd0a6507efdb1ad7d151871dabc26300f8a739a13fa8bfc6ba3645a9d4fda",
+      "title": "Anthropic biedt open-sourceprojecten gratis AI-beveiligingsscans aan",
+      "summary": "Met OSS Scanner kunnen open-sourceprojecten zich aanmelden voor periodieke beveiligingsscans door Anthropics sterkste modellen. De rapporten zijn volledig door AI gemaakt, zonder menselijke controle, dus ze kunnen fouten bevatten.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-10-08T17:53:51-04:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "open-source"
+      ],
+      "importance": 3,
+      "why_relevant": "Relevant voor bibliotheken die open-sourcesoftware gebruiken, met de kanttekening van onbetrouwbare rapporten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "26940365042d801d345988e4ac368fa0d71173fa7ec6ca471339f48b50c441c1",
+      "title": "IMF waarschuwt voor gevaarlijke combinatie van AI, energie en schulden",
+      "summary": "IMF-topvrouw Georgieva waarschuwt dat AI-investeringen, energieschokken en schulden samen tot hogere rente en inflatie kunnen leiden. Ze ziet het risico op ongelijkheid tussen landen groeien, omdat sommige landen meer van AI profiteren dan andere.",
+      "url": "https://www.computable.nl/2026/10/09/imf-waarschuwt-voor-gevaarlijke-mix-van-ai-energie-en-schuld/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-10-09T05:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "onderzoek"
+      ],
+      "importance": 3,
+      "why_relevant": "Ongelijkheid door AI sluit aan bij de maatschappelijke rol van de bibliotheek.",
+      "also_covered_by": []
+    },
+    {
+      "id": "a3203d8605741e7665a37f7a7a5a13c9d6267b4bab6635f2f7ccf8da2a432ea2",
+      "title": "OpenAI houdt vast aan ontslag van drie veiligheidsonderzoekers",
+      "summary": "OpenAI blijft bij het ontslag van Jasmine Wang, Tomek Korbak en Mikita Balesni na een onderzoek naar een schending van beleid rond gevoelige informatie. Het bedrijf zegt dat het niet om hun kritiek op AI-veiligheid gaat. De drie vroegen in een open brief om meer transparantie.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008604/openai-defends-decision-fire-safety-researchers",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-10-09T05:48:26-04:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Raakt aan het vertrouwen in AI-bedrijven en hun omgang met veiligheidskritiek.",
+      "also_covered_by": []
+    },
+    {
+      "id": "67ec9f90215a2913274743a4272aa48fa37d8003e139a2082e6efb72af7f4e0d",
+      "title": "We vertrouwen te veel op het vermogen van AI om nee te zeggen",
+      "summary": "Chatbots worden getraind om gevaarlijke verzoeken te weigeren, omdat taalmodellen van nature alles beantwoorden wat ze via het web hebben geleerd. Het artikel zet vraagtekens bij hoe betrouwbaar die weigeringen zijn. Experts uit de veiligheids- en gezondheidshoek komen aan het woord.",
+      "url": "https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no/",
+      "source_name": "MIT Technology Review — AI",
+      "source_type": "rss",
+      "published": "2026-10-09T09:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "modellen"
+      ],
+      "importance": 3,
+      "why_relevant": "Helpt bij het inschatten van de grenzen van veiligheidsfilters in AI-tools voor bezoekers.",
+      "also_covered_by": []
+    },
+    {
+      "id": "16b7810afb00bdc03cf91abd83f9b804b576e5ff42133c9ae8d1a12944f61774",
+      "title": "TII introduceert Falcon ASR, een spraakherkenningsmodel",
+      "summary": "Het Technology Innovation Institute (TII) presenteert Falcon ASR via Hugging Face. De titel wijst op een model voor automatische spraakherkenning. De bron bevat verder geen tekst.",
+      "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
+      "source_name": "Hugging Face",
+      "source_type": "rss",
+      "published": "2026-10-07T13:21:03+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "open-source"
+      ],
+      "importance": 2,
+      "why_relevant": "Spraakherkenning is bruikbaar voor toegankelijkheid en transcriptie van bibliotheekevenementen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "7adf688cec64ff08695a61a387de0b03e9542d1423924d1afa1127699dafc3e6",
+      "title": "Nvidia zet in op veiligheid voor fysieke AI zoals robottaxi's en humanoïden",
+      "summary": "Nvidia ontwikkelt met Halos een veiligheidsarchitectuur voor zelfrijdende auto's en, sinds juni 2026, ook voor robots in fabrieken, magazijnen en ziekenhuizen. Volgens het bedrijf wordt veiligheid de volgende bottleneck nu modellen en hardware beter worden.",
+      "url": "https://arstechnica.com/ai/2026/10/nvidias-big-bet-on-physical-ai-aims-for-safer-robotaxis-humanoid-robots/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-10-08T11:15:33+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont dat veiligheid van AI in de fysieke wereld een kernthema wordt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "147c804cab7aa5f03c8e27aaa1d0749e2e3cf264736e367bfc66fddd2c88727f",
+      "title": "Renske Leijten nieuwe directeur-bestuurder van Bibliotheek Zuid-Kennemerland",
+      "summary": "Oud-Kamerlid Renske Leijten start op 1 november bij Bibliotheek Zuid-Kennemerland en volgt Roxane van Acker op. Ze was onder meer aanjager van de onthulling van het toeslagenschandaal. Ze gaf ook trainingen over digitalisering en integriteit.",
+      "url": "https://bibliotheekblad.nl/renske-leijten-nieuwe-directeur-bestuurder-van-bibliotheek-zuid-kennemerland/",
+      "source_name": "Bibliotheekblad",
+      "source_type": "rss",
+      "published": "2026-10-08T11:48:06+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek"
+      ],
+      "importance": 2,
+      "why_relevant": "Nieuwe bibliotheekbestuurder met aandacht voor digitalisering en integriteit.",
+      "also_covered_by": []
+    },
+    {
+      "id": "c00b040ebee3699a1412166085f90f258078fc541a9e878215291c38ada780bb",
+      "title": "The Download: AI-hordes voor humanoïde robots",
+      "summary": "De hype rond humanoïde robots leunt op het idee dat de AI achter chatbots ook robots kan leren bewegen. Veel onderzoekers betwijfelen dat, omdat de fysieke wereld veel variabeler is dan taal en beeld. Ze verschillen van mening of huidige AI volstaat.",
+      "url": "https://www.technologyreview.com/2026/10/08/1146045/the-download-ai-roadblocks-humanoids-portable-rubber-dams/",
+      "source_name": "MIT Technology Review — AI",
+      "source_type": "rss",
+      "published": "2026-10-08T12:10:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek"
+      ],
+      "importance": 2,
+      "why_relevant": "Nuchtere context bij hooggespannen verwachtingen over AI en robotica.",
+      "also_covered_by": []
+    },
+    {
+      "id": "4b749e163929574d39fc1ea881e7da40805624a20ac0d7dd9fb187ff904425ab",
+      "title": "Meta en Sierra lanceren open Personal Agent Protocol voor AI-agents",
+      "summary": "Meta en Sierra presenteren met partners als Shopify, Stripe en Walmart een open standaard voor de interactie tussen persoonlijke AI-agents en bedrijven. Het protocol regelt onder meer authenticatie en geeft bedrijven inzicht in wat agents doen. Anthropic breidt in dezelfde nieuwsbrief zijn Cyber Verification Program uit met drie toegangsniveaus.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/uzr1wf31gw7ux3ekpmjfzk5xal34gevtdm42xo8r.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-10-08T12:37:40+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 2,
+      "why_relevant": "Agents die namens burgers handelen raken straks ook dienstverlening en digitale vaardigheden.",
+      "also_covered_by": []
+    },
+    {
+      "id": "d253306ab8a4bdb7ff34fd92ec7486d48b942e24e0c3b079afbf8b08436aa854",
+      "title": "Genomineerden NBD Biblion Jeugdspecialist van het Jaar 2026 bekend",
+      "summary": "Larissa Streppel (Velsen), Levi Smits (Rozet) en Rosanne Venema-Mol (Oosterschelde) zijn genomineerd. De winnaar wordt op 5 november bekendgemaakt tijdens Bibliotheekplaza in Haarlem.",
+      "url": "https://bibliotheekblad.nl/genomineerden-voor-nbd-biblion-jeugdspecialist-van-het-jaar-2026-bekend/",
+      "source_name": "Bibliotheekblad",
+      "source_type": "rss",
+      "published": "2026-10-08T13:00:00+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek",
+        "evenement"
+      ],
+      "importance": 2,
+      "why_relevant": "Brancheprijs en evenement voor collega's in de Nederlandse bibliotheeksector.",
+      "also_covered_by": []
+    },
+    {
+      "id": "9488a399690760a1ed6d6149dba13e3b652dfee58181096fdce7af8fa3e7491d",
+      "title": "Microsoft brengt hybride AI naar Windows 11",
+      "summary": "Windows 11 gaat AI-taken deels lokaal en deels in de cloud uitvoeren, om kosten te drukken. Fabrikanten als Asus, Dell, HP en Lenovo leveren geschikte apparaten, die wel duurder zijn.",
+      "url": "https://www.computable.nl/2026/10/08/microsoft-introduceert-hybride-ai-voor-windows-11-slimmer-en-goedkoper/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-10-08T13:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Lokale AI op pc's raakt toekomstige publiekscomputers en de kosten ervan.",
+      "also_covered_by": []
+    },
+    {
+      "id": "7f8b227b38f5c110d145a902014e9b386d318d23dd6ba874e2e4488b6a4ea58d",
+      "title": "Onderzoek: de toekomst van wetenschappelijke blogs en langetermijnbehoud",
+      "summary": "Een JASIST-studie op basis van 13 interviews met wetenschappelijke bloggers laat zien dat blogs nog niet in bewaarworkflows van onderzoeksinfrastructuur zijn opgenomen. Daardoor loopt langdurige toegang gevaar. De studie benoemt wat bloggers nodig hebben van zo'n infrastructuur.",
+      "url": "https://www.infodocket.com/2026/10/08/research-article-the-future-of-scholarly-blogs-scholarly-bloggers-perspectives-on-long-term-preservation/",
+      "source_name": "Infodocket",
+      "source_type": "rss",
+      "published": "2026-10-08T13:16:10+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "bibliotheek"
+      ],
+      "importance": 2,
+      "why_relevant": "Raakt digitale archivering, een kerntaak van bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "87ee604159a7430f33f6820c12daf58831b1348303de06820171364273df1e88",
+      "title": "AI in het soc: mens blijft in de lead en in de loop",
+      "summary": "Teamleads van securityteams bij onder meer NS, VodafoneZiggo en Sogeti zien veel potentie in AI, maar zetten bewust kleine stappen. Het artikel bespreekt de impact op detectie, phishingtriage en rollen, en of AI zo goed werkt als leveranciers beloven.",
+      "url": "https://www.computable.nl/2026/10/08/ai-in-het-soc-humans-in-de-lead-en-in-de-loop/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-10-08T15:00:00+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "arbeidsmarkt",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Geeft een nuchter beeld van AI in de praktijk bij Nederlandse organisaties.",
+      "also_covered_by": []
+    },
+    {
+      "id": "fb3c354fbfe34ef32c712d127b97b573a231b00b6ab8e7fd4654cf6e21b36444",
+      "title": "StepFun-model Step 5 Preview met 1 miljoen context verschijnt op OpenRouter",
+      "summary": "StepFun heeft een voorvertoning van Step 5 beschikbaar gemaakt op OpenRouter. Het gaat om een mixture-of-experts-model met een contextvenster van een miljoen tokens. Verdere details staan niet in de aangeleverde bron.",
+      "url": "https://openrouter.ai/stepfun/step-5-preview",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-10-08T16:20:20Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat zien dat lange-contextmodellen breder beschikbaar komen, ook buiten de grote Amerikaanse labs.",
+      "also_covered_by": []
+    },
+    {
+      "id": "9c2e612e35bf26875d4b17c593062d040dcb9e89917b3017afbe1b29610b0c04",
+      "title": "Ithaka S+R publiceert enquête onder Amerikaanse onderzoekers",
+      "summary": "Uit een enquête onder 4.003 onderzoekers blijkt dat AI hen sterk verdeelt, maar dat het melden van AI-gebruik breed wordt gezien als ethische basis. Verder wensen ze stabiliteit en blijvende investeringen in een turbulente tijd.",
+      "url": "https://www.infodocket.com/2026/10/08/results-from-ithaka-sr-us-researcher-survey-released/",
+      "source_name": "Infodocket",
+      "source_type": "rss",
+      "published": "2026-10-08T16:37:31+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Geeft inzicht in hoe onderzoekers met AI omgaan, relevant voor wetenschappelijke bibliotheekdiensten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "49b931c862aa2a40f61a15c85cb233944ed92add35782a3337dc0dc7c6dddf18",
+      "title": "Open science opent het proces, niet alleen het artikel",
+      "summary": "In een IFLA-webinar betoogde Robin Wilkening dat open access niet genoeg is. Ook hypotheses, methoden, data en code moeten toegankelijk zijn om onderzoek te kunnen herhalen. Financiers kunnen openheid stimuleren.",
+      "url": "https://www.ifla.org/news/open-science-opens-the-process-not-just-the-paper/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-10-08T19:13:13+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "bibliotheek"
+      ],
+      "importance": 2,
+      "why_relevant": "Raakt de rol van bibliotheken bij open kennis en onderzoeksdata.",
+      "also_covered_by": []
+    },
+    {
+      "id": "d9084e9f1f3a8b35945eab88447270a04611d1e16921914ce85df2b3f15fef29",
+      "title": "Bestuurder wint $76 na onterechte stop door kentekencamera's met AI",
+      "summary": "Een federale jury in Texas gaf een man gelijk die was aangehouden op basis van 'AI-gestuurde' kentekenlezers van de sheriff van Bexar County. Hij kreeg symbolisch $76, één dollar per minuut van zijn aanhouding.",
+      "url": "https://arstechnica.com/tech-policy/2026/10/driver-wins-76-after-alpr-led-to-bogus-traffic-stop-drug-searches/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-10-08T19:42:30+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van privacy- en foutenrisico's bij AI-surveillance, relevant voor het publieke debat.",
+      "also_covered_by": []
+    },
+    {
+      "id": "a011c23424eaba5e1adaeee90c55a8dcda931f3d7f85cb2325935123a8f53710",
+      "title": "Microsoft 365 Family en Premium: AI-functies straks te delen met huisgenoten",
+      "summary": "Tot nu toe kon alleen de hoofdgebruiker de Copilot-functies in Microsoft 365 Family gebruiken. Binnenkort kunnen tot vijf andere mensen op het abonnement meedelen in AI-gebruik, Office-apps en OneDrive-opslag.",
+      "url": "https://www.theverge.com/news/1008581/microsoft-365-family-premium-shared-ai-features-storage-changes",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-10-09T03:14:32-04:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Maakt AI-tools toegankelijker voor huishoudens, ook voor bezoekers van de bibliotheek.",
+      "also_covered_by": []
+    },
+    {
+      "id": "ffd2818196374b7e8d985c5ba0d85a7cf6f6fd71833912309c34424b62f62e05",
+      "title": "Hugging Face: een ontbrekend model zelf bouwen met ML Intern",
+      "summary": "Een Hugging Face-blog gaat over het zelf bouwen van een model dat nog niet bestond, met behulp van de tool ML Intern. De aangeleverde bron bevat geen tekst, dus verdere inhoud is onbekend.",
+      "url": "https://huggingface.co/blog/building-with-ml-intern",
+      "source_name": "Hugging Face",
+      "source_type": "rss",
+      "published": "2026-10-08T00:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "open-source"
+      ],
+      "importance": 1,
+      "why_relevant": "Laat zien hoe laagdrempelig het zelf trainen van modellen wordt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "b6297e3a2cd3e70c1ca03679995b293418a6abe4ffe1dc953f174dc24106b0ee",
+      "title": "IFLA Europe: opname van webinar over de Regional Division beschikbaar",
+      "summary": "Op 1 oktober presenteerde het Europese regionale comité van IFLA zijn werk. Deelnemers noemden auteursrecht en bibliotheekstatistieken als belangrijkste thema's. De opname staat op het nieuwe YouTube-kanaal van IFLA.",
+      "url": "https://www.ifla.org/news/the-europe-regional-division-proudly-presents-itself-webinar-recording-now-available/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-10-08T12:16:47+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "bibliotheek",
+        "evenement"
+      ],
+      "importance": 1,
+      "why_relevant": "Laat zien welke thema's Europese bibliotheekprofessionals bezighouden, zoals auteursrecht.",
+      "also_covered_by": []
+    },
+    {
+      "id": "238d5da6f55f1aacb6dfecc067581ea131fd19df5add45ec47ea836eee04a950",
+      "title": "Figma-agent algemeen beschikbaar, Pinterest voegt AI-gidsen toe",
+      "summary": "De AI-agent van Figma is uit de bètafase, met snellere reacties en zoeken in bestanden. Pinterest zet opgeslagen haar- en nagelpins om in een stappenplan voor de kapper. Verder meldt de nieuwsbrief lekken over Apple-slimme-woonproducten.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/1uazkm8dl6w348nyiwyjh6qc7vh4cg5q24fchzy5.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-10-08T12:22:55+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws over consumententools; weinig relevantie voor bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "9929b447f0e560d8241d66a5b66cea544c1dad931524615e58b8dcb9f72eefe3",
+      "title": "IFLA 100: terugblik op de blog van de sectie Academic & Research Libraries",
+      "summary": "De IFLA-sectie voor wetenschappelijke bibliotheken start een rubriek 'Looking Back' waarin oude blogposts opnieuw verschijnen. De oude WordPress-site is verdwenen, waardoor oude berichten moeilijk linkbaar waren. Het archief blijft beschikbaar in de IFLA-repository.",
+      "url": "https://www.ifla.org/news/ifla-at-100-looking-back-on-the-arl-blog/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-10-08T14:23:59+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "bibliotheek"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws over IFLA-communicatie, nauwelijks relevant voor AI-werk in de bibliotheek.",
+      "also_covered_by": []
+    },
+    {
+      "id": "e1a29fb8fb9c28dff93393631de8a311e226b3bb8cfb8ee9bdd01220fe039285",
+      "title": "Minerva Humanoids toont Roger, een humanoïde voor bommenruiming",
+      "summary": "Het Amerikaanse startup Minerva Humanoids komt uit stealth met ongeveer 10 miljoen dollar financiering. Roger is een humanoïde robot die via VR op afstand wordt bestuurd, bedoeld voor gevaarlijk werk zoals bomruiming en hazmat-situaties. De nieuwsbrief meldt ook kleinere robotica-nieuwtjes.",
+      "url": "https://kill-the-newsletter.com/feeds/7b87u0i8h3vypjvvprgc/entries/49f2wm2rcnyh5uf84uvt53rcg6x6uqsemhg60gg0.html",
+      "source_name": "The Rundown AI",
+      "source_type": "newsletter",
+      "published": "2026-10-08T14:33:06+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "subsidie-of-financiering"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws over robotica; weinig directe relevantie voor bibliotheekwerk.",
+      "also_covered_by": []
+    },
+    {
+      "id": "72b6bc9a217a25133e88743676a3ec43abacd63000c86ed6081cd12bd1705985",
+      "title": "Jevman: AI-modellen spelen Pac-Man in een open benchmark",
+      "summary": "Het startup Opper liet verschillende snelle beslismodellen elk honderd potjes Pac-Man spelen tegen spookbots. De uitslagen staan op een ranglijst en de code is open source, zodat anderen eigen modellen kunnen laten meedoen. Het is vooral een speelse test van snelheid en beslissingen.",
+      "url": "https://opper.ai/jevman-benchmark/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-10-08T16:34:13Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "open-source"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws; wel een laagdrempelig voorbeeld om AI-modellen te laten zien.",
+      "also_covered_by": []
+    },
+    {
+      "id": "3618833fba59bdc647a6bc0c0712217645f37d4e83fc0925e9bcfee4395f7d74",
+      "title": "Citaat van Carson Gross over programmeren in het AI-tijdperk",
+      "summary": "Carson Gross stelt dat programmeren draait om problemen oplossen met computers en complexiteit beheersen. Dat blijft volgens hem waardevol, ook nu er AI-tools zijn. Hij verwacht dat het een goed beroep blijft.",
+      "url": "https://simonwillison.net/2026/Oct/8/carson-gross/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-10-08T21:05:44+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "arbeidsmarkt"
+      ],
+      "importance": 1,
+      "why_relevant": "Korte kanttekening bij de discussie over AI en de toekomst van IT-beroepen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "aca10e9da17b0be6c508e5079e8211c116d28c37f6a90677b07f36af56c4a0ac",
+      "title": "Roundtable met de maker van door AI ontworpen virussen",
+      "summary": "MIT Technology Review organiseert op 16 oktober een online gesprek met Samuel King van Stanford. Hij gebruikte een generatief model om genetische blauwdrukken voor virussen te ontwerpen. Het gesprek gaat over zijn werk en nieuwe manieren om naar biologie te kijken.",
+      "url": "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+      "source_name": "MIT Technology Review — AI",
+      "source_type": "rss",
+      "published": "2026-10-09T00:08:24+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "evenement",
+        "onderzoek"
+      ],
+      "importance": 1,
+      "why_relevant": "Achtergrond over wat generatieve AI wetenschappelijk kan, weinig direct bruikbaar voor bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "f5034dade94eb8023e8cc08fc74fa3443cf3687919a1ba7c07226e3913770ebc",
+      "title": "ttok 1.0",
+      "summary": "Simon Willison heeft versie 1.0 uitgebracht van ttok, zijn opdrachtregeltool om tokens te tellen. De standaardtokenizer is nu die van GPT-5/GPT-6 in plaats van GPT-4. Of GPT-6 echt dezelfde tokenizer gebruikt, is nog niet door OpenAI bevestigd.",
+      "url": "https://simonwillison.net/2026/Oct/9/ttok/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-10-09T00:34:43+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "open-source"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws voor wie zelf met tokens en kosten van taalmodellen werkt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "707e19f7c1f02dace260c7c08f30021b2a6790a85153cb48498cfeeaf5749b7e",
+      "title": "Bibliotheekblad kiest voor LinkedIn als primaire sociale media-account",
+      "summary": "Bibliotheekblad onderhoudt voortaan alleen nog LinkedIn, waar het 5.613 volgers heeft en de meeste interactie plaatsvindt. Facebook (411 volgers) en Bluesky (323) leveren minder op en zijn voor de redactie te bewerkelijk. X had het blad in 2025 al verlaten.",
+      "url": "https://bibliotheekblad.nl/bibliotheekblad-kiest-voor-linkedin-als-primaire-sociale-media-account/",
+      "source_name": "Bibliotheekblad",
+      "source_type": "rss",
+      "published": "2026-10-09T11:14:58+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek"
+      ],
+      "importance": 1,
+      "why_relevant": "Laat zien waar de bibliotheekbranche online het meeste publiek bereikt.",
+      "also_covered_by": []
+    }
+  ]
+}
