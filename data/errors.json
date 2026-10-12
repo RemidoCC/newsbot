@@ -1,12 +1,5 @@
 [
   {
-    "ts": "2026-09-28T11:21:08+00:00",
-    "source": "Koninklijke Bibliotheek",
-    "stage": "collect",
-    "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.kb.nl/nieuws/rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
-    "url": "https://www.kb.nl/rss.xml"
-  },
-  {
     "ts": "2026-10-01T11:16:54+00:00",
     "source": "enriched_01.json",
     "stage": "validate_parse",
@@ -100,6 +93,44 @@
   },
   {
     "ts": "2026-10-11T11:08:05+00:00",
+    "source": "enriched_02.json",
+    "stage": "validate_parse",
+    "error": "geen JSON-array te vinden in de uitvoer"
+  },
+  {
+    "ts": "2026-10-12T12:38:24+00:00",
+    "source": "SPN (Stichting Samenwerkende POI's Nederland)",
+    "stage": "collect",
+    "error": "ConnectTimeout: timed out",
+    "url": "https://www.stichtingspn.nl/feed/"
+  },
+  {
+    "ts": "2026-10-12T12:38:42+00:00",
+    "source": "Princh Library Blog",
+    "stage": "collect",
+    "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://princh.com/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
+    "url": "https://princh.com/feed/"
+  },
+  {
+    "ts": "2026-10-12T12:38:51+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_parse",
+    "error": "geen JSON-array te vinden in de uitvoer"
+  },
+  {
+    "ts": "2026-10-12T12:38:53+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_parse",
+    "error": "geen JSON-array te vinden in de uitvoer"
+  },
+  {
+    "ts": "2026-10-12T12:38:54+00:00",
+    "source": "enriched_02.json",
+    "stage": "validate_parse",
+    "error": "geen JSON-array te vinden in de uitvoer"
+  },
+  {
+    "ts": "2026-10-12T12:38:56+00:00",
     "source": "enriched_02.json",
     "stage": "validate_parse",
     "error": "geen JSON-array te vinden in de uitvoer"
