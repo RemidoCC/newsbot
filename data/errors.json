@@ -206,5 +206,12 @@
     "source": "enriched_03.json",
     "stage": "validate_parse",
     "error": "geen JSON-array te vinden in de uitvoer"
+  },
+  {
+    "ts": "2026-10-15T09:33:48+00:00",
+    "source": "SPN (Stichting Samenwerkende POI's Nederland)",
+    "stage": "collect",
+    "error": "ConnectTimeout: timed out",
+    "url": "https://www.stichtingspn.nl/feed/"
   }
 ]
