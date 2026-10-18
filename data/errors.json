@@ -194,5 +194,12 @@
     "source": "enriched_02.json",
     "stage": "validate_parse",
     "error": "geen JSON-array te vinden in de uitvoer"
+  },
+  {
+    "ts": "2026-10-18T09:14:58+00:00",
+    "source": "Emerce",
+    "stage": "collect",
+    "error": "ValueError: HTTP 200 maar 0 items (content-type: text/html)",
+    "url": "https://www.emerce.nl/nieuws/rss"
   }
 ]
