@@ -201,5 +201,12 @@
     "stage": "collect",
     "error": "ValueError: HTTP 200 maar 0 items (content-type: text/html)",
     "url": "https://www.emerce.nl/nieuws/rss"
+  },
+  {
+    "ts": "2026-10-19T10:25:04+00:00",
+    "source": "Emerce",
+    "stage": "collect",
+    "error": "ValueError: HTTP 200 maar 0 items (content-type: text/html)",
+    "url": "https://www.emerce.nl/nieuws/rss"
   }
 ]

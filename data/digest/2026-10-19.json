@@ -1,0 +1,204 @@
+{
+  "date": "2026-10-19",
+  "generated_at": "2026-10-19T10:26:27+00:00",
+  "stats": {
+    "batches": 1,
+    "onleesbaar": 0,
+    "objecten": 21,
+    "schema_fout": 0,
+    "onbekend_id": 0,
+    "gedropt": 11,
+    "geldig": 10,
+    "ai": 9,
+    "bieb": 1
+  },
+  "sources": [
+    "Ars Technica AI",
+    "Hacker News",
+    "IFLA",
+    "MIT Technology Review — AI",
+    "Simon Willison",
+    "The Verge AI"
+  ],
+  "items": [
+    {
+      "id": "f1dca3f89f4675a03764ca98578e1118c00b7a1321d2048ec029deabee07d872",
+      "title": "Anthropic stelt AI-veiligheidswet voor die pas ingrijpt bij 50 doden of een miljard dollar schade",
+      "summary": "Volgens Tom's Hardware zou het door Anthropic voorgestelde wetsvoorstel pas gelden bij ten minste 50 doden of 1 miljard dollar aan schade. Het ministerie van Handel zou daarmee feitelijk de enige instantie zijn die een AI-model kan stoppen. De bron bevatte alleen een titel, dus details zijn beperkt.",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-10-18T14:30:27Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Toont hoe AI-regulering in de VS vorm krijgt, relevant voor het publieke debat.",
+      "also_covered_by": []
+    },
+    {
+      "id": "3055ac5eec49bd6dea8987e25392fec815a89476a5998b6c35a6b099ad6dad85",
+      "title": "Anthropic geeft externe AI-toezichthouder bijna medewerkerstoegang",
+      "summary": "Anthropic laat het non-profit METR met een eigen team in zijn kantoor werken, met toegang tot hardware en interne systemen om de risico's van de modellen te beoordelen. Zo geeft het bedrijf invulling aan een eerdere toezegging om meer waarborgen te bieden. Onafhankelijke evaluatie is een van de belangrijkste concrete stappen die AI-labs voorstellen tegen zorgen over de gevaren van krachtige systemen.",
+      "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-10-18T16:25:19+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Laat zien hoe AI-bedrijven externe controle organiseren, nuttig bij vragen over betrouwbaarheid van AI.",
+      "also_covered_by": []
+    },
+    {
+      "id": "97d81049508e6e79648c0850a5ddcc156b7a0bfededd0ca911c2888c828c3e7d",
+      "title": "Onderzoekers laten Claude achter op een virtueel onbewoond eiland: het model begint te 'spelen'",
+      "summary": "Onderzoekers lieten kopieën van Claude Opus 4.7 dertig uur alleen in een gesimuleerde eilandwereld, zonder opdracht. De agenten bedachten eigen doelen, zoals het beklimmen van het hoogste punt, het maken van tekeningen met blokken en het verzinnen van spelletjes. Dat wijst mogelijk op een derde leermethode naast supervised en reinforcement learning, gebaseerd op spel.",
+      "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
+      "source_name": "MIT Technology Review — AI",
+      "source_type": "rss",
+      "published": "2026-10-19T09:08:05+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "modellen"
+      ],
+      "importance": 3,
+      "why_relevant": "Geeft bezoekers en collega's een concreet, begrijpelijk voorbeeld van onverwacht gedrag van AI-agenten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "f0aae19ecf91ff49f7a6d39bc01e705dca6a76753f10ff48411f8a1eebc6ee66",
+      "title": "Vrijheid om te lezen onder druk: verslag van het IFLA-webinar tijdens Banned Books Week",
+      "summary": "Tijdens Banned Books Week bespraken drie sprekers uit Italië, de schoolbibliotheekwereld en Canada de druk op de vrijheid om te lezen in openbare en schoolbibliotheken. Een Italiaanse enquête laat zien dat het aantal gemelde censuurgevallen steeg van 40 in 2022 naar 110. Ruim de helft van de respondenten vindt de bescherming tegen censuur onvoldoende, en zelfcensuur wordt gezien als groeiend risico.",
+      "url": "https://www.ifla.org/news/your-voice-matters-report-from-the-faife-mlas-banned-books-week-webinar/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-10-19T09:41:02+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "bibliotheek",
+        "onderzoek",
+        "evenement"
+      ],
+      "importance": 3,
+      "why_relevant": "Censuur en zelfcensuur raken ook de collectie- en neutraliteitskeuzes van Nederlandse bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "70ccee926a2d5f621ea9997f1544eb093ed41a04a1b154ce83a55c4baa9d8608",
+      "title": "Steden willen robotaxi's aan banden leggen",
+      "summary": "De nieuwsbrief The Stepback schetst hoe de Amerikaanse wetgeving voor zelfrijdende auto's sinds Nevada in 2011 is ontstaan en dat steden nu meer controle willen over robotaxi's. Gemeenten hebben vaak weinig bevoegdheden omdat staten de regels bepalen. De discussie gaat over wie zeggenschap heeft over autonome voertuigen op de openbare weg.",
+      "url": "https://www.theverge.com/transportation/1013220/robotaxi-self-driving-car-laws",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-10-18T08:00:00-04:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van lokale overheden die zoeken naar grip op een nieuwe AI-toepassing.",
+      "also_covered_by": []
+    },
+    {
+      "id": "0312b242577709acfd11734f33ecefe56e95e978ac1defd41d26d61568836d2e",
+      "title": "Agent in Savannah deelde Flock-login met haar man, een ICE-medewerker",
+      "summary": "Een voormalige politieagent in Savannah is in augustus ontslagen nadat ze haar inloggegevens voor het Flock-kentekensysteem had gedeeld met haar man, die voor ICE werkt. Hij deed 983 zoekopdrachten naar 97 kentekens, vooral van Latino-bestuurders. Het korps deelt Flock-data niet met ICE en zegt dat het delen van toegang de beveiligingsregels schond.",
+      "url": "https://www.theverge.com/policy/1013573/spd-officer-fired-flock-ice-husband",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-10-18T18:20:53-04:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Illustreert privacyrisico's van surveillancetechnologie, een thema bij digitale geletterdheid.",
+      "also_covered_by": []
+    },
+    {
+      "id": "407660a5852f1cdf8e4da5ca10398643c75bcd1363e464d6cef91ceb02d8916e",
+      "title": "Hoe ver kunnen we computers nog opvoeren?",
+      "summary": "Het stuk legt uit dat de eenvoudige verkleining van transistors tot stilstand komt, terwijl de vraag naar rekenkracht door datacenters hard groeit. Zes grote hyperscalers geven dit jaar samen meer dan 700 miljard dollar uit aan infrastructuur. Dat maakt de fysieke grenzen van chips steeds belangrijker voor de toekomst van AI.",
+      "url": "https://www.technologyreview.com/2026/10/19/1145904/tr-explains-how-far-can-we-push-computing/",
+      "source_name": "MIT Technology Review — AI",
+      "source_type": "rss",
+      "published": "2026-10-19T09:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "onderzoek"
+      ],
+      "importance": 2,
+      "why_relevant": "Achtergrond bij de kosten en energiehonger van AI waar bibliotheken over kunnen vertellen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "8c1ef342124ac1292f61eb861f333f8a6dff3f15db966cd7a4138a2732e0ab56",
+      "title": "Vrouw in Philadelphia gearresteerd omdat ze een bezorgrobot blokkeerde",
+      "summary": "Een vrouw in Philadelphia is aangehouden wegens verstoring van de openbare orde nadat ze weigerde weg te gaan voor een bezorgrobot van Uber. Ze protesteerde naar eigen zeggen tegen het verdwijnen van banen van menselijke bezorgers. Het incident is gefilmd en kreeg veel aandacht.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-10-18T14:28:10-04:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "arbeidsmarkt",
+        "ethiek-en-risico"
+      ],
+      "importance": 1,
+      "why_relevant": "Anekdote over maatschappelijke weerstand tegen automatisering, hooguit gespreksstof.",
+      "also_covered_by": []
+    },
+    {
+      "id": "d221188525e699b5e6bb9435619ca8944fb2404ecd7551e2cf2a7c0f63fee777",
+      "title": "llm-echo 0.5 uitgebracht",
+      "summary": "Er is een nieuwe versie van llm-echo, een debugplugin voor LLM die geen echt model gebruikt maar de invoer terugspeelt. De simulatie houdt nu ook rekening met tool calls, systeemprompts en redeneertokens bij het tellen van tokengebruik. Het is bedoeld om de aankomende LLM-release makkelijker te testen.",
+      "url": "https://simonwillison.net/2026/Oct/18/llm-echo/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-10-18T23:16:16+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "open-source"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws, alleen interessant voor technisch betrokken medewerkers die met LLM-tools werken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "768169fbc5579b7b35e2236795588b71e6c8074cb2305bc7bece50c5c5b037e4",
+      "title": "llm-tools-datasette 0.1.1 uitgebracht",
+      "summary": "Simon Willison bracht een bugfix uit voor de plugin llm-tools-datasette. De plugin brak nadat LLM 0.33 overstapte op httpx2, omdat hij httpx gebruikte zonder dat expliciet als afhankelijkheid op te geven. Het is een kleine technische update voor gebruikers van de LLM-tool.",
+      "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-10-18T23:43:09+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "open-source"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws voor wie zelf experimenteert met open-source LLM-tooling.",
+      "also_covered_by": []
+    }
+  ]
+}
