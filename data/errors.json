@@ -208,5 +208,26 @@
     "stage": "collect",
     "error": "ValueError: HTTP 200 maar 0 items (content-type: text/html)",
     "url": "https://www.emerce.nl/nieuws/rss"
+  },
+  {
+    "ts": "2026-10-21T09:45:16+00:00",
+    "source": "Emerce",
+    "stage": "collect",
+    "error": "ValueError: HTTP 200 maar 0 items (content-type: text/html)",
+    "url": "https://www.emerce.nl/nieuws/rss"
+  },
+  {
+    "ts": "2026-10-21T09:45:54+00:00",
+    "source": "ECP | Platform voor de InformatieSamenleving",
+    "stage": "collect",
+    "error": "ConnectError: [Errno 101] Network is unreachable",
+    "url": "https://ecp.nl/feed/"
+  },
+  {
+    "ts": "2026-10-21T09:46:15+00:00",
+    "source": "Kennisnet",
+    "stage": "collect",
+    "error": "HTTPStatusError: Server error '503 Service Unavailable' for url 'https://www.kennisnet.nl/actueel/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
+    "url": "https://www.kennisnet.nl/feed/"
   }
 ]

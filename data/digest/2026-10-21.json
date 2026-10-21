@@ -1,0 +1,276 @@
+{
+  "date": "2026-10-21",
+  "generated_at": "2026-10-21T09:48:29+00:00",
+  "stats": {
+    "batches": 2,
+    "onleesbaar": 0,
+    "objecten": 71,
+    "schema_fout": 0,
+    "onbekend_id": 0,
+    "gedropt": 57,
+    "geldig": 14,
+    "ai": 12,
+    "bieb": 2
+  },
+  "sources": [
+    "Ars Technica AI",
+    "Computable",
+    "IFLA",
+    "Infodocket",
+    "OpenAI",
+    "TLDR AI",
+    "The Verge AI",
+    "Tweakers"
+  ],
+  "items": [
+    {
+      "id": "5d7a67d656479c2a57dee98db292b3565e434f06f01546803abb432f8a650584",
+      "title": "Meta Muse lekt privé- en bedrijfsgegevens via gedeelde gesprekken",
+      "summary": "Onderzoekers van Claroc ontdekten dat de AI-agent Muse van Meta gedeelde gesprekslinks maakt die gemakkelijk te achterhalen zijn. Ze vonden zo 6.800 links en troffen in een paar honderd daarvan gevoelige informatie aan. Meta heeft de deelfunctie voorlopig stopgezet en onderzoekt aanpassingen.",
+      "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-10-20T12:33:13+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "tools"
+      ],
+      "importance": 4,
+      "why_relevant": "Laat zien hoe deelfuncties van AI-assistenten privacy van bezoekers en medewerkers kunnen schaden.",
+      "also_covered_by": []
+    },
+    {
+      "id": "39e4fcfe87368a1d7ea6cfa6949ee54d650812e4b8fdbc1fc22b84fb5e768504",
+      "title": "Anthropic combineert extreme groei met enorme kapitaalbehoefte",
+      "summary": "Een conceptversie van het beursprospectus van Anthropic, ingezien door de Wall Street Journal, toont een omzet van 16,3 miljard dollar in de eerste helft van 2026. Daar staat een nettoverlies van 80,7 miljard dollar tegenover, grotendeels door boekhoudkundige aanpassingen. Het bedrijf verwacht de komende jaren meer dan 600 miljard dollar aan AI-infrastructuur uit te geven.",
+      "url": "https://www.computable.nl/2026/10/21/anthropic-paart-extreme-groei-aan-enorme-kapitaalhonger/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-10-21T05:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "subsidie-of-financiering"
+      ],
+      "importance": 4,
+      "why_relevant": "Geeft inzicht in de kosten en afhankelijkheid van een grote AI-leverancier.",
+      "also_covered_by": []
+    },
+    {
+      "id": "a34eaa92c4b8aa8334b5f2f71089dbd050733354dba90b1cfecc27746f77ce95",
+      "title": "Van doorzoekbaar naar niet-doorzoekbaar: generatieve AI en diversiteit bij het zoeken van informatie",
+      "summary": "Onderzoekers analyseerden meer dan 200.000 echte gesprekken met ChatGPT. Bijna 80 procent van de vragen is niet te beantwoorden met een gewone zoekmachine en bestrijkt een breder kennisgebied. Bij vergelijkbare zoekvragen zijn de AI-antwoorden in de meeste onderwerpen wel minder divers dan Google-resultaten.",
+      "url": "https://www.infodocket.com/2026/10/20/from-searchable-to-non-searchable-generative-ai-and-information-diversity-in-online-information-seeking-updated-preprint/",
+      "source_name": "Infodocket",
+      "source_type": "rss",
+      "published": "2026-10-20T11:33:32+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "digitale-geletterdheid"
+      ],
+      "importance": 3,
+      "why_relevant": "Laat zien hoe AI het zoekgedrag van bezoekers verandert, en wat dat betekent voor informatievaardigheden.",
+      "also_covered_by": []
+    },
+    {
+      "id": "b614f4ca6dbd9861caf67705e576abb5ae34292adfeeea2687c37a05a3fd4164",
+      "title": "Meta moet leidinggevenden noemen die torrenten voor AI-training goedkeurden",
+      "summary": "In rechtszaken over auteursrecht en AI-training heeft een rechter Meta bevolen de leidinggevenden te noemen die besloten boeken te downloaden van schaduwbibliotheken als Anna's Archive en LibGen. Meta schoof de verantwoordelijkheid tot nu toe naar medewerkers die torrents downloadden. De order kan nu ook managers en bestuurders blootleggen.",
+      "url": "https://arstechnica.com/tech-policy/2026/10/meta-ordered-to-name-execs-who-approved-torrenting-for-ai-training/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-10-20T17:40:20+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Raakt aan auteursrecht, piraterij en boeken als AI-trainingsdata, een kernthema voor bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "6a7ad8e441e64987a0ce116c06cc2ddb623a91066ac85cc92a648c210b97d5e4",
+      "title": "Meta schrapt het woord 'trainen' uit commerciële voorwaarden na kritiek op AI",
+      "summary": "Meta heeft het woord 'trainen' verwijderd uit de nieuwe commerciële gebruiksvoorwaarden die op 30 oktober ingaan. Juristen waarschuwden dat de voorwaarden Meta ruim toestemming leken te geven om websites te scrapen die op bedrijfspagina's staan, mogelijk voor AI-training. Meta heeft gebruikers niet laten weten dat de tekst is aangepast, wat de onduidelijkheid vergroot.",
+      "url": "https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-10-20T20:07:58+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "bedrijven",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Raakt aan de vraag wie content mag gebruiken voor AI-training, ook voor bibliotheekpagina's.",
+      "also_covered_by": []
+    },
+    {
+      "id": "4e1f17eeeb632e57195017ac9e4de96fb6cdc343e54ab7fb8434107656fa9a96",
+      "title": "Accenture beperkt AI-budget: nog 29 dollar per medewerker voor Claude",
+      "summary": "Accenture betaalt sinds 1 oktober nog maar 29 dollar per medewerker per maand voor Claude, terwijl sommigen tot duizend dollar verbruikten. Wie meer nodig heeft, moet een team of project vinden dat bijdraagt. Ook andere bedrijven bewaken hun tokenverbruik steeds strenger, meldt 404 Media.",
+      "url": "https://www.computable.nl/2026/10/21/accenture-knipt-in-ai-budget-nog-29-dollar-per-medewerker-voor-claude/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-10-21T08:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "arbeidsmarkt"
+      ],
+      "importance": 3,
+      "why_relevant": "AI-kosten per gebruiker lopen snel op; relevant voor bibliotheken die AI-tools overwegen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "1cfb6291fa158d05a5bad0e638547e0ff07dabd8e5700299a43b136146616242",
+      "title": "OpenAI neemt Orchestra Bio over",
+      "summary": "OpenAI neemt Orchestra Bio over om AI in te zetten bij de bedrijfsvoering van onderzoek en ontwikkeling in de life sciences. Het doel is om farmaceutische teams te helpen sneller medicijnen te ontwikkelen. Het laat zien dat OpenAI zich ook richt op de gezondheidszorg en wetenschap.",
+      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-10-20T00:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont waar grote AI-bedrijven naartoe groeien, ver buiten chatbots voor algemeen gebruik.",
+      "also_covered_by": []
+    },
+    {
+      "id": "dde4e77286af4d205826ad11c880efed1125d1528cde93bd9e0a0f366761d0a9",
+      "title": "Mercury 3, MiniMax M3.1 Flash en Exa 3: nieuwe AI-modellen in de nieuwsbrief",
+      "summary": "Inception Labs presenteert Mercury 3, een op diffusie gebaseerd taalmodel dat volgens de makers op meerdere benchmarks beter scoort dan GPT-6 Luna en Claude Haiku 5.5, met meer dan 1.000 tokens per seconde. MiniMax lanceert M3.1 Flash, dat sneller en goedkoper zou zijn voor agenttaken en programmeren. De gewichten volgen later.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/10slf3fv3v87dib9vuwqluc3bwyzmk8f48m6pipd.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-10-20T13:40:42+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Overzicht van snelle, goedkopere modellen die de AI-tools in jouw omgeving kunnen veranderen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "143dd8a098d1545bd053b134272d2c2270cf3f0ccb92cd4dc089d1a728d2d967",
+      "title": "Gamestudio Digital Sun stopt met publieke speeltests uit angst voor AI-clones",
+      "summary": "Indiestudio Digital Sun Games houdt geen publieke speeltests meer voor de towerdefencegame ReVamp. De studio vreest dat games met programmeertools als Claude Opus makkelijk worden nagemaakt. Eerder maakte een andere onafhankelijke ontwikkelaar dezelfde keuze.",
+      "url": "https://tweakers.net/nieuws/253542/gamestudio-digital-sun-stopt-met-publieke-speeltests-uit-angst-voor-ai-clones.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-10-20T14:05:03+02:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont hoe AI-codeertools makers beïnvloeden; handig voor gamingactiviteiten of makerspaces.",
+      "also_covered_by": []
+    },
+    {
+      "id": "428711527d7c9f0602bdabbede80c77d65e7af3cf9a2328586ee5ed63cf9100c",
+      "title": "SpaceX meldt omzetsprong door groei in AI-activiteiten",
+      "summary": "SpaceX rapporteert een derdekwartaalomzet van 14,6 miljard dollar, 161 procent meer dan een jaar eerder. De AI-tak, met onder meer Grok en de overname van Cursor, haalde 7,6 miljard dollar omzet. Daarmee is AI een kernonderdeel van het bedrijf geworden.",
+      "url": "https://www.theverge.com/science/1014150/spacex-q3-2026-earnings",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-10-20T16:26:58-04:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat zien hoe sterk AI-aanbieders consolideren en groeien.",
+      "also_covered_by": []
+    },
+    {
+      "id": "21a41f91410943cbb88a8bd3aef112718af68ca87df737f4e9d9a7e362c4c341",
+      "title": "Persoonlijkere Gemini-assistent komt naar de auto",
+      "summary": "Google brengt Personal Intelligence naar Gemini in Android Auto en auto's met Google ingebouwd. De assistent kan dan putten uit Gmail, Agenda, Maps, Foto's, YouTube en Zoeken, bijvoorbeeld om de status van je vlucht op te zoeken. Dat maakt AI-assistenten persoonlijker, maar vergroot ook de hoeveelheid data die ze benutten.",
+      "url": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-10-20T18:11:34-04:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van AI die persoonlijke data koppelt; nuttig bij vragen van bezoekers over privacy.",
+      "also_covered_by": []
+    },
+    {
+      "id": "dea62ae9e4b0aaf32327f5a61fa001683e2788c073fa5af90fcc86abbbb9eb1b",
+      "title": "Gemini Personal Intelligence komt naar de auto",
+      "summary": "Google brengt Personal Intelligence, waarmee Gemini data uit apps als Gmail en Agenda gebruikt voor antwoorden, naar Android Auto. Voertuigen met Google built-in volgen de komende maanden. De functie is optioneel.",
+      "url": "https://arstechnica.com/google/2026/10/geminis-personal-intelligence-is-coming-to-cars/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-10-20T20:00:33+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van AI die persoonlijke data gebruikt, relevant voor privacygesprekken met bezoekers.",
+      "also_covered_by": []
+    },
+    {
+      "id": "727608ca0d4b4b1255587d8e5ddc1a52a89cd3412523ff4e17e540f2b34c2140",
+      "title": "Help de toekomst van bibliotheken vormgeven: IFLA-verkiezingen 2027",
+      "summary": "IFLA houdt in 2027, het jaar van haar honderdjarig bestaan, verkiezingen voor meer dan 50 commissies en groepen en voor een nieuw Governing Board. Wie mee wil doen, kan van 28 oktober tot 9 december 2026 een interessebetuiging indienen. Dat kan alleen in die periode. Daarna volgen nominaties (6 januari tot 17 februari 2027) en stemmen (3 tot 31 maart 2027).",
+      "url": "https://www.ifla.org/news/help-shape-the-future-of-libraries-ifla-elections-2027/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-10-21T09:36:41+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "bibliotheek",
+        "evenement"
+      ],
+      "importance": 2,
+      "why_relevant": "Kans voor bibliotheekmedewerkers om invloed te krijgen op internationale bibliotheekstandaarden en -beleid.",
+      "also_covered_by": []
+    },
+    {
+      "id": "a9d3c7aef0141058ed0a70a27d4569f4b5cbfc2534c64775aa49711e3ee50321",
+      "title": "Gearresteerde OpenAI-medewerker had contact met Saoedisch koningshuis",
+      "summary": "De OpenAI-medewerker die in de VS is aangehouden op verdenking van het plaatsen van afluisterapparatuur, had uitgebreid contact met een lid van het Saoedische koningshuis. Voor zover bekend werd hem in die gesprekken niet gevraagd het apparaat te plaatsen.",
+      "url": "https://tweakers.net/nieuws/253534/gearresteerde-openai-medewerker-onderhield-contact-met-saoedisch-koningshuis.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-10-20T12:33:30+02:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws over OpenAI; weinig directe gevolgen voor bibliotheekwerk.",
+      "also_covered_by": []
+    }
+  ]
+}
