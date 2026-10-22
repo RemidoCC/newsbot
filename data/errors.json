@@ -229,5 +229,52 @@
     "stage": "collect",
     "error": "HTTPStatusError: Server error '503 Service Unavailable' for url 'https://www.kennisnet.nl/actueel/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
     "url": "https://www.kennisnet.nl/feed/"
+  },
+  {
+    "ts": "2026-10-22T09:44:52+00:00",
+    "source": "Emerce",
+    "stage": "collect",
+    "error": "ValueError: HTTP 200 maar 0 items (content-type: text/html)",
+    "url": "https://www.emerce.nl/nieuws/rss"
+  },
+  {
+    "ts": "2026-10-22T09:45:14+00:00",
+    "source": "Autoriteit Persoonsgegevens",
+    "stage": "collect",
+    "error": "ConnectError: [Errno 101] Network is unreachable",
+    "url": "https://www.autoriteitpersoonsgegevens.nl/rss"
+  },
+  {
+    "ts": "2026-10-22T09:45:39+00:00",
+    "source": "Koninklijke Bibliotheek",
+    "stage": "collect",
+    "error": "HTTPStatusError: Server error '503 Service Unavailable' for url 'https://www.kb.nl/nieuws/rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
+    "url": "https://www.kb.nl/rss.xml"
+  },
+  {
+    "ts": "2026-10-22T09:45:40+00:00",
+    "source": "Netwerk Mediawijsheid",
+    "stage": "collect",
+    "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://netwerkmediawijsheid.nl/rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
+    "url": "https://netwerkmediawijsheid.nl/feed/"
+  },
+  {
+    "ts": "2026-10-22T09:46:02+00:00",
+    "source": "Bibliotheeknetwerk (KB)",
+    "stage": "collect",
+    "error": "HTTPStatusError: Server error '503 Service Unavailable' for url 'https://www.bibliotheeknetwerk.nl/nieuws/rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
+    "url": "https://www.bibliotheeknetwerk.nl/rss.xml"
+  },
+  {
+    "ts": "2026-10-22T09:49:08+00:00",
+    "source": "enriched_02.json",
+    "stage": "validate_schema",
+    "error": "de8e538677e5: 'Nieuwsoverzicht.' is too short"
+  },
+  {
+    "ts": "2026-10-22T09:49:09+00:00",
+    "source": "enriched_02.json",
+    "stage": "validate_schema",
+    "error": "de8e538677e5: 'Nieuwsoverzicht.' is too short"
   }
 ]
