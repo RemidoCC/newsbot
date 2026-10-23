@@ -276,5 +276,12 @@
     "source": "enriched_02.json",
     "stage": "validate_schema",
     "error": "de8e538677e5: 'Nieuwsoverzicht.' is too short"
+  },
+  {
+    "ts": "2026-10-23T09:40:57+00:00",
+    "source": "Emerce",
+    "stage": "collect",
+    "error": "ValueError: HTTP 200 maar 0 items (content-type: text/html)",
+    "url": "https://www.emerce.nl/nieuws/rss"
   }
 ]

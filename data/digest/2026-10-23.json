@@ -1,0 +1,423 @@
+{
+  "date": "2026-10-23",
+  "generated_at": "2026-10-23T09:43:52+00:00",
+  "stats": {
+    "batches": 2,
+    "onleesbaar": 0,
+    "objecten": 78,
+    "schema_fout": 0,
+    "onbekend_id": 0,
+    "gedropt": 57,
+    "geldig": 21,
+    "ai": 17,
+    "bieb": 4
+  },
+  "sources": [
+    "Bibliotheekblad",
+    "Computable",
+    "Google DeepMind",
+    "Hacker News",
+    "Infodocket",
+    "Koninklijke Bibliotheek",
+    "Nederlandse AI Coalitie",
+    "Netwerk Mediawijsheid",
+    "OpenAI",
+    "Simon Willison",
+    "TLDR AI",
+    "The Rundown AI",
+    "The Verge AI",
+    "Tweakers"
+  ],
+  "items": [
+    {
+      "id": "b019a54d70fe5b3312b083e1e26f59d6d090113147656a1bc56c89db2d0c8de9",
+      "title": "Cybercriminelen bestoken PHP-servers na publicatie noodpatch",
+      "summary": "Na het bekendworden van de PHP2Shell-kwetsbaarheden, die met AI-hulp zijn gevonden, doen aanvallers op grote schaal pogingen om PHP-servers te compromitteren. Cloudflare zag het aantal pogingen oplopen tot miljoenen, en niet alle gaten lijken door de noodpatch gedicht. Veel Nederlandse sites gingen tijdelijk offline.",
+      "url": "https://www.computable.nl/2026/10/22/cybercriminelen-bestoken-php-servers-na-publicatie-noodpatch/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-10-22T11:47:41+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "ethiek-en-risico",
+        "onderzoek"
+      ],
+      "importance": 4,
+      "why_relevant": "Bibliotheeksites draaien vaak op PHP; AI maakt het vinden van lekken sneller.",
+      "also_covered_by": [
+        "https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/",
+        "https://nos.nl/l/2636214",
+        "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/ifktmw5wmfovjzvgotcx8rdgyk0glmbv10jpf4o6.html"
+      ]
+    },
+    {
+      "id": "9294c5196e6fa0cd312e489f231c1874d766678dfc8714b17fcc8ee0489379ab",
+      "title": "Anthropic komt met Claude Duet-agent als antwoord op OpenAI Dots en Meta's Muse",
+      "summary": "Anthropic lanceert Claude Duet, een AI-agent die zelfstandig taken uitvoert, apps in de gaten houdt en bij bepaalde acties om toestemming vraagt. Hij is gericht op werk en voorlopig alleen als preview beschikbaar voor betalende gebruikers in de VS. Daarmee concurreert Anthropic met Meta's Muse en OpenAI's Dots.",
+      "url": "https://tweakers.net/nieuws/253638/anthropic-komt-met-claude-duet-agent-als-antwoord-op-openai-dots-en-metas-muse.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-10-22T13:44:20+02:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 4,
+      "why_relevant": "Proactieve AI-agenten veranderen wat bezoekers van digitale hulp verwachten en vragen.",
+      "also_covered_by": [
+        "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/9nlacy135udomuu1ne7x6yvberxk8p2bp75g36kc.html",
+        "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/jdilis6653kjyi4jszc107t5hw3arnkjll3rswoa.html",
+        "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/dn25pq4hr836htp9yf4bdfn9e4ab02x7ueji0cq0.html"
+      ]
+    },
+    {
+      "id": "4a814f17597d7fa1b95e0e6ec94e77fb91a34ca19649ecccbd4c9f01acd38c6e",
+      "title": "Tow-Knight-rapport over publieke informatie in het tijdperk van AI",
+      "summary": "Het Tow-Knight Center (CUNY) onderzoekt hoe het publiek betrouwbare informatie blijft vinden nu AI-systemen tussen nieuwsbronnen en lezers komen te staan. Het rapport onderscheidt drie lagen: producten, systemen die antwoorden samenvatten en organisaties die de berichtgeving maken. Het pleit onder meer voor gedeelde standaarden zodat bronvermelding bij feiten blijft en voor meer inzicht in hoe AI informatie selecteert. Ook bibliotheken en archieven worden genoemd als partners.",
+      "url": "https://www.infodocket.com/2026/10/22/new-report-from-tow-knight-center-the-three-layer-cake-public-interest-information-in-an-al-intermediated-age-libraries-archives-scholarly-publishers-and-other-groups-mentioned/",
+      "source_name": "Infodocket",
+      "source_type": "rss",
+      "published": "2026-10-22T15:59:47+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "bibliotheek",
+        "digitale-geletterdheid"
+      ],
+      "importance": 3,
+      "why_relevant": "Noemt bibliotheken als partner bij betrouwbare informatievoorziening in een door AI bemiddelde wereld.",
+      "also_covered_by": []
+    },
+    {
+      "id": "c2d830bedfdc45bf8c003dc5fd5be1d5340d7f0cbe2a2d88156b04aa9b5fd7ee",
+      "title": "Meta zet delen in Muse weer aan na privacyprobleem",
+      "summary": "Meta heeft het delen van gesprekken in Muse hersteld nadat onderzoekers meldden dat openbare links makkelijk te vinden waren. Zo doken interne bedrijfsdocumenten en een leningaanvraag op. De adressen bevatten de gesprekstitel en stonden in openbare DNS.",
+      "url": "https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-10-22T16:24:04-04:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "tools"
+      ],
+      "importance": 3,
+      "why_relevant": "Laat zien dat gedeelde AI-gesprekken privacygevoelige gegevens kunnen lekken, relevant voor adviezen aan bezoekers.",
+      "also_covered_by": []
+    },
+    {
+      "id": "758ad3e03cd356c14c04da38f517d8edf212a1d9e0dc53b5ba80d11cd2159390",
+      "title": "Meta kan met nieuwe voorwaarden mogelijk nog steeds nieuwssites scrapen",
+      "summary": "Meta paste zijn zakelijke voorwaarden aan om ruimte voor AI-training op nieuwssites te schrappen. Juristen vinden dat onvoldoende, omdat de formulering over 'producten of diensten' nog steeds het scrapen van hele sites zou toelaten. De voorwaarden gaan op 30 oktober in.",
+      "url": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-10-22T16:32:05-04:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Raakt auteursrecht en het gebruik van publieke content voor AI-training.",
+      "also_covered_by": []
+    },
+    {
+      "id": "ee487a66d7e4ee85c2e1d6bef776b8647a95480a050cb50645860fe72a123c7f",
+      "title": "Anthropic schenkt Agent Skills aan de Agentic AI Foundation",
+      "summary": "Anthropic draagt de open standaard Agent Skills over aan de Agentic AI Foundation, onderdeel van de Linux Foundation. Eerder werd ook het Model Context Protocol daar ondergebracht. Zo blijft de standaard leverancieronafhankelijk en wordt hij door een gemeenschap beheerd.",
+      "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-10-22T18:09:56+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "open-source",
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Open standaarden voor AI-agents bepalen straks welke tools bibliotheken zonder vendor lock-in kunnen inzetten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "6c42e9843794a9685ef8fd7204c1fec8fbe0fa2a4bedf0d00e36716cdd4a7b42",
+      "title": "1Password laat AI-agents inloggen zonder wachtwoorden te zien",
+      "summary": "Wachtwoordmanager 1Password introduceert een functie waarmee AI-agents kunnen inloggen op gekoppelde accounts, zonder zelf de inloggegevens in te zien. Gebruikers moeten bij elke inlogpoging eerst toestemming geven. Zo wordt het veiliger om agents namens een gebruiker te laten werken.",
+      "url": "https://tweakers.net/nieuws/253672/1password-laat-ai-agents-inloggen-zonder-wachtwoorden-prijs-te-geven.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-10-23T10:07:07+02:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "tools",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Raakt aan veilig gebruik van AI-agents, een thema voor digitale weerbaarheid van bezoekers.",
+      "also_covered_by": []
+    },
+    {
+      "id": "eda525050cea8fce4b13823379a8b9659ff224375e0356616ea34596cdb17cc5",
+      "title": "Uber geeft al zijn medewerkers toegang tot ChatGPT Work",
+      "summary": "Uber rolt ChatGPT Work uit naar ruim 30.000 medewerkers, die het gebruiken voor onderzoek, data-analyse, presentaties en complexe workflows. Het is een voorbeeld van grootschalige inzet van AI-assistenten binnen één organisatie.",
+      "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-10-22T00:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "tools",
+        "arbeidsmarkt"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat zien hoe AI op de werkvloer breed wordt ingevoerd, ook relevant voor bibliotheekteams.",
+      "also_covered_by": []
+    },
+    {
+      "id": "0c6818e1e88ae1b3530cca06bb174f98fe76f981d98c7aee124f7ee02b2a8a8a",
+      "title": "Websites van de KB weer online na PHP-kwetsbaarheden",
+      "summary": "De Koninklijke Bibliotheek haalde op 21 oktober uit voorzorg meerdere websites offline vanwege ernstige kwetsbaarheden in PHP. Het probleem is inmiddels opgelost en de sites zijn weer bereikbaar. Het laat zien hoe kwetsbaar bibliotheekwebsites zijn voor beveiligingslekken in onderliggende software.",
+      "url": "https://www.kb.nl/nieuws/kb-websites-weer-online-na-php-lekken",
+      "source_name": "Koninklijke Bibliotheek",
+      "source_type": "rss",
+      "published": "2026-10-22T12:44:38+02:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Herinnering om de beveiliging en updates van de eigen bibliotheeksites te controleren.",
+      "also_covered_by": []
+    },
+    {
+      "id": "91f26374696d86e1b7e5159a76304ffb00478efaac56ff522bbc4799bd05f37b",
+      "title": "OpenAI neemt Orchestra Bio over voor geneesmiddelenonderzoek",
+      "summary": "OpenAI heeft Orchestra Bio overgenomen, een platform dat biofarmateams helpt de ontwikkeling van medicijnen te coördineren. Het wordt gecombineerd met OpenAI's life-sciencesinitiatief Rosalind. Het doel is AI-agenten die onderzoek koppelen aan klinische studies en regelgeving.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/ujf7ir9vgcweo4prtizwytpx363si39f0y0xe1h4.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-10-22T12:53:07+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "onderzoek"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont dat AI-bedrijven doorstoten naar wetenschap en gespecialiseerde sectoren.",
+      "also_covered_by": []
+    },
+    {
+      "id": "49605b9e292be237e89e326ffc84027cd5d6cfd68d6e06244d90f0e806ad7a5d",
+      "title": "Oktobereditie van Bibliotheekblad is uitgekomen",
+      "summary": "Het oktobernummer van Bibliotheekblad is verschenen. Het bevat onder meer een bericht dat de provinciale ondersteuningsinstellingen Cubiss en BiSC per 1 januari 2027 verdergaan als Delijn. Verder staan er artikelen over de rol van bibliotheken in een gepolariseerde samenleving en over het gebruik van data voor beleid en impact.",
+      "url": "https://bibliotheekblad.nl/de-oktobereditie-van-bibliotheekblad-is-uitgekomen/",
+      "source_name": "Bibliotheekblad",
+      "source_type": "rss",
+      "published": "2026-10-22T14:11:06+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek"
+      ],
+      "importance": 2,
+      "why_relevant": "Overzicht van actuele ontwikkelingen in het Nederlandse bibliotheekveld, waaronder de fusie van Cubiss en BiSC.",
+      "also_covered_by": [
+        "https://bibliotheekblad.nl/bibliotheekblad-2026-08-digitaal-2/"
+      ]
+    },
+    {
+      "id": "8f93170faf71fda6558b8b2fe173c510270a35c328858f29fd60d0b5eecac8cd",
+      "title": "Google DeepMind brengt wereldwijde bostypen in kaart",
+      "summary": "Google DeepMind heeft een wereldkaart gemaakt die elk stuk land van 10 bij 10 meter indeelt naar type bos. Dat gaat verder dan alleen meten hoeveel boomdek er is. Het is een voorbeeld van AI-toepassing in milieuonderzoek.",
+      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+      "source_name": "Google DeepMind",
+      "source_type": "rss",
+      "published": "2026-10-22T14:30:24+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "modellen"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont een maatschappelijk nuttige AI-toepassing die u in gesprekken met bezoekers kunt gebruiken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "9ab97bd0778faa0c8bfc305e6da6bbc4a31d5049972da38021ce910c271a68aa",
+      "title": "LLM-BRIDGE zoekt incubator voor Europees Venture Incubation Programme 2027",
+      "summary": "Het Europese LLM-BRIDGE-consortium zoekt een incubator voor een programma van twaalf weken voor startups met taalmodellen en generatieve AI. Het programma start in juni 2027 en aanmelden kan tot 23 maart 2027. De nadruk ligt op meertalige, verantwoorde AI die past bij Europese diversiteit.",
+      "url": "https://aic4nl.nl/nieuws/llm-bridge-zoekt-incubator-voor-europees-venture-incubation-programme-2027/",
+      "source_name": "Nederlandse AI Coalitie",
+      "source_type": "rss",
+      "published": "2026-10-22T14:55:57+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "subsidie-of-financiering",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Europese financiering voor meertalige AI kan op termijn bruikbare taaltools opleveren.",
+      "also_covered_by": []
+    },
+    {
+      "id": "0d4362161a9935c3bf21ac05d1ff6da99b1a088029476b38e8ffa3fac47f2c59",
+      "title": "Canva lanceert eigen AI-beeldmodel dat ontwerpen eerst plant",
+      "summary": "Canva presenteert Canva Craft, een beeldmodel dat in twee stappen werkt: eerst een ontwerp plannen, dan genereren. Het maakt beelden tot 2K in meer dan 30 beeldverhoudingen. Daarmee concurreert Canva rechtstreeks met modellen van OpenAI, Microsoft en Google.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-10-22T17:51:25-04:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Veel bibliotheken maken promotiemateriaal met Canva, dus deze AI komt daar binnen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "0dde3687180c79ea53194051149bc926ae9fdb487daa31997fdc6100fd105273",
+      "title": "Arc Browser stopt per 22 december volledig",
+      "summary": "The Browser Company stopt eind dit jaar met de Arc-browser en richt zich volledig op Dia, een browser die sterk op AI leunt. Vanaf 22 december werkt Arc niet meer. Het laat zien dat AI-functies steeds vaker de kern van alledaagse software worden.",
+      "url": "https://tweakers.net/nieuws/253660/arc-browser-stopt-per-22-december-volledig.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-10-22T19:33:30+02:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Browsers met ingebouwde AI komen straks ook op bibliotheekpc's en bij bezoekers.",
+      "also_covered_by": []
+    },
+    {
+      "id": "07f2362ff14d5c35b21d3ea767860a317c1bef1956a3d715f1001189f9b6529e",
+      "title": "Etsy scherpt regels aan tegen AI-troep in advertenties",
+      "summary": "Etsy voert strengere regels in voor AI in advertenties. Elke advertentie moet minstens één onbewerkte foto van het echte product tegen een echte achtergrond bevatten. Kopers kunnen vaak niet zien welke producten met AI zijn gemaakt, en verkopers vrezen misleiding.",
+      "url": "https://www.theverge.com/tech/1017261/etsy-ai-rules-policies-restrictions-listing",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-10-22T20:09:58-04:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van platformbeleid tegen misleidende AI-content, nuttig bij mediawijsheidsvoorlichting.",
+      "also_covered_by": []
+    },
+    {
+      "id": "f4625da7f1636f5ffb36f2cf41bb1071e302abc13ae72ce8f1d6aa964cb6be89",
+      "title": "Peiling: meeste Amerikanen vinden AI slecht voor de samenleving",
+      "summary": "Uit een peiling van ABC News en Ipsos blijkt dat de meeste Amerikanen AI als slecht voor de samenleving zien. Ze zijn ook tegen de bouw van meer datacenters. De bron geeft in deze weergave geen verdere details.",
+      "url": "https://abcnews.com/Politics/americans-ai-bad-society-oppose-data-centers-abcpostipsos/story?id=137414085",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-10-22T20:51:23Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont publieke scepsis over AI, relevant voor hoe bibliotheken het gesprek met burgers voeren.",
+      "also_covered_by": []
+    },
+    {
+      "id": "1a543055a02f9816518cc03996b6a0ed89e5e65a847f479103d96112c902ed21",
+      "title": "OpenAI en Poolse NASK werken samen aan AI-veiligheid",
+      "summary": "OpenAI en het Poolse onderzoeksinstituut NASK gaan samenwerken aan AI-veiligheid, beveiliging en technisch onderzoek. Het doel is sterkere waarborgen en een weerbaarder digitaal ecosysteem. Het is een voorbeeld van hoe AI-bedrijven afspraken maken met Europese overheidsinstellingen.",
+      "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-10-23T00:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "bedrijven",
+        "onderzoek"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat zien hoe AI-bedrijven met Europese overheidsinstituten optrekken rond veiligheid.",
+      "also_covered_by": []
+    },
+    {
+      "id": "cc038cabe4240a0d3c3905bac221920f58b71336893c8cb7187e1efe1d319e13",
+      "title": "Winnaars van de Special Media Awards 2026 bekend",
+      "summary": "Op 20 oktober werden in Hilversum de tien winnaars van de Special Media Awards 2026 bekendgemaakt. Dertig genomineerden streden mee, gekozen uit 181 inzendingen. De prijzen zijn een initiatief van Netwerk Mediawijsheid.",
+      "url": "https://netwerkmediawijsheid.nl/winnaars-special-media-awards-2026/",
+      "source_name": "Netwerk Mediawijsheid",
+      "source_type": "rss",
+      "published": "2026-10-23T08:47:31+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "digitale-geletterdheid",
+        "evenement"
+      ],
+      "importance": 2,
+      "why_relevant": "Goede voorbeelden van mediawijsheidsprojecten waar bibliotheken inspiratie of samenwerking uit kunnen halen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "ef84913f372829289b20f32e8e7e6e1726fdd9806ad011ebc76ae12e3727bfb9",
+      "title": "Robotbutler met Pixar-ambities nu te reserveren",
+      "summary": "Het Amerikaanse Tuesday Labs neemt aanbetalingen van 200 dollar aan voor Voxel, een tweebenige thuisrobot die moet opruimen en planten water geven. Levering staat gepland voor 2028. Een Pixar-veteraan adviseert over de persoonlijkheid van de robot.",
+      "url": "https://kill-the-newsletter.com/feeds/7b87u0i8h3vypjvvprgc/entries/hema4s5jwn7fe6c43e7f4btgf3j1hor8xf6n9xo2.html",
+      "source_name": "The Rundown AI",
+      "source_type": "newsletter",
+      "published": "2026-10-22T14:31:48+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 1,
+      "why_relevant": "Thuisrobots zijn nog ver weg maar voeden het publieke beeld van AI.",
+      "also_covered_by": []
+    },
+    {
+      "id": "76143837ba6bebd3647ef56deef0eff4f29e7e31b8a9f3ebbaead101206f395d",
+      "title": "Besi overtreft verwachtingen met sterke ordergroei dankzij AI-boom",
+      "summary": "Chipmachinemaker Besi uit Duiven haalde 342,6 miljoen euro aan nieuwe orders, ruim boven de verwachte 298 miljoen. De groei komt vooral door hybrid bonding en datacenters voor AI. Toch daalde het aandeel, omdat beleggers twijfelen aan de groei op lange termijn.",
+      "url": "https://www.computable.nl/2026/10/23/besi-overtreft-verwachtingen-met-sterke-ordergroei-dankzij-ai-boom/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-10-23T05:00:00+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 1,
+      "why_relevant": "Laat zien hoe de AI-investeringsgolf ook Nederlandse bedrijven raakt.",
+      "also_covered_by": []
+    }
+  ]
+}
