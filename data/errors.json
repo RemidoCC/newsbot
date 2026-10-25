@@ -1,29 +1,5 @@
 [
   {
-    "ts": "2026-10-10T10:53:38+00:00",
-    "source": "enriched_01.json",
-    "stage": "validate_parse",
-    "error": "geen JSON-array te vinden in de uitvoer"
-  },
-  {
-    "ts": "2026-10-10T10:53:40+00:00",
-    "source": "enriched_01.json",
-    "stage": "validate_parse",
-    "error": "geen JSON-array te vinden in de uitvoer"
-  },
-  {
-    "ts": "2026-10-10T10:53:41+00:00",
-    "source": "enriched_02.json",
-    "stage": "validate_parse",
-    "error": "geen JSON-array te vinden in de uitvoer"
-  },
-  {
-    "ts": "2026-10-10T10:53:42+00:00",
-    "source": "enriched_02.json",
-    "stage": "validate_parse",
-    "error": "geen JSON-array te vinden in de uitvoer"
-  },
-  {
     "ts": "2026-10-11T11:08:02+00:00",
     "source": "enriched_01.json",
     "stage": "validate_parse",
@@ -297,5 +273,187 @@
     "stage": "collect",
     "error": "ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)",
     "url": "https://www.rijnbrink.nl/actueel/nieuws/feed/"
+  },
+  {
+    "ts": "2026-10-25T09:30:26+00:00",
+    "source": "Emerce",
+    "stage": "collect",
+    "error": "ValueError: HTTP 200 maar 0 items (content-type: text/html)",
+    "url": "https://www.emerce.nl/nieuws/rss"
+  },
+  {
+    "ts": "2026-10-25T09:31:01+00:00",
+    "source": "Rijnbrink",
+    "stage": "collect",
+    "error": "ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)",
+    "url": "https://www.rijnbrink.nl/actueel/nieuws/feed/"
+  },
+  {
+    "ts": "2026-10-25T09:32:22+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "a2637483f507: '' is too short"
+  },
+  {
+    "ts": "2026-10-25T09:32:22+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "54a84576b739: '' is too short"
+  },
+  {
+    "ts": "2026-10-25T09:32:22+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "b4ee17c29807: '' is too short"
+  },
+  {
+    "ts": "2026-10-25T09:32:22+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "36cbbb98c8e9: '' is too short"
+  },
+  {
+    "ts": "2026-10-25T09:32:22+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "dfe8fea9d3b0: '' is too short"
+  },
+  {
+    "ts": "2026-10-25T09:32:22+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "096e3209db92: '' is too short"
+  },
+  {
+    "ts": "2026-10-25T09:32:22+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "f42ef99f97a4: '' is too short"
+  },
+  {
+    "ts": "2026-10-25T09:32:22+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "8b1ac102f63e: '' is too short"
+  },
+  {
+    "ts": "2026-10-25T09:32:22+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "6ba733046dee: '' is too short"
+  },
+  {
+    "ts": "2026-10-25T09:32:22+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "233c722b7e38: '' is too short"
+  },
+  {
+    "ts": "2026-10-25T09:32:22+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "75902f70af58: '' is too short"
+  },
+  {
+    "ts": "2026-10-25T09:32:22+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "d50448e090b6: '' is too short"
+  },
+  {
+    "ts": "2026-10-25T09:32:22+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "55662efa4e1e: '' is too short"
+  },
+  {
+    "ts": "2026-10-25T09:32:22+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "c21af14f127f: '' is too short"
+  },
+  {
+    "ts": "2026-10-25T09:32:22+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "a2637483f507: '' is too short"
+  },
+  {
+    "ts": "2026-10-25T09:32:22+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "54a84576b739: '' is too short"
+  },
+  {
+    "ts": "2026-10-25T09:32:22+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "b4ee17c29807: '' is too short"
+  },
+  {
+    "ts": "2026-10-25T09:32:22+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "36cbbb98c8e9: '' is too short"
+  },
+  {
+    "ts": "2026-10-25T09:32:22+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "dfe8fea9d3b0: '' is too short"
+  },
+  {
+    "ts": "2026-10-25T09:32:22+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "096e3209db92: '' is too short"
+  },
+  {
+    "ts": "2026-10-25T09:32:22+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "f42ef99f97a4: '' is too short"
+  },
+  {
+    "ts": "2026-10-25T09:32:22+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "8b1ac102f63e: '' is too short"
+  },
+  {
+    "ts": "2026-10-25T09:32:22+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "6ba733046dee: '' is too short"
+  },
+  {
+    "ts": "2026-10-25T09:32:22+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "233c722b7e38: '' is too short"
+  },
+  {
+    "ts": "2026-10-25T09:32:22+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "75902f70af58: '' is too short"
+  },
+  {
+    "ts": "2026-10-25T09:32:22+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "d50448e090b6: '' is too short"
+  },
+  {
+    "ts": "2026-10-25T09:32:22+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "55662efa4e1e: '' is too short"
+  },
+  {
+    "ts": "2026-10-25T09:32:22+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "c21af14f127f: '' is too short"
   }
 ]
