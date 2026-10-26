@@ -1,29 +1,5 @@
 [
   {
-    "ts": "2026-10-11T11:08:02+00:00",
-    "source": "enriched_01.json",
-    "stage": "validate_parse",
-    "error": "geen JSON-array te vinden in de uitvoer"
-  },
-  {
-    "ts": "2026-10-11T11:08:03+00:00",
-    "source": "enriched_01.json",
-    "stage": "validate_parse",
-    "error": "geen JSON-array te vinden in de uitvoer"
-  },
-  {
-    "ts": "2026-10-11T11:08:04+00:00",
-    "source": "enriched_02.json",
-    "stage": "validate_parse",
-    "error": "geen JSON-array te vinden in de uitvoer"
-  },
-  {
-    "ts": "2026-10-11T11:08:05+00:00",
-    "source": "enriched_02.json",
-    "stage": "validate_parse",
-    "error": "geen JSON-array te vinden in de uitvoer"
-  },
-  {
     "ts": "2026-10-12T12:38:24+00:00",
     "source": "SPN (Stichting Samenwerkende POI's Nederland)",
     "stage": "collect",
@@ -455,5 +431,24 @@
     "source": "enriched_01.json",
     "stage": "validate_schema",
     "error": "c21af14f127f: '' is too short"
+  },
+  {
+    "ts": "2026-10-26T10:39:32+00:00",
+    "source": "Emerce",
+    "stage": "collect",
+    "error": "ValueError: HTTP 200 maar 0 items (content-type: text/html)",
+    "url": "https://www.emerce.nl/nieuws/rss"
+  },
+  {
+    "ts": "2026-10-26T10:40:00+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_parse",
+    "error": "geen JSON-array te vinden in de uitvoer"
+  },
+  {
+    "ts": "2026-10-26T10:40:01+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_parse",
+    "error": "geen JSON-array te vinden in de uitvoer"
   }
 ]
