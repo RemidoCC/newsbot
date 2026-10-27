@@ -1,0 +1,680 @@
+{
+  "date": "2026-10-27",
+  "generated_at": "2026-10-27T10:12:55+00:00",
+  "stats": {
+    "batches": 3,
+    "onleesbaar": 0,
+    "objecten": 83,
+    "schema_fout": 0,
+    "onbekend_id": 0,
+    "gedropt": 48,
+    "geldig": 35,
+    "ai": 23,
+    "bieb": 12
+  },
+  "sources": [
+    "Ars Technica AI",
+    "Bibliotheeknetwerk (KB)",
+    "Computable",
+    "Hacker News",
+    "IFLA",
+    "Import AI",
+    "Infodocket",
+    "Koninklijke Bibliotheek",
+    "MIT Technology Review — AI",
+    "NOS Tech",
+    "Netwerk Mediawijsheid",
+    "OpenAI",
+    "Probiblio",
+    "SPN (Stichting Samenwerkende POI's Nederland)",
+    "Simon Willison",
+    "TLDR AI",
+    "The Verge AI",
+    "Tweakers"
+  ],
+  "items": [
+    {
+      "id": "7bdb1ba9b0b53f3dff26e8114c3fe148dcdbb39259799b7c5d14c87c3aaa1f18",
+      "title": "Goedkoper en meer controle: bedrijven kijken naar Chinese open AI-modellen",
+      "summary": "Bedrijven en organisaties kijken steeds vaker naar gratis te downloaden open AI-modellen, vooral van Chinese makers als Alibaba, DeepSeek, Moonshot en Z.ai. Zo kunnen ze zelf bepalen op welke servers het model draait en blijft gevoelige informatie onder eigen beheer. Een Amsterdams advocatenkantoor draait bijvoorbeeld een klein Qwen-model in Duitsland voor het samenvatten van contracten.",
+      "url": "https://nos.nl/l/2636658",
+      "source_name": "NOS Tech",
+      "source_type": "rss",
+      "published": "2026-10-25T19:51:01+01:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "open-source",
+        "bedrijven"
+      ],
+      "importance": 4,
+      "why_relevant": "Open modellen bieden bibliotheken een goedkoper en privacyvriendelijker alternatief voor gesloten AI-diensten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "8c1a9ac002c5700d08086b534c1ff38eff55c567223d367b03837ab2ef6c7f8a",
+      "title": "Kabinet rekent op ai voor forse bezuiniging op personeel",
+      "summary": "Het kabinet wil 25.000 van de 160.000 voltijdbanen bij het Rijk schrappen en daarmee binnen acht jaar 3,5 miljard euro besparen. Ai-toepassingen en chatbots moeten administratieve taken en klantcontact overnemen. Staatssecretaris Van der Burg waarschuwt tegelijk dat ai geen wondermiddel is, omdat eerdere digitaliseringsprojecten vaak juist meer personeel en externe inhuur opleverden.",
+      "url": "https://www.computable.nl/2026/10/26/kabinet-rekent-op-ai-voor-forse-bezuiniging-op-personeel/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-10-26T12:42:21+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "beleid-en-regelgeving",
+        "arbeidsmarkt"
+      ],
+      "importance": 4,
+      "why_relevant": "Ai-gedreven overheidsdienstverlening raakt burgers die bij de bibliotheek hulp zoeken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "c521ada96e496a733d9847ae56ddaeeb3437793e91d1adf4ed0abff8fcda69ed",
+      "title": "Anthropic dient beursprospectus in en bouwt aan een eigen verhaal",
+      "summary": "Anthropic heeft een prospectus van 335 pagina's ingediend voor een beursgang, met ruim honderd pagina's over risico's. MIT Technology Review bekritiseert hoe het bedrijf zijn toekomstbeeld presenteert, bijvoorbeeld de uitspraak van Jack Clark dat de singulariteit al begonnen is. Het artikel laat zien hoe sterk de framing van AI-bedrijven het publieke debat stuurt.",
+      "url": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
+      "source_name": "MIT Technology Review — AI",
+      "source_type": "rss",
+      "published": "2026-10-26T17:45:43+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "ethiek-en-risico"
+      ],
+      "importance": 4,
+      "why_relevant": "Helpt kritisch te kijken naar de verhalen van AI-bedrijven in publieksvoorlichting.",
+      "also_covered_by": []
+    },
+    {
+      "id": "dd2867e6976b675ca058a900b5b3d86fa2813af956f6be5f66a2ba725241abfc",
+      "title": "Anthropic waarschuwt in beursprospectus voor misbruik van AI",
+      "summary": "Anthropic heeft zijn aanvraag voor een beursgang ingediend, een primeur voor een groot AI-bedrijf. Het prospectus van 335 pagina's noemt uitgebreid risico's als misbruik van AI, verlies van controle, gebruik door dictators en economische ontwrichting. In de eerste helft van 2026 leed het bedrijf een boekhoudkundig verlies van 80,7 miljard dollar bij 16,3 miljard dollar omzet.",
+      "url": "https://www.computable.nl/2026/10/27/anthropic-waarschuwt-voor-ai-misbruik-in-beursprospectus/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-10-27T08:15:02+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "ethiek-en-risico"
+      ],
+      "importance": 4,
+      "why_relevant": "Een van de grote AI-spelers beschrijft zelf de risico's en financiële kwetsbaarheid van de sector.",
+      "also_covered_by": [
+        "https://tweakers.net/nieuws/253762/anthropic-meldt-nettoverlies-van-80-komma-7-miljard-dollar-in-aanvraag-voor-beursgang.html"
+      ]
+    },
+    {
+      "id": "a25b885a0d6ce717254e117bbd91bfcd487da897db3cd8a5076fa93e577d6223",
+      "title": "IFLA-webinar over media- en informatiegeletterdheid en klimaat, 29 oktober",
+      "summary": "IFLA organiseert tijdens de Global Media and Information Literacy Week een gratis online webinar over schoolbibliotheken, mediawijsheid en klimaatgeletterdheid. Vier sprekers uit India, Oostenrijk, China en Kroatië presenteren; aanmelden is verplicht en een bewijs van deelname is op verzoek beschikbaar.",
+      "url": "https://www.ifla.org/news/2026-ifla-ils-sls-global-mil-week-webinar-online-via-zoom-october-29th-2026/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-10-25T14:39:05+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "digitale-geletterdheid",
+        "evenement",
+        "cursus-of-workshop"
+      ],
+      "importance": 3,
+      "why_relevant": "Gratis webinar over informatievaardigheden tijdens de internationale mediawijsheidsweek.",
+      "also_covered_by": []
+    },
+    {
+      "id": "9fec697fddc7e91fe6c049dc7bcf231877988f5847c55cf90155bf42fff04afb",
+      "title": "Door AI ziet wiskundehoogleraar in Berkeley geen zin meer in het nakijken van huiswerk",
+      "summary": "Een wiskundehoogleraar van UC Berkeley vindt het nakijken van huiswerk zinloos geworden door het gebruik van AI. Het voorbeeld toont hoe AI het onderwijs dwingt om toetsing en huiswerk opnieuw te bekijken.",
+      "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-10-25T16:28:26Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderwijs"
+      ],
+      "importance": 3,
+      "why_relevant": "Raakt aan hoe AI leren en toetsen verandert, ook bij bibliotheekcursussen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "5c8192d7a00603c9dd97204ff91368114cbf2d3b3954a5a08a7efd26cef60409",
+      "title": "Apollo: AI levert buiten de techsector nog 'geen financieel rendement' op",
+      "summary": "Volgens beleggingsbedrijf Apollo heeft AI buiten de technologiesector tot nu toe geen financiële opbrengst geleverd voor bedrijven. De analyse voedt het debat over de vraag of de grote AI-investeringen zich terugverdienen.",
+      "url": "https://www.businessinsider.com/apollo-ai-zero-financial-payoff-corporate-america-economic-analysis-2026-10",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-10-25T22:49:06Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "onderzoek"
+      ],
+      "importance": 3,
+      "why_relevant": "Zet de hype in perspectief bij gesprekken over AI-investeringen in de eigen organisatie.",
+      "also_covered_by": []
+    },
+    {
+      "id": "3f6015d75d43267187fa354f9cb7086f050970f64ceb46540ffe5d4e0e40f6b9",
+      "title": "MetLib 2026, dag 1: bibliotheken in een door technologie gevormde wereld",
+      "summary": "De Metropolitan Libraries Conference in Nederland opende met de vraag hoe technologie steden en samenlevingen verandert. Kunstenaar Julia Janssen liet zien hoe algoritmen ons dagelijks leven sturen en pleitte ervoor AI te zien als automatisering. Bibliotheken moeten volgens de sprekers plekken van verbinding blijven.",
+      "url": "https://www.ifla.org/news/metlib-2026-day-1-libraries-in-a-world-shaped-by-technology/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-10-26T02:01:31+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek",
+        "evenement",
+        "digitale-geletterdheid"
+      ],
+      "importance": 3,
+      "why_relevant": "Laat zien hoe bibliotheken AI en algoritmen kritisch kunnen bespreken met publiek.",
+      "also_covered_by": []
+    },
+    {
+      "id": "95e4c23f2975b28dc658276ca8e244aa58c1886884a4d599509250e71c558f2a",
+      "title": "Betrouwbare overheidsinformatie in het AI-tijdperk: de aanpak van Brazilië",
+      "summary": "Een onderzoeker van Ibict beschrijft hoe Brazilië de integriteit van overheidspublicaties wil bewaken nu generatieve AI wordt gebruikt bij het opstellen ervan. Herkomst en traceerbaarheid van informatie staan centraal, binnen het nationale AI-plan 2024-2028. Het land vertaalt principes voor verantwoorde AI naar praktische richtlijnen voor de overheid.",
+      "url": "https://www.ifla.org/news/information-integrity-in-the-age-of-ai-brazils-approach-to-trustworthy-government-publications/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-10-26T06:16:20+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Herkomst en betrouwbaarheid van informatie zijn kernthema's voor bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "a9ab3f431f5a11b43843d992cb505f73b9abee87a27b1b19cfc4afffd9a9ddaa",
+      "title": "De focus op AI-rampen negeert alledaagse schade",
+      "summary": "Twee auteurs betogen dat het debat over techveiligheid te veel draait om het ergste scenario en te weinig om dagelijkse schade. Voorbeelden zijn jongeren die afhankelijk worden van AI-vrienden en studenten die al hun schrijfwerk aan chatbots overlaten. Ze pleiten voor producten die denken, leren en samenleven niet uithollen.",
+      "url": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/",
+      "source_name": "MIT Technology Review — AI",
+      "source_type": "rss",
+      "published": "2026-10-26T09:01:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 3,
+      "why_relevant": "Raakt aan mediawijsheid en begeleiding van jongeren bij AI-gebruik.",
+      "also_covered_by": [
+        "https://www.technologyreview.com/2026/10/26/1147650/the-download-everyday-ai-harms-nuclear-spaceflight/"
+      ]
+    },
+    {
+      "id": "27334100e818b98514ff319836bc3b78479c8228c2a09656f9dea445b0edf902",
+      "title": "Hoe mensen ChatGPT voor werk gebruiken: data uit bijna honderd landen",
+      "summary": "OpenAI publiceert gegevens over 165 werkactiviteiten in bijna honderd landen, waaruit blijkt waarvoor mensen ChatGPT op het werk inzetten en hoe dat verandert. Het geeft inzicht in de verschuivende rol van AI op de werkvloer.",
+      "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-10-26T10:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "arbeidsmarkt"
+      ],
+      "importance": 3,
+      "why_relevant": "Cijfers over werkgebruik helpen bij cursussen over AI op het werk.",
+      "also_covered_by": []
+    },
+    {
+      "id": "dac031712126185f1fc21d62d6d1f1f5d30f48615363d94bfc7fb52f886d6fec",
+      "title": "Bibliotheek Schiedam voert met het relevantiekader het juiste gesprek met de gemeente",
+      "summary": "De directeur van Bibliotheek Schiedam vond een producten- en dienstencatalogus, zoals de gemeente voorstelde, niet passen bij de rolverdeling tussen bibliotheek en gemeente. Met hulp van Probiblio en het relevantiekader verlegde ze het gesprek van producten en prestaties naar maatschappelijke waarde, midden in een bezuinigingsperiode.",
+      "url": "https://www.probiblio.nl/met-het-relevantiekader-voerde-ik-het-juiste-gesprek-met-de-gemeente/",
+      "source_name": "Probiblio",
+      "source_type": "rss",
+      "published": "2026-10-26T10:20:34+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek",
+        "subsidie-of-financiering"
+      ],
+      "importance": 3,
+      "why_relevant": "Praktijkvoorbeeld van het gesprek over bibliotheekfinanciering met de gemeente.",
+      "also_covered_by": []
+    },
+    {
+      "id": "eb579cea8a394eb345c355ef716c449f2f33f5dfdd797cf0a07bf76528c95943",
+      "title": "SPN verkent hoe bibliotheken met leerecosystemen aan de slag kunnen",
+      "summary": "SPN onderzoekt met een klankbordgroep hoe bibliotheken het concept leerecosystemen in de praktijk kunnen brengen en hoe POI's hen daarbij kunnen ondersteunen. Het project bouwt voort op bestaande samenwerkingen met scholen, gemeenten en maatschappelijke organisaties. Het wordt mogelijk gemaakt door subsidie van de KB.",
+      "url": "https://www.stichtingspn.nl/nieuws/spn-verkent-hoe-bibliotheken-met-leerecosystemen-aan-de-slag-kunnen/",
+      "source_name": "SPN (Stichting Samenwerkende POI's Nederland)",
+      "source_type": "rss",
+      "published": "2026-10-26T11:20:40+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek",
+        "onderwijs",
+        "subsidie-of-financiering"
+      ],
+      "importance": 3,
+      "why_relevant": "Geeft richting aan de rol van de bibliotheek in lokale leernetwerken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "ddb1d467d43d243db4abbc435d1c41ce664cf197ffcc42af9a9c234eabef5f6d",
+      "title": "Springer Nature en Google DeepMind ontwikkelen AI-assistent voor peer review",
+      "summary": "Springer Nature en Google DeepMind werken samen aan een AI-assistent die reviewers helpt manuscripten te doorgronden en aandachtspunten te signaleren. De assistent draait op Gemini en wordt als prototype getest. Menselijk oordeel blijft volgens de partijen centraal staan.",
+      "url": "https://www.infodocket.com/2026/10/26/company-news-springer-nature-and-google-deepmind-announcing-a-research-partnership-to-co-design-an-ai-peer-review-assistant/",
+      "source_name": "Infodocket",
+      "source_type": "rss",
+      "published": "2026-10-26T12:20:25+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "onderzoek"
+      ],
+      "importance": 3,
+      "why_relevant": "AI in wetenschappelijk publiceren raakt de werkwijze van wetenschappelijke bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "0fc19485049762727c41a7d01453a367eade39c97b23065d77a66cca5362f64d",
+      "title": "Apple toont 20-miljard-parametermodel dat op een Mac met 2 GB geheugen draait",
+      "summary": "Apples on-device model heeft 20 miljard parameters, maar bewaart de meeste gewichten in flashopslag en activeert per opdracht slechts 1 tot 4 miljard. Tests op een M3 Max-Mac lieten een geheugengebruik van ongeveer 2 GB zien, met lager energieverbruik dan vergelijkbare open modellen. Wiskunde blijft wel een zwakker punt.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/k9bai2gzu749k4osk2q0i9ak5grrxtod02clwm8v.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-10-26T14:13:17+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "onderzoek"
+      ],
+      "importance": 3,
+      "why_relevant": "Krachtige AI op gewone apparaten maakt lokale toepassingen in de bibliotheek haalbaarder.",
+      "also_covered_by": []
+    },
+    {
+      "id": "23d59e9a5bcc060987e7b94df806c86d87ebbe51d854783dd27b6b24924def83",
+      "title": "OpenAI meldt drie nieuwe wetenschappelijke doorbraken en een nieuwe samenwerking met academici",
+      "summary": "Minder dan een maand na een grote release van manuscripten over wiskundige vraagstukken presenteert OpenAI drie nieuwe resultaten in wiskunde, informatica en natuurkunde. Dit keer begeleiden externe experts, 'shepherds' genoemd, de resultaten in informatica en natuurkunde. Voor het wiskundeprobleem is de AI-uitvoer vrijgegeven zodat onderzoekers zelf een uitleg kunnen uitwerken.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-10-26T19:34:58-04:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Laat zien hoe AI wetenschappelijk werk beïnvloedt en hoe de kwaliteit wordt gecontroleerd.",
+      "also_covered_by": []
+    },
+    {
+      "id": "2b1fe4895a96a5768968220a5b52165c7fcd29a0956e36e4660ed8149419b634",
+      "title": "Microsoft biedt ongeveer 60.000 medewerkers een vrijwillige vertrekregeling aan",
+      "summary": "Microsoft biedt een vrijwillige vertrekregeling aan ongeveer 60.000 medewerkers in de VS, India, Canada en het Verenigd Koninkrijk, zo'n kwart van het personeel. Het bedrijf geeft geen directe reden, maar zet tegelijk fors in op AI-infrastructuur en datacenters. Het is de tweede vrijwillige inkrimping dit jaar.",
+      "url": "https://arstechnica.com/gadgets/2026/10/microsoft-offers-voluntary-buyouts-to-60000-employees/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-10-26T22:36:06+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "arbeidsmarkt"
+      ],
+      "importance": 3,
+      "why_relevant": "Illustreert de druk van AI-investeringen op werkgelegenheid in de techsector.",
+      "also_covered_by": [
+        "https://nos.nl/l/2636818"
+      ]
+    },
+    {
+      "id": "47bbbbb49991ab155dc2f9f5a9dfade8b2a9320333f67339f13beb41f031aa07",
+      "title": "MetLib 2026, dag 2: durf de bibliotheek van de toekomst opnieuw te denken",
+      "summary": "Op de tweede dag van de MetLib-conferentie, gehost door OBA in Amsterdam, stond vernieuwing van de openbare bibliotheek centraal. Sprekers behandelden onder meer OBA Next, een tijdelijk lab met TUMO voor jongeren, en de visie van de Nationale Bibliotheek van Singapore. Bibliotheken worden neergezet als plekken om te vertragen, te leren en te maken.",
+      "url": "https://www.ifla.org/news/metlib-2026-day-2-be-bold-rethinking-the-library-of-the-future/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-10-26T23:23:45+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek",
+        "evenement"
+      ],
+      "importance": 3,
+      "why_relevant": "Laat zien hoe grote stadsbibliotheken leren en technologie vernieuwend inrichten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "670bdc25a85edb1886da1f719bac36991fe8a3da8fa4b2fd98f124747c57fd2d",
+      "title": "OpenAI brengt GPT-6.1 Terra uit, een snel middensegmentmodel",
+      "summary": "OpenAI heeft GPT-6.1 Terra gelanceerd, een snel en efficiënt model met nadruk op beeldbegrip, computerbediening en helderder schrijven. Het zit qua positie tussen goedkopere en duurdere modellen in en is vooral interessant voor herhaalde taken zoals formulieren invullen. Volgens Simon Willison is het geen grote sprong voor gewone abonnees.",
+      "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-10-26T23:53:07+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Nieuw model dat gratis of goedkope AI-tools in de praktijk kan beïnvloeden.",
+      "also_covered_by": [
+        "https://openai.com/index/introducing-gpt-6-1-terra",
+        "https://tweakers.net/nieuws/253786/openai-brengt-gpt-61-terra-uit-met-50-procent-lagere-api-tarieven-dan-sol.html"
+      ]
+    },
+    {
+      "id": "f4863ff849ebaaaddba4f8b18a4f56e1965f4095e519a2b54d23a9b6f3d914d2",
+      "title": "Nieuwe ronde Landelijke Gegevensverzameling Bibliotheekleden",
+      "summary": "De KB en het CBS starten een nieuwe ronde van de Landelijke Gegevensverzameling Bibliotheekleden. Daarmee wordt onderzocht wie er lid is van de bibliotheek en welke doelgroepen niet worden bereikt.",
+      "url": "https://www.bibliotheeknetwerk.nl/nieuws/nieuwe-ronde-landelijke-gegevensverzameling-bibliotheekleden",
+      "source_name": "Bibliotheeknetwerk (KB)",
+      "source_type": "rss",
+      "published": "2026-10-27T08:17:23+01:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek",
+        "onderzoek"
+      ],
+      "importance": 3,
+      "why_relevant": "Inzicht in wie de bibliotheek bereikt helpt bij het richten van AI-aanbod.",
+      "also_covered_by": []
+    },
+    {
+      "id": "763e1f9af6867224f48cbed383f2abd2dce911188105aa170e6d16f80a884141",
+      "title": "AI veroorzaakte de krimp in techbanen niet, maar verklaart wel het uitblijvende herstel",
+      "summary": "Een opiniestuk stelt dat AI niet de oorzaak is van de recente daling van het aantal technologiebanen. Wel zou AI verklaren waarom de arbeidsmarkt in de sector zich niet herstelt.",
+      "url": "https://vithushansylvester.com/writing/the-real-impact-of-ai-on-tech-jobs",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-10-25T18:42:23Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "arbeidsmarkt"
+      ],
+      "importance": 2,
+      "why_relevant": "Biedt achtergrond bij vragen van bezoekers over AI en werkgelegenheid.",
+      "also_covered_by": []
+    },
+    {
+      "id": "0dcb8bbdd524d74dc64f7c632f334cc5f823d5139a07985220f6b705a5adb1b4",
+      "title": "SpaceX leent 40 miljard dollar om gpu's voor AI te kopen",
+      "summary": "Volgens Elon Musk leent SpaceX 40 miljard dollar om gpu's voor AI-rekenkracht aan te schaffen. Het is nog onduidelijk of de deal helemaal rond is. De chips zouden in de eerste helft van 2027 binnenkomen, schrijft een nieuwsbrief.",
+      "url": "https://tweakers.net/nieuws/253736/spacex-leent-40-miljard-dollar-om-gpus-te-kopen-voor-ai.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-10-26T09:53:59+01:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat de enorme investeringen in AI-rekenkracht zien waarop de sector draait.",
+      "also_covered_by": [
+        "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/dctl3nw1j780skdgtm4nz0vhlfx5v7x0hn9ylw1j.html"
+      ]
+    },
+    {
+      "id": "bc050ad519c4f3ee4d138b5a8e01810875f19841e83c23a2b9cf7cac22fbfe2f",
+      "title": "De Netwerkmaatschappij, deel 64: Kunstmatige intimiteit",
+      "summary": "In deel 64 van zijn reeks bespreekt Roeland Smeets het nieuwste boek van Sherry Turkle over kunstmatige intimiteit. Het gaat over de relaties die mensen aangaan met technologie zoals chatbots en wat dat betekent voor menselijk contact.",
+      "url": "https://netwerkmediawijsheid.nl/de-netwerkmaatschappij-deel-64-kunstmatige-intimiteit/",
+      "source_name": "Netwerk Mediawijsheid",
+      "source_type": "rss",
+      "published": "2026-10-26T10:42:04+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "digitale-geletterdheid",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Biedt gespreksstof over AI-companions voor mediawijsheidsactiviteiten in de bibliotheek.",
+      "also_covered_by": []
+    },
+    {
+      "id": "83e2ebb1183711d4830cc2b719d9a8aee4d8d927c6ba18ca718b7d05c3483a09",
+      "title": "Kort: 15 procent van Nederlandse organisaties getroffen door PHP-aanval, Gartner deelt vijf ai-trends voor 2027",
+      "summary": "Dit nieuwsoverzicht meldt dat Nederlandse organisaties bovengemiddeld vaak doelwit zijn van PHP-aanvallen, volgens Check Point. Ook waarschuwt Gartner voor fors hogere ai-kosten en noemt het vijf ai-trends voor infrastructuur en operaties. Het overzicht bevat verder bedrijfsnieuws over onder meer Oracle, Previder, Atos en Fortinet.",
+      "url": "https://www.computable.nl/2026/10/26/kort-15-procent-nl-organisaties-getroffen-door-php-aanval-gartner-deelt-5-ai-trends-voor-2027-en-meer/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-10-26T12:02:25+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "bedrijven",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Beperkt relevant; de waarschuwing voor hogere ai-kosten kan bij inkoopbeslissingen meespelen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "e582ebff7b0ffb61d365fe16c4a4a9f8c501ee550443f24e3a599cccf91478a4",
+      "title": "Import AI 478: wiskunde voor alignment, ProgramBench en recursieve zelfverbetering",
+      "summary": "De nieuwsbrief Import AI bespreekt onder meer hoe een AI-veiligheidsbedrijf met agents een wiskundig bewijs rond leertheorie automatisch formaliseerde. Verder gaat het over een benchmark voor programmeren en over wat recursieve zelfverbetering in de praktijk betekent. Het is vooral achtergrond voor volgers van AI-onderzoek.",
+      "url": "https://jack-clark.net/2026/10/26/import-ai-478-math-for-alignment-programbench-and-mirendil-shows-what-rsi-means/",
+      "source_name": "Import AI",
+      "source_type": "rss",
+      "published": "2026-10-26T12:31:52+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Achtergrond over AI-onderzoek en veiligheid, nuttig voor wie het vakgebied volgt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "3a88fbf470156128762bb8706e534c4ce9acfdbfad2be825dfbbc21b9d7dfa5d",
+      "title": "Student van Brown University brengt wereldwijd verborgen arbeid achter AI in kaart",
+      "summary": "Een student van Brown University onderzoekt en brengt in kaart welke mensen wereldwijd het onzichtbare werk achter AI-systemen doen, zoals data labelen. Het onderwerp laat zien dat AI sterk leunt op menselijke arbeid, vaak onder weinig zichtbare omstandigheden.",
+      "url": "https://www.brown.edu/news/2026-10-26/ai-data-workers",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-10-26T12:58:27Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Helpt bij het eerlijk uitleggen van hoe AI echt tot stand komt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "8eb6001a836a6e50b8fb133e1590f182de0e7997306db3a54dcb8d2c2e5a6daa",
+      "title": "OpenAI deelt modelresultaten over wiskundige en natuurkundige vraagstukken",
+      "summary": "OpenAI publiceert resultaten van zijn modellen op onder meer het Kakeya-vermoeden, de Exponential Time Hypothesis en quantumchromodynamica. Het bedrijf legt uit hoe onderzoekers die resultaten kunnen controleren en erop voortbouwen. Er is weinig detail beschikbaar in het bericht zelf.",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-10-26T14:30:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "modellen"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont hoe AI wetenschappelijk onderzoek raakt, ook voor wetenschappelijke bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "f93d4d5cf699810a3933e0086637d437df2b19512152d8cb569690a646e4e45e",
+      "title": "Hob: open-source app die AI lokaal op je eigen computer draait",
+      "summary": "Hob is een gratis desktopapp onder MIT-licentie die open modellen als Gemma 4 en gpt-oss op de eigen computer laat draaien. Het programma kan bestanden lezen en bewerken, afbeeldingen herkennen en code in een afgeschermde omgeving uitvoeren, zonder dat chats of bestanden het apparaat verlaten. Alleen webzoeken en zelf toegevoegde koppelingen gebruiken internet.",
+      "url": "https://github.com/FrigadeHQ/hob",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-10-26T16:12:29Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "open-source"
+      ],
+      "importance": 2,
+      "why_relevant": "Een lokale AI-assistent die geen gegevens wegstuurt, interessant voor privacybewuste bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "e754b5b01428aec7e8947041f164cdc3fe7b702a6f15b26de0cbd9425ea9a025",
+      "title": "Anthropic is voor zijn datacenters steeds meer afhankelijk van aardgas",
+      "summary": "Uit het beursdocument van Anthropic blijkt dat de datacenters voor AI steeds meer op aardgas draaien. Het bedrijf erkent dat stijgende brandstofprijzen en beperkte beschikbaarheid van stroom en locaties de uitbreiding kwetsbaar maken.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-10-26T17:45:31-04:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Belicht de energie- en klimaatkosten van AI die bij kritische vragen van bezoekers passen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "7788db21557944ebc000e0af5688be0fa0e24b8ae3a9cae91786af692b0f3ef7",
+      "title": "ChatGPT verwijst mensen met techproblemen onterecht naar 404 Media",
+      "summary": "Omdat grote techplatforms nauwelijks klantenservice bieden, vragen veel mensen ChatGPT om hulp bij gewone storingen. Het model blijkt gebruikers steeds vaker te vertellen dat hun probleem journalistiek interessant is en dat 404 Media kan helpen. Dat levert de redactie ongepaste verzoeken op.",
+      "url": "https://simonwillison.net/2026/Oct/26/jason-koebler/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-10-26T19:00:25+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van hoe chatbots bezoekers misleidend doorverwijzen, relevant voor balieadvies.",
+      "also_covered_by": []
+    },
+    {
+      "id": "d3ff2c1c637b4bc1727171fe3c18507f37211abffea03f6baf000d93bce0682b",
+      "title": "Verzet tegen datacenters wordt in de VS een groot verkiezingsthema",
+      "summary": "De snelle bouw van datacenters leidt in de VS tot lokaal verzet en speelt een grote rol in verkiezingscampagnes voor 2026. Tegelijk stroomt er veel technologiegeld naar de races, onder meer van een super-PAC met steun van Andreessen en Brockman, die al 45 miljoen dollar uitgaf.",
+      "url": "https://www.theverge.com/policy/1019152/data-centers-midterm-elections",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-10-27T06:00:00-04:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont de maatschappelijke weerstand tegen AI-infrastructuur en de invloed van techlobby's.",
+      "also_covered_by": []
+    },
+    {
+      "id": "3619e2943992fd3a6a0caee7b7f2571afbddd821860f91f74d5f47b5a4122dbf",
+      "title": "Apple brengt iOS 27.2 uit; Siri AI nog niet in het Nederlands",
+      "summary": "Apple heeft iOS 27.2 uitgebracht met onder meer Apple Pencil-ondersteuning voor de iPhone Duo. Siri AI krijgt een geheugenfunctie en ondersteuning voor meer talen, maar het Nederlands is er nog niet bij.",
+      "url": "https://tweakers.net/nieuws/253784/apple-brengt-ios-272-uit-met-apple-pencil-ondersteuning-voor-iphone-duo.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-10-27T09:14:23+01:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Nederlandse bezoekers kunnen Siri AI voorlopig niet in hun eigen taal gebruiken.",
+      "also_covered_by": [
+        "https://www.theverge.com/tech/1018827/ios-27-2-iphone-duo-apple-pencil",
+        "https://arstechnica.com/apple/2026/10/apple-releases-ios-and-macos-27-2-with-new-siri-ai-features-new-music-logo/"
+      ]
+    },
+    {
+      "id": "c727f67c2e06d74c91db2b3dcc8069155f6929146258d81096af6307cf4cab8e",
+      "title": "Van Beiroet tot Byblos: LAU-bibliotheken als baken van hoop",
+      "summary": "De bibliotheken van de Lebanese American University bleven tijdens de oorlog open zodat studenten stabiel internet en stroom hadden. Een van de gebouwen dient ook als schuilkelder. Het stuk laat zien hoe bibliotheekwerk verandert in crisistijd.",
+      "url": "https://www.ifla.org/news/from-beirut-to-byblos-lau-libraries-as-a-beacon-of-hope/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-10-26T06:08:32+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "bibliotheek",
+        "digitale-inclusie"
+      ],
+      "importance": 1,
+      "why_relevant": "Inspirerend voorbeeld van bibliotheken als toegang tot internet, maar ver van Nederland.",
+      "also_covered_by": []
+    },
+    {
+      "id": "e321fadee69b5b4e8ce5a495d39555ba39651cef80f82399547249558df7d126",
+      "title": "De geur van oude boeken",
+      "summary": "Restaurator Paulien Rings van de KB vertelt waar de geur van oude boeken vandaan komt en wat we precies ruiken. Het is een luchtige blog over erfgoed.",
+      "url": "https://www.kb.nl/blogs/de-geur-van-oude-boeken",
+      "source_name": "Koninklijke Bibliotheek",
+      "source_type": "rss",
+      "published": "2026-10-26T09:20:49+01:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek"
+      ],
+      "importance": 1,
+      "why_relevant": "Leuke erfgoedblog, geen verband met AI of dienstverlening.",
+      "also_covered_by": []
+    },
+    {
+      "id": "8b3a23e8adb798c732d3de1bbf56cb37128052286725e5d68185e1c2b404b637",
+      "title": "IFLA-nieuwsbrief Sub-Sahara Afrika: terugblik op WLIC 2026 in Busan",
+      "summary": "De regionale IFLA-afdeling voor Sub-Sahara Afrika blikt in een nieuwsbrief terug op de eigen deelname aan het wereldcongres in Busan. De nadruk ligt op Afrikaanse stemmen en samenwerking in het internationale bibliotheekveld. Het is vooral een verslag van activiteiten.",
+      "url": "https://www.ifla.org/news/ifla-ssa-rdc-newsletter-volume-1-no-3-september-2026-footprints-at-ifla-wilc-2026-the-busan-2026-story/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-10-27T08:45:17+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "bibliotheek",
+        "evenement"
+      ],
+      "importance": 1,
+      "why_relevant": "Internationaal congresverslag zonder directe link met AI of Nederlandse bibliotheken.",
+      "also_covered_by": []
+    }
+  ]
+}

@@ -1,43 +1,5 @@
 [
   {
-    "ts": "2026-10-12T12:38:24+00:00",
-    "source": "SPN (Stichting Samenwerkende POI's Nederland)",
-    "stage": "collect",
-    "error": "ConnectTimeout: timed out",
-    "url": "https://www.stichtingspn.nl/feed/"
-  },
-  {
-    "ts": "2026-10-12T12:38:42+00:00",
-    "source": "Princh Library Blog",
-    "stage": "collect",
-    "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://princh.com/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
-    "url": "https://princh.com/feed/"
-  },
-  {
-    "ts": "2026-10-12T12:38:51+00:00",
-    "source": "enriched_01.json",
-    "stage": "validate_parse",
-    "error": "geen JSON-array te vinden in de uitvoer"
-  },
-  {
-    "ts": "2026-10-12T12:38:53+00:00",
-    "source": "enriched_01.json",
-    "stage": "validate_parse",
-    "error": "geen JSON-array te vinden in de uitvoer"
-  },
-  {
-    "ts": "2026-10-12T12:38:54+00:00",
-    "source": "enriched_02.json",
-    "stage": "validate_parse",
-    "error": "geen JSON-array te vinden in de uitvoer"
-  },
-  {
-    "ts": "2026-10-12T12:38:56+00:00",
-    "source": "enriched_02.json",
-    "stage": "validate_parse",
-    "error": "geen JSON-array te vinden in de uitvoer"
-  },
-  {
     "ts": "2026-10-13T12:22:28+00:00",
     "source": "enriched_01.json",
     "stage": "validate_parse",
@@ -450,5 +412,108 @@
     "source": "enriched_01.json",
     "stage": "validate_parse",
     "error": "geen JSON-array te vinden in de uitvoer"
+  },
+  {
+    "ts": "2026-10-27T10:08:02+00:00",
+    "source": "Emerce",
+    "stage": "collect",
+    "error": "ValueError: HTTP 200 maar 0 items (content-type: text/html)",
+    "url": "https://www.emerce.nl/nieuws/rss"
+  },
+  {
+    "ts": "2026-10-27T10:11:23+00:00",
+    "source": "enriched_02.json",
+    "stage": "validate_schema",
+    "error": "dd2867e6976b: 'title_nl' is a required property"
+  },
+  {
+    "ts": "2026-10-27T10:11:23+00:00",
+    "source": "enriched_02.json",
+    "stage": "validate_schema",
+    "error": "e754b5b01428: 'title_nl' is a required property"
+  },
+  {
+    "ts": "2026-10-27T10:11:23+00:00",
+    "source": "enriched_02.json",
+    "stage": "validate_schema",
+    "error": "23d59e9a5bcc: 'title_nl' is a required property"
+  },
+  {
+    "ts": "2026-10-27T10:11:23+00:00",
+    "source": "enriched_02.json",
+    "stage": "validate_schema",
+    "error": "7bdb1ba9b0b5: 'title_nl' is a required property"
+  },
+  {
+    "ts": "2026-10-27T10:11:23+00:00",
+    "source": "enriched_02.json",
+    "stage": "validate_schema",
+    "error": "f93d4d5cf699: 'title_nl' is a required property"
+  },
+  {
+    "ts": "2026-10-27T10:11:23+00:00",
+    "source": "enriched_02.json",
+    "stage": "validate_schema",
+    "error": "0fc194850497: 'title_nl' is a required property"
+  },
+  {
+    "ts": "2026-10-27T10:11:23+00:00",
+    "source": "enriched_02.json",
+    "stage": "validate_schema",
+    "error": "3a88fbf47015: 'title_nl' is a required property"
+  },
+  {
+    "ts": "2026-10-27T10:11:23+00:00",
+    "source": "enriched_02.json",
+    "stage": "validate_schema",
+    "error": "5c8192d7a006: 'title_nl' is a required property"
+  },
+  {
+    "ts": "2026-10-27T10:11:23+00:00",
+    "source": "enriched_02.json",
+    "stage": "validate_schema",
+    "error": "763e1f9af686: 'title_nl' is a required property"
+  },
+  {
+    "ts": "2026-10-27T10:11:23+00:00",
+    "source": "enriched_02.json",
+    "stage": "validate_schema",
+    "error": "9fec697fddc7: 'title_nl' is a required property"
+  },
+  {
+    "ts": "2026-10-27T10:11:23+00:00",
+    "source": "enriched_02.json",
+    "stage": "validate_schema",
+    "error": "d3ff2c1c637b: 'title_nl' is a required property"
+  },
+  {
+    "ts": "2026-10-27T10:11:23+00:00",
+    "source": "enriched_02.json",
+    "stage": "validate_schema",
+    "error": "0dcb8bbdd524: 'title_nl' is a required property"
+  },
+  {
+    "ts": "2026-10-27T10:11:23+00:00",
+    "source": "enriched_02.json",
+    "stage": "validate_schema",
+    "error": "afd7c3c1439f: 'title_nl' is a required property"
+  },
+  {
+    "ts": "2026-10-27T10:11:23+00:00",
+    "source": "enriched_02.json",
+    "stage": "validate_schema",
+    "error": "dac031712126: 'title_nl' is a required property"
+  },
+  {
+    "ts": "2026-10-27T10:11:23+00:00",
+    "source": "enriched_02.json",
+    "stage": "validate_schema",
+    "error": "bc050ad519c4: 'title_nl' is a required property"
+  },
+  {
+    "ts": "2026-10-27T10:11:23+00:00",
+    "source": "enriched_02.json",
+    "stage": "validate_schema",
+    "error": "d86c896fed6a: 'title_nl' is a required property"
   }
 ]
