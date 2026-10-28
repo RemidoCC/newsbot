@@ -1,0 +1,428 @@
+{
+  "date": "2026-10-28",
+  "generated_at": "2026-10-28T10:57:29+00:00",
+  "stats": {
+    "batches": 2,
+    "onleesbaar": 0,
+    "objecten": 74,
+    "schema_fout": 0,
+    "onbekend_id": 0,
+    "gedropt": 52,
+    "geldig": 22,
+    "ai": 14,
+    "bieb": 8
+  },
+  "sources": [
+    "Ars Technica AI",
+    "Bibliotheeknetwerk (KB)",
+    "Google DeepMind",
+    "IFLA",
+    "Infodocket",
+    "Kennisnet",
+    "NOS Tech",
+    "OpenAI",
+    "Probiblio",
+    "Simon Willison",
+    "The Verge AI",
+    "Tweakers"
+  ],
+  "items": [
+    {
+      "id": "a0ae183c5c2e14c3334540c495e3ba67707af4dc6ad649dec35967aa15fe827a",
+      "title": "Vlaamse boekensector wil regels tegen gebruik van boeken voor AI-training",
+      "summary": "De Groep Algemene Uitgevers wil dat de politiek ingrijpt tegen het gebruik van boeken voor AI-training zonder vergoeding. Volgens de sector zijn daarvoor zowel Europese als Belgische regels nodig. Het raakt de auteursrechtendiscussie rond AI en de boekenwereld.",
+      "url": "https://tweakers.net/nieuws/253814/vlaamse-boekensector-wil-regels-tegen-gebruik-van-boeken-voor-ai-training.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-10-27T15:32:14+01:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "beleid-en-regelgeving",
+        "ethiek-en-risico"
+      ],
+      "importance": 4,
+      "why_relevant": "Auteursrecht en AI-training raken collecties, uitgevers en auteurs waarmee bibliotheken werken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "720996cbce72a120aa0b42bad30e4f02569cb9d5fcc9c186caa754168ebf74bf",
+      "title": "Beursdocumenten Anthropic staan vol waarschuwingen, maar beleggers blijven positief",
+      "summary": "Anthropic heeft een prospectus voor een beursgang ingediend, met waarschuwingen over misbruik van AI voor gevaarlijke wapens en over miljardenschulden en -verliezen. Toch verwachten beleggingsexperts veel van de beursgang, mede door het succes van Claude bij programmeren. Het document geeft voor het eerst zicht op de financiële positie van het bedrijf.",
+      "url": "https://nos.nl/l/2636916",
+      "source_name": "NOS Tech",
+      "source_type": "rss",
+      "published": "2026-10-27T18:00:17+01:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "ethiek-en-risico"
+      ],
+      "importance": 4,
+      "why_relevant": "Een grote AI-aanbieder wordt beursgenoteerd; dat raakt marktpositie, risico's en afhankelijkheid.",
+      "also_covered_by": [
+        "https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/",
+        "https://www.technologyreview.com/2026/10/27/1147693/the-download-anthropic-ipo-smarter-power-grids-exercise-pills/"
+      ]
+    },
+    {
+      "id": "4e57319b6b771e50c827f8ca7716fea497acbfff8a28fdf643e71506ab177362",
+      "title": "Anthropic wil beursdruk weerstaan met een uitgebreide bestuursstructuur",
+      "summary": "Anthropic gaat naar de beurs en wil tegelijk vasthouden aan zijn missie om AI veilig te ontwikkelen. Aandeelhouders kunnen kostbare veiligheidsmaatregelen minder gewenst vinden, daarom bouwt het bedrijf een complexe bestuursstructuur. OpenAI noemt investeerdersdruk als reden om dit jaar niet naar de beurs te gaan.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-10-27T12:51:22-04:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Beursgang van een grote AI-aanbieder beïnvloedt veiligheid, prijzen en afhankelijkheid.",
+      "also_covered_by": [
+        "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/7jwdgmh0g55hak5a7g0l89nv714d835xwesmogl9.html",
+        "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/s9ub1nk3u1w6b992iz1c8wbcho6bp6poqd2obxdk.html"
+      ]
+    },
+    {
+      "id": "bd6192ea089edc265e7b98fdbc87eb2dd4634454531bfb972b2428459d3907a9",
+      "title": "Kansen en risico’s van de inzet van AI-agents in onderwijsprocessen",
+      "summary": "Kennisnet bespreekt wat AI-agents zijn, die zelfstandig taken uitvoeren, en wanneer inzet in onderwijsprocessen verstandig is. Het artikel weegt kansen en risico's af.",
+      "url": "https://www.kennisnet.nl/artificial-intelligence/kansen-en-risicos-van-de-inzet-van-ai-agents-in-onderwijsprocessen/",
+      "source_name": "Kennisnet",
+      "source_type": "rss",
+      "published": "2026-10-27T13:06:51+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "onderwijs",
+        "tools",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "AI-agents komen ook op bibliotheken af; dit helpt bij afwegingen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "e960e8891f7d7ad86d1b82fb38dd6339695a2e548b1364f330e5b8eceb6d79af",
+      "title": "DeepMind presenteert Genie 4, een wereldmodel met audio en realistischere mensen",
+      "summary": "Google DeepMind introduceert Genie 4, een model dat interactieve 3d-werelden in realtime genereert, nu met audio en betere natuurkunde. Eerst krijgt een beperkte groep testers toegang, later Google AI Ultra-abonnees. DeepMind ziet wereldmodellen als stap richting AGI en als hulpmiddel voor trainingsomgevingen en prototyping.",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "source_name": "Google DeepMind",
+      "source_type": "rss",
+      "published": "2026-10-27T16:01:38+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen"
+      ],
+      "importance": 3,
+      "why_relevant": "Toont waar generatieve AI naartoe gaat voor games, simulatie en creatief gebruik.",
+      "also_covered_by": []
+    },
+    {
+      "id": "72f24128db595670e15a3285558916974972f7f065cccf8a88f2f0173ce070b2",
+      "title": "Noyb dient klachten in tegen Scale AI, ook bij de Autoriteit Persoonsgegevens",
+      "summary": "Privacyorganisatie noyb heeft bij vier Europese toezichthouders een klacht ingediend over Scale AI vanwege het volgen van AI-trainers. De klachten liggen onder meer bij de Nederlandse Autoriteit Persoonsgegevens, de Franse CNIL, de Italiaanse GPDP en de Oostenrijkse toezichthouder.",
+      "url": "https://tweakers.net/nieuws/253828/noyb-dient-onder-meer-bij-ap-klacht-in-tegen-scale-ai-om-tracken-van-ai-trainers.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-10-27T17:56:53+01:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "beleid-en-regelgeving",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Privacyhandhaving rond AI-data speelt ook bij de Nederlandse toezichthouder.",
+      "also_covered_by": []
+    },
+    {
+      "id": "e734c0e90ec1424e9cd6f43e89acb7e853aa888be4962759888ab123b3ad9284",
+      "title": "Delaware wil bedrijven laten runnen door AI-agents; Amerikaans Congreslid maakt bezwaar",
+      "summary": "Delaware overweegt een nieuwe bedrijfsvorm, de Artificial Intelligence Company, die door AI-agents bestuurd kan worden. Congreslid James Comer vreest dat eigenaren zo aan verantwoordelijkheid voor schadelijke AI-acties ontsnappen en vraagt de gouverneur om documenten.",
+      "url": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-10-27T21:50:04+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Roept vragen op over aansprakelijkheid wanneer AI zelfstandig handelt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "c417f8e3d39d0b893c07541bfe85fce19056b39882f88193551609651d5af4ff",
+      "title": "OpenAI en Oracle breiden samenwerking uit met bedrijfsapps in ChatGPT",
+      "summary": "OpenAI en Oracle werken verder samen om zakelijke applicaties en AI-agents beschikbaar te maken binnen ChatGPT. Ook komen er nieuwe Oracle-producten op basis van deze samenwerking.",
+      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-10-27T07:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat zien hoe ChatGPT zich ontwikkelt tot platform voor zakelijke software.",
+      "also_covered_by": []
+    },
+    {
+      "id": "b1cb31884f0bd932d018a98ad268668f29068b7b5bebb214b485b77aa01026c9",
+      "title": "Nvidia investeert 3 miljard dollar in Meta, dat meer Nvidia-chips koopt",
+      "summary": "Nvidia steekt 3 miljard dollar in Meta, dat op zijn beurt meer Nvidia-chips inzet om AI te trainen. De bedrijven werken specifiek samen aan de AI-assistent Muse en de onderliggende modellen. De deal toont hoe verweven de AI-industrie is.",
+      "url": "https://tweakers.net/nieuws/253790/nvidia-pompt-3-miljard-dollar-in-meta-terwijl-meta-meer-nvidia-chips-koopt.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-10-27T11:09:12+01:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "modellen"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont de machtsconcentratie bij de aanbieders van AI-diensten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "357c0a937c20286779c51a58e05e110474c3331064e90733125253fa112eec61",
+      "title": "Contentstop op Bnetwerk voor de livegang van de nieuwe site",
+      "summary": "Het nieuwe Bnetwerk gaat op dinsdag 3 november live. Vanaf 27 oktober 17.00 uur geldt daarom een tijdelijke contentstop, waardoor er tot de livegang geen nieuwe informatie op de site verschijnt.",
+      "url": "https://www.bibliotheeknetwerk.nl/nieuws/contentstop-op-bnetwerk",
+      "source_name": "Bibliotheeknetwerk (KB)",
+      "source_type": "rss",
+      "published": "2026-10-27T11:46:44+01:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek"
+      ],
+      "importance": 2,
+      "why_relevant": "Bnetwerk is een kennisbron voor Nederlandse bibliotheken en krijgt een nieuwe site.",
+      "also_covered_by": []
+    },
+    {
+      "id": "01bdadda74d0641e1050d4aee0f5b57f535a0d598794cce64384f4475a97f12e",
+      "title": "Smart Window van Firefox krijgt AI-hulp bij formulieren en paginabewaking",
+      "summary": "Mozilla breidt de AI-browse-ervaring Smart Window uit met een functie die formulieren invult op basis van open tabbladen. Gebruikers kiezen zelf welke tabs als bron dienen, bijvoorbeeld een LinkedIn-profiel voor een sollicitatie. Het laat zien hoe AI in alledaagse browsers terechtkomt.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-10-27T12:14:18-04:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Bezoekers kunnen straks AI in hun browser gebruiken, ook op bibliotheekcomputers.",
+      "also_covered_by": []
+    },
+    {
+      "id": "ae820e1b1e6143d17c6f9dd80acc2dafc99f522653d35cc56a6e6a9d429994a9",
+      "title": "Proton bevestigt dat het mogelijk mensen ontslaat die geen AI gebruiken in werk",
+      "summary": "Proton wil medewerkers vragen hoe ze AI in hun werk gaan inzetten. Het bedrijf sluit niet uit dat het na zo'n gesprek opnieuw beoordeelt of iemand kan blijven. Het voorbeeld laat zien dat werkgevers AI-gebruik steeds vaker verwachten.",
+      "url": "https://tweakers.net/nieuws/253800/proton-bevestigt-dat-het-mogelijk-mensen-ontslaat-die-geen-ai-gebruiken-in-werk.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-10-27T14:04:51+01:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "arbeidsmarkt",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Signaal dat AI-vaardigheid een werkgeversverwachting wordt, ook voor bibliotheekteams.",
+      "also_covered_by": []
+    },
+    {
+      "id": "345f91f7e36e7b54e60a0d5df82836351459422d2578872524ccb42b7d06c5f0",
+      "title": "Ook wie de bibliotheek niet bezoekt, ziet haar waarde",
+      "summary": "Het BiebPanel Inwonersonderzoek onder ruim 1.600 niet-gebruikers laat zien dat een grote meerderheid de bibliotheek belangrijk vindt voor de samenleving. Veel inwoners weten echter niet precies wat de bibliotheek allemaal aanbiedt. Dat biedt kansen voor betere zichtbaarheid.",
+      "url": "https://www.probiblio.nl/ook-wie-de-bibliotheek-niet-bezoekt-ziet-haar-waarde/",
+      "source_name": "Probiblio",
+      "source_type": "rss",
+      "published": "2026-10-27T14:06:53+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "onderzoek",
+        "bibliotheek"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat zien hoe niet-gebruikers de bibliotheek zien en waar kansen liggen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "a3019f0083e20174be8b92e16833b2bddf0b944618b264fd1e3aca94b531b315",
+      "title": "Ledenonderzoek 2025: bibliotheken scoren goed op gastvrijheid en maatschappelijke waarde",
+      "summary": "Uit het BiebPanel Ledenonderzoek 2025 blijkt dat leden enthousiast zijn over hun bibliotheek, vooral over medewerkers, sfeer en openingstijden. Verbeterpunten liggen bij werk- en studieplekken, de indeling en horeca. Lokaal verschilt de aanbevelingsscore sterk.",
+      "url": "https://www.probiblio.nl/ledenonderzoek-bibliotheken-scoren-goed-op-gastvrijheid-en-maatschappelijke-waarde/",
+      "source_name": "Probiblio",
+      "source_type": "rss",
+      "published": "2026-10-27T14:14:10+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "onderzoek",
+        "bibliotheek"
+      ],
+      "importance": 2,
+      "why_relevant": "Inzicht in wat leden waarderen en missen in de bibliotheek.",
+      "also_covered_by": []
+    },
+    {
+      "id": "7abe7061f5d182e5558829de24750a00b5b2f7ac8b19f52b4aceb302020a1190",
+      "title": "Meer grip op je content: 5 tips voor meer overzicht en minder stress",
+      "summary": "Marketingmedewerkers van bibliotheken kwamen in Leiden samen voor een workshopdag over het beheersen van tijd, strategie en planning van content. Een van de tips is werken met een focusdoelgroep per kwartaal en maximaal drie contentpijlers. Zo kun je nieuwe verzoeken sneller toetsen aan de strategie.",
+      "url": "https://www.probiblio.nl/meer-grip-op-je-content-5-tips-voor-meer-overzicht-en-minder-stress/",
+      "source_name": "Probiblio",
+      "source_type": "rss",
+      "published": "2026-10-27T14:36:31+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "cursus-of-workshop",
+        "bibliotheek"
+      ],
+      "importance": 2,
+      "why_relevant": "Praktische contenttips voor communicatiemedewerkers bij bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "bab52f3071d3b8c17de5e12bbb6823f01903072a1aef00d365c2350aeae35965",
+      "title": "Vermoedelijke Roblox-crawler haalt 145GB aan 3d-assets binnen zonder toestemming",
+      "summary": "Volgens de site Open3DLab heeft een crawler, vermoedelijk van Roblox, 145GB aan projecten gedownload zonder toestemming. De site denkt dat dit voor AI-training is. Het is niet bevestigd dat de crawler van Roblox is, en Roblox heeft niet gereageerd.",
+      "url": "https://tweakers.net/nieuws/253810/vermoedelijke-roblox-crawler-downloadt-145gb-aan-3d-assets-zonder-toestemming.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-10-27T15:49:48+01:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Illustreert de discussie over scrapen van creatief werk voor AI-training.",
+      "also_covered_by": []
+    },
+    {
+      "id": "c9a73fe5fd1898ca74415cf316a2f9d352f0b8e282b0a8aa856b2359bac218cf",
+      "title": "Apple bouwt AI-functies met OpenAI in Pixelmator Pro, Keynote, Pages en Numbers",
+      "summary": "Apple heeft AI-functies toegevoegd aan zijn foto- en kantoorsoftware. Die functies draaien op technologie van OpenAI, terwijl de nieuwe Siri juist met Google wordt gebouwd.",
+      "url": "https://tweakers.net/nieuws/253822/apple-voegt-met-openai-en-niet-google-ai-functies-toe-aan-kantoorsoftware.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-10-27T16:04:37+01:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "AI komt in alledaagse kantoorsoftware die bezoekers en collega's gebruiken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "4a38987a9a7c69ddefce94d427ad3d30d6b0c99f50c5e36d6d3d7d9b4e9b8a86",
+      "title": "Onderzoekers raken moe van de manier waarop OpenAI resultaten deelt",
+      "summary": "OpenAI maakte doorbraken bekend in wiskunde, informatica en natuurkunde, samen met een nieuwe aanpak voor het communiceren daarover, waarbij experts als begeleiders meekijken. Onderzoekers die met The Verge spraken, blijven kritisch, mede door de honderden preprints die wiskundigen begin oktober kregen. Het onderstreept de spanning tussen AI-bedrijven en de wetenschap.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-10-27T16:48:58-04:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Helpt bij het kritisch beoordelen van claims van AI-bedrijven.",
+      "also_covered_by": []
+    },
+    {
+      "id": "007cb19c1be8d60f171753c2b9eda532640fbcf024f4a082fe36cc835726be95",
+      "title": "Onderzoek: schoolbibliothecarissen en hun houding tegenover digitale boeken",
+      "summary": "Een studie onder schoolbibliothecarissen in New Hampshire laat zien dat zij digitale boeken nuttig en makkelijk vinden. Toch blijft acceptatie beperkt door gebrek aan onderwijs in digitaal lezen, sceptische docenten en de voorkeur van lezers voor papier. De studie is verschenen in School Library Research.",
+      "url": "https://www.infodocket.com/2026/10/27/new-journal-article-exploring-school-librarians-perceptions-of-digital-books/",
+      "source_name": "Infodocket",
+      "source_type": "rss",
+      "published": "2026-10-27T17:29:39+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "bibliotheek"
+      ],
+      "importance": 2,
+      "why_relevant": "Geeft inzicht in drempels bij het uitbreiden van digitale collecties.",
+      "also_covered_by": []
+    },
+    {
+      "id": "e101476f9072f3ade4bef2702002f54f87cda64d25c4441abaefff5097b2210c",
+      "title": "IFLA-verkiezingen 2027: oproep om interesse te tonen is gestart",
+      "summary": "IFLA voegt dit jaar een fase toe waarin bibliotheekprofessionals hun interesse kunnen melden voor functies en commissies, zoals president-elect, penningmeester en bestuursleden. Aanmelden kan tot 9 december 2026, 17.00 uur CET. Zo kunnen ook mensen buiten de top meedenken over het internationale bibliotheekwerk.",
+      "url": "https://www.ifla.org/news/ifla-elections-2027-call-for-expressions-of-interest-phase-begins-today/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-10-28T09:53:06+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "bibliotheek"
+      ],
+      "importance": 2,
+      "why_relevant": "Bibliotheekmedewerkers kunnen zich kandidaat stellen voor internationale invloed op het vak.",
+      "also_covered_by": []
+    },
+    {
+      "id": "6d1e998db622c805a94effefd672f8ef0da3a5dc1fd732d1a5bbb61a2d0dd6dc",
+      "title": "Amazon-leiding: geen baat bij AI-tools is een bevinding, geen falen",
+      "summary": "Een Amazon-leidinggevende stelt in een update over de rol van ontwikkelaars dat het geen tekortkoming is als AI-tools niet helpen bij iemands werk. Medewerkers moeten uitleggen waar AI nog niet werkt en dat delen met collega's en hun manager. Dat oordeelsvermogen noemt Amazon juist gewenst.",
+      "url": "https://simonwillison.net/2026/Oct/28/terk-terkowitz/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-10-28T10:09:07+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "arbeidsmarkt"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat zien hoe grote werkgevers kritisch AI-gebruik van medewerkers verwachten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "c3710db61f1144744c44a447a4f68873ac13eebbc099812d3d5ac1023a2da09a",
+      "title": "Oproep voor bijdragen aan de LOCGEN-nieuwsbrief najaar 2026",
+      "summary": "De IFLA-sectie voor lokale geschiedenis en genealogie vraagt om bijdragen voor haar nieuwsbrief van januari 2027. Het thema is hoe AI het werkveld verandert, met ruimte voor nieuws, praktijkverhalen en best practices. Artikelen zijn 100 tot 1500 woorden.",
+      "url": "https://www.ifla.org/news/call-for-contributions-for-the-fall-2026-locgen-newsletter/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-10-28T00:33:06+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "bibliotheek",
+        "evenement"
+      ],
+      "importance": 1,
+      "why_relevant": "Podium om ervaringen met AI in lokale collecties te delen.",
+      "also_covered_by": []
+    }
+  ]
+}
