@@ -510,5 +510,48 @@
     "source": "enriched_02.json",
     "stage": "validate_schema",
     "error": "cf33e35448f7: 'title_nl' is a required property"
+  },
+  {
+    "ts": "2026-10-30T11:06:29+00:00",
+    "source": "Emerce",
+    "stage": "collect",
+    "error": "ValueError: HTTP 200 maar 0 items (content-type: text/html)",
+    "url": "https://www.emerce.nl/nieuws/rss"
+  },
+  {
+    "ts": "2026-10-30T11:07:07+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_parse",
+    "error": "geen JSON-array te vinden in de uitvoer"
+  },
+  {
+    "ts": "2026-10-30T11:07:08+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_parse",
+    "error": "geen JSON-array te vinden in de uitvoer"
+  },
+  {
+    "ts": "2026-10-30T11:07:09+00:00",
+    "source": "enriched_02.json",
+    "stage": "validate_parse",
+    "error": "geen JSON-array te vinden in de uitvoer"
+  },
+  {
+    "ts": "2026-10-30T11:07:11+00:00",
+    "source": "enriched_02.json",
+    "stage": "validate_parse",
+    "error": "geen JSON-array te vinden in de uitvoer"
+  },
+  {
+    "ts": "2026-10-30T11:07:12+00:00",
+    "source": "enriched_03.json",
+    "stage": "validate_parse",
+    "error": "geen JSON-array te vinden in de uitvoer"
+  },
+  {
+    "ts": "2026-10-30T11:07:14+00:00",
+    "source": "enriched_03.json",
+    "stage": "validate_parse",
+    "error": "geen JSON-array te vinden in de uitvoer"
   }
 ]
