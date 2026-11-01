@@ -1,12 +1,5 @@
 [
   {
-    "ts": "2026-10-18T09:14:58+00:00",
-    "source": "Emerce",
-    "stage": "collect",
-    "error": "ValueError: HTTP 200 maar 0 items (content-type: text/html)",
-    "url": "https://www.emerce.nl/nieuws/rss"
-  },
-  {
     "ts": "2026-10-19T10:25:04+00:00",
     "source": "Emerce",
     "stage": "collect",
@@ -543,5 +536,144 @@
     "stage": "collect",
     "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.ifla.org/rss.xml'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
     "url": "https://www.ifla.org/news/feed/"
+  },
+  {
+    "ts": "2026-11-01T11:35:23+00:00",
+    "source": "Emerce",
+    "stage": "collect",
+    "error": "ValueError: HTTP 200 maar 0 items (content-type: text/html)",
+    "url": "https://www.emerce.nl/nieuws/rss"
+  },
+  {
+    "ts": "2026-11-01T11:37:03+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "24dbc8c2477f: 'Geen AI-onderwerp.' is too short"
+  },
+  {
+    "ts": "2026-11-01T11:37:03+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "ff739d65cb4d: 'Geen AI-onderwerp.' is too short"
+  },
+  {
+    "ts": "2026-11-01T11:37:03+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "5661ba9f7e14: 'Geen AI-onderwerp.' is too short"
+  },
+  {
+    "ts": "2026-11-01T11:37:03+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "0e3a67449770: 'Geen AI-onderwerp.' is too short"
+  },
+  {
+    "ts": "2026-11-01T11:37:03+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "ab28bb2f8f66: 'Geen AI-onderwerp.' is too short"
+  },
+  {
+    "ts": "2026-11-01T11:37:03+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "2f89173793d2: 'Geen AI-onderwerp.' is too short"
+  },
+  {
+    "ts": "2026-11-01T11:37:03+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "06701bfb5e25: 'Geen AI-onderwerp.' is too short"
+  },
+  {
+    "ts": "2026-11-01T11:37:03+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "c227af10fdf0: 'Geen AI-onderwerp.' is too short"
+  },
+  {
+    "ts": "2026-11-01T11:37:03+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "ec26a1b80f94: 'Geen AI-onderwerp.' is too short"
+  },
+  {
+    "ts": "2026-11-01T11:37:03+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "dce2b4d11d72: 'Geen AI-onderwerp.' is too short"
+  },
+  {
+    "ts": "2026-11-01T11:37:03+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "d22f82b2e852: 'Geen AI-onderwerp.' is too short"
+  },
+  {
+    "ts": "2026-11-01T11:37:03+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "24dbc8c2477f: 'Geen AI-onderwerp.' is too short"
+  },
+  {
+    "ts": "2026-11-01T11:37:03+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "ff739d65cb4d: 'Geen AI-onderwerp.' is too short"
+  },
+  {
+    "ts": "2026-11-01T11:37:03+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "5661ba9f7e14: 'Geen AI-onderwerp.' is too short"
+  },
+  {
+    "ts": "2026-11-01T11:37:03+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "0e3a67449770: 'Geen AI-onderwerp.' is too short"
+  },
+  {
+    "ts": "2026-11-01T11:37:03+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "ab28bb2f8f66: 'Geen AI-onderwerp.' is too short"
+  },
+  {
+    "ts": "2026-11-01T11:37:03+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "2f89173793d2: 'Geen AI-onderwerp.' is too short"
+  },
+  {
+    "ts": "2026-11-01T11:37:03+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "06701bfb5e25: 'Geen AI-onderwerp.' is too short"
+  },
+  {
+    "ts": "2026-11-01T11:37:03+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "c227af10fdf0: 'Geen AI-onderwerp.' is too short"
+  },
+  {
+    "ts": "2026-11-01T11:37:03+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "ec26a1b80f94: 'Geen AI-onderwerp.' is too short"
+  },
+  {
+    "ts": "2026-11-01T11:37:03+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "dce2b4d11d72: 'Geen AI-onderwerp.' is too short"
+  },
+  {
+    "ts": "2026-11-01T11:37:03+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "d22f82b2e852: 'Geen AI-onderwerp.' is too short"
   }
 ]

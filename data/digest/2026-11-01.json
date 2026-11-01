@@ -1,0 +1,224 @@
+{
+  "date": "2026-11-01",
+  "generated_at": "2026-11-01T11:37:03+00:00",
+  "stats": {
+    "batches": 1,
+    "onleesbaar": 0,
+    "objecten": 28,
+    "schema_fout": 11,
+    "onbekend_id": 0,
+    "gedropt": 6,
+    "geldig": 11,
+    "ai": 9,
+    "bieb": 2
+  },
+  "sources": [
+    "Hacker News",
+    "IFLA",
+    "Simon Willison",
+    "Tweakers"
+  ],
+  "items": [
+    {
+      "id": "fe0e16ed5eb16438061ec07a17ac3e3c66c6a0d6c694718824ec7e062c809f65",
+      "title": "Ook Grok gaat watermerken aan tekst toevoegen",
+      "summary": "Ontwikkelaar SpaceXSI laat Grok onzichtbare watermerken in tekstoutput zetten, vanwege de Europese AI-verordening. Zakelijke gebruikers kunnen het watermerk uitzetten en de api krijgt een optie om watermerken te herkennen. Het laat zien hoe de transparantieplicht uit de AI-verordening in de praktijk uitpakt.",
+      "url": "https://tweakers.net/nieuws/254008/ook-grok-gaat-watermerken-toevoegen-aan-tekst.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-11-01T11:07:31+01:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "modellen"
+      ],
+      "importance": 4,
+      "why_relevant": "Herkenbaarheid van AI-tekst raakt direct aan mediawijsheid en bronnenbeoordeling in de bieb.",
+      "also_covered_by": []
+    },
+    {
+      "id": "c0588a787514ce74708f6a42d0891316bed89cc5541f5828fa5b0cb85977f0f9",
+      "title": "Malware gebruikt LLM's om slachtoffers op waarde te rangschikken",
+      "summary": "Volgens Talos Intelligence gebruikt de Volta-infostealer een AI-model om slachtoffers te prioriteren op basis van hun vermoedelijke waarde. Criminelen zetten AI dus ook in om gericht aanvallen te kiezen.",
+      "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-10-31T14:29:03Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Voorbeeld van AI-misbruik, handig voor voorlichting over digitale veiligheid.",
+      "also_covered_by": []
+    },
+    {
+      "id": "d004c37dd3b3195c7a7f26b21247169b9cf0debceb50cd8ab39a8fc47b3b699e",
+      "title": "Effect van generatieve AI op kritisch denken: zelfrapportage",
+      "summary": "Dit onderzoek uit 2025 (Microsoft Research, gepubliceerd bij ACM) onderzoekt via zelfrapportage hoe generatieve AI het kritisch denken van gebruikers beïnvloedt. Het is relevant voor de vraag hoe mensen AI-uitvoer beoordelen.",
+      "url": "https://dl.acm.org/doi/full/10.1145/3706598.3713778",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-10-31T18:02:29Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "digitale-geletterdheid"
+      ],
+      "importance": 3,
+      "why_relevant": "Onderbouwing voor cursussen over kritisch omgaan met AI.",
+      "also_covered_by": []
+    },
+    {
+      "id": "785d4ceb71a807a6705cd46d36b499b33f1c0b731acf950248ab4b575280e822",
+      "title": "Zo namen onderzoekers ChatGPT-accounts over",
+      "summary": "Parameter Labs vond een keten van kwetsbaarheden in de HTML-voorbeelden van ChatGPT. Code in een afgeschermd iframe kon via een virtueel toetsenbord HTML in de hoofdpagina injecteren en zo een CSP-beperking omzeilen via YouTube. Daarmee was het mogelijk privégegevens van gebruikers op te halen en weg te sluizen.",
+      "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-10-31T23:15:22+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "tools"
+      ],
+      "importance": 3,
+      "why_relevant": "Laat zien hoe kwetsbaar populaire AI-tools zijn voor datalekken bij publiek gebruik.",
+      "also_covered_by": [
+        "https://www.parameter.ai/labs/we-found-a-gap-at-openai"
+      ]
+    },
+    {
+      "id": "e04e671b67a176ea42c44f9d54c24e29a676082aaa3bcb00af75c6efe56733e8",
+      "title": "Nieuwe infographic vat aanbevelingen voor inclusieve bibliotheekdiensten samen",
+      "summary": "De IFLA-sectie voor bibliotheekdiensten aan mensen met een leesbeperking publiceerde een infographic bij haar richtlijnen. Die behandelt onder meer toegankelijke ruimtes en formaten, metadata, communicatie en programmering. Bibliotheken kunnen het gebruiken om hun dienstverlening toegankelijker te maken.",
+      "url": "https://www.ifla.org/news/new-infographic-highlights-key-recommendations-for-inclusive-library-services/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-10-29T12:41:08+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "bibliotheek",
+        "digitale-inclusie"
+      ],
+      "importance": 2,
+      "why_relevant": "Praktisch overzicht voor toegankelijkheid, ook bij het inzetten van AI-leeshulpmiddelen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "614bf30e1072b63cf615f8094ca65c00d368566a81d0a3b14388acc0b649650f",
+      "title": "MetLib 2026, dag 4: veerkracht, solidariteit en brieven aan de toekomst",
+      "summary": "De laatste dag van MetLib 2026 in Rotterdam stond in het teken van veerkracht en gemeenschap. De directeur van het Khanenko Museum in Kyiv vertelde hoe haar instelling tijdens de oorlog verbonden bleef met het publiek. Deelnemers werkten ook aan toekomstscenario's en schreven brieven aan een bibliothecaris uit de toekomst.",
+      "url": "https://www.ifla.org/news/metlib-2026-day-4-resilience-solidarity-and-letters-to-the-future/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-10-30T13:38:57+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek",
+        "evenement"
+      ],
+      "importance": 2,
+      "why_relevant": "Inspiratie over toekomstbestendigheid van bibliotheken, op een congres in eigen land.",
+      "also_covered_by": []
+    },
+    {
+      "id": "a2f91ccc4ba3cd39ab2994f0bc095e3efb0918ca79b56df5cfb262684f4adaf4",
+      "title": "AI-startup hackt Anthropic en krijgt toegang tot medewerkergegevens en interne berichten",
+      "summary": "Volgens India Today wist een AI-startup binnen twaalf uur in te breken bij Anthropic. Daarbij zou men bij gegevens van medewerkers en interne berichten zijn gekomen. Het bericht komt van één bron en is nog niet bevestigd.",
+      "url": "https://www.indiatoday.in/technology/news/story/ai-startup-hacks-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages-3025452-2026-10-26",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-10-31T13:25:10Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat zien dat ook grote AI-bedrijven kwetsbaar zijn voor datalekken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "4694cfbe3b290c441c2a3865ddad09f7c430f00f87310ceae49b4c1d1419250d",
+      "title": "Watermerken in AI-tekst en kwaliteitsverlies",
+      "summary": "Een blogbericht gaat over de wisselwerking tussen het watermerken van AI-tekst en de kwaliteit van die tekst. Het sluit aan op de discussie over herkenbaarheid van AI-output, zoals nu bij Grok.",
+      "url": "https://blog.keyvan.net/p/ai-text-watermarking-and-quality",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-10-31T21:50:13Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Achtergrond bij de vraag hoe AI-teksten herkenbaar te maken zijn.",
+      "also_covered_by": []
+    },
+    {
+      "id": "55195dabd9eaace8473b2df02a91c47912323dcfe68fd596c596b551c9f1dc8f",
+      "title": "Claude mag geen bestaande games meer bewerken of repliceren",
+      "summary": "Anthropic heeft de basisprompt van Claude aangescherpt: het model mag geen specifieke bestaande games meer herschrijven. Ontwikkelaars melden dit ook op GitHub. Het raakt gamemakers die Claude gebruikten om bestaande games te verbeteren.",
+      "url": "https://tweakers.net/nieuws/254004/claude-mag-geen-bestaande-games-meer-bewerken-of-repliceren.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-11-01T09:53:50+01:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Illustreert hoe AI-aanbieders auteursrechtelijke grenzen in hun modellen inbouwen.",
+      "also_covered_by": [
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-ai-model-is-now-blocking-attempts-at-video-game-recreation-and-cloning-users-also-claim-non-malicious-generic-reverse-engineering-tasks-are-blocked"
+      ]
+    },
+    {
+      "id": "b9f8247ad9a3752e18f5fc2f95e1a6f00225f39c311efbc3b909d5522a50e45e",
+      "title": "Imec gaat onderzoek doen voor het Belgische leger",
+      "summary": "Het Belgische onderzoeksinstituut imec gaat samenwerken met het ministerie van Defensie. Het onderzoek richt zich op onder meer communicatie, AI, locatiegegevens en sensoren. Daarmee krijgt militaire toepassing van AI in Vlaanderen meer gewicht.",
+      "url": "https://tweakers.net/nieuws/254010/imec-gaat-onderzoek-doen-naar-toepassingen-voor-belgisch-leger.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-11-01T11:24:37+01:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "onderzoek",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont hoe Vlaamse AI-onderzoeksinstellingen zich richten op defensie.",
+      "also_covered_by": []
+    },
+    {
+      "id": "9fc5ee213b01bfece9987a3f5f2cb28aa63bac5fb1454b877abb4ce81a7f1193",
+      "title": "datasette-llm 0.1a9 vereenvoudigt de start met Datasette Agent",
+      "summary": "De plugin datasette-llm neemt nu automatisch het standaardmodel van LLM over. Daardoor hoef je voor Datasette Agent geen standaardmodel meer apart in te stellen. Het is een kleine verbetering voor ontwikkelaars.",
+      "url": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-10-31T22:10:01+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "open-source"
+      ],
+      "importance": 1,
+      "why_relevant": "Technisch randnieuws; alleen interessant als je zelf met open-sourcetools experimenteert.",
+      "also_covered_by": []
+    }
+  ]
+}
