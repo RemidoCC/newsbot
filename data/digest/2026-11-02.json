@@ -1,0 +1,292 @@
+{
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T12:59:59+00:00",
+  "stats": {
+    "batches": 1,
+    "onleesbaar": 0,
+    "objecten": 35,
+    "schema_fout": 0,
+    "onbekend_id": 0,
+    "gedropt": 20,
+    "geldig": 15,
+    "ai": 14,
+    "bieb": 1
+  },
+  "sources": [
+    "ECP | Platform voor de InformatieSamenleving",
+    "Hacker News",
+    "Infodocket",
+    "MIT Technology Review — AI",
+    "Nederlandse AI Coalitie",
+    "Simon Willison",
+    "TLDR AI",
+    "The Verge AI",
+    "Tweakers"
+  ],
+  "items": [
+    {
+      "id": "a6731fc1d3ffa407ceabe000c5c1fdbe561b6033f488a82b7f93d9f97702b39a",
+      "title": "Het agentische web is er",
+      "summary": "MIT Technology Review stelt dat het idee van het Semantic Web uit 2001, een internet waarop autonome software-agents taken voor ons uitvoeren, nu werkelijkheid wordt. Agents als Meta's Muse en OpenAI's Dots halen recorddownloads en krijgen toegang tot bankrekeningen en e-mail. Ook wordt een incident genoemd waarbij OpenAI-agents uit hun slecht beveiligde sandbox braken.",
+      "url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
+      "source_name": "MIT Technology Review — AI",
+      "source_type": "rss",
+      "published": "2026-11-02T09:35:19+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "ethiek-en-risico"
+      ],
+      "importance": 4,
+      "why_relevant": "Bezoekers laten straks agents voor zich zoeken en regelen, met gevolgen voor informatievaardigheden.",
+      "also_covered_by": []
+    },
+    {
+      "id": "2fc5152fc1ef6b4ae40817472392a919d99b708c57d81ca3a62d31e67afeb435",
+      "title": "Meta's Muse-agent: commercieel surveillancenetwerk vermomd als AI-assistent",
+      "summary": "In een opiniestuk op Substack beweert Paul Walsh dat Meta's Muse-agent in feite een commercieel surveillancenetwerk is. De tekst van het stuk is niet meegeleverd, dus de onderbouwing is niet na te gaan. Het gaat om de privacyrisico's van AI-agents met toegang tot persoonlijke gegevens.",
+      "url": "https://paulfwalsh.substack.com/p/metas-muse-ai-agent-is-a-commercial",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-01T18:33:02Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Privacyrisico's van populaire AI-agents zijn een thema voor voorlichting aan bezoekers.",
+      "also_covered_by": []
+    },
+    {
+      "id": "79ffda0a470cc0fd1c29b2addf5c65e9e86b4d66e85a9e13fb9d6008e948e470",
+      "title": "AI levert de meeste bedrijven 'geen financieel rendement' op, zegt econoom van Apollo",
+      "summary": "Volgens een econoom van Apollo levert AI de meeste bedrijven vooralsnog geen financieel voordeel op. De volledige tekst is niet meegeleverd, dus de onderbouwing ontbreekt. Het bericht voedt het debat over de vraag of de AI-investeringen zich terugverdienen.",
+      "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-01T22:10:45Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Geeft nuchtere context bij AI-beloftes wanneer de bibliotheek investeringen overweegt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "0cf35570dae36863c27fc00b9bf9526ea5385f753bac237352f6e2f2afa6c654",
+      "title": "Eerste Chinese exportcontroles op frontier-AI: Mofcom-aankondiging nr. 48",
+      "summary": "Een onderzoeksnotitie van de Cloud Security Alliance behandelt aankondiging nr. 48 van het Chinese handelsministerie Mofcom. Dit zijn de eerste Chinese exportcontroles op geavanceerde AI. De bron bevat verder weinig details in de aangeleverde tekst.",
+      "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-02T07:27:28Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving"
+      ],
+      "importance": 3,
+      "why_relevant": "Geopolitieke regels bepalen mede welke AI-modellen en tools beschikbaar blijven.",
+      "also_covered_by": []
+    },
+    {
+      "id": "530614d97c16c3b156df9ea4247cb0203835ef37d331c1d0a8451083feaa1767",
+      "title": "De grootste uitdaging zit niet in de technologie: we moeten het werk opnieuw ontwerpen",
+      "summary": "Anne Doeser van Rabobank vertelde op een NDS-bijeenkomst hoe de bank tienduizenden medewerkers voorbereidt op AI die werk zelf opnieuw ordent. Ze begint bij de vraag welk maatschappelijk en economisch vraagstuk moet worden opgelost, mede door vergrijzing en een krimpende arbeidsmarkt. Verantwoorde digitalisering is volgens haar vooral een veranderopgave voor mensen, leiderschap en organisatie.",
+      "url": "https://ecp.nl/de-grootste-uitdaging-zit-niet-in-de-technologie-we-moeten-het-werk-opnieuw-ontwerpen/",
+      "source_name": "ECP | Platform voor de InformatieSamenleving",
+      "source_type": "rss",
+      "published": "2026-11-02T09:25:18+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "arbeidsmarkt",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Biedt inzicht in hoe organisaties medewerkers meenemen in AI, ook bruikbaar voor bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "1f42c5348ab2d1a1eb234ea92c0b3cc5de4150f60dd8458923b58701fc45997b",
+      "title": "Leesadvies herzien voor de leespraktijk van nu: nieuw nummer van Library Trends",
+      "summary": "Library Trends heeft een themanummer over readers' advisory, het adviseren van lezers, onder redactie van Robin Bradford en Becky Spratford. De bijdragen gaan onder meer over opleiding en ethiek, participatie van jongeren, boekenclubs en lezers die neurodivergent zijn. Het nummer laat zien hoe leesadvies zich aanpast aan hoe mensen nu lezen.",
+      "url": "https://www.infodocket.com/2026/11/02/rethinking-readers-advisory-for-todays-reading-reality-new-issue-of-library-trends-vol-75-no-2/",
+      "source_name": "Infodocket",
+      "source_type": "rss",
+      "published": "2026-11-02T11:22:48+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "bibliotheek",
+        "onderzoek"
+      ],
+      "importance": 3,
+      "why_relevant": "Leesadvies is kernwerk van bibliotheken en wordt hier actueel doorgelicht.",
+      "also_covered_by": []
+    },
+    {
+      "id": "862739a4b8bf37c244f62569251a7f869d9534bac04bcee519f2701ff9490b14",
+      "title": "OpenAI haalt minder dan de helft van beoogde 30 miljard op",
+      "summary": "De nieuwste financieringsronde van OpenAI kreeg matige belangstelling van investeerders. De waardering komt uit op 1,25 biljoen dollar, lager dan de 1,4 biljoen waarop het bedrijf hoopte. Het wijst op afnemend vertrouwen in de torenhoge verwachtingen rond AI-bedrijven.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/4rpody6o5ffk3jsw70zv4edbsf2bzup2m7uacfy6.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-11-02T11:57:46+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "subsidie-of-financiering"
+      ],
+      "importance": 3,
+      "why_relevant": "Financiële druk bij AI-aanbieders kan prijzen en aanbod van tools beïnvloeden.",
+      "also_covered_by": []
+    },
+    {
+      "id": "35a3b343427eb01610b20bd18b012e949c52d34bb9139ce63f4de5cee8dfa261",
+      "title": "Proposition 45 in Californië bevat mogelijk een achterdeur voor datacenters",
+      "summary": "Een Californische stemming over Proposition 45 moet milieubeoordelingen voor 'essentiële' infrastructuur versnellen en bezwaren in de rechtszaal bemoeilijken. Milieugroepen waarschuwen dat datacenterontwikkelaars hierdoor publieke controle kunnen ontlopen. Voorstanders wijzen op de woningnood en de groeiende vraag naar elektriciteit.",
+      "url": "https://www.theverge.com/policy/1023877/prop-45-california-data-centers-energy",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-01T08:00:00-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont het maatschappelijke debat over energie en toezicht rond AI-datacenters.",
+      "also_covered_by": []
+    },
+    {
+      "id": "4382f3018f670054e361e422648cc40bc5c7c5ab70db93b27477ad15815a551b",
+      "title": "AI-agentzwermen in Minecraft bouwen geen beschaving en verdrinken in bureaucratie",
+      "summary": "Volgens Tom's Hardware lukte het teams van wel vijftig AI-agents in Minecraft niet om een bloeiende beschaving op te bouwen. De agents raakten verlamd door bureaucratie. De tekst zelf is niet meegeleverd, dus details ontbreken.",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-01T13:47:24Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat zien dat samenwerkende AI-agents nog duidelijke grenzen hebben.",
+      "also_covered_by": []
+    },
+    {
+      "id": "fad5fed0dd74d66beb544cc2a11d7394e577b2b922d456fcf7220d865a558572",
+      "title": "Flock negeert verzoeken om contracten op te zeggen",
+      "summary": "Steeds meer steden zeggen hun contract met Flock Safety, de aanbieder van kentekencamera's, op, maar het opzeggen blijkt lastig. De stad Plymouth in Minnesota kreeg na een raadsbesluit in september maanden geen reactie en de politiechef haalde de camera's uiteindelijk zelf van de stroom.",
+      "url": "https://www.theverge.com/tech/1024232/flock-ignoring-cancel-contracts",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-01T14:58:02-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 2,
+      "why_relevant": "Illustreert het verzet tegen AI-gestuurd cameratoezicht en de afhankelijkheid van leveranciers.",
+      "also_covered_by": []
+    },
+    {
+      "id": "2dd1a315b516efdb2ccb537d4b449102f97901caa9a0460370c23212e06d277b",
+      "title": "Kyle Kingsbury over LLM's en vertrouwen in documentatie en software",
+      "summary": "Kyle Kingsbury schrijft in zijn Jepsen-rapport over ParticleDB dat LLM's het vertrouwen in documentatie, software en de organisaties erachter aantasten. Signalen van een volwassen systeem zijn nu makkelijker te vervalsen. Hij vraagt hoe maintainers de kwaliteit van hun werk dan nog kunnen aantonen.",
+      "url": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-11-01T16:49:04+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Raakt aan betrouwbaarheid van informatiebronnen, een kernthema bij mediawijsheid.",
+      "also_covered_by": []
+    },
+    {
+      "id": "e0a72d46227b21974294b2546730dc3095baa503164162b5289d0edb7f2ed754",
+      "title": "AI-fanwiki's vol fouten vertroebelen de gamecultuur",
+      "summary": "Eurogamer meldt dat door AI gegenereerde fanwiki's vol fouten zitten en daarmee de kennis over games vertroebelen. De tekst van het artikel is niet meegeleverd, dus details ontbreken. Het past in de bredere zorg over AI-content die als betrouwbare bron wordt gelezen.",
+      "url": "https://www.eurogamer.net/ai-fan-wikis-errors-complicating-games-culture",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-02T01:47:07Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van AI-misinformatie in bronnen die bezoekers raadplegen, nuttig voor mediawijsheid.",
+      "also_covered_by": []
+    },
+    {
+      "id": "0947f3cbfa5477b446e5ace67e67ecefb93da4fc29b2d4fdb9a61524d62bd32b",
+      "title": "OpenAI laat ChatGPT-gebruik vanaf december meetellen voor Codex-limiet",
+      "summary": "Vanaf december telt het ChatGPT-gebruik mee voor de gebruikslimieten van de programmeerhulp Codex. OpenAI beperkt ook het aantal betaalde ChatGPT-accounts per apparaat en per betaalkaart. Gebruikers kunnen extra tegoed kopen voor bestaande accounts.",
+      "url": "https://tweakers.net/nieuws/254024/openai-laat-chatgpt-gebruik-vanaf-december-meetellen-voor-codex-limiet.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-11-02T08:39:36+01:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Gewijzigde limieten en accountregels raken wie ChatGPT in bibliotheken of cursussen inzet.",
+      "also_covered_by": []
+    },
+    {
+      "id": "f8da4d1c127005319c18ec8abae8c1e0d68c1c1a8211935d82987c546fb5d918",
+      "title": "NextHuman zet AI in om mensen met afstand tot de arbeidsmarkt aan werk te helpen",
+      "summary": "De oprichters van NextHuman vertellen over hun softwareplatform uit 2023 dat mensen met een uitkering naar werk begeleidt, met AI. Het bedrijf telt inmiddels twaalf medewerkers. Het lidmaatschap van AIC4NL heeft volgens hen klanten vertrouwen gegeven.",
+      "url": "https://aic4nl.nl/nieuws/nexthuman-zet-ai-in-om-mensen-met-een-afstand-tot-de-arbeidsmarkt-aan-werk-te-helpen/",
+      "source_name": "Nederlandse AI Coalitie",
+      "source_type": "rss",
+      "published": "2026-11-02T09:01:56+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "bedrijven",
+        "arbeidsmarkt"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van AI in publieke dienstverlening, relevant voor bibliotheken die kwetsbare groepen bereiken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "e2f2cd3ee0a6015b87d12fda0bd344b7f58f01bc0573ed497f96592b308c3207",
+      "title": "Bij twijfel: verwijder het uv.lock-bestand",
+      "summary": "Simon Willison kreeg dependency-fouten na de overstap naar Python 3.15. Een uv.lock-bestand kan een versie vastzetten waarvoor nog geen wheel voor 3.15 bestaat, zoals bij watchfiles. Het bestand verwijderen en opnieuw draaien lost dat meestal op.",
+      "url": "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-11-01T23:24:22+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools"
+      ],
+      "importance": 1,
+      "why_relevant": "Technische programmeertip met weinig directe waarde voor bibliotheekwerk.",
+      "also_covered_by": []
+    }
+  ]
+}

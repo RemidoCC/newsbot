@@ -1,12 +1,5 @@
 [
   {
-    "ts": "2026-10-19T10:25:04+00:00",
-    "source": "Emerce",
-    "stage": "collect",
-    "error": "ValueError: HTTP 200 maar 0 items (content-type: text/html)",
-    "url": "https://www.emerce.nl/nieuws/rss"
-  },
-  {
     "ts": "2026-10-20T09:44:00+00:00",
     "source": "Emerce",
     "stage": "collect",
@@ -675,5 +668,12 @@
     "source": "enriched_01.json",
     "stage": "validate_schema",
     "error": "d22f82b2e852: 'Geen AI-onderwerp.' is too short"
+  },
+  {
+    "ts": "2026-11-02T12:58:14+00:00",
+    "source": "Emerce",
+    "stage": "collect",
+    "error": "ValueError: HTTP 200 maar 0 items (content-type: text/html)",
+    "url": "https://www.emerce.nl/nieuws/rss"
   }
 ]
