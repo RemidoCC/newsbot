@@ -1,0 +1,473 @@
+{
+  "date": "2026-11-04",
+  "generated_at": "2026-11-04T12:44:44+00:00",
+  "stats": {
+    "batches": 2,
+    "onleesbaar": 0,
+    "objecten": 71,
+    "schema_fout": 0,
+    "onbekend_id": 0,
+    "gedropt": 47,
+    "geldig": 24,
+    "ai": 16,
+    "bieb": 8
+  },
+  "sources": [
+    "Ars Technica AI",
+    "Bits of Freedom",
+    "Google DeepMind",
+    "Hacker News",
+    "IFLA",
+    "Infodocket",
+    "Koninklijke Bibliotheek",
+    "MIT Technology Review — AI",
+    "OpenAI",
+    "Probiblio",
+    "Public Libraries Online",
+    "Simon Willison",
+    "The Verge AI",
+    "Tweakers"
+  ],
+  "items": [
+    {
+      "id": "f98fb46c88adf1abf0dbd26c343c0749995d3e6a5fda89b416812c70cc2c5a5d",
+      "title": "Cambridge, Johns Hopkins en Princeton lanceren Meridian, een MCP-toegangspoort tot wetenschappelijke content",
+      "summary": "Drie universiteitsuitgeverijen beginnen samen met platformaanbieder Cashmere aan Meridian, een gateway die AI-assistenten via het Model Context Protocol toegang geeft tot peer-reviewed content. Antwoorden krijgen daarbij bronvermelding en verwijzen via de bibliotheektoegang naar de officiële versie. Bibliotheken krijgen COUNTER-rapportages over het gebruik van gelicentieerde collecties in AI-onderzoek.",
+      "url": "https://www.infodocket.com/2026/11/03/company-news-cambridge-university-press-johns-hopkins-university-press-princeton-university-press-and-cashmere-are-launching-meridian-an-mcp-gateway-to-content/",
+      "source_name": "Infodocket",
+      "source_type": "rss",
+      "published": "2026-11-03T20:31:15+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bibliotheek",
+        "bedrijven"
+      ],
+      "importance": 4,
+      "why_relevant": "Laat zien hoe bibliotheekcollecties en AI-assistenten gekoppeld worden, inclusief gebruiksrapportage.",
+      "also_covered_by": []
+    },
+    {
+      "id": "64f526179fd0e30f310a689b33a10c65e512e19ed24d7fc64db7e6e9a847f8d7",
+      "title": "Google schakelt zoekfunctie mogelijk uit op scholen die geen AI willen",
+      "summary": "Volgens The New York Times kan Google Zoeken volledig uitgeschakeld worden voor scholen die de AI-functies van het bedrijf afwijzen. Google-onderwijsvicepresident Chris Philips zegt dat zoeken en AI diep met elkaar verweven zijn en niet los worden aangeboden. Scholen moeten dus kiezen tussen alle AI-functies of geen zoekfunctie.",
+      "url": "https://tweakers.net/nieuws/254116/google-schakelt-zoekfunctie-mogelijk-volledig-uit-op-scholen-die-geen-ai-willen.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-11-04T07:45:57+01:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "onderwijs",
+        "bedrijven",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 4,
+      "why_relevant": "Raakt scholen waarmee bibliotheken samenwerken rond mediawijsheid en digitale geletterdheid.",
+      "also_covered_by": [
+        "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/"
+      ]
+    },
+    {
+      "id": "107d9d3d095c2b72a197d078ff639ce6a8e637abd70cd34d5a03a686885d11ad",
+      "title": "Oxford University Press start MCP-pilot met Harvard Library, Wharton en Oxford",
+      "summary": "Van oktober tot december 2026 koppelt OUP de ChatGPT Edu-accounts van drie instellingen aan zijn academische content via een MCP-server van Silverchair. Studenten en onderzoekers kunnen zo binnen ChatGPT bronnen raadplegen waarop hun instelling een licentie heeft. Aanleiding is het lage vertrouwen in AI-uitvoer en de opkomst van zoekopdrachten zonder doorklik.",
+      "url": "https://www.infodocket.com/2026/11/03/company-news-oxford-university-press-launches-mcp-pilot-partners-include-harvard-library-wharton-school-and-university-of-oxford/",
+      "source_name": "Infodocket",
+      "source_type": "rss",
+      "published": "2026-11-03T14:24:50+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven",
+        "onderwijs"
+      ],
+      "importance": 3,
+      "why_relevant": "Gelicentieerde bibliotheekcontent wordt direct in AI-assistenten beschikbaar, wat zoekgedrag verandert.",
+      "also_covered_by": []
+    },
+    {
+      "id": "2258ac95ca26c0c65e05b2517adf981ef2f13114e79ab58a5e72b65b042a422a",
+      "title": "Google zet zoeken uit voor scholen die AI weigeren, meldt NYT",
+      "summary": "Volgens The New York Times dreigt Google de zoekfunctie uit te schakelen voor scholen die AI-functies afwijzen. Details ontbreken in het aangeleverde bericht, dus de precieze voorwaarden en reikwijdte zijn onduidelijk. Het raakt aan de vraag hoeveel keuzevrijheid onderwijsinstellingen houden bij AI van grote techbedrijven.",
+      "url": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-03T15:25:47Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderwijs",
+        "beleid-en-regelgeving",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Raakt aan keuzevrijheid rond AI in onderwijs, ook relevant voor bibliotheken die met scholen samenwerken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "fb61513d38bb2f0957279cf11ad6b1b4cb4a93080dca704419fa12df4e02e399",
+      "title": "Meta schorst Instagram-account No Kings na foutieve botdetectie rond Claude-tool",
+      "summary": "Meta schorste tijdelijk het Instagram-account van de Amerikaanse beweging No Kings en blokkeerde de beheerders vier uur. Volgens Meta leek het account een bot, doordat het een Claude-AI-tool gebruikte. Parlementariërs en veertien procureurs-generaal vragen om opheldering, terwijl No Kings eist dat Meta garandeert dat zoiets rond de verkiezingen niet opnieuw gebeurt.",
+      "url": "https://arstechnica.com/tech-policy/2026/11/trump-wanted-to-give-no-kings-no-air-then-meta-suspended-its-instagram/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-11-03T15:39:30+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Laat zien hoe geautomatiseerde moderatie en AI-gebruik de toegang tot publieke informatie kunnen raken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "8466290a4a63f493c42bd4dccd7e4ff93f571e0340df56655a99d6d50ae48861",
+      "title": "NYT eist dat Brave paywallblokkering stopzet en deals met AI-bedrijven beëindigt",
+      "summary": "De New York Times en andere kranten klagen Brave aan omdat de browsermaker paywalls zou omzeilen en de content zou verkopen aan AI-bedrijven via de Brave Search API. Volgens de aanklacht verdiende Brave meer dan 100 miljoen dollar terwijl uitgevers niets kregen. Genoemde afnemers zijn onder meer Anthropic, Perplexity, Mistral, xAI en Cohere.",
+      "url": "https://arstechnica.com/tech-policy/2026/11/nyt-demands-brave-shut-down-its-paywall-blocker-and-end-deals-with-ai-firms/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-11-03T18:30:27+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "bedrijven",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Auteursrecht en AI-trainingsdata raken direct de informatievoorziening waar bibliotheken op leunen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "d046e972df42f0e9e3c5574c580db99b03e41182cb97aa84c6a250e801698015",
+      "title": "IFLA MENA en Bibliotheca Alexandrina sluiten workshop over AI in bibliotheken af",
+      "summary": "De IFLA-regiocommissie voor het Midden-Oosten en Noord-Afrika en de Bibliotheca Alexandrina hielden een workshop over AI in bibliotheken. Deelnemers schreven in groepen een eerste praktisch kader voor AI-gebruik, gebaseerd op de AI-gids van de Egyptische universiteitenraad en internationale standaarden. Het document wordt de komende weken uitgewerkt, met nadruk op ethiek, en er komen vervolgtrainingen.",
+      "url": "https://www.ifla.org/news/ifla-mena-rdc-and-bibliotheca-alexandrina-conclude-landmark-workshop-on-ai-in-libraries/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-11-04T03:41:40+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "bibliotheek",
+        "ethiek-en-risico",
+        "cursus-of-workshop"
+      ],
+      "importance": 3,
+      "why_relevant": "Een concreet bibliotheekkader voor AI-gebruik kan als voorbeeld dienen voor eigen beleid.",
+      "also_covered_by": []
+    },
+    {
+      "id": "d5eecd06151a76634490f07c178ef72e5cb4ec2ccbcce8b3f4c2a43a35d210dd",
+      "title": "Gebruiker meldt: Gemini traint op chatgeschiedenis, ook bij betaalde abonnementen",
+      "summary": "Een Hacker News-bericht stelt dat opgeslagen Gemini-chats van persoonlijke Google AI-abonnees voor training gebruikt kunnen worden, tenzij de activiteitengeschiedenis uitstaat. Volgens de aangehaalde Google-supportpagina's kan een deel van de chats door menselijke beoordelaars worden gelezen en tot drie jaar bewaard blijven. Uitzetten betekent dat chats na 72 uur verdwijnen.",
+      "url": "https://news.ycombinator.com/item?id=50363461",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-04T10:10:27Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "tools"
+      ],
+      "importance": 3,
+      "why_relevant": "Nuttig voor privacyadvies aan bezoekers die betaalde AI-diensten gebruiken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "4c9fa7f941ad7d455d94b3669a588a038c45894da5274d5580f9e61ef85b5014",
+      "title": "Vernieuwde website voor het bibliotheeknetwerk",
+      "summary": "De website bibliotheeknetwerk.nl is vernieuwd. Partners uit de bibliotheeksector, onder wie de KB nationale bibliotheek, werken samen aan de site.",
+      "url": "https://www.kb.nl/nieuws/vernieuwde-website-voor-het-bibliotheeknetwerk",
+      "source_name": "Koninklijke Bibliotheek",
+      "source_type": "rss",
+      "published": "2026-11-03T08:30:59+01:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek"
+      ],
+      "importance": 2,
+      "why_relevant": "Centrale plek voor Nederlandse bibliotheeknieuws en samenwerking, nu in nieuwe vorm.",
+      "also_covered_by": []
+    },
+    {
+      "id": "a69655d40280296652e58332049499ef08812e9a127e3e3681f70d99dd02d6ef",
+      "title": "The Download: AI-agenten in toom houden en de loyaliteitstest rond 'Super Intelligence'",
+      "summary": "De nieuwsbrief van MIT Technology Review beschrijft 'reverse game theory', waarbij regels zo ontworpen worden dat AI-agenten zich eraan houden, al is onduidelijk of dat in de praktijk werkt. Daarnaast meldt het dat Amerikaanse overheidsdiensten na een presidentieel besluit 'AI' moeten hernoemen naar 'Super Intelligence'. Het gebruik van die term dreigt een politieke loyaliteitstest te worden.",
+      "url": "https://www.technologyreview.com/2026/11/03/1147940/the-download-controlling-ai-agents-trump-super-intelligence/",
+      "source_name": "MIT Technology Review — AI",
+      "source_type": "rss",
+      "published": "2026-11-03T13:10:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 2,
+      "why_relevant": "Geeft context bij AI-beheersing en politisering van AI-taal in de VS.",
+      "also_covered_by": []
+    },
+    {
+      "id": "43ba4263f18dc04d008df61e5721db7a2db9321c12d35e1602715c92d51c0697",
+      "title": "Mystery guest-onderzoek 2026: gastvrijheid sterk, initiatief kan beter",
+      "summary": "Voor het vierde jaar is in Noord- en Zuid-Holland onderzocht hoe bibliotheken klanten ontvangen. Bij 7 bibliotheken en 40 vestigingen waren 125 bezoeken, onder meer met vragen over digitale vaardigheden en Nederlands oefenen. Klanten worden warm en behulpzaam ontvangen, maar medewerkers kunnen vaker zelf het initiatief nemen en doorvragen.",
+      "url": "https://www.probiblio.nl/uitkomsten-mystery-guest-onderzoek-2026-gastvrijheid-sterk-initiatief-kan-beter/",
+      "source_name": "Probiblio",
+      "source_type": "rss",
+      "published": "2026-11-03T13:59:47+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek",
+        "onderzoek"
+      ],
+      "importance": 2,
+      "why_relevant": "Praktische tips voor klantgericht werken, ook bij hulpvragen over digitale vaardigheden.",
+      "also_covered_by": []
+    },
+    {
+      "id": "72f7292ad98bb1ea9ae0aaccdf2b5ffb28e5ddc805b26ace001952c5152dd79b",
+      "title": "SUSE ontslaat naar verluidt 10 procent van zijn personeel vanwege AI",
+      "summary": "Softwarebedrijf SUSE wil tien procent van zijn personeel ontslaan, blijkt uit een intern memo dat The Register inzag. Het bedrijf noemt automatisering en AI als reden. Het is een nieuw voorbeeld van AI als aanleiding voor banenverlies in de techsector.",
+      "url": "https://tweakers.net/nieuws/254086/suse-ontslaat-10-procent-van-zijn-personeel-vanwege-ai.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-11-03T14:06:24+01:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "arbeidsmarkt",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Illustreert de gevolgen van AI voor werk, een onderwerp waar bezoekers vragen over stellen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "b5cba0d011349b3bc50111809ab484ae3a7ae1efda7d7776ece58fac266468bd",
+      "title": "Qwen 3.8 27B op mijn laptop kan ook modelgewichten interpreteren",
+      "summary": "Simon Willison probeert een voorbeeld uit het artikel over Weight-Space Programming, waarin taalmodellen de ruwe gewichten van neurale netwerken lezen en aanpassen. Hij laat zien dat het open model Qwen 3.8 27B dit lokaal op zijn laptop ook kan. Het onderzoek zelf meldt dat GPT-6 Astra met een kleine aanpassing van de gewichten de wiskundescore van een klein model flink verhoogde.",
+      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-11-03T16:29:48+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "onderzoek",
+        "open-source"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont dat lokale open modellen verrassend geavanceerde taken aankunnen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "6bd7589fdd7bfe4aede218e1f2524c3d30855bf0b4309d331ebc6eb28dabbcf0",
+      "title": "Binance: hackers gebruikten nepsollicitaties en interne AI-tool bij diefstal van 6,3 miljard dollar",
+      "summary": "Volgens een analyse van Binance combineerden hackers bekende technieken over enkele maanden. Ze begonnen met een besmette installer via een kwaadaardige Google-advertentie en benaderden daarna een ontwikkelaar met een nepsollicitatie. Zo kregen ze toegang tot de grootste cryptodiefstal tot nu toe; de rol van de interne AI-tool wordt in de aangeleverde tekst niet uitgewerkt.",
+      "url": "https://www.theverge.com/news/1025576/binance-cyrpto-theft-explained",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-03T17:04:02-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat zien hoe social engineering en AI-tools samen digitale veiligheidsrisico's vergroten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "8b6f4bfb0fe178f190b87793f1169fbf92aa8e33273619b437d063328c6a93e1",
+      "title": "Nexus Mods verplicht melding van AI-gebruik bij nieuwe mods",
+      "summary": "De grote modsite Nexus Mods verplicht makers van nieuwe mods voortaan aan te geven of ze AI hebben gebruikt. De site had al labels voor AI-gegenereerde en AI-ondersteunde mods, maar wil die informatie duidelijker en toegankelijker maken. Aanleiding zijn klachten van gebruikers dat AI-gebruik vaak niet duidelijk wordt vermeld.",
+      "url": "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-03T19:42:10-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van transparantie over AI-gebruik, bruikbaar bij gesprekken over herkomst van content.",
+      "also_covered_by": []
+    },
+    {
+      "id": "4104f55a2265c0fee66765f58994b6464b1741d187aeacb00d7727e29afab461",
+      "title": "Google verdient nog niet aan AI zoals aan zoekadvertenties",
+      "summary": "Alphabet meldde dat het aantal zoekopdrachten het snelst groeit in vijf jaar. De omzetgroei van Search vertraagde echter naar 12 procent en de groei van betaalde klikken naar 8 procent. Intussen geeft Google dit jaar ongeveer 200 miljard dollar uit aan vooral AI-infrastructuur, en het aandeel is circa 14 procent gedaald.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1024862/google-search-ai-overviews-alphabet-earnings-q3",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-04T07:00:00-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont de financiële druk achter AI in zoekmachines die bezoekers dagelijks gebruiken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "abc168676340d02f059302654ad2384d6c2fa5a8ac1e06d28222398738d499dd",
+      "title": "Hier zal geen update ons tegen kunnen beschermen",
+      "summary": "Bits of Freedom blikt terug op de week waarin veel websites uit voorzorg offline gingen vanwege kwetsbaarheden in PHP. Het vergelijkt dit met de bekende xkcd-jengatoren: essentiële digitale infrastructuur wordt vaak onderhouden door kleine, onderbezette groepen. De PHP Foundation vond de gaten zelf, wat volgens het stuk een resultaat is van investeringen in veiligheid.",
+      "url": "https://www.bitsoffreedom.nl/2026/11/04/hier-zal-geen-update-ons-tegen-kunnen-beschermen/",
+      "source_name": "Bits of Freedom",
+      "source_type": "rss",
+      "published": "2026-11-04T07:30:20+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "open-source",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Verklaart de kwetsbaarheid van digitale infrastructuur waar ook bibliotheeksites op leunen.",
+      "also_covered_by": [
+        "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability"
+      ]
+    },
+    {
+      "id": "019edb616369c3322f4c44a55e04677f77bd523e681eb1a6308bc4ebad0c1377",
+      "title": "OpenAI benoemt Jill Hazelbaker tot Chief Corporate Affairs Officer",
+      "summary": "Jill Hazelbaker komt bij OpenAI als Chief Corporate Affairs Officer. Zij gaat de wereldwijde communicatie en bedrijfspositionering leiden.",
+      "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-11-03T00:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 1,
+      "why_relevant": "Personeelsnieuws bij OpenAI, nauwelijks van belang voor bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "34e7d62615202d0de65fe802c6c6ca14703e67df603d58e71ec501e575fe9eda",
+      "title": "Hoe Cisco met OpenAI op machinesnelheid verdedigt",
+      "summary": "Cisco combineert zijn netwerkinzichten met OpenAI-modellen om bedrijfsbeveiliging adaptiever te maken. Het bericht is een klantverhaal van OpenAI met weinig detail.",
+      "url": "https://openai.com/index/cisco-cyber",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-11-03T08:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws over AI in cybersecurity bij grote bedrijven.",
+      "also_covered_by": []
+    },
+    {
+      "id": "25493a43cba550c7fe81484acae2a066a0e92a0ab7396a9764a18c9bb949ba12",
+      "title": "Engineering voor de fysieke wereld versnellen met ChatGPT en Codex",
+      "summary": "OpenAI beschrijft hoe ChatGPT en Codex ingenieurs helpen bij CAD, printplaatontwerp, simulatie en andere werkprocessen. Het bericht is kort en vooral gericht op toepassingen in de industrie.",
+      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-11-03T12:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws over AI in techniek, weinig directe link met bibliotheekwerk.",
+      "also_covered_by": []
+    },
+    {
+      "id": "23c4f130369cb97228de41513e9312b1e0dc594d86d03dc60f268cab647b367c",
+      "title": "Agentische cheminformatica met Google Antigravity",
+      "summary": "Google DeepMind laat zien hoe Antigravity en bijbehorende cheminformatica-vaardigheden werkprocessen in geneesmiddelenonderzoek versnellen. Het systeem doorzoekt stoffen en stelt nieuwe, gerigidificeerde macrocycli voor. Het is vooral een demonstratie van AI-agenten in wetenschappelijk werk.",
+      "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+      "source_name": "Google DeepMind",
+      "source_type": "rss",
+      "published": "2026-11-03T17:01:49+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "onderzoek"
+      ],
+      "importance": 1,
+      "why_relevant": "Illustreert hoe AI-agenten in gespecialiseerd wetenschappelijk werk doordringen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "3c156aaac1779e1b6c2b15c6067565f07d99f7f95a1623e07687426661a6e0ab",
+      "title": "Oproep voor artikelen: personeel werven, ondersteunen en ontwikkelen in bibliotheken",
+      "summary": "Het Amerikaanse vakblad Public Libraries zoekt bijdragen voor het nummer van maart/april 2027 over werving en ontwikkeling van bibliotheekmedewerkers. Gevraagd worden praktische ervaringen over onder meer werving, behoud, onboarding en leiderschapsontwikkeling. Voorstellen kunnen tot 16 november 2026 worden ingediend.",
+      "url": "https://publiclibrariesonline.org/2026/11/call-for-articles-recruiting-supporting-and-developing-library-staff/?utm_source=rss&utm_medium=rss&utm_campaign=call-for-articles-recruiting-supporting-and-developing-library-staff",
+      "source_name": "Public Libraries Online",
+      "source_type": "rss",
+      "published": "2026-11-03T19:09:39+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "bibliotheek",
+        "arbeidsmarkt"
+      ],
+      "importance": 1,
+      "why_relevant": "Geen AI-onderwerp, maar relevant voor wie over bibliotheekpersoneel schrijft.",
+      "also_covered_by": []
+    },
+    {
+      "id": "e18004395ab1ba9f01d0ed5cdcbcc4bd19c1b2eb2789ba0034efe4836fba6480",
+      "title": "Big Ten Open Books publiceert drie nieuwe collecties van elk honderd boeken",
+      "summary": "De Big Ten Academic Alliance breidt het project Big Ten Open Books uit met drie collecties van elk honderd boeken, samen met tien universiteitsuitgeverijen. De thema's zijn Afro-, Aziatisch- en Latijns-Amerikanen, gezondheidsverschillen en cultuur rond handicaps, en menselijke invloed op het milieu. De eerder gedrukte titels worden stapsgewijs open access beschikbaar gemaakt.",
+      "url": "https://www.infodocket.com/2026/11/03/big-ten-open-books-project-launches-three-new-collections/",
+      "source_name": "Infodocket",
+      "source_type": "rss",
+      "published": "2026-11-03T21:05:39+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "bibliotheek",
+        "subsidie-of-financiering"
+      ],
+      "importance": 1,
+      "why_relevant": "Open access boekcollecties zijn een model voor gratis toegang tot betrouwbare kennis.",
+      "also_covered_by": []
+    },
+    {
+      "id": "87d8ed6aa2b0187cafffbf179549b93a26530f02241e335566e795c89b680d23",
+      "title": "Californië verzet zich tegen eis van Trump-bestuur om eigen breedbandwetten te schrappen",
+      "summary": "Californië accepteert 1,42 miljard dollar uit het federale BEAD-breedbandprogramma, maar niet de voorwaarde om net-neutraliteitsregels en tariefregulering niet te handhaven. De staat behoudt het recht de voorwaarde aan te vechten en kan de uitkering van subsidies vertragen. Dat kan tot juridische gevechten leiden.",
+      "url": "https://arstechnica.com/tech-policy/2026/11/california-fights-preposterous-trump-admin-demand-to-scrap-state-broadband-laws/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-11-03T22:39:37+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "digitale-inclusie",
+        "subsidie-of-financiering"
+      ],
+      "importance": 1,
+      "why_relevant": "Breedbandfinanciering raakt digitale inclusie, maar het gaat om Amerikaanse regelgeving.",
+      "also_covered_by": []
+    }
+  ]
+}
