@@ -1,0 +1,627 @@
+{
+  "date": "2026-11-05",
+  "generated_at": "2026-11-05T12:54:52+00:00",
+  "stats": {
+    "batches": 2,
+    "onleesbaar": 0,
+    "objecten": 75,
+    "schema_fout": 0,
+    "onbekend_id": 0,
+    "gedropt": 42,
+    "geldig": 33,
+    "ai": 31,
+    "bieb": 2
+  },
+  "sources": [
+    "Ars Technica AI",
+    "Computable",
+    "Hacker News",
+    "IFLA",
+    "MIT Technology Review — AI",
+    "Nederlandse AI Coalitie",
+    "OpenAI",
+    "Public Libraries Online",
+    "Simon Willison",
+    "TLDR AI",
+    "The Rundown AI",
+    "The Verge AI",
+    "Tweakers"
+  ],
+  "items": [
+    {
+      "id": "9a4f95d2b10b077c4f2069042de9cd40eb58505d5d857ffdabd96589f6884340",
+      "title": "Bibliotheken geven samen vorm aan AI",
+      "summary": "Een bibliotheek in Pottsboro (Texas) liet inwoners in een workshop testen wat ChatGPT over hun dorp weet; het antwoord verwees voor een faxdienst naar een winkel twaalf mijl verderop. Via het AI Civics-programma van Data & Society onderzoeken grote en kleine bibliotheken samen wie er in AI wordt vertegenwoordigd en wie inspraak krijgt. AI wordt daarbij als onderdeel van het burgerleven benaderd.",
+      "url": "https://publiclibrariesonline.org/2026/11/libraries-shaping-ai-together/?utm_source=rss&utm_medium=rss&utm_campaign=libraries-shaping-ai-together",
+      "source_name": "Public Libraries Online",
+      "source_type": "rss",
+      "published": "2026-11-04T19:26:41+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "bibliotheek",
+        "digitale-geletterdheid",
+        "cursus-of-workshop"
+      ],
+      "importance": 4,
+      "why_relevant": "Concreet workshopvoorbeeld om AI en lokale vertegenwoordiging met bezoekers te bespreken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "486c70c94cb0cc7c69c7ca0177e23268c43476aa9ce2312ef25ef465c7cc4a1b",
+      "title": "Amerikaanse kiezers stemmen massaal voor beperking van AI en datacenters",
+      "summary": "Bij de verkiezingen werden 38 van de 44 lokale maatregelen om datacenters te beperken aangenomen, waaronder moratoria en verboden. Ook kozen kiezers kandidaten die strengere regels voor AI beloofden. Big Tech noemt de terugslag 'anti-Trump' en niet 'anti-tech'; de gevolgen treffen vooral projecten voor 2028.",
+      "url": "https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-11-04T20:55:50+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "bedrijven"
+      ],
+      "importance": 4,
+      "why_relevant": "Maatschappelijke weerstand tegen AI groeit, relevant voor publieksvragen in de bibliotheek.",
+      "also_covered_by": [
+        "https://www.404media.co/american-voters-overwhelmingly-reject-ai-data-centers/"
+      ]
+    },
+    {
+      "id": "295354ff422b0d4db922748e7c3d1bbebb7a9ab588c6d205b09352b92e57d424",
+      "title": "OpenAI lanceert Images 2.6 met GIF-creatie en nauwkeuriger bewerken",
+      "summary": "Images 2.6 genereert afbeeldingen sneller, kan GIF's maken en biedt preciezere bewerking en nieuwe API-opties. Het model is beschikbaar in ChatGPT, Codex en via de API.",
+      "url": "https://openai.com/index/introducing-images-2-6",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-11-04T00:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "tools"
+      ],
+      "importance": 3,
+      "why_relevant": "Beeldgeneratie wordt laagdrempeliger, relevant voor workshops en mediawijsheid.",
+      "also_covered_by": [
+        "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/mj57p9l6ivxjqzijeq0vjcbjq1xx48ecvtk787oh.html"
+      ]
+    },
+    {
+      "id": "cd81bd9bb28de6eea8d1711ac07202066caf737d918a0ea9383f756342291944",
+      "title": "Randstad: IT-teams groeien ondanks AI",
+      "summary": "Uit Randstad-onderzoek onder 1.100 beslissers in elf landen blijkt dat 86 procent van de werkgevers het IT-team uitbreidt. Het aantal vacatures met gevraagde AI-vaardigheden is in een jaar meer dan vervijfvoudigd. Werkgevers zoeken mensen die AI direct praktisch kunnen toepassen.",
+      "url": "https://www.computable.nl/2026/11/04/it-teams-groeien-ondanks-opmars-van-ai/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-11-04T06:15:00+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "arbeidsmarkt",
+        "onderzoek"
+      ],
+      "importance": 3,
+      "why_relevant": "Toont welke AI-vaardigheden de arbeidsmarkt vraagt, nuttig voor cursusaanbod.",
+      "also_covered_by": []
+    },
+    {
+      "id": "fbaa86a829ad59fd10c58d013d5956116602b056ae7817da772b6c91267e6908",
+      "title": "OpenAI vindt 948 beveiligingslekken in de Linux-kernel met een autonome pipeline",
+      "summary": "OpenAI bouwde een autonome pipeline die 948 lokale privilege-escalatiekwetsbaarheden in de Linux-kernel vond, valideerde en van patches voorzag. Het toont hoe AI kan worden ingezet voor beveiligingsonderzoek op grote schaal.",
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-11-04T08:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Illustreert wat AI kan op het gebied van cybersecurity, ook voor bibliotheeksystemen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "cdd11dac3a04c55178d18c31a34e8ad26fd0461bd1fcf5f4461dc7a01494146b",
+      "title": "Siri AI is in iOS 27.3 beta open voor ontwikkelaars",
+      "summary": "Ontwikkelaars kunnen Siri AI in de iOS 27.3 beta in hun apps integreren, met onder meer taalbegrip en persoonlijke context. De functie is niet beschikbaar in de EU en niet voor gebruikers onder de 13. Meer talen volgen later.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/vwwbf6xlhtzxhowbnm2a2x0cq0n95w7bxl4wjwrq.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-11-04T14:54:10+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Siri AI ontbreekt in de EU, dus Nederlandse bezoekers merken het voorlopig niet.",
+      "also_covered_by": []
+    },
+    {
+      "id": "7b0aac85f53b533b399c42ebc25a531a7848826519beef140b64ae19e33be72e",
+      "title": "Amerikaanse kiezers stemmen massaal tegen AI-datacenters bij tussentijdse verkiezingen",
+      "summary": "Bij de Amerikaanse tussentijdse verkiezingen stonden 45 lokale voorstellen over datacenters op het stembiljet. Volgens de bron stemden kiezers overwegend tegen die projecten. Dat wijst op groeiend publiek verzet tegen de fysieke uitbouw van AI; ook beurzen reageerden daar gevoelig op.",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/ai-data-centers-comprehensively-defeated-at-us-midterm-elections-45-measures-put-on-the-ballot-as-americans-overwhelmingly-vote-against-developments",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-04T15:35:51Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Toont groeiende maatschappelijke weerstand tegen AI-infrastructuur, relevant voor publieksgesprekken in de bieb.",
+      "also_covered_by": [
+        "https://www.cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html"
+      ]
+    },
+    {
+      "id": "addc5fecc1a8b1978cd723468aac18e57c7099f79017128cee23f3aac5014157",
+      "title": "Texas, hotspot voor AI-datacenters, ziet bouwplannen mogelijk stranden",
+      "summary": "Na de verkiezingen krijgen Democraten in Texas de macht in senaat, gouverneurschap en het Huis van Afgevaardigden. De nieuwe gouverneur pleit voor een moratorium op datacenters, nadat Abbott in september al vergunningen had stilgelegd. Dat bedreigt de grootste AI-bouwprojecten van Big Tech.",
+      "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
+      "source_name": "MIT Technology Review — AI",
+      "source_type": "rss",
+      "published": "2026-11-04T18:50:55+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Politieke weerstand tegen datacenters kan de AI-uitrol en -kosten beïnvloeden.",
+      "also_covered_by": []
+    },
+    {
+      "id": "c98b4f0fde2d1aee2cfe1aab48160d2d376158ec2fb6e0301be37b748be5023e",
+      "title": "Big Tech blijft recordbedragen investeren in AI-datacenters",
+      "summary": "Amazon, Microsoft, Alphabet en Meta willen dit jaar samen minstens 720 miljard dollar aan kapitaaluitgaven doen, vooral voor AI-infrastructuur. Daar komt nog minstens 1 biljoen aan toezeggingen bovenop. De beloofde opbrengsten blijven vooralsnog uit, maar de bedrijven lijken niet uit zichzelf te remmen.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1027344/amazon-microsoft-alphabet-google-meta-data-centers-earnings-q3",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-05T05:45:00-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Schetst de enorme investeringen achter AI-diensten die bezoekers dagelijks gebruiken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "84f774fee75e9a8ab368a127c9db0d8fe96f06707c43f7e30f2af4bdd8a633fe",
+      "title": "Anthropic wil met Hg een Europees AI-adviesbedrijf oprichten",
+      "summary": "Volgens de Financial Times bereiden Anthropic en private-equitygroep Hg een adviesbedrijf voor dat AI-consultants en ingenieurs bij Europese organisaties inzet. De lancering staat gepland voor eind dit jaar, met hubs in Londen en Berlijn. Het bedrijf zou concurreren met Accenture en de Big Four.",
+      "url": "https://www.computable.nl/2026/11/05/anthropic-plant-europees-ai-adviesbedrijf/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-11-05T06:15:00+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Geeft inzicht in hoe AI-leveranciers hun invloed in Europese organisaties vergroten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "0420a575399f4a119825026c94e822eb60482a1d7d4dc835147073b40a9f7487",
+      "title": "Accenture beschuldigd van rapport vol AI-hallucinaties",
+      "summary": "GPTZero vond foute citaten, onjuiste data en mogelijk verzonnen casestudies in een Accenture-rapport over AI in de Afrikaanse landbouw. Accenture spreekt van menselijke fouten en past het rapport aan. GPTZero vond ook verzonnen bronnen in twee andere publicaties van het bedrijf.",
+      "url": "https://www.computable.nl/2026/11/05/accenture-beschuldigd-van-publicatie-van-rapport-vol-ai-hallucinaties/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-11-05T09:00:00+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "ethiek-en-risico",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Sterk voorbeeld van AI-hallucinaties in professionele rapporten, goed bruikbaar voor mediawijsheid.",
+      "also_covered_by": []
+    },
+    {
+      "id": "4c134b9dc9f4bc78b9993eb4006dde07858b0562e00c48937dd5c75d89295058",
+      "title": "Vijf vragen aan Nardie Scharenborg: AI-innovatie en regelgeving moeten elkaar versterken",
+      "summary": "Nardie Scharenborg is sinds 1 november bestuurder van de Nederlandse AI Coalitie. In het interview blikt ze terug op haar loopbaan als een van de eerste afgestudeerde AI-specialisten in Nederland. Ze vertelt wat ze wil bereiken, met innovatie en regelgeving als elkaars versterking.",
+      "url": "https://aic4nl.nl/nieuws/vijf-vragen-aan-nardie-scharenborg-ai-innovatie-en-regelgeving-moeten-elkaar-kunnen-versterken/",
+      "source_name": "Nederlandse AI Coalitie",
+      "source_type": "rss",
+      "published": "2026-11-04T13:02:48+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "beleid-en-regelgeving",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Nieuwe bestuurder van de Nederlandse AI Coalitie, een mogelijke gesprekspartner voor bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "cac372a2591df199afb0a2a07c33e0567a20b76db3abc756c87c8854f68277ee",
+      "title": "Menlo-rapport: frontier-labs krijgen 69 procent van de zakelijke AI-uitgaven",
+      "summary": "Het jaarlijkse Menlo-rapport over zakelijke AI schat dat de grote modelmakers 69 procent van de uitgaven aan AI-implementaties binnenhalen. Agents vergroten het totale budget: nieuwe budgetten dekten 55 procent van de extra AI-uitgaven in de enquête.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/yxej4x4ehpb6b1igqtlk8h0iez45ihv5hgalbpjv.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-11-04T13:33:20+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Geeft marktcijfers over wie profiteert van zakelijke AI-adoptie.",
+      "also_covered_by": []
+    },
+    {
+      "id": "38a52a17dc58ed5b29cb46e474f2cebe413865fa053a7fcdedb142a1123357dc",
+      "title": "Snowflake kondigt agents aan die op de achtergrond doorwerken",
+      "summary": "Snowflake presenteert CoCo en CoWork Bots, agents in ontwikkeling die doorlopende taken op de achtergrond uitvoeren en om menselijke input vragen wanneer nodig. Daarnaast komen er terugkerende automatiseringen en geplande koppelingen met Slack, spreadsheets en mobiele apparaten.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/kt7iskze5hsbki9x0ccwd7zyuj9wl6g8xfmoc18g.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-11-04T13:45:32+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont de trend naar agents die zelfstandig doorwerken in bedrijfssoftware.",
+      "also_covered_by": []
+    },
+    {
+      "id": "e6f64ffc0361e04d84dfb9443373bf151556519f5921a1aec8419c54ffad306c",
+      "title": "Itch.io verwijdert enorme hoeveelheid AI-troep en breidt AI-filter uit",
+      "summary": "Het indiegameplatform Itch.io heeft naar eigen zeggen terabytes aan AI-troep verwijderd. Ontwikkelaars moeten bij bepaalde gamegenres nu ook aangeven wanneer ze AI gebruiken. AI-projecten blijven toegestaan, maar de spamregels worden strenger gehandhaafd.",
+      "url": "https://tweakers.net/nieuws/254126/indieplatform-itch-punt-io-verwijdert-terabytes-aan-ai-slop-en-breidt-ai-filter-uit.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-11-04T14:18:45+01:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "bedrijven",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van platformbeleid rond AI-labeling, bruikbaar bij mediawijsheid en collectiebeleid.",
+      "also_covered_by": []
+    },
+    {
+      "id": "1be4fdd8e6ca80f0ec0127711bf05d7cfcd7194eac7f7e3b9f6a7d04824358c9",
+      "title": "OpenAI neemt Pierre Computer Company over",
+      "summary": "OpenAI koopt Pierre Computer Company om de mogelijkheden van Codex uit te breiden. Het gaat om hulpmiddelen om code te bouwen, te begrijpen en te beoordelen.",
+      "url": "https://openai.com/index/openai-to-acquire-pierre",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-11-04T14:30:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont waar OpenAI inzet op programmeerassistenten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "d38f7b5068359c02019572a7a3d3e94184f9d64c956af44bbfd87c44673d770c",
+      "title": "Garry Tan van YC geeft tot 200.000 dollar per jaar uit aan AI-tokens",
+      "summary": "Y Combinator-topman Garry Tan zet zo intensief AI-agents in dat zijn tokenkosten oplopen tot 200.000 dollar per jaar. Het laat zien hoe duur het intensieve gebruik van agents kan worden.",
+      "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-04T15:28:31Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Illustreert de kosten van intensief agentgebruik door early adopters.",
+      "also_covered_by": []
+    },
+    {
+      "id": "18beca75c778a62e987bbdc76db88df5df3001eeed6589b2dc476685205b68bf",
+      "title": "Binance legt uit hoe de grootste cryptokraak ooit plaatsvond",
+      "summary": "Binance meldt dat Noord-Koreaanse staatshackers maandenlang een kraak van 6,3 miljard dollar voorbereidden met social engineering, malware en gecompromitteerde software. Daarbij werd onder meer een gemanipuleerde installatie van een AI-programmeertool en misbruik van interne AI-systemen ingezet.",
+      "url": "https://www.computable.nl/2026/11/04/binance-onthult-hoe-grootste-cryptokraak-ooit-kon-gebeuren/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-11-04T15:59:09+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat zien hoe aanvallers AI-tools en AI-systemen als aanvalsroute gebruiken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "1b38aedd347f651791006cd2509491909c5c8d7495030f21eb34d3bc48260668",
+      "title": "Valve scherpt Steam-keuring aan door stortvloed aan AI-games",
+      "summary": "Valve verandert het beoordelingsproces voor nog niet uitgebrachte games op Steam. Ontwikkelaars moeten de integratie van Steam-functies voortaan zelf testen voordat Valve de technische controle uitvoert. Zo wil het bedrijf een achterstand wegwerken die is ontstaan door veel AI-gegenereerde games.",
+      "url": "https://tweakers.net/nieuws/254136/valve-wil-stortvloed-aan-ai-games-indammen-met-strengere-steam-keuring.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-11-04T16:40:20+01:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat zien hoe platforms omgaan met een vloed aan AI-gegenereerde content.",
+      "also_covered_by": []
+    },
+    {
+      "id": "2ce4bfb684828fb052ecbc7f11d1b1157c788e76a1bc18912a13e3e2c97f77f8",
+      "title": "Beoordelen versus controleren: AI-werk waar je op kunt vertrouwen",
+      "summary": "Naar aanleiding van een opmerking van Andrej Karpathy betoogt The Rundown dat AI het best presteert in domeinen waar uitkomsten controleerbaar zijn, zoals code die direct draait. Daardoor kan AI daar urenlang zelfstandig doorwerken. Verificatie is volgens de nieuwsbrief de sleutel om meer met AI te automatiseren.",
+      "url": "https://kill-the-newsletter.com/feeds/7b87u0i8h3vypjvvprgc/entries/mpn1y5ld08fprikw2mr15tv9vavp3hq6c257te6k.html",
+      "source_name": "The Rundown AI",
+      "source_type": "newsletter",
+      "published": "2026-11-04T17:09:20+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Helpt uitleggen waarom AI-uitvoer soms bruikbaar is en soms niet.",
+      "also_covered_by": []
+    },
+    {
+      "id": "d0df89820de0122a38133c5de741e4f5637a34dff99e689372592819e81dc46e",
+      "title": "Qualcomm zet in op AI-datacenters nu smartphoneverkopen dalen",
+      "summary": "Qualcomm ziet de smartphoneverkoop met zo'n 20 procent dalen en richt zich daarom op AI-datacenters, onder meer met Amazon en Meta. Het bedrijf verwacht 650 miljoen dollar datacenteromzet in het eerste kwartaal van 2027, oplopend naar 5 miljard eind 2027 en 15 miljard in 2029.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-04T17:42:15-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat zien hoe de AI-vraag de chipmarkt verschuift.",
+      "also_covered_by": []
+    },
+    {
+      "id": "c0df0525bfe76dd708378ec8ee2930b92b10368ff8857ffb4bfe4a98af60f4fc",
+      "title": "Terugkijken: BiblioGreen, residenties voor duurzame bibliotheken",
+      "summary": "De opname en slides van een IFLA-webinar over het Europese project BiblioGreen zijn online. Het project bracht bibliothecarissen, milieudeskundigen en activisten uit tien landen samen rond duurzaamheid, met voorbeelden als moestuinen, zaadbibliotheken en zero-waste-initiatieven. Er is ook een Sustainable Library Guidebook.",
+      "url": "https://www.ifla.org/news/view-online-bibliogreen-residencies-for-sustainable-libraries-european-perspectives-and-practical-approaches/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-11-04T21:51:26+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "bibliotheek",
+        "evenement"
+      ],
+      "importance": 2,
+      "why_relevant": "Praktische duurzaamheidsvoorbeelden en een handleiding voor bibliotheken, los van AI.",
+      "also_covered_by": []
+    },
+    {
+      "id": "25fa4dd18ec78a48a9233cc009a7e10d7c8c98f49986ed2e5b02c4eebf5890b1",
+      "title": "OpenAI presenteert richtlijnen voor verantwoorde AI-infrastructuur",
+      "summary": "OpenAI introduceert een 'National Community Compact' en een beleidsblauwdruk voor datacentercampussen. Daarmee wil het bedrijf lokale hulpbronnen beschermen, banen creëren en de bouw van AI-infrastructuur in goede banen leiden. Het verschijnt terwijl er maatschappelijke weerstand tegen datacenters groeit.",
+      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-11-05T02:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat zien hoe AI-bedrijven reageren op lokale kritiek op datacenters.",
+      "also_covered_by": []
+    },
+    {
+      "id": "b6fd5282fe740e01dc943daf22adf52167f822b32759070a714b6c0cd8d300d1",
+      "title": "SAP wil dat Joule bedrijfsprocessen uitvoert in plaats van alleen helpt",
+      "summary": "Op TechEd presenteerde SAP Joule als centrale werkomgeving waarin medewerkers in gewone taal opdrachten geven. Joule Assistants sturen die door naar Joule Agents die het werk uitvoeren. Dit past in SAP's visie van de 'Autonomous Enterprise'.",
+      "url": "https://www.computable.nl/2026/11/05/sap-zet-in-op-joule-van-assistent-naar-uitvoerder-van-bedrijfsprocessen/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-11-05T06:00:00+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van de verschuiving van AI-assistent naar autonome agent in bedrijfssoftware.",
+      "also_covered_by": []
+    },
+    {
+      "id": "44b1590d6ee01bd4b5a8c861a16486eb9786a05cee32c5c22e15a87b6a59dad4",
+      "title": "Kort: Rijkswaterstaat draait Dynac terug, nieuwe directeur voor Nederlandse AI-fabriek",
+      "summary": "Dit overzicht meldt onder meer dat Martijn Gribnau per 11 januari 2027 algemeen directeur wordt van de Nederlandse AI-fabriek in Groningen. Die organisatie moet mkb, scale-ups, onderzoekers, onderwijs en overheden ondersteunen. Verder staan er verkeerssoftware en robotnieuws in.",
+      "url": "https://www.computable.nl/2026/11/05/kort-nieuwe-verkeerssoftware-strandt-na-vijf-dagen-chinese-liefdesrobots-lonken-naar-europa-en-meer/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-11-05T10:30:00+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "bedrijven",
+        "subsidie-of-financiering"
+      ],
+      "importance": 2,
+      "why_relevant": "De AI-fabriek in Groningen krijgt een directeur; mogelijk relevant voor regionale samenwerking.",
+      "also_covered_by": []
+    },
+    {
+      "id": "7313d0c691320899040ea19cbb0a9faf24779569bd4880a91c359b1807afb691",
+      "title": "AI zorgt voor comeback van de IT-afdeling, maar is dat goed nieuws?",
+      "summary": "In dit opiniestuk stelt iO-ceo Pieter Janssens dat AI de IT-afdeling grotere budgetten en meer invloed geeft. Hij kijkt terug op hoe de rol van de cio de afgelopen decennia veranderde en waarschuwt dat dit niet per se gunstig is.",
+      "url": "https://www.computable.nl/2026/11/03/ai-zorgt-voor-de-grote-comeback-van-de-it-afdeling-maar-is-dat-wel-goed-nieuws/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-11-03T17:00:00+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "bedrijven",
+        "arbeidsmarkt"
+      ],
+      "importance": 1,
+      "why_relevant": "Opiniestuk over IT-organisaties; beperkt relevant voor bibliotheekwerk.",
+      "also_covered_by": []
+    },
+    {
+      "id": "b0671b3fa0f50f9188d57435675835b63ad78d889fa9b7083b88da89a2a55fe9",
+      "title": "datasette-agent 0.5a0: chat naast Datasette-pagina's",
+      "summary": "Datasette Agent heeft een paneel waarmee de chat naast pagina's als een tabel of query blijft staan. In combinatie met datasette-apps kun je zo een databaseapp laten genereren en vervolgens in dezelfde chat aanpassen. Uitproberen kan via agent.datasette.io met een GitHub-account.",
+      "url": "https://simonwillison.net/2026/Nov/3/datasette-agent/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-11-03T23:13:45+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "open-source"
+      ],
+      "importance": 1,
+      "why_relevant": "Voorbeeld van een app bouwen via een gesprek met AI.",
+      "also_covered_by": []
+    },
+    {
+      "id": "b3ab12a34ee36e8ab3ff3e5d1e5797bffaaf413a760e4b957767fb1ce50f6439",
+      "title": "datasette-apps 0.3a0 uitgebracht",
+      "summary": "Datasette Apps, waarmee je eigen HTML-applicaties in Datasette host, werkt beter samen met Datasette Agent. Apps zijn te taggen in de chat, en schrijfqueries vereisen eerst goedkeuring van de gebruiker. De app-knoppen openen nu schermvullend in het agentpaneel.",
+      "url": "https://simonwillison.net/2026/Nov/4/datasette-apps/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-11-04T00:29:36+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "open-source"
+      ],
+      "importance": 1,
+      "why_relevant": "Nichetool voor data-apps; vooral nuttig voor wie met Datasette experimenteert.",
+      "also_covered_by": []
+    },
+    {
+      "id": "a3433e936d2c04bfa7722c64f05b5efdfdc6024634f8a182254f80d5e66c1036",
+      "title": "Daybreak Red nu beschikbaar in AWS GovCloud (US-East)",
+      "summary": "Goedgekeurde klanten krijgen via Amazon Bedrock in AWS GovCloud toegang tot GPT-5.6 Cyber. Het model is bedoeld voor geautoriseerd cybersecuritywerk.",
+      "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-11-04T07:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws: gericht op Amerikaanse overheidsklanten, weinig impact op bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "cd09dc87fba0a54b67f70446fb2831bda94d064f818f3bb5aae6ebab46fec608",
+      "title": "datasette-llm 0.1a10 uitgebracht",
+      "summary": "Deze release van de Datasette-plug-in repareert een fout waarbij de beschikbare taalmodellen niet correct werden beperkt tot de modellen in de configuratie. De fout speelde op de demosite agent.datasette.io.",
+      "url": "https://simonwillison.net/2026/Nov/4/datasette-llm/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-11-04T15:26:02+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "open-source"
+      ],
+      "importance": 1,
+      "why_relevant": "Kleine bugfix in open-sourcetooling; alleen interessant voor Datasette-gebruikers.",
+      "also_covered_by": []
+    },
+    {
+      "id": "4232d711b5d61ef46e537ace4e43f046ed6dfc56bddb6cd0a4ff77c302f52309",
+      "title": "Wat betekenen de tussentijdse verkiezingen voor het Amerikaanse energiebeleid?",
+      "summary": "Democraten winnen zowel Huis als Senaat, waardoor er een gedeeld bestuur met het Witte Huis ontstaat. Grote wetswijzigingen op klimaat en energie zijn daarom onwaarschijnlijk. De gevolgen voor energiebeleid zijn vooral op staats- en lokaal niveau te verwachten.",
+      "url": "https://www.technologyreview.com/2026/11/04/1148022/us-energy-midterm/",
+      "source_name": "MIT Technology Review — AI",
+      "source_type": "rss",
+      "published": "2026-11-04T17:08:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws over energiebeleid, met indirect effect op AI-datacenters.",
+      "also_covered_by": []
+    },
+    {
+      "id": "78429a2b12e7c75bcf23dd4a945ad45d083ca4c92510aa799d5030c539bd8774",
+      "title": "Nexus Mods dwingt modders eerlijk over AI-gebruik te zijn, maar verbiedt AI niet",
+      "summary": "Nexus Mods vraagt modmakers voortaan standaard of ze AI hebben gebruikt, bijvoorbeeld voor code of beeld. AI gebruiken blijft toegestaan, maar het verzwijgen ervan niet. Het platform kiest dus voor transparantie in plaats van een verbod.",
+      "url": "https://tweakers.net/nieuws/254158/nexus-mods-dwingt-modders-eerlijk-over-ai-gebruik-te-zijn-maar-verbiedt-ai-niet.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-11-04T18:08:20+01:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "ethiek-en-risico"
+      ],
+      "importance": 1,
+      "why_relevant": "Voorbeeld van een platform dat AI-gebruik verplicht laat melden.",
+      "also_covered_by": []
+    },
+    {
+      "id": "1b594fbf4b375813c81707e0215656137b71afca3edb968f35c97566d1533cb9",
+      "title": "Nieuwe wet kan Amerikaanse bouw van energie-infrastructuur veranderen",
+      "summary": "De Amerikaanse Senate stemt op 9 november over een wet van 417 pagina's die vergunningverlening voor energieprojecten moet versnellen. De wet beperkt welke projecten een federale vergunning nodig hebben en voert deadlines in. Het is nog onduidelijk of dit de uitstoot van broeikasgassen verlaagt of verhoogt.",
+      "url": "https://www.technologyreview.com/2026/11/05/1148062/permitting-reform/",
+      "source_name": "MIT Technology Review — AI",
+      "source_type": "rss",
+      "published": "2026-11-05T10:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws: energiebeleid raakt indirect de bouw van AI-infrastructuur.",
+      "also_covered_by": []
+    }
+  ]
+}
