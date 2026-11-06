@@ -1,0 +1,767 @@
+{
+  "date": "2026-11-06",
+  "generated_at": "2026-11-06T12:40:00+00:00",
+  "stats": {
+    "batches": 2,
+    "onleesbaar": 0,
+    "objecten": 74,
+    "schema_fout": 0,
+    "onbekend_id": 0,
+    "gedropt": 33,
+    "geldig": 41,
+    "ai": 34,
+    "bieb": 7
+  },
+  "sources": [
+    "Ars Technica AI",
+    "Bibliotheekblad",
+    "Bibliotheeknetwerk (KB)",
+    "Computable",
+    "Google DeepMind",
+    "Hacker News",
+    "Hugging Face",
+    "IFLA",
+    "Infodocket",
+    "MIT Technology Review — AI",
+    "Netwerk Mediawijsheid",
+    "OpenAI",
+    "TLDR AI",
+    "The Verge AI",
+    "Tweakers"
+  ],
+  "items": [
+    {
+      "id": "802f08a09adf9f705418548aeb78d60c262f6602da8e8af7cda34fca1ddfbc5d",
+      "title": "CBC: universiteitsbibliotheken overspoeld door AI-bots, openbare toegang in gevaar",
+      "summary": "Universiteitsbibliotheken melden dat hele collecties offline raken door aanhoudend verkeer van slecht geprogrammeerde bots die archieven leegtrekken. Maatregelen zoals CAPTCHA's of verplicht inloggen houden ook goede bots en gewone bezoekers tegen. Zo komt open toegang tot erfgoed en overheidsdocumenten onder druk.",
+      "url": "https://www.infodocket.com/2026/11/05/cbc-report-libraries-are-being-swarmed-by-ai-bots-putting-public-access-at-risk/",
+      "source_name": "Infodocket",
+      "source_type": "rss",
+      "published": "2026-11-05T13:03:35+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "bibliotheek"
+      ],
+      "importance": 4,
+      "why_relevant": "Directe bedreiging voor digitale collecties en open toegang, ook voor openbare bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "e153b045e03ac54ef746786312f44e3b6d6d12fb6198cedea27bb25ace543dc3",
+      "title": "Vraag de nieuwe financiering van Stichting Pica aan",
+      "summary": "Stichting Pica stelt 1 miljoen euro beschikbaar om wetenschappelijke kennis beter bereikbaar en bruikbaar te maken voor een breed publiek. Bibliotheken kunnen een projectvoorstel indienen om daaraan bij te dragen.",
+      "url": "https://www.bibliotheeknetwerk.nl/nieuws/vraag-de-nieuwe-financiering-van-stichting-pica-aan",
+      "source_name": "Bibliotheeknetwerk (KB)",
+      "source_type": "rss",
+      "published": "2026-11-06T08:39:19+01:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "subsidie-of-financiering",
+        "bibliotheek"
+      ],
+      "importance": 4,
+      "why_relevant": "Concrete financieringskans voor bibliotheken die projecten rond kennis en informatie willen opzetten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "889cddd92fcd3d7c06e827fd9aa84755b15c179e88bedb80f12ff409b49e6e13",
+      "title": "OpenAI lanceert Images 2.6 met GIF-functie en beeldreferentie",
+      "summary": "OpenAI rolt Images 2.6 wereldwijd uit in ChatGPT en Codex. Het model maakt afbeeldingen ongeveer 50 procent sneller dan zijn voorganger en kan ook GIF's genereren, waarvan je de snelheid en losse frames kunt aanpassen. Via de API zijn twee varianten beschikbaar.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/i5pw2cguz20ua65wnauv169ydzaijq2f95hpv8so.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-11-05T17:45:45+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "tools"
+      ],
+      "importance": 3,
+      "why_relevant": "Handig om te weten wat bezoekers nu met beeldgeneratie kunnen doen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "2f788ff545544e109cd4d6ac6c4fe9659e1ef82eb559494ef9ca8a136a7cd985",
+      "title": "Tencent lanceert Hy4",
+      "summary": "Tencent presenteert Hy4, een nieuw open-source AI-model dat het bedrijf bij de wereldtop rekent. Verdere details zijn in de aangeleverde tekst niet beschikbaar.",
+      "url": "https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-05T20:21:43Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "open-source"
+      ],
+      "importance": 3,
+      "why_relevant": "Nieuw open model van een grote speler, interessant voor wie open AI volgt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "e5a25966251123f48915d7a0af2150c0c7957667cf39d9d398b7454b1d59919c",
+      "title": "Rechtszaak: man liet zijn vrouw kennismaken met ChatGPT, zij gebruikte het om zijn moord te plannen",
+      "summary": "In een rechtszaak in San Francisco beweert een man dat ChatGPT zijn vrouw hielp met een plan om hem te vergiftigen. OpenAI en Sam Altman zouden geen afdoende veiligheidsmaatregelen hebben genomen toen haar vragen verdacht werden. De vrouw is in Noord-Carolina aangeklaagd voor poging tot moord.",
+      "url": "https://arstechnica.com/tech-policy/2026/11/lawsuit-man-introduced-his-wife-to-chatgpt-she-used-it-to-plan-his-murder/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-11-05T21:39:40+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 3,
+      "why_relevant": "Voedt het gesprek over veiligheid en aansprakelijkheid van chatbots bij publieksvoorlichting.",
+      "also_covered_by": []
+    },
+    {
+      "id": "e12ad59c369bd96f823d00376b1ba654567a5fc8464377679b0ef61800bcb2e5",
+      "title": "Google: scholen kunnen zoeken houden zonder Gemini, maar AI-zoeken is verplicht",
+      "summary": "Na kritiek van docenten en ouders verduidelijkt Google zijn nieuwe AI-beleid voor het basis- en voortgezet onderwijs. Scholen moeten AI-producten, waaronder Zoeken, voortaan actief inschakelen voor ingelogde leerlingaccounts. Google zet zoeken dus niet uit, maar scholen beslissen aan de hand van hun eigen AI-beleid.",
+      "url": "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-11-05T21:40:36+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderwijs",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 3,
+      "why_relevant": "Raakt hoe leerlingen straks AI tegenkomen en wat bibliotheken in het onderwijs kunnen aanvullen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "2bae9b1f767db0945e28868e3655092c7cb6a370ccc23414053f8d3deb06c5f5",
+      "title": "Cuban: Facebook laat bewust AI-deepfake-oplichtingsadvertenties draaien",
+      "summary": "Mark Cuban stelt dat Facebook willens en wetens advertenties met AI-deepfakes voor oplichting toelaat, en dat documenten 16 miljard dollar aan fraudegerelateerde inkomsten tonen. Dit is een bewering die nog niet bevestigd is.",
+      "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-05T23:09:57Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Goed voorbeeld voor mediawijsheidsworkshops over deepfakes en online oplichting.",
+      "also_covered_by": []
+    },
+    {
+      "id": "40755635fabcc778d5003a579c2b5fef55f188d020739798019cdfb29f60a26c",
+      "title": "Onderzoek: 71% van de Nederlanders ervaart gripverlies op digitaal mediagebruik",
+      "summary": "Uit onderzoek voor de Week van de Mediawijsheid 2026 blijkt dat 71 procent van de Nederlanders het gevoel heeft grip op het eigen mediagebruik te verliezen. Wie meer grip wil, begint volgens het onderzoek met een persoonlijk stappenplan.",
+      "url": "https://netwerkmediawijsheid.nl/onderzoek-nederlanders-ervaren-gripverlies-op-digitale-mediagebruik-wvdm-2026/",
+      "source_name": "Netwerk Mediawijsheid",
+      "source_type": "rss",
+      "published": "2026-11-06T05:03:17+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "digitale-geletterdheid",
+        "onderzoek"
+      ],
+      "importance": 3,
+      "why_relevant": "Bruikbare cijfers voor bibliotheekactiviteiten rond mediawijsheid en digitale balans.",
+      "also_covered_by": []
+    },
+    {
+      "id": "f0d09c6f77d8baa7abef04886800ca613c9fdf14727584c96a2ec16f0b4e0704",
+      "title": "Demonstranten dringen bouwterrein Microsoft-datacenter in Amsterdam binnen",
+      "summary": "Zo'n honderd mensen van actiegroep Geef Tegengas drongen een bouwterrein van een nieuw Microsoft-datacenter aan de rand van Amsterdam binnen. Ze protesteren tegen drie datacentertorens van 85 meter. Amsterdam verbood meer dan een jaar geleden al nieuwe datacenters, wat de discussie over AI-infrastructuur in Nederland verscherpt.",
+      "url": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-06T06:55:19-05:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "ethiek-en-risico",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 3,
+      "why_relevant": "Maatschappelijk verzet tegen AI-infrastructuur in Nederland; goed gespreksonderwerp met bezoekers.",
+      "also_covered_by": []
+    },
+    {
+      "id": "31e7a212311a153ffc9fc4c7dca593b92415968a60abda6443e04dbd23d231a3",
+      "title": "OpenAI brengt GPT-6 Cyber uit en vindt 948 kwetsbaarheden in Linux",
+      "summary": "OpenAI lanceert GPT-6 Cyber, een variant van GPT-6 Astra waarmee gebruikers kwetsbaarheden in software vinden en patches ontwikkelen. Het model is getraind om binnen toegestane kaders te blijven. Voorlopig hebben alleen deelnemers aan het Daybreak Red-programma toegang.",
+      "url": "https://tweakers.net/nieuws/254240/openai-brengt-gpt-6-cyber-uit-vindt-948-kwetsbaarheden-in-linux.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-11-06T13:19:12+01:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Toont hoe AI-agents in cybersecurity worden ingezet, relevant voor digitale veiligheid bij bibliotheken.",
+      "also_covered_by": [
+        "https://openai.com/index/introducing-gpt-6-cyber"
+      ]
+    },
+    {
+      "id": "69b62b0af31fdcec376b9450d01398690bd550436f34cdc20f8fbf009ddde1a1",
+      "title": "Tekst-naar-beeldmodel voor ongeveer 20.000 dollar getraind, gewichten onder Apache 2.0",
+      "summary": "Een tweepersoonslab heeft een redelijk goed tekst-naar-beeldmodel getraind voor ongeveer 20.000 dollar en publiceert de gewichten onder een Apache 2.0-licentie. Ze gebruiken een architectuur die direct in pixelruimte werkt en sneller convergeert. Zo wordt beeldgeneratie goedkoper en toegankelijker voor kleine teams.",
+      "url": "https://www.linum.ai/field-notes/pjit-21k",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-04T16:45:11Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "open-source"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont dat open beeldmodellen goedkoper worden, relevant voor lokaal en open gebruik.",
+      "also_covered_by": []
+    },
+    {
+      "id": "e7142eb29f9c48032393d35aada0e955a2564af89ebb055460a99ede04df0617",
+      "title": "The Download: de kwetsbare AI-boom in Texas en verschuivend energiebeleid",
+      "summary": "Na de Amerikaanse tussentijdse verkiezingen winnen Democraten in Texas, waar datacenters een centraal campagnethema waren. Dat kan de grote AI-bouwplannen van techbedrijven in de staat bedreigen. Ook het energiebeleid verschuift, vooral op staats- en lokaal niveau.",
+      "url": "https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/",
+      "source_name": "MIT Technology Review — AI",
+      "source_type": "rss",
+      "published": "2026-11-05T13:10:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Politieke weerstand tegen datacenters kan de verdere groei van AI-diensten afremmen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "b6804344c945ab710c67b66e271ef50aefeaeea54177c5c389e42fe258da8811",
+      "title": "OpenAI-pijplijn vindt en misbruikt autonoom honderden kernelkwetsbaarheden",
+      "summary": "Een autonome beveiligingspijplijn van OpenAI reproduceerde 1.724 kwetsbaarheden in de Linux-kernel en maakte exploits voor 948 daarvan. Agents deden de ontdekking, validatie en het schrijven van exploits en patches, waarna mensen controleerden. De kosten bedroegen 1,2 miljoen dollar aan API-gebruik.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/57u1ez1cc22k2q8142fbcmnwq0ujiggsh703uupm.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-11-05T13:55:33+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat zien hoe krachtig AI-agents zijn, ook bij beveiligingsrisico's.",
+      "also_covered_by": []
+    },
+    {
+      "id": "fee457685fe821fd0487973ce50755266461603965d7370ec38e549eebcd7481",
+      "title": "Canva schrapt 1.271 banen, 22 procent van het personeel",
+      "summary": "Canva herstructureert 1.271 functies na een eerste groeivertraging in tien jaar. De ontwerpdienst voegt productteams samen en vermindert managementlagen. Vertrekkende medewerkers krijgen minstens zes maanden salaris mee.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/s93zpna796kfh4lvevmh583mkwk1ksknz9d8qs1d.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-11-05T14:59:58+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "arbeidsmarkt"
+      ],
+      "importance": 2,
+      "why_relevant": "Canva wordt veel gebruikt in bibliotheken en cursussen; koers van het bedrijf telt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "9ea0e253da8ce82e9a61eb397e207e0e08db2e6392a56f56cd89a5dd87fae350",
+      "title": "Bibliotheek Oss en Levi Smits winnen NBD Biblion Awards 2026",
+      "summary": "Bibliotheek Oss is uitgeroepen tot Beste Bibliotheek van Nederland, mede dankzij ruim 4.300 publieksstemmen van in totaal 15.404. De jury prijst de visie, het succesvolle nieuwe gebouw en de verbinding met het onderwijs. Levi Smits van Bibliotheek Rozet is Jeugdspecialist van het Jaar.",
+      "url": "https://bibliotheekblad.nl/bibliotheek-oss-en-levi-smits-vallen-in-de-prijzen-tijdens-de-nbd-biblion-awards-2026/",
+      "source_name": "Bibliotheekblad",
+      "source_type": "rss",
+      "published": "2026-11-05T15:00:00+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat zien wat de vakjury waardeert aan een bibliotheek die breed publiek bereikt.",
+      "also_covered_by": [
+        "https://www.bibliotheeknetwerk.nl/nieuws/bibliotheek-oss-beste-bibliotheek-van-nederland"
+      ]
+    },
+    {
+      "id": "24e98ccb8ba35e2731510f518f18f517087a218f03f20739ec8b08ae8f9c8b45",
+      "title": "AI-labs worstelen met stijgende GPU-kosten en dwingen meerjarige contracten af",
+      "summary": "Terwijl AI-labs een prijzenoorlog om tokens voeren, wordt de GPU-capaciteit erachter duurder. Een analyse schat dat de gemiddelde GPU-kosten van Anthropic in twee kwartalen met 82 procent stegen. Ook zou de AI-uitgave van grote afnemers in het derde kwartaal zijn afgevlakt.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/3x7e6jdgp8ztqijnvljas6stwt7coibxbippu7ue.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-11-05T15:20:30+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Kan op termijn invloed hebben op prijzen en voorwaarden van AI-diensten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "616c68177b707eae60eb2b7e618a86105e3926c540e149caa916945e5a2342dd",
+      "title": "Australische universiteiten leiden 'AI-native' afgestudeerden op",
+      "summary": "Australische universiteiten geven studenten bredere toegang tot ChatGPT en verwerken AI in onderwijs en leren. Doel is om studenten voor te bereiden op een arbeidsmarkt waarin AI gewoon is.",
+      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-11-05T17:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderwijs",
+        "arbeidsmarkt"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont hoe onderwijsinstellingen AI-vaardigheden inbedden, relevant voor bibliotheken die AI-cursussen aanbieden.",
+      "also_covered_by": []
+    },
+    {
+      "id": "1750855042e8ceec185ecc41375648d063f395028a9c6496aadc44e5c1df3652",
+      "title": "Gemini Omni 1.2 Flash: snel en voordelig, met langere clips",
+      "summary": "Google DeepMind presenteert Gemini Omni 1.2 Flash, een snelle en voordelige variant van het Omni-model. Volgens de titel kan het model langere clips aan. Meer details zijn in de aangeleverde tekst niet beschikbaar.",
+      "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+      "source_name": "Google DeepMind",
+      "source_type": "rss",
+      "published": "2026-11-05T17:05:16+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen"
+      ],
+      "importance": 2,
+      "why_relevant": "Nieuw Google-model dat bibliotheekmedewerkers helpt de ontwikkeling van multimodale AI bij te houden.",
+      "also_covered_by": []
+    },
+    {
+      "id": "5745c5696917ad544e68d5b1dfcc978ada5f003bdf92eb76b29bdd6f2f39387c",
+      "title": "Perplexity lanceert 'Teammates', AI-agents voor werk",
+      "summary": "Perplexity introduceert always-on AI-agents die binnen een werkomgeving meerdere rollen kunnen vervullen en bestaande projecten, vaardigheden en geheugen hergebruiken. Ze bouwen voort op Perplexity Computer en kunnen tegelijk verschillende taken uitvoeren. Daarmee neemt het bedrijf het op tegen vergelijkbare agents van OpenAI en Anthropic.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-05T17:26:50-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Agents voor kantoorwerk komen eraan; relevant voor medewerkers en bezoekersvragen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "ba76eaa45a1b7e2c163591f974b14b0a5b36ef3871d6f875cf18dc1e84536a0d",
+      "title": "OpenAI stapt af van geheimhoudingsafspraken bij datacenterprojecten",
+      "summary": "OpenAI zegt bij datacenterprojecten geen NDA's meer te gebruiken met overheidsfunctionarissen, behalve voor beperkte beveiligings- of bedrijfsgevoelige informatie. Dit volgt op kritiek en verkiezingsuitslagen waarin kiezers zich tegen datacenteruitbreiding keerden. Eerder maakte Amazon een vergelijkbare toezegging.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-05T19:37:56-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont groeiende druk op transparantie rond AI-infrastructuur in lokale gemeenschappen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "eccb35bb76c554fd0d0c762fb7109611aa0790866548bfac88721bbf5bd4c3d6",
+      "title": "Claude kan financiën bijhouden via een bankkoppeling, naar het voorbeeld van ChatGPT",
+      "summary": "Anthropic kondigt Claude Personal Finance aan, waarmee gebruikers via een bankkoppeling hun persoonlijke geldzaken kunnen volgen. De functie werkt voorlopig alleen in de Verenigde Staten. ChatGPT biedt al iets vergelijkbaars.",
+      "url": "https://tweakers.net/nieuws/254224/claude-kan-in-navolging-van-chatgpt-financien-bijhouden-door-koppeling-met-bank.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-11-05T21:12:00+01:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Raakt privacyvragen over AI-assistenten met toegang tot persoonlijke financiële gegevens.",
+      "also_covered_by": []
+    },
+    {
+      "id": "13e4c95dcbaa6d34090ed25c81da95ae0ecffa6f5294ed82e0ecb8b302653aea",
+      "title": "Egyptisch en Nigeriaans Engels toegevoegd aan de Open ASR Leaderboard",
+      "summary": "Hugging Face voegt Egyptisch en Nigeriaans Engels toe aan de Open ASR Leaderboard, de ranglijst voor open spraakherkenningsmodellen. Zo wordt zichtbaarder hoe goed spraaktechnologie werkt met regionale accenten.",
+      "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+      "source_name": "Hugging Face",
+      "source_type": "rss",
+      "published": "2026-11-06T00:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "open-source"
+      ],
+      "importance": 2,
+      "why_relevant": "Illustreert de bias in spraakherkenning, relevant voor inclusieve digitale dienstverlening.",
+      "also_covered_by": []
+    },
+    {
+      "id": "187bb7cb1c545322a4d57c9eebe025d58270f71e646b4481107cb623e749af0e",
+      "title": "Inkling 2 Small",
+      "summary": "Thinking Machines kondigt Inkling 2 Small aan, een nieuw model uit de Inkling-reeks. Over de specificaties is in de aangeleverde tekst niets te vinden.",
+      "url": "https://thinkingmachines.ai/news/inkling-2-small/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-06T00:00:24Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen"
+      ],
+      "importance": 2,
+      "why_relevant": "Nieuw model van een bekend AI-lab, nuttig om het modellenlandschap bij te houden.",
+      "also_covered_by": []
+    },
+    {
+      "id": "216df8b2e07ead6c64dc970c283204bd14b442a957dd3d281412b2baa0ee9cce",
+      "title": "Gesloten AI-modellen domineren de balans tussen prijs en prestaties",
+      "summary": "Een blogbericht stelt dat gesloten AI-modellen nu de beste verhouding tussen prijs en prestaties bieden. Open modellen lijken daarmee terrein te verliezen. Meer onderbouwing is in de aangeleverde tekst niet beschikbaar.",
+      "url": "https://village.dev/blog/closed-ai-models-now-dominate-the-price-performance-frontier/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-06T02:49:56Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "onderzoek"
+      ],
+      "importance": 2,
+      "why_relevant": "Relevant bij keuzes tussen open en commerciële AI-modellen voor bibliotheekdiensten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "31a115d7fe323787b644ff5ce62fee6e1f61f1e2694b33567839b7cfd4d5c533",
+      "title": "Wetenschap Over… Grip op jouw digitale balans",
+      "summary": "Netwerk Mediawijsheid publiceert een artikel met de laatste wetenschappelijke inzichten over telefoongebruik en digitale balans. Het bevat concrete tips om meer grip te krijgen op je gebruik.",
+      "url": "https://netwerkmediawijsheid.nl/wetenschap-over-grip-op-jouw-digitale-balans/",
+      "source_name": "Netwerk Mediawijsheid",
+      "source_type": "rss",
+      "published": "2026-11-06T05:00:31+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "digitale-geletterdheid"
+      ],
+      "importance": 2,
+      "why_relevant": "Handig achtergrondmateriaal voor workshops en voorlichting over mediawijsheid.",
+      "also_covered_by": []
+    },
+    {
+      "id": "41f0f75dca6a0678bdf494e0a6f43ec718fffbbf37035abe52e08265ee2034a8",
+      "title": "IFLA MENA lanceert zesmaands leiderschapsprogramma 'Library Transformation Pioneers'",
+      "summary": "IFLA's regionale commissie voor het Midden-Oosten en Noord-Afrika opent de inschrijving voor een virtueel programma voor bibliotheekprofessionals met 3 tot 10 jaar ervaring. Deelnemers krijgen leiderschapstraining, mentoring en voeren een eigen advocacyproject uit. Aanmelden kan tot 25 november 2026.",
+      "url": "https://www.ifla.org/news/ifla-mena-regional-committee-launches-6-month-library-transformation-pioneers-leadership-program/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-11-06T07:59:12+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "bibliotheek",
+        "cursus-of-workshop"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van internationale professionalisering in het bibliotheekvak, al is het gericht op de MENA-regio.",
+      "also_covered_by": []
+    },
+    {
+      "id": "794b96eeaad1d0abdd5cf7432bba5ff72ce8e80ded3f1bd914b08ac852d212b7",
+      "title": "Dropbox voegt AI-tools voor zoeken en bewerken toe aan opslagdienst",
+      "summary": "Dropbox introduceert AI-functies waarmee gebruikers hun opgeslagen bestanden via prompts doorzoeken en bewerken. De functies richten zich eerst op zakelijke klanten en komen voorlopig niet naar Europa. Daarnaast neemt Dropbox een AI-bedrijf over.",
+      "url": "https://tweakers.net/nieuws/254232/dropbox-voegt-ai-tools-voor-zoeken-en-bewerken-toe-aan-opslagdienst.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-11-06T08:50:48+01:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat zien dat AI-zoeken in persoonlijke opslag gangbaar wordt, al is Europa nog niet aan de beurt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "e44f1194295db615d74e15a1fa4fa63b16a57058449870eb3cc536ae727cf1e6",
+      "title": "Ik liet een humanoïde robot mijn appartement schoonmaken: een voorproefje van de toekomst",
+      "summary": "Een journalist boekte een schoonmaakdienst met humanoïde robots van het startup Tau Robotics in San Francisco. De robots worden voorlopig op afstand door mensen bestuurd, en de verzamelde data dient om latere, zelfstandige modellen te trainen. Daarom is de dienst goedkoper dan je zou verwachten.",
+      "url": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+      "source_name": "MIT Technology Review — AI",
+      "source_type": "rss",
+      "published": "2026-11-06T10:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "arbeidsmarkt"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat zien hoe robots met AI nu worden getraind en uitgeprobeerd in huishoudens.",
+      "also_covered_by": []
+    },
+    {
+      "id": "a8e215d1c3fca63aee0ffd81acf9a149c8070d7929a87491384cb6b33805423d",
+      "title": "Franklin Templeton zet OpenAI in voor beleggingsonderzoek",
+      "summary": "Vermogensbeheerder Franklin Templeton ontwikkelt AI-workflows, te beginnen bij aandelenonderzoek. Portefeuillebeheerders kunnen daarmee onderzoeksvisies vergelijken en beleggingsrisico's onderzoeken.",
+      "url": "https://openai.com/index/franklin-templeton",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-11-05T00:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws over AI in de financiële sector, weinig relevant voor bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "db9792e954d447010915e606e8fdb998d92778fb38af9f5ff78336a8db2d0092",
+      "title": "Merge bouwt product- en bedrijfstools met OpenAI-technologie",
+      "summary": "Het bedrijf Merge gebruikt GPT-6 Astra, ChatGPT en Codex om productcode te beoordelen en marketing te ondersteunen. Teams gebruiken AI ook voor planning en verkooprapportages. Het is een klantverhaal van OpenAI.",
+      "url": "https://openai.com/index/merge-builds-with-openai",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-11-05T08:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws; alleen ter illustratie van alledaags zakelijk AI-gebruik.",
+      "also_covered_by": []
+    },
+    {
+      "id": "0639117defa113f999dd601155827ec628ac3ec5799aa2c24877eb8339356dd6",
+      "title": "Beursgang van Agility Robotics roept vragen op over markt voor humanoïde robots",
+      "summary": "Agility Robotics is als eerste dedicated maker van humanoïde robots naar de Nasdaq gegaan. In de beursdocumenten erkent het bedrijf dat humanoïde robots nog niet op grote schaal bewezen zijn. Het wil robots verhuren tegen een tarief dat vergelijkbaar is met arbeidskosten.",
+      "url": "https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-11-05T12:00:41+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "arbeidsmarkt"
+      ],
+      "importance": 1,
+      "why_relevant": "Achtergrond bij robotisering van werk; beperkt direct belang voor bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "fb36387eda7f783393f652f512b631c86e13f7d40f3a4789d3b5df30bfdc00f6",
+      "title": "Wolters Kluwer versnelt AI-innovatie",
+      "summary": "Wolters Kluwer ligt na negen maanden op koers met 6 procent organische groei en 10 procent hogere operationele winst. Cloudsoftware levert al een kwart van de omzet. Het bedrijf zet in op AI in de divisies Gezondheidszorg, Belastingen en Juridische Zaken.",
+      "url": "https://www.computable.nl/2026/11/05/wolters-kluwer-versnelt-ai-innovatie/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-11-05T13:15:14+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 1,
+      "why_relevant": "Nederlandse informatieleverancier die AI inzet; achtergrond bij professionele informatiediensten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "1a4c6974f853d3c2e276b288e0c601b47a05730d795ba0ee9c3b037c6828e173",
+      "title": "Word lid van de IFLA Bibliography Section: oproep voor verkiezingen 2027",
+      "summary": "De IFLA Bibliography Section zoekt nieuwe leden voor haar permanente commissie voor een termijn van vier jaar vanaf augustus 2027. Belangstellenden kunnen zich tussen 28 oktober en 9 december 2026 melden. Daarna volgen nominatie en stemming in 2027.",
+      "url": "https://www.ifla.org/news/join-the-ifla-bibliography-section-2027-elections-call-for-expressions-of-interest/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-11-05T14:39:06+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "bibliotheek"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws voor wie zich met catalogisering en metadata internationaal wil engageren.",
+      "also_covered_by": []
+    },
+    {
+      "id": "abb1c2e3f3fdb862c1931bd42e3af99662e5a2eef51b3f922852c0d893a57235",
+      "title": "Fujitsu ziet toekomst in dynamische samenwerking tussen mens, AI en robots",
+      "summary": "Fujitsu presenteerde op een evenement in Madrid zijn visie op 'dynamic transformation' richting 2035. AI verschuift daarin van kantoorwerk naar de fysieke wereld, en bedrijven moeten continu experimenteren en bijsturen. Uit eigen onderzoek onder duizend bestuurders komen cyberaanvallen naar voren als grootste bedreiging.",
+      "url": "https://www.computable.nl/2026/11/05/fujitsu-ziet-toekomst-in-dynamische-samenwerking-tussen-mens-ai-en-robots/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-11-05T16:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "arbeidsmarkt"
+      ],
+      "importance": 1,
+      "why_relevant": "Toekomstvisie van een groot ICT-bedrijf op AI en werk; achtergrondlezen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "b9d2d1ec35ed8d95f28407093b37292a88db67b26a02cd4ad119b7c209ab6067",
+      "title": "Bloomberg: Chinese klanten krijgen maar 1 procent van bestelde Nvidia RTX PRO's",
+      "summary": "Chinese AI- en cloudbedrijven zoals Alibaba, Tencent en ByteDance verwachten de komende vier maanden slechts enkele tienduizenden RTX PRO 5500-chips te ontvangen. Dat is ongeveer 1 procent van wat ze bestelden. Het laat zien hoe schaars AI-hardware blijft.",
+      "url": "https://tweakers.net/nieuws/254202/bloomberg-chinese-klanten-krijgen-maar-1-procent-van-bestelde-nvidia-rtx-pros.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-11-05T16:22:26+01:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 1,
+      "why_relevant": "Achtergrond over schaarste van AI-hardware; weinig direct belang voor bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "335e94a0914635a16cbbdf38c0fd20694f0daa6e3b11930fd2fde7d5d4da4a42",
+      "title": "Rivet: open-source orkestratie van AI-agents met lichte actors op S3",
+      "summary": "Rivet is een open-source en zelf te hosten systeem om veel AI-agents te draaien. Elke agent krijgt een lichte 'actor' met eigen geheugen en opslag op S3, in plaats van een zware sandbox. Zo wil het team agent-workloads goedkoper en schaalbaarder maken.",
+      "url": "https://github.com/rivet-dev/rivet",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-05T17:17:42Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "open-source"
+      ],
+      "importance": 1,
+      "why_relevant": "Zeer technisch ontwikkelaarsnieuws; vooral achtergrond bij hoe agents draaien.",
+      "also_covered_by": []
+    },
+    {
+      "id": "c704bc1c49f9be1251aedd7a79c65e84a7cd958a1acb1a87e777b5c57b129799",
+      "title": "Airbnb werkt aan een AI-reisagent voor 2027",
+      "summary": "Airbnb wil in de eerste helft van 2027 een AI-agent lanceren die gebruikers helpt reizen te plannen en te boeken. Het bedrijf zegt een voorsprong te hebben door zijn ervaring met hosts en gasten en een nieuwe, speciaal voor reizen gebouwde interface. Een gewone chatbot is volgens Airbnb niet de bedoeling.",
+      "url": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-05T19:06:12-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 1,
+      "why_relevant": "Voorbeeld van de trend naar AI-agents die zelfstandig boekingen doen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "f25b9201ad6bdcc6fc966e82e19169484871d5662fdac1ebb6313d2e0a7a1d5f",
+      "title": "Nieuwe open Cosmos 3-modellen van NVIDIA voor interactieve wereldsimulatie",
+      "summary": "NVIDIA publiceert op Hugging Face nieuwe open modellen uit de Cosmos 3-reeks, bedoeld voor interactieve simulatie van werelden. Het bericht bevat geen verdere tekst, dus details over prestaties en gebruik ontbreken. Open modellen als deze zijn vooral interessant voor ontwikkelaars en onderzoekers.",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "source_name": "Hugging Face",
+      "source_type": "rss",
+      "published": "2026-11-05T19:35:16+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "open-source"
+      ],
+      "importance": 1,
+      "why_relevant": "Technisch randnieuws over open modellen; weinig directe gevolgen voor bibliotheekwerk.",
+      "also_covered_by": []
+    },
+    {
+      "id": "bbd492caba72ca544b8bac3280d7afac87555fa4b30c0b12388bcfae24236fa4",
+      "title": "Cult.fit versterkt zijn bedrijfsvoering met Codex",
+      "summary": "Het fitnessbedrijf Cult.fit gebruikt OpenAI's Codex om teams uit verschillende afdelingen zelf tools te laten bouwen. Het gaat om een klantverhaal van OpenAI zelf, met weinig details.",
+      "url": "https://openai.com/index/cultfit-builds-with-codex",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-11-05T20:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws over bedrijfsgebruik van AI-codetools, weinig directe waarde voor bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "e2e23a0367960f2af33f005d1ecd65f37c769e485a63eb77622e4cc06945bfeb",
+      "title": "Nvidia Kubernetes Engine (NVKE)",
+      "summary": "Een GitHub-project met de naam Nvidia Kubernetes Engine, gedeeld op Hacker News. Verdere uitleg ontbreekt in de aangeleverde tekst; het lijkt om infrastructuur voor AI-werklasten te gaan.",
+      "url": "https://github.com/dsx-ai-factory/nvke",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-06T03:16:26Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "open-source"
+      ],
+      "importance": 1,
+      "why_relevant": "Technisch randnieuws, nauwelijks relevant voor bibliotheekmedewerkers.",
+      "also_covered_by": []
+    },
+    {
+      "id": "d32853de8a8bf931768a512267cb2beaabaedd2fb300e3231ad75234d1553766",
+      "title": "App Store 2026 in cijfers: AI, prijzen en verlaten apps",
+      "summary": "Een onderzoeksoverzicht over de App Store in 2026 met cijfers over AI-apps, prijsstelling en verlaten apps. Meer inhoud is niet aangeleverd, dus details ontbreken.",
+      "url": "https://obelisk.club/research/app-store-2026",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-06T07:59:19Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "bedrijven"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws over de app-markt; beperkt nut voor bibliotheekwerk.",
+      "also_covered_by": []
+    }
+  ]
+}
