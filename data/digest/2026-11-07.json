@@ -1,0 +1,518 @@
+{
+  "date": "2026-11-07",
+  "generated_at": "2026-11-07T11:27:16+00:00",
+  "stats": {
+    "batches": 2,
+    "onleesbaar": 0,
+    "objecten": 59,
+    "schema_fout": 0,
+    "onbekend_id": 0,
+    "gedropt": 32,
+    "geldig": 27,
+    "ai": 26,
+    "bieb": 1
+  },
+  "sources": [
+    "Ars Technica AI",
+    "Computable",
+    "Hacker News",
+    "IFLA",
+    "MIT Technology Review — AI",
+    "OpenAI",
+    "Simon Willison",
+    "The Verge AI",
+    "Tweakers"
+  ],
+  "items": [
+    {
+      "id": "bbd197390f91bc38178fc35e64c005c18d7dfa65c99fe671595610a6f006a541",
+      "title": "Kabinet wil AI-ontwikkeling meer sturen",
+      "summary": "De ministerraad heeft ingestemd met de kabinetsvisie op AI, 'Kiezen voor AI voor iedereen', ingediend door staatssecretaris Aerdts. Die rust op drie pijlers: verantwoorde toepassing, toegang tot geavanceerde AI-technologie en veiligheid, en sturing op Nederlandse publieke waarden. Nederland zet in op een sterke positie binnen Europa, met kennis en capaciteit op terreinen als zorg, energie en veiligheid.",
+      "url": "https://www.computable.nl/2026/11/06/kabinet-wil-ai-ontwikkeling-meer-sturen/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-11-06T18:00:00+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "beleid-en-regelgeving"
+      ],
+      "importance": 5,
+      "why_relevant": "Landelijke AI-koers bepaalt kansen en verwachtingen voor bibliotheken in digitale geletterdheid.",
+      "also_covered_by": []
+    },
+    {
+      "id": "d5b787a9c53bb9387accb659ea6e6f1d645b4dda1c8930aeefe02a4067ecb222",
+      "title": "NCTV: Nederland is niet bestand tegen toename van cyberdreiging door AI",
+      "summary": "De NCTV schrijft in het Cybersecuritybeeld Nederland 2026 dat de capaciteiten van cybercriminelen mede door AI toenemen. De weerbaarheid van Nederlandse organisaties blijft daarbij achter. De dienst noemt dit een ernstig risico voor de nationale veiligheid.",
+      "url": "https://tweakers.net/nieuws/254260/nctv-nederland-is-niet-bestand-tegen-toename-van-cyberdreiging-door-ai.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-11-06T17:41:43+01:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "ethiek-en-risico",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 4,
+      "why_relevant": "Directe waarschuwing voor Nederlandse organisaties, ook bibliotheken, over AI-gedreven cyberrisico's.",
+      "also_covered_by": []
+    },
+    {
+      "id": "b7a365b152dd801bf936eb5201a5309a82625be0d3830d3d73c5f8ab90c2618c",
+      "title": "Zwolse ambtenaren krijgen AI-agenten als collega",
+      "summary": "De gemeente Zwolle bereidt de inzet van AI-agenten voor, nadat bijna de helft van de ambtenaren is getraind in werken met AI. Het college moet de kaders nog vaststellen. Toestemming voor interne processen wordt eind dit jaar verwacht, terwijl nog wordt bepaald of de agenten ook in het sociale domein of bij burgerzaken komen.",
+      "url": "https://www.computable.nl/2026/11/06/zwolse-ambtenaren-krijgen-ai-agent-als-collega/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-11-06T06:15:00+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "tools",
+        "arbeidsmarkt",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 3,
+      "why_relevant": "Voorbeeld van een lokale overheid met AI-training en kaders, goed te vergelijken met bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "6f9e9e903054c5bbc48c49bfef104af3c61039f0d8e53c6e4d68f27057e8fffb",
+      "title": "EU schakelt Capgemini in voor studie naar AI-cyberrisico's",
+      "summary": "De Europese Commissie laat een consortium onder leiding van Capgemini, met Wavestone en LNE, algemene AI-modellen beoordelen op veiligheidsrisico's en misbruik bij cyberaanvallen. De opdracht valt onder de AI Act en ondersteunt het AI-bureau bij handhaving richting aanbieders als OpenAI, Google en Anthropic. De nadruk ligt op AI die kwetsbaarheden opspoort en exploits genereert.",
+      "url": "https://www.computable.nl/2026/11/06/kort-eu-schakelt-capgemini-in-voor-studie-naar-ai-cyberrisicos-vodafoneziggo-groeit-weer-en-meer/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-11-06T11:30:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Laat zien hoe de AI Act in de praktijk wordt gehandhaafd.",
+      "also_covered_by": []
+    },
+    {
+      "id": "0b33259ab43866603fce5c73c63383314d4e6a03708e5388218b657960ae5181",
+      "title": "Meta schort omstreden update van commerciële voorwaarden op",
+      "summary": "Meta stelt na kritiek de wijziging van zijn commerciële voorwaarden voor onbepaalde tijd uit. Die zou zakelijke accounts verplichten AI-training op gelinkte externe websites toe te staan. Juristen waarschuwden dat Meta zo robots.txt-voorkeuren kon negeren en licentiekosten voor nieuwsuitgevers kon ontlopen.",
+      "url": "https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-11-06T17:43:02+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "ethiek-en-risico",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Gaat over scraping en auteursrecht, een kernthema voor informatie- en bibliotheekwereld.",
+      "also_covered_by": []
+    },
+    {
+      "id": "e40d1a928ab47860287700d99fc2069a86ecbdc8eab64fe42f6a664dd537e150",
+      "title": "OpenAI gewaardeerd op 1,25 biljoen dollar, Anthropic naderde beursgang",
+      "summary": "OpenAI haalt in een nieuwe financieringsronde 11 miljard dollar op tegen een waardering van 1,25 biljoen dollar, meldt Bloomberg. Het bedrijf zoekt nog extra investeerders, terwijl de oorspronkelijke wens van 30 miljard dollar bij een hogere waardering niet werd gehaald na de daling van techaandelen. Concurrent Anthropic zou dicht bij een beursgang zijn.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-06T18:46:18-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "subsidie-of-financiering"
+      ],
+      "importance": 3,
+      "why_relevant": "Laat de machtsconcentratie zien bij de AI-aanbieders waarvan bibliotheken afhankelijk worden.",
+      "also_covered_by": []
+    },
+    {
+      "id": "d645973dda1a80c2b0be3e2c921178d39537a201435b65d177838441a3a3a291",
+      "title": "Cybersecuritybeeld Nederland 2026: ga ervan uit dat de aanvaller al binnen is",
+      "summary": "Het NCSC en de NCTV waarschuwen in het Cybersecuritybeeld Nederland 2026 dat aanvallers zich vaak al ongemerkt in vitale systemen hebben genesteld. Alleen proberen hackers buiten te houden is daarom niet genoeg. AI kan het aantal cyberincidenten de komende jaren sterk laten toenemen.",
+      "url": "https://www.computable.nl/2026/11/06/cybersecuritybeeld-nederland-2026-ga-ervan-uit-dat-de-aanvaller-al-binnen-is/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-11-06T21:35:14+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "ethiek-en-risico",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 3,
+      "why_relevant": "Bibliotheken beheren veel persoonsgegevens en moeten rekening houden met AI-gedreven cyberdreiging.",
+      "also_covered_by": [
+        "https://www.computable.nl/2026/11/06/brits-ncsc-waarschuwt-ai-legt-oude-beveiligingsproblemen-bloot/"
+      ]
+    },
+    {
+      "id": "706c8cf3bca840cc858011f0df084e1846576dafddca57186e0f9bcddfc0884f",
+      "title": "IFLA en bibliotheken op COP31: programma van evenementen",
+      "summary": "IFLA is aanwezig op de VN-klimaattop COP31 in Antalya en organiseert er sessies samen met bibliotheekcollega's en partners. Op 13 november gaat het over de rol van cultuur en erfgoed in klimaatbeleid. Op 16 november gaat het over bibliotheken als vertrouwde plekken voor klimaatgeletterdheid en lokale actie.",
+      "url": "https://www.ifla.org/news/ifla-and-libraries-at-cop31-events/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-11-07T04:43:06+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "bibliotheek",
+        "evenement",
+        "digitale-geletterdheid"
+      ],
+      "importance": 3,
+      "why_relevant": "Laat zien hoe bibliotheken wereldwijd positie kiezen in klimaatinformatie en burgerempowerment.",
+      "also_covered_by": []
+    },
+    {
+      "id": "65a868deeb253165b92056ac1406c8299cd7bda1e42c4b0432905ce24c5ee981",
+      "title": "Reuters: Amerikaanse Democraten willen AI aan banden leggen met stroom aan wetsvoorstellen",
+      "summary": "De Democraten willen in de nieuwe Congrestermijn, die op 3 januari 2027 begint, AI-bedrijven met wetgeving aan banden leggen. Tot nu toe lieten de Republikeinen de grote techbedrijven vrij hun gang gaan. President Trump kan de voorstellen mogelijk blokkeren.",
+      "url": "https://tweakers.net/nieuws/254276/reuters-democraten-vs-willen-ai-met-vloedgolf-aan-wetten-aan-banden-leggen.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-11-07T11:38:40+01:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Amerikaanse AI-regels beïnvloeden de tools en voorwaarden waar bibliotheken mee werken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "cfb39304f9e39009e43de8139e62ee276a28a4ed8b942bf7da32cc65c008541d",
+      "title": "AI voor wetenschappelijke ontdekkingen: hoe onderzoekers Claude gebruiken",
+      "summary": "Anthropic publiceert een bericht over de manier waarop onderzoekers Claude inzetten in hun wetenschappelijke werk. De bron bevatte geen uitgewerkte tekst, dus details ontbreken. Het geeft wel een indicatie van hoe AI-assistenten in onderzoek worden toegepast.",
+      "url": "https://www.anthropic.com/research/how-researchers-use-claude",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-06T09:13:30Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont praktijkgebruik van AI in onderzoek, handig voor het adviseren van bezoekers.",
+      "also_covered_by": []
+    },
+    {
+      "id": "30f8dd9f5bb0b26484d7b9a48c9af9e078d3cebc99d539c91125adc765663ca4",
+      "title": "Meta's Muse-assistent kan nu eigen 'spaces' bouwen",
+      "summary": "Meta voegt aan zijn AI-assistent Muse de functie 'spaces' toe. Gebruikers beschrijven wat ze willen en Muse bouwt een app-achtige omgeving, zoals een schooldashboard of muziektracker. Gekoppelde apps zoals Gmail, Google Agenda en Notion houden de inhoud op de achtergrond actueel.",
+      "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-06T13:10:10-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van AI-assistenten die zelf apps maken; bezoekers kunnen hier vragen over krijgen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "5d6aaf835fa3bf32a6d316a3655dccc2c0d0a435d87eee5dc675e0e88294bf3e",
+      "title": "Nvidia-topman Jensen Huang door Amerikaans Congres opgeroepen vanwege Chinese spionage",
+      "summary": "Drie Republikeinse commissievoorzitters vragen Jensen Huang op 18 november te verschijnen voor een besloten briefing. Aanleiding zijn berichten dat Amerikaanse inlichtingendiensten denken dat hij het doelwit is van een Chinese spionageoperatie.",
+      "url": "https://arstechnica.com/tech-policy/2026/11/nvidia-ceo-jensen-huang-summoned-by-congress-over-chinese-espionage-concerns/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-11-06T14:13:32+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Geopolitieke spanning rond AI-chips die de AI-markt kan beïnvloeden.",
+      "also_covered_by": []
+    },
+    {
+      "id": "173ed00250a8a46052833a830d3a7e90cd8670932da672adf7d27c4e5e7551f3",
+      "title": "Alle ontwikkelingen rond AI-datacenters op een rij",
+      "summary": "The Verge houdt bij hoe de snelle bouw van energieslurpende datacenters leidt tot conflicten over stroomnetten, energierekeningen en milieu. Datacenters waren een groot thema bij de Amerikaanse tussentijdse verkiezingen en kiezers keerden zich grotendeels tegen uitbreiding. Ook een omvangrijk wetsvoorstel om energieprojecten te versnellen kan het toezicht op nieuwe datacenters beperken.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-06T15:02:22-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 2,
+      "why_relevant": "Energie en milieu-impact van AI zijn vaste gespreksonderwerpen bij publieksvragen.",
+      "also_covered_by": [
+        "https://www.theverge.com/policy/1028228/energy-infrastructure-permitting-reform-bill-congress-vote"
+      ]
+    },
+    {
+      "id": "839be33a2d0cf11a096d84c541adedc4af3826bc77b40f9a2799a70635d1ef68",
+      "title": "Brits NCSC waarschuwt: AI legt oude beveiligingsproblemen bloot",
+      "summary": "Het Britse NCSC stelt in zijn jaaroverzicht dat vooral achterstallig onderhoud het grootste probleem is, niet nieuwe aanvalstechnieken. AI maakt aanvallen sneller en goedkoper en vergroot de gevolgen van bestaande zwakke plekken. Bij grote organisaties kwam 88 procent van de incidenten binnen via vier routes, waaronder phishing en misbruikte accounts.",
+      "url": "https://www.computable.nl/2026/11/06/brits-ncsc-waarschuwt-ai-legt-oude-beveiligingsproblemen-bloot/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-11-06T16:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "onderzoek"
+      ],
+      "importance": 2,
+      "why_relevant": "Praktisch argument voor basishygiëne en phishingvoorlichting aan bezoekers en medewerkers.",
+      "also_covered_by": []
+    },
+    {
+      "id": "72c8d5999f2786cc6619d33d9b6f56db06fe6d8cf961d55f3c4982297af69e85",
+      "title": "Kopers van Anthropic-beursgang zien waardering mogelijk zakken tot 1,1 biljoen dollar",
+      "summary": "Volgens Bloomberg staat de verwachte waardering van Anthropic bij een beursgang onder druk na de recente AI-uitverkoop. Kopers zouden uitgaan van een waarde vanaf 1,1 biljoen dollar.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-06T16:54:36Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Zegt iets over de stabiliteit van een grote AI-leverancier.",
+      "also_covered_by": []
+    },
+    {
+      "id": "b7aa5d4fa5c79c451bb76b18d3c56b248d76bc42c813cba5f06d2f47e4fc5485",
+      "title": "Nilay Patel: AI-producten zijn de maatschappelijke kosten niet waard",
+      "summary": "Nilay Patel van The Verge stelt dat AI-producten nog te weinig opleveren om overlast zoals datacenters, de kosten en de 'slop' te rechtvaardigen. Hij koppelt dit aan de betrokkenheid van techbedrijven bij de politiek. Volgens hem verandert het sentiment pas als gebruikers zonder reclamecampagne merken dat de producten hun leven beter maken.",
+      "url": "https://simonwillison.net/2026/Nov/6/nilay-patel/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-11-06T17:13:12+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Geeft inzicht in groeiende publieke scepsis over AI, relevant voor gesprekken met bezoekers.",
+      "also_covered_by": []
+    },
+    {
+      "id": "348cd589f28fa379c9c4e35a1d97657ce12ff149fc117a56ac948d649fab4335",
+      "title": "China wierf volgens NYT AI-topman om Nvidia-baas Jensen Huang te bespioneren",
+      "summary": "Volgens The New York Times heeft de Chinese inlichtingendienst MSS Megaspeed-bestuurder Alice Huang ingezet om informatie over Amerikaanse AI-chips te verzamelen. Ook zou ze Nvidia onder druk moeten zetten om de meest geavanceerde chips naar China te laten gaan. Het past in de geopolitieke strijd om AI-hardware.",
+      "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-06T18:00:44-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 2,
+      "why_relevant": "Achtergrond bij de geopolitiek rond AI-chips, relevant voor de context van AI-nieuws.",
+      "also_covered_by": []
+    },
+    {
+      "id": "5d5ecd5104547f5770d0bb799ae197b45d2ad52062cd710a6d1cfc9458e01c7f",
+      "title": "AI versnelt AI-onderzoek aanzienlijk",
+      "summary": "Een bijdrage op Planned Obsolescence stelt dat AI het onderzoek naar AI zelf sterk versnelt. Brontekst ontbreekt, dus de onderbouwing is hier niet na te gaan.",
+      "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-06T20:27:23Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "modellen"
+      ],
+      "importance": 2,
+      "why_relevant": "Snellere AI-ontwikkeling betekent dat bibliotheken sneller moeten bijsturen in hun aanbod.",
+      "also_covered_by": []
+    },
+    {
+      "id": "7142f0ef7fb76f39c0d4f06c2ac75da2607d067e450ec8c4806a2cb87f087aff",
+      "title": "Chainalysis: hackers stalen inloggegevens en tokens van alle klanten",
+      "summary": "Bij een inbraak in oktober kregen aanvallers namen, gebruikersnamen, wachtwoordhashes en actieve tokens van alle gebruikers van Chainalysis in handen. De aanvaller zou AI-agents hebben ingezet om toegang te krijgen. Tot de klanten behoren overheidsinstanties en grote bedrijven.",
+      "url": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-11-06T20:56:41+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van AI-ondersteunde cyberaanvallen, nuttig voor weerbaarheid en voorlichting.",
+      "also_covered_by": [
+        "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/p092oymih61e99ypfacaa9pghyb4jrmyawessoxu.html"
+      ]
+    },
+    {
+      "id": "ef313c34ae184d15b23a8ec6ebbee6d9e12dae97f562e0a1d653d20460b8291c",
+      "title": "Elke Mac bevat een ongedocumenteerde familieclassificatie",
+      "summary": "Volgens een artikel op 8rank.ai bevat elke Mac een niet-gedocumenteerd onderdeel dat familieleden van de gebruiker classificeert, als onderdeel van Apple Intelligence. Er is verder weinig brontekst beschikbaar, dus de details zijn onduidelijk.",
+      "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-07T09:46:03Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Raakt aan privacyvragen over AI op apparaten die bezoekers gebruiken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "5f721228af3682c2417b4131d4680ee3211f1024fcf682ecae1568fe5c5140e2",
+      "title": "Meten hoe AI-agents omgaan met alledaags laboratoriumwerk",
+      "summary": "OpenAI introduceert BioBasicsBench, een benchmark met honderd taken. Hiermee wordt gemeten hoe goed AI-agents ruwe experimentele data interpreteren en alledaags natte-labwerk aankunnen.",
+      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-11-06T00:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "modellen"
+      ],
+      "importance": 1,
+      "why_relevant": "Specialistisch onderzoeksnieuws met beperkte betekenis voor bibliotheekwerk.",
+      "also_covered_by": []
+    },
+    {
+      "id": "a0a44ed09dc9a1089b4e099f4e0fbf8e71ea906b8e386a1df3e114e9f9678292",
+      "title": "OpenAI werkt samen met Hacktron om kwetsbaarheden in eigen systemen te vinden",
+      "summary": "OpenAI gaat samenwerken met Hacktron om kwetsbaarheden op te sporen en koppelingen met externe diensten te testen. Daarbij wordt geavanceerde AI ingezet om de beveiliging te versterken.",
+      "url": "https://openai.com/index/partnering-with-hacktron",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-11-06T08:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "ethiek-en-risico"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws over beveiliging van AI-diensten die bibliotheken mogelijk gebruiken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "8d0cdf389f9287339013a7b1df24261e6704f6d6750ca758fdeb4d91bd4c32a4",
+      "title": "The Download: een humanoïde robot als schoonmaker en Samsungs chipcampus voor de AI-boom",
+      "summary": "Een MIT Technology Review-journalist liet in San Francisco een humanoïde robot van Tau Robotics zijn appartement schoonmaken. De robot wordt nog op afstand door mensen bestuurd. Daarnaast bezocht een collega Samsungs enorme nieuwe chipcampus in Zuid-Korea, die geheugenchips voor generatieve AI moet leveren.",
+      "url": "https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/",
+      "source_name": "MIT Technology Review — AI",
+      "source_type": "rss",
+      "published": "2026-11-06T13:10:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 1,
+      "why_relevant": "Achtergrond over robotica en de hardwarevraag achter de AI-hype.",
+      "also_covered_by": []
+    },
+    {
+      "id": "71a79a941cd72405109a034cdd4dde9013e1fe473744d6e600029e2ddf8e25b3",
+      "title": "Snelle start Nationaal Instituut voor Defensie Technologie",
+      "summary": "Defensie richt het Nationaal Instituut voor Defensie Technologie op om innovatie te versnellen en de productie van defensiematerieel in Nederland te versterken. Het instituut investeert in risicovolle prototypes en garandeert afname van succesvolle systemen. De eerste opdracht betreft onderwaterdrones en sensoren voor de bewaking van infrastructuur op de Noordzee.",
+      "url": "https://www.computable.nl/2026/11/06/snelle-start-nationaal-instituut-voor-defensie-technologie/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-11-06T13:43:18+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "bedrijven",
+        "subsidie-of-financiering"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws over Nederlandse investeringen in AI-gedreven en autonome technologie.",
+      "also_covered_by": []
+    },
+    {
+      "id": "7dcd57a756f6e6932269d5472d5effac7d69c58c9a1ff389065d5171cd11c5c7",
+      "title": "Microsoft bouwt deal met Oracle voor AI-cloudcapaciteit af",
+      "summary": "Microsoft zou de overeenkomst om AI-cloudcapaciteit bij Oracle te huren afbouwen, meldt Bloomberg via Reuters. Details ontbreken in de beschikbare tekst.",
+      "url": "https://www.reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-06T18:04:06Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws over de markt voor AI-infrastructuur.",
+      "also_covered_by": []
+    },
+    {
+      "id": "7bed7e3c0b8efc9d2bd319850cc91aa316cdc266b13df9a30d090d445bb1d039",
+      "title": "Google neemt datacenterlocatie van Crusoe in Wyoming over",
+      "summary": "Google heeft de datacenterlocatie van Crusoe in het zuidoosten van Wyoming overgenomen. Het bericht komt van Crusoe zelf.",
+      "url": "https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-06T20:09:14Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws over de groei van AI-infrastructuur.",
+      "also_covered_by": []
+    },
+    {
+      "id": "db4af631edd98608d4d154a4f3fc761f1f2fe87d14eff42810f6e23f205a5516",
+      "title": "De AI-uitverkoop vergeleken met bekende beurscrashes",
+      "summary": "Kadoa zet de recente koersdaling van AI-aandelen af tegen bekende beurscrashes uit het verleden. Het stuk probeert de omvang van de correctie in perspectief te plaatsen.",
+      "url": "https://www.kadoa.com/companies/insights/ai-selloff-perspective",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-07T02:20:06Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 1,
+      "why_relevant": "Marktcontext bij de AI-hype, handig voor wie investeringen in AI inschat.",
+      "also_covered_by": []
+    }
+  ]
+}

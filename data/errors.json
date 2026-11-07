@@ -1,19 +1,5 @@
 [
   {
-    "ts": "2026-10-24T09:13:34+00:00",
-    "source": "Emerce",
-    "stage": "collect",
-    "error": "ValueError: HTTP 200 maar 0 items (content-type: text/html)",
-    "url": "https://www.emerce.nl/nieuws/rss"
-  },
-  {
-    "ts": "2026-10-24T09:14:10+00:00",
-    "source": "Rijnbrink",
-    "stage": "collect",
-    "error": "ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)",
-    "url": "https://www.rijnbrink.nl/actueel/nieuws/feed/"
-  },
-  {
     "ts": "2026-10-25T09:30:26+00:00",
     "source": "Emerce",
     "stage": "collect",
@@ -792,6 +778,13 @@
   },
   {
     "ts": "2026-11-06T12:36:47+00:00",
+    "source": "Emerce",
+    "stage": "collect",
+    "error": "ValueError: HTTP 200 maar 0 items (content-type: text/html)",
+    "url": "https://www.emerce.nl/nieuws/rss"
+  },
+  {
+    "ts": "2026-11-07T11:24:44+00:00",
     "source": "Emerce",
     "stage": "collect",
     "error": "ValueError: HTTP 200 maar 0 items (content-type: text/html)",
