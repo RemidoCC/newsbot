@@ -1,0 +1,168 @@
+{
+  "date": "2026-11-08",
+  "generated_at": "2026-11-08T11:38:15+00:00",
+  "stats": {
+    "batches": 1,
+    "onleesbaar": 0,
+    "objecten": 17,
+    "schema_fout": 0,
+    "onbekend_id": 0,
+    "gedropt": 9,
+    "geldig": 8,
+    "ai": 8,
+    "bieb": 0
+  },
+  "sources": [
+    "Computable",
+    "Hacker News",
+    "NOS Tech",
+    "Simon Willison",
+    "The Verge AI"
+  ],
+  "items": [
+    {
+      "id": "73468542508eb8df69caea3ae4be0ba591f773354ec7add724b09afe75f38c09",
+      "title": "Rapport over Anthropic die AI-ontwikkeling automatiseert baart onderzoekers zorgen",
+      "summary": "Onderzoeksorganisatie METR concludeert na een onderzoek van elf weken binnen Anthropic dat het bedrijf AI inzet om krachtigere AI te bouwen. De modellen verbeteren daardoor ongeveer twee keer zo snel als een jaar geleden, zonder tekenen van vertraging. Dat is een van de duidelijkste aanwijzingen tot nu toe voor versnelde AI-ontwikkeling en wekt zorgen over toezicht.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-07T07:30:00-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "bedrijven",
+        "ethiek-en-risico"
+      ],
+      "importance": 4,
+      "why_relevant": "Wijst op sneller veranderende AI, wat gevolgen heeft voor wat bibliotheken moeten uitleggen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "b16345efbb08b718137696e02672d78ace45ec19a371c54fd8aa1b2ea20f3526",
+      "title": "In Liechtenstein is de publieke omroep ingeruild voor goedkopere AI-radio",
+      "summary": "Radio Vaterland in Liechtenstein draait de nieuwsbulletins volledig op AI: de teksten komen uit de krant en worden voorgelezen door gekloonde stemmen van redacteuren. De zender werkt zonder studio of presentatoren en nam het gat in toen de publieke omroep werd stopgezet. Kleine uitspraakfoutjes blijven en dialect kan het model nog niet aan.",
+      "url": "https://nos.nl/l/2638489",
+      "source_name": "NOS Tech",
+      "source_type": "rss",
+      "published": "2026-11-07T20:50:29+01:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "arbeidsmarkt"
+      ],
+      "importance": 3,
+      "why_relevant": "Toont hoe AI lokale nieuwsvoorziening kan vervangen; relevant voor mediawijsheid en informatievoorziening.",
+      "also_covered_by": []
+    },
+    {
+      "id": "caca20c23ffc3d569c358c31e267fbbb94066ea740f3c0c5f9a1466f0ce5ea30",
+      "title": "Hersengolfheadsets voor consumenten bedreigen de privacy",
+      "summary": "Volgens Science verzamelen makers van draagbare apparaten hersendata van gebruikers om AI te trainen, zonder dat gebruikers dat weten. Hersendata is hoogst persoonlijk en de bescherming ervan is nog nauwelijks geregeld. De bron bevatte weinig tekst, dus details over de betrokken bedrijven ontbreken hier.",
+      "url": "https://www.science.org/content/article/wearable-device-makers-are-harvesting-brain-data-train-ai-without-telling-users?referrer=https%3A%2F%2Fwww.google.com%2F",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-08T02:02:38Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Goed voorbeeld voor voorlichting over privacy en dataverzameling bij nieuwe consumentenapparaten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "b5e5e1fc86f7e5d9a7166c7a269f20a74e9cf3266fcfe90f8629b2c32cd9e85a",
+      "title": "Cybersecurity is eindelijk chefsache",
+      "summary": "Op Cybersec Netherlands 2026 in Utrecht was te zien dat cybersecurity steeds meer een bestuurlijk onderwerp is, mede door NIS2 waardoor bestuurders aansprakelijk worden. Europarlementariër Bart Groothuis wees op de grote Amerikaanse afhankelijkheid bij AI-modellen en chips en pleitte voor deregulering van Europese privacyregels voor AI.",
+      "url": "https://www.computable.nl/2026/11/07/cybersecurity-is-eindelijk-chefsache/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-11-07T08:00:00+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "beleid-en-regelgeving",
+        "evenement"
+      ],
+      "importance": 2,
+      "why_relevant": "NIS2 en Europese afhankelijkheid van AI raken ook de bibliotheek als organisatie.",
+      "also_covered_by": []
+    },
+    {
+      "id": "348805e0618f54a38f51a4fe2c5f7bbcf4f3398c6c131ea1e6843d422d824303",
+      "title": "AI heeft de cybersecuritywereld op zijn kop gezet. Wat nu?",
+      "summary": "Alex Stamos van Cognition stelt in de podcast Decoder dat de traditionele cybersecurity-industrie niet is opgewassen tegen de golven aanvallen die AI mogelijk maakt, ook van staten als Rusland en Noord-Korea. Hij verwacht een periode van 'dark age' voordat we ons aanpassen. Ook komt aan bod hoe AI-desinformatie en slop op sociale netwerken te beheersen zijn.",
+      "url": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-07T10:00:00-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Geeft context voor digitale weerbaarheid en voorlichting over veiligheid aan bibliotheekbezoekers.",
+      "also_covered_by": []
+    },
+    {
+      "id": "6edc4f4db658358b3e578d2675d570c1210503c6f3a157a1994055566110187a",
+      "title": "VS liet Nvidia chips verkopen aan een leeg kantoor in China",
+      "summary": "Volgens de New York Times staat het Chinese bedrijf New Matrix op de lijst van goedgekeurde afnemers van Nvidia's H200-chips, terwijl het kantoor leeg blijkt en er nauwelijks informatie over het bedrijf bestaat. Het roept vragen op over de controle door het Amerikaanse ministerie van Handel en door Nvidia zelf.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-07T10:43:45-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Illustreert geopolitieke spanningen rond AI-hardware, achtergrond bij het brede AI-debat.",
+      "also_covered_by": []
+    },
+    {
+      "id": "a2958beb18e46dc73be050595383e3a0707251c61b6324aca2fa17c77fea69cb",
+      "title": "AI-assistent van NYT Cooking redde de doordeweekse kip, maar verpestte bijna een cake",
+      "summary": "Een Verge-journalist testte de nieuwe AI-assistent in de NYT Cooking-app naast andere AI-hulpjes in de keuken. De assistent hielp bij ingrediënten vervangen en ideeën bedenken, maar gaf bij een cake bijna een bruikbaar recept verkeerd advies. Het laat zien dat AI-assistenten handig zijn maar controle nodig houden.",
+      "url": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-07T10:50:00-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Alledaags voorbeeld van betrouwbaarheid van AI-assistenten, bruikbaar in workshops voor burgers.",
+      "also_covered_by": []
+    },
+    {
+      "id": "5f8103aa8ad8e667fe99f57680bbcd698e10ae17c93ba178b06c39c55cdb3b54",
+      "title": "Datasette stuurt geen 'rel=next'-header meer naar Firefox voor HTML-pagina's",
+      "summary": "Simon Willison zag dat Firefox bij Datasette-tabellen onnodig de volgende pagina vooraf ophaalde, door een HTTP link-header met rel=\"next\". Dat kost bandbreedte en serverkracht voor pagina's die vrijwel nooit worden bekeken. Het gedrag staat al 24 jaar als open probleem bij Firefox, en Datasette past nu de eigen server aan.",
+      "url": "https://simonwillison.net/2026/Nov/7/link-rel-next/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-11-07T23:57:46+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "open-source"
+      ],
+      "importance": 1,
+      "why_relevant": "Technisch randnieuws over een open-sourcetool; weinig relevantie voor bibliotheekwerk.",
+      "also_covered_by": []
+    }
+  ]
+}
