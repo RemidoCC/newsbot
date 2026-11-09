@@ -1,0 +1,483 @@
+{
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09T13:31:55+00:00",
+  "stats": {
+    "batches": 2,
+    "onleesbaar": 0,
+    "objecten": 48,
+    "schema_fout": 0,
+    "onbekend_id": 0,
+    "gedropt": 23,
+    "geldig": 25,
+    "ai": 19,
+    "bieb": 6
+  },
+  "sources": [
+    "Bibliotheeknetwerk (KB)",
+    "Computable",
+    "Hacker News",
+    "IFLA",
+    "Infodocket",
+    "Koninklijke Bibliotheek",
+    "MIT Technology Review — AI",
+    "Nederlandse AI Coalitie",
+    "Probiblio",
+    "Simon Willison",
+    "The Verge AI",
+    "Tweakers"
+  ],
+  "items": [
+    {
+      "id": "e779540b7b5cb4e4e5dcbc376681847c52a19ad3d9d0853f9702668850c4e632",
+      "title": "Rixt Heegsma wordt Professor of Practice Future of Libraries",
+      "summary": "TU Delft heeft Rixt Heegsma benoemd tot Professor of Practice Future of Libraries. Zij richt zich op de toekomstbestendigheid van bibliotheken. De KB financiert de functie.",
+      "url": "https://www.bibliotheeknetwerk.nl/nieuws/rixt-heegsma-wordt-professor-of-practice-future-of-libraries",
+      "source_name": "Bibliotheeknetwerk (KB)",
+      "source_type": "rss",
+      "published": "2026-11-04T08:39:39+01:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek",
+        "onderzoek"
+      ],
+      "importance": 3,
+      "why_relevant": "Nieuwe onderzoeksrol over de toekomst van bibliotheken, ook rond technologie.",
+      "also_covered_by": [
+        "https://bibliotheekblad.nl/rixt-heegsma-benoemd-tot-professor-of-practice-future-of-libraries/"
+      ]
+    },
+    {
+      "id": "bbcb9f20cf1088d1c83716ae929ca45e9deb32593160ad9f4504bc375b88a428",
+      "title": "IFLA MENA en Bibliotheca Alexandrina sluiten workshop over AI in bibliotheken af",
+      "summary": "In Alexandrië stelden bibliotheekprofessionals gezamenlijk een eerste praktisch kader op voor AI in bibliotheken. Het kader is gebaseerd op een Egyptische universiteitsgids en internationale standaarden, met nadruk op ethiek. Vervolgworkshops volgen de komende maanden.",
+      "url": "https://www.ifla.org/news/%f0%9f%8c%90-%f0%9f%8f%a2-ifla-mena-rdc-bibliotheca-alexandrina-conclude-landmark-workshop-on-ai-in-libraries-%f0%9f%a4%96-%f0%9f%93%9a-%e2%9c%a8/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-11-06T07:44:09+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "cursus-of-workshop",
+        "bibliotheek",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Een voorbeeld van een AI-kader voor bibliotheken om mee te vergelijken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "e4174df85a3276af4d86685a388a6c44c7ab32a0982a8460b8959ca0c39146d5",
+      "title": "Rechthebbenden van Elvis en Eminem klagen Suno aan",
+      "summary": "Rechthebbenden van Elvis Presley en de uitgever van Eminem stappen naar de rechter tegen AI-muziekbedrijf Suno. Zij stellen dat Suno muziek en teksten genereert die deze artiesten nabootsen. De Presley-zaak beroept zich op de Tennessee-wet die het klonen van stemmen verbiedt.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-08T12:23:19-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "ethiek-en-risico",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Auteursrecht en AI-gegenereerde muziek raken ook bibliotheken met muziekcollecties en mediawijsheidsvragen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "1d92748427d8373bbf612d90567009b0f56b0ae6492ea440d39becd817ab4869",
+      "title": "AI is grootste bedreiging voor grensbeveiliging",
+      "summary": "Op een top in Amsterdam concludeerden documentexperts dat AI het vervalsen van identiteitsdocumenten makkelijker maakt, terwijl grenscontroleurs gemiddeld maar twaalf seconden per document hebben. AI wordt tegelijk ingezet om visumaanvragen te sorteren en fraudepatronen te herkennen.",
+      "url": "https://www.computable.nl/2026/11/09/ai-vormt-de-grootste-bedreiging-voor-grensbeveiliging/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-11-09T06:15:00+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Illustreert risico's van AI-vervalsing, nuttig voor mediawijsheidsvoorlichting.",
+      "also_covered_by": []
+    },
+    {
+      "id": "2fa4a89ec723f61188f4cd3858b639c2e0fee7f867bbb82b534b92a0dfc471d9",
+      "title": "Instagram breidt AI-leeftijdsdetectie wereldwijd uit",
+      "summary": "Meta zet zijn AI-leeftijdsschatting wereldwijd in om tieners te herkennen die hun leeftijd onjuist hebben opgegeven. Zij komen automatisch in Teen Account-beveiligingen. De techniek kijkt naar signalen zoals interacties, verjaardagsberichten en visuele aanwijzingen in foto's.",
+      "url": "https://www.theverge.com/tech/1029627/meta-instagram-ai-age-assurance-global-expansion",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-09T07:00:00-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Raakt privacy en mediawijsheid van jongeren die de bibliotheek bezoeken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "e5656098c3bd853774798eaeca7aee0c9ac191fade88a709332d652881e16ced",
+      "title": "Het klimaatverhaal van AI is nog niet bewezen",
+      "summary": "Tijdens de VN-klimaattop in Antalya staat AI hoog op de agenda, maar de optimistische beloften van AI-bedrijven over emissiereductie zijn nog niet waargemaakt. Studies schatten wel een flinke potentiële besparing tegen 2035, vooral in energie, vlees en zuivel en voertuigen. Dat bewijs in de praktijk blijft vooralsnog beperkt.",
+      "url": "https://www.technologyreview.com/2026/11/09/1148166/the-climate-case-for-ai-has-not-been-made/",
+      "source_name": "MIT Technology Review — AI",
+      "source_type": "rss",
+      "published": "2026-11-09T10:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "onderzoek",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 3,
+      "why_relevant": "Helpt bij kritische gesprekken met bezoekers over AI en duurzaamheid.",
+      "also_covered_by": []
+    },
+    {
+      "id": "108f0f3d9c14a7a69f1c2eb72f2eaafb009753beba8c5077c9223113bf590245",
+      "title": "Nieuwe film voor 'Wie leest heeft een goed verhaal'",
+      "summary": "De Leescoalitie lanceert een nieuwe film voor de leesbevorderingscampagne. Vijf verhalen laten in dertig seconden zien hoe boeken mensen kunnen raken. De KB is partner in de coalitie.",
+      "url": "https://www.bibliotheeknetwerk.nl/nieuws/nieuwe-film-voor-wie-leest-heeft-een-goed-verhaal",
+      "source_name": "Bibliotheeknetwerk (KB)",
+      "source_type": "rss",
+      "published": "2026-11-06T11:08:05+01:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek"
+      ],
+      "importance": 2,
+      "why_relevant": "Landelijke leescampagne waar bibliotheken zelf bij kunnen aansluiten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "19ed3db3347544af26c2411f7cc3d9ef6e02cd549f705fc6b5b334d1f79a3b6e",
+      "title": "Wie beschermt het geheugen van Nederland?",
+      "summary": "KB-directielid Geertrui Verbraak pleit in een blog voor betere bescherming van het Nederlandse erfgoed.",
+      "url": "https://www.kb.nl/blogs/wie-beschermt-het-geheugen-van-nederland",
+      "source_name": "Koninklijke Bibliotheek",
+      "source_type": "rss",
+      "published": "2026-11-06T16:07:04+01:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 2,
+      "why_relevant": "Gaat over de rol van erfgoedinstellingen, ook relevant bij digitalisering.",
+      "also_covered_by": []
+    },
+    {
+      "id": "d61b9bc4b24c0a895e8ca0f111c2d81cd3ab2bb3df2b509180e42f5386a1cd59",
+      "title": "Apple wil Siri snel agentischer maken",
+      "summary": "Volgens Bloomberg zet Apple-ceo John Ternus Craig Federighi onder druk om Siri sneller te laten uitgroeien tot een volwaardige AI-agent. Binnenkort moet Siri onder meer Apple-apps nauwkeurig kunnen bedienen, bijvoorbeeld foto's bijsnijden of Safari-tabs ordenen. Apple erkent dat het de concurrentie van OpenAI en Meta nog niet bijhoudt.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-08T14:18:19-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Veel bezoekers gebruiken een iPhone; een slimmere Siri verandert hun vragen en verwachtingen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "dc76b4dc6a4e0178fd86cfe537a4b9d92162f60f46183282ef9b536fec58ae6c",
+      "title": "Nvidia onderzoekt relatie van topman Jensen Huang met vermeende Chinese spion",
+      "summary": "Het bestuur van Nvidia start een onafhankelijk onderzoek naar de relatie van ceo Jensen Huang met een manager van Megaspeed. Zij zou door de Chinese veiligheidsdienst zijn ingezet om het bedrijf te bespioneren. Het bestuur noemt de nationale en economische veiligheid van de VS daarbij een prioriteit.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-08T15:22:39-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont geopolitieke kwetsbaarheid van de AI-chipleverancier waar het hele AI-ecosysteem op leunt.",
+      "also_covered_by": [
+        "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia"
+      ]
+    },
+    {
+      "id": "56a932c13c37e5478191dfbe7e984eb27e8817e97e3c599fbb41818567dfc796",
+      "title": "Nieuw overzichtsartikel over ontwikkelingen in grote taalmodellen",
+      "summary": "Onderzoekers van UCL bespreken in Royal Society Open Science de ontwikkelingen rond LLM's en hun sterke en zwakke punten. Genoemde knelpunten zijn onder meer de hoge reken- en energiekosten en het begrijpen van lange teksten.",
+      "url": "https://www.infodocket.com/2026/11/08/new-journal-article-large-language-model-developments/",
+      "source_name": "Infodocket",
+      "source_type": "rss",
+      "published": "2026-11-08T15:46:22+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "modellen"
+      ],
+      "importance": 2,
+      "why_relevant": "Toegankelijk overzicht om de beperkingen van taalmodellen uit te leggen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "231b4bdb6dd4b87841e1a39a5d0aa8fdbea7f08db55e1e283061efcd763fde12",
+      "title": "Asahi Linux stapt over van MIT- naar GPL-licentie na misbruik van onuitgebracht code via AI",
+      "summary": "Volgens de kop stapt Asahi Linux over op een volledige GPL-licentie nadat AI zou zijn gebruikt om onuitgebrachte code over te nemen. De bron zelf is niet gelezen; de details zijn onbekend.",
+      "url": "https://itsfoss.com/news/asahi-linux-drops-mit-for-gpl/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-09T03:06:55Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "open-source",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Raakt auteursrecht en open licenties bij AI-training.",
+      "also_covered_by": []
+    },
+    {
+      "id": "d76392119a93e881b12831714b498bc5fa760aad5088f2ce5afb50b4524038d3",
+      "title": "AiNed-trajecten in de zorg werken toe naar één lerend netwerk",
+      "summary": "AIC4NL bracht AiNed-trajecten, AI-hubs, zorgorganisaties en kennisinstellingen samen om resultaten te delen en op te schalen. VWS en zorgverzekeraars presenteerden middelen en ondersteuning voor opschaling. AiNed wordt gefinancierd door het Nationaal Groeifonds.",
+      "url": "https://aic4nl.nl/nieuws/ained-trajecten-in-de-zorg-werken-toe-naar-een-lerend-netwerk/",
+      "source_name": "Nederlandse AI Coalitie",
+      "source_type": "rss",
+      "published": "2026-11-09T09:50:51+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "subsidie-of-financiering",
+        "onderzoek"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat zien hoe Nederland AI-programma's financiert en laat samenwerken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "166ebd4e09edaa28c4562339abeb2d3f4e5b8f032f26a9181ac55a03c375c8a6",
+      "title": "Handreiking: bouwen aan een klantgerichte bibliotheek",
+      "summary": "Probiblio publiceert een handreiking om klantgericht en data-geïnformeerd te werken. Die behandelt visie, leiderschap, data en processen, met een stappenplan. Ze pakt problemen aan zoals een versnipperd klantbeeld en onduidelijk eigenaarschap.",
+      "url": "https://www.probiblio.nl/bouwen-aan-een-klantgerichte-bibliotheek/",
+      "source_name": "Probiblio",
+      "source_type": "rss",
+      "published": "2026-11-09T10:03:00+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek"
+      ],
+      "importance": 2,
+      "why_relevant": "Praktische handvatten voor datagedreven werken in de eigen bibliotheek.",
+      "also_covered_by": []
+    },
+    {
+      "id": "7d170cf0eff6c933b5ea4aee557c38e9551a535fb9850dc6f4be12e3174bd650",
+      "title": "Nvidia onderzoekt relatie van topman met Chinese vrouw",
+      "summary": "De raad van bestuur van Nvidia start een onafhankelijk onderzoek naar de relatie tussen ceo Jensen Huang en een Chinese vrouw die door de VS van spionage wordt verdacht. Het bestuur ziet geen aanwijzingen dat bedrijfsgeheimen in het geding kwamen. Huang heeft zijn excuses aangeboden.",
+      "url": "https://www.computable.nl/2026/11/09/nvidia-onderzoekt-relatie-van-topman-met-chinese-mata-hari/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-11-09T10:49:46+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 2,
+      "why_relevant": "Raakt de geopolitiek rond AI-chips, maar niet direct het bibliotheekwerk.",
+      "also_covered_by": []
+    },
+    {
+      "id": "94ef33ed4550ccf2583d2b29733e308541bb3befda413b462a3b39cb168266eb",
+      "title": "Anthropic geeft drie miljard euro uit aan generatoren voor datacenters",
+      "summary": "Anthropic sloot dit najaar zelf een contract van drie miljard euro voor gasgeneratoren voor zijn Amerikaanse datacenters. Dat laten AI-bedrijven doorgaans aan leveranciers over.",
+      "url": "https://tweakers.net/nieuws/254308/anthropic-geeft-drie-miljard-euro-uit-aan-generatoren-voor-stroom-in-datacenters.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-11-09T10:50:00+01:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat de energiehonger van AI en de duurzaamheidsvraag zien.",
+      "also_covered_by": []
+    },
+    {
+      "id": "4d38f10b8058ca93d3e83e58a33ab141ff8998a3541b25eabaa7ee640f1bc5ea",
+      "title": "Kort: nieuwe ict-crisis Amsterdam, Europese protesten tegen datacenters",
+      "summary": "Computable meldt onder meer vertraging bij het erfpachtsysteem van Amsterdam en de overname van een fraudedetectietak door Schuberg Philis. Verder schrijft AI mee bij consulten in het Maasstad Ziekenhuis en nemen de protesten tegen datacenters toe.",
+      "url": "https://www.computable.nl/2026/11/09/kort-nieuwe-ict-crisis-amsterdam-europese-protesten-tegen-datacenters-en-meer/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-11-09T11:30:00+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "bedrijven",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Kort overzicht van Nederlandse AI- en ict-ontwikkelingen, waaronder datacenterprotest.",
+      "also_covered_by": []
+    },
+    {
+      "id": "52ff0d460fd2845f8c340d7d2cbbdb14ee81a920094b3297a3fb0339069098f1",
+      "title": "NYT: Chinese bedrijven krijgen ondanks verbod via omwegen toch Nvidia H200-chips",
+      "summary": "Volgens onderzoek van The New York Times komen Chinese bedrijven op een sanctielijst toch aan H200-chips van Nvidia. Ze omzeilen het verbod onder meer door de chips via nepbedrijven in te kopen.",
+      "url": "https://tweakers.net/nieuws/254312/nyt-chinese-bedrijven-krijgen-ondanks-verbod-via-omwegen-toch-nvidia-h200-chips.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-11-09T13:19:59+01:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont hoe moeilijk exportregels voor AI-chips te handhaven zijn.",
+      "also_covered_by": []
+    },
+    {
+      "id": "42adb52657a13c88d59e0bc4ff689d7122a28193d39fd1be3a8f07f0b113cfa4",
+      "title": "Chatbots mogelijk binnenkort in Apples HomeView",
+      "summary": "Code in de iOS 27.3-beta wijst op een nieuwe categorie 'Conversational Apps' voor Apples slimme thuishub. Mogelijk komen AI-chatbots zoals ChatGPT en Claude zo op het apparaat. Details ontbreken en de functie is nog niet volledig aangesloten.",
+      "url": "https://www.theverge.com/tech/1029526/chatbots-might-be-coming-to-apples-homeview",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-08T10:00:30-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws over chatbots in huis; vooral een signaal dat AI-assistenten alledaags worden.",
+      "also_covered_by": []
+    },
+    {
+      "id": "71c843041955ebc1fdc113b08d577e957425247fdabb3a77b14664d5269af1d3",
+      "title": "parse_number() als SQLite-extensie: C tegenover Rust",
+      "summary": "Willison liet Claude een SQLite-functie bouwen die getallen als '$1,234.56' omzet, in C en in Rust. De Rust-versie bleek eerst sneller, tot een eigen C-implementatie met een snelle route de Rust-versies versloeg.",
+      "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-11-08T22:26:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "onderzoek"
+      ],
+      "importance": 1,
+      "why_relevant": "Technisch detail zonder directe betekenis voor bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "d854259c1f89d14da7f2faec1467c78daa07cdfd91d464d416efbcbb96053608",
+      "title": "IFLA-nieuwsbrief Azië en Oceanië, november 2026",
+      "summary": "IFLA's regiokantoor voor Azië en Oceanië heeft de nieuwsbrief van november gepubliceerd. Die bevat redactionele stukken en bibliotheek- en IFLA-nieuws uit de regio.",
+      "url": "https://www.ifla.org/news/now-available-ifla-asia-and-oceania-regional-newsletter-november-2026/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-11-09T03:53:21+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "bibliotheek"
+      ],
+      "importance": 1,
+      "why_relevant": "Regionaal bibliotheeknieuws buiten Europa, beperkt van belang voor Nederland.",
+      "also_covered_by": []
+    },
+    {
+      "id": "7a56e2062f93f8c0e4390f7ad3b798cb480a24170fa85961cca292378a685c71",
+      "title": "Verberg door AI geschreven PR-beschrijvingen in een uitklapblok",
+      "summary": "Coderingsagenten schrijven uitgebreide pull-requestbeschrijvingen die snel als AI-tekst overkomen. Willison stelt voor een korte menselijke inleiding te schrijven en de rest in een uitklapbaar details-element te verbergen.",
+      "url": "https://simonwillison.net/2026/Nov/9/details-summary/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-11-09T04:25:05+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools"
+      ],
+      "importance": 1,
+      "why_relevant": "Praktisch voor wie met AI-gegenereerde teksten werkt, maar weinig bibliotheekrelevant.",
+      "also_covered_by": []
+    },
+    {
+      "id": "45e8de741ea9e45e27af9a99efc11bba8c531ae287b8974d4e757b6413a660c0",
+      "title": "Claude Opus 5.5 bouwt 3D-model in gewone JavaScript",
+      "summary": "Simon Willison liet Claude een 3D-object dat in Three.js was gemaakt omzetten naar JavaScript met WebGL, zonder bibliotheek. Het lukte, al week het resultaat iets af van het origineel.",
+      "url": "https://simonwillison.net/2026/Nov/9/hn-50421091/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-11-09T04:32:33+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "tools"
+      ],
+      "importance": 1,
+      "why_relevant": "Laat zien wat huidige modellen kunnen bij creatief programmeren.",
+      "also_covered_by": []
+    },
+    {
+      "id": "af935e04219ca2c77da48dfb78ad2d1a01be2fdfc25c8a3bccb849203fc551f4",
+      "title": "DataSpeak: AI-assistenten voor klantcontact",
+      "summary": "De startup DataSpeak bouwt een modulair platform met AI-assistenten voor klantcontact via chat, telefoon, WhatsApp en e-mail. Ze sluiten aan op systemen die medewerkers al gebruiken om adoptie te vergemakkelijken. Via het programma Breaking Barriers wil het bedrijf zijn klantenaantal verdrievoudigen.",
+      "url": "https://aic4nl.nl/nieuws/dataspeak-ai-assistenten-voor-klantcontact/",
+      "source_name": "Nederlandse AI Coalitie",
+      "source_type": "rss",
+      "published": "2026-11-09T10:20:05+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 1,
+      "why_relevant": "Voorbeeld van AI-assistenten in klantcontact, vergelijkbaar met balie- en servicevragen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "1af79cb521fa5efa49146bece048e651e1edb8acc1af6c263704aa9699f72fcc",
+      "title": "Innovatie met AI in de speciaalchemie",
+      "summary": "Chemiebedrijf Lubrizol bouwt een digitale basis van cloud, dataplatforms en AI om onderzoekers sneller ideeën te laten testen. Data scientists, chemici en IT-teams werken samen in 'fusion teams'. AI moet het oordeel van wetenschappers ondersteunen, niet vervangen.",
+      "url": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
+      "source_name": "MIT Technology Review — AI",
+      "source_type": "rss",
+      "published": "2026-11-09T13:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws uit de industrie; weinig directe link met bibliotheekwerk.",
+      "also_covered_by": []
+    }
+  ]
+}
