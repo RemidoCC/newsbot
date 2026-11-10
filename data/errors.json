@@ -1,108 +1,5 @@
 [
   {
-    "ts": "2026-10-27T10:08:02+00:00",
-    "source": "Emerce",
-    "stage": "collect",
-    "error": "ValueError: HTTP 200 maar 0 items (content-type: text/html)",
-    "url": "https://www.emerce.nl/nieuws/rss"
-  },
-  {
-    "ts": "2026-10-27T10:11:23+00:00",
-    "source": "enriched_02.json",
-    "stage": "validate_schema",
-    "error": "dd2867e6976b: 'title_nl' is a required property"
-  },
-  {
-    "ts": "2026-10-27T10:11:23+00:00",
-    "source": "enriched_02.json",
-    "stage": "validate_schema",
-    "error": "e754b5b01428: 'title_nl' is a required property"
-  },
-  {
-    "ts": "2026-10-27T10:11:23+00:00",
-    "source": "enriched_02.json",
-    "stage": "validate_schema",
-    "error": "23d59e9a5bcc: 'title_nl' is a required property"
-  },
-  {
-    "ts": "2026-10-27T10:11:23+00:00",
-    "source": "enriched_02.json",
-    "stage": "validate_schema",
-    "error": "7bdb1ba9b0b5: 'title_nl' is a required property"
-  },
-  {
-    "ts": "2026-10-27T10:11:23+00:00",
-    "source": "enriched_02.json",
-    "stage": "validate_schema",
-    "error": "f93d4d5cf699: 'title_nl' is a required property"
-  },
-  {
-    "ts": "2026-10-27T10:11:23+00:00",
-    "source": "enriched_02.json",
-    "stage": "validate_schema",
-    "error": "0fc194850497: 'title_nl' is a required property"
-  },
-  {
-    "ts": "2026-10-27T10:11:23+00:00",
-    "source": "enriched_02.json",
-    "stage": "validate_schema",
-    "error": "3a88fbf47015: 'title_nl' is a required property"
-  },
-  {
-    "ts": "2026-10-27T10:11:23+00:00",
-    "source": "enriched_02.json",
-    "stage": "validate_schema",
-    "error": "5c8192d7a006: 'title_nl' is a required property"
-  },
-  {
-    "ts": "2026-10-27T10:11:23+00:00",
-    "source": "enriched_02.json",
-    "stage": "validate_schema",
-    "error": "763e1f9af686: 'title_nl' is a required property"
-  },
-  {
-    "ts": "2026-10-27T10:11:23+00:00",
-    "source": "enriched_02.json",
-    "stage": "validate_schema",
-    "error": "9fec697fddc7: 'title_nl' is a required property"
-  },
-  {
-    "ts": "2026-10-27T10:11:23+00:00",
-    "source": "enriched_02.json",
-    "stage": "validate_schema",
-    "error": "d3ff2c1c637b: 'title_nl' is a required property"
-  },
-  {
-    "ts": "2026-10-27T10:11:23+00:00",
-    "source": "enriched_02.json",
-    "stage": "validate_schema",
-    "error": "0dcb8bbdd524: 'title_nl' is a required property"
-  },
-  {
-    "ts": "2026-10-27T10:11:23+00:00",
-    "source": "enriched_02.json",
-    "stage": "validate_schema",
-    "error": "afd7c3c1439f: 'title_nl' is a required property"
-  },
-  {
-    "ts": "2026-10-27T10:11:23+00:00",
-    "source": "enriched_02.json",
-    "stage": "validate_schema",
-    "error": "dac031712126: 'title_nl' is a required property"
-  },
-  {
-    "ts": "2026-10-27T10:11:23+00:00",
-    "source": "enriched_02.json",
-    "stage": "validate_schema",
-    "error": "bc050ad519c4: 'title_nl' is a required property"
-  },
-  {
-    "ts": "2026-10-27T10:11:23+00:00",
-    "source": "enriched_02.json",
-    "stage": "validate_schema",
-    "error": "d86c896fed6a: 'title_nl' is a required property"
-  },
-  {
     "ts": "2026-10-28T10:54:46+00:00",
     "source": "Emerce",
     "stage": "collect",
@@ -598,6 +495,13 @@
   },
   {
     "ts": "2026-11-09T13:29:38+00:00",
+    "source": "Emerce",
+    "stage": "collect",
+    "error": "ValueError: HTTP 200 maar 0 items (content-type: text/html)",
+    "url": "https://www.emerce.nl/nieuws/rss"
+  },
+  {
+    "ts": "2026-11-10T13:08:52+00:00",
     "source": "Emerce",
     "stage": "collect",
     "error": "ValueError: HTTP 200 maar 0 items (content-type: text/html)",
