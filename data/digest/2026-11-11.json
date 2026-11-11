@@ -1,0 +1,559 @@
+{
+  "date": "2026-11-11",
+  "generated_at": "2026-11-11T12:21:48+00:00",
+  "stats": {
+    "batches": 2,
+    "onleesbaar": 0,
+    "objecten": 67,
+    "schema_fout": 0,
+    "onbekend_id": 0,
+    "gedropt": 38,
+    "geldig": 29,
+    "ai": 25,
+    "bieb": 4
+  },
+  "sources": [
+    "AI Snake Oil",
+    "Ars Technica AI",
+    "Bibliotheekblad",
+    "Bibliotheeknetwerk (KB)",
+    "Computable",
+    "Google DeepMind",
+    "Hacker News",
+    "Hugging Face",
+    "Infodocket",
+    "MIT Technology Review — AI",
+    "OpenAI",
+    "Probiblio",
+    "TLDR AI",
+    "The Verge AI",
+    "Tweakers"
+  ],
+  "items": [
+    {
+      "id": "0a6c11b4f6f265c7064872270a9d04a83741e47d2b0f08892ea38bf79438107b",
+      "title": "Anthropic lanceert Claude Fable 5.2 en Mythos 5.2",
+      "summary": "Anthropic heeft twee nieuwe modellen uitgebracht met verbeteringen op het gebied van programmeren, redeneren en beeldherkenning. De output is tot 30 procent sneller en de prijzen zijn lager. Beide modellen delen dezelfde onderliggende architectuur.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/cstzlb39ksktvhr181crd3mn8584myyit8thk15z.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-11-10T14:42:52+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "bedrijven"
+      ],
+      "importance": 4,
+      "why_relevant": "Nieuwe, snellere en goedkopere modellen veranderen wat bibliotheken kunnen laten zien en inzetten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "55cb0588b3e8436e78b20ba92abf5954e8afdc53ea4465ca363bb0d676246b75",
+      "title": "Gemini 4 Carbon nu beschikbaar voor iedereen",
+      "summary": "Google stelt Gemini 4 Carbon breed beschikbaar, nadat het twee weken eerder alleen voor een selecte groep cyberverdedigers was aangekondigd. Het model kost bij de lancering $2 per miljoen invoertokens en $10 per miljoen uitvoertokens, maar de prijs verdubbelt op 1 december. Het is Googles sterkste Gemini-model tot nu toe.",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+      "source_name": "Google DeepMind",
+      "source_type": "rss",
+      "published": "2026-11-10T16:03:47+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "bedrijven"
+      ],
+      "importance": 4,
+      "why_relevant": "Een nieuw topmodel met aangekondigde prijsstijging beïnvloedt welke AI-diensten je kunt inzetten.",
+      "also_covered_by": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+        "https://simonwillison.net/2026/Nov/10/llm-gemini/"
+      ]
+    },
+    {
+      "id": "0962f3fc03850fb96d89295f1509c5e77b77b9e9522ad83175e28aef44de4af2",
+      "title": "AI100-rapport 2026: AI wordt mainstream",
+      "summary": "Het derde AI100-rapport, een vijfjaarlijkse studie vanuit Stanford, beschrijft een technologie die vrijwel alle delen van de samenleving sneller verandert dan verwacht. Het rapport verwacht dat AI wetenschappelijk onderzoek enorm versnelt, maar waarschuwt dat het valideren van door machines gevonden ontdekkingen nieuwe methoden vraagt. Ook cybersecurity en de invloed op gedrag en cultuur krijgen aandacht.",
+      "url": "https://www.infodocket.com/2026/11/10/2026-ai100-report-released-ai-goes-mainstream-the-scaling-era-and-the-rise-of-generative-ai-new-from-stanford/",
+      "source_name": "Infodocket",
+      "source_type": "rss",
+      "published": "2026-11-10T17:18:32+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "ethiek-en-risico"
+      ],
+      "importance": 4,
+      "why_relevant": "Gezaghebbende stand van zaken om je eigen AI-beleid en voorlichting op te baseren.",
+      "also_covered_by": []
+    },
+    {
+      "id": "6b6709b612e5913e3ffca54a85bc91991cc77a4b3fa814c431fece64c1da4ed4",
+      "title": "Gemini Robotics 2.5 maakt robots handiger en veiliger",
+      "summary": "Google DeepMind presenteert Gemini Robotics 2.5, een model dat robots handvaardiger en betrouwbaarder maakt, getest op ruim 200 taken. Sommige robots deden echt werk in Mercedes-Benz-fabrieken. Tegelijk verscheen een open veiligheidsbenchmark om robots die met mensen werken beter te toetsen.",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+      "source_name": "Google DeepMind",
+      "source_type": "rss",
+      "published": "2026-11-09T19:51:47+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "onderzoek"
+      ],
+      "importance": 3,
+      "why_relevant": "Laat zien hoe snel AI de stap naar de fysieke wereld zet.",
+      "also_covered_by": [
+        "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/"
+      ]
+    },
+    {
+      "id": "f3fc54cd1d78c100d666a9c2ab2fb50b602d94d149788dbd0586059b0a0e8b98",
+      "title": "AI en freelancewerk: onderzoek van OpenAI en Upwork",
+      "summary": "Nieuw onderzoek van OpenAI en Upwork laat zien dat de vraag naar freelancewerk verschuift. Er ontstaan nieuwe combinaties van vaardigheden, en AI-gerelateerde projecten hebben grotere budgetten en meer uren. Het geeft inzicht in hoe AI de arbeidsmarkt raakt.",
+      "url": "https://openai.com/index/ai-effect-on-freelance-work",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-11-10T07:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "arbeidsmarkt"
+      ],
+      "importance": 3,
+      "why_relevant": "Nuttig voor cursussen over digitale vaardigheden en loopbaanvragen van bezoekers.",
+      "also_covered_by": []
+    },
+    {
+      "id": "ac1ea24791e063510b54131386ea5407a4844f87beef824b5f2446ae9a5c630d",
+      "title": "Opvolger van Pelosi wil AI reguleren; datacenters kampen met stroomproblemen",
+      "summary": "Scott Wiener, bekend van Californische wetgeving over AI-risico's, won de congreszetel van Nancy Pelosi en wil nu op federaal niveau AI-beleid vormen. Hij pleit ervoor de ontwikkeling te vertragen vanwege de risico's. Daarnaast stelt de nieuwsbrief dat de weerstand tegen datacenters in de VS vooral om elektriciteit draait.",
+      "url": "https://www.technologyreview.com/2026/11/10/1148150/the-download-pelosi-successor-ai-regulation-data-center-backlash/",
+      "source_name": "MIT Technology Review — AI",
+      "source_type": "rss",
+      "published": "2026-11-10T13:10:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Amerikaanse AI-regelgeving werkt door in de tools die bibliotheken gebruiken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "14247db342a88ba36c2d1c4f0c19148f3ba78d4f3ac29090759668a30f3c3568",
+      "title": "DPG Media test Nederlands AI-model GPT-NL voor koppen en tekstcontrole",
+      "summary": "Het Belgische mediabedrijf DPG Media probeert het Nederlandse taalmodel GPT-NL uit. Het model moet inspiratie leveren voor nieuwskoppen en teksten controleren, onder meer op zinsbouw. Het is een van de eerste praktijktoepassingen van een Nederlands model in de nieuwsbranche.",
+      "url": "https://tweakers.net/nieuws/254356/dpg-media-test-nederlands-ai-model-gpt-nl-voor-nieuwskoppen-en-tekstcontrole.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-11-10T14:21:37+01:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "modellen",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Een Nederlands taalmodel in de praktijk is interessant als alternatief voor Amerikaanse tools.",
+      "also_covered_by": []
+    },
+    {
+      "id": "a1450048f203c1a855a68531ce391c4c23b35eb0cfea45eef8e3a40418bbc379",
+      "title": "Transformeren met ai: techniek is niet de bottleneck",
+      "summary": "Een OpenAI-rapport op basis van ruim zeventien miljoen ChatGPT-berichten van circa 1700 organisaties laat zien dat toegang tot ai niet het probleem is. Waarde ontstaat pas wanneer organisaties leren welke toepassingen werken en hun werkwijze aanpassen. Het gebruik groeit snel, maar ongelijk verdeeld.",
+      "url": "https://www.computable.nl/2026/11/10/transformeren-met-ai-techniek-is-niet-de-bottleneck/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-11-10T16:00:00+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "onderzoek",
+        "arbeidsmarkt"
+      ],
+      "importance": 3,
+      "why_relevant": "Bevestigt dat ook bibliotheken meer aan werkprocessen en vaardigheden hebben dan aan tools.",
+      "also_covered_by": []
+    },
+    {
+      "id": "c1dd93a8f4669c299e7a399725fceb6a9acfeb4d732b682adca1e65761f8b106",
+      "title": "AI Snake Oil-auteurs starten non-profit STABL voor onderzoek naar maatschappelijke weerbaarheid tegen AI",
+      "summary": "De makers van AI Snake Oil beginnen STABL, een non-profit die onderzoekt hoe snel AI zich verspreidt en welke knelpunten de maatschappelijke impact afremmen. Ze stellen dat instituties hervormd moeten worden en dat weerbaarheid een centrale plek verdient naast alignment. Daarmee positioneren ze zich tussen technologisch determinisme en AI-scepsis.",
+      "url": "https://www.normaltech.ai/p/the-missing-quadrant-in-responses",
+      "source_name": "AI Snake Oil",
+      "source_type": "rss",
+      "published": "2026-11-10T18:37:42+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Het weerbaarheidsdenken sluit aan bij de rol van bibliotheken als maatschappelijke instelling.",
+      "also_covered_by": []
+    },
+    {
+      "id": "80500b1292cc170c8e32784d657cf231b10ce1c395a57b1777d7f0eaefb6ef58",
+      "title": "Grok Build lekt vertrouwelijke gegevens van duizenden gebruikers",
+      "summary": "Beveiligingsonderzoekers van Claroc ontdekten dat deelbare Grok Build-apps te raden zijn, waardoor duizenden projecten openbaar kwamen. Daarbij lekten zakelijke plannen, medische uitslagen en medewerkersgegevens, ook van SpaceXSI zelf. Het laat de risico's van AI-codeertools zien.",
+      "url": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-11-10T21:12:59+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "tools"
+      ],
+      "importance": 3,
+      "why_relevant": "Waarschuwing voor privacy- en datarisico's bij AI-tools die bezoekers en collega's gebruiken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "5ab5b854a462f6793d2504b13eef85e677bf99233903274b2b0682a530db6acb",
+      "title": "AI wordt een toegangspoort tot informatie, maar publiek wil geen door AI gemaakt nieuws",
+      "summary": "Nieman Lab meldt dat mensen AI steeds vaker gebruiken om informatie te vinden. Toch willen zij niet dat AI zelf hun nieuws maakt. Dat is relevant voor hoe burgers nieuws en bronnen beoordelen.",
+      "url": "https://www.niemanlab.org/2026/11/ai-is-becoming-an-information-gateway-audiences-still-dont-want-it-making-their-news/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-11T00:15:33Z",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "digitale-geletterdheid",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Raakt mediawijsheid en de vraag hoe bezoekers AI-informatie beoordelen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "08296db6597f9a327b1df3e6a9fe629bb2b56c526e010013823b274431ebb589",
+      "title": "Rabobank: ai verandert het werk ingrijpend, baanverlies nog onduidelijk",
+      "summary": "Rabobank experimenteert met generatieve ai, ai-agents en eigen taalmodellen voor klantcontact, softwareontwikkeling en kredietbeoordelingen. Ongeveer de helft van de medewerkers gebruikt al Microsoft Copilot. De bank kan nog niet zeggen of en hoeveel banen verdwijnen.",
+      "url": "https://www.computable.nl/2026/11/11/rabobank-ai-verandert-het-werk-ingrijpend-baanverlies-onduidelijk/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-11-11T06:15:00+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "arbeidsmarkt",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Laat zien hoe een grote Nederlandse organisatie werk en agents aanpakt, ook leerzaam voor bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "10ca51024574eb0a230892f09c293cfc1a7c9694143901b258330a3092b000b5",
+      "title": "Staatssecretaris Tielen bezoekt Boekenstad Deventer over leesbevordering en de nieuwe Wsob",
+      "summary": "Staatssecretaris Judith Tielen bracht op 9 november op uitnodiging van SPN een werkbezoek aan Deventer. Ze zag hoe het bibliotheekstelsel samenwerkt, van de POI's en provincies tot de Bibliotheek op school. SPN-voorzitter Bernard Fransen noemde het bezoek positief en wees op open vragen rond de nieuwe Wsob.",
+      "url": "https://bibliotheekblad.nl/staatssecretaris-tielen-in-boekenstad-deventer-in-gesprek-over-leesbevordering-en-de-nieuwe-wsob-van-bestuurstafel-tot-klaslokaal/",
+      "source_name": "Bibliotheekblad",
+      "source_type": "rss",
+      "published": "2026-11-11T11:27:35+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "beleid-en-regelgeving",
+        "bibliotheek"
+      ],
+      "importance": 3,
+      "why_relevant": "De nieuwe Wsob bepaalt straks de taken en financiering van jouw bibliotheek.",
+      "also_covered_by": [
+        "https://www.stichtingspn.nl/nieuws/staatssecretaris-tielen-in-boekenstad-deventer-in-gesprek-over-leesbevordering-en-de-nieuwe-wsob-van-bestuurstafel-tot-klaslokaal/"
+      ]
+    },
+    {
+      "id": "991ad48e8559b2fefa9ff7bc2bbc96fe5e673f91d6bb1c78428d1dddc9dc303e",
+      "title": "OpenAI introduceert Businesses in ChatGPT",
+      "summary": "Bedrijven kunnen in ChatGPT hun eigen bedrijfsinformatie beheren en inzicht krijgen in hoe ze erin verschijnen. Ze kunnen ook interesse van gebruikers omzetten in actie. ChatGPT wordt daarmee meer een plek waar mensen lokale organisaties en diensten vinden.",
+      "url": "https://openai.com/index/introducing-businesses-chatgpt",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-11-10T10:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Bibliotheken zouden hun eigen vermelding in ChatGPT kunnen willen beheren.",
+      "also_covered_by": []
+    },
+    {
+      "id": "153193cce694f59bd7d997c262da164312cbf7c7258002b73b53df19fede4f3b",
+      "title": "Nvidia heeft een probleem met Jensen Huang en geen duidelijke opvolger",
+      "summary": "De Nvidia-board onderzoekt topman Jensen Huang nadat hij een affaire heeft toegegeven. De vrouw in kwestie werkt bij een grote Nvidia-klant en zou volgens Amerikaanse functionarissen voor China spioneren. Beleggers maken zich zorgen, want er is geen voor de hand liggende opvolger en het aandeel zakte met meer dan 5 procent.",
+      "url": "https://arstechnica.com/gadgets/2026/11/nvidia-has-a-jensen-huang-problem-and-no-obvious-successor/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-11-10T14:53:05+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Machtswisseling bij Nvidia kan de AI-markt beïnvloeden, maar raakt bibliotheken slechts indirect.",
+      "also_covered_by": [
+        "https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy"
+      ]
+    },
+    {
+      "id": "cb3d3641a53d469a70ec6fd35de53403d2ae579ad06b5b48f9ecdcec18ac517f",
+      "title": "Oura koopt medische AI-chatbotstartup Counsel Health",
+      "summary": "Oura neemt Counsel Health over voor 625 miljoen dollar. Dat bedrijf biedt AI-gestuurde gezondheidsadviezen op basis van gegevens van wearables, met doorverwijzing naar een arts. De overname moet voor het einde van het jaar rond zijn.",
+      "url": "https://www.theverge.com/gadgets/1031284/oura-counsel-health-acquisition",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-10T16:40:31-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont hoe AI-chatbots gezondheidsadvies overnemen, relevant voor vragen over betrouwbare informatie.",
+      "also_covered_by": []
+    },
+    {
+      "id": "d0a06ec7e03766fabd756e252b420d03feae7ce38471ec7bcc68e1723502dad6",
+      "title": "Wat gebeurt er met wiskunde als AI een orakel wordt?",
+      "summary": "Ars Technica bespreekt het boek Big Math van Steven Strogatz en Alex Townsend. Door taalmodellen en straks quantumcomputers gaat wiskunde de menselijke bevattingsvermogen overstijgen. Het stuk vraagt hoe we daarmee omgaan.",
+      "url": "https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-11-10T20:30:01+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Leesvoer over vertrouwen in AI-uitkomsten die we niet meer zelf kunnen controleren.",
+      "also_covered_by": []
+    },
+    {
+      "id": "9836df3492903c3f1307168d5a8309cb13880a2afe45b84c195608eb1d6423cb",
+      "title": "Apple brengt Mac-app die lokale AI-modellen eenvoudig draaibaar maakt",
+      "summary": "Volgens 9to5Mac komt Apple met een Mac-app waarmee gebruikers makkelijk AI-modellen lokaal kunnen draaien. Dat verlaagt de drempel om AI te gebruiken zonder gegevens naar de cloud te sturen.",
+      "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-10T21:25:03Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Lokaal draaien van AI kan bibliotheken privacyvriendelijke experimenten en workshops bieden.",
+      "also_covered_by": []
+    },
+    {
+      "id": "fc73217409f2e0eb015a813f69216b3de7e752d1d9743e059d9a2b6b3e941492",
+      "title": "Amazon toont Ring-drone en -robot met AI voor beveiliging",
+      "summary": "Amazon presenteert de Ring Drone Cam en Ring Rover Cam, die met een AI-systeem zelfstandig patrouilleren en een plattegrond van woning of bedrijf maken. De Rover komt eind 2026, de drone begin 2027. De apparaten versterken de bestaande zorgen over privacy rond bewakingscamera's.",
+      "url": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-11-10T22:35:01+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Goed voorbeeld voor gesprekken met bezoekers over AI en privacy.",
+      "also_covered_by": []
+    },
+    {
+      "id": "4137e37094ca694a79ae538b5f7403d284454392588fe8b57fbfd9faad6560e4",
+      "title": "Waar je het beste ai, informatica of informatiekunde kunt studeren",
+      "summary": "Volgens de Keuzegids universiteiten 2027 scoort Tilburg het best bij de universitaire ai-opleidingen, gevolgd door Groningen en Maastricht. Bij ict-studies is de Open Universiteit opnieuw de beste. Amsterdam UvA en enkele andere universiteiten scoren onderaan.",
+      "url": "https://www.computable.nl/2026/11/11/waar-je-het-beste-ai-informatica-of-informatiekunde-kunt-studeren/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-11-11T06:00:00+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "onderwijs"
+      ],
+      "importance": 2,
+      "why_relevant": "Nuttig voor loopbaanadvies en als context bij de vraag naar AI-vaardigheden.",
+      "also_covered_by": []
+    },
+    {
+      "id": "5a8162e6fd944ad08f7b483b2070a661f32e34b64c57da387a9358f60b8023cd",
+      "title": "Leren van de paraatheid van Europese collega-bibliotheken",
+      "summary": "Op de online Nordic Libraries Annual stond paraatheid centraal: hoe bibliotheken burgers helpen zich op crises voor te bereiden. Scandinavische landen, Oekraïne en Spanje pakken dit actiever aan dan Nederland, waar men vooral over weerbaarheid spreekt. De auteur vraagt wat Nederlandse bibliotheken hiervan kunnen leren.",
+      "url": "https://www.probiblio.nl/leren-van-de-paraatheid-van-europese-collega-bibliotheken/",
+      "source_name": "Probiblio",
+      "source_type": "rss",
+      "published": "2026-11-11T07:48:50+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek",
+        "evenement"
+      ],
+      "importance": 2,
+      "why_relevant": "Inspiratie voor de rol van de bibliotheek bij crisisbestendigheid en betrouwbare informatie.",
+      "also_covered_by": []
+    },
+    {
+      "id": "be0b9d628255861ef0cadb443e3ea61e6eb75223cd13a7280bf92e394a9193c3",
+      "title": "Denk mee over de webstrategie voor bibliotheken",
+      "summary": "De WaU-werkgroep Webstrategie heeft een strategie opgesteld om de websitevoorziening voor bibliotheken (WaaS) te vernieuwen. Bibliotheken kunnen nu op die strategie reageren. Het is een kans om de toekomstige digitale voordeur van de bibliotheek mee vorm te geven.",
+      "url": "https://www.bibliotheeknetwerk.nl/nieuws/denk-mee-over-de-webstrategie-voor-bibliotheken",
+      "source_name": "Bibliotheeknetwerk (KB)",
+      "source_type": "rss",
+      "published": "2026-11-11T08:38:41+01:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek"
+      ],
+      "importance": 2,
+      "why_relevant": "Je kunt direct meepraten over de websitevoorziening van jouw bibliotheek.",
+      "also_covered_by": []
+    },
+    {
+      "id": "37e4452e64c861cffe83ba46c2eaac34a7fe63e9ccc79076dee9b50af52cb47b",
+      "title": "Cogent en OpenAI bouwen cyberverdediging voor bedrijven",
+      "summary": "Cogent combineert OpenAI-modellen met bedrijfscontext om kwetsbaarheden automatisch te laten herstellen door AI-agents. Het is een voorbeeld van AI-agents in cybersecurity voor grote organisaties.",
+      "url": "https://openai.com/index/cogent-security",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-11-10T00:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws over AI-agents in beveiliging, weinig direct van belang voor bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "a4978faa7e166cdb12b818c5397aad221fe34e5d74e2dc0c479fe886ef474c07",
+      "title": "Chrome-project helpt codeeragents moderne webtechnieken te gebruiken",
+      "summary": "Het Chrome-team lanceert samen met Firefox, MDN en Edge de open-sourceset modern-web-guidance, met meer dan 200 richtlijnen voor AI-codeeragents. Modellen kiezen vaak verouderde JavaScript-patronen terwijl browsers die functies inmiddels zelf bieden. Een skill en zoekfunctie moeten agents naar moderne alternatieven sturen.",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-10T18:01:15Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "open-source",
+        "tools"
+      ],
+      "importance": 1,
+      "why_relevant": "Nuttig als je met AI-codeerhulp aan bibliotheekwebsites werkt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "67bf860f7b2f0b4d56da189852be7cb783fe43e54cd32917d26197f7050593b3",
+      "title": "Novemberupdate Pixel Drop brengt Gemini-functies naar Pixel 10",
+      "summary": "Google rolt met de Pixel Drop van november meerdere AI-functies uit naar de Pixel 10-serie, zoals persoonlijke suggesties, AI-spraakinvoer en Gemini-app-automatisering. De goedkopere Pixel 10a krijgt ze niet. Het laat zien hoe AI standaard in telefoons terechtkomt.",
+      "url": "https://arstechnica.com/gadgets/2026/11/november-pixel-drop-brings-gemini-intelligence-to-pixel-10-family/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-11-10T19:00:26+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 1,
+      "why_relevant": "Bezoekers komen steeds vaker AI-functies op hun telefoon tegen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "f4116becfee3f1d34e1c46b7ab48bc8a1e4ebaadf6f8f59419dc8383322a4827",
+      "title": "Welk doel lost redeneren door AI eigenlijk op?",
+      "summary": "Een blogpost onderzoekt het redeneren van taalmodellen als een vorm van het vinden van paden. Het is een technisch en conceptueel stuk voor wie wil begrijpen hoe modellen redeneren.",
+      "url": "https://alexwang.ai/posts/reasoning-as-pathfinding/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-10T19:25:14Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek"
+      ],
+      "importance": 1,
+      "why_relevant": "Technische achtergrond, beperkt praktisch nut voor bibliotheekwerk.",
+      "also_covered_by": []
+    },
+    {
+      "id": "19b4fcb1faac9c9bdbccd358c8d8e12a9188d32981764b2e3beec26a5de09e66",
+      "title": "BotPsy: persoonlijke assistent op het apparaat met een klein agentisch taalmodel",
+      "summary": "Het Hugging Face-blog presenteert BotPsy, een persoonlijke assistent die lokaal draait op een taalmodel van minder dan een miljard parameters. Het sluit aan bij de trend van kleine modellen die zonder cloud werken.",
+      "url": "https://huggingface.co/blog/qvac/botpsy",
+      "source_name": "Hugging Face",
+      "source_type": "rss",
+      "published": "2026-11-11T05:01:16+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "open-source"
+      ],
+      "importance": 1,
+      "why_relevant": "Lokale AI is interessant voor privacyvriendelijke toepassingen in bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "ac94b61a25ade5edbf713f0897cc9ad6ba8f24621b9aed0d512136947920d1f0",
+      "title": "Gratis ChatGPT Plus voor veteranen en militairen",
+      "summary": "Meer dan 20.000 veteranen en militairen die de dienst verlaten hebben een gratis jaar ChatGPT Plus opgeëist. OpenAI laat zien hoe zij het gebruiken om zich voor te bereiden op een burgerloopbaan. Het is vooral een Amerikaans promotieverhaal.",
+      "url": "https://openai.com/index/chatgpt-plus-for-veterans",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-11-11T08:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "arbeidsmarkt"
+      ],
+      "importance": 1,
+      "why_relevant": "Voorbeeld van AI-tools als hulp bij loopbaanoriëntatie, al is het Amerikaans.",
+      "also_covered_by": []
+    },
+    {
+      "id": "5e39c0b073520cae0147af56b05c098981382362cec38345832bf477f7e67824",
+      "title": "Open-sourceprojecten die door AI gegenereerde bijdragen weren",
+      "summary": "Een overzichtssite verzamelt open-sourceprojecten die AI-gegenereerde bijdragen verbieden. Het laat zien dat er in de open-sourcewereld weerstand bestaat tegen AI-code. De inhoud van de site is hier niet verder uitgewerkt.",
+      "url": "https://osssaysno.com",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-11T08:51:45Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "open-source",
+        "ethiek-en-risico"
+      ],
+      "importance": 1,
+      "why_relevant": "Illustreert het debat over AI-gemaakt werk, ook relevant voor bibliotheekvoorlichting.",
+      "also_covered_by": []
+    }
+  ]
+}
