@@ -1,0 +1,231 @@
+{
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T12:47:41+00:00",
+  "stats": {
+    "batches": 1,
+    "onleesbaar": 0,
+    "objecten": 27,
+    "schema_fout": 0,
+    "onbekend_id": 0,
+    "gedropt": 16,
+    "geldig": 11,
+    "ai": 9,
+    "bieb": 2
+  },
+  "sources": [
+    "Ars Technica AI",
+    "Computable",
+    "Hacker News",
+    "NOS Tech",
+    "SPN (Stichting Samenwerkende POI's Nederland)",
+    "TLDR AI",
+    "The Verge AI"
+  ],
+  "items": [
+    {
+      "id": "963b6a1992f174a99a3ce910cd7332f7094ceff14e5968fe2f3eb651be44f134",
+      "title": "Google introduceert Gemini 4 Hydrogen, beter in complexe vragen",
+      "summary": "Google lanceert het model Gemini 4 Hydrogen, dat vragen met meerdere delen, typfouten of zeer specifieke wensen beter moet begrijpen en elk onderdeel afzonderlijk beantwoordt. Het model is meteen beschikbaar in Zoeken, de Gemini-app, AI Studio en de API. In AI Mode is het de nieuwe standaard en bij AI Overviews wordt het voor de moeilijkste vragen gebruikt.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-12T16:55:32-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "tools"
+      ],
+      "importance": 4,
+      "why_relevant": "Veel bezoekers krijgen dit model te zien in Google Zoeken en AI Overviews.",
+      "also_covered_by": []
+    },
+    {
+      "id": "d282b3e79ffd259135e50d2dda73b41093f28e3f84878fdcdf545bb21bff9454",
+      "title": "Microsoft worstelt met herstel van wereldwijde storing in 365",
+      "summary": "Sinds donderdagmiddag zijn gebruikers in meer dan zeventig landen getroffen door uitval van Outlook, Teams en Copilot. Volgens Microsoft vielen servers onverwacht uit en raakte de rest overbelast; een cyberaanval is uitgesloten. Ook OpenAI en Anthropic draaien op Microsofts cloud, wat de afhankelijkheid van weinig aanbieders laat zien.",
+      "url": "https://www.computable.nl/2026/11/13/microsoft-worstelt-met-herstel-wereldwijde-storing-in-365/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-11-13T09:41:38+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "ethiek-en-risico"
+      ],
+      "importance": 4,
+      "why_relevant": "Bibliotheken werken vaak met Microsoft 365; storing raakt e-mail, vergaderingen en Copilot.",
+      "also_covered_by": [
+        "https://www.theverge.com/tech/1032226/microsoft-outlook-is-down"
+      ]
+    },
+    {
+      "id": "ad113949a8876c1756917132d3a437bb486ddefd438d647a13d280c1ac52999f",
+      "title": "Anthropic laat Claude meedoen aan vergaderingen en voegt interactieve koppelingen toe",
+      "summary": "Anthropic presenteert nieuwe werkfuncties, waaronder Claude Meetings, waarbij Claude al taken oppakt terwijl een videovergadering nog loopt. Met interactieve connectoren kunnen gebruikers werken in apps als Adobe, Notion, Atlassian, Salesforce en HubSpot, direct binnen Claude.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/c6rs8sgr0vd9dwu2w1aw46l0zemf3exsgkk586gu.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-11-12T13:46:39+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "AI-assistenten nemen kantoorwerk over; handig om te weten wat collega's en bezoekers gaan gebruiken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "8c4c2a1ec1d509853694b801a63ca1da21c80069e7f8aa5ff3044551c69b9f5a",
+      "title": "Nvidia-topman Huang vertrekt per direct vanwege affaires",
+      "summary": "Jensen Huang stapt met onmiddellijke ingang op als topman van Nvidia na berichten over affaires, onder meer met een vermeende spionne voor China. CFO Colette Kress neemt tijdelijk over en het bedrijf zoekt een opvolger. Het aandeel kelderde bij opening van de beurs, wat de onzekerheid rond de belangrijkste chipmaker voor AI laat zien.",
+      "url": "https://nos.nl/l/2639176",
+      "source_name": "NOS Tech",
+      "source_type": "rss",
+      "published": "2026-11-12T14:55:47+01:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Nvidia drijft de AI-markt, dus leiderschapsonzekerheid kan doorwerken in aanbod en prijzen.",
+      "also_covered_by": [
+        "https://www.computable.nl/2026/11/12/nvidia-topman-struikelt-over-tweede-liefdesafaire/",
+        "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow",
+        "https://www.theverge.com/tech/1032774/president-donald-trump-tim-cook-nvidia-jensen-huang",
+        "https://www.theverge.com/tech/1032434/nvidia-jensen-huang-resignation-reactions"
+      ]
+    },
+    {
+      "id": "b00f41fd2f0580676ddab1f70b355a19b509bc8851d22375a316722cd86eb882",
+      "title": "Pilot Werkplaats Ontwerpende Aanpak gestart bij Bibliotheek De Lage Beemden",
+      "summary": "SPN begeleidt een pilot bij Bibliotheek De Lage Beemden om te onderzoeken hoe de ontwerpende aanpak een vaste plek in de bibliotheekorganisatie kan krijgen. De pilot start met digitaal burgerschap, waarbij een social designer onderzoekt hoe medewerkers omgaan met begrippen als digitale inclusie en digitale geletterdheid. Het bouwt voort op eerdere social-designtrajecten bij zeven bibliotheken.",
+      "url": "https://www.stichtingspn.nl/nieuws/pilot-werkplaats-ontwerpende-aanpak-gestart-bij-bibliotheek-de-lage-beemden/",
+      "source_name": "SPN (Stichting Samenwerkende POI's Nederland)",
+      "source_type": "rss",
+      "published": "2026-11-12T14:59:01+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek",
+        "digitale-inclusie",
+        "digitale-geletterdheid"
+      ],
+      "importance": 3,
+      "why_relevant": "Een concrete aanpak om digitaal burgerschap en inclusie binnen de bibliotheekorganisatie te verankeren.",
+      "also_covered_by": []
+    },
+    {
+      "id": "a45a804fc2528c22f2136307cdb12fdc378412159170ce1c0a66382011a383c0",
+      "title": "Wat betekent de Kamerbrief over het jonge kind voor bibliotheken?",
+      "summary": "Het kabinet wil in de Kamerbrief van 30 oktober 2026 dat elke gemeente en regio in 2030 een goede aanpak heeft voor jonge kinderen en hun gezinnen. Bibliotheken worden expliciet genoemd als samenwerkingspartner, onder meer binnen Kansrijke Start. SPN bekijkt welke kansen dit biedt voor gezinsgericht werken aan basisvaardigheden.",
+      "url": "https://www.stichtingspn.nl/nieuws/wat-betekent-de-kamerbrief-over-het-jonge-kind-voor-bibliotheken/",
+      "source_name": "SPN (Stichting Samenwerkende POI's Nederland)",
+      "source_type": "rss",
+      "published": "2026-11-13T12:17:52+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "beleid-en-regelgeving",
+        "bibliotheek"
+      ],
+      "importance": 3,
+      "why_relevant": "Het kabinet noemt bibliotheken expliciet als partner in de aanpak voor jonge kinderen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "295ff0fcd68c8067c7880e0ef880d73e6dd86b13951a9ba7caea16cba930f5d2",
+      "title": "a16z: AI-agenten worden een nieuw verkoopkanaal, de B2A-economie",
+      "summary": "Een team van a16z liet ChatGPT een videoadvertentie maken, waarbij de agent zelf diensten als Krea, Descript en ElevenLabs inschakelde en een betaald abonnement aansloeg. Het investeringsbedrijf ziet agenten als volgende kanaal om klanten te bereiken. Shopify meldt bijna dertien keer meer bestellingen via AI-zoekopdrachten in een jaar.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/6thy5t5mhq0xjx8b4q5tlrtr7plpzx9qwmkunqvi.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-11-12T13:33:57+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Als agenten zoeken en kiezen, verandert hoe mensen informatie en diensten vinden.",
+      "also_covered_by": []
+    },
+    {
+      "id": "e730f1fd52f7736c70d170a7ee213913b4e98ded4ffeb0ca445e838de2316d11",
+      "title": "Google lanceert Gemini-slimme bril vanaf 395 dollar en benadrukt privacy",
+      "summary": "Google brengt samen met Samsung, Warby Parker en Gentle Monster de eerste brillen met Gemini op de markt, vanaf 395 dollar en voorlopig in de VS en Zuid-Korea. Google legt de nadruk op privacy, een gevoelig punt sinds Google Glass. De brillen zijn nu te reserveren.",
+      "url": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-11-12T14:50:17+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Draagbare AI roept privacyvragen op die ook in de bibliotheek spelen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "77e9ba2fcd74a5e579f74e28d6119fd1132115f346b72447c8b18f816a5fc733",
+      "title": "Grok Bot 1.0 krijgt teambots en koppelingen met Slack, Teams en videovergaderingen",
+      "summary": "Grok Bot 1.0 is uitgebreid met teambots die je kunt publiceren en delen. De assistent werkt nu in de app, Slack, Microsoft Teams en tijdens vergaderingen op Meet en Zoom, met gedeelde connectoren. Zo wordt het van persoonlijke assistent een hulpmiddel voor een heel team.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/gxdd4po1jwgfu5ywwmuhipgdkd61t3ew1v6a64fk.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-11-12T14:55:03+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont de trend van AI-assistenten die in teamtools en vergaderingen worden ingebouwd.",
+      "also_covered_by": []
+    },
+    {
+      "id": "9f652a2c4d20a371de9dbfcaa747971bb4bb46763c385e01d8ff66240f0a494b",
+      "title": "AgentRun: opensourceplatform voor zelflerende AI-agenten",
+      "summary": "GREP.AI maakt AgentRun open source als beheerd platform om AI-agenten te draaien. Het platform bevat onder meer sandboxes, veel integraties en analyses van agentgedrag, en werkt met bestaande agentomgevingen zoals Claude Agents en Codex. Het is zelf te hosten of als gehoste dienst te gebruiken.",
+      "url": "https://github.com/Parcha-ai/agentrun/blob/main/README.md",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-12T18:15:48Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "open-source"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat zien hoe agent-tooling toegankelijker wordt, vooral voor technisch onderlegde bibliotheekteams.",
+      "also_covered_by": []
+    },
+    {
+      "id": "76b9e049a0dc280921f08731a101859725d47656776158a19a3828b2c320a7e1",
+      "title": "Kort: politie haalt malwareservers offline, EU daagt IBM en Atos voor de rechter",
+      "summary": "Dit overzicht meldt dat de Nederlandse politie in een internationale actie honderd servers achter malware als Gootloader, CastleRAT en StealC uitschakelde. Ook eist EU-Lisa verantwoording van IBM, Atos en Leonardo over een vertraagd grenssysteem. Verder laten AI-agenten wiskundig zien dat Signal-cryptografie veilig is, en richten IBM en Microsoft zich op bedrijfsprocessen met AI-agenten.",
+      "url": "https://www.computable.nl/2026/11/13/kort-politie-haalt-malwareservers-offline-eu-sleept-ibm-en-atos-voor-rechter-en-meer/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-11-13T12:26:08+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "bedrijven",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Overzicht van Nederlands it-nieuws met enkele AI-agentontwikkelingen en cyberveiligheid.",
+      "also_covered_by": []
+    }
+  ]
+}
