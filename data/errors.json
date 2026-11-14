@@ -1,19 +1,5 @@
 [
   {
-    "ts": "2026-10-31T10:40:16+00:00",
-    "source": "Emerce",
-    "stage": "collect",
-    "error": "ValueError: HTTP 200 maar 0 items (content-type: text/html)",
-    "url": "https://www.emerce.nl/nieuws/rss"
-  },
-  {
-    "ts": "2026-10-31T10:40:33+00:00",
-    "source": "IFLA",
-    "stage": "collect",
-    "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.ifla.org/rss.xml'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
-    "url": "https://www.ifla.org/news/feed/"
-  },
-  {
     "ts": "2026-11-01T11:35:23+00:00",
     "source": "Emerce",
     "stage": "collect",
@@ -590,5 +576,18 @@
     "source": "enriched_01.json",
     "stage": "validate_schema",
     "error": "6e70d60edc26: 'title_nl' is a required property"
+  },
+  {
+    "ts": "2026-11-14T11:52:44+00:00",
+    "source": "Emerce",
+    "stage": "collect",
+    "error": "ValueError: HTTP 200 maar 0 items (content-type: text/html)",
+    "url": "https://www.emerce.nl/nieuws/rss"
+  },
+  {
+    "ts": "2026-11-14T11:55:21+00:00",
+    "source": "enriched_02.json",
+    "stage": "validate_parse",
+    "error": "geen JSON-array te vinden in de uitvoer"
   }
 ]

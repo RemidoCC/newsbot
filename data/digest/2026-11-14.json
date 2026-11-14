@@ -1,0 +1,462 @@
+{
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T11:56:06+00:00",
+  "stats": {
+    "batches": 2,
+    "onleesbaar": 0,
+    "objecten": 59,
+    "schema_fout": 0,
+    "onbekend_id": 0,
+    "gedropt": 35,
+    "geldig": 24,
+    "ai": 21,
+    "bieb": 3
+  },
+  "sources": [
+    "Ars Technica AI",
+    "Hacker News",
+    "Hugging Face",
+    "Infodocket",
+    "MIT Technology Review — AI",
+    "NOS Tech",
+    "OpenAI",
+    "TLDR AI",
+    "The Verge AI",
+    "Tweakers"
+  ],
+  "items": [
+    {
+      "id": "458976d7c3fd0cb7f01d71527777eb76981b628ae85884a23958a5995c05a732",
+      "title": "Huang treedt af bij Nvidia, GR00T 2 gelanceerd en Musks plannen voor supercomputer",
+      "summary": "Nvidia meldt dat de productroadmap ongewijzigd blijft nadat Jensen Huang is afgetreden. CFO Colette Kress wordt interim-CEO en Harvey Jones wordt de eerste bestuursvoorzitter. De raad zoekt intern en extern naar een vaste CEO.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/gt1k4zrmt4y407zepcak9h2q07vt7hm7uovckfan.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-11-13T14:32:12+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 4,
+      "why_relevant": "Een leiderswissel bij de grootste AI-chipmaker kan de hele AI-markt beïnvloeden.",
+      "also_covered_by": []
+    },
+    {
+      "id": "2e6e6b354ac02806399bc1f172307e8050a7ffcf88d84831d994be071e75f7f2",
+      "title": "Microsoft biedt excuses aan na urenlange storing bij onder meer Outlook",
+      "summary": "Een wereldwijde storing bij Microsoft 365 duurde ruim 36 uur en trof Outlook, Teams en Copilot. In Nederland waren onder meer rechtbanken en gemeenten per mail niet bereikbaar. Microsoft noemt serverproblemen door verhoogde belasting als oorzaak en sluit een hack, AI of AI-agents uit.",
+      "url": "https://nos.nl/l/2639353",
+      "source_name": "NOS Tech",
+      "source_type": "rss",
+      "published": "2026-11-13T18:18:34+01:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "bedrijven",
+        "ethiek-en-risico"
+      ],
+      "importance": 4,
+      "why_relevant": "Toont de afhankelijkheid van één cloudleverancier, ook voor bibliotheken en gemeenten.",
+      "also_covered_by": [
+        "https://tweakers.net/nieuws/254532/storing-bij-microsoft-365-is-na-ruim-36-uur-helemaal-voorbij.html",
+        "https://arstechnica.com/tech-policy/2026/11/microsoft-blames-failed-server-health-checks-not-hackers-for-global-outage/"
+      ]
+    },
+    {
+      "id": "d202dfbb95a9ff0b25219c4592ac7714b5abba4215c01b8f3afe0205dfc58fd0",
+      "title": "EU wil misleidende ontwerptrucs in apps en lootboxes voor minderjarigen verbieden",
+      "summary": "De Europese Commissie stelt met de Digital Fairness Act een verbod voor op 'dark patterns' en abonnementen die moeilijk op te zeggen zijn. Ook lootboxes en andere pay-to-win-trucs die minderjarigen tot uitgaven verleiden worden beperkt, met boetes tot zes procent van de wereldwijde omzet. Handhaving komt bij grote zaken direct bij de Commissie te liggen.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/upeepazrb8975o4b51d8nzmhq01a6vxeczj27fvh.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-11-13T13:30:42+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "beleid-en-regelgeving",
+        "digitale-geletterdheid"
+      ],
+      "importance": 3,
+      "why_relevant": "Raakt consumentenbescherming en mediawijsheid, waar bibliotheken bezoekers en jongeren over voorlichten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "1c7a60ea54f0a1cca5fde5fbeb6558a954604dc2b0f811d0d4b8d52ce14bcc55",
+      "title": "Google introduceert goedkoper AI-model Gemini 4 Hydrogen als vervanger van Flash",
+      "summary": "Google heeft Gemini 4 Hydrogen uitgebracht, een model dat goedkoper is dan de eerdere Carbon- en Argon-varianten. Het vervangt Gemini 3.8 Flash en is beschikbaar voor betalende gebruikers in onder meer de Gemini-app en Google AI Studio.",
+      "url": "https://tweakers.net/nieuws/254496/google-introduceert-goedkoper-ai-model-gemini-4-hydrogen-als-vervanger-van-flash.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-11-13T14:15:27+01:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Goedkopere modellen maken AI-toepassingen voor bibliotheekdiensten toegankelijker en betaalbaarder.",
+      "also_covered_by": []
+    },
+    {
+      "id": "e5bd41642efc7663f95254ba83e5bbb45c29b812885c5f93bc54ad6c4592dca2",
+      "title": "Gemini 4 Hydrogen, zelf gehoste Claude-agents en Replit-agentcommerce",
+      "summary": "Google introduceert Gemini 4 Hydrogen, een snel en efficiënt model voor codering en agent-workflows. Het scoort 51 op de Artificial Analysis Intelligence Index en kost 1,50 dollar per miljoen invoertokens en 7,50 dollar per miljoen uitvoertokens. Anthropic biedt daarnaast een privébèta voor zelf gehoste Claude Managed Agents binnen de eigen infrastructuur van bedrijven.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/cbodtvv2d3mc6r7ri5hl8e16qz5whl414g6d5wch.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-11-13T14:55:14+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Een goedkoper Google-model verandert de keuzes voor AI-toepassingen in de bibliotheek.",
+      "also_covered_by": []
+    },
+    {
+      "id": "7d4d71d056da02862d0b2ec1b87dadd7019731481c576401840bf8ff718ee663",
+      "title": "OpenAI introduceert ChatGPT Wallet",
+      "summary": "OpenAI lanceert ChatGPT Wallet, waarmee AI-agents in onder meer ChatGPT Work en Codex aankopen kunnen doen. De gebruiker moet de betaling goedkeuren en bestaande kaartbeschermingen blijven gelden. Het is een stap richting agents die zelfstandig transacties afhandelen.",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-11-13T15:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Agents die betalen raken straks ook de vragen van bibliotheekbezoekers.",
+      "also_covered_by": []
+    },
+    {
+      "id": "3bab4ef181aaa566e215d5c15179f74f5449da91719e94c7198724a2d14b50f9",
+      "title": "SHLB-coalitie wijst op breed draagvlak voor E-Rate in Amerikaanse FCC-procedure",
+      "summary": "De Schools, Health & Libraries Broadband Coalition heeft reactiecommentaren ingediend bij de Amerikaanse toezichthouder FCC. Volgens de coalitie steunen duizenden indieners het E-Rate-programma, dat internet voor scholen en bibliotheken subsidieert. De voorstellen om het programma af te schaffen of tot landelijk gebied te beperken zouden volgens hen schadelijk zijn voor studenten en bibliotheekbezoekers.",
+      "url": "https://www.infodocket.com/2026/11/13/schools-health-libraries-broadband-shlb-coalition-files-reply-comments-highlighting-overwhelming-support-for-e-rate-in-fcc-record/",
+      "source_name": "Infodocket",
+      "source_type": "rss",
+      "published": "2026-11-13T15:09:51+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "subsidie-of-financiering",
+        "bibliotheek"
+      ],
+      "importance": 3,
+      "why_relevant": "Laat zien hoe Amerikaanse bibliotheekconnectiviteit onder politieke druk staat.",
+      "also_covered_by": []
+    },
+    {
+      "id": "e626a6ba37c5cdca0443a22cee943e2c1860dd1f76d586aeba5572a53fbfbe10",
+      "title": "OpenAI lanceert ChatGPT Wallet zodat Dots-agents aankopen kunnen doen",
+      "summary": "OpenAI introduceert een wallet waarmee Dots-agents namens gebruikers kunnen afrekenen. Het begint voor ChatGPT Pro-abonnees in de VS, en elke aankoop vraagt om biometrische verificatie. De agent overlegt bovendien telkens vooraf met de gebruiker.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-13T15:45:10-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "AI-agents die betalen roepen vragen op over veiligheid en vaardigheden van burgers.",
+      "also_covered_by": []
+    },
+    {
+      "id": "4513c6ea6021e8f29c3821c0eaadcf6fcb7d5c9606746aa3485fcbc080294108",
+      "title": "Bestuurslid van OpenAI vreest een AI-'overname' van de samenleving binnen enkele maanden",
+      "summary": "Paul Christiano van de OpenAI Foundation en het Alignment Research Center waarschuwde tijdens een lezing in Toronto voor een 'AI takeover'. Hij ziet een AI-ongeluk als meest waarschijnlijke doodsoorzaak voor veel mensen. De uitspraken zijn zijn eigen risico-inschatting en omstreden.",
+      "url": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-11-13T17:25:45+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Een gezaghebbende stem voedt het publieke debat over AI-risico's waar bezoekers vragen over stellen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "d8a9c78361ac1d03883ff358b181f29b9299b8f3302dd5e3d25262e60ac4a556",
+      "title": "Worden boeken vernietigd voor AI?",
+      "summary": "Forbes schrijft dat AI-bedrijven antiquarische boeken opkopen en vernietigen, kennelijk om ze te digitaliseren. Het bericht roept de vraag op wat dit betekent voor boekerfgoed. Meer details staan niet in de aangeleverde tekst.",
+      "url": "https://www.forbes.com/sites/maryroeloffs/2026/08/17/ai-companies-are-buying-and-destroying-antique-books-heres-why/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-13T18:14:38Z",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "bibliotheek"
+      ],
+      "importance": 3,
+      "why_relevant": "Raakt direct aan erfgoed, collecties en de rol van bibliotheken bij AI-trainingsdata.",
+      "also_covered_by": []
+    },
+    {
+      "id": "e21562733af2923ebb039acde6854aef31d7d71158ad70607ca97c79a0fab9ad",
+      "title": "Titania-chip van Axelera werkt met Lpddr-geheugen en past in bestaande datacenters",
+      "summary": "De Nederlandse start-up Axelera heeft de specificaties van zijn AI-chiplet Titania gepubliceerd. De chip is ontworpen voor luchtgekoelde datacenterracks, dus zonder vloeistofkoeling. Hij gebruikt Lpddr6-geheugen in plaats van het gangbaardere HBM.",
+      "url": "https://tweakers.net/nieuws/254518/axeleras-titania-chip-werkt-met-lpddr-geheugen-en-past-in-bestaande-datacenters.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-11-13T19:37:49+01:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "bedrijven",
+        "modellen"
+      ],
+      "importance": 3,
+      "why_relevant": "Nederlandse AI-hardware kan Europese AI-infrastructuur goedkoper en toegankelijker maken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "8bcc38c9d8522a69e26fa4d983fb7c60e39a2b6fc9af592c655c690b35a2edc2",
+      "title": "In 2026 al meer dan twee keer zoveel CVE-bugs geregistreerd als in 2025",
+      "summary": "Volgens securitybedrijf VulnCheck zijn er dit jaar al meer dan 100.000 bugs met een CVE-nummer geregistreerd, ruim twee keer zoveel als in heel 2025. De stijging komt vooral doordat AI in hoog tempo nieuwe kwetsbaarheden vindt.",
+      "url": "https://tweakers.net/nieuws/254534/in-2026-werden-al-meer-dan-twee-keer-zoveel-cve-bugs-geregistreerd-als-in-2025.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-11-14T11:43:29+01:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "onderzoek",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Meer gevonden kwetsbaarheden betekent meer updatedruk op bibliotheeksystemen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "ae3943fd2aede136fbacede64b7ed0d044c2bafe799ad4556defad260dcc2638",
+      "title": "AI tast het vertrouwen tussen schrijvers en lezers aan",
+      "summary": "The Atlantic schrijft over de gevolgen van AI voor het vertrouwen tussen auteurs en lezers, met aandacht voor literaire oplichting op Amazon. De volledige tekst was niet beschikbaar, dus deze samenvatting is gebaseerd op titel en bron.",
+      "url": "https://www.theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-13T11:13:46Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "AI-gegenereerde boeken kunnen collecties en leesadvies van bibliotheken raken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "31fcaf77b9913d6246593b6de2d6914c378f66f6da61278b70b5e7e4ef0ce0f6",
+      "title": "Grote Outlook- en Microsoft 365-storing van bijna twee dagen lijkt voorbij",
+      "summary": "Na een storing van bijna twee dagen herstelt Microsoft Outlook en 365 voor miljoenen gebruikers wereldwijd. Sommige functies werken nog beperkt en e-mail kan vertraagd binnenkomen. Microsoft zegt dat het om een technisch probleem ging, niet om een cyberaanval of AI-agents.",
+      "url": "https://www.theverge.com/tech/1032862/microsoft-outlook-down-outage",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-13T11:17:11-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Bibliotheken werken vaak met Microsoft 365, dus de storing en afhankelijkheid zijn relevant.",
+      "also_covered_by": [
+        "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/jfh72edty26ydg65bwicw9n91pfv9zfczrjuruo2.html"
+      ]
+    },
+    {
+      "id": "35b8abbda815f70b41eb1fc9e37c391329005f12e5cb354299162f4b776beca5",
+      "title": "Nvidia onder Jensen Huang: groeiende milieubelasting door de AI-boom",
+      "summary": "The Verge beschrijft hoe Nvidia, de motor van de AI-boom, ook een van de grootste milieuproblemen van de techsector veroorzaakt. De chips leiden tot water- en chemie-intensieve fabrieken, belasten het stroomnet en dragen bij aan een dreigend e-afvalprobleem. Nvidia botste met milieugroepen over zijn 'verborgen' uitstoot.",
+      "url": "https://www.theverge.com/tech/1033051/nvidia-jensen-huang-chips-gpu-supply-chain-climate-pollution",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-13T12:44:22-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Biedt context over de milieukosten van AI voor gesprekken met bezoekers.",
+      "also_covered_by": []
+    },
+    {
+      "id": "b31d728db4587791eeeacef813c70f3e18592aa8db087b77aad31f099aaefdab",
+      "title": "The Download: Silicon Valley en de midterms, en Nvidia's plan om chips te volgen",
+      "summary": "MIT Technology Review bespreekt hoe techleiders met hun steun aan Trumps AI-agenda de politieke stemming rond AI en datacenters verkeerd inschatten. Daarnaast zou Nvidia achter de schermen hebben bevestigd dat het volgen van chips tegen smokkel mogelijk is, terwijl de sector publiek twijfelt aan de haalbaarheid.",
+      "url": "https://www.technologyreview.com/2026/11/13/1148551/the-download-silicon-valley-midterms-nvidia-chip-tracking/",
+      "source_name": "MIT Technology Review — AI",
+      "source_type": "rss",
+      "published": "2026-11-13T13:10:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont groeiende politieke weerstand tegen AI en de regeldruk op chips.",
+      "also_covered_by": []
+    },
+    {
+      "id": "6841e619fcd7e8d9370258a227590a244c9afe604f7f173c18d14806c323db86",
+      "title": "llama.cpp bereikt versie 1.0.0",
+      "summary": "Het open-sourceproject llama.cpp heeft versie 1.0.0 uitgebracht. Het wordt gepresenteerd als een stevigere basis voor het ecosysteem van lokale AI. Meer details staan niet in de aangeleverde tekst.",
+      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "source_name": "Hugging Face",
+      "source_type": "rss",
+      "published": "2026-11-13T14:05:22+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "open-source",
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Lokale AI-modellen bieden bibliotheken een privacyvriendelijk alternatief voor clouddiensten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "0d4c924e64373813139c6f4102115e56791fa42cc7712f94c4fd2cec8448b7d2",
+      "title": "Waarom sluit Google Search uit voor AI-vrije scholen? Enkele theorieën",
+      "summary": "NPR bespreekt theorieën over waarom Google zoekfunctionaliteit zou afsluiten voor scholen die AI vermijden. Meer details staan niet in de aangeleverde tekst, dus de precieze aanleiding is onduidelijk.",
+      "url": "https://text.npr.org/nx-s1-6029408",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-13T15:29:10Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderwijs",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Raakt aan de afhankelijkheid van Google-diensten in onderwijs en bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "5bfca8e96e5185cfd340076983fdc9fb4a974978d5d26432e16c093124bfd1af",
+      "title": "AI helpt Gödels notitieboeken te ontsluiten, naar verluidt met honderden bewezen stellingen",
+      "summary": "The Guardian meldt dat AI wordt ingezet om de notitieboeken van wiskundige Kurt Gödel te ontcijferen. Daarin zouden honderden bewezen stellingen staan. Meer details staan niet in de aangeleverde tekst.",
+      "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-13T17:30:10Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van AI die archiefmateriaal toegankelijk maakt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "5a6d642f80f5ed0c38885f075daeb8c6877e448f6ecf862367ad8a93887d7619",
+      "title": "Google geeft bedrijven korter de tijd om bugs te fixen vanwege AI",
+      "summary": "Google verkort de termijn voor responsible disclosure van maximaal 120 dagen naar stapsgewijs 30 dagen. Het gaat om bugs die Google bij andere bedrijven vindt en meldt. Google noemt AI en llm's als belangrijkste reden.",
+      "url": "https://tweakers.net/nieuws/254520/google-geeft-bedrijven-korter-de-tijd-om-bugs-te-fixen-vanwege-ai.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-11-13T18:45:41+01:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "beleid-en-regelgeving",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Leveranciers moeten sneller patchen, wat ook bibliotheekIT raakt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "05808b99d7479e670d45d051f5507097ed651e4a4eae8484171a6cbc540024c4",
+      "title": "Amazon bouwt 'World Product Graph' met data over alle online verkochte producten",
+      "summary": "Volgens Reuters bouwt Amazon een database met gegevens over elk product dat online wordt verkocht, ook als Amazon het zelf niet levert. Zo wil het bedrijf voorkomen dat shoppers hun onderzoek elders doen. Ook AI-agents die voor gebruikers winkelen zouden op deze index kunnen gaan leunen.",
+      "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-13T18:49:11-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat zien hoe AI-zoekers informatie kunnen bundelen en sturen, ook buiten winkelen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "60e5719ddad5001df4ba0fd2b2ddd066ffdf97801510114d45404ff22ff03a7c",
+      "title": "Anthropic past Claude Code Projects aan om parallelle AI-werkers te laten draaien",
+      "summary": "Anthropic heeft Projects in Claude Code vernieuwd, zodat meerdere AI-werkers parallel kunnen draaien. Meer details staan niet in de aangeleverde tekst.",
+      "url": "https://claude.com/resources/articles/projects-redesigned",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-14T00:28:11Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat de verschuiving naar samenwerkende AI-agents in softwarewerk zien.",
+      "also_covered_by": []
+    },
+    {
+      "id": "01b281f4771f764f3c08c263eeebcf9d11d5d91a27b387b6a6c102a8f4df6f5d",
+      "title": "Nvidia zou schaarste hebben gecreëerd door AI-startups te financieren om zijn gpu's te kopen",
+      "summary": "Volgens een bericht van TechPowerUp zou Nvidia kunstmatig schaarste hebben aangewakkerd door AI-startups te financieren die vervolgens zijn gpu's kopen. Het gaat om een bewering; details staan niet in de aangeleverde tekst.",
+      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-14T02:52:59Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Helpt begrijpen waarom AI-hardware en dus AI-diensten duur blijven.",
+      "also_covered_by": []
+    },
+    {
+      "id": "2b40b585359d01240fbcc64a17ac837dcd189e4377ba008ed831cab70434e017",
+      "title": "Kapso: open-source engine die experimenten draait en leert van bedrijfsdata",
+      "summary": "Het bedrijf Leeroo heeft Kapso als open source uitgebracht. De engine voert experimenten uit op bedrijfsdata, zet de beste oplossing in productie en leert van elke run. Het is bedoeld voor grote, rommelige dataomgevingen in ondernemingen.",
+      "url": "https://news.ycombinator.com/item?id=50471281",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-12T17:51:23Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "open-source"
+      ],
+      "importance": 1,
+      "why_relevant": "Een zakelijke dataroute met weinig directe toepassing voor bibliotheken.",
+      "also_covered_by": []
+    }
+  ]
+}
