@@ -1,0 +1,133 @@
+{
+  "date": "2026-11-15",
+  "generated_at": "2026-11-15T12:24:44+00:00",
+  "stats": {
+    "batches": 1,
+    "onleesbaar": 0,
+    "objecten": 23,
+    "schema_fout": 0,
+    "onbekend_id": 0,
+    "gedropt": 17,
+    "geldig": 6,
+    "ai": 4,
+    "bieb": 2
+  },
+  "sources": [
+    "Computable",
+    "Hacker News",
+    "Infodocket",
+    "Simon Willison",
+    "The Verge AI"
+  ],
+  "items": [
+    {
+      "id": "052ed6bb2022659a864a4ec2b48ab59c4d441fb4f0c0f30c0e46d9bc57e24061",
+      "title": "Jensen Huang vertrekt bij Nvidia na smokkelschandalen met chips",
+      "summary": "Jensen Huang heeft Nvidia verlaten, na twee schandalen rond gesmokkelde chips en berichten over buitenechtelijke affaires. Analisten claimen dat veel verboden AI-chips ondanks exportbeperkingen in China terecht zijn gekomen. Het vertrek raakt de leider van het meest bepalende hardwarebedrijf achter de AI-sector.",
+      "url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-14T07:00:00-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 3,
+      "why_relevant": "Leiderschapswissel bij Nvidia kan de AI-markt en exportregels beïnvloeden.",
+      "also_covered_by": [
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/mass-smuggling-of-nvidia-ai-gpus-could-be-the-underlying-cause-of-jensen-huangs-departure-analysts-claim-more-than-1-5-gigawatts-of-banned-chips-tracked-to-china-despite-export-controls"
+      ]
+    },
+    {
+      "id": "174788111ac45b66487ef15deab7eb0b31406b49775f6cb8b52e7b0cfb473d61",
+      "title": "Ex-OpenAI-bestuurder Helen Toner: AI-bedrijfsleiders blijven onbetrouwbaar",
+      "summary": "In een podcastgesprek bespreekt Helen Toner, directeur van het Georgetown-centrum CSET en voormalig OpenAI-bestuurslid, de stand van AI-veiligheid en beleid. Ze wijst erop dat het toezicht door het OpenAI-bestuur mislukte toen het dat daadwerkelijk wilde inzetten. Het Witte Huis kiest nu voor een vrijwillig akkoord dat deels op dezelfde soort bestuurlijke controle leunt.",
+      "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-14T10:00:00-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 3,
+      "why_relevant": "Geeft context bij de discussie over toezicht op AI-bedrijven en veiligheid.",
+      "also_covered_by": []
+    },
+    {
+      "id": "01807920c6e5133d29073cc8bc8156a011b71125ccf038b03866669e21e65e37",
+      "title": "Megastoring Microsoft voorbij, bedrijf wacht enorme nasleep",
+      "summary": "Microsoft heeft de wereldwijde storing in Microsoft 365 opgelost, die sinds donderdag in meer dan zeventig landen Outlook, Teams, OneDrive, SharePoint en Copilot urenlang verstoorde. Het bedrijf noemt een mankement bij een netwerkupgrade als oorzaak en sluit een cyberaanval of AI-incident uit. In Nederland werden onder meer de Rechtspraak en overheden geraakt, wat de afhankelijkheid van één leverancier onderstreept.",
+      "url": "https://www.computable.nl/2026/11/14/megastoring-microsoft-voorbij-bedrijf-wacht-enorme-nasleep/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-11-14T15:04:40+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "bedrijven",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Toont de afhankelijkheid van Microsoft-diensten, ook relevant voor bibliotheken en hun Copilot-gebruik.",
+      "also_covered_by": []
+    },
+    {
+      "id": "31919d0ca98163727b07c7f568dc403e8dca548f8be9705e38e69e0a6bbe242d",
+      "title": "Johns Hopkins-bibliotheken lanceren nieuwe site met digitale collecties",
+      "summary": "De Sheridan Libraries van Johns Hopkins University hebben een nieuwe website geopend met gedigitaliseerd en digitaal ontstaan materiaal uit de bijzondere collecties en archieven. Er staan al ruim 15.500 items uit 18 collecties online, waaronder kaarten, foto's, kranten en audio. De site is vrij toegankelijk en wordt verder uitgebreid.",
+      "url": "https://www.infodocket.com/2026/11/14/johns-hopkins-university-sheridan-libraries-launches-new-digital-collections-site/",
+      "source_name": "Infodocket",
+      "source_type": "rss",
+      "published": "2026-11-14T16:47:58+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "bibliotheek"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van hoe een bibliotheek erfgoedcollecties open online ontsluit.",
+      "also_covered_by": []
+    },
+    {
+      "id": "9c481a0931060f36109eb2e6cd0ae316dc4877c8ea8000c5378e44dc8dc77b2d",
+      "title": "datasette-llm 0.1a11 ondersteunt nu OpenAI-compatibele endpoints",
+      "summary": "De nieuwe release van de Datasette-plugin datasette-llm kan overweg met elk model dat het OpenAI-protocol spreekt. Daardoor kun je Datasette ook koppelen aan lokale modellen via LM Studio, Ollama of llama.cpp. Zo draai je een Datasette Agent volledig op eigen hardware.",
+      "url": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-11-14T23:59:28+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "open-source"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat zien hoe je data-analyse met een lokaal taalmodel draait, zonder externe cloud.",
+      "also_covered_by": []
+    },
+    {
+      "id": "b338b5a5af80e931086fd97c47ff7dac8f50b01dc8f2c768fb1787a794dd7fc1",
+      "title": "Ask HN: welke praktische AI-vaardigheden kun je zelf het beste leren?",
+      "summary": "Een Hacker News-gebruiker vraagt welke concrete vaardigheden rond taalmodellen en agents je zelfstandig kunt aanleren om er economisch voordeel uit te halen. De vraag richt zich op mensen met enige technische achtergrond die zonder opleiding willen leren. Het bericht bevat zelf nog geen antwoorden.",
+      "url": "https://news.ycombinator.com/item?id=50494696",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-14T06:56:42Z",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "digitale-geletterdheid",
+        "arbeidsmarkt"
+      ],
+      "importance": 1,
+      "why_relevant": "Toont de leervraag die bezoekers ook kunnen hebben over AI-vaardigheden.",
+      "also_covered_by": []
+    }
+  ]
+}
