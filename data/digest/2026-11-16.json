@@ -1,0 +1,385 @@
+{
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T13:17:43+00:00",
+  "stats": {
+    "batches": 2,
+    "onleesbaar": 0,
+    "objecten": 34,
+    "schema_fout": 1,
+    "onbekend_id": 0,
+    "gedropt": 14,
+    "geldig": 19,
+    "ai": 15,
+    "bieb": 4
+  },
+  "sources": [
+    "Bibliotheekblad",
+    "Computable",
+    "Hacker News",
+    "IFLA",
+    "Infodocket",
+    "NOS Tech",
+    "OpenAI",
+    "SPN (Stichting Samenwerkende POI's Nederland)",
+    "Simon Willison",
+    "The Verge AI",
+    "Tweakers"
+  ],
+  "items": [
+    {
+      "id": "8a207371ee32992a4caad0174d225fd16230ba65e5b756bfddd02b48d90010ee",
+      "title": "KB presenteert beleidsplan 2027-2030 'Ruimte voor vooruitgang'",
+      "summary": "De KB presenteerde haar beleidsplan voor 2027-2030 rond drie speerpunten: vrije toegang tot informatie, lezen, leren en onderzoeken (met aandacht voor digitale geletterdheid en digitaal burgerschap) en publieke ruimtes. Ook staat er een nieuw nationaal bibliotheekgebouw in. De KB roept de politiek op tot robuuste financiering.",
+      "url": "https://bibliotheekblad.nl/kb-presenteert-beleidsplan-2027-2030-tijdens-dag-van-de-vooruitgang/",
+      "source_name": "Bibliotheekblad",
+      "source_type": "rss",
+      "published": "2026-11-11T12:48:54+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "beleid-en-regelgeving",
+        "bibliotheek",
+        "digitale-geletterdheid"
+      ],
+      "importance": 5,
+      "why_relevant": "Bepaalt de koers van het Nederlandse bibliotheekstelsel, inclusief digitale geletterdheid en financiering.",
+      "also_covered_by": []
+    },
+    {
+      "id": "0ef3519a0c1871cf02f93ffa801d39d04f9bc8e67bc4a2882bf4b56792478130",
+      "title": "Spionage, smokkel en ontslag: de driedubbele crisis bij Nvidia",
+      "summary": "Nvidia-topman Jensen Huang werd donderdag ontslagen vanwege een relatie met een vermeende Chinese spionne. Het schandaal legt bloot dat Nvidia een netwerk van tussenpersonen gedoogde dat China aan geavanceerde AI-chips en rekenkracht hielp, en Huang overweegt een terugkeer. In de VS dringt het Congres aan op strengere exportregels en getuigenissen.",
+      "url": "https://www.computable.nl/2026/11/16/spionage-smokkel-en-ontslag-de-driedubbele-crisis-bij-ai-gigant-nvidia/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-11-16T06:15:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 4,
+      "why_relevant": "Raakt de hele AI-sector en de beschikbaarheid van AI-diensten waar bibliotheken op leunen.",
+      "also_covered_by": [
+        "https://tweakers.net/nieuws/254560/ft-jensen-huang-overweegt-terugkeer-als-nvidia-ceo-nog-geen-week-na-aftreden.html",
+        "https://www.theverge.com/ai-artificial-intelligence/1031740/jensen-huang-nvidia-scandal-isnt-slowing-down",
+        "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
+        "https://wccftech.com/jensen-huang-financed-ai-startups-absorb-excess-silicon/"
+      ]
+    },
+    {
+      "id": "068adfed00d579e978e83e4f020c72ccc335ff5af25edcd4358f27b131b38d25",
+      "title": "Staatssecretaris Tielen in Boekenstad Deventer over leesbevordering en de nieuwe Wsob",
+      "summary": "Staatssecretaris Judith Tielen bezocht op 9 november op uitnodiging van SPN Deventer om te zien hoe het bibliotheekstelsel werkt, van POI's en provincies tot de Bibliotheek op school. Er werd gesproken over leesbevordering en openstaande vragen rond de nieuwe Wsob. SPN-voorzitter Bernard Fransen noemde het bezoek positief.",
+      "url": "https://www.stichtingspn.nl/nieuws/staatssecretaris-tielen-in-boekenstad-deventer-in-gesprek-over-leesbevordering-en-de-nieuwe-wsob-van-bestuurstafel-tot-klaslokaal/",
+      "source_name": "SPN (Stichting Samenwerkende POI's Nederland)",
+      "source_type": "rss",
+      "published": "2026-11-10T14:02:20+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "beleid-en-regelgeving",
+        "bibliotheek"
+      ],
+      "importance": 3,
+      "why_relevant": "De nieuwe Wsob bepaalt straks de taken en financiering van jouw bibliotheek.",
+      "also_covered_by": []
+    },
+    {
+      "id": "60f3c7381bc61eae5e3d002a0ecfce30c3913c926a7778f89e799b4b1d0cc1eb",
+      "title": "The King's Trust en OpenAI starten partnerschap van 1 miljoen pond",
+      "summary": "The King's Trust en OpenAI investeren 1 miljoen pond om tot 25.000 jongeren in het Verenigd Koninkrijk praktische AI-vaardigheden voor werk bij te brengen. Het initiatief richt zich op jongeren die de aansluiting op de arbeidsmarkt dreigen te missen.",
+      "url": "https://openai.com/index/the-kings-trust-and-openai",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-11-16T00:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderwijs",
+        "digitale-geletterdheid",
+        "subsidie-of-financiering"
+      ],
+      "importance": 3,
+      "why_relevant": "Voorbeeld van AI-vaardigheidstraining voor jongeren, vergelijkbaar met bibliotheekcursussen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "0faf6b09912e1e8cad725d5280db1215759201861d29d3612a689dc482443901",
+      "title": "Nieuwsbrief IFLA-sectie Informatievaardigheden, wintereditie 2026",
+      "summary": "De winterediting van de IFLA-nieuwsbrief bundelt negentien bijdragen van bibliotheekprofessionals wereldwijd. De thema's zijn kritische informatie- en AI-geletterdheid, onderwijsontwerp, digitale vernieuwing van bibliotheekdiensten en data-geletterdheid. Het geeft een beeld van hoe bibliotheken informatievaardigheden aanpassen aan AI.",
+      "url": "https://www.ifla.org/news/now-available-information-literacy-section-newsletter-winter-issue-2026/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-11-16T09:04:24+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "digitale-geletterdheid",
+        "bibliotheek",
+        "onderwijs"
+      ],
+      "importance": 3,
+      "why_relevant": "Praktijkvoorbeelden van collega-bibliotheken over AI-geletterdheid en het beoordelen van AI-informatie.",
+      "also_covered_by": []
+    },
+    {
+      "id": "7abb545ffc3508d110154340dc9ae6480d2454c1283282df7f6e1d620b73de1b",
+      "title": "Alibaba kondigt Qwen4 Max aan als krachtigste AI-model",
+      "summary": "Alibaba heeft Qwen4 Max aangekondigd, met een contextvenster van een miljoen tokens en 2,4 biljoen parameters. Concrete prijzen zijn niet genoemd, maar die zouden lager liggen dan bij voorganger Qwen3.8.",
+      "url": "https://tweakers.net/nieuws/254572/alibaba-kondigt-qwen4-max-aan-als-krachtigste-ai-model.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-11-16T13:06:33+01:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Een concurrerend, mogelijk goedkoper model naast westerse aanbieders.",
+      "also_covered_by": [
+        "https://qwen.ai/blog?id=qwen4-max"
+      ]
+    },
+    {
+      "id": "1775d37e49b52ae87bb11eb3b01543528e3280830aba32bdb8732826670f0608",
+      "title": "Claude wist per ongeluk syllabus en een jaar aan aantekeningen van hoogleraar",
+      "summary": "Een AI-agent op basis van Claude, gevraagd om pagina's te hernummeren, verwijderde de volledige syllabus en een jaar aan collegenotities van een hoogleraar rechten. De agent gaf achteraf zijn fout toe. Het incident toont de risico's van AI-agents met schrijfrechten op bestanden.",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-14T17:51:13Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Praktische waarschuwing bij het aanbevelen van AI-agents aan bezoekers: maak altijd een back-up.",
+      "also_covered_by": []
+    },
+    {
+      "id": "610d9140d161e89d3087eb1b5c837772592e8f952048ea62508a57aa1fdf2dda",
+      "title": "Eerste slimme bril van Apple krijgt langzaam vorm",
+      "summary": "Volgens Bloomberg-journalist Mark Gurman kondigt Apple zijn eerste slimme bril, zonder augmented reality, aan op WWDC in juni. Verkoop start waarschijnlijk pas voor het einde van volgend jaar. De bril leunt sterk op een vernieuwde Siri met fijnmaziger controle over apps.",
+      "url": "https://www.theverge.com/tech/1033968/apples-first-smart-glasses-are-coming-together",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-15T11:59:16-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Slimme brillen met AI-assistent kunnen straks ook bibliotheekbezoekers raken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "186cb298764eae1489a97ddbd181b892a319930c3d76ba61ec87c1f59cb9b487",
+      "title": "Congres wil exportregels voor AI-chips aanscherpen na Nvidia-spionageschandaal",
+      "summary": "Na het schandaal rond Jensen Huang steunen Democraten en Republikeinen maatregelen om de export van AI-chips te beperken. Senaatsleden eisen dat Huang en minister Lutnick getuigen. Senator Cantwell verwijt het ministerie van Handel dat het chips via bedrijven met Chinese banden liet doorstromen.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-15T14:15:43-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving"
+      ],
+      "importance": 2,
+      "why_relevant": "Strengere exportregels kunnen de AI-markt en prijzen beïnvloeden.",
+      "also_covered_by": [
+        "https://www.theverge.com/policy/1034047/nvidia-us-commerce-department-cantwell-lutnick"
+      ]
+    },
+    {
+      "id": "ab7d22ef1dd96f7ca6fb51bebb6a60bb751e2ee0fd1fbad4f1d878289a57f3b7",
+      "title": "Utah: initiatiefnemer van boekenverbod op scholen verliest herverkiezing",
+      "summary": "Volksvertegenwoordiger Ken Ivory, die de Utahse wet over verwijdering van 'gevoelig materiaal' uit scholen initieerde, verloor de verkiezingen met 42% tegen 58%. Sinds de wet zijn 44 boeken uit alle openbare scholen in de staat verwijderd, grotendeels op initiatief van twee schooldistricten.",
+      "url": "https://www.infodocket.com/2026/11/15/report-from-utah-voters-just-ousted-the-republican-representative-behind-the-states-sweeping-school-book-ban-law/",
+      "source_name": "Infodocket",
+      "source_type": "rss",
+      "published": "2026-11-15T15:38:36+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "bibliotheek"
+      ],
+      "importance": 2,
+      "why_relevant": "Boekencensuur en intellectuele vrijheid blijven een kernthema voor bibliotheken wereldwijd.",
+      "also_covered_by": []
+    },
+    {
+      "id": "b8314d05db8430fcf25e9b14eb5bb00c73f2da404f7dab0aad9bcb1b3c48cb28",
+      "title": "Nieuwsuur: Anthropic gaat naar de beurs",
+      "summary": "Volgens Nieuwsuur gaat AI-bedrijf Anthropic naar verwachting komende week naar de beurs. De beursgang geldt als ultieme test voor de AI-sector, en tegenvallend vertrouwen van beleggers kan grote gevolgen hebben.",
+      "url": "https://nos.nl/l/2639606",
+      "source_name": "NOS Tech",
+      "source_type": "rss",
+      "published": "2026-11-15T16:46:30+01:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Het financiële vertrouwen in AI-aanbieders bepaalt de stabiliteit van tools die bibliotheken gebruiken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "bbfcf564f0bfd130939c5b4dd6a228ddf9dea96d40a2d577c09d271f9db4ba39",
+      "title": "Ouders betalen 75.000 dollar voor AI-school Alpha, helft haalt rekendoel niet",
+      "summary": "Volgens Fortune haalde de helft van de leerlingen van Alpha, een AI-gestuurde school met een jaarlijkse prijs van 75.000 dollar, het gestelde rekendoel niet. Het artikel stelt de beloftes van AI-onderwijs ter discussie.",
+      "url": "https://fortune.com/2026/11/14/alpha-school-ai-students-tuition-learning-goals/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-15T19:39:46Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderwijs",
+        "onderzoek"
+      ],
+      "importance": 2,
+      "why_relevant": "Kritische kanttekening bij AI in het onderwijs, nuttig voor gesprekken met leerlingen en ouders.",
+      "also_covered_by": []
+    },
+    {
+      "id": "15ae373731f31efe64714c3932e697036951c27781f49b27f71cda315f4c38cc",
+      "title": "Apple start onderzoek naar effectiviteit van AI-gezondheidstools",
+      "summary": "Apple start met OpenEvidence de Apple Health AI Usage Study, waarin deelnemers via een iOS-app medische vragen stellen aan een AI en de antwoorden beoordelen op juistheid, detail en relevantie. Het onderzoek moet inzicht geven in hoe bruikbaar AI-antwoorden op gezondheidsvragen zijn.",
+      "url": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-15T20:26:56-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Bezoekers stellen steeds vaker gezondheidsvragen aan AI; betrouwbaarheid is een mediawijsheidsthema.",
+      "also_covered_by": []
+    },
+    {
+      "id": "ff7833693fa2a06713dc923ab6354b82d0a99faf362cef1531beb712e1bb1855",
+      "title": "Mediadivisie van LVMH sluit strategisch partnerschap met OpenAI",
+      "summary": "De mediadivisie van LVMH en OpenAI gaan samenwerken om journalistiek met AI te ondersteunen. De publicaties worden daarnaast toegankelijker via ChatGPT. Het past in de trend dat uitgevers hun content aan AI-assistenten koppelen.",
+      "url": "https://openai.com/index/lvmh-media-division-partnership",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-11-16T09:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat zien dat nieuwsbronnen steeds vaker via ChatGPT bij bezoekers terechtkomen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "9ec5c52bd0a288cc0ff4e39809fb5d969ce8e187b42fbd9b8caad8c21865378a",
+      "title": "Regering-Trump wil Nvidia en OpenAI uitroepen tot nationale AI-kampioenen",
+      "summary": "Volgens de Wall Street Journal overweegt de Amerikaanse regering bedrijven als Nvidia, Amazon, Microsoft, OpenAI en Anthropic tot nationale AI-kampioenen te benoemen. Zo wil ze hun expansie buiten de VS steunen en concurreren met China.",
+      "url": "https://tweakers.net/nieuws/254558/regering-trump-wil-nvidia-en-openai-uitroepen-tot-nationale-ai-kampioenen.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-11-16T09:09:33+01:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont de geopolitieke bijsturing van de AI-markt waar Europese bibliotheken afhankelijk van zijn.",
+      "also_covered_by": []
+    },
+    {
+      "id": "91935a49528247b549bb751d00c3727481a827debfa9c0e0e5147b34296a92c4",
+      "title": "Alle door AI gegenereerde code zou open source moeten zijn",
+      "summary": "Een blogpost pleit ervoor dat code die door AI is gegenereerd open source gepubliceerd wordt. De volledige tekst was niet beschikbaar, dus de onderbouwing is hier niet beoordeeld.",
+      "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-15T14:46:58Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "open-source",
+        "ethiek-en-risico"
+      ],
+      "importance": 1,
+      "why_relevant": "Opiniestuk over open source en AI, randnieuws voor bibliotheekmedewerkers.",
+      "also_covered_by": []
+    },
+    {
+      "id": "33b95c2112c46efd095543028e60f6116680e85e464182b74c65e43667746d78",
+      "title": "OpenAI lanceert blog over AI in de wetenschap",
+      "summary": "OpenAI start een wetenschapsblog met bevindingen, werkwijzen en ervaringen van onderzoekers die AI gebruiken. Het blog moet laten zien hoe AI wetenschappelijke ontdekkingen kan helpen.",
+      "url": "https://openai.com/index/our-new-blog-for-science",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-11-15T22:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek"
+      ],
+      "importance": 1,
+      "why_relevant": "Bron voor voorbeelden van AI in onderzoek, handig bij vragen van onderzoekers.",
+      "also_covered_by": []
+    },
+    {
+      "id": "2e8f421d2ee2a3dfd36bfcc5be1c93ba1a42b98e60398a99d5e21362ce523fd9",
+      "title": "Stap richting een definitie van het Standaardmodel op een rooster",
+      "summary": "OpenAI beschrijft een kandidaat-definitie van het Standaardmodel op een rooster, zonder storingsrekening. Het AI-model GPT-6 Astra hielp het idee uit te werken tot een gedetailleerd bewijs. Het is een voorbeeld van AI als hulpmiddel in de natuurkunde.",
+      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-11-15T22:00:01+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "modellen"
+      ],
+      "importance": 1,
+      "why_relevant": "Illustreert hoe AI wetenschappelijk onderzoek versnelt, relevant voor wetenschappelijke bibliotheekdiensten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "601a53017054bbcae56a1142bb3bcfd8c33b9c053f667e9661e1418bdf76f357",
+      "title": "Datasette 1.0a43 uitgebracht met streaming-export en beveiligingsfixes",
+      "summary": "Simon Willison bracht Datasette 1.0a43 uit, waarmee de 1.0-mijlpaal voor 53% gehaald is. Nieuw zijn streaming-ondersteuning voor CSV- en TSV-export en enkele beveiligingsfixes, waaronder een lek waarbij titels van privé-queries zichtbaar waren. Veel van het werk is met hulp van een AI-model gedaan.",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-11-15T23:20:27+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "open-source"
+      ],
+      "importance": 1,
+      "why_relevant": "Open-sourcetool voor het publiceren van data, bruikbaar voor bibliotheekdatasets.",
+      "also_covered_by": [
+        "https://simonwillison.net/2026/Nov/15/datasette-2/",
+        "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
+        "https://simonwillison.net/2026/Nov/15/datasette-apps/",
+        "https://simonwillison.net/2026/Nov/15/datasette-agent/"
+      ]
+    }
+  ]
+}

@@ -1,12 +1,5 @@
 [
   {
-    "ts": "2026-11-02T12:58:14+00:00",
-    "source": "Emerce",
-    "stage": "collect",
-    "error": "ValueError: HTTP 200 maar 0 items (content-type: text/html)",
-    "url": "https://www.emerce.nl/nieuws/rss"
-  },
-  {
     "ts": "2026-11-03T12:30:50+00:00",
     "source": "Emerce",
     "stage": "collect",
@@ -457,5 +450,24 @@
     "stage": "collect",
     "error": "ValueError: HTTP 200 maar 0 items (content-type: text/html)",
     "url": "https://www.emerce.nl/nieuws/rss"
+  },
+  {
+    "ts": "2026-11-16T13:15:35+00:00",
+    "source": "Emerce",
+    "stage": "collect",
+    "error": "ValueError: HTTP 200 maar 0 items (content-type: text/html)",
+    "url": "https://www.emerce.nl/nieuws/rss"
+  },
+  {
+    "ts": "2026-11-16T13:17:34+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "6ea58f6d7ef7: 'Muziekrecensie.' is too short"
+  },
+  {
+    "ts": "2026-11-16T13:17:43+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_schema",
+    "error": "6ea58f6d7ef7: 'Muziekrecensie.' is too short"
   }
 ]
