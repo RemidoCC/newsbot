@@ -1,19 +1,5 @@
 [
   {
-    "ts": "2026-11-04T12:40:59+00:00",
-    "source": "Emerce",
-    "stage": "collect",
-    "error": "ValueError: HTTP 200 maar 0 items (content-type: text/html)",
-    "url": "https://www.emerce.nl/nieuws/rss"
-  },
-  {
-    "ts": "2026-11-04T12:41:21+00:00",
-    "source": "Computable",
-    "stage": "collect",
-    "error": "HTTPStatusError: Server error '503 Service Unavailable' for url 'https://www.computable.nl/rss/nieuws.xml'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
-    "url": "https://www.computable.nl/feed/"
-  },
-  {
     "ts": "2026-11-05T12:51:31+00:00",
     "source": "Emerce",
     "stage": "collect",
@@ -301,5 +287,36 @@
     "stage": "collect",
     "error": "ValueError: HTTP 200 maar 0 items (content-type: text/html)",
     "url": "https://www.emerce.nl/nieuws/rss"
+  },
+  {
+    "ts": "2026-11-18T13:35:06+00:00",
+    "source": "Emerce",
+    "stage": "collect",
+    "error": "ValueError: HTTP 200 maar 0 items (content-type: text/html)",
+    "url": "https://www.emerce.nl/nieuws/rss"
+  },
+  {
+    "ts": "2026-11-18T13:35:32+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_parse",
+    "error": "geen JSON-array te vinden in de uitvoer"
+  },
+  {
+    "ts": "2026-11-18T13:35:34+00:00",
+    "source": "enriched_01.json",
+    "stage": "validate_parse",
+    "error": "geen JSON-array te vinden in de uitvoer"
+  },
+  {
+    "ts": "2026-11-18T13:35:35+00:00",
+    "source": "enriched_02.json",
+    "stage": "validate_parse",
+    "error": "geen JSON-array te vinden in de uitvoer"
+  },
+  {
+    "ts": "2026-11-18T13:35:37+00:00",
+    "source": "enriched_02.json",
+    "stage": "validate_parse",
+    "error": "geen JSON-array te vinden in de uitvoer"
   }
 ]
