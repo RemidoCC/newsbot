@@ -1,0 +1,1093 @@
+{
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19T14:06:24+00:00",
+  "stats": {
+    "batches": 3,
+    "onleesbaar": 0,
+    "objecten": 112,
+    "schema_fout": 11,
+    "onbekend_id": 0,
+    "gedropt": 43,
+    "geldig": 58,
+    "ai": 54,
+    "bieb": 4
+  },
+  "sources": [
+    "Ars Technica AI",
+    "Autoriteit Persoonsgegevens",
+    "Bibliotheeknetwerk (KB)",
+    "Computable",
+    "Google DeepMind",
+    "Hacker News",
+    "Hugging Face",
+    "Infodocket",
+    "MIT Technology Review — AI",
+    "NOS Tech",
+    "Nederlandse AI Coalitie",
+    "Netwerk Mediawijsheid",
+    "OpenAI",
+    "Simon Willison",
+    "TLDR AI",
+    "The Verge AI",
+    "Tweakers"
+  ],
+  "items": [
+    {
+      "id": "64812075099f16502e030930ece0ce4dc399cb4d74d93575824cd0420bbc5721",
+      "title": "Beurs waardeert Anthropic op 1,5 biljoen dollar",
+      "summary": "Anthropic is naar de beurs gegaan voor 83 dollar per aandeel, aan de bovenkant van de verwachting, goed voor een waardering van 1,5 biljoen dollar. Het is de eerste grote beursgang van een bouwer van AI-modellen. Beleggers toonden sterke interesse, ondanks onzekerheid door het vertrek van Nvidia-ceo Jensen Huang.",
+      "url": "https://www.computable.nl/2026/11/19/beurs-waardeert-anthropic-op-15-biljoen-dollar/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-11-18T23:14:49+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 5,
+      "why_relevant": "Markeert een omslagpunt in de AI-markt waar bibliotheken hun tools uit kiezen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "f223b70a8b6d7ba4ff249bdc8afa29bf0ef83c5d4377e98e65e0af970f300ffc",
+      "title": "Kwart basisschoolleerlingen stelt AI vragen die ze niet aan bekenden durven te stellen",
+      "summary": "Uit een meting van MediaMasters blijkt dat een kwart van de kinderen in groep 7 en 8 AI weleens iets vraagt wat ze niet aan iemand die ze kennen durven te vragen. Kinderen gebruiken AI dus ook voor gevoelige onderwerpen.",
+      "url": "https://netwerkmediawijsheid.nl/kwart-basisschoolleerlingen-stelt-ai-vragen-die-ze-niet-aan-bekenden-stellen/",
+      "source_name": "Netwerk Mediawijsheid",
+      "source_type": "rss",
+      "published": "2026-11-13T11:00:32+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "onderzoek",
+        "digitale-geletterdheid"
+      ],
+      "importance": 4,
+      "why_relevant": "Geeft houvast voor AI-mediawijsheid voor kinderen, ouders en scholen via de bibliotheek.",
+      "also_covered_by": []
+    },
+    {
+      "id": "82b169450b02e27d05b949928dfedb9d8fdbdeb171912bc893f9bbe7beab4383",
+      "title": "OpenAI lanceert GPT-6.2 Astra en GPT-6.2 Sol",
+      "summary": "OpenAI brengt twee nieuwe modellen uit: Astra voor de zwaarste taken en Sol als efficiënt model voor dagelijks werk. Astra is 20% goedkoper dan zijn voorganger en Sol houdt dezelfde prijs. Dat maakt vooral langlopende agent-sessies goedkoper.",
+      "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-11-17T22:38:52+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "bedrijven"
+      ],
+      "importance": 4,
+      "why_relevant": "Nieuwe modellen en lagere prijzen beïnvloeden welke AI-diensten haalbaar worden.",
+      "also_covered_by": [
+        "https://openai.com/index/introducing-gpt-6-2-astra-sol"
+      ]
+    },
+    {
+      "id": "0db3b4bdf59c14e4c5f17d9bcbc056c674d7dbff7b19e418aef5b0aab2cdf1f3",
+      "title": "Microsoft noemt Copilot 'het nieuwe besturingssysteem voor werk'; Office draait nu erin",
+      "summary": "Op Ignite maakte Microsoft bekend dat Word, Excel en PowerPoint nu algemeen beschikbaar zijn binnen Copilot. Agents sturen het werk aan en de Office-apps worden onderdelen daarvan, met een kennislaag die put uit mail, agenda, chats en bestanden. Gemaakte documenten blijven bewerkbaar in de gewone Office-apps.",
+      "url": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-11-18T00:27:29+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 4,
+      "why_relevant": "Verandert hoe medewerkers en bezoekers met kantoorsoftware werken en daarover vragen stellen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "71b7e8455731f2a83d3c88415c781bfac92d3d7ffddf68322ec80bda308c5a0b",
+      "title": "IDO-campagne 'Digitaal Vastlopen' stopt in 2027",
+      "summary": "Na bijna twee jaar stopt per 2027 de landelijke marketing rondom het Informatiepunt Digitale Overheid in de bibliotheek, dus ook de campagne 'Digitaal Vastlopen'. Bibliotheken kunnen lokaal wel zelf nog campagne blijven voeren.",
+      "url": "https://www.bibliotheeknetwerk.nl/nieuws/ido-campagne-digitaal-vastlopen-stopt-in-2027",
+      "source_name": "Bibliotheeknetwerk (KB)",
+      "source_type": "rss",
+      "published": "2026-11-18T10:11:04+01:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "digitale-inclusie",
+        "bibliotheek"
+      ],
+      "importance": 4,
+      "why_relevant": "Bibliotheken moeten IDO-promotie vanaf 2027 zelf lokaal organiseren.",
+      "also_covered_by": []
+    },
+    {
+      "id": "aa9a9638058b8f9377b47c5f33b011b2d80ad43e1335bb1ee8b417ae59c3f799",
+      "title": "OpenAI lanceert GPT-6.2 Astra en Sol",
+      "summary": "OpenAI bracht GPT-6.2 Astra uit, een topmodel voor de lastigste projecten, en GPT-6.2 Sol, een efficiënter model voor dagelijks gebruik. Beide zijn beschikbaar in ChatGPT Work, Codex en de API.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/k99m2uvze12ouc58qovuoyoje0174lajc1zv47kz.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-11-18T14:56:42+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "bedrijven"
+      ],
+      "importance": 4,
+      "why_relevant": "Nieuwe ChatGPT-modellen komen snel bij het publiek terecht en bepalen de vragen aan de balie.",
+      "also_covered_by": []
+    },
+    {
+      "id": "b0db2b838bdae9692b1d38c4bcaaab9259fa973808512f2a67c67adf1c8fcc9d",
+      "title": "Grootste Amerikaanse schooldistricten overwegen Google Search te dumpen",
+      "summary": "New York, Los Angeles en Chicago kijken naar alternatieven voor Google, nadat het bedrijf meldde dat scholen die Gemini-functies uitzetten ook geen toegang tot Search meer krijgen. Dat geldt vanaf volgend jaar. Politici reageerden fel op de koppeling van zoeken en AI.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-18T18:18:35-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderwijs",
+        "beleid-en-regelgeving",
+        "bedrijven"
+      ],
+      "importance": 4,
+      "why_relevant": "Toont gedwongen AI-bundeling in onderwijstools; relevant voor keuzes rond Google in bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "4c7acd2e0a3510a01205085ca6ff647a4ace06aecfd0c07ea033f93ea176534e",
+      "title": "AP raadt aankoop AI-camerabrillen af vanwege ernstige risico's",
+      "summary": "De Autoriteit Persoonsgegevens onderzocht zes AI-camerabrillen en raadt consumenten af er een voor algemeen gebruik te kopen. De brillen brengen de privacy van omstanders in gevaar, hielden onvoldoende rekening met minderjarigen en hadden beveiligingsproblemen in de software. Een bril meldde bij een nagebootste reanimatie ten onrechte dat er een ambulance onderweg was.",
+      "url": "https://www.autoriteitpersoonsgegevens.nl/actueel/ap-raadt-aankoop-ai-camerabrillen-af-ernstige-risicos-voor-gebruikers-en-omstanders",
+      "source_name": "Autoriteit Persoonsgegevens",
+      "source_type": "rss",
+      "published": "2026-11-19T06:00:00+01:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "ethiek-en-risico",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 4,
+      "why_relevant": "Bezoekers kunnen zulke brillen in de bibliotheek dragen; privacybeleid en voorlichting worden relevant.",
+      "also_covered_by": [
+        "https://tweakers.net/nieuws/254706/nederlandse-privacywaakhond-raadt-ai-camerabrillen-af-na-zorgwekkende-tests.html"
+      ]
+    },
+    {
+      "id": "0b9bc4d16bf003d87ed02a01aa5410d3ae50fbfcbccb3337f1e00efc0fe028f0",
+      "title": "Autoriteit Persoonsgegevens: AI-camerabrillen brengen veiligheid in gevaar",
+      "summary": "De Autoriteit Persoonsgegevens onderzocht zes AI-brillen en ziet risico's voor de veiligheid van gebruikers en omstanders, niet alleen voor privacy. In een nagebootste noodsituatie beweerde een bril ten onrechte dat er al een ambulance onderweg was. De AP raadt consumenten af om zo'n bril nu te kopen.",
+      "url": "https://nos.nl/l/2640119",
+      "source_name": "NOS Tech",
+      "source_type": "rss",
+      "published": "2026-11-19T09:45:37+01:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "ethiek-en-risico",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 4,
+      "why_relevant": "Bezoekers kunnen met AI-brillen de bibliotheek binnenkomen; privacy en veiligheid raken ook jullie.",
+      "also_covered_by": [
+        "https://www.bitsoffreedom.nl/2026/11/19/toezichthouder-laat-ondanks-veiligheidsrisicos-gluurbrillen-op-de-markt/"
+      ]
+    },
+    {
+      "id": "5ca0519d038bf5bac8218a0af7cf6efcd956f2077588c16b99408c5abb0b8322",
+      "title": "Verslag: dit was de Week van de Mediawijsheid 2026",
+      "summary": "De Week van de Mediawijsheid liep van 6 tot en met 13 november en draaide voor het derde jaar om digitale balans. Netwerkpartners, scholen en bibliotheken hielden activiteiten, dit jaar met nadruk op concrete tips en doen. Netwerk Mediawijsheid blikt terug.",
+      "url": "https://netwerkmediawijsheid.nl/verslag-dit-was-de-week-van-de-mediawijsheid-2026/",
+      "source_name": "Netwerk Mediawijsheid",
+      "source_type": "rss",
+      "published": "2026-11-16T14:31:46+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "digitale-geletterdheid",
+        "evenement",
+        "bibliotheek"
+      ],
+      "importance": 3,
+      "why_relevant": "Terugblik met ideeën voor eigen mediawijsheidactiviteiten in de bibliotheek.",
+      "also_covered_by": []
+    },
+    {
+      "id": "2fb8e2fb34607d9025af245a5398c62efffa07299f1592827386695521d6e2f3",
+      "title": "Nvidia-bestuur stelt toezichtcommissie voor exportregels in na vertrek ceo Huang",
+      "summary": "Het bestuur van Nvidia richt een commissie op die toeziet op naleving van exportregels en beleid rond nationale veiligheid. Dat gebeurt nog geen week nadat ceo Jensen Huang aftrad. De Amerikaanse overheid onderzoekt smokkel van AI-chips.",
+      "url": "https://tweakers.net/nieuws/254622/nvidia-bestuur-stelt-toezichtcommissie-voor-exportregels-in-na-vertrek-ceo-huang.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-11-17T15:13:36+01:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 3,
+      "why_relevant": "Machtsverschuivingen bij Nvidia beïnvloeden de hele AI-markt waar bibliotheken op leunen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "25a4ca5f35209bfb4641c6258b3eda9f3a0d79a5252e0fcf3f2d971ee2444572",
+      "title": "Privacyproblemen met Meta's Muse baren eigen medewerkers zorgen",
+      "summary": "Volgens interne chats, door Reuters naar buiten gebracht, waarschuwden Meta-medewerkers al dat de AI-agent Muse versleutelde privéberichten leek in te zien. Ook zou Muse gesprekken van gebruikers kunnen verwarren en gevoelige informatie kunnen delen. Eerdere gebruikers klaagden over hetzelfde gedrag.",
+      "url": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-11-18T19:19:33+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Laat zien dat AI-agenten privacyrisico's hebben; goede stof voor voorlichting aan bezoekers.",
+      "also_covered_by": []
+    },
+    {
+      "id": "830da74434e8505c737e91eb0dcd32bca128e663d8b67dd821f376fcc24bd3aa",
+      "title": "Tasks, de persoonlijke assistent in Google Gemini, is nu gratis",
+      "summary": "Google maakt de functie Tasks in de Gemini-app gratis beschikbaar, met enkele nieuwe mogelijkheden. Daarmee komt een AI-assistent die taken voor je regelt bij een breder publiek.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-18T20:20:17Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Bezoekers kunnen hier zelf mee aan de slag en komen met vragen naar de balie.",
+      "also_covered_by": []
+    },
+    {
+      "id": "fd9bebbff7e692862dad0cea3083003ab322baa30f38c6a3bb8661b8a80eee16",
+      "title": "Google introduceert Gemini 4 Neon",
+      "summary": "Google DeepMind brengt Gemini 4 Neon uit, een nieuw model in de Gemini 4-reeks naast Hydrogen en Carbon. Het model heeft een contextvenster van een miljoen tokens en meerdere denkniveaus, en is gericht op coderen en agent-werkstromen. De prijsstructuur van de reeks is lastig te doorgronden, zeker nu Carbon op 1 december duurder wordt.",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+      "source_name": "Google DeepMind",
+      "source_type": "rss",
+      "published": "2026-11-18T21:35:43+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Nieuw Google-model en prijzen bepalen welke AI-tools bibliotheken straks kunnen inzetten.",
+      "also_covered_by": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+        "https://simonwillison.net/2026/Nov/18/llm-gemini/",
+        "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/2lk81xqwyj1y1pbv7gihlwifgtwtxccswampbitl.html"
+      ]
+    },
+    {
+      "id": "14422b66a2e201f35389f39ee6445b80d3994adb2296d2f6a23be35c3d853e2d",
+      "title": "Zwarte scholieren klagen aan nadat AI zak chips aanzag voor wapen",
+      "summary": "Een groep Zwarte middelbare scholieren in de VS stapt naar de rechter, nadat een AI-systeem een zak Doritos aanzag voor een vuurwapen. Het alarm leidde volgens de aanklacht tot aanhouding en fouillering van de leerlingen. De zaak laat zien wat fouten van AI-detectie kunnen aanrichten.",
+      "url": "https://www.lawyerscommittee.org/lawyers-committee-files-lawsuit-on-behalf-of-black-students-detained-and-searched-due-to-ai-alert-falsely-identifying-a-bag-of-chips-as-a-firearm/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-19T00:57:20Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 3,
+      "why_relevant": "Een concreet voorbeeld van AI-fouten en bias, bruikbaar in mediawijsheid- en AI-gesprekken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "4919a1e5f67ad2aab63ba7a9e84a988e89461aad5339801f69e4dde16af7a6d8",
+      "title": "Canva krijgt een AI-uitknop",
+      "summary": "Canva laat gebruikers voortaan de generatieve AI-functies uitschakelen, zoals Magic Expand en het genereren van beelden met de chatbot. Functies als de achtergrondverwijderaar en Magic Grab blijven aan, omdat ze volgens Canva niets nieuws genereren.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-19T07:30:00-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Voorbeeld van keuzevrijheid rond AI in veelgebruikte tools voor cursisten en medewerkers.",
+      "also_covered_by": []
+    },
+    {
+      "id": "2f36a09824161b26526e7cbaf2333008c039f66df88a3e23caf100d877618217",
+      "title": "Twee weken met Apples luisterende AI die mijn leven samenvat",
+      "summary": "The Verge testte Apples Siri Recap op de Apple Watch Ultra 4 en Amazons Bee Frontier, twee wearables die gesprekken opnemen en met AI samenvatten. Apple kiest een minimalistische, privacygerichte aanpak, Amazon een maximalistische. Beide vragen dat omstanders worden geïnformeerd over het opnemen.",
+      "url": "https://www.theverge.com/tech/1037100/apple-siri-recap-audio-intelligence-hands-on",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-19T08:00:00-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Roept privacyvragen op die bezoekers ook in de bibliotheek kunnen stellen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "57ddc59b44150471078cd7b014fbf7e5adbf828d07623b2ce2c10f1f4d501c19",
+      "title": "Gemini 4 Neon is Googles vierde nieuwe AI-model in korte tijd",
+      "summary": "Google heeft Gemini 4 Neon uitgebracht, een model dat qua kracht tussen het lichtere Hydrogen en het sterkere Carbon in zit. Neon is na Argon, Carbon en Hydrogen het vierde model sinds oktober. Het tempo van nieuwe releases blijft hoog.",
+      "url": "https://tweakers.net/nieuws/254708/gemini-4-neon-is-googles-vierde-nieuwe-ai-model-in-korte-tijd.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-11-19T11:02:41+01:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "modellen",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Het snelle modeltempo van Google raakt de keuze van AI-tools voor publieksdiensten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "0529e6d008a1eb622fd80216acb59aabc17b5b4559cda6e112965e190f80ca2e",
+      "title": "Anthropic haalt 81 miljard dollar op bij recordbeursgang",
+      "summary": "Anthropic verkocht bij zijn beursgang ongeveer 980 miljoen aandelen van 83 dollar en haalde zo 81,3 miljard dollar op, de grootste beursgang ooit. De marktwaarde komt uit op circa 1,5 biljoen dollar en de handel op Nasdaq start donderdag onder het symbool 'ANT'. OpenAI zou in 2027 volgen.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/hbuzz47t55kiqnkwtu9dos4idl6yvqjwfanv3tdg.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-11-19T11:59:21+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "subsidie-of-financiering"
+      ],
+      "importance": 3,
+      "why_relevant": "Toont de economische macht achter AI-aanbieders waarvan bibliotheken afhankelijk kunnen worden.",
+      "also_covered_by": []
+    },
+    {
+      "id": "c4930a499fa94a7f0983876c5be6f92f9eca48b9616ddcb695d1671cf5fa93b9",
+      "title": "Carla Hayden: de toekomst van bibliotheken gaat over meer dan boeken",
+      "summary": "Oud-Librarian of Congress Carla Hayden schrijft in een opiniestuk dat bibliotheken onder druk staan, terwijl ze voor veel mensen een van de weinige plekken met betrouwbare informatie en een gratis 'derde plek' zijn. Volgens haar overleven alleen bibliotheken die zich verankeren in de gemeenschap en die gemeenschap laten meebepalen wat ze doen.",
+      "url": "https://www.infodocket.com/2026/11/19/dr-carla-hayden-the-future-of-libraries-is-about-more-than-books/",
+      "source_name": "Infodocket",
+      "source_type": "rss",
+      "published": "2026-11-19T13:00:24+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "bibliotheek",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 3,
+      "why_relevant": "Visie op de maatschappelijke rol van bibliotheken, ook relevant bij AI-dienstverlening.",
+      "also_covered_by": []
+    },
+    {
+      "id": "51ba83f180496126eb7a9ee9463c44b724f78772c1a3931972b76c2ad9f473e9",
+      "title": "Ceo's van Baidu en Xiaomi waarschuwen voor groeiende kloof tussen AI-hype en rendement",
+      "summary": "De topmannen van Baidu en Xiaomi waarschuwen volgens de South China Morning Post dat de verwachtingen van AI sneller groeien dan de opbrengsten. Zij benoemen daarmee een kloof tussen hype en werkelijke resultaten.",
+      "url": "https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-17T14:19:59Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Helpt hype te relativeren bij het adviseren over AI-investeringen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "c74e8eacd8b57733cc238f3e68fd114fdb94ae6399707937eeb271c2d04e4048",
+      "title": "Microsoft introduceert MAI Code 2 en Code 2 Flash",
+      "summary": "Microsoft AI kondigt twee nieuwe codeermodellen aan: MAI Code 2 en de lichtere variant Code 2 Flash. Het bedrijf bouwt hiermee verder aan eigen modellen naast zijn samenwerking met andere aanbieders.",
+      "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-17T18:25:13Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont dat Microsoft eigen modellen ontwikkelt, relevant voor Copilot-gebruik in de sector.",
+      "also_covered_by": []
+    },
+    {
+      "id": "4d189ef1f84f674b199d96e36dca711f47a88f51b58fe6a91d41b27eee0941ae",
+      "title": "Harvard-onderzoekers: AI-codeeragents verschuiven het knelpunt naar code-review",
+      "summary": "Volgens een bericht over Harvard-onderzoek verplaatst het gebruik van AI-codeeragents het knelpunt in softwareontwikkeling naar het beoordelen van code. Het schrijven gaat sneller, het controleren wordt de beperkende factor. De bron bevatte verder weinig details.",
+      "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-17T21:16:12Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "arbeidsmarkt"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat zien dat menselijke controle bij AI-werk belangrijk blijft.",
+      "also_covered_by": []
+    },
+    {
+      "id": "853ba1682c02b61a79f98c638a3b3d2173634696402a0885495b92fb904054ee",
+      "title": "Dit zijn de winnaars van de Computable Awards 2026",
+      "summary": "Op 17 november zijn in Utrecht zeventien Computable Awards uitgereikt aan Nederlandse ict-bedrijven en -professionals, onder het thema Pushing Boundaries. Winnaars zijn onder meer een AI-toepassing die familiegesprekken op de intensive care begrijpelijker maakt en een Europees alternatief voor Amerikaanse kantoorsoftware.",
+      "url": "https://www.computable.nl/2026/11/17/dit-zijn-de-winnaars-van-de-computable-awards-2026/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-11-17T22:15:27+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "evenement",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont Nederlandse AI-toepassingen en Europese alternatieven voor Amerikaanse software.",
+      "also_covered_by": [
+        "https://www.computable.nl/2026/11/19/computable-awards-2026-vieren-de-kracht-van-nederlandse-it-sector/"
+      ]
+    },
+    {
+      "id": "20721672b7ad219aa5e07bc800101156f59d189bf7b8c1d859e16ac96798d4be",
+      "title": "San Diego stopt met Flock-camera's en slimme straatlantaarns",
+      "summary": "De gemeenteraad van San Diego stemde maandag voor beëindiging van de contracten met surveillanceleveranciers Flock en Ubicquia. Het is een van de grootste steden die met Flock breekt. De beslissing volgt op langdurige kritiek van een coalitie van burgers.",
+      "url": "https://arstechnica.com/tech-policy/2026/11/san-diego-dumps-both-flock-cameras-and-smart-streetlights/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-11-17T23:09:09+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van maatschappelijk verzet tegen AI-surveillance, bruikbaar voor gesprekken over privacy.",
+      "also_covered_by": []
+    },
+    {
+      "id": "ec56b5eff9affb1c339e466ce0f8237f0117032663d5db85034279f9f2a19228",
+      "title": "180 miljard parameters op 32 GB RAM: MoE-inferentie tot het uiterste met Transformers",
+      "summary": "Hugging Face laat zien hoe een zeer groot mixture-of-experts-model met 180 miljard parameters op een machine met 32 GB werkgeheugen kan draaien. Dat gebeurt door experts gericht te streamen. Zo komen grote modellen binnen bereik van gewone hardware.",
+      "url": "https://huggingface.co/blog/moe-expert-streaming",
+      "source_name": "Hugging Face",
+      "source_type": "rss",
+      "published": "2026-11-18T00:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "open-source"
+      ],
+      "importance": 2,
+      "why_relevant": "Lokaal draaien van grote modellen wordt haalbaarder, relevant voor privacyvriendelijke AI-experimenten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "a1de396d3910fa2e0f79d5fc1596f0a162b45e4ee5be0f06557fa126a8cc5915",
+      "title": "Le Groupe Figaro en OpenAI werken samen om Le Figaro in ChatGPT te brengen",
+      "summary": "Le Groupe Figaro en OpenAI sluiten een partnerschap waarbij journalistiek van Le Figaro in ChatGPT verschijnt via samenvattingen en fragmenten, met links naar de originele artikelen. Het is weer een voorbeeld van een uitgever die samenwerkt met een AI-bedrijf.",
+      "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-11-18T00:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 2,
+      "why_relevant": "Raakt aan hoe nieuws via AI-assistenten bij burgers terechtkomt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "5b89a2db7f60ae9099b72ca73768977f61c082125cbaf94b72c9c9bced5f17aa",
+      "title": "Rumble-2-Flash: open spraakmodel van 0,5 miljard parameters voor ruim 40 talen",
+      "summary": "Hugging Face presenteert Rumble-2-Flash, een klein open spraakmodel dat meer dan veertig talen ondersteunt. Door de beperkte omvang is het geschikt voor lichte toepassingen. Het model is openlijk beschikbaar.",
+      "url": "https://huggingface.co/blog/rumble-2-flash",
+      "source_name": "Hugging Face",
+      "source_type": "rss",
+      "published": "2026-11-18T00:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "open-source"
+      ],
+      "importance": 2,
+      "why_relevant": "Open spraaktechnologie kan later bruikbaar zijn voor toegankelijke bibliotheekdiensten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "d00fc92468416949ad6ef918dfdd86ecc43cb8e6450a4ae3ec30c68cd412cfd9",
+      "title": "Google-AI-antwoorden verlagen zoekverkeer met 40 procent",
+      "summary": "Een blog van revscope.co stelt dat AI-antwoorden in Google het zoekverkeer naar websites met zo'n 40 procent verminderen. Het stuk gaat over de gevolgen voor zoekmachineoptimalisatie. Het artikel zelf is niet gecontroleerd; de claim komt van een commerciële partij.",
+      "url": "https://revscope.co/blog/search-seo-geo-2026/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-18T00:17:58Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "onderzoek"
+      ],
+      "importance": 2,
+      "why_relevant": "Raakt hoe bezoekers informatie zoeken en of ze nog bij bibliotheeksites uitkomen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "99be0c0a7e074380d1a5d6cdb0953a68d68217eb3d8f50443a74e9d288a8cea0",
+      "title": "Risico's van frontier-AI beheersen: van training tot inzet",
+      "summary": "OpenAI beschrijft hoe het risico's van zijn krachtigste modellen beheert, van training tot ingebruikname. Het gaat om modelafstemming, sandboxing, blokkerende veiligheidsmaatregelen en monitoring.",
+      "url": "https://openai.com/index/managing-frontier-ai-risk",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-11-18T06:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "modellen"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat zien welke waarborgen aanbieders hanteren, nuttig bij het beoordelen van AI-leveranciers.",
+      "also_covered_by": []
+    },
+    {
+      "id": "58da586369f33999eb920dc2411502d48d9dc9ca37a4ab1a788d83ffd176938a",
+      "title": "Onderzoeksversnelling: de grillige frontlinie",
+      "summary": "OpenAI meet hoe codeeragenten AI-onderzoek versnellen en waar hun prestaties ongelijkmatig blijven. Het bedrijf bespreekt wat dit zegt over recursieve zelfverbetering van AI.",
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-11-18T08:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "modellen"
+      ],
+      "importance": 2,
+      "why_relevant": "Geeft inzicht in het tempo waarmee AI-ontwikkeling zichzelf versnelt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "83584ebcf49c51ce2a3f8009e14eeab5da79b80e67a61966a267df9888391df5",
+      "title": "Nvidia verkoopt geen AI-chips meer aan China ondanks toestemming VS",
+      "summary": "Nvidia stopt met het leveren van datacenterchips aan China. Het bedrijf had begin dit jaar onder voorwaarden toestemming gekregen om H200-chips aan Chinese bedrijven te verkopen, maar stapt daar nu van af.",
+      "url": "https://tweakers.net/nieuws/254652/nvidia-verkoopt-geen-ai-chips-meer-aan-china-ondanks-toestemming-vs.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-11-18T09:41:18+01:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 2,
+      "why_relevant": "Chippolitiek beïnvloedt op termijn beschikbaarheid en prijs van AI-diensten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "184d931227f2504de1a33bebb5615518a5072d45e1bfb93a37850e8332740e3a",
+      "title": "OpenAI: 'The Silent Consensus' over AI en controle over instituties",
+      "summary": "Dean Ball van OpenAI schrijft over hoe steeds capabelere AI de samenleving kan veranderen. Hij kijkt naar hoe mensen controle kunnen houden over hun instituties.",
+      "url": "https://openai.com/index/the-silent-consensus",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-11-18T10:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Perspectief van een AI-bedrijf op maatschappelijke gevolgen voor publieke instituties.",
+      "also_covered_by": []
+    },
+    {
+      "id": "50062a7b7efa2b7abfeee37f15f778b9478877b8472f8baa6ccc6ed093ac3f7d",
+      "title": "Kan peer review overleven met AI-gegenereerde tekst?",
+      "summary": "Een paper van onderzoekers verkent of wetenschappelijke peer review bestand is tegen tekst die door AI is geschreven. Het raakt aan de betrouwbaarheid van wetenschappelijke kennis.",
+      "url": "https://www.sas.upenn.edu/~jesusfv/Peer_Review.pdf",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-18T13:51:03Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Raakt aan betrouwbaarheid van bronnen, een kernthema voor bibliotheken en mediawijsheid.",
+      "also_covered_by": []
+    },
+    {
+      "id": "da89204a720806d029b2380815d180e6f932449454133a25599a70df64d5b708",
+      "title": "Microsoft daagt OpenAI en Anthropic uit met nieuw programmeermodel",
+      "summary": "Microsoft kondigde MAI Code 2 aan, zijn tweede programmeermodel. Het presteert volgens het bedrijf vergelijkbaar met GPT 6.1 Sol en Claude Opus 5.5, tegen een lagere prijs. Het model is onderdeel van zeven nieuwe Microsoft-modellen.",
+      "url": "https://tweakers.net/nieuws/254670/microsoft-gaat-strijd-aan-met-openai-en-anthropic-met-nieuw-programmeermodel.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-11-18T14:02:55+01:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "modellen",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont dat concurrentie AI-modellen goedkoper maakt, ook voor toekomstige bibliotheektoepassingen.",
+      "also_covered_by": [
+        "https://microsoft.ai/news/microsoft-ignite-2026/"
+      ]
+    },
+    {
+      "id": "8734ccc348d45fd8cdf920795594d9a794fb6628a1f25371bca5948689e000b4",
+      "title": "Nvidia's opmars in beeld gebracht",
+      "summary": "The Verge visualiseert de enorme winst van Nvidia: ongeveer 8.300 dollar per seconde. Het bedrijf verloor net zijn oprichter-ceo na een reeks schandalen, maar blijft extreem winstgevend. Het stuk beschrijft hoe centraal Nvidia staat in de AI-industrie.",
+      "url": "https://www.theverge.com/tech/1035924/nvidia-visualized-revenue-profit-earnings-after-huang",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-18T14:30:00-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Geeft context over de economische macht achter de AI-ontwikkeling.",
+      "also_covered_by": []
+    },
+    {
+      "id": "e0c10224db069f02354269e130e2b891ec9544f2dedd76cd14145e2311cd0926",
+      "title": "Jensen Huang wil terugkeren als Nvidia-ceo; bestuur wacht onderzoek af",
+      "summary": "In zijn eerste verklaring sinds zijn aftreden zegt Jensen Huang fouten te hebben gemaakt en mee te werken aan het onafhankelijke onderzoek van het bestuur. Hij zou terugkeren als het bestuur dat in het belang van het bedrijf acht. Nvidia stelde ook een commissie in voor naleving van exportregels.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/bozf0anjnyil9l1kez010d97rrrr23tlknyj2zwa.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-11-18T14:32:19+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Leiderschapsonrust bij Nvidia raakt een sleutelspeler in de AI-keten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "040df8f031dbd6444a73044a0e8e314bb0e9684e940d864ab87cf114d11ab2ee",
+      "title": "Trumps nieuwste greep: een AI-hub in de Filipijnen",
+      "summary": "Tijdens zijn bezoek aan Manilla promoot president Trump het door de VS geleide initiatief Pax Silica, gericht op chips en kritieke mineralen voor AI. Er waren protesten tegen het plan en tegen Trump. Het toont hoe AI-infrastructuur onderdeel wordt van geopolitiek.",
+      "url": "https://www.theverge.com/policy/1036749/trump-ai-chip-data-center-us-philippines-pax-silica",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-18T14:40:36-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving"
+      ],
+      "importance": 2,
+      "why_relevant": "Achtergrond bij de geopolitiek rond AI-chips en afhankelijkheden.",
+      "also_covered_by": []
+    },
+    {
+      "id": "d7b1dd912a6a6e0b7650fcabf49ebb45f27de258a0618e3302f1681af739afc8",
+      "title": "De AI Hype Index: AI is overal",
+      "summary": "MIT Technology Review schetst in een ironische stijl hoe AI zich overal in het dagelijks leven nestelt, van Google's AI Overviews tot humanoïde robots en AI-gestuurde cyberaanvallen. De index geeft een kritisch tijdsbeeld van de hype rond AI.",
+      "url": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
+      "source_name": "MIT Technology Review — AI",
+      "source_type": "rss",
+      "published": "2026-11-18T14:42:44+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Helpt de hype te nuanceren bij gesprekken met bezoekers over AI.",
+      "also_covered_by": []
+    },
+    {
+      "id": "f6f0576c6cc397f30abc09f34fd8389c3f37f9e9abdd4f2f15398332a12dd851",
+      "title": "AI-agenten stellen betere vragen dan KPMG-accountants in auditproef",
+      "summary": "In een proef bij KPMG stelden AI-agenten volgens het bericht betere vragen dan accountants tijdens een audit. Het laat zien hoe AI kenniswerk begint over te nemen.",
+      "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-18T15:49:34Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "arbeidsmarkt",
+        "onderzoek"
+      ],
+      "importance": 2,
+      "why_relevant": "Illustreert veranderend kenniswerk, relevant voor het begeleiden van bezoekers bij werk en scholing.",
+      "also_covered_by": []
+    },
+    {
+      "id": "ce4b9c0b37928272a2bd6ecc827d091407e69becf2a9151b7fabd5bbfec861ee",
+      "title": "Waymo rijdt voorlopig niet meer op de snelweg",
+      "summary": "Waymo houdt zijn robotaxi's in Californië tot nu toe weg van snelwegen. De DMV eiste dat, omdat de software met hoge snelheid bouwzones inreed. Het is niet de eerste keer dat dit probleem opduikt.",
+      "url": "https://arstechnica.com/cars/2026/11/waymo-suspends-freeway-driving-after-california-construction-zone-complaint/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-11-18T16:24:34+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van AI-veiligheid in de praktijk en toezicht door overheden.",
+      "also_covered_by": []
+    },
+    {
+      "id": "f578074493d43a58ad7f1052f6c997bff7135a23eeeaa9aaaf0c7ed8ce45fc6d",
+      "title": "Coalitie betwist veiligheidsimago van Anthropic voor beursgang",
+      "summary": "Een brede groep wetenschappers, juristen en tech-leiders stelt in een persbericht dat Anthropic ten onrechte als veilig AI-bedrijf wordt gepresenteerd. Het bericht verschijnt in aanloop naar een beursgang van het bedrijf.",
+      "url": "https://www.businesswire.com/news/home/20261118974464/en/Anthropic-is-Not-a-Safe-AI-Company---Broad-Coalition-of-Scientists-Legal-Scholars-and-Tech-Leaders-Challenge-Anthropics-Safety-Branding-Ahead-of-IPO",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-18T16:41:22Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont de discussie over claims van AI-bedrijven; handig bij kritisch kiezen van tools.",
+      "also_covered_by": []
+    },
+    {
+      "id": "ca9ca0837de1673fe7157c5aacee390a01e91aa92b23247bd7648dbf04542dc2",
+      "title": "Genie 4 is nu beschikbaar",
+      "summary": "Google DeepMind maakt Genie 4 beschikbaar, volgens de bijbehorende Google-blog via Project Genie. In de aangeleverde tekst staan geen verdere details over de mogelijkheden of toegang.",
+      "url": "https://deepmind.google/blog/genie-4-is-now-available/",
+      "source_name": "Google DeepMind",
+      "source_type": "rss",
+      "published": "2026-11-18T18:13:42+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen"
+      ],
+      "importance": 2,
+      "why_relevant": "Signaal van een nieuw Google-model; details zijn nog nodig om bruikbaarheid te beoordelen.",
+      "also_covered_by": [
+        "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/"
+      ]
+    },
+    {
+      "id": "31c0759f78fd1616b8102f415393107354063601117a94145e6b55486e660e5b",
+      "title": "Google mag berichten van failliete Spirit Airlines kopen voor AI",
+      "summary": "Een rechter in New York keurt goed dat Google bedrijfsdata van het failliete Spirit Airlines koopt voor 10 miljoen dollar. De vakbond van stewards en stewardessen vocht de deal aan, kreeg concessies en trok het bezwaar in. Het toont dat data van failliete bedrijven een handelswaar voor AI-training wordt.",
+      "url": "https://tweakers.net/nieuws/254716/google-mag-600-miljoen-berichten-van-failliete-spirit-airlines-kopen-voor-ai.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-11-19T14:38:00+01:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Illustreert vragen over herkomst en privacy van AI-trainingsdata.",
+      "also_covered_by": []
+    },
+    {
+      "id": "b955388224554f43006a1f8ef0eda4dd7efd46de509c62d520a9e7bb5abd06e0",
+      "title": "TrnRT: open-source inferentie-engine voor AWS Trainium",
+      "summary": "RunAnywhere heeft TrnRT als open source uitgebracht, een engine om grote taalmodellen op AWS Trainium-chips te draaien. Het draait nu GLM 5.3 flash op een trn2.48xlarge-machine. De makers mikken op lagere kosten dan bij H100/H200-GPU's.",
+      "url": "https://github.com/RunanywhereAI/trnrt",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-17T16:01:04Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "open-source",
+        "tools"
+      ],
+      "importance": 1,
+      "why_relevant": "Zeer technisch; alleen interessant als achtergrond over AI-kosten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "85e628cc5ceac4060ad87cb5b93a62e99e4b4655ad7a28bbf07a397664c5862f",
+      "title": "Tencent introduceert Hy4 Flash",
+      "summary": "Tencent publiceert onderzoeksinformatie over Hy4 Flash, een nieuw model uit de eigen Hy-serie. De bron geeft in deze aanlevering geen verdere details. Het past in de voortdurende stroom van nieuwe Chinese modellen.",
+      "url": "https://hy.tencent.ai/research/hy4-flash",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-17T21:06:08Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws over een nieuw model; goed om het aanbod te blijven volgen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "e45fd791e1fe03c27509e5cfc6fcacfeb1c5b0665a232d00558d4f3fb339f62b",
+      "title": "Externe sandboxes voor codeeragenten",
+      "summary": "Simon Willison en Prime Radiant presenteren een patroon waarbij code van een AI-agent in een aparte sandbox draait, buiten de agent zelf. Zo is het veiliger om lokale modellen te proberen, ook bij fouten of prompt-injectie. Ze publiceerden drie voorbeeldimplementaties.",
+      "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-11-17T22:52:29+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "open-source",
+        "tools"
+      ],
+      "importance": 1,
+      "why_relevant": "Technisch, maar relevant als de bibliotheek ooit lokaal met AI-agenten experimenteert.",
+      "also_covered_by": []
+    },
+    {
+      "id": "68ddb817fe4001c0fc7b71404e8ed33269a5f57651ec2110d7ae5f13ebb157e7",
+      "title": "Chipontwerp vooruithelpen met OpenAI-modellen",
+      "summary": "OpenAI-modellen optimaliseerden circuits voor Jalapeño-silicium en verbeterden RISC-V-kernontwerpen. Dit toont vooruitgang in AI-ondersteund chipontwerp met GPT-6 Astra.",
+      "url": "https://openai.com/index/advancing-chip-design-with-our-models",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-11-18T00:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "onderzoek"
+      ],
+      "importance": 1,
+      "why_relevant": "Achtergrond over AI-capaciteiten; weinig directe relevantie voor bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "7038831a9a9100f9adbdcc5a358aed7406d84166da288eea61c8b3c6e593d548",
+      "title": "Cerebras lanceert 'disaggregated inference'",
+      "summary": "Chipbedrijf Cerebras introduceert een aanpak voor AI-inferentie waarbij het rekenwerk verdeeld wordt over aparte onderdelen. Details staan in een blogpost van het bedrijf. Het gaat om de hardware- en infrastructuurkant van het draaien van AI-modellen.",
+      "url": "https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-18T00:56:23Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 1,
+      "why_relevant": "Technisch randnieuws over AI-infrastructuur; weinig directe impact op bibliotheekwerk.",
+      "also_covered_by": []
+    },
+    {
+      "id": "67952d9a918d2536a7bf3b37b6c05ec5dc7c7c22fdf68db178458bb74b4d4f2d",
+      "title": "Binnenin de Codex-sandbox",
+      "summary": "OpenAI legt uit hoe Codex commando's op je eigen machine uitvoert, terwijl bestandssysteem- en netwerkgrenzen worden afgedwongen. Dit werkt op macOS, Linux en Windows.",
+      "url": "https://openai.com/index/inside-the-codex-sandbox",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-11-18T08:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "ethiek-en-risico"
+      ],
+      "importance": 1,
+      "why_relevant": "Technisch achtergrondbericht over veilig gebruik van codeeragenten.",
+      "also_covered_by": [
+        "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/"
+      ]
+    },
+    {
+      "id": "53d809d7420a3923e8bad7c3bd224d7d2c9da9cb37fe0d761411713f6da0b90e",
+      "title": "Hoe leiders van Sumitomo Life ChatGPT Enterprise in teams introduceerden",
+      "summary": "Het Japanse verzekeraar Sumitomo Life gebruikt ChatGPT Enterprise om verzekeraars te onderzoeken, voorstellen voor te bereiden en code voor beleggingsanalyse te schrijven. Vroeg gebruik door directieleden hielp de adoptie in de organisatie.",
+      "url": "https://openai.com/business/customer-stories/sumitomo-life",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-11-18T08:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 1,
+      "why_relevant": "Voorbeeld van succesvolle AI-invoering door leidinggevenden in een organisatie.",
+      "also_covered_by": []
+    },
+    {
+      "id": "7f2b5fe41513a1d1c5edf73a32aec20b3600c4ce7a9c9fa03fb11628be7a60ff",
+      "title": "Startup Osmo zegt dat zijn AI-neus even goed ruikt als een mens",
+      "summary": "Het Amerikaanse Osmo traint een fundamenteel model voor geur met notities van zo'n dertig menselijke ruikers, gekoppeld aan chemische analyses. Volgens de oprichter haalt het model 'menselijk niveau' en wordt het al gebruikt voor het ontwerpen van parfums. Niet iedereen gelooft dat de technologie de grotere ambities, zoals ziektedetectie, waarmaakt.",
+      "url": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
+      "source_name": "MIT Technology Review — AI",
+      "source_type": "rss",
+      "published": "2026-11-18T10:20:30+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "bedrijven"
+      ],
+      "importance": 1,
+      "why_relevant": "Curiositeit over nieuwe toepassingen van AI; weinig directe waarde voor bibliotheekwerk.",
+      "also_covered_by": [
+        "https://www.technologyreview.com/2026/11/18/1148845/the-download-ai-learns-to-smell-hydropower-struggles/"
+      ]
+    },
+    {
+      "id": "6265773ca0ae7a84ae72284a613dce87fbdb2af5cb8a8178b154478bb6618feb",
+      "title": "Spoelstra Spreekt: trein gemist",
+      "summary": "In deze column bespreekt Spoelstra de dwang tot vernieuwing in de ict, van een nieuwe telefoon tot Windows-upgrades. Hij vergelijkt de huidige AI-golf met een trein waar iedereen op wil stappen om niet achter te blijven.",
+      "url": "https://www.computable.nl/2026/11/18/spoelstra-spreekt-trein-gemist/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-11-18T12:00:00+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 1,
+      "why_relevant": "Luchtige column over de druk om mee te gaan met AI.",
+      "also_covered_by": []
+    },
+    {
+      "id": "425c3cc3f12f3ed63a15b22f4cf7ae842670645099ee26381758aff2084abdd3",
+      "title": "Call voor FARM360TECH is open",
+      "summary": "Mkb'ers uit Gelderland en Zuid-Holland kunnen tot 29 januari 2027 aanvragen doen voor maximaal € 60.000 en technische begeleiding. Het gaat om AI-toepassingen voor duurzame landbouw met een werkend prototype.",
+      "url": "https://aic4nl.nl/nieuws/call-voor-farm360tech-is-open/",
+      "source_name": "Nederlandse AI Coalitie",
+      "source_type": "rss",
+      "published": "2026-11-18T15:13:11+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "subsidie-of-financiering"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws: financiering voor agrarisch mkb, weinig directe relevantie voor bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "3ce21c9c1e9d58d844f4ada3b241e37f8de68eeebd6e5a4837f05dc54bc4dd0d",
+      "title": "Mastra Factory: open-source softwarefabriek met AI-agenten",
+      "summary": "Het team achter het open-source agentframework Mastra deelt Mastra Factory, een agentisch kanbanbord waarmee ze zelf hun software onderhouden. Vorige week voegde het systeem 238 pull requests samen, naast 630 van mensen.",
+      "url": "https://news.ycombinator.com/item?id=50548660",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-18T16:53:42Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "open-source",
+        "tools"
+      ],
+      "importance": 1,
+      "why_relevant": "Technisch nieuws over AI-agenten in softwareontwikkeling; beperkt relevant voor bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "9bcf073a13fee76fb66774618cda65ca56cbce5850563cad5182e2d23e3bc4fa",
+      "title": "Maritime: beheerde cloud voor AI-agenten in productie",
+      "summary": "Startup Maritime biedt een cloud voor AI-agenten die levenscyclusbeheer en aangepaste omgevingen regelt. Volgens de oprichters lossen sandboxes maar een deel van de infrastructuurproblemen op.",
+      "url": "https://news.ycombinator.com/item?id=50549188",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-18T17:26:28Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 1,
+      "why_relevant": "Infrastructuurnieuws voor ontwikkelaars, weinig directe impact op bibliotheekwerk.",
+      "also_covered_by": []
+    },
+    {
+      "id": "6e60ec8c10b2996b7013889d42be65cd9e3b96eb5b5c076fa264555dff76cc7d",
+      "title": "Volgende simulatiespel van Will Wright gebruikt AI om herinneringen te verwerken",
+      "summary": "Will Wright, bekend van SimCity en The Sims, werkt aan MyMems, dat volgend jaar uitkomt. Spelers voeren herinneringen in waaruit generatieve AI digitale personen maakt die samen puzzels oplossen.",
+      "url": "https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-11-18T18:10:33+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws over creatief AI-gebruik, mogelijk interessant voor gamingactiviteiten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "a0a9f753ef9249fcd9a4472aaf99f3f9d157b3f8c9255b3c1767e88ea636e977",
+      "title": "Kort: Starfort Alliance opgericht, cyberaanval treft Japans krachtigste supercomputer en meer",
+      "summary": "Dit overzicht meldt onder meer de oprichting van de Starfort Alliance voor beveiliging van vitale sectoren en de overname van AI-platformbouwer Applied Compute door Palo Alto Networks. Ook is mogelijk onderzoeksdata buitgemaakt bij een aanval op de Japanse supercomputer Fugaku.",
+      "url": "https://www.computable.nl/2026/11/19/kort-starfort-alliance-opgericht-voor-vitale-sector-cyberaanval-treft-krachtigste-supercomputer-van-japan-en-meer/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-11-19T11:15:00+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "bedrijven",
+        "ethiek-en-risico"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws over beveiliging en AI-overnames in de it-sector.",
+      "also_covered_by": []
+    }
+  ]
+}
