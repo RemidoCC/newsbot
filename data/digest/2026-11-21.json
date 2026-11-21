@@ -1,0 +1,430 @@
+{
+  "date": "2026-11-21",
+  "generated_at": "2026-11-21T13:11:53+00:00",
+  "stats": {
+    "batches": 2,
+    "onleesbaar": 0,
+    "objecten": 50,
+    "schema_fout": 0,
+    "onbekend_id": 0,
+    "gedropt": 28,
+    "geldig": 22,
+    "ai": 20,
+    "bieb": 2
+  },
+  "sources": [
+    "Ars Technica AI",
+    "Computable",
+    "Hacker News",
+    "IFLA",
+    "MIT Technology Review — AI",
+    "Nederlandse AI Coalitie",
+    "OpenAI",
+    "Simon Willison",
+    "The Verge AI",
+    "Tweakers"
+  ],
+  "items": [
+    {
+      "id": "7220e54bdf8a93f9a841b3c0788017f9eeb83f5dc45906f47668bc47b8da5d02",
+      "title": "Wiskundige claimt met Claude een bewijs van de Riemann-hypothese",
+      "summary": "Levent Alpöge zegt samen met Claude een bewijs van de Riemann-hypothese te hebben gevonden, en volgens hem werkt de methode ook voor de gegeneraliseerde variant. Het bewijs zou formeel zijn uitgewerkt, maar is nog niet onafhankelijk geverifieerd. Ravi Vakil meldt daarnaast een zonder AI geschreven voorgesteld bewijs van de gegeneraliseerde hypothese door Alessandro Masullo.",
+      "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-11-20T16:30:48+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "modellen"
+      ],
+      "importance": 4,
+      "why_relevant": "Als dit klopt, laat het zien wat AI in wetenschap kan, maar het blijft een claim.",
+      "also_covered_by": [
+        "https://simonwillison.net/2026/Nov/20/ravi-vakil/"
+      ]
+    },
+    {
+      "id": "4526cba5e8b31b825072e134049efe1a03adfbdb6961ccec5aa2b411e8e3bd57",
+      "title": "METR actualiseert bekende grafiek over hoe lange taken AI aankan",
+      "summary": "De evaluatie-organisatie METR heeft haar 'time horizon'-grafiek bijgewerkt met langere en meer open taken. Sommige AI-vaardigheden blijven exponentieel groeien, maar bij taken waar oordeelsvermogen nodig is, presteren modellen minder goed dan bij programmeren. Dat is belangrijk voor de discussie over hoe ver vooruitgang op toetsbare taken doorwerkt naar andere werk.",
+      "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+      "source_name": "MIT Technology Review — AI",
+      "source_type": "rss",
+      "published": "2026-11-20T18:15:15+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "modellen"
+      ],
+      "importance": 4,
+      "why_relevant": "Helpt om hype over AI-vooruitgang te duiden en nuchter uit te leggen aan collega's.",
+      "also_covered_by": []
+    },
+    {
+      "id": "e32cbd51ef17e568ee15aa918f61793e02a5cde665d75b8a4fed318baf243bed",
+      "title": "Beursgang Anthropic valt tegen en verdiept AI-uitverkoop op de beurs",
+      "summary": "De beursgang van Anthropic valt samen met een brede AI-uitverkoop op de aandelenmarkt. Volgens de berichtgeving wist de Nasdaq al zijn winst van 2026 uit en verdween er ongeveer 4 biljoen dollar aan waarde. Protesteerders vragen daarbij dat er geen overheidssteun komt voor een eventuele AI-zeepbel.",
+      "url": "https://www.wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-20T21:18:46Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 4,
+      "why_relevant": "Marktschommelingen kunnen invloed hebben op de AI-diensten en prijzen waar bibliotheken op rekenen.",
+      "also_covered_by": [
+        "https://www.wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90",
+        "https://www.techpolicy.press/no-bailout-for-the-ai-bubble-anthropic-ipo-protesters-say/"
+      ]
+    },
+    {
+      "id": "266efb82a5bf9057794233b5902e047379be82d7b2f970ac88de731ce51cc51c",
+      "title": "Signal wil AI-agents in mobiele besturingssystemen beperken in dataverzameling",
+      "summary": "Signal pleit in een blogpost voor het beperken van AI-agents in mobiele besturingssystemen, zodat ze geen gegevens uit apps kunnen vastleggen. Het gaat om bescherming van privacy bij AI-assistenten die op telefoons meekijken.",
+      "url": "https://signal.org/blog/protecting-your-privacy/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-20T09:42:16Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "tools"
+      ],
+      "importance": 3,
+      "why_relevant": "Privacy bij AI-assistenten op telefoons is een goed onderwerp voor digitale-geletterdheidsactiviteiten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "b97676b351ca85223bf5c221c357380a9046504c19cf1f3cbf719dae27e78134",
+      "title": "Trump dreigt met forse belasting op AI-datacenters buiten de VS",
+      "summary": "President Trump kondigde aan dat bedrijven die datacenters buiten de Verenigde Staten bouwen een zware belasting krijgen. Hij vergeleek dit met eerdere verplaatsing van chipproductie, die volgens hem het land schaadde. Tegelijk beperken Amerikaanse staten en steden juist nieuwe aanvragen voor datacenters.",
+      "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-20T13:50:19-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Geopolitiek rond AI-infrastructuur kan invloed hebben op prijzen en beschikbaarheid van AI-diensten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "dc958834a793d14dff62906fd3a94ab8120395e78b931e484639e86e4eb1a716",
+      "title": "Toezichthouders schuiven aan bij derde ronde AiNed ELSA Labs",
+      "summary": "In de derde ronde van de AiNed ELSA Labs zit bij elke use case een toezichthouder aan tafel. De labs ontwikkelen RegGuides, praktische handreikingen waarmee bedrijven sneller aan de AI-Act voldoen. Een beoordelingscommissie kiest drie voorstellen uit; voorzitter Huub Janssen licht de rol van toezicht toe.",
+      "url": "https://aic4nl.nl/nieuws/toezichthouders-schuiven-aan-bij-de-derde-ronde-elsa-labs-we-hebben-maximale-focus-op-innovatie/",
+      "source_name": "Nederlandse AI Coalitie",
+      "source_type": "rss",
+      "published": "2026-11-20T14:37:15+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "beleid-en-regelgeving",
+        "onderzoek"
+      ],
+      "importance": 3,
+      "why_relevant": "Praktische handreikingen voor de AI-Act kunnen ook voor bibliotheken bruikbaar worden.",
+      "also_covered_by": []
+    },
+    {
+      "id": "3edabf9cadff5ee928569a9018cce326f022e29449c7def3f1bd2faa8f5f7ae8",
+      "title": "Google-medewerkers: straf scholen niet die geen AI willen",
+      "summary": "Medewerkers van Google roepen hun werkgever op scholen die geen AI willen niet te benadelen. Het gaat om een petitie rond Gemini in het onderwijs. Details ontbreken in de aangeleverde tekst.",
+      "url": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-20T16:59:27Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderwijs",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Raakt de discussie over AI-keuzes in onderwijs en publieke instellingen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "f22d46a83ecd25c4b9af6d0ff25f287b78e78bcd7a1a6874250934d6587d79ee",
+      "title": "Onderzoeker toont aan dat AI-routers gevoelige gebruikersdata lekken",
+      "summary": "Onderzoeker HD Moore plantte twee miljoen digitale lokaasjes, zoals nepsleutels en unieke URL's, in prompts die via AI-routers zoals OpenRouter en Vercel gingen. Zo wilde hij zien wat er met gevoelige gegevens gebeurt in de keten van AI-diensten. Volgens het bericht lekte die keten gevoelige data als een zeef.",
+      "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-11-20T20:59:08+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Waarschuwt voor privacyrisico's bij AI-apps die bibliotheken of bezoekers gebruiken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "66eae4612900f2e7c8ef527f9fee1c6d71f284c4e498c1c6d3b99c717516629d",
+      "title": "Meta heroverweegt klimaatdoel voor 2030 door uitstoot van AI-datacenters",
+      "summary": "Meta zegt in zijn duurzaamheidsrapport 2026 de tijdlijn voor netto-nulemissies in 2030 te heroverwegen. De uitstoot steeg het sterkst van alle grote techbedrijven, doordat de vraag naar AI-infrastructuur sneller groeide dan verwacht. Google, Amazon en Microsoft houden hun vergelijkbare doelen vooralsnog aan.",
+      "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-11-20T21:47:10+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Milieukosten van AI zijn een terugkerend gesprekspunt bij publieksvragen over AI.",
+      "also_covered_by": [
+        "https://tweakers.net/nieuws/254798/datacenterbouw-kost-meta-zijn-klimaatdoel-voor-2030-tijdlijn-heroverwegen.html"
+      ]
+    },
+    {
+      "id": "ff62a6d0a83feae45bdbdd571d10f1d6ece7a9b1d524ba6843d1e8d1fc4494d4",
+      "title": "Google lanceert nieuwe zoekhomepage met AI-chatgeschiedenis en zonder zoekknop",
+      "summary": "Google zet de vernieuwde desktopstartpagina van Google.com definitief in. De zoekknop verdwijnt, en onder de zoekbalk staan knoppen voor beeldgeneratie, bestandsanalyse en brainstormen met Gemini. De \"Ik doe een gok\"-knop blijft. Zoeken verschuift daarmee verder richting AI-ervaring.",
+      "url": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-11-20T21:58:29+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Bezoekers zullen Google steeds meer als AI-chat ervaren, relevant voor informatievaardigheden.",
+      "also_covered_by": []
+    },
+    {
+      "id": "c1a2af93db54bfcf7c217cb74db83cfc0f90565b5c1b91d5871ab9ee0c953910",
+      "title": "OpenAI introduceert MedChemBench voor AI in vroege geneesmiddelenontwikkeling",
+      "summary": "OpenAI presenteert MedChemBench, een benchmark die test hoe goed AI-modellen moleculaire structuren interpreteren, uit experimentele gegevens redeneren en veelbelovende stoffen kiezen. Het gaat om de vroege fase van geneesmiddelenonderzoek.",
+      "url": "https://openai.com/index/introducing-medchembench",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-11-20T00:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "modellen"
+      ],
+      "importance": 2,
+      "why_relevant": "Illustreert hoe AI-benchmarks in specialistische wetenschap werken; beperkt direct belang voor bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "7ad44f990f0c53ef2e2a537716dcd0f4d19ea5c4fbcd3c1cf3877b1b8eae8965",
+      "title": "OpenAI beschrijft aanpak tegen 'adversarial distillation'",
+      "summary": "OpenAI presenteert een gelaagde aanpak om te voorkomen dat anderen de capaciteiten van zijn modellen onttrekken via distillatie. De aanpak combineert modeltraining, beveiligingsmaatregelen, detectie en handhaving. Het gaat om het beschermen van dure modellen tegen kopiëren.",
+      "url": "https://openai.com/index/combatting-adversarial-distillation",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-11-20T10:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Achtergrond bij de concurrentiestrijd tussen AI-bedrijven en de modellen die bibliotheken gebruiken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "9ae0bacb4dd0422d613d06b988d1e4f859a29f78cf91caa82545b88f287dcb19",
+      "title": "YouTube zou 3 miljard dollar betalen om claims over verslavend ontwerp te schikken",
+      "summary": "YouTube heeft volgens Bloomberg in principe een schikking bereikt van 3 miljard dollar met Amerikaanse schooldistricten. Die beschuldigen het platform ervan dat het verslavende ontwerp de mentale gezondheid van jongeren schaadt. De deal zou ook extra waarborgen voor tieners omvatten en voorkomt een reeks rechtszaken.",
+      "url": "https://www.theverge.com/streaming/1039096/youtube-social-media-addiction-school-districts-settlement",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-20T15:43:52-05:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 2,
+      "why_relevant": "Raakt aan mediawijsheid en de online risico's voor jongeren die bibliotheken begeleiden.",
+      "also_covered_by": []
+    },
+    {
+      "id": "347dc2246be9ea65b4b567190353fdc045bec4a3b813ead43177d183bda03410",
+      "title": "Ubisoft start AI-bedrijf Motherbrain en ontslaat 166 ontwikkelaars",
+      "summary": "Ubisoft richt dochterbedrijf Motherbrain op voor AI-oplossingen voor gameplay, ook voor gamemakers buiten Ubisoft. Tegelijk verliezen 166 medewerkers van Canadese studio's hun baan.",
+      "url": "https://tweakers.net/nieuws/254768/ubisoft-start-bedrijf-voor-ai-gameplayinnovatie-en-ontslaat-166-ontwikkelaars.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-11-20T15:49:00+01:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "bedrijven",
+        "arbeidsmarkt"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van AI-inzet naast ontslagen, relevant voor gesprekken over werk en AI.",
+      "also_covered_by": []
+    },
+    {
+      "id": "563f22ba7b4cf575e0fd1f55245c0377bdbc15827c6d00f0f095edcbcc7fae17",
+      "title": "Voor Red Bull is compute ook een tco-race",
+      "summary": "Martin Galpin, hoofd Software Engineering bij Oracle Red Bull Racing, legt uit dat kostenbeheersing in de Formule 1 de grootste uitdaging is geworden. Binnen het budgetplafond moet zijn team, dat werkt aan simulaties, machine learning en data-analyse, steeds scherper kiezen waar het rekenkracht aan besteedt.",
+      "url": "https://www.computable.nl/2026/11/20/voor-red-bull-is-compute-ook-een-tco-race/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-11-20T16:00:00+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont hoe kosten van rekenkracht ook bij AI-toepassingen keuzes bepalen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "eecdc918ec2546301844a0c2fd031c0be8d750385f69d97e208b709dd1fc4f8f",
+      "title": "Experiment: AI geeft iedereen hetzelfde advies",
+      "summary": "Een online experiment laat zien dat AI-assistenten gebruikers vaak min of meer hetzelfde advies geven. Dat roept vragen op over gelijkvormigheid en de rol van AI bij beslissingen. Verdere details ontbreken in de aangeleverde tekst.",
+      "url": "https://a90.com/experiments/same-advice/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-20T16:58:05Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Handig voorbeeld bij workshops over kritisch omgaan met AI-antwoorden.",
+      "also_covered_by": []
+    },
+    {
+      "id": "bd3614c30b5d6b837c23fd079674b78298aa688a9dd2bb0c86ebfb91b9b4018b",
+      "title": "Thinking Machines brengt Inkling 2 Mini uit",
+      "summary": "Thinking Machines heeft een model met de naam Inkling 2 Mini aangekondigd, dat ook op Hugging Face wordt besproken. Details zijn in de aangeleverde tekst niet beschikbaar.",
+      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-20T20:12:19Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen"
+      ],
+      "importance": 2,
+      "why_relevant": "Nieuw compact model; mogelijk interessant voor wie met kleinere of lokale modellen experimenteert.",
+      "also_covered_by": [
+        "https://huggingface.co/blog/inkling2mini"
+      ]
+    },
+    {
+      "id": "2f01e6ca6211f5a6fb1a4d6376f4853cd66f251e5f36147ea81a5c537897380b",
+      "title": "Artiesten keren Etsy de rug toe nu platform AI-modellen gaat trainen",
+      "summary": "Veel makers verlaten Etsy omdat het platform hun kunst en content gaat gebruiken om AI-modellen te trainen. Etsy paste onlangs de algemene voorwaarden aan, kort nadat het besloot AI-content op het platform aan te pakken.",
+      "url": "https://tweakers.net/nieuws/254790/artiesten-keren-etsy-de-rug-toe-nu-het-platform-ai-modellen-gaat-trainen.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-11-20T21:07:10+01:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "ethiek-en-risico",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Raakt auteursrecht en AI-training, een vraag die ook bibliotheekbezoekers stellen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "c9b6b48ade539e07a00f5f34be1a59d10d9d5ff84e64914b2361e97616f0cb6a",
+      "title": "IFLA-sectie voor overheidsbibliotheken vergadert over nieuwe richtlijnen en WLIC 2027",
+      "summary": "De IFLA-sectie voor overheidsbibliotheken (GOVLIB) vergaderde online op 12 november 2026. De commissie koos een nieuwe titel en een bredere definitie voor de herziene richtlijnen, en de eerste hoofdstukken worden geschreven. Ook kwamen de nieuwsbrief van januari 2027, een sectiegeschiedenis van 1927 tot 2026 en de voorbereiding van WLIC 2027 in Londen aan bod.",
+      "url": "https://www.ifla.org/news/ifla-govlib-sc-november-meeting/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-11-21T08:09:52+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "bibliotheek",
+        "evenement"
+      ],
+      "importance": 2,
+      "why_relevant": "Internationale ontwikkelingen rond bibliotheekrichtlijnen en het IFLA-congres van 2027 in Londen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "6a27c4ad2fc94f282af89acb1811ae5953f49c373c63dffb3bc0a57e40bc2533",
+      "title": "Epic Games zet AI-codering in voor Unreal Engine",
+      "summary": "Volgens IEEE Spectrum zet Epic Games AI-ondersteunde codering in voor de Unreal Engine. Details ontbreken in de aangeleverde tekst.",
+      "url": "https://spectrum.ieee.org/epic-games-unreal-engine-ai",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-20T12:16:36Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws over AI-codering in de gamesector.",
+      "also_covered_by": []
+    },
+    {
+      "id": "4dabcf06fd3f935d02ebb453896cab354032b958b34bf593ffb8ca5f8835ff36",
+      "title": "Google zet Google Assistant op slimme speakers volgend jaar uit",
+      "summary": "Google stopt in 2027 met de Nest-app en haalt Google Assistant van zijn slimme thuisapparaten. Gebruikers moeten uiterlijk 25 januari 2027 overstappen op de Google Home-app, waar apparaten en camerabeelden automatisch naartoe worden verplaatst.",
+      "url": "https://www.theverge.com/tech/1038834/google-assistant-smart-speakers-nest-app-killed-shut-down",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-20T13:00:00-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws over spraakassistenten die bezoekers thuis gebruiken en soms in de bieb tegenkomen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "4fd24093a1461ec17bf7342381906436aad8f1e3f8d2373ea3f758b178e43e9d",
+      "title": "ClawDOS: een AI-codeeragent voor DOS",
+      "summary": "Een hobbyproject toont een AI-codeeragent die op DOS draait. Het is vooral een technische curiositeit zonder breder effect.",
+      "url": "http://ricapar.net/ClawDOS/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-21T05:38:01Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws; laat zien hoe breed AI-agents zich verspreiden.",
+      "also_covered_by": []
+    }
+  ]
+}
