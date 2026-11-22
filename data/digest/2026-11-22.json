@@ -1,0 +1,187 @@
+{
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22T12:58:08+00:00",
+  "stats": {
+    "batches": 1,
+    "onleesbaar": 0,
+    "objecten": 23,
+    "schema_fout": 0,
+    "onbekend_id": 0,
+    "gedropt": 14,
+    "geldig": 9,
+    "ai": 7,
+    "bieb": 2
+  },
+  "sources": [
+    "IFLA",
+    "Infodocket",
+    "Simon Willison",
+    "The Verge AI",
+    "Tweakers",
+    "VentureBeat AI"
+  ],
+  "items": [
+    {
+      "id": "1f295a1dfde81cb94b773100e1a743c35bfe30e1a334cc5b04592071f57c6a5e",
+      "title": "Amazon: AI-agents van aanvallers vonden en misbruikten zero-day in 11 minuten",
+      "summary": "Volgens Amazon ontdekten AI-agents van aanvallers zelfstandig een kwetsbaarheid in MONAI Label, een open-source AI-toepassing voor medische beelden. Binnen ongeveer elf minuten schreven ze bestanden buiten de bedoelde map. De fix staat in de broncode, maar er is nog geen gepatchte release.",
+      "url": "https://venturebeat.com/security/amazon-says-attackers-ai-agents-found-and-exploited-a-zero-day-in-11-minutes-but-no-patched-release-is-available",
+      "source_name": "VentureBeat AI",
+      "source_type": "rss",
+      "published": "2026-11-21T00:50:11+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "open-source"
+      ],
+      "importance": 3,
+      "why_relevant": "Illustreert hoe snel AI-agents kwetsbaarheden vinden, ook in open-source software die instellingen gebruiken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "a9e4add386cc7d600c5a541cc037697899c6aa17d4bd82ea3be608cd78a0b9ef",
+      "title": "Kan Anthropic veiligheid voorop blijven stellen?",
+      "summary": "In een podcast bespreken twee Verge-journalisten de beursgang van Anthropic op de Nasdaq. Ze kijken naar de spanning tussen het veiligheidsimago, de bijzondere bedrijfsstructuur en de druk van aandeelhouders en enorme rekenkosten. Ook komt aan bod waarom OpenAI Anthropic voor lijkt te laten gaan.",
+      "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-21T10:00:00-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Beursdruk bij een grote modelaanbieder kan invloed hebben op veiligheidskeuzes in tools die bibliotheken gebruiken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "63572d439b3442672f757293f613055e27d437f6e69e736e968caa2616b368f5",
+      "title": "VN komt niet tot regels voor autonome wapens",
+      "summary": "Tijdens overleg in Genève bleven VN-diplomaten steken in een compromis om opties te gaan bespreken, terwijl het Rode Kruis binnen een jaar bindende regels wilde. Dat verzoek werd gesteund door de VN-secretaris-generaal en de paus. Een afspraak over autonome wapens blijft daarmee uit.",
+      "url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-21T15:03:37-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Toont hoe traag internationale regelgeving voor risicovolle AI-toepassingen tot stand komt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "525d7df433463ecc30e9974601b3455669e6bbce5c9825e8ac99cab7f6056d85",
+      "title": "Meer leesmateriaal voor de AI maakte antwoorden van T-Mobile slechter",
+      "summary": "T-Mobile gaf zijn AI-klantenservice toegang tot veel ondersteuningsdocumentatie, maar tegenstrijdige instructies leidden de agents naar verkeerde antwoorden. Een daaropvolgende kennisgraaf was te traag en te lastig te doorzoeken, aldus CIO Jeff Simon. De les is dat meer context niet automatisch betere resultaten geeft.",
+      "url": "https://venturebeat.com/orchestration/giving-its-ai-more-to-read-made-t-mobiles-answers-worse",
+      "source_name": "VentureBeat AI",
+      "source_type": "rss",
+      "published": "2026-11-20T21:51:46+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Praktische les voor wie chatbots op bibliotheekdocumentatie of catalogus wil loslaten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "016de701e65628bafd920f82c983088bd54ca733f4964aceb911e0809fedb727",
+      "title": "Biodiversity Heritage Library maakt eeuwen aan biodiversiteitskennis toegankelijk",
+      "summary": "De Biodiversity Heritage Library is het grootste open digitale archief voor biodiversiteitsliteratuur, met meer dan 64 miljoen pagina's. Tijdens een webinar op 17 november lichtte de directeur toe hoe taxonomische naamherkenning, API's en DOI's de collectie vindbaar en bruikbaar maken voor onderzoek en natuurbehoud. Het laat zien hoe een bibliotheekconsortium erfgoed omzet in open data.",
+      "url": "https://www.ifla.org/news/the-biodiversity-heritage-library-unlocks-centuries-of-biodiversity-knowledge/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-11-21T16:57:00+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "bibliotheek",
+        "onderzoek"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van open, goed ontsloten digitale collecties met APIs en persistente identifiers.",
+      "also_covered_by": []
+    },
+    {
+      "id": "45c60a2884b3c2ee100a482867541598717203f1a06c3028d6ddf8c15b5a8888",
+      "title": "Universiteit van Richmond lanceert DataReel, een AI-tool voor filmonderzoek",
+      "summary": "Het Distant Viewing Lab van de University of Richmond heeft DataReel uitgebracht, een open toegankelijke tool die met AI-modellen gegevens haalt uit ruim 2.000 films. Onderzoekers zien daarin bijvoorbeeld shotlengte, kadrering en de verhouding tussen spraak en muziek. Het project is gefinancierd door Schmidt Sciences en helpt wetenschappers patronen in bewegend beeld te analyseren.",
+      "url": "https://www.infodocket.com/2026/11/21/research-tools-university-of-richmond-distant-viewing-lab-releases-datareel-a-new-ai-tool-for-film-research/",
+      "source_name": "Infodocket",
+      "source_type": "rss",
+      "published": "2026-11-21T17:48:12+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "tools",
+        "onderzoek"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat zien hoe AI audiovisuele collecties doorzoekbaar en analyseerbaar kan maken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "76e5464eca2a5a7bb2cd00748ff4ee6efef09e47706eebbfd084b41707f05d77",
+      "title": "Zelfs de snelste AI-clusters worden vertraagd door hun uitrolprocessen",
+      "summary": "De auteur beschrijft een firmware-uitrol over meerdere zones die na zes dagen automatisch stopte, omdat te veel servers onverwacht herstartten. De automatisering bevroor de uitrol en riep een mens erbij. Het stuk laat zien dat de manier waarop updates worden uitgerold een knelpunt kan zijn voor AI-infrastructuur.",
+      "url": "https://venturebeat.com/orchestration/even-the-fastest-ai-clusters-can-be-held-back-by-their-release-pipelines",
+      "source_name": "VentureBeat AI",
+      "source_type": "rss",
+      "published": "2026-11-21T22:30:40+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 1,
+      "why_relevant": "Technisch infrastructuurverhaal, nauwelijks relevant voor bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "aaa55aaf598950923826598344d69b7cb6cea73bf924c87d342a64c181b6202f",
+      "title": "Muru: nieuwe, met AI ontwikkelde Rust-server voor Python-webapplicaties",
+      "summary": "Graham Dumpleton, die twintig jaar geleden mod_wsgi startte, bouwt met hulp van AI een nieuwe Rust-server voor WSGI- en ASGI-apps. Hij beschrijft het ontwikkelproces in detail in een reeks blogposts van de afgelopen drie weken. Vooral zijn bijdrage over AI als levensstijlkeuze is volgens Simon Willison de moeite waard.",
+      "url": "https://simonwillison.net/2026/Nov/21/muru/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-11-21T23:56:28+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "open-source"
+      ],
+      "importance": 1,
+      "why_relevant": "Technisch nieuws over softwareontwikkeling met AI, weinig direct nut voor bibliotheekwerk.",
+      "also_covered_by": []
+    },
+    {
+      "id": "63c81a90ad181e28adf4f9ef9af62ef672ecb0e6a17e84bda2fd54df9a11c92d",
+      "title": "Tesla FSD krijgt realistischere visualisatie, maar nog niet in Europa",
+      "summary": "Met versie 15 van Full Self-Driving krijgt Tesla een nieuwe weergave van wat de software ziet en hoe de auto reageert. De beelden zijn volgens gebruikers vergelijkbaar met GTA VI en worden met generatieve AI gemaakt. Wanneer V15 in Europa beschikbaar komt, is onbekend.",
+      "url": "https://tweakers.net/nieuws/254810/tesla-fsd-krijgt-gta-vi-achtige-visualisatie-maar-nog-niet-in-europa.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-11-22T11:47:06+01:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws over AI in auto's, zonder directe link met bibliotheekdiensten.",
+      "also_covered_by": []
+    }
+  ]
+}
