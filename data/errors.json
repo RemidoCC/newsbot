@@ -1,12 +1,5 @@
 [
   {
-    "ts": "2026-11-09T13:29:38+00:00",
-    "source": "Emerce",
-    "stage": "collect",
-    "error": "ValueError: HTTP 200 maar 0 items (content-type: text/html)",
-    "url": "https://www.emerce.nl/nieuws/rss"
-  },
-  {
     "ts": "2026-11-10T13:08:52+00:00",
     "source": "Emerce",
     "stage": "collect",
@@ -450,5 +443,72 @@
     "stage": "collect",
     "error": "ValueError: HTTP 200 maar 0 items (content-type: text/html)",
     "url": "https://www.emerce.nl/nieuws/rss"
+  },
+  {
+    "ts": "2026-11-23T15:33:10+00:00",
+    "source": "Emerce",
+    "stage": "collect",
+    "error": "ValueError: HTTP 200 maar 0 items (content-type: text/html)",
+    "url": "https://www.emerce.nl/nieuws/rss"
+  },
+  {
+    "ts": "2026-11-23T15:35:38+00:00",
+    "source": "enriched_02.json",
+    "stage": "validate_schema",
+    "error": "6d16168126ca: [] should be non-empty"
+  },
+  {
+    "ts": "2026-11-23T15:35:38+00:00",
+    "source": "enriched_02.json",
+    "stage": "validate_schema",
+    "error": "4b184e3afe64: [] should be non-empty"
+  },
+  {
+    "ts": "2026-11-23T15:35:38+00:00",
+    "source": "enriched_02.json",
+    "stage": "validate_schema",
+    "error": "ffbcf21f1463: [] should be non-empty"
+  },
+  {
+    "ts": "2026-11-23T15:35:38+00:00",
+    "source": "enriched_02.json",
+    "stage": "validate_schema",
+    "error": "4c1db5ff3ea0: [] should be non-empty"
+  },
+  {
+    "ts": "2026-11-23T15:35:38+00:00",
+    "source": "enriched_02.json",
+    "stage": "validate_schema",
+    "error": "bafcfceab21f: [] should be non-empty"
+  },
+  {
+    "ts": "2026-11-23T15:35:39+00:00",
+    "source": "enriched_02.json",
+    "stage": "validate_schema",
+    "error": "6d16168126ca: [] should be non-empty"
+  },
+  {
+    "ts": "2026-11-23T15:35:39+00:00",
+    "source": "enriched_02.json",
+    "stage": "validate_schema",
+    "error": "4b184e3afe64: [] should be non-empty"
+  },
+  {
+    "ts": "2026-11-23T15:35:39+00:00",
+    "source": "enriched_02.json",
+    "stage": "validate_schema",
+    "error": "ffbcf21f1463: [] should be non-empty"
+  },
+  {
+    "ts": "2026-11-23T15:35:39+00:00",
+    "source": "enriched_02.json",
+    "stage": "validate_schema",
+    "error": "4c1db5ff3ea0: [] should be non-empty"
+  },
+  {
+    "ts": "2026-11-23T15:35:39+00:00",
+    "source": "enriched_02.json",
+    "stage": "validate_schema",
+    "error": "bafcfceab21f: [] should be non-empty"
   }
 ]

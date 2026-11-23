@@ -1,0 +1,482 @@
+{
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T15:35:39+00:00",
+  "stats": {
+    "batches": 2,
+    "onleesbaar": 0,
+    "objecten": 54,
+    "schema_fout": 5,
+    "onbekend_id": 0,
+    "gedropt": 24,
+    "geldig": 25,
+    "ai": 20,
+    "bieb": 5
+  },
+  "sources": [
+    "Ars Technica AI",
+    "Bibliotheeknetwerk (KB)",
+    "Computable",
+    "Hacker News",
+    "Hugging Face",
+    "IFLA",
+    "Infodocket",
+    "MIT Technology Review — AI",
+    "OpenAI",
+    "Probiblio",
+    "Rijnbrink",
+    "TLDR AI",
+    "The Verge AI",
+    "Tweakers",
+    "VentureBeat AI"
+  ],
+  "items": [
+    {
+      "id": "80aace76c41d9327df6af39ab5b90444e12ef800aa029c3c55c30729c65bbb70",
+      "title": "Bedrijven massaal aan de AI, maar baanbrekende innovatie blijft achter",
+      "summary": "Volgens de Nederlandse Innovatie Monitor 2026 van de UvA en SEO gebruikt bijna negen op de tien Nederlandse bedrijven AI, vooral voor tekstgeneratie en kantoorwerk. Echt nieuwe producten en diensten ontstaan er nauwelijks door. Sectoren verschillen sterk in AI-volwassenheid, en bedrijven met hun data op orde profiteren het meest.",
+      "url": "https://www.computable.nl/2026/11/23/bedrijven-massaal-aan-ai-maar-baanbrekende-innovatie-blijft-achter/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-11-23T06:00:00+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "onderzoek",
+        "bedrijven"
+      ],
+      "importance": 4,
+      "why_relevant": "Geeft recente Nederlandse cijfers over AI-gebruik, nuttig voor visie en advies.",
+      "also_covered_by": []
+    },
+    {
+      "id": "85bbced93ef670ce80bec1876b2b3f9a35d33adef86b847db35539c50ee4a283",
+      "title": "Google schrapt zoekknop ten gunste van AI-knoppen in zoekmachine",
+      "summary": "Google haalt de knop 'Google Zoeken' van de desktophomepage en toont drie knoppen die AI-functies aanroepen. Sommige Nederlandse gebruikers zien dit al. Zoeken blijft mogelijk met de entertoets.",
+      "url": "https://tweakers.net/nieuws/254828/google-schrapt-zoekknop-ten-gunste-van-ai-knoppen-in-zoekmachine.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-11-23T11:29:04+01:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 4,
+      "why_relevant": "Verandert hoe bezoekers zoeken en vraagt om aandacht in zoekvaardigheidscursussen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "498a39152bfcad9ea274090c64b318eca6c55e81ea21b231124aff7da37d8833",
+      "title": "Anthropic-onderzoeker claimt met AI bewijs voor de Riemann-hypothese",
+      "summary": "Een onderzoeker bij Anthropic zegt samen met AI een bewijs van de Riemann-hypothese te hebben gevonden. Het bewijs zou door software voor bewijscontrole zijn geaccepteerd. Onafhankelijke bevestiging door wiskundigen moet nog blijken.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/9ni74v6yyydjjvut8msk6ygfshltk5k4hnhyqb5v.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-11-23T11:58:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "modellen"
+      ],
+      "importance": 4,
+      "why_relevant": "Als dit klopt, is dit een mijlpaal voor AI in wetenschappelijk onderzoek.",
+      "also_covered_by": []
+    },
+    {
+      "id": "fd3c28082fd1990b554e1569be90850d8f57ce67e9a857663eb03a895b3627c5",
+      "title": "Laatste ronde verkorte programmeringsregeling",
+      "summary": "Bibliotheken kunnen tot uiterlijk 1 maart 2027 financiering aanvragen voor programmering rond digitaal burgerschap, zoals AI, desinformatie en cyberweerbaarheid. Dit is de laatste ronde van de verkorte programmeringsregeling.",
+      "url": "https://www.bibliotheeknetwerk.nl/nieuws/laatste-ronde-verkorte-programmeringsregeling",
+      "source_name": "Bibliotheeknetwerk (KB)",
+      "source_type": "rss",
+      "published": "2026-11-23T12:02:37+01:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "subsidie-of-financiering",
+        "digitale-geletterdheid",
+        "bibliotheek"
+      ],
+      "importance": 4,
+      "why_relevant": "Laatste kans op financiering voor AI- en mediawijsheidsprogramma's in jouw bibliotheek.",
+      "also_covered_by": []
+    },
+    {
+      "id": "2134cd70653fee36cc52c80ad6778d54ca72f944bc15efb415b1a4a0d6d516f1",
+      "title": "VN-gesprekken over regulering van autonome wapens mislukt",
+      "summary": "Internationale gesprekken bij de VN over het beperken van autonome wapens zijn vastgelopen, meldt The Guardian. Daarmee blijft internationale regelgeving voor militaire AI voorlopig uit.",
+      "url": "https://www.theguardian.com/technology/2026/nov/21/international-talks-control-ai-autonomous-weapons-collapse",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-21T23:10:21Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Toont de beperkte internationale grip op risicovolle AI-toepassingen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "c2e7901c2a580593f0d580c0f6f557bc762eea6ec2a56c31d79f66a139b4f791",
+      "title": "Proceedings van de ALISE-conferentie 2026 online beschikbaar",
+      "summary": "De papers van de jaarlijkse conferentie van de Association for Library and Information Science Education zijn online verschenen, met 41 juryleden-papers. Daaronder staan onder meer een enquête over de ervaringen van Noord-Amerikaanse bibliothecarissen met AI en een multi-agent AI-systeem voor reflectie na colleges.",
+      "url": "https://www.infodocket.com/2026/11/22/proceedings-of-the-association-for-library-and-information-science-education-alise-annual-conference-2026-now-available-online/",
+      "source_name": "Infodocket",
+      "source_type": "rss",
+      "published": "2026-11-22T16:08:53+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "bibliotheek",
+        "onderwijs"
+      ],
+      "importance": 3,
+      "why_relevant": "Bevat onderzoek naar hoe bibliothecarissen AI ervaren en inzetten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "adcaaf00f7b6fbe24ad676d8f1563fcb3cb6338e627ab19cd0489d943a3be787",
+      "title": "POLARIS maakt bibliotheken medeontwikkelaars van de Europese erfgoedcloud",
+      "summary": "Het Horizon Europe-project POLARIS is in Athene van start gegaan en loopt 30 maanden. Bibliotheken worden testomgeving en partner van de European Collaborative Cloud for Cultural Heritage, met drie vlaggenschippilots en bredere tests bij kleinere bibliotheken. Veel openbare bibliotheken missen nu nog de middelen om aan te sluiten.",
+      "url": "https://www.ifla.org/news/polaris-makes-libraries-co-creators-of-europes-heritage-cloud/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-11-23T07:11:55+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "bibliotheek",
+        "onderzoek"
+      ],
+      "importance": 3,
+      "why_relevant": "Europees project dat de digitale capaciteit van openbare bibliotheken wil versterken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "dfb78d326a45dfffb2b832ff731b52767703955bdd3135bddb599bb35fb7ce7f",
+      "title": "AI-agents laten opvallend veel sporen na bij cyberaanvallen",
+      "summary": "Volgens Northwave-directeur Pim Takkenberg gebruiken cybercriminelen steeds vaker AI om aanvallen te versnellen en op te schalen. Juist die AI-agents laten soms meer sporen achter dan menselijke aanvallers, wat kansen biedt voor verdedigers. Hij waarschuwt ook voor deepfakes en incidenten door ongecontroleerd AI-gebruik binnen organisaties.",
+      "url": "https://www.computable.nl/2026/11/23/ai-agents-laten-opvallend-veel-sporen-na-bij-cyberaanval/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-11-23T12:03:00+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "ethiek-en-risico",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Helpt bij het inschatten van deepfake- en beveiligingsrisico's, ook voor bibliotheekklanten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "e7128cbf335eda7ef7fecdb1026f171a4085ebef2ab16fd6d00fe896ef664d76",
+      "title": "Slimmer digitaal werken: ervaringen uit de praktijk",
+      "summary": "Rijnbrink ontwikkelde samen met Arlande een aanpak voor een Digitale Strategie voor bibliotheken en multifunctionele culturele organisaties. Een pilot bij CODA, Bibliotheek Deventer en Kunstwerk! leverde inzichten op over onsamenhangende processen en onduidelijke verantwoordelijkheid voor digitalisering.",
+      "url": "https://www.rijnbrink.nl/actueel/nieuws/slimmer-digitaal-werken-ervaringen-uit-de-praktijk/",
+      "source_name": "Rijnbrink",
+      "source_type": "rss",
+      "published": "2026-11-23T12:42:26+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek"
+      ],
+      "importance": 3,
+      "why_relevant": "Praktische aanpak om digitalisering, ook van AI, in je bibliotheek te organiseren.",
+      "also_covered_by": []
+    },
+    {
+      "id": "0dda999f635fda763bc3f8822ba0f72c4d12784b205c5c34ddb8c2c1068574f6",
+      "title": "The Download: het oordeelsvermogen van AI en de gevolgen van gesteente voor gewassen",
+      "summary": "Evaluatie-organisatie METR heeft zijn bekende tijdshorizon-grafiek aangevuld met meer open taken, zoals het ontwerpen van AI-evaluaties en het beoordelen van filosofische argumenten. Modellen presteren daarop duidelijk slechter dan op codeertaken. Dat is van belang voor de vraag hoe snel onderzoek en ontwikkeling te automatiseren valt.",
+      "url": "https://www.technologyreview.com/2026/11/23/1149548/the-download-ai-judgment-problem-carbon-removal-crop-threat/",
+      "source_name": "MIT Technology Review — AI",
+      "source_type": "rss",
+      "published": "2026-11-23T13:10:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "modellen"
+      ],
+      "importance": 3,
+      "why_relevant": "Laat zien waar AI nog tekortschiet, nuttig voor realistische verwachtingen in de bibliotheek.",
+      "also_covered_by": []
+    },
+    {
+      "id": "27a6b6af092d6a67400e584e0246a6103f5274308401e78c032d5b5f9caadedb",
+      "title": "Huang terug als ceo van Nvidia na onderzoek naar veiligheidsrisico's",
+      "summary": "De raad van bestuur van Nvidia heeft Jensen Huang met onmiddellijke ingang herbenoemd tot ceo en bestuursvoorzitter, kort na zijn vertrek. De raad verwijst naar overleg met de Amerikaanse overheid, die geen risico voor de nationale veiligheid zou zien. Het onderzoek loopt door en er komt een aparte commissie voor exportregels en veiligheid.",
+      "url": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-11-23T14:10:18+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Leiderschap bij de belangrijkste AI-chipmaker beïnvloedt de hele AI-sector.",
+      "also_covered_by": [
+        "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/"
+      ]
+    },
+    {
+      "id": "1a10f1676d46fc01a909d8eab6d17033b89331ee5fd1f1e04952fc2f6f54665c",
+      "title": "Perplexity en intelligentie",
+      "summary": "OpenAI legt uit hoe perplexity vooruitgang van AI-modellen meet. Het bedrijf suggereert dat dit ontwikkelaars kan helpen om een gezamenlijke aanpak te vinden voor het evalueren van nieuwe capaciteiten.",
+      "url": "https://openai.com/index/perplexity-and-intelligence",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-11-22T00:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "onderzoek"
+      ],
+      "importance": 2,
+      "why_relevant": "Achtergrond over hoe modelprestaties worden gemeten en vergeleken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "16636a52f663641b8a3b183b23344a070c6151f19377319879af74c20b129258",
+      "title": "AI wordt een ramp voor het klimaat",
+      "summary": "Blood in the Machine betoogt dat de klimaatimpact van AI snel groeit. Het stuk sluit aan bij de discussie over het energiegebruik van datacenters.",
+      "url": "https://www.bloodinthemachine.com/p/ai-is-becoming-a-disaster-for-the",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-22T12:19:46Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Duurzaamheid van AI is een vraag die bezoekers en collega's stellen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "c75d02646488f49475fa614d9e5d62bf5390d050eea2a647213b599ea676eaeb",
+      "title": "Beginnersgids voor lokale AI met Inkling, Qwen en Unsloth",
+      "summary": "Een gids van GPU Partner legt uit hoe beginners AI-modellen lokaal kunnen draaien met onder meer Inkling, Qwen en Unsloth.",
+      "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-22T21:01:16Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "open-source"
+      ],
+      "importance": 2,
+      "why_relevant": "Praktische ingang om lokale AI uit te proberen, bijvoorbeeld in workshops.",
+      "also_covered_by": []
+    },
+    {
+      "id": "00d52199bef25f9eda98fa79c30b3c80d4e34af93f50b3c1b0911b599d05708b",
+      "title": "Hoe bouw en onderhoud je een evaluatie voor AI-agents",
+      "summary": "Hugging Face publiceert een gids over het opzetten en bijhouden van evaluaties voor agentische AI-systemen. Het gaat om het meten van wat agents daadwerkelijk kunnen.",
+      "url": "https://huggingface.co/blog/agentic-evals",
+      "source_name": "Hugging Face",
+      "source_type": "rss",
+      "published": "2026-11-23T00:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "onderzoek"
+      ],
+      "importance": 2,
+      "why_relevant": "Helpt bij het kritisch beoordelen van claims over AI-agents.",
+      "also_covered_by": []
+    },
+    {
+      "id": "87b4172283b6aa3e753c8fc0fa1924df14e40dd8f0022d13d06c62cd287b8eca",
+      "title": "Meta Muse kan je Black Friday-aankopen bij Walmart doen",
+      "summary": "Walmart laat de AI-agent Muse van Meta namens klanten aanbiedingen zoeken en kopen via de AI-assistent Sparky. Klanten krijgen een eigen agentprofiel waarin ze bestbestedingslimieten instellen, aankopen goedkeuren en de aankoopgeschiedenis bekijken. Het is een concreet voorbeeld van agents die zelfstandig winkelen.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-23T06:00:00-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont hoe AI-agents kopen namens burgers, relevant voor digitale weerbaarheid.",
+      "also_covered_by": []
+    },
+    {
+      "id": "9e09943d12be6455e89b977739a7a37cf2c7c26e50c6b3fe9694aa868be5f7f1",
+      "title": "Imec opent r&d-centrum in Finland en start team in Japan",
+      "summary": "Het Belgische onderzoekscentrum Imec opent een r&d-centrum in Espoo en bouwt een team op in Hokkaido, Japan. Beide initiatieven richten zich op fotonica, die datastromen van AI-systemen efficiënter moet verwerken. Het Japanse team moet binnen vijf jaar groeien tot ongeveer vijftien onderzoekers.",
+      "url": "https://www.computable.nl/2026/11/23/imec-opent-rd-centrum-in-finland-en-zet-ook-voet-aan-wal-in-japan/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-11-23T08:19:51+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "onderzoek",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Vlaams onderzoek naar AI-hardware, interessant als achtergrond bij infrastructuur.",
+      "also_covered_by": []
+    },
+    {
+      "id": "f5ed0c169a43486b3b20fe15f8fd0ba786dc260990b7aa391f5046f7bcae8c77",
+      "title": "Jensen Huang keert terug als topman van Nvidia",
+      "summary": "Het bestuur van Nvidia heeft Jensen Huang unaniem opnieuw benoemd als CEO, na gesprekken over zijn openheid en leiderschap. Het bestuur zegt ook input uit hoge regeringskringen in de VS te hebben gekregen en ziet geen risico voor de nationale veiligheid. Het besluit raakt de leider van de belangrijkste leverancier van AI-chips.",
+      "url": "https://www.theverge.com/tech/1039937/nvidia-ceo-jensen-huang-reinstated",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-23T09:04:24-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 2,
+      "why_relevant": "Context over de machtspositie en politieke gevoeligheid van de grootste AI-chipmaker.",
+      "also_covered_by": []
+    },
+    {
+      "id": "f1db7ce98881d89015978e36136156bff2ae870452275174795039e0388b1ed2",
+      "title": "GLM-5.4: de eerste loop transformer van Z.ai voor algemener programmeren",
+      "summary": "Z.ai kondigt GLM-5.4 aan, naar eigen zeggen het eerste model met een loop transformer-architectuur, gericht op algemener coderen. Meer details staan in de blogpost van het bedrijf.",
+      "url": "https://z.ai/blog/glm-5.4",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-23T10:06:43Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen"
+      ],
+      "importance": 2,
+      "why_relevant": "Nieuw model uit China, relevant om de modelmarkt te blijven volgen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "c3079baa07ae12d88dd7cd13babf98544e65ea671825b21efde6d209a655ab77",
+      "title": "Recensie: Asus ProArt P16 geeft een voorproefje van lokale AI",
+      "summary": "De Asus ProArt P16 met Nvidia's nieuwe RTX Spark-chip biedt tot 128 GB geheugen om AI-modellen lokaal te draaien. De topversie kost zo'n 7.000 dollar en lokale AI vergt volgens de recensent nog veel uitproberen.",
+      "url": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-11-23T12:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat zien hoe haalbaar lokale AI op eigen hardware inmiddels is.",
+      "also_covered_by": []
+    },
+    {
+      "id": "edc338af803c691f47adde61c59550feb225134666559b9ad36f4c258f649760",
+      "title": "Kort: AI-tokens zetten ict onder druk, kritieke lekken in F5 Big-IP en meer",
+      "summary": "Dit nieuwsoverzicht meldt onder meer dat volgens Sandisk de wereldwijde productie van AI-tokens kan groeien van circa 5 miljard per seconde in 2026 naar 317 miljard in 2030. Dat vraagt veel meer rekenkracht en opslag. Verder gaat het over kritieke kwetsbaarheden in F5 BIG-IP en een beheerlaag van SoftwareOne voor Claude binnen AWS.",
+      "url": "https://www.computable.nl/2026/11/23/kort-ai-tokens-zetten-ict-onder-druk-kritieke-lekken-in-f5-big-ip-en-meer/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-11-23T12:02:49+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Geeft een korte indruk van de groeiende infrastructuurvraag achter AI-diensten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "949f5ce24876bb9d7ce25d33edb3aa991224ba6ee1b0e371763c67c363ea0a04",
+      "title": "Amodei opperde naar verluidt games om massa's te kalmeren na baanverlies door AI (2015)",
+      "summary": "The Verge bericht dat Dario Amodei in 2015 zou hebben gesuggereerd dat videogames mensen tevreden kunnen houden als AI hun banen overneemt. Het raakt aan de discussie over de sociale gevolgen van AI voor de arbeidsmarkt.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1039745/dario-amodei-video-games-ai-joblessness",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-23T12:41:14Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "arbeidsmarkt",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont hoe AI-bouwers denken over werkloosheid, relevant voor het publieke debat.",
+      "also_covered_by": []
+    },
+    {
+      "id": "ae2c34186c2f54f1fcebc750dd059817acf438cabd657ba89b2ffb42e4f266c3",
+      "title": "Je ML-model slaagde voor elke test: wat die tests kunnen missen",
+      "summary": "Het artikel stelt dat machine-learningmodellen meestal onder gunstige omstandigheden worden getest, terwijl de praktijk rommelige data en verschuivende labels kent. Daardoor presteren modellen in productie vaak stilletjes slechter dan in het lab.",
+      "url": "https://venturebeat.com/orchestration/your-ml-model-passed-every-test-heres-what-those-tests-might-have-missed",
+      "source_name": "VentureBeat AI",
+      "source_type": "rss",
+      "published": "2026-11-22T22:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "tools"
+      ],
+      "importance": 1,
+      "why_relevant": "Technisch randnieuws, wel nuttig om te begrijpen waarom AI in de praktijk tegenvalt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "6542e3d58c1a5f9795ea1cd12ff1b7623bfe8235ec829874f0a1833b702b8900",
+      "title": "Tesla rolt FSD v15 uit met realistische Reality View-weergave",
+      "summary": "Tesla begint met de uitrol van Full Self-Driving (Supervised) v15, een vernieuwde versie van het rijhulpsysteem. Het onderdeel Reality View toont de omgeving in een realistisch, live bovenaanzicht en laat bestuurders de geplande route beïnvloeden. De beelden worden al vergeleken met een videogame.",
+      "url": "https://www.theverge.com/transportation/1039919/tesla-fsd-v15-reality-view-gta-nhtsa-safety-rollout",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-23T09:12:28-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws over AI in voertuigen, weinig directe relevantie voor bibliotheekwerk.",
+      "also_covered_by": []
+    },
+    {
+      "id": "a034c6c919df6cc94d1bb52a2ab25bed2dadca58ab4bd050facddc9221a418bf",
+      "title": "Probiblio en De Buurt werken samen aan meer ontmoeting in de wijk",
+      "summary": "Probiblio werkt samen met De Buurt, de organisatie achter BuurtBankje en de Zwaaisteen. Bibliotheken kunnen deze ontmoetingsplekken inzetten, bijvoorbeeld via een winactie of pilot, gekoppeld aan leesbevordering.",
+      "url": "https://www.probiblio.nl/probiblio-en-de-buurt-werken-samen-aan-meer-ontmoeting-in-de-wijk/",
+      "source_name": "Probiblio",
+      "source_type": "rss",
+      "published": "2026-11-23T10:33:48+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek"
+      ],
+      "importance": 1,
+      "why_relevant": "Laagdrempelig idee voor wijkgerichte activiteiten, al zonder directe AI-relatie.",
+      "also_covered_by": []
+    }
+  ]
+}
