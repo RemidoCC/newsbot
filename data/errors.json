@@ -1,12 +1,5 @@
 [
   {
-    "ts": "2026-11-11T12:18:47+00:00",
-    "source": "Emerce",
-    "stage": "collect",
-    "error": "ValueError: HTTP 200 maar 0 items (content-type: text/html)",
-    "url": "https://www.emerce.nl/nieuws/rss"
-  },
-  {
     "ts": "2026-11-12T13:28:07+00:00",
     "source": "Emerce",
     "stage": "collect",
@@ -506,6 +499,13 @@
   },
   {
     "ts": "2026-11-24T15:26:11+00:00",
+    "source": "Emerce",
+    "stage": "collect",
+    "error": "ValueError: HTTP 200 maar 0 items (content-type: text/html)",
+    "url": "https://www.emerce.nl/nieuws/rss"
+  },
+  {
+    "ts": "2026-11-25T15:11:22+00:00",
     "source": "Emerce",
     "stage": "collect",
     "error": "ValueError: HTTP 200 maar 0 items (content-type: text/html)",

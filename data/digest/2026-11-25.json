@@ -1,0 +1,646 @@
+{
+  "date": "2026-11-25",
+  "generated_at": "2026-11-25T15:14:43+00:00",
+  "stats": {
+    "batches": 2,
+    "onleesbaar": 0,
+    "objecten": 76,
+    "schema_fout": 0,
+    "onbekend_id": 0,
+    "gedropt": 43,
+    "geldig": 33,
+    "ai": 29,
+    "bieb": 4
+  },
+  "sources": [
+    "Ars Technica AI",
+    "Bibliotheeknetwerk (KB)",
+    "Computable",
+    "Digisterker",
+    "ECP | Platform voor de InformatieSamenleving",
+    "Hacker News",
+    "MIT Technology Review — AI",
+    "NOS Tech",
+    "Nederlandse AI Coalitie",
+    "OpenAI",
+    "Probiblio",
+    "Simon Willison",
+    "TLDR AI",
+    "The Verge AI",
+    "Tweakers",
+    "VentureBeat AI"
+  ],
+  "items": [
+    {
+      "id": "ea655aef5669054dfec31f7c5ac4e50bb10e15244f0c17a8e609b8f8e3d15e46",
+      "title": "Wat is er aan de hand met het bewijs van de Riemann-hypothese?",
+      "summary": "Een wiskundige claimt met hulp van AI de Riemann-hypothese te hebben bewezen, een van de grootste openstaande problemen in de wiskunde. Het bewijs wordt nog beoordeeld, maar het volgt op meer doorbraken waarin taalmodellen een grote rol speelden. Het zet het vakgebied onder druk.",
+      "url": "https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-11-24T20:34:53+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "modellen"
+      ],
+      "importance": 4,
+      "why_relevant": "Een mijlpaal die laat zien wat AI kan in wetenschap; goed gespreksonderwerp.",
+      "also_covered_by": []
+    },
+    {
+      "id": "7eea171611f31c8f95c6e226f61955635ce9adf9e7d105467cd6d5dca1057023",
+      "title": "GPT-6.2 Astra lost historisch raadsel op",
+      "summary": "Historicus Mark Humphries liet GPT-6.2 Astra met weinig sturing de maker van een anoniem schetsboek uit 1808 uit de Beinecke Library van Yale achterhalen. Het model deed dat in 22 minuten en vond daarbij een onbekende bron in een archief. Humphries verwacht dat historici een milde vertrouwenscrisis krijgen over wat agentische systemen kunnen.",
+      "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-11-24T16:53:59+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "modellen"
+      ],
+      "importance": 3,
+      "why_relevant": "AI-onderzoek in archieven en collecties raakt het werk van erfgoedbibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "3d9795e0b578488bd9a1c5c7cd3cc3ee4baa03ce61c35a7934a133971188f556",
+      "title": "Tidal verbiedt volledig AI-gegenereerde muziek en verwijdert 27 miljoen nummers",
+      "summary": "Streamingdienst Tidal verwijdert op 9 december alle als AI gelabelde nummers, ongeveer 6,3 procent van de catalogus. Volgens Tidal was 43 procent van de nieuwe uploads de afgelopen 90 dagen volledig door AI gemaakt. Muziek waarin AI slechts een hulpmiddel is, blijft toegestaan.",
+      "url": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-11-24T17:34:34+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Voorbeeld van omgang met AI-content; vergelijkbaar met collectiebeleid bij streamingdiensten van bibliotheken.",
+      "also_covered_by": [
+        "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/"
+      ]
+    },
+    {
+      "id": "88af3d112e2a425af796c1291c402744dfb1e43e56362e6ff9f7daf5b90cf2d9",
+      "title": "DNB vreest cyberaanvallen op banken en pleit voor oefeningen bij systeemuitval",
+      "summary": "De Nederlandsche Bank waarschuwt in een halfjaarlijks rapport dat de risico's van cyberaanvallen voor financiële instellingen toenemen. De snelle ontwikkeling van AI is daarbij een belangrijke oorzaak. DNB pleit voor oefeningen om systeemuitval te kunnen opvangen.",
+      "url": "https://tweakers.net/nieuws/254894/dnb-vreest-cyberaanvallen-op-banken-en-pleit-voor-oefeningen-voor-systeemuitval.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-11-24T20:07:06+01:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "ethiek-en-risico",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 3,
+      "why_relevant": "Raakt aan digitale veiligheid van bezoekers die online bankieren en hulp zoeken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "5e8eba5b15ac60442c06ba0c605298c68acc153c2342183b0f55f54aa4e85ddb",
+      "title": "Drie omslagpunten in LLM's in twaalf maanden",
+      "summary": "Simon Willison blikt terug op een jaar sinds Claude Opus 4.5, het model waarmee codeeragenten voor hem betrouwbaar genoeg werden voor dagelijks gebruik. Hij beschrijft drie omslagpunten in wat LLM's en codeeragenten kunnen. Het stuk is een persoonlijke maar goed geïnformeerde terugblik op het tempo van de ontwikkelingen.",
+      "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-11-24T23:02:07+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "tools"
+      ],
+      "importance": 3,
+      "why_relevant": "Helpt het tempo van AI-ontwikkeling in te schatten voor je bibliotheekbeleid.",
+      "also_covered_by": []
+    },
+    {
+      "id": "19c5a98ecf1223b4a83b6b34e111e7e579542e280532d750f77108137a3094f0",
+      "title": "Goed werken met AI begint met het gesprek op de werkvloer",
+      "summary": "Tijdens een Community Call van de Nederlandse AI Coalitie bespraken de VCP en De Argumentenfabriek hoe AI verantwoord op de werkvloer kan worden ingezet. Aan de hand van het SER-advies over AI en werk gaat het om autonomie, werkdruk, aansprakelijkheid en de rol van ondernemingsraden. De menselijke maat moet centraal blijven staan.",
+      "url": "https://aic4nl.nl/werkgebiednieuws/goed-werken-met-ai-begint-met-het-gesprek-op-de-werkvloer/",
+      "source_name": "Nederlandse AI Coalitie",
+      "source_type": "rss",
+      "published": "2026-11-25T08:09:58+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "arbeidsmarkt",
+        "ethiek-en-risico",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 3,
+      "why_relevant": "Praktische punten voor het invoeren van AI in je eigen bibliotheekorganisatie.",
+      "also_covered_by": []
+    },
+    {
+      "id": "9294811a4f3de0cc5f26aa1a40e19ff97b4ca17052fd8bf3f6c5febd3f487231",
+      "title": "AI zet Amerikaanse systemen voor openbare documenten onder druk",
+      "summary": "Bedrijven die met AI openbare overheidsdocumenten verzamelen en chatbots die verzoeken opstellen zorgen in de VS voor een stortvloed aan Woo-achtige verzoeken. Gemeenten kunnen vaak niet meer zien of een verzoek van een burger, een bot of een verkooppijplijn komt. Sommige staten maken het daarom makkelijker om verzoeken af te wijzen, wat de transparantie kan aantasten.",
+      "url": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
+      "source_name": "MIT Technology Review — AI",
+      "source_type": "rss",
+      "published": "2026-11-25T10:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "beleid-en-regelgeving",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Raakt toegang tot openbare informatie, een kernwaarde van bibliotheken.",
+      "also_covered_by": [
+        "https://www.technologyreview.com/2026/11/25/1149808/the-download-ai-open-records-permafrost-fires/"
+      ]
+    },
+    {
+      "id": "d95d87e2099ac794ab545d6bede2c5b6f9e9eefa7b5d0def5feaaaa2318686ca",
+      "title": "Hackersgroep steelt met DeepSeek ID-kaartgegevens van 1,2 miljoen Vlamingen",
+      "summary": "De groep Ghost Hunters heeft gegevens van 1,2 miljoen Vlamingen buitgemaakt, waaronder namen, adressen, rijksregisternummers, IBAN-nummers en kentekens. Beveiligingsbedrijf Secutec zegt dat de groep daarbij het Chinese AI-model DeepSeek gebruikte. De hack laat zien dat AI aanvallen kan vergemakkelijken.",
+      "url": "https://tweakers.net/nieuws/254906/hackersgroep-steelt-met-deepseek-id-kaartgegevens-van-1-komma-2-miljoen-vlamingen.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-11-25T13:02:07+01:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Illustreert risico's rond persoonsgegevens en fraude, bruikbaar in mediawijsheidsactiviteiten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "f5e66a86e375b5a5e5a7f2b4b694f5b25974edd507922a7ef8affb3298189e47",
+      "title": "Nederlandse hackersgroep DIVD zelf gehackt, waarschijnlijk door autonome AI-agents",
+      "summary": "Aanvallers braken met AI-programma's in bij DIVD, een Nederlands verband van ethische hackers. Volgens externe onderzoekers werkten die waarschijnlijk autonoom en veel sneller dan mensen. Ze bemachtigden onder meer ruim 4000 e-mailadressen, maar kwamen niet bij de gevoeligste systemen.",
+      "url": "https://nos.nl/l/2640968",
+      "source_name": "NOS Tech",
+      "source_type": "rss",
+      "published": "2026-11-25T13:37:02+01:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "ethiek-en-risico",
+        "onderzoek"
+      ],
+      "importance": 3,
+      "why_relevant": "Toont dat AI-gestuurde aanvallen ook Nederlandse organisaties raken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "310015ac89673f6b3f7d3f99303334f6ff39abea7775aa1594f255edee3bbc4b",
+      "title": "Stichting Lezen en KB schuiven aan bij rondetafelgesprek Tweede Kamer over leesvaardigheid",
+      "summary": "In de Tweede Kamer was een rondetafelgesprek over het PISA-onderzoek, waaruit in september bleek dat de leesvaardigheid van Nederlandse jongeren verder daalt. Tamar van Gelder van Stichting Lezen en Ronald Huizer van de KB gaven er hun visie. Het laat zien dat de bibliotheeksector een rol speelt in het beleid rond leesbevordering.",
+      "url": "https://www.bibliotheeknetwerk.nl/nieuws/stichting-lezen-en-kb-op-bezoek-bij-de-tweede-kamer",
+      "source_name": "Bibliotheeknetwerk (KB)",
+      "source_type": "rss",
+      "published": "2026-11-25T15:29:24+01:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek",
+        "onderzoek",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 3,
+      "why_relevant": "Leesvaardigheid is kerntaak van de bieb en nu onderwerp van Kamerdebat.",
+      "also_covered_by": [
+        "https://www.kb.nl/nieuws/kb-pleit-tweede-kamer-voor-duurzame-verbetering-leesvaardigheid-jongeren"
+      ]
+    },
+    {
+      "id": "7758c04a629331bf96383fb7f46e256dce8c50dc19007956b18ca6b429d0aeb8",
+      "title": "Op zoek naar verre planeten met Astra",
+      "summary": "Twee amateurastronomen gebruikten Codex en Astra om mogelijke exoplaneten te vinden in openbare data van de telescopen Kepler en TESS van NASA. OpenAI laat zo zien hoe niet-professionals met AI-tools wetenschappelijke data kunnen verkennen.",
+      "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-11-24T11:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "onderzoek"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van burgers die met AI openbare data onderzoeken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "ac2f786b30f6d45772c42167559dc1dfd027b2c713b30efaaeedeee5585de3fa",
+      "title": "GPT-6-modellen tonen eigen vermogen voor eiwitontwerp",
+      "summary": "OpenAI meldt dat GPT-6-modellen met redeneren en code eiwitstructuren en -sequenties kunnen ontwerpen. Labtests lieten bij vijf doelwitten aanwijzingen voor binding zien. Het is een voorbeeld van AI die wetenschappelijk werk doet, al blijft het een bedrijfsbericht.",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "source_name": "OpenAI",
+      "source_type": "rss",
+      "published": "2026-11-24T13:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "onderzoek"
+      ],
+      "importance": 2,
+      "why_relevant": "Illustreert waar frontiermodellen in de wetenschap toe in staat zijn.",
+      "also_covered_by": []
+    },
+    {
+      "id": "533f3addca8314a2f5d29e1127da9d95ae407eba7d7faef6b0fe33831ca2e177",
+      "title": "AI geeft logistiek een duwtje in de rug en laat de it-sector groeien",
+      "summary": "Volgens ABN Amro wint AI snel terrein in transport en logistiek, waarbij Nederlandse bedrijven tot de Europese kopgroep horen. CBS-cijfers laten zien dat één op de vijf bedrijven in de sector AI gebruikt, tegen één op de tien in 2022. Gebrek aan kennis en verouderde ict-systemen remmen verdere invoering.",
+      "url": "https://www.computable.nl/2026/11/24/ai-geeft-logistiek-duwtje-in-de-rug-en-laat-it-sector-groeien/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-11-24T16:00:00+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "onderzoek",
+        "arbeidsmarkt"
+      ],
+      "importance": 2,
+      "why_relevant": "Cijfers over AI-adoptie in Nederland; het kennistekort sluit aan bij digitale geletterdheid.",
+      "also_covered_by": []
+    },
+    {
+      "id": "51ae9038ce7cd43ac33ebff54f1f40070e536bbafe0f0bafae9be6fb70d8005a",
+      "title": "Bijna de helft van de ontwikkelaars laat AI-agents ook hun eigen code beoordelen",
+      "summary": "Uit een enquête blijkt dat bijna de helft van de ondervraagde ontwikkelaars en leidinggevenden AI-agents laat reviewen wat die agents zelf schrijven. Slechts 26 procent is er zeer zeker van AI-wijzigingen even goed te begrijpen als menselijke code. Review wordt zo een knelpunt bij AI-ondersteunde softwareontwikkeling.",
+      "url": "https://venturebeat.com/technology/nearly-half-of-surveyed-engineers-and-leaders-say-the-ai-agents-that-write-their-code-also-review-it",
+      "source_name": "VentureBeat AI",
+      "source_type": "rss",
+      "published": "2026-11-24T20:01:17+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Illustreert controleproblemen bij AI-output, ook relevant voor het kritisch leren omgaan met AI.",
+      "also_covered_by": []
+    },
+    {
+      "id": "68d303c5532469d21d6ca2cd020946269f4f5857dcf5dc669d1adccf54d9767f",
+      "title": "CrowdStrike neemt Zscaler over en wil één noodknop voor ongecontroleerde AI-agents",
+      "summary": "CrowdStrike neemt Zscaler over in een aandelendeal van circa 43,9 miljard dollar. Het wil zijn AI-noodknop, die nu toegang tot AI-modellen bij de gateway afsluit, uitbreiden naar het netwerk waar AI-agents zich verplaatsen. Zo kunnen beveiligingsteams agents centraal stoppen.",
+      "url": "https://venturebeat.com/security/crowdstrikes-zscaler-deal-aims-to-give-security-teams-a-single-kill-switch-for-rogue-ai-agents",
+      "source_name": "VentureBeat AI",
+      "source_type": "rss",
+      "published": "2026-11-24T20:41:33+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont groeiende aandacht voor beheersing van AI-agents; relevant bij inzet in organisaties.",
+      "also_covered_by": []
+    },
+    {
+      "id": "f13f50765ddb35d9b0c1471c768ecd1182a5f803913ddb76a94da9d6219fe3db",
+      "title": "Versine: MCP waarmee je AI-assistent geld kan versturen en opvragen",
+      "summary": "Het startup Versine biedt een MCP-koppeling aan een portemonnee, zodat een AI-agent namens de gebruiker geld kan sturen of opvragen. Betalingen vragen goedkeuring via een passkey, of lopen automatisch bij vertrouwde contacten. Het laat zien hoe AI-agents steeds vaker echte financiële handelingen overnemen.",
+      "url": "https://news.ycombinator.com/item?id=50634426",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-24T20:44:15Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont hoe AI-agents financiële taken overnemen; relevant voor vragen van bezoekers over veiligheid.",
+      "also_covered_by": []
+    },
+    {
+      "id": "76aca383ca5b948c9a10a07b0b11133c1de43d692c139df7c442677a5eb2e38c",
+      "title": "Historische Microsoft-storing legt gebrekkige noodrespons bloot",
+      "summary": "Na de storing van 12 november, waarbij wereldwijd Exchange Online, Teams en Outlook uitvielen, voert Microsoft volgens interne memo's een 'Code Red' door in zijn incidentaanpak. De oorzaak was een onopgemerkt schaalbaarheidsprobleem in Windows, en een dringende fix deed er vijf tot zes dagen over om wereldwijd uit te rollen. Microsoft wil dat voortaan binnen een uur kunnen.",
+      "url": "https://arstechnica.com/gadgets/2026/11/microsofts-historic-cloud-outage-exposed-an-engineering-fog-of-war/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-11-24T22:36:28+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat de kwetsbaarheid van cloudafhankelijkheid zien voor bibliotheken met Microsoft 365.",
+      "also_covered_by": [
+        "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/o1ppiku0aflfuv6j2g7901sc2k47mev1rt8lzcyb.html"
+      ]
+    },
+    {
+      "id": "632fac97b969b8389a6ec64f86ab4429c242377324f91c89010892f0e5f7b580",
+      "title": "Microsoft trekt lering uit grote storing met 'Code Rood'",
+      "summary": "Na een bijna 24 uur durende storing van onder meer Exchange Online, Outlook, Teams en Copilot heeft Microsoft intern 'Code Rood' afgekondigd. Het bedrijf wil zijn processen en beveiliging herzien en toekomstige incidenten binnen een uur oplossen. Het incident wordt intern het grootste in de geschiedenis van Exchange Online genoemd.",
+      "url": "https://www.computable.nl/2026/11/25/microsoft-trekt-lering-uit-grote-storing/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-11-25T06:15:00+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "bedrijven",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat afhankelijkheid van Microsoft-diensten zien, ook voor bibliotheken met Copilot en Outlook.",
+      "also_covered_by": [
+        "https://www.theverge.com/news/1042025/microsoft-code-red-outlook-outage"
+      ]
+    },
+    {
+      "id": "0f10712960dcabe248a72c785dbe86c704292796ea96107ba13033319546dc1a",
+      "title": "Maakt vibe coding open source de nieuwe norm voor synthesizers?",
+      "summary": "AI-codeertools als Claude blijken firmware van muziekapparatuur te kunnen reverse-engineeren, waardoor fabrikanten onder druk staan. Sommige bedrijven, zoals inMusic (Akai, Moog), maken hun apparaten daarom steeds vaker open source. Roland blijft vooralsnog stil.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1040081/vibe-coding-open-source-music-firmware",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-25T08:00:00-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "open-source",
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Illustreert hoe AI-codeertools bedrijven dwingen tot openheid; interessant voor makerspaces.",
+      "also_covered_by": []
+    },
+    {
+      "id": "f0c9317e7a8304ac6a331b4b4588b8d63fecb98702a0b36b5a7e2fefc516fa7e",
+      "title": "Digisterker door de ogen van anderen: bibliotheken in de praktijk",
+      "summary": "De nieuwsbrief verzamelt berichten van andere organisaties over de Digisterker-lesprogramma's. Bibliotheek Eemland gaf een workshop over het huisartsportaal, en in Dirksland startte een reeks bijeenkomsten waarin senioren digitale oplichting leren herkennen. Beide zijn voorbeelden van lokale bibliotheekactiviteiten rond digitale vaardigheden.",
+      "url": "https://www.digisterker.nl/digisterker-nieuwsbrief/",
+      "source_name": "Digisterker",
+      "source_type": "rss",
+      "published": "2026-11-25T09:10:02+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "digitale-inclusie",
+        "cursus-of-workshop",
+        "bibliotheek"
+      ],
+      "importance": 2,
+      "why_relevant": "Concrete voorbeelden van collega-bibliotheken die digitale vaardigheden aanbieden.",
+      "also_covered_by": []
+    },
+    {
+      "id": "a88046cbf0a6c1ebc9051fd70023c453427abac9a3a245855569262ad0b89e6d",
+      "title": "Amazon praat naar verluidt over het opheffen van de blokkade voor Meta's AI-agent Muse",
+      "summary": "Volgens Fortune overlegt Amazon met Meta over toelating van de AI-shopagent Muse op zijn webwinkel. Amazon vreest advertentie-inkomsten te verliezen, omdat die afhangen van mensen die de pagina's zien. Ook de kwaliteit van de zoekresultaten van de agent speelt mee.",
+      "url": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-25T09:12:33-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat zien hoe AI-agents het online koopgedrag van bezoekers gaan veranderen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "071b5bb1e240de80e522e34ffd740128a052055a3b4b53b0965af618e2df7925",
+      "title": "New York Times verbiedt Photoshop 2027 voor fotojournalisten vanwege AI-functies",
+      "summary": "De New York Times vraagt freelance fotografen Photoshop 2027 niet te gebruiken, omdat de software AI-functies bevat die voor gebruikers niet altijd duidelijk zijn. Daardoor kan de metadata van een foto aangeven dat die AI-gegenereerd is. De krant wil zo de geloofwaardigheid van haar beeldmateriaal bewaken.",
+      "url": "https://tweakers.net/nieuws/254904/new-york-times-verbiedt-photoshop-2027-voor-fotojournalisten-vanwege-ai-functies.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-11-25T10:02:34+01:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Raakt aan herkomst van beeld, een thema in mediawijsheid.",
+      "also_covered_by": [
+        "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/x6zdqoxd2g8i05sokt062kaiq1z2hksvadqr6wqq.html"
+      ]
+    },
+    {
+      "id": "319f463cce75ff29a26711e1ce30e8ab590dae150eeeede25248dd0af7a19f06",
+      "title": "AI verandert mogelijk wat het betekent om theoretisch natuurkundige te zijn",
+      "summary": "Natuurkundige Suvrat Raju testte een AI-model op een nooit gepubliceerd probleem en vond dat het beter presteerde dan verwacht. Samen met een collega bouwt hij daarom een benchmark voor theoretische natuurkunde met problemen die niet online staan. Zo wil hij eerlijk meten wat AI echt kan.",
+      "url": "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-11-25T12:00:28+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "modellen"
+      ],
+      "importance": 2,
+      "why_relevant": "Geeft inzicht in hoe AI-capaciteiten worden getest en wat dat betekent voor kenniswerk.",
+      "also_covered_by": []
+    },
+    {
+      "id": "a4a6aaf73b580ff198e5539ad7e5af5bfbe9ec847233efe155b366a912e5a5d1",
+      "title": "Tidal verbiedt AI-muziek en verwijdert vanaf 9 december 29 miljoen AI-nummers",
+      "summary": "Streamingdienst Tidal verwijdert vanaf 9 december 29 miljoen nummers die volledig met AI zijn gemaakt. Het platform had AI-songs al gelabeld en de uitbetaling van inkomsten eraan gestopt. Het is een van de strengste maatregelen tegen AI-gegenereerde content bij een groot platform.",
+      "url": "https://tweakers.net/nieuws/254908/tidal-verbiedt-ai-muziek-en-gooit-vanaf-9-december-29-miljoen-ai-songs-weg.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-11-25T13:43:37+01:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van hoe platforms omgaan met AI-content, ook voor bibliotheekcollecties.",
+      "also_covered_by": []
+    },
+    {
+      "id": "093ab754110b655db7f72e68604a95ea7604e2e0026053459aa0740558b3ce20",
+      "title": "ECP-terugblik: AI-ethiek in de zorg en NL IGF 2026",
+      "summary": "ECP blikt terug op een deelnemersspecial bij het LUMC over spraakgericht rapporteren in de zorg. De conclusie is dat de waarde verder gaat dan tijdswinst en ook over kwaliteit, vertrouwen en de relatie tussen patiënt en zorgverlener gaat. Verder komt het NL Internet Governance Forum aan bod, met als thema grip op de digitale toekomst.",
+      "url": "https://ecp.nl/november/",
+      "source_name": "ECP | Platform voor de InformatieSamenleving",
+      "source_type": "rss",
+      "published": "2026-11-25T14:01:25+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "ethiek-en-risico",
+        "evenement"
+      ],
+      "importance": 2,
+      "why_relevant": "Geeft Nederlandse input over verantwoord AI-gebruik en digitale macht.",
+      "also_covered_by": []
+    },
+    {
+      "id": "00104ed4d4f57e727a0ffa6eb20013baeaee6b8528c293525c874a59da788e50",
+      "title": "Digisterker-nieuwsbrief: veelgestelde vragen over licenties en samenwerking",
+      "summary": "De nieuwsbrief van december licht drie veelgestelde vragen uit over de lesprogramma's Digisterker, DigiVitaler en DigiVeiliger, met samenwerking als thema. Een bibliotheek mag haar licentie delen met lokale partners in haar werkgebied, mits de bibliotheek duidelijk betrokken blijft. Zo kan het bereik groter worden en kunnen kosten worden doorberekend.",
+      "url": "https://www.digisterker.nl/19338-2/",
+      "source_name": "Digisterker",
+      "source_type": "rss",
+      "published": "2026-11-25T14:05:00+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "digitale-geletterdheid",
+        "cursus-of-workshop",
+        "bibliotheek"
+      ],
+      "importance": 2,
+      "why_relevant": "Praktische uitleg over het delen van Digisterker-licenties met lokale partners.",
+      "also_covered_by": []
+    },
+    {
+      "id": "ba1574f229f7c4e16931e7f57aeab12f3154970698fdf897e2d9a27d7a416833",
+      "title": "Microsoft laat AI meeluisteren in Teams-gesprekken om phishing te herkennen",
+      "summary": "Microsoft geeft Teams een AI-functie die in gesprekken met externe partijen let op tekenen van social engineering en fraude. De spraakherkenning waarschuwt gebruikers als er iets verdachts wordt gezegd. Daarvoor luistert de AI mee, wat vragen over privacy oproept.",
+      "url": "https://tweakers.net/nieuws/254922/microsoft-laat-ai-meeluisteren-in-teams-gesprekken-om-phishing-te-herkennen.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-11-25T14:54:54+01:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Relevant voor bibliotheken die Teams gebruiken en voor mediawijsheid over fraude.",
+      "also_covered_by": []
+    },
+    {
+      "id": "a83479e9c92680149b601a8dc3f6a41e6eb8002ab008d0e74b84c814704b928f",
+      "title": "Cognition lanceert SWE-2.1, een sterker codeer- en agentmodel",
+      "summary": "Cognition bracht SWE-2.1 uit, een model voor codering en agenten dat met reinforcement learning is getraind op Kimi K3. Het scoort op de Terminal-Bench 4.1-benchmark ongeveer het dubbele van SWE-2 en heeft sterkere beveiligingsvaardigheden. De nieuwsbrief noemt ook Ternary Bonsai 2.5 27B.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/qq1pggizkwmadyknasbx5ednmheqcdbat2os7vhz.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-11-25T14:56:02+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont hoe snel codeermodellen verbeteren, relevant voor wie AI-tools beoordeelt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "e4e6f1d4038e7d1b9dec1fed80fba43ac63663dc14deb04abfc1be534cc7ca88",
+      "title": "Podcast De Dag: wat is de waarde van Jensen Huang?",
+      "summary": "Jensen Huang werd bij Nvidia weggestuurd na onthullingen over affaires, maar keerde binnen twee weken terug als topman. AI-deskundige Paul Verhagen stelt dat Nvidia sterk op Huang leunt en noemt hem 'too big to fail'. Ook de bemoeienis van president Trump roept vragen op over economie, politiek en nationale veiligheid.",
+      "url": "https://nos.nl/l/2640979",
+      "source_name": "NOS Tech",
+      "source_type": "rss",
+      "published": "2026-11-25T15:31:27+01:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat de afhankelijkheid van AI-infrastructuur van één bedrijf en persoon zien.",
+      "also_covered_by": [
+        "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/ybwg44we9y3bc2eh50tm00x4ff4e28qv3t4innnj.html",
+        "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/ba2yglcqjujgp6djbw9x9tlrdku7sqsoe2i2yths.html"
+      ]
+    },
+    {
+      "id": "9d8ef44660a0fb71a30f861a213602b3dd9225337f2bc7ce361a50e048586bf0",
+      "title": "Bedrijf beschuldigd van distilleren van Anthropic-modellen vraagt hoe het zijn onschuld kan bewijzen",
+      "summary": "Een ondernemer meldt op Hacker News dat Anthropic hun bedrijf beschuldigt van het gebruik van de API voor distillatie. Het bedrijf zegt zelf geen modellen te trainen en alleen geautomatiseerde regressietests te draaien. Er resteert 24 uur om dit te bewijzen, zonder de privacy van gebruikers te schenden.",
+      "url": "https://news.ycombinator.com/item?id=50630809",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-24T16:45:44Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws over gebruiksvoorwaarden van AI-aanbieders; weinig impact op bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "ee2db9d1847c386553ed5f8e908b4a1cc76fc820fe0c81c6bf7dae0efde16441",
+      "title": "Snowflake bestudeert medewerkers die hun AI-budget overschrijden",
+      "summary": "Snowflake hanteert limieten voor AI-uitgaven van medewerkers, maar onderzoekt wie die limieten overschrijdt. Een overschrijding kan wijzen op een werkwijze die collega's kunnen overnemen. Het bedrijf kiest daarmee een derde weg naast ranglijsten en harde uitgavenplafonds.",
+      "url": "https://venturebeat.com/orchestration/after-token-leaderboards-and-spending-caps-snowflake-has-a-third-idea-keep-the-cap-then-learn-from-whoever-breaks-it",
+      "source_name": "VentureBeat AI",
+      "source_type": "rss",
+      "published": "2026-11-24T18:13:55+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "arbeidsmarkt"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws over hoe organisaties AI-gebruik van medewerkers sturen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "4c27894c8959b79d27c83e1c0becf8caa0ba9ba6f155e097265cafba743a9d39",
+      "title": "Zo maak je je bibliotheek zichtbaar met content en PR",
+      "summary": "Probiblio legt uit hoe een bibliotheek haar contentstrategie en PR kan combineren om zichtbaar te worden voor de juiste doelgroepen. Een goede contentstrategie bepaalt wie je wilt bereiken en met welke verhalen. PR zorgt dat die verhalen op de juiste plekken en momenten terechtkomen.",
+      "url": "https://www.probiblio.nl/zo-maak-je-je-bibliotheek-zichtbaar-met-content-en-pr/",
+      "source_name": "Probiblio",
+      "source_type": "rss",
+      "published": "2026-11-25T08:15:00+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek"
+      ],
+      "importance": 1,
+      "why_relevant": "Algemeen communicatieadvies voor bibliotheken, zonder AI-component.",
+      "also_covered_by": []
+    },
+    {
+      "id": "382aea5125206c3330791170b8205a39dde8afb6fb36f6b04383e1ac75fce6db",
+      "title": "VS: afluisterende ex-OpenAI-werknemer nam mogelijk bedrijfsgeheimen op",
+      "summary": "Een voormalige OpenAI-medewerker die afluisterapparatuur in een vergaderzaal zou hebben geplaatst, nam volgens Amerikaanse aanklagers mogelijk ook bedrijfsgeheimen op. Hij zou honderden audio-opnames hebben. Dit blijkt uit processtukken die Bloomberg heeft ingezien.",
+      "url": "https://tweakers.net/nieuws/254910/vs-afluisterende-ex-openai-werknemer-nam-mogelijk-bedrijfsgeheimen-op.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-11-25T11:19:11+01:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws over OpenAI zonder directe gevolgen voor bibliotheken.",
+      "also_covered_by": []
+    }
+  ]
+}
