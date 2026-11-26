@@ -1,0 +1,768 @@
+{
+  "date": "2026-11-26",
+  "generated_at": "2026-11-26T14:40:01+00:00",
+  "stats": {
+    "batches": 2,
+    "onleesbaar": 0,
+    "objecten": 61,
+    "schema_fout": 0,
+    "onbekend_id": 0,
+    "gedropt": 21,
+    "geldig": 40,
+    "ai": 35,
+    "bieb": 5
+  },
+  "sources": [
+    "Ars Technica AI",
+    "Bibliotheekblad",
+    "Bibliotheeknetwerk (KB)",
+    "Computable",
+    "Hacker News",
+    "Hugging Face",
+    "Infodocket",
+    "MIT Technology Review — AI",
+    "NOS Tech",
+    "Probiblio",
+    "Rijnbrink",
+    "Simon Willison",
+    "TLDR AI",
+    "The Verge AI",
+    "Tweakers",
+    "VentureBeat AI"
+  ],
+  "items": [
+    {
+      "id": "1de03d41bbcf32b6fa7bb14b17e630e69eb0970f7db70315ea92abf51f89c64b",
+      "title": "Rapport: open kennissystemen erkennen als kritieke digitale infrastructuur",
+      "summary": "De Open Knowledge Foundation en de Wikimedia Foundation roepen overheden op open kennissystemen zoals Wikipedia, arXiv en OpenStreetMap formeel als kritieke digitale infrastructuur te erkennen. Ze noemen drie bedreigingen: commerciële AI-extractie zonder naamsvermelding of vergoeding, privatisering en vendor lock-in, en digitaal verval.",
+      "url": "https://www.infodocket.com/2026/11/25/new-report-from-open-knowledge-foundation-safeguarding-the-digital-future-recognizing-open-knowledge-systems-as-critical-digital-infrastructure/",
+      "source_name": "Infodocket",
+      "source_type": "rss",
+      "published": "2026-11-25T15:34:38+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "ethiek-en-risico"
+      ],
+      "importance": 4,
+      "why_relevant": "Raakt de kern van bibliotheken: open toegang tot kennis in tijden van AI.",
+      "also_covered_by": []
+    },
+    {
+      "id": "b666eea99fe0cf371a083cac9e31a0da81824ddc2118f359e9c061de63a7c3ab",
+      "title": "Europese open-source-AI-modellen nog vaak in strijd met publieke waarden",
+      "summary": "Onderzoek van het Tilburgse UTF.ai toont dat Europese open-sourcemodellen zich relatief slecht houden aan Nederlandse publieke waarden. Eén model was in acht van de tien testgevallen bereid mensen op afkomst te selecteren. Het beste Europese model (Mistral Medium 3.5) scoort 28,8 van de 100 punten, vergelijkbaar met Chinese en Amerikaanse modellen.",
+      "url": "https://www.computable.nl/2026/11/26/europese-ai-opensource-modellen-nog-vaak-strijdig-met-publieke-waarden/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-11-26T08:00:00+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "onderzoek",
+        "open-source",
+        "ethiek-en-risico"
+      ],
+      "importance": 4,
+      "why_relevant": "Nuanceert het idee dat Europese modellen vanzelf geschikter zijn voor publieke instellingen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "a7fe4c8d5d02118aa14da31bd40df63dd4c5afbabe3c88c9ee975e0333bd70e3",
+      "title": "Kort: AI-gebruik onder Nederlandse bedrijven verdubbelt, Nederland hekkensluiter bij AI-verzekering",
+      "summary": "Volgens nieuwe CBS-cijfers gebruikt 41 procent van de Nederlandse bedrijven in 2026 AI, tegenover 18 procent een jaar eerder. De groei is het sterkst in het mkb, en tekst-, spraak- of codegeneratie is de populairste toepassing. Slechts een kwart van de bedrijven is verzekerd tegen AI-incidenten.",
+      "url": "https://www.computable.nl/2026/11/26/kort-ai-gebruik-onder-nl-bedrijven-verdubbelt-nederland-hekkensluiter-ai-verzekering-en-meer/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-11-26T11:00:00+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "onderzoek",
+        "bedrijven",
+        "arbeidsmarkt"
+      ],
+      "importance": 4,
+      "why_relevant": "Laat zien hoe snel AI in Nederland doorbreekt en wat bezoekers verwachten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "2fc6ed8b60849f6f12242b960c9873baeb0806c694e0767a9fc15a43cbff9aef",
+      "title": "Driekwart van de Nederlanders wil zelf bepalen welke informatie online verschijnt",
+      "summary": "Uit jaarlijks onderzoek van de KB, uitgevoerd door Motivaction, blijkt dat 75% van de Nederlanders zelf wil kiezen van welke bronnen ze nieuws zien in plaats van een algoritme. 73% maakt zich zorgen over de betrouwbaarheid van informatie en 34% begint de zoektocht naar informatie steeds vaker bij AI-toepassingen zoals ChatGPT. De KB ziet vrije toegang tot oorspronkelijke bronnen als een democratisch recht.",
+      "url": "https://bibliotheekblad.nl/driekwart-nederlanders-wil-zelf-bepalen-welke-informatie-zij-online-te-zien-krijgen/",
+      "source_name": "Bibliotheekblad",
+      "source_type": "rss",
+      "published": "2026-11-26T11:50:56+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "onderzoek",
+        "digitale-geletterdheid",
+        "bibliotheek"
+      ],
+      "importance": 4,
+      "why_relevant": "Cijfers over zoekgedrag en AI-gebruik bij uw bezoekers, bruikbaar voor mediawijsheidsaanbod.",
+      "also_covered_by": [
+        "https://www.kb.nl/nieuws/nederlanders-bezorgd-over-betrouwbaarheid-van-informatie"
+      ]
+    },
+    {
+      "id": "65ad7cd56c16bd55a66b93acdf3ae27c06fe0d0003feea836c69a25c40a3bfe3",
+      "title": "Rechter beslist over verbod op Meta-camerabril",
+      "summary": "De Consumentenbond, Offlimits en The Firewall eisen bij de rechtbank in Amsterdam een verbod op de camerabril van Meta, omdat mensen ermee ongemerkt gefilmd kunnen worden. Meta stelt dat de bril niet voor stiekem filmen is bedoeld en wijst op het lampje en genomen maatregelen.",
+      "url": "https://nos.nl/l/2641106",
+      "source_name": "NOS Tech",
+      "source_type": "rss",
+      "published": "2026-11-26T14:20:13+01:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "beleid-en-regelgeving",
+        "ethiek-en-risico"
+      ],
+      "importance": 4,
+      "why_relevant": "Bibliotheken moeten mogelijk beleid maken voor slimme brillen in hun ruimtes.",
+      "also_covered_by": []
+    },
+    {
+      "id": "13305f74bc3c7dce2f7ef4b3ebc3aab7dc046738df3e82c3422cff4e1cfbb007",
+      "title": "New York verbiedt AI-speelgoed, ook als het via internet met kinderen praat",
+      "summary": "De Amerikaanse staat New York heeft AI-speelgoed verboden, inclusief speelgoed dat via internet met kinderen communiceert. Het is een van de eerste concrete wetgevende ingrepen op AI-toepassingen voor kinderen. Details over de reikwijdte ontbreken in de beschikbare bron.",
+      "url": "https://www.theguardian.com/us-news/2026/nov/25/new-york-bans-ai-toys",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-25T17:27:05Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "ethiek-en-risico"
+      ],
+      "importance": 3,
+      "why_relevant": "Signaal voor ouders en mediawijsheidsvragen over AI en kinderen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "83e41de8930fbdc9d1a4b602e49a774b9ce0c83b4924ab71100e6ae95d8c6573",
+      "title": "42 Amerikaanse procureurs-generaal willen verkoop van Character.AI-chats stoppen",
+      "summary": "Een coalitie van 42 staten probeert te voorkomen dat Character.AI tijdens zijn faillissement de chatgeschiedenis van ruim 21 miljoen accounts verkoopt, onder wie ruim 2,1 miljoen minderjarigen. Het bedrijf vroeg in oktober faillissement aan na jaren van schandalen en rechtszaken. Disney kocht eerder een deel van de bedrijfsmiddelen.",
+      "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-26T04:54:40-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "beleid-en-regelgeving",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Illustreert privacyrisico's van chatbots die je aan bezoekers kunt uitleggen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "46b702f777ef9f10186e53a7d3a53be08df6fe4344534eba2bd74142174a6d64",
+      "title": "DIVD-hack toont hoe snel een AI-agent een netwerk overneemt",
+      "summary": "Het Dutch Institute for Vulnerability Disclosure werd in september aangevallen met het AI-framework Artex, dat via twee zero-days in Zammad binnen 1,3 seconde een beheerderssessie overnam. In 26 uur schreef de agent bijna duizend scripts en kwamen onder meer tienduizenden e-mailadressen en enkele persoonsgegevens in handen van de aanvaller. DIVD en Merlon publiceren het volledige forensische rapport.",
+      "url": "https://www.computable.nl/2026/11/26/divd-hack-toont-hoe-snel-ai-agent-netwerk-overneemt-13-seconde/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-11-26T06:00:00+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "ethiek-en-risico",
+        "onderzoek"
+      ],
+      "importance": 3,
+      "why_relevant": "Toont dat AI-gestuurde aanvallen ook Nederlandse organisaties raken, relevant voor bibliotheekbeveiliging.",
+      "also_covered_by": [
+        "https://tweakers.net/nieuws/254928/divd-vermoedt-dat-ai-tool-artex-werd-gebruikt-bij-hack-op-collectief.html"
+      ]
+    },
+    {
+      "id": "9d51f2621005100f5806756acdbe9d689efe379aeb84169cd465cfa5c42df33b",
+      "title": "AI-gebruik door bedrijven verdubbeld, inhaalslag bij mkb",
+      "summary": "Volgens het CBS gebruikt 41% van de Nederlandse bedrijven AI, tegen 18% een jaar eerder. De groei is het sterkst bij het mkb en AI wordt vooral ingezet voor marketing, verkoop en administratie. Van de zzp'ers gebruikt 60% het ook.",
+      "url": "https://nos.nl/l/2641047",
+      "source_name": "NOS Tech",
+      "source_type": "rss",
+      "published": "2026-11-26T06:53:10+01:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "onderzoek",
+        "bedrijven",
+        "arbeidsmarkt"
+      ],
+      "importance": 3,
+      "why_relevant": "Laat zien hoeveel AI-vragen van ondernemers en werkzoekenden u kunt verwachten.",
+      "also_covered_by": [
+        "https://tweakers.net/nieuws/254958/ai-gebruik-bij-nederlandse-bedrijven-verdubbelt-in-een-jaar-naar-41-procent.html"
+      ]
+    },
+    {
+      "id": "f22ea938643b4dd06f68f9c9b4cc8af14f48fb7797461b8ebfed82075b42a0f4",
+      "title": "Vijf manieren waarop bibliotheken sociale cohesie versterken als third place",
+      "summary": "Op basis van een keynote van Matthijs Uyterlinde (Verwey-Jonker Instituut) geeft Probiblio vijf inzichten over sociale cohesie in de bibliotheek. Cohesie ontstaat ook door lichte, alledaagse ontmoetingen, en ontwerp en programmering spelen daarbij een grote rol.",
+      "url": "https://www.probiblio.nl/5-manieren-waarop-bibliotheken-sociale-cohesie-versterken-als-third-place/",
+      "source_name": "Probiblio",
+      "source_type": "rss",
+      "published": "2026-11-26T08:06:00+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek",
+        "onderzoek"
+      ],
+      "importance": 3,
+      "why_relevant": "Concrete handvatten om de bibliotheek als ontmoetingsplek te versterken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "f60093b735366a15f6fabcf3895109c2011a717a8713079538e668ff35a1bf19",
+      "title": "Inlogproblemen op het nieuwe Bnetwerk? Zo los je ze op",
+      "summary": "Het nieuwe Bnetwerk is bijna een maand live en 1.900 van de 7.400 leden hebben ingelogd. Sommige collega's hebben problemen met inloggen, waarvoor de KB een uitleg heeft geschreven.",
+      "url": "https://www.bibliotheeknetwerk.nl/nieuws/heb-jij-inlogproblemen-op-het-nieuwe-bnetwerk",
+      "source_name": "Bibliotheeknetwerk (KB)",
+      "source_type": "rss",
+      "published": "2026-11-24T13:25:10+01:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek",
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Praktische hulp voor collega's die het sectorplatform niet op kunnen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "e0d965bae52b987512695e474859a5c4ccc7bbc71257ca3035ba8dc243bd4816",
+      "title": "Ars Live: aanvallen op datacenters zullen niet verdwijnen",
+      "summary": "Tijdens een gesprek met een onderzoeker van RUSI wordt uitgelegd waarom publieke clouddatacenters in 2026 militaire doelwitten zijn geworden, onder meer in de Iranoorlog en de oorlog in Oekraïne. Omdat legers cloudcapaciteit gebruiken, kunnen civiele datacenters als militair doelwit gelden.",
+      "url": "https://arstechnica.com/gadgets/2026/11/ars-live-recap-dont-expect-military-attacks-on-data-centers-to-stop/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-11-25T16:47:14+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Achtergrond over kwetsbaarheid van de cloud-infrastructuur waar AI-diensten op draaien.",
+      "also_covered_by": []
+    },
+    {
+      "id": "f0e58bd708ddeef423b3bd4c3f08d51e823135cd692da6fed40cb0efc5d8fe5c",
+      "title": "Googles patent voor gepersonaliseerde AI-videofeeds roept zorgen op",
+      "summary": "Google diende een patent in voor 'My Channel', een feed met AI-gegenereerde video's en advertenties op basis van demografie en kijkgedrag. Het patent is afgewezen, maar Google kan in beroep gaan of een aangepaste versie indienen.",
+      "url": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-25T16:51:26-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Raakt aan mediawijsheid: gepersonaliseerde AI-content en advertenties.",
+      "also_covered_by": []
+    },
+    {
+      "id": "6c53605d8cb6d1e4156c22d2a5d4d4ba92ed43730ea95fe60108994bb69985e0",
+      "title": "Datacenters zorgen voor een aardgasboom in de VS",
+      "summary": "De groei van AI-datacenters leidt in de VS tot veel nieuwe aardgascentrales. Bij het Meta-datacenter in Louisiana steeg het aantal geplande centrales van drie naar tien. Ontwikkelaars kijken bovendien naar eigen gascentrales buiten het elektriciteitsnet.",
+      "url": "https://www.technologyreview.com/2026/11/25/1149836/data-centers-gas-power-plants/",
+      "source_name": "MIT Technology Review — AI",
+      "source_type": "rss",
+      "published": "2026-11-25T17:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Geeft context bij de milieukosten van AI in gesprekken met bezoekers.",
+      "also_covered_by": [
+        "https://www.technologyreview.com/2026/11/26/1149934/the-download-better-bionic-hands-ai-natural-gas-boom/"
+      ]
+    },
+    {
+      "id": "9dc01b6ea2baec9bd31632dc33c243dbd49a92c635bf3399c6e5d2a64e64d5c3",
+      "title": "Etsy verduidelijkt AI-voorwaarden na protest van verkopers",
+      "summary": "Etsy kreeg kritiek omdat nieuwe voorwaarden leken toe te staan dat het bedrijf AI traint op werk van verkopers. CEO Kruti Patel Goyal erkent dat de uitleg beter had gemoeten en zegt dat Etsy geen modellen traint om kopieën van producten te maken.",
+      "url": "https://arstechnica.com/tech-policy/2026/11/etsy-clarifies-ai-terms-after-seller-backlash/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-11-25T17:12:57+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van de discussie over AI-training op werk van makers.",
+      "also_covered_by": []
+    },
+    {
+      "id": "7aa5d035f1a50c696ab2a918472068a0e783226e16965341e065915e439bc04c",
+      "title": "FCC staat SpaceX toe een miljoen satellieten als orbitale datacenters te lanceren",
+      "summary": "De Amerikaanse toezichthouder FCC heeft SpaceX voorwaardelijke toestemming gegeven voor een constellatie van maximaal een miljoen Starmind-satellieten die als orbitale datacenters moeten dienen. Dat zou het aantal satellieten in een baan om de aarde ruwweg vijftigvoudigen.",
+      "url": "https://arstechnica.com/space/2026/11/the-fcc-has-authorized-spacex-to-deploy-1-million-satellites/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-11-25T18:22:38+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "beleid-en-regelgeving",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont de schaal van infrastructuurplannen voor AI-rekenkracht.",
+      "also_covered_by": []
+    },
+    {
+      "id": "88bd06d7e0e9b82f43a3c7b49740216e6a1dfae7affc60d91ec0a4415c5ccb91",
+      "title": "Waar wetenschappers de grens trekken bij AI-agents",
+      "summary": "Het Allen Institute for AI deelt op de Hugging Face-blog hoe wetenschappers denken over de taken die AI-agents wel of niet mogen uitvoeren in onderzoek.",
+      "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "source_name": "Hugging Face",
+      "source_type": "rss",
+      "published": "2026-11-25T18:52:55+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Relevant voor bibliotheken die onderzoekers en studenten ondersteunen bij AI-gebruik.",
+      "also_covered_by": []
+    },
+    {
+      "id": "e0db27b644559ae6fb0f46b7ac78ccd756eaf1d04a11878e4cea029b686c483d",
+      "title": "New York Times waarschuwt fotografen Photoshop niet te updaten vanwege AI-functies",
+      "summary": "Volgens The Verge raadt de New York Times fotografen af Photoshop bij te werken vanwege de AI-functies. Het laat zien hoe zorgen over AI-bewerking en de echtheid van beeld de journalistiek raken.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-25T21:18:02Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Raakt aan betrouwbaarheid van beeld, een thema voor mediawijsheid.",
+      "also_covered_by": []
+    },
+    {
+      "id": "b7e61b17a9c555ce729a76ab192c359d6fe8e5d1d1af3070ee4ff2d9c0bd6442",
+      "title": "MCP-servers kunnen nu AI-agentvaardigheden leveren",
+      "summary": "Anthropic voegt in publieke beta ondersteuning toe voor Skills via MCP in Claude en Claude Code, twee jaar na de introductie van het Model Context Protocol. Dat verandert wat organisaties goedkeuren wanneer ze een MCP-server koppelen.",
+      "url": "https://venturebeat.com/technology/mcp-servers-can-now-deliver-ai-agent-skills-changing-what-companies-approve-when-they-connect-one",
+      "source_name": "VentureBeat AI",
+      "source_type": "rss",
+      "published": "2026-11-25T23:04:19+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Technische ontwikkeling in agenttooling; vooral relevant als je AI-diensten laat koppelen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "3c53fbfc405d080f0b262faedbaede80b9004a3e81fc673b56aadb152d45e2a0",
+      "title": "Scott Aaronson over AI en een nieuw continent van wiskundige waarheid",
+      "summary": "Informaticus Scott Aaronson vergelijkt de komst van AI in de wiskunde met de eerste blik door een microscoop of telescoop. Hij verwacht niet losse antwoorden, maar een heel nieuw gebied van wiskundige inzichten. Simon Willison citeert hem.",
+      "url": "https://simonwillison.net/2026/Nov/25/scott-aaronson/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-11-25T23:26:32+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek"
+      ],
+      "importance": 2,
+      "why_relevant": "Illustreert hoe hoog de verwachtingen van AI in wetenschap zijn.",
+      "also_covered_by": []
+    },
+    {
+      "id": "7f84b59f4f866bc8d0969c1b677c16fff383f7628f1a9e722a94f4246429f73d",
+      "title": "GPT-6.2-gebruikers bereiken limiet sneller na hersteld factureringsfout",
+      "summary": "OpenAI maakte bij de lancering van GPT-6.2 Sol en Astra een factureringsfout, waardoor gebruikers de modellen meer konden gebruiken dan bedoeld. Na het herstel bereiken gebruikers hun limiet tot 40% sneller.",
+      "url": "https://tweakers.net/nieuws/254954/gpt-62-gebruikers-bereiken-limiet-tot-40-procent-sneller-na-herstelde-fout.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-11-26T11:38:05+01:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "modellen",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Goed om te weten als bezoekers of collega's tegen limieten aanlopen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "90967984df6aca2ab4c646273c5211043e91f667033822e37e1d974edd42205c",
+      "title": "Miljoen datacenters in de ruimte van SpaceX: experts twijfelen aan veiligheid",
+      "summary": "De Amerikaanse toezichthouder FCC heeft SpaceX toestemming gegeven voor Starmind, een netwerk van een miljoen satellieten met datacenters voor AI. Satellietdeskundige Marco Langbroek van de TU Delft waarschuwt voor botsingsrisico's, omdat het huidige volgsysteem de bestaande satellieten al moeilijk bijhoudt.",
+      "url": "https://nos.nl/l/2641100",
+      "source_name": "NOS Tech",
+      "source_type": "rss",
+      "published": "2026-11-26T12:49:27+01:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "bedrijven",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont de enorme infrastructuur die AI-groei volgens bedrijven nodig heeft.",
+      "also_covered_by": [
+        "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/7vxkucfv8nsjm9l7ajn0equwpnbmbma6mtttd3p6.html"
+      ]
+    },
+    {
+      "id": "50bf3d47d64b8391acf56619a6a758be46bb5d0b92414df6d27f7960d0e83b3d",
+      "title": "Rapportagetags in Olifantenpaadje besparen tijd bij Wsob-rapportage",
+      "summary": "BIJ de bieb voegde tags toe aan Olifantenpaadje, één per wettelijke kernfunctie en een extra voor community-activiteiten. Zo kunnen medewerkers activiteiten eenduidig registreren en kan de bibliotheek gerichter filteren voor de Wsob-rapportage. Alle teams kregen hiervoor training.",
+      "url": "https://www.rijnbrink.nl/actueel/nieuws/rapportagetags-zo-win-je-tijd-bij-de-wsob-rapportage/",
+      "source_name": "Rijnbrink",
+      "source_type": "rss",
+      "published": "2026-11-26T14:07:54+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek",
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Praktische werkwijze voor bibliotheken die hun activiteiten registreren en verantwoorden.",
+      "also_covered_by": []
+    },
+    {
+      "id": "9685432920849ecf90c70b30aa0f7de554eaf033009ef2bdbefa8b13adf02776",
+      "title": "datasette-charts 0.3a0 voegt annotaties aan grafieken toe",
+      "summary": "De nieuwe alfaversie van datasette-charts kan grafieken voorzien van lijnen, gearceerde vlakken en labels. Met Datasette Agent kan een AI-agent zulke grafieken ook zelf bouwen.",
+      "url": "https://simonwillison.net/2026/Nov/25/datasette-charts/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-11-25T18:16:50+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "open-source"
+      ],
+      "importance": 1,
+      "why_relevant": "Handig voor wie open data visualiseert, maar zeer specialistisch.",
+      "also_covered_by": []
+    },
+    {
+      "id": "78a2de901a3f77aa53ab3ba131764738a6fec4feee4aa4631fa2977ecc38327d",
+      "title": "Backblaze legt uit waarom het klantgegevens met adverteerders deelt",
+      "summary": "Klanten maken zich zorgen over het nieuwe privacybeleid van Backblaze, dat volgende maand ingaat en verkoop van bepaalde persoonsgegevens aan adverteerders toestaat. Het bedrijf legt uit waarom het die stap zet.",
+      "url": "https://arstechnica.com/information-technology/2026/11/backblaze-explains-why-its-sharing-customer-information-with-advertisers/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-11-25T18:38:29+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "bedrijven"
+      ],
+      "importance": 1,
+      "why_relevant": "Voorbeeld van privacyrisico's bij clouddiensten, bruikbaar in voorlichting.",
+      "also_covered_by": []
+    },
+    {
+      "id": "8971bf895bd5c2543d932f7d12b9795019c82040424c41900c5eecb98ec473cc",
+      "title": "35 miljard Opus 5.5-tokens besteed aan het schrijven van een symfonie",
+      "summary": "Dan Price beschrijft op zijn blog hoe hij met 35 miljard tokens van Opus 5.5 een symfonie liet schrijven. Het is een experiment met creatief werk door een taalmodel op grote schaal.",
+      "url": "https://danprice.ai/blog/opus-symphony",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-25T19:57:08Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "onderzoek"
+      ],
+      "importance": 1,
+      "why_relevant": "Prikkelend voorbeeld van AI in creatief werk voor gesprekken met bezoekers.",
+      "also_covered_by": []
+    },
+    {
+      "id": "e2dddde7b7e1bafa0edaaa80e0c711ca221d2862ca358c80330953bad873e6d9",
+      "title": "Zoekalternatief Kagi lanceert e-maildienst en agenda",
+      "summary": "Kagi, bekend van een betaalde zoekmachine, heeft Kagi Mail in openbare bèta gelanceerd, met een agenda erbij. De dienst belooft privacy en controle, en heeft optionele AI-functies die standaard uitstaan.",
+      "url": "https://arstechnica.com/gadgets/2026/11/google-search-alternative-kagi-launches-gmail-rival/",
+      "source_name": "Ars Technica AI",
+      "source_type": "rss",
+      "published": "2026-11-25T20:57:09+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 1,
+      "why_relevant": "Privacyvriendelijk alternatief voor Gmail om te noemen in digitale-vaardigheidscursussen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "819f2bb8e324e5e7f3ab174fd75a2e35e495da76ab1ed0dc431b91e93d876cbf",
+      "title": "Zwermen en groepen: multi-agentsystemen bouwen, trainen en evalueren",
+      "summary": "Hugging Face publiceert een gids over het bouwen, trainen en evalueren van systemen waarin meerdere AI-agents samenwerken.",
+      "url": "https://huggingface.co/blog/training-swarms",
+      "source_name": "Hugging Face",
+      "source_type": "rss",
+      "published": "2026-11-26T00:00:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "tools"
+      ],
+      "importance": 1,
+      "why_relevant": "Technische achtergrond bij de opkomst van agentsystemen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "3d2697b636d74b834fc0e7341d4d275b2177cb68cfa6554cf0431f54189d28f2",
+      "title": "Verder bouwen op Nemotron 3.5 Parse: open data, finetuning en snellere inferentie",
+      "summary": "NVIDIA beschrijft op de Hugging Face-blog hoe ontwikkelaars kunnen voortbouwen op het documentparsingmodel Nemotron 3.5 Parse, met open data, finetuning en snellere inferentie.",
+      "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+      "source_name": "Hugging Face",
+      "source_type": "rss",
+      "published": "2026-11-26T05:05:36+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "open-source"
+      ],
+      "importance": 1,
+      "why_relevant": "Documentparsing kan interessant zijn voor het digitaliseren van collecties.",
+      "also_covered_by": []
+    },
+    {
+      "id": "d44a29290b4311e2732a912eea738dddef836a986ffb101b74205cc9cd854b02",
+      "title": "sqlite3_rsync: tool om SQLite-databases op afstand te kopiëren",
+      "summary": "Simon Willison wijst op een eigenschap van sqlite3_rsync: het kopieert een momentopname van een SQLite-database via SSH zonder eerst een volledige lokale kopie te maken. Ook bestaande kopieën kunnen worden gesynchroniseerd zonder alles opnieuw te versturen. Dat helpt vooral bij weinig schijfruimte.",
+      "url": "https://simonwillison.net/2026/Nov/26/sqlite3-rsync/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-11-26T06:08:25+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "open-source"
+      ],
+      "importance": 1,
+      "why_relevant": "Technisch randnieuws, nauwelijks relevant voor bibliotheekmedewerkers die AI volgen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "615501b9b2e3c9398407314db855f95cd19efcf6a7bbc4293981e28854eda4d7",
+      "title": "Canonical brengt in januari AI-launcher voor Ubuntu uit",
+      "summary": "Canonical lanceert in januari de Warty-launcher voor Ubuntu, aangedreven door AI. Volgens ontwikkelaar Didier Roche biedt die een nieuwe manier om met de desktop te werken.",
+      "url": "https://tweakers.net/nieuws/254944/canonical-brengt-in-januari-ai-launcher-voor-ubuntu-uit.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-11-26T08:05:58+01:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "tools",
+        "open-source"
+      ],
+      "importance": 1,
+      "why_relevant": "Relevant als uw bibliotheek Linux-computers voor publiek gebruikt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "9a36b64e1e928bff59aaf22fe89d0ecb8463c9f99c958b78a4701e2ab2e56f2e",
+      "title": "Google verplicht AI-agents tot MCP-servers; die van Gmail kan geen e-mail versturen",
+      "summary": "Volgens een artikel van TechStackups wil Google dat AI-agents zijn MCP-servers gebruiken voor Workspace. De Gmail-variant kan echter geen e-mail versturen, wat de bruikbaarheid beperkt.",
+      "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-26T09:44:23Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 1,
+      "why_relevant": "Technisch detail over agent-integraties, beperkt belang voor bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "3b7193e172c75848e6f2695eb0ce3d7cde3906600bf3eaa2dcaa0005bf22c0d7",
+      "title": "Nieuwe generatie bionische handen kan voelen",
+      "summary": "Avi Davidson draagt een experimentele prothese die met zenuwen in zijn onderarm is verbonden, waardoor hij druk kan voelen. Hij is de negende deelnemer aan de klinische studie van de University of Utah en de eerste die het apparaat thuis zelfstandig gebruikt. Onderzoekers willen zo zien hoe nuttig de techniek in het dagelijks leven is.",
+      "url": "https://www.technologyreview.com/2026/11/26/1149923/the-next-generation-of-bionic-hands-is-here-and-they-can-feel/",
+      "source_name": "MIT Technology Review — AI",
+      "source_type": "rss",
+      "published": "2026-11-26T09:59:00+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws over medische techniek, weinig directe link met bibliotheekwerk.",
+      "also_covered_by": [
+        "https://www.technologyreview.com/2026/11/26/1149934/the-download-better-bionic-hands-ai-natural-gas-boom/"
+      ]
+    },
+    {
+      "id": "b09b9b41942f1f822590f6fcd79c6236aab235232915c40e084e4d18154ecce3",
+      "title": "dbt Evals, LinkedIns browseragent en contextengineering bij Salesforce",
+      "summary": "De nieuwsbrief behandelt dbt Evals, een raamwerk om antwoorden van analyse-agents te toetsen met SQL-tests. LinkedIn bouwde een interne agent die in de Chrome-sessies van medewerkers werkt. Ook beschrijft Salesforce hoe het context engineering aanpakt.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/vo94lfjulha2cnmm8qy50ou34k2naztkh09s91az.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-11-26T11:29:16+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 1,
+      "why_relevant": "Technische achtergrond over agents, weinig toepasbaar voor bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "a734da9d3a1d876054f86e6e92e632f9c2a091a208fef8a96dd4cc4467d6055b",
+      "title": "Benchmarkdashboard voor llama.cpp op AMD Ryzen en Radeon",
+      "summary": "Hugging Face introduceert een dashboard met benchmarks van llama.cpp op AMD Ryzen- en Radeon-hardware. Zo is te vergelijken hoe goed lokale taalmodellen op deze chips draaien.",
+      "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "source_name": "Hugging Face",
+      "source_type": "rss",
+      "published": "2026-11-26T11:37:17+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "open-source"
+      ],
+      "importance": 1,
+      "why_relevant": "Nuttig als u overweegt lokale AI op bibliotheekcomputers te draaien.",
+      "also_covered_by": []
+    },
+    {
+      "id": "f72476ef5e375e288069963887a046f6518a2818cd118860025bb0c1d5bdf846",
+      "title": "Zwerm van 1.000 AI-agents bouwt chatbot; Anthropic migreert API naar Rust",
+      "summary": "Hugging Face liet negen dagen lang een zwerm van 1.000 DeepSeek-agents werken aan PyBot, een Python-chatbot die op gewone gesprekken SmolLM-360M evenaarde. Anthropic beschrijft daarnaast de migratie van zijn Messages API van Python naar Rust.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/4lfazqx9stzsf9tff94ba1r9cvmalhcmshe05ncm.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-11-26T12:38:47+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "tools"
+      ],
+      "importance": 1,
+      "why_relevant": "Technische achtergrond over agents, beperkt praktisch voor bibliotheekwerk.",
+      "also_covered_by": []
+    },
+    {
+      "id": "6e96974a9c94647be18a3d20eb3ffd215133cf34ae07d0160f0d6d3ce65a2e28",
+      "title": "Google Flow maakt videoclips tot 15 seconden met Gemini Omni 1.2",
+      "summary": "Google heeft zijn AI-videotool Flow bijgewerkt, zodat gebruikers clips tot 15 seconden kunnen maken en bestaande clips kunnen verlengen. Gratis gebruikers krijgen 50 dagelijkse credits, betalende gebruikers meer opties.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/6kq5xejm1ed5rku4uzkcm4boouuftngkzakln8uz.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-11-26T13:27:11+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "modellen"
+      ],
+      "importance": 1,
+      "why_relevant": "Laat zien hoe laagdrempelig AI-video wordt, relevant voor mediawijsheid.",
+      "also_covered_by": []
+    },
+    {
+      "id": "d20868d2edf648efb8c9ee752fd30268294f2ce8cad3c9ac358b484740c9e0f6",
+      "title": "Steeds meer deployments komen van AI-agents",
+      "summary": "Volgens Fly.io komt minstens 55% van de deployments inmiddels van AI-agents en het bedrijf biedt agents daarom een eigen aanmeldroute. Daarnaast speculeert de nieuwsbrief over een toekomst waarin agents namens klanten inkopen doen.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/94ngqnz5yaq15fq9rcbz3vyl7y2u769102142iao.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-11-26T13:33:42+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "bedrijven"
+      ],
+      "importance": 1,
+      "why_relevant": "Laat zien dat AI-agents zelfstandig diensten gaan gebruiken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "f4f92df5ef342046512b6e70f79a204da8a06286a91bdbd83891e752b281ce5c",
+      "title": "Rackspace stopt Spot na datalek en HPE-aandeel daalt door AI-marges",
+      "summary": "Rackspace stopt op 8 december met de Kubernetes-dienst Spot na een beveiligingsincident. HPE-aandelen daalden ongeveer 16% doordat de marges onder druk staan, ondanks sterke vraag naar AI-servers.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/2zhabbkvlr91svnvyamb7dvnzog8llthyd55nobm.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-11-26T13:51:54+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 1,
+      "why_relevant": "Achtergrond over de AI-hardwaremarkt, weinig direct nut voor bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "dabe5cbe5264a0005bb000b22a2e1bac08e15cccd31d62628591725ad9e61f0c",
+      "title": "Beveiligingsincidenten bij 1Password en Todoist",
+      "summary": "Bij 1Password nam een aanvaller een GitHub-account van een medewerker over en haalde gegevens van een deel van de gebruikers op, maar de kluizen bleven veilig. Todoist meldt dat bij ongeveer 6% van de gebruikers e-mailadressen en gehashte wachtwoorden zijn buitgemaakt.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/nfrs023sxe6y1rrbd2p3t5muhbfwbck6dwe371fg.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-11-26T14:30:51+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "bedrijven"
+      ],
+      "importance": 1,
+      "why_relevant": "Bruikbaar voorbeeld bij workshops over wachtwoorden en digitale veiligheid.",
+      "also_covered_by": []
+    }
+  ]
+}
