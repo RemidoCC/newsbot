@@ -1,0 +1,421 @@
+{
+  "date": "2026-11-27",
+  "generated_at": "2026-11-27T14:33:55+00:00",
+  "stats": {
+    "batches": 2,
+    "onleesbaar": 0,
+    "objecten": 56,
+    "schema_fout": 0,
+    "onbekend_id": 0,
+    "gedropt": 34,
+    "geldig": 22,
+    "ai": 9,
+    "bieb": 13
+  },
+  "sources": [
+    "Bibliotheekblad",
+    "Bits of Freedom",
+    "Computable",
+    "Hacker News",
+    "IFLA",
+    "Infodocket",
+    "Rijnbrink",
+    "Simon Willison",
+    "TLDR AI",
+    "The Verge AI",
+    "Tweakers"
+  ],
+  "items": [
+    {
+      "id": "8a9d898b25d10682d78ef74a9367ce0bf3cb99f24c9f4802af4de62a153c319f",
+      "title": "Anthropic test mogelijk Claude Opus 5.6; OpenAI test Private Inference",
+      "summary": "Volgens berichten op X test Anthropic mogelijk een nieuw model, Claude Opus 5.6, met gebruikers. Sommigen noemen het een flinke stap vooruit ten opzichte van Opus 5.5. OpenAI test intussen Private Inference met een kleine groep klanten, als onderdeel van het aanbod Private Intelligence.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/amv9535cu9ax6frod8nhyi2s8q1dhnzrs2p8rs56.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-11-26T14:58:20+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "bedrijven"
+      ],
+      "importance": 3,
+      "why_relevant": "Nieuwe modellen en privacyopties bepalen welke AI-tools bibliotheken straks kunnen inzetten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "bff5d79adedf34e1e1d258a234a43121a01f6ae0a2e3b8765b51affbf3315cda",
+      "title": "Bibliotheek Midden-Brabant bereikt 55-plussers met papieren Digikrant",
+      "summary": "Bibliotheek Midden-Brabant bezorgde tijdens de Week van Digitaal Meedoen een papieren krant van acht pagina's bij veel 55-plussers. Daarin staan verhalen van cursisten en vrijwilligers en een overzicht van het aanbod voor digitale vaardigheden in de zes gemeenten. Zo worden mensen bereikt die niet online naar zulke hulp zoeken.",
+      "url": "https://bibliotheekblad.nl/bibliotheek-midden-brabant-bereikt-55-plussers-met-papieren-digikrant/",
+      "source_name": "Bibliotheekblad",
+      "source_type": "rss",
+      "published": "2026-11-26T15:30:00+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "digitale-inclusie",
+        "digitale-geletterdheid",
+        "bibliotheek"
+      ],
+      "importance": 3,
+      "why_relevant": "Praktisch voorbeeld van het bereiken van offline doelgroepen voor digitale vaardigheden.",
+      "also_covered_by": []
+    },
+    {
+      "id": "1f7a21af501f6d5f5c97262dc19d2e222eecb4d3b6dbbee0f03ba4390a33b871",
+      "title": "PL2030-factsheets 2025 beschikbaar voor 22 Europese landen",
+      "summary": "De nieuwe PL2030-factsheets bevatten per land kerncijfers over openbare bibliotheken. Daarnaast laten ze met Eurobarometer-data zien waar mensen hun nieuws vandaan halen en hoe vaak ze desinformatie tegenkomen. Zo wordt de rol van bibliotheken bij informatievaardigheden onderbouwd.",
+      "url": "https://www.infodocket.com/2026/11/26/public-libraries-and-information-2025-factsheets-now-available-for-22-european-nations/",
+      "source_name": "Infodocket",
+      "source_type": "rss",
+      "published": "2026-11-26T17:15:23+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "digitale-geletterdheid",
+        "bibliotheek"
+      ],
+      "importance": 3,
+      "why_relevant": "Bruikbare cijfers om het belang van informatievaardigheden en bibliotheken te onderbouwen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "c232448d92294d2645a4b7b9279c913816cb142b38eea53643c5f057e0a5483a",
+      "title": "Nvidia legt leveringen van AI-chips aan Zuidoost-Azië stil",
+      "summary": "Volgens ingewijden die de Financial Times citeert, pauzeert Nvidia de levering van AI-chips aan Zuidoost-Azië. Het bedrijf volgt daarmee het Amerikaanse exportbeleid, dat moet voorkomen dat Chinese bedrijven toegang krijgen tot de chips. Het laat zien hoe geopolitiek de AI-infrastructuur beïnvloedt.",
+      "url": "https://tweakers.net/nieuws/254978/nvidia-legt-leveringen-ai-chips-aan-zuidoost-azie-stil.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-11-26T19:27:42+01:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 3,
+      "why_relevant": "Geeft inzicht in geopolitieke beperkingen op de beschikbaarheid van AI-hardware.",
+      "also_covered_by": [
+        "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/uuo0yydt3ee2bclsh7a1hltuu7gqdyhmu327ad0e.html",
+        "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/r1mw0lshap1geukrjnkinhhpnftb2ab9tqb1wntq.html"
+      ]
+    },
+    {
+      "id": "305e62040e8a734e17a1846ad4df4ef6e70f05bb65b90b916514e647ce502f90",
+      "title": "AI-agents sturen deels de rekenkracht voor Gemini-experimenten van DeepMind aan",
+      "summary": "Bij DeepMind beheren AI-agents nu een deel van de rekenkracht die wordt gebruikt voor experimenten met Gemini. Volgens The Decoder is recursieve zelfverbetering van AI daarmee nog niet in zicht. De inhoud is hier alleen uit de kop afgeleid.",
+      "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-27T00:03:18Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "onderzoek"
+      ],
+      "importance": 3,
+      "why_relevant": "Laat zien hoe autonoom AI-systemen in de ontwikkeling zelf al worden ingezet.",
+      "also_covered_by": []
+    },
+    {
+      "id": "ecd18de0a578ef6db59f785c802fe61219f66684fcdd12eb5f7883288aa063a3",
+      "title": "De Bieb voor de Zaanstreek werkt samen met Counter aan taalontwikkeling en introduceert voorleeskaarten",
+      "summary": "De Bieb voor de Zaanstreek en communicatiebureau Counter willen voorlezen en taalontwikkeling bij gezinnen stimuleren. Vijftig exemplaren van het prentenboek Alfabet gaan naar gezinnen in het programma Voorlezen Thuis. Vrijwilligers krijgen ook nieuwe voorleeskaarten als hulpmiddel.",
+      "url": "https://bibliotheekblad.nl/de-bieb-voor-de-zaanstreek-werkt-samen-met-counter-aan-taalontwikkeling-en-introduceert-voorleeskaarten/",
+      "source_name": "Bibliotheekblad",
+      "source_type": "rss",
+      "published": "2026-11-26T09:01:00+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van een lokale samenwerking rond voorlezen en taalontwikkeling.",
+      "also_covered_by": []
+    },
+    {
+      "id": "3f2ac8b96c4cabdd559c2fe9c106f780008e399fdbd2db39119621b2ae01823c",
+      "title": "Achter de balie: wat een landelijk onderzoek zegt over bibliotheekpersoneel in Spanje",
+      "summary": "Een rapport van het Spaanse ministerie van Cultuur is gebaseerd op een enquête onder 2.604 bibliotheekmedewerkers. Het toont dat 90 procent een universitaire opleiding heeft, maar dat functieniveau en werkelijke taken vaak niet overeenkomen, vooral in gemeentelijke bibliotheken. Ook is er veel behoefte aan bijscholing.",
+      "url": "https://www.ifla.org/news/behind-the-counter-what-a-national-survey-reveals-about-public-library-staff-in-spain/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-11-26T11:22:40+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "onderzoek",
+        "arbeidsmarkt",
+        "bibliotheek"
+      ],
+      "importance": 2,
+      "why_relevant": "Biedt vergelijkingsmateriaal over opleiding en functieniveau van bibliotheekmedewerkers.",
+      "also_covered_by": []
+    },
+    {
+      "id": "5fd5c9e40c2c66986a9a6c7589f0111e214edc7e508c95223c4d08d1cefa7879",
+      "title": "Wat Nederlandse bibliotheken kunnen leren van Denemarken over democratie en burgerschap",
+      "summary": "Probiblio bezocht met een Erasmus+-subsidie maatschappelijke organisaties in Aarhus, Kopenhagen en Roskilde. De belangrijkste lessen zijn onder meer het gebruiken van hyperlokale thema's, beweging als hulpmiddel en duidelijke communicatie over doel en mandaat. Zo worden programma's toegankelijker voor iedereen.",
+      "url": "https://bibliotheekblad.nl/wat-kunnen-nederlandse-bibliotheken-leren-van-denemarken-als-het-gaat-om-democratie-en-burgerschap/",
+      "source_name": "Bibliotheekblad",
+      "source_type": "rss",
+      "published": "2026-11-26T15:00:00+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek",
+        "onderzoek"
+      ],
+      "importance": 2,
+      "why_relevant": "Concrete tips voor het programmeren rond democratie en burgerschap in jouw bibliotheek.",
+      "also_covered_by": []
+    },
+    {
+      "id": "49bfc557a6f26928a21ed2b2dc37caebb5baefc9d91b2598ef6b22d160180c3f",
+      "title": "Blog: het prentenboek als motor voor alle facetten van geletterdheid",
+      "summary": "Een taalkundig onderwijsspecialist pleit ervoor laaggeletterdheid vroeg aan te pakken bij kinderen van 0 tot 7 jaar. Nog steeds loopt één op de tien kinderen risico laaggeletterd van de basisschool te komen. Prentenboeken vormen volgens haar de basis voor taal en begrip.",
+      "url": "https://bibliotheekblad.nl/blog-het-prentenboek-als-motor-om-alle-facetten-van-geletterdheid-te-stimuleren/",
+      "source_name": "Bibliotheekblad",
+      "source_type": "rss",
+      "published": "2026-11-26T15:09:00+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "onderwijs",
+        "bibliotheek"
+      ],
+      "importance": 2,
+      "why_relevant": "Raakt aan de leesbevordering en voorlees-taak van bibliotheken voor jonge kinderen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "35215dafdca5a35c19bce572e5a646ab48432aa9b9d959b74b497500f8854fc3",
+      "title": "Van transport tot titelbeheer: een kijkje achter de schermen bij de Rijnbrink-Expeditie",
+      "summary": "Negen vrijwilligers en twee medewerkers van Bibliotheek Twello bezochten Rijnbrink in Deventer om te zien wat er met een boek gebeurt nadat het in de rode krat verdwijnt. Rijnbrink verzorgt het boekentransport voor 218 bibliotheken in Gelderland en Overijssel. Het bezoek maakte de logistiek achter de bibliotheeklocaties zichtbaar voor het personeel.",
+      "url": "https://www.rijnbrink.nl/actueel/nieuws/van-transport-tot-titelbeheer-een-kijkje-achter-de-schermen-bij-de-rijnbrink-expeditie/",
+      "source_name": "Rijnbrink",
+      "source_type": "rss",
+      "published": "2026-11-26T15:36:24+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat zien hoe de logistiek achter het bibliotheeknetwerk werkt.",
+      "also_covered_by": []
+    },
+    {
+      "id": "f28ce75e0bcb61b711105b2ca13e493d46a68e5d2d5ae96057739dd3a0905747",
+      "title": "Gluurbrillen: privacyrisico's van slimme brillen van Meta",
+      "summary": "In deze podcast van Bits of Freedom gaat het over slimme brillen waarmee heimelijk gefilmd kan worden, ook in intieme ruimtes. Meta stak veel geld in promotie, de verkoop verdrievoudigde in 2025 en de brillen liggen sinds vorig jaar ook in Nederlandse winkels. Verder komen een alternatief social platform van Waag Futurelab en mislukte AI-afbeeldingen bij Just Eat aan bod.",
+      "url": "https://www.bitsoffreedom.nl/podcast/gluurbrillen/",
+      "source_name": "Bits of Freedom",
+      "source_type": "rss",
+      "published": "2026-11-27T05:00:22+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Privacyrisico's van slimme brillen kunnen vragen opleveren in een openbare bibliotheek.",
+      "also_covered_by": []
+    },
+    {
+      "id": "18a4dae7b8dda8aa6f58f9fb4c4fef023fd4924b7cdcdb2bfa7cc8260dec2fb2",
+      "title": "Politieacademie werkt aan slimme databank voor cold cases",
+      "summary": "De Politieacademie, Saxion en de Universiteit Twente bouwen een databank die politiedossiers, 3D-reconstructies van plaatsen delict, sensordata en open bronnen combineert. Op termijn moet AI daarmee de meest waarschijnlijke scenario's van een misdrijf kunnen laten zien. Het moet rechercheurs helpen bij het oplossen van oude moordzaken.",
+      "url": "https://www.computable.nl/2026/11/27/politieacademie-werkt-aan-slimme-databank-voor-cold-cases/",
+      "source_name": "Computable",
+      "source_type": "rss",
+      "published": "2026-11-27T06:00:00+00:00",
+      "channel": "ai",
+      "region": "nl",
+      "topics": [
+        "onderzoek",
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Nederlands voorbeeld van AI bij opsporing, bruikbaar in gesprekken over AI en privacy.",
+      "also_covered_by": []
+    },
+    {
+      "id": "803beb022f0e1d66989a2cbbaf4a75ab559ea26a1085186861814bf903ccf2ae",
+      "title": "Androids zelfgemaakte widgets: vibecoding als tijdverdrijf",
+      "summary": "Google introduceerde in het voorjaar Create My Widget, waarmee gebruikers met AI zelf widgets voor Android maken. De schrijver probeerde een widget voor bustijden te bouwen, wat niet lukte, maar vond het maken van andere widgets wel leuk. Het toont hoe ver AI-ondersteund programmeren voor gewone gebruikers al is.",
+      "url": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+      "source_name": "The Verge AI",
+      "source_type": "rss",
+      "published": "2026-11-27T09:00:00-05:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools"
+      ],
+      "importance": 2,
+      "why_relevant": "Voorbeeld van AI die burgers zelf apps laat bouwen, handig voor workshops.",
+      "also_covered_by": []
+    },
+    {
+      "id": "d8d17bbcab3be86c97413cb324c6af8088588c4a69f1ea2f899bba7b3f385bc8",
+      "title": "Laat de impact van je bibliotheek zien met de nieuwe IFLA-handleiding voor verhalen vertellen",
+      "summary": "IFLA heeft een volledig herziene handleiding uitgebracht over hoe bibliotheken hun bijdrage aan de duurzame ontwikkelingsdoelen kunnen beschrijven. Het gaat om praktische hulp bij het schrijven en delen van verhalen met onderbouwing. Zo wordt de maatschappelijke waarde van bibliotheken zichtbaarder voor beleidsmakers.",
+      "url": "https://www.ifla.org/news/show-your-librarys-impact-use-the-new-ifla-storytelling-manual/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-11-27T09:00:05+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "bibliotheek"
+      ],
+      "importance": 2,
+      "why_relevant": "Handig materiaal om de maatschappelijke waarde van jouw bibliotheek aan beleidsmakers te tonen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "8d3363766b4748dd466f89df3a8df863d0f41f19ff3ab369cb7087dc626fa209",
+      "title": "Wiskundigen met een Fields-medaille maken zich zorgen over de stilte rond AI en encryptie",
+      "summary": "Volgens The Times maken wiskundigen die de Fields-medaille wonnen zich zorgen over hoe weinig er wordt gesproken over de gevolgen van AI voor encryptie. Het artikel suggereert dat AI de online beveiliging kan ondermijnen. De inhoud is hier alleen uit de kop en url afgeleid.",
+      "url": "https://www.thetimes.com/uk/technology-uk/article/ai-making-online-security-useless-smr73d3n8",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-27T11:09:04Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico",
+        "onderzoek"
+      ],
+      "importance": 2,
+      "why_relevant": "Raakt aan online veiligheid, een thema voor digitale vaardigheden van bezoekers.",
+      "also_covered_by": []
+    },
+    {
+      "id": "d810ca16e633cd82000430a2913f53b390555e6f5300fb768583cb7ed2b660df",
+      "title": "IFLA-regiokantoren 2027-2029: gastheren bekendgemaakt",
+      "summary": "Het IFLA-bestuur heeft besloten welke instellingen de regiokantoren voor Azië-Oceanië, Latijns-Amerika, het Midden-Oosten en Noord-Afrika en Afrika bezuiden de Sahara gaan huisvesten. Deze kantoren fungeren als knooppunt voor leren, delen en contacten met partners. De nieuwe termijn begint in 2027.",
+      "url": "https://www.ifla.org/news/ifla-regional-offices-2027-2029-hosts-announced/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-11-25T08:00:23+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "bibliotheek"
+      ],
+      "importance": 1,
+      "why_relevant": "Organisatienieuws van IFLA met weinig directe gevolgen voor Nederlandse bibliotheken.",
+      "also_covered_by": []
+    },
+    {
+      "id": "83ff82ca09ba247d65a97fbd4e6e5158f7e4e55548bb8978058defc06aee395e",
+      "title": "Word lid van de IFLA-werkgroep Bibliotheekgeschiedenis: oproep voor de verkiezingen van 2027",
+      "summary": "De IFLA-werkgroep Library History zoekt nieuwe leden met historische expertise in de aanloop naar het eeuwfeest van IFLA. Kandidaten kunnen zich tot 9 december aanmelden voor de verkiezingen van 2027. De groep is in een fase van vernieuwing.",
+      "url": "https://www.ifla.org/news/join-the-ifla-library-history-sig-call-for-expression-of-interest-election-2027/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-11-25T16:37:47+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "bibliotheek"
+      ],
+      "importance": 1,
+      "why_relevant": "Randnieuws voor wie geïnteresseerd is in internationale bibliotheekgeschiedenis.",
+      "also_covered_by": []
+    },
+    {
+      "id": "b645d466ff18f4b8930e39617a53c397e5c9a8f4b9d0677f236148c1f5d94f9f",
+      "title": "Naar de toekomst die we willen: IFLA komt naar Mexico-Stad",
+      "summary": "Het bestuur van IFLA komt van 26 tot 29 april 2027 bijeen in Mexico-Stad, op uitnodiging van de universiteit UNAM. Naast de vergaderingen komen er activiteiten voor de bredere bibliotheekwereld over de toekomst van bibliotheken en kaders na 2030. Het is een mijlpaal op weg naar het eeuwfeest van IFLA.",
+      "url": "https://www.ifla.org/news/towards-the-futures-we-want-ifla-comes-to-mexico-city/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-11-25T20:24:12+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "evenement",
+        "bibliotheek"
+      ],
+      "importance": 1,
+      "why_relevant": "Toont de internationale agenda voor bibliotheekbeleid richting 2030 en daarna.",
+      "also_covered_by": []
+    },
+    {
+      "id": "50f6b78b11c725960086075ea4703c23f84c1ee15310d2a3b6b755f6a7d4af0e",
+      "title": "Blog: Xylotheek?",
+      "summary": "Een oud-bibliotheekmedewerker schrijft over de xylotheek, een houtbibliotheek met boekvormige doosjes met boomschors, bladeren en vruchten. Deze verzamelingen waren in de 18e eeuw populair. Het is een persoonlijke, cultuurhistorische column.",
+      "url": "https://bibliotheekblad.nl/blog-xylotheek/",
+      "source_name": "Bibliotheekblad",
+      "source_type": "rss",
+      "published": "2026-11-26T08:00:00+00:00",
+      "channel": "bieb",
+      "region": "nl",
+      "topics": [
+        "bibliotheek"
+      ],
+      "importance": 1,
+      "why_relevant": "Een curiositeit uit de bibliotheekgeschiedenis, vooral leuk als achtergrond.",
+      "also_covered_by": []
+    },
+    {
+      "id": "dbe542754cd1612143a2eaa3ddd1710f7a623a3911b9014bc21d928db773bab8",
+      "title": "Citaat van Jack Despain Zhou over het verlies van individualiteit door AI",
+      "summary": "Jack Despain Zhou beschrijft hoe AI-taal overal herkenbaar is geworden, van video's tot presentaties en e-mails. Volgens hem leidt dit tot een grote mate van de-individualisering. Het is een korte opinie zonder nieuw feit.",
+      "url": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-11-26T15:09:31+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico"
+      ],
+      "importance": 1,
+      "why_relevant": "Laat zien hoe herkenbaar AI-tekst wordt, relevant voor mediawijsheid met bezoekers.",
+      "also_covered_by": []
+    },
+    {
+      "id": "aebfbe56731bd98a52c5ac3451e735c2673dc7f68b56294a13dd3318c1042dc1",
+      "title": "AI maakte zelf hosten weer leuk",
+      "summary": "Volgens deze blog nemen AI-codeerassistenten veel routinematig gedoe weg bij het beheren van eigen servers. Daardoor is het makkelijker om met onbekende technieken als NixOS te experimenteren en eigen kleine hulpmiddelen te bouwen. Het stuk is een persoonlijke ervaring en geen nieuws.",
+      "url": "https://janlukas.blog/posts/ai-self-hosting",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-26T21:47:45Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools"
+      ],
+      "importance": 1,
+      "why_relevant": "Toont hoe AI-assistenten technisch werk toegankelijker maken, relevant voor ICT-medewerkers.",
+      "also_covered_by": []
+    },
+    {
+      "id": "183c03748ac8331e08a0f86b7f45680fd2cfb906c24fba81738126e3c87101ce",
+      "title": "Evaluatie van het IFLA-vrijwilligersmodel: resultaten van de enquêtes gedeeld",
+      "summary": "IFLA deelt de uitkomsten van drie enquêtes over de ervaringen van vrijwilligers, werkgevers en leden. De eerste enquête kreeg 475 reacties en liet zien dat mensen het internationale karakter waarderen. Tegelijk is het lastig om in commissies te komen.",
+      "url": "https://www.ifla.org/news/ifla-volunteer-model-review-sharing-survey-results/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-11-26T22:58:48+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "bibliotheek"
+      ],
+      "importance": 1,
+      "why_relevant": "Interessant als je overweegt actief te worden in internationale bibliotheekcommissies.",
+      "also_covered_by": []
+    }
+  ]
+}
