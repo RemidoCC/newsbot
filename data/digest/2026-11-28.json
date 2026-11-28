@@ -1,0 +1,148 @@
+{
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T13:48:04+00:00",
+  "stats": {
+    "batches": 1,
+    "onleesbaar": 0,
+    "objecten": 24,
+    "schema_fout": 0,
+    "onbekend_id": 0,
+    "gedropt": 17,
+    "geldig": 7,
+    "ai": 6,
+    "bieb": 1
+  },
+  "sources": [
+    "Hacker News",
+    "IFLA",
+    "Simon Willison",
+    "TLDR AI",
+    "Tweakers",
+    "VentureBeat AI"
+  ],
+  "items": [
+    {
+      "id": "dfe305c3a70c8bfd5a051bf0e5f5552ea5646814bcce533ce549f62f7ada343b",
+      "title": "AI versnelt wiskundig en wetenschappelijk onderzoek van eeuwen naar dagen: komt de singulariteit eraan?",
+      "summary": "VentureBeat beschrijft dat AI het oplossen van wiskundige vraagstukken sterk versnelt, waar zulke doorbraken vroeger hooguit eens per decennium kwamen. De vraag is of dit het begin van de technologische singulariteit is. Alleen een korte inleiding was beschikbaar, dus de details ontbreken.",
+      "url": "https://venturebeat.com/technology/ai-is-collapsing-centuries-of-math-and-science-research-into-days-is-the-singularity-upon-us",
+      "source_name": "VentureBeat AI",
+      "source_type": "rss",
+      "published": "2026-11-27T19:16:10+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "onderzoek"
+      ],
+      "importance": 3,
+      "why_relevant": "Laat zien hoe AI wetenschap versnelt, nuttig voor gesprekken met bezoekers en collega's.",
+      "also_covered_by": []
+    },
+    {
+      "id": "4d6c9303f1bc5e19cdebe0822d56041e5eef1cc71998a0e7bd90a2409e7838bd",
+      "title": "FCC keurt SpaceX-constellatie van AI-datacentersatellieten goed; TSMC's A14-chipnode klaar voor ontwerp",
+      "summary": "De Amerikaanse FCC heeft SpaceX toestemming gegeven voor maximaal een miljoen satellieten als orbitale datacenters, als plafond en niet als vaste planning. Daarnaast is TSMC's A14-procedé klaar voor chipontwerpers, met meer energie-efficiëntie en dichtere logica dan N2P.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/vjtdtsnowvzixmrq2x96dbk4e874n59t6v601l91.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-11-27T14:33:35+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven",
+        "beleid-en-regelgeving"
+      ],
+      "importance": 2,
+      "why_relevant": "Geeft zicht op de infrastructuur en energiebehoefte achter toekomstige AI-diensten.",
+      "also_covered_by": []
+    },
+    {
+      "id": "db09dd17aefb6f3dba1fbf71d5a54fbd6e056b7ac3673f266b337c76351ad58d",
+      "title": "OpenAI lijkt te bezuinigen op rekenkracht; Anthropic werkt aan Google Drive-koppeling voor Claude",
+      "summary": "Na updates van OpenAI's Astra 6.2 en Sol 6.2 is er kritiek op verminderde prestaties, omdat beide modellen duidelijk minder redeneer- en uitvoertokens gebruiken. Dat wijst op een koers richting kostenbesparing. Verder bouwt Anthropic aan een bestandsbrowser voor Google Drive in Claude.",
+      "url": "https://kill-the-newsletter.com/feeds/35239v3dqdizyh1pgb9o/entries/fpz7ev9wvvjr43vynggeoxhqhyn0vbr4ot3x3kfn.html",
+      "source_name": "TLDR AI",
+      "source_type": "newsletter",
+      "published": "2026-11-27T14:58:06+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "modellen",
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Laat zien dat modelkwaliteit kan veranderen, belangrijk bij advies aan bezoekers over AI-tools.",
+      "also_covered_by": []
+    },
+    {
+      "id": "6dae6dbc8cb1a41ef8a836d5532afbd0ee5243023f877d5195e0580a1c3dd079",
+      "title": "OpenAI: Apple stal bedrijfsgeheimen en belemmert toegang tot leveranciers",
+      "summary": "OpenAI heeft een tegenvordering ingediend tegen Apple. Het bedrijf beweert dat Apple bedrijfsgeheimen heeft gestolen en de toegang tot hardwareleveranciers blokkeerde. Apple had OpenAI eerder zelf van diefstal van bedrijfsgeheimen beschuldigd.",
+      "url": "https://tweakers.net/nieuws/255024/openai-apple-stal-bedrijfsgeheimen-en-belemmert-onze-toegang-tot-leveranciers.html",
+      "source_name": "Tweakers",
+      "source_type": "rss",
+      "published": "2026-11-27T20:43:31+01:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "bedrijven"
+      ],
+      "importance": 2,
+      "why_relevant": "Toont de spanning tussen grote techbedrijven die het AI-landschap bepalen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "78cd1a5709d48425eb1eeac776ff5fcc47c49c311c49930e312800afad4d0ad6",
+      "title": "Oproep voor bijdragen: conferentie Collections Across Borders, Mexico, 13-16 april 2027",
+      "summary": "De IFLA-sectie Rare Books and Special Collections vraagt om bijdragen voor een conferentie in Mexico-Stad en Puebla. Het thema is herkomstonderzoek, verspreiding en circulatie van documentair erfgoed. Bibliothecarissen, archivarissen, onderzoekers en conservatoren kunnen een voorstel indienen.",
+      "url": "https://www.ifla.org/news/call-for-papers-collections-across-borders-conference-mexico-13-16-april-2027/",
+      "source_name": "IFLA",
+      "source_type": "rss",
+      "published": "2026-11-28T00:17:41+00:00",
+      "channel": "bieb",
+      "region": "int",
+      "topics": [
+        "evenement",
+        "bibliotheek"
+      ],
+      "importance": 2,
+      "why_relevant": "Relevant voor bibliotheken met erfgoedcollecties die herkomst en digitale documentatie willen verkennen.",
+      "also_covered_by": []
+    },
+    {
+      "id": "37881cc6652cee7391573b356ac3979ddaea9a70de21f21c9df6fa1975ad27a2",
+      "title": "Vrouw uit huis gezet nadat AI-assistent van verhuurder zei dat ze huur mocht uitstellen",
+      "summary": "Volgens de titel van dit bericht werd een huurder uit haar woning gezet nadat de AI-assistent van haar verhuurder zei dat ze de huur mocht uitstellen. Het artikeltekst ontbrak in de invoer, dus details zijn niet te controleren. Het geval raakt aan de risico's van het blind vertrouwen op chatbots.",
+      "url": "https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "published": "2026-11-28T01:32:56Z",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "ethiek-en-risico"
+      ],
+      "importance": 2,
+      "why_relevant": "Illustreert waarom mediawijsheid over betrouwbaarheid van chatbots belangrijk is voor bibliotheekbezoekers.",
+      "also_covered_by": []
+    },
+    {
+      "id": "9e4ae7f8dcf438b2715795872bfbbdbe0309da82692efe9bde89646e34de759c",
+      "title": "datasette-charts 0.4a0 uitgebracht",
+      "summary": "Simon Willison heeft een nieuwe alfaversie van de plugin datasette-charts uitgebracht. Hij liet een AI-model een experimentele plugin bouwen, en de problemen die daarbij naar voren kwamen zijn verholpen. Er is ook een website met tutorial en galerij met demo's.",
+      "url": "https://simonwillison.net/2026/Nov/27/datasette-charts/",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "published": "2026-11-27T23:57:17+00:00",
+      "channel": "ai",
+      "region": "int",
+      "topics": [
+        "tools",
+        "open-source"
+      ],
+      "importance": 1,
+      "why_relevant": "Handig voor wie in de bibliotheek open data wil visualiseren, verder randnieuws.",
+      "also_covered_by": []
+    }
+  ]
+}
